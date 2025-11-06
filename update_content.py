@@ -65,36 +65,100 @@ class ContentUpdater:
         print("STEP 1: SCRAPING MOVIES")
         print("="*60 + "\n")
 
+        # Correct URL with platform filters
+        url = "https://www.binged.com/streaming-premiere-dates/?mode=streaming-month&platform[]=Aha%20Video&platform[]=Amazon&platform[]=Apple%20Tv%20Plus&platform[]=Jio%20Hotstar&platform[]=Manorama%20MAX&platform[]=Netflix&platform[]=Sony%20LIV&platform[]=Sun%20NXT&platform[]=Zee5"
+
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=True)
-            page = await browser.new_page()
+            browser = await p.chromium.launch(
+                headless=True,
+                args=['--disable-blink-features=AutomationControlled']
+            )
 
-            for page_num in range(1, self.max_pages + 1):
-                url = f'https://www.binged.com/upcoming/page/{page_num}/'
-                print(f"📄 Scraping page {page_num}/{self.max_pages}...")
+            context = await browser.new_context(
+                viewport={'width': 1920, 'height': 1080},
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            )
 
-                try:
-                    await page.goto(url, wait_until='networkidle', timeout=30000)
-                    await page.wait_for_selector('.bng-movies-table-item', timeout=10000)
-                    await asyncio.sleep(2)  # Extra wait for dynamic content
+            page = await context.new_page()
 
-                    content = await page.content()
-                    soup = BeautifulSoup(content, 'html.parser')
+            # Add extra properties to avoid detection
+            await page.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                })
+            """)
 
-                    movie_items = soup.find_all('div', class_='bng-movies-table-item')
-                    movie_items = [item for item in movie_items
-                                   if not item.find('div', class_='bng-movies-table-item-th')
-                                   and not item.find('div', class_='bng-movies-table-item-preloader')]
+            try:
+                print(f"📄 Loading initial page...")
+                await page.goto(url, wait_until='networkidle', timeout=30000)
+                await page.wait_for_selector('.bng-movies-table-item', timeout=10000)
+                await asyncio.sleep(2)
 
-                    print(f"  Found {len(movie_items)} entries")
+                current_page = 1
 
-                    for item in movie_items:
-                        movie_data = self._parse_movie_item(item)
-                        if movie_data and movie_data.get('title'):
-                            self.movies.append(movie_data)
+                # Scrape first page
+                print(f"Scraping page {current_page}...")
+                content = await page.content()
+                soup = BeautifulSoup(content, 'html.parser')
 
-                except Exception as e:
-                    print(f"  ⚠️  Error on page {page_num}: {e}")
+                movie_items = soup.find_all('div', class_='bng-movies-table-item')
+                movie_items = [item for item in movie_items
+                               if not item.find('div', class_='bng-movies-table-item-th')
+                               and not item.find('div', class_='bng-movies-table-item-preloader')]
+
+                print(f"  Found {len(movie_items)} entries")
+
+                for item in movie_items:
+                    movie_data = self._parse_movie_item(item)
+                    if movie_data and movie_data.get('title'):
+                        self.movies.append(movie_data)
+
+                # Paginate through remaining pages
+                for page_num in range(2, self.max_pages + 1):
+                    try:
+                        # Find and click next button
+                        next_button = await page.query_selector('.bng-movies-table-pagination span:has-text("Next")')
+                        if not next_button:
+                            print("  No more pages available")
+                            break
+
+                        print(f"\n📄 Clicking to page {page_num}...")
+                        await next_button.click()
+
+                        # Wait for content to load
+                        try:
+                            await page.wait_for_load_state('networkidle', timeout=10000)
+                        except:
+                            await asyncio.sleep(3)
+
+                        current_page = page_num
+                        print(f"Scraping page {current_page}...")
+
+                        content = await page.content()
+                        soup = BeautifulSoup(content, 'html.parser')
+
+                        movie_items = soup.find_all('div', class_='bng-movies-table-item')
+                        movie_items = [item for item in movie_items
+                                       if not item.find('div', class_='bng-movies-table-item-th')
+                                       and not item.find('div', class_='bng-movies-table-item-preloader')]
+
+                        print(f"  Found {len(movie_items)} entries")
+
+                        if not movie_items:
+                            print("  No movies found, stopping")
+                            break
+
+                        for item in movie_items:
+                            movie_data = self._parse_movie_item(item)
+                            if movie_data and movie_data.get('title'):
+                                self.movies.append(movie_data)
+
+                    except Exception as e:
+                        print(f"  ⚠️  Error on page {page_num}: {e}")
+                        break
+
+            except Exception as e:
+                print(f"  ⚠️  Error during scraping: {e}")
 
             await browser.close()
 
