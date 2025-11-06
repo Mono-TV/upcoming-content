@@ -3,5 +3,8 @@ playwright>=1.40.0
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
 
-# IMDb enrichment dependencies
+# Async HTTP client for enrichment scripts
+aiohttp>=3.9.0
+
+# Legacy sync HTTP client (still used as fallback)
 requests>=2.31.0

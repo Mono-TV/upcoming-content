@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-YouTube Trailer Enrichment Script
+YouTube Trailer Enrichment Script - Optimized Async Version with Caching
 Adds YouTube trailer links to movie data using intelligent matching
 """
 
@@ -8,9 +8,40 @@ import json
 import sys
 import re
 from typing import List, Dict, Optional
-import requests
-from urllib.parse import quote, urlencode
-import time
+import asyncio
+import aiohttp
+from urllib.parse import quote
+import os
+import hashlib
+
+
+# Cache directory
+CACHE_DIR = '.cache'
+YOUTUBE_CACHE_FILE = os.path.join(CACHE_DIR, 'youtube_cache.json')
+
+
+def load_cache() -> Dict:
+    """Load YouTube cache from disk"""
+    if os.path.exists(YOUTUBE_CACHE_FILE):
+        try:
+            with open(YOUTUBE_CACHE_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except:
+            return {}
+    return {}
+
+
+def save_cache(cache: Dict):
+    """Save YouTube cache to disk"""
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    with open(YOUTUBE_CACHE_FILE, 'w', encoding='utf-8') as f:
+        json.dump(cache, f, indent=2, ensure_ascii=False)
+
+
+def get_cache_key(title: str, year: str = '') -> str:
+    """Generate cache key from title and year"""
+    key_str = f"{title.lower()}:{year or ''}"
+    return hashlib.md5(key_str.encode()).hexdigest()
 
 
 def get_youtube_api_key():
@@ -22,11 +53,17 @@ def get_youtube_api_key():
     return os.environ.get('YOUTUBE_API_KEY')
 
 
-def search_youtube_api(query: str, api_key: str, max_results: int = 5) -> List[Dict]:
+async def search_youtube_api(
+    session: aiohttp.ClientSession,
+    query: str,
+    api_key: str,
+    max_results: int = 5
+) -> List[Dict]:
     """
     Search YouTube using official API
 
     Args:
+        session: aiohttp session
         query: Search query
         api_key: YouTube Data API key
         max_results: Maximum number of results to return
@@ -47,37 +84,44 @@ def search_youtube_api(query: str, api_key: str, max_results: int = 5) -> List[D
             'safeSearch': 'none'
         }
 
-        response = requests.get(url, params=params, timeout=10)
-        response.raise_for_status()
-        data = response.json()
+        async with session.get(url, params=params, timeout=aiohttp.ClientTimeout(total=10)) as response:
+            if response.status != 200:
+                return []
 
-        results = []
-        for item in data.get('items', []):
-            video_id = item['id'].get('videoId')
-            snippet = item.get('snippet', {})
+            data = await response.json()
 
-            if video_id:
-                results.append({
-                    'video_id': video_id,
-                    'title': snippet.get('title', ''),
-                    'description': snippet.get('description', ''),
-                    'channel_title': snippet.get('channelTitle', ''),
-                    'channel_id': snippet.get('channelId', ''),
-                    'published_at': snippet.get('publishedAt', '')
-                })
+            results = []
+            for item in data.get('items', []):
+                video_id = item['id'].get('videoId')
+                snippet = item.get('snippet', {})
 
-        return results
+                if video_id:
+                    results.append({
+                        'video_id': video_id,
+                        'title': snippet.get('title', ''),
+                        'description': snippet.get('description', ''),
+                        'channel_title': snippet.get('channelTitle', ''),
+                        'channel_id': snippet.get('channelId', ''),
+                        'published_at': snippet.get('publishedAt', '')
+                    })
+
+            return results
 
     except Exception as e:
         print(f"    ⚠️  API search failed: {e}", file=sys.stderr)
         return []
 
 
-def search_youtube_scraping(query: str, max_results: int = 5) -> List[Dict]:
+async def search_youtube_scraping(
+    session: aiohttp.ClientSession,
+    query: str,
+    max_results: int = 5
+) -> List[Dict]:
     """
     Search YouTube by scraping search results page (fallback method)
 
     Args:
+        session: aiohttp session
         query: Search query
         max_results: Maximum number of results
 
@@ -92,34 +136,37 @@ def search_youtube_scraping(query: str, max_results: int = 5) -> List[Dict]:
             'Accept-Language': 'en-US,en;q=0.9',
         }
 
-        response = requests.get(search_url, headers=headers, timeout=10)
-        response.raise_for_status()
+        async with session.get(search_url, headers=headers, timeout=aiohttp.ClientTimeout(total=10)) as response:
+            if response.status != 200:
+                return []
 
-        # Extract video IDs from the page
-        # YouTube embeds video data in JavaScript on the page
-        video_pattern = r'"videoId":"([^"]+)"'
-        title_pattern = r'"title":{"runs":\[{"text":"([^"]+)"}]'
+            text = await response.text()
 
-        video_ids = re.findall(video_pattern, response.text)
-        titles = re.findall(title_pattern, response.text)
+            # Extract video IDs from the page
+            # YouTube embeds video data in JavaScript on the page
+            video_pattern = r'"videoId":"([^"]+)"'
+            title_pattern = r'"title":{"runs":\[{"text":"([^"]+)"}]'
 
-        # Remove duplicates while preserving order
-        seen = set()
-        unique_videos = []
+            video_ids = re.findall(video_pattern, text)
+            titles = re.findall(title_pattern, text)
 
-        for i, video_id in enumerate(video_ids[:max_results * 3]):  # Get extra to filter
-            if video_id not in seen and len(unique_videos) < max_results:
-                seen.add(video_id)
-                title = titles[i] if i < len(titles) else ''
-                unique_videos.append({
-                    'video_id': video_id,
-                    'title': title,
-                    'description': '',
-                    'channel_title': '',
-                    'channel_id': ''
-                })
+            # Remove duplicates while preserving order
+            seen = set()
+            unique_videos = []
 
-        return unique_videos[:max_results]
+            for i, video_id in enumerate(video_ids[:max_results * 3]):  # Get extra to filter
+                if video_id not in seen and len(unique_videos) < max_results:
+                    seen.add(video_id)
+                    title = titles[i] if i < len(titles) else ''
+                    unique_videos.append({
+                        'video_id': video_id,
+                        'title': title,
+                        'description': '',
+                        'channel_title': '',
+                        'channel_id': ''
+                    })
+
+            return unique_videos[:max_results]
 
     except Exception as e:
         print(f"    ⚠️  Scraping search failed: {e}", file=sys.stderr)
@@ -197,12 +244,20 @@ def is_official_trailer(video_data: Dict, movie_title: str, movie_year: str = No
     return is_valid, score
 
 
-def find_best_trailer(movie: Dict, use_api: bool = False, api_key: str = None) -> Optional[Dict]:
+async def find_best_trailer(
+    session: aiohttp.ClientSession,
+    movie: Dict,
+    cache: Dict,
+    use_api: bool = False,
+    api_key: str = None
+) -> Optional[Dict]:
     """
     Find the best YouTube trailer for a movie
 
     Args:
+        session: aiohttp session
         movie: Movie data dictionary
+        cache: Cache dictionary
         use_api: Whether to use YouTube API
         api_key: YouTube API key (if using API)
 
@@ -216,34 +271,38 @@ def find_best_trailer(movie: Dict, use_api: bool = False, api_key: str = None) -
     if not title:
         return None
 
+    # Check cache first
+    if cache is not None:
+        cache_key = get_cache_key(title, year)
+        if cache_key in cache:
+            print(f"  📦 Using cached result", file=sys.stderr)
+            return cache[cache_key]
+
     print(f"  Searching for trailer: '{title}' ({year})", file=sys.stderr)
 
-    # Build search queries with different strategies
+    # Build search queries with different strategies (but only use first good match)
     search_queries = []
 
     # Strategy 1: Use IMDb title + year + official trailer
     if imdb_title and year:
         search_queries.append(f"{imdb_title} {year} official trailer")
-
     # Strategy 2: Use original title + year + official trailer
     if year:
         search_queries.append(f"{title} {year} official trailer")
-
     # Strategy 3: Use IMDb title + trailer (without year)
     if imdb_title:
         search_queries.append(f"{imdb_title} official trailer")
-
     # Strategy 4: Use original title + trailer
     search_queries.append(f"{title} official trailer")
 
     all_candidates = []
 
-    # Try each search query
+    # Try each search query, stop on first good match
     for query in search_queries:
         if use_api and api_key:
-            results = search_youtube_api(query, api_key, max_results=3)
+            results = await search_youtube_api(session, query, api_key, max_results=3)
         else:
-            results = search_youtube_scraping(query, max_results=3)
+            results = await search_youtube_scraping(session, query, max_results=3)
 
         # Score each result
         for result in results:
@@ -253,15 +312,18 @@ def find_best_trailer(movie: Dict, use_api: bool = False, api_key: str = None) -
                 all_candidates.append(result)
 
         # If we found good matches, stop searching
-        if len(all_candidates) >= 3:
+        if len(all_candidates) >= 2:
             break
 
         # Small delay between queries
-        time.sleep(0.5)
+        await asyncio.sleep(0.3)
 
     if not all_candidates:
         print(f"    ❌ No suitable trailer found", file=sys.stderr)
-        return None
+        result = None
+        if cache is not None:
+            cache[get_cache_key(title, year)] = result
+        return result
 
     # Sort by confidence score and return best match
     all_candidates.sort(key=lambda x: x['confidence_score'], reverse=True)
@@ -269,7 +331,7 @@ def find_best_trailer(movie: Dict, use_api: bool = False, api_key: str = None) -
 
     print(f"    ✅ Found: {best_match['title'][:60]}... (score: {best_match['confidence_score']})", file=sys.stderr)
 
-    return {
+    result = {
         'youtube_id': best_match['video_id'],
         'youtube_url': f"https://www.youtube.com/watch?v={best_match['video_id']}",
         'youtube_title': best_match['title'],
@@ -277,17 +339,70 @@ def find_best_trailer(movie: Dict, use_api: bool = False, api_key: str = None) -
         'confidence_score': best_match['confidence_score']
     }
 
+    # Cache the result
+    if cache is not None:
+        cache[get_cache_key(title, year)] = result
 
-def enrich_movies_with_youtube(input_file: str, output_file: str):
+    return result
+
+
+async def process_movie(
+    session: aiohttp.ClientSession,
+    movie: Dict,
+    cache: Dict,
+    semaphore: asyncio.Semaphore,
+    use_api: bool = False,
+    api_key: str = None
+) -> Dict:
+    """
+    Process a single movie with rate limiting
+
+    Args:
+        session: aiohttp session
+        movie: Movie dictionary
+        cache: Cache dictionary
+        semaphore: Semaphore for rate limiting
+        use_api: Whether to use YouTube API
+        api_key: YouTube API key
+
+    Returns:
+        Updated movie dictionary
+    """
+    async with semaphore:
+        title = movie.get('title', '')
+
+        # Skip if already has YouTube ID
+        if 'youtube_id' in movie and movie['youtube_id']:
+            print(f"  ⏭️  Already has YouTube ID: {movie['youtube_id']}", file=sys.stderr)
+            return movie
+
+        # Find trailer
+        trailer_data = await find_best_trailer(session, movie, cache, use_api=use_api, api_key=api_key)
+
+        if trailer_data:
+            # Add YouTube data to movie
+            movie.update(trailer_data)
+        else:
+            movie['youtube_id'] = None
+            movie['youtube_url'] = None
+
+        # Rate limiting
+        await asyncio.sleep(0.3)
+
+        return movie
+
+
+async def enrich_movies_with_youtube(input_file: str, output_file: str, concurrency: int = 5):
     """
     Read movies from JSON file and enrich with YouTube trailer links
 
     Args:
         input_file: Path to input JSON file
         output_file: Path to output JSON file
+        concurrency: Number of concurrent requests
     """
     print("="*60, file=sys.stderr)
-    print("YouTube Trailer Enrichment Script", file=sys.stderr)
+    print("YouTube Trailer Enrichment Script (Optimized)", file=sys.stderr)
     print("="*60, file=sys.stderr)
 
     # Check for API key
@@ -300,6 +415,10 @@ def enrich_movies_with_youtube(input_file: str, output_file: str):
         print("\n⚠️  No API key found, using web scraping method", file=sys.stderr)
         print("💡 Set YOUTUBE_API_KEY environment variable for better results", file=sys.stderr)
 
+    # Load cache
+    cache = load_cache()
+    print(f"\n📦 Loaded {len(cache)} cached entries", file=sys.stderr)
+
     # Read existing movies
     print(f"\nReading movies from {input_file}...", file=sys.stderr)
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -307,36 +426,39 @@ def enrich_movies_with_youtube(input_file: str, output_file: str):
 
     print(f"Found {len(movies)} movies to enrich\n", file=sys.stderr)
 
-    # Process each movie
+    # Process movies concurrently with rate limiting
     enriched_count = 0
     failed_count = 0
 
-    for idx, movie in enumerate(movies, 1):
-        title = movie.get('title', '')
+    # Create semaphore for rate limiting
+    semaphore = asyncio.Semaphore(concurrency)
 
-        print(f"\n[{idx}/{len(movies)}] Processing: {title}", file=sys.stderr)
+    async with aiohttp.ClientSession() as session:
+        tasks = []
+        for idx, movie in enumerate(movies, 1):
+            title = movie.get('title', '')
+            print(f"\n[{idx}/{len(movies)}] Processing: {title}", file=sys.stderr)
+            task = process_movie(session, movie, cache, semaphore, use_api=use_api, api_key=api_key)
+            tasks.append(task)
 
-        # Skip if already has YouTube ID
-        if 'youtube_id' in movie and movie['youtube_id']:
-            print(f"  ⏭️  Already has YouTube ID: {movie['youtube_id']}", file=sys.stderr)
-            enriched_count += 1
-            continue
+        # Process all movies concurrently
+        results = await asyncio.gather(*tasks, return_exceptions=True)
 
-        # Find trailer
-        trailer_data = find_best_trailer(movie, use_api=use_api, api_key=api_key)
+        # Update movies with results
+        for i, result in enumerate(results):
+            if isinstance(result, Exception):
+                print(f"Error processing movie {i+1}: {result}", file=sys.stderr)
+                failed_count += 1
+            else:
+                movies[i] = result
+                if result.get('youtube_id'):
+                    enriched_count += 1
+                else:
+                    failed_count += 1
 
-        if trailer_data:
-            # Add YouTube data to movie
-            movie.update(trailer_data)
-            enriched_count += 1
-        else:
-            movie['youtube_id'] = None
-            movie['youtube_url'] = None
-            failed_count += 1
-
-        # Rate limiting
-        if idx < len(movies):
-            time.sleep(1)  # 1 second delay between requests
+    # Save cache
+    save_cache(cache)
+    print(f"\n💾 Saved {len(cache)} entries to cache", file=sys.stderr)
 
     # Save enriched data
     print(f"\n{'='*60}", file=sys.stderr)
@@ -371,7 +493,7 @@ def main():
         print(f"Error: {input_file} not found. Please run enrich_with_imdb.py first.", file=sys.stderr)
         sys.exit(1)
 
-    enrich_movies_with_youtube(input_file, output_file)
+    asyncio.run(enrich_movies_with_youtube(input_file, output_file, concurrency=5))
 
     print(f"\n✅ Done! Enriched data saved to {output_file}", file=sys.stderr)
     print(f"💡 The original {input_file} is preserved unchanged.", file=sys.stderr)
