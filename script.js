@@ -352,11 +352,13 @@ function expandCard(card, movie) {
     const trailerWindow = card.querySelector('.trailer-window');
     if (!trailerWindow.querySelector('iframe') && movie.youtube_id) {
         const iframe = document.createElement('iframe');
-        iframe.src = `https://www.youtube.com/embed/${sanitizeAttribute(movie.youtube_id)}`;
+        // Add autoplay parameter and sanitize the youtube_id
+        const safeYoutubeId = sanitizeAttribute(movie.youtube_id);
+        iframe.src = `https://www.youtube.com/embed/${safeYoutubeId}?autoplay=1&rel=0`;
         iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute('allow', 'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
         iframe.setAttribute('allowfullscreen', '');
-        iframe.loading = 'lazy';
+        // Don't use lazy loading - we want it to load immediately when user clicks
         trailerWindow.appendChild(iframe);
     }
 
