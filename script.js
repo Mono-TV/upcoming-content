@@ -396,10 +396,16 @@ function expandCard(card, movie) {
         const iframe = document.createElement('iframe');
         // Add autoplay parameter and sanitize the youtube_id
         const safeYoutubeId = sanitizeAttribute(movie.youtube_id);
-        iframe.src = `https://www.youtube.com/embed/${safeYoutubeId}?autoplay=1&rel=0`;
+
+        // Get origin for GitHub Pages compatibility
+        const origin = encodeURIComponent(window.location.origin);
+
+        // Use youtube-nocookie.com for better privacy and compatibility
+        iframe.src = `https://www.youtube-nocookie.com/embed/${safeYoutubeId}?autoplay=1&rel=0&modestbranding=1&origin=${origin}`;
         iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
         iframe.setAttribute('allowfullscreen', '');
+        iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
         // Don't use lazy loading - we want it to load immediately when user clicks
         trailerWindow.appendChild(iframe);
     }
