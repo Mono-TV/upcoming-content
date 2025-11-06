@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
 """
-Movie Scraper for Binged.com - Working version
-Uses Playwright with relaxed waiting
+Movie Scraper for Binged.com - Optimized Async Version
+Uses Playwright async API for better performance
 """
 
-from playwright.sync_api import sync_playwright
+from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 import json
 import re
 from typing import List, Dict
 import sys
-import time
+import asyncio
+import argparse
 
 
-def scrape_page(page, page_num: int) -> List[Dict[str, any]]:
+async def scrape_page(page, page_num: int) -> List[Dict[str, any]]:
     """
     Scrape movies from a single page
 
@@ -27,7 +28,7 @@ def scrape_page(page, page_num: int) -> List[Dict[str, any]]:
     movies = []
 
     print(f"  Parsing page {page_num}...", file=sys.stderr)
-    content = page.content()
+    content = await page.content()
 
     soup = BeautifulSoup(content, 'html.parser')
 
@@ -97,11 +98,11 @@ def scrape_page(page, page_num: int) -> List[Dict[str, any]]:
                             # Map IDs to names (you can expand this)
                             platform_map = {
                                 '4': 'Amazon Prime Video',
-                                '10': 'Jio Hotstar',
-                                '21': 'Manorama MAX',
+                                '10': 'JioHotstar',
+                                '21': 'ManoramaMAX',
                                 '30': 'Netflix',
                                 '53': 'Sony LIV',
-                                '6': 'Sun NXT',
+                                '6': 'SunNXT',
                                 '8': 'Zee5',
                                 '2': 'Aha Video',
                                 '11': 'Apple TV Plus'
@@ -130,12 +131,13 @@ def scrape_page(page, page_num: int) -> List[Dict[str, any]]:
     return movies
 
 
-def scrape_movies(url: str) -> List[Dict[str, any]]:
+async def scrape_movies(url: str, debug: bool = False) -> List[Dict[str, any]]:
     """
     Scrape movie data from the Binged website (all pages)
 
     Args:
         url: The URL to scrape
+        debug: Enable debug mode (screenshots, etc.)
 
     Returns:
         List of dictionaries containing movie information
@@ -144,22 +146,22 @@ def scrape_movies(url: str) -> List[Dict[str, any]]:
 
     print("Starting browser...", file=sys.stderr)
 
-    with sync_playwright() as p:
+    async with async_playwright() as p:
         try:
-            browser = p.chromium.launch(
+            browser = await p.chromium.launch(
                 headless=True,
                 args=['--disable-blink-features=AutomationControlled']
             )
 
-            context = browser.new_context(
+            context = await browser.new_context(
                 viewport={'width': 1920, 'height': 1080},
                 user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
             )
 
-            page = context.new_page()
+            page = await context.new_page()
 
             # Add extra properties to avoid detection
-            page.add_init_script("""
+            await page.add_init_script("""
                 Object.defineProperty(navigator, 'webdriver', {
                     get: () => undefined
                 })
@@ -167,37 +169,41 @@ def scrape_movies(url: str) -> List[Dict[str, any]]:
 
             print("Navigating to page...", file=sys.stderr)
 
-            # Don't wait for networkidle, just load
-            page.goto(url, wait_until='domcontentloaded', timeout=30000)
+            # Navigate with domcontentloaded (faster than waiting for all resources)
+            await page.goto(url, wait_until='domcontentloaded', timeout=30000)
 
             print("Waiting for content...", file=sys.stderr)
 
-            # Try to wait for the table, but don't fail if it times out
+            # Wait for the table with better error handling
             try:
-                page.wait_for_selector('#bng-movies-table', timeout=10000)
+                await page.wait_for_selector('#bng-movies-table', timeout=10000)
                 print("Table found!", file=sys.stderr)
             except:
                 print("Table not found immediately, continuing anyway...", file=sys.stderr)
 
-            # Wait a bit for JavaScript to execute
-            print("Waiting for JavaScript to load content...", file=sys.stderr)
-            time.sleep(15)  # Give it plenty of time
+            # Wait for JavaScript - use network idle for more reliability
+            try:
+                await page.wait_for_load_state('networkidle', timeout=15000)
+            except:
+                # Fallback to simple wait
+                await asyncio.sleep(5)
 
             # Scroll to trigger lazy loading
             print("Scrolling page...", file=sys.stderr)
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            time.sleep(3)
-            page.evaluate("window.scrollTo(0, 0)")
-            time.sleep(2)
+            await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            await asyncio.sleep(1)
+            await page.evaluate("window.scrollTo(0, 0)")
+            await asyncio.sleep(1)
 
-            # Save debug info for first page
-            page.screenshot(path='debug_screenshot.png', full_page=True)
-            print("Saved screenshot to debug_screenshot.png", file=sys.stderr)
+            # Optional debug screenshot
+            if debug:
+                await page.screenshot(path='debug_screenshot.png', full_page=True)
+                print("Saved screenshot to debug_screenshot.png", file=sys.stderr)
 
             # Scrape first page
             current_page = 1
             print(f"\nScraping page {current_page}...", file=sys.stderr)
-            page_movies = scrape_page(page, current_page)
+            page_movies = await scrape_page(page, current_page)
             all_movies.extend(page_movies)
 
             # Check for pagination
@@ -205,7 +211,7 @@ def scrape_movies(url: str) -> List[Dict[str, any]]:
                 # Look for Next button or next page number
                 try:
                     # Find pagination container
-                    pagination_html = page.inner_html('.bng-movies-table-pagination')
+                    pagination_html = await page.inner_html('.bng-movies-table-pagination')
                     soup = BeautifulSoup(pagination_html, 'html.parser')
 
                     # Find all page spans
@@ -233,19 +239,18 @@ def scrape_movies(url: str) -> List[Dict[str, any]]:
                     print(f"\n  Clicking to page {next_page_num}...", file=sys.stderr)
 
                     # Click the next page button
-                    page.click(f'.bng-movies-table-pagination span:has-text("{next_button.get_text(strip=True)}")')
+                    await page.click(f'.bng-movies-table-pagination span:has-text("{next_button.get_text(strip=True)}")')
 
-                    # Wait for new content to load
-                    time.sleep(5)
-
-                    # Wait for table to update
-                    page.wait_for_load_state('domcontentloaded')
-                    time.sleep(3)
+                    # Wait for new content to load - use networkidle for reliability
+                    try:
+                        await page.wait_for_load_state('networkidle', timeout=10000)
+                    except:
+                        await asyncio.sleep(3)
 
                     # Scrape this page
                     current_page = next_page_num
                     print(f"Scraping page {current_page}...", file=sys.stderr)
-                    page_movies = scrape_page(page, current_page)
+                    page_movies = await scrape_page(page, current_page)
 
                     if not page_movies:
                         print("  No movies found on this page, stopping", file=sys.stderr)
@@ -257,7 +262,7 @@ def scrape_movies(url: str) -> List[Dict[str, any]]:
                     print(f"  Error during pagination: {e}", file=sys.stderr)
                     break
 
-            browser.close()
+            await browser.close()
 
             print(f"\n{'='*60}", file=sys.stderr)
             print(f"Scraped {len(all_movies)} total movies from {current_page} pages", file=sys.stderr)
@@ -273,13 +278,17 @@ def scrape_movies(url: str) -> List[Dict[str, any]]:
 
 def main():
     """Main function"""
+    parser = argparse.ArgumentParser(description='Scrape movies from Binged.com')
+    parser.add_argument('--debug', action='store_true', help='Enable debug mode (screenshots)')
+    args = parser.parse_args()
+
     url = "https://www.binged.com/streaming-premiere-dates/?mode=streaming-month&platform[]=Aha%20Video&platform[]=Amazon&platform[]=Apple%20Tv%20Plus&platform[]=Jio%20Hotstar&platform[]=Manorama%20MAX&platform[]=Netflix&platform[]=Sony%20LIV&platform[]=Sun%20NXT&platform[]=Zee5"
 
     print("="*60, file=sys.stderr)
-    print("Binged.com Movie Scraper", file=sys.stderr)
+    print("Binged.com Movie Scraper (Optimized)", file=sys.stderr)
     print("="*60, file=sys.stderr)
 
-    movies = scrape_movies(url)
+    movies = asyncio.run(scrape_movies(url, debug=args.debug))
 
     print("="*60, file=sys.stderr)
     print(f"Successfully scraped {len(movies)} movies", file=sys.stderr)
@@ -297,7 +306,7 @@ def main():
         print(f"\nData saved to {output_file}", file=sys.stderr)
         print(f"Total movies: {len(movies)}", file=sys.stderr)
     else:
-        print("\nNo movies found. Check debug_final.html and debug_screenshot.png", file=sys.stderr)
+        print("\nNo movies found. Run with --debug to save screenshot", file=sys.stderr)
         print("[]")
 
 
