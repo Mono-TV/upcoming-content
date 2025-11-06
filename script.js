@@ -15,13 +15,14 @@ const domCache = {
     backdrop: null
 };
 
-// Platform logo mapping
+// Platform logo mapping (matching exact names from JSON)
 const platformLogos = {
-    'Netflix': 'Netflix.png',
+    'Netflix': 'Netflix.svg',
     'Amazon Prime Video': 'Amazon_Prime_Video.png',
-    'JioHotstar': 'jiohotstar.svg',
-    'SunNXT': 'sunnxt.png',
-    'ManoramaMAX': 'manoramamax.png'
+    'Jio Hotstar': 'Jio_Hotstar.svg',
+    'Sun NXT': 'sunnxt.png',
+    'Manorama MAX': 'manoramamax.png',
+    'Sony LIV': 'sonyliv.png'
 };
 
 // Initialize DOM cache
@@ -81,13 +82,19 @@ function createFilterChips() {
 
     const moviesChip = document.createElement('div');
     moviesChip.className = 'filter-chip content-type-chip';
-    moviesChip.textContent = 'Movies';
+    moviesChip.innerHTML = `
+        <img src="icon_movies.svg" alt="Movies" style="width: 18px; height: 18px;">
+        <span>Movies</span>
+    `;
     moviesChip.onclick = () => toggleContentType('Movies', moviesChip);
     domCache.contentTypeSection.appendChild(moviesChip);
 
     const showsChip = document.createElement('div');
     showsChip.className = 'filter-chip content-type-chip';
-    showsChip.textContent = 'Shows';
+    showsChip.innerHTML = `
+        <img src="icon_shows.svg" alt="Shows" style="width: 18px; height: 18px;">
+        <span>Shows</span>
+    `;
     showsChip.onclick = () => toggleContentType('Shows', showsChip);
     domCache.contentTypeSection.appendChild(showsChip);
 
