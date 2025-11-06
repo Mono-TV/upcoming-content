@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Playback Test</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .test-card {
+            width: 300px;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+        .test-card:hover {
+            transform: translateY(-4px);
+        }
+        .test-card img {
+            width: 100%;
+            display: block;
+        }
+        .test-card-info {
+            padding: 16px;
+        }
+
+        /* Expanded state */
+        .test-card.expanded {
+            position: fixed !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            width: 90vw !important;
+            max-width: 1200px !important;
+            height: auto !important;
+            z-index: 5000 !important;
+        }
+
+        .test-card.expanded .test-card-info {
+            display: none;
+        }
+
+        .test-card.expanded img {
+            display: none;
+        }
+
+        .trailer-window {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+        }
+
+        .test-card.expanded .trailer-window {
+            display: block !important;
+            position: relative;
+            aspect-ratio: 16/9;
+        }
+
+        .trailer-window iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .close-button {
+            display: none;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: white;
+            border: none;
+            cursor: pointer;
+            z-index: 100;
+            font-size: 24px;
+            line-height: 1;
+        }
+
+        .test-card.expanded .close-button {
+            display: block;
+        }
+
+        .backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 4999;
+        }
+
+        .backdrop.active {
+            display: block;
+        }
+
+        .info {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .info h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .info code {
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 YouTube Playback Test</h1>
+
+        <div class="info">
+            <h2>Testing Instructions:</h2>
+            <ol style="margin-left: 20px; line-height: 2;">
+                <li>Click on the movie card below</li>
+                <li>YouTube video should expand and autoplay</li>
+                <li>Click the X button to close</li>
+                <li>Check browser console (F12) for debug logs</li>
+            </ol>
+            <p style="margin-top: 10px;"><strong>YouTube ID:</strong> <code>-g6dXwTqDCs</code></p>
+        </div>
+
+        <div class="test-card" onclick="expandCard(this)" data-youtube-id="-g6dXwTqDCs">
+            <img src="https://img.youtube.com/vi/-g6dXwTqDCs/maxresdefault.jpg" alt="A Time to Kill">
+            <div class="test-card-info">
+                <h3>A Time to Kill</h3>
+                <p>Click to play trailer</p>
+            </div>
+            <div class="trailer-window"></div>
+            <button class="close-button" onclick="collapseCard(event)">×</button>
+        </div>
+    </div>
+
+    <div class="backdrop" id="backdrop" onclick="collapseCard()"></div>
+
+    <script>
+        let currentCard = null;
+
+        function expandCard(card) {
+            if (currentCard) return;
+
+            const youtubeId = card.getAttribute('data-youtube-id');
+            if (!youtubeId) {
+                console.error('No YouTube ID found');
+                return;
+            }
+
+            console.log('Expanding card with YouTube ID:', youtubeId);
+
+            currentCard = card;
+            card.classList.add('expanded');
+            document.getElementById('backdrop').classList.add('active');
+
+            // Create iframe
+            const trailerWindow = card.querySelector('.trailer-window');
+            if (!trailerWindow.querySelector('iframe')) {
+                const iframe = document.createElement('iframe');
+                const embedUrl = `https://www.youtube.com/embed/${youtubeId}?autoplay=1&rel=0`;
+
+                console.log('Creating iframe with URL:', embedUrl);
+
+                iframe.src = embedUrl;
+                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                iframe.setAttribute('allowfullscreen', '');
+                iframe.style.width = '100%';
+                iframe.style.height = '100%';
+
+                trailerWindow.appendChild(iframe);
+                console.log('✅ Iframe created and appended');
+            }
+        }
+
+        function collapseCard(event) {
+            if (event) {
+                event.stopPropagation();
+            }
+
+            if (!currentCard) return;
+
+            console.log('Collapsing card');
+
+            // Remove iframe
+            const trailerWindow = currentCard.querySelector('.trailer-window');
+            const iframe = trailerWindow.querySelector('iframe');
+            if (iframe) {
+                iframe.remove();
+                console.log('✅ Iframe removed');
+            }
+
+            currentCard.classList.remove('expanded');
+            document.getElementById('backdrop').classList.remove('active');
+            currentCard = null;
+        }
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') collapseCard();
+        });
+
+        console.log('Test page loaded. Click the card to test YouTube playback.');
+    </script>
+</body>
+</html>
