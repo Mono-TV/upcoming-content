@@ -324,11 +324,6 @@ main {
     pointer-events: none !important;
 }
 
-.movie-card.expanded .trailer-window {
-    z-index: 100 !important;
-    pointer-events: all !important;
-}
-
 .movie-poster {
     position: relative;
     width: 100%;

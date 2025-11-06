@@ -331,6 +331,7 @@ function expandCard(card, movie) {
         return;
     }
 
+    console.log('Expanding card for:', movie.title, 'YouTube ID:', movie.youtube_id);
     currentExpandedCard = card;
 
     // Get current position before changing anything
@@ -347,19 +348,30 @@ function expandCard(card, movie) {
 
     // Add expanded class immediately
     card.classList.add('expanded');
+    console.log('Card expanded class added');
 
     // LAZY IFRAME CREATION: Create iframe only when needed
     const trailerWindow = card.querySelector('.trailer-window');
+    console.log('Trailer window found:', trailerWindow);
+
     if (!trailerWindow.querySelector('iframe') && movie.youtube_id) {
         const iframe = document.createElement('iframe');
         // Add autoplay parameter and sanitize the youtube_id
         const safeYoutubeId = sanitizeAttribute(movie.youtube_id);
-        iframe.src = `https://www.youtube.com/embed/${safeYoutubeId}?autoplay=1&rel=0`;
+        const embedUrl = `https://www.youtube.com/embed/${safeYoutubeId}?autoplay=1&rel=0`;
+        console.log('Creating iframe with URL:', embedUrl);
+
+        iframe.src = embedUrl;
         iframe.setAttribute('frameborder', '0');
         iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
         iframe.setAttribute('allowfullscreen', '');
-        // Don't use lazy loading - we want it to load immediately when user clicks
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+
         trailerWindow.appendChild(iframe);
+        console.log('Iframe appended to trailer window');
+    } else {
+        console.log('Iframe already exists or no youtube_id');
     }
 
     // Force a reflow
