@@ -333,19 +333,61 @@ function expandCard(card, movie) {
 
     currentExpandedCard = card;
 
-    // Get current position before changing anything
+    // Get current position and dimensions before changing anything
     const rect = card.getBoundingClientRect();
 
-    // Set initial fixed position at current location
+    // Create a placeholder to maintain grid layout
+    const placeholder = document.createElement('div');
+    placeholder.className = 'card-placeholder';
+    placeholder.style.width = rect.width + 'px';
+    placeholder.style.height = rect.height + 'px';
+    placeholder.style.borderRadius = '24px';
+    placeholder.style.background = 'linear-gradient(135deg, rgba(245, 175, 25, 0.1) 0%, rgba(241, 39, 17, 0.08) 100%)';
+    placeholder.style.backdropFilter = 'blur(10px)';
+    placeholder.style.webkitBackdropFilter = 'blur(10px)';
+    placeholder.style.border = '1px solid rgba(245, 175, 25, 0.2)';
+    placeholder.style.boxShadow = '0 8px 32px rgba(245, 175, 25, 0.1)';
+    placeholder.style.opacity = '0';
+    placeholder.style.transition = 'opacity 0.5s ease-out';
+
+    // Fade in placeholder after a brief delay
+    requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+            placeholder.style.opacity = '1';
+        });
+    });
+
+    // Insert placeholder before the card
+    card.parentNode.insertBefore(placeholder, card);
+
+    // Store reference to placeholder for cleanup
+    card._placeholder = placeholder;
+
+    // Set z-index FIRST to ensure card is on top before any animations
+    card.style.zIndex = '5000';
+
+    // Disable transitions temporarily
+    card.style.transition = 'none';
+
+    // Set initial fixed position at current location (no animation yet)
     card.style.position = 'fixed';
     card.style.top = rect.top + 'px';
     card.style.left = rect.left + 'px';
     card.style.width = rect.width + 'px';
     card.style.height = rect.height + 'px';
-    card.style.zIndex = '5000';
     card.style.margin = '0';
+    card.style.transform = 'none';
 
-    // Add expanded class immediately
+    // Force reflow to apply the fixed positioning
+    card.offsetHeight;
+
+    // Re-enable transitions
+    card.style.transition = '';
+
+    // Force another reflow
+    card.offsetHeight;
+
+    // Now add expanded class to trigger the animation from current position to center
     card.classList.add('expanded');
 
     // LAZY IFRAME CREATION: Create iframe only when needed
@@ -382,10 +424,28 @@ function collapseCard(event) {
         iframe.remove();
     }
 
-    // Collapse card
-    card.classList.remove('expanded');
+    // Get placeholder position to animate back to it
+    if (card._placeholder && card._placeholder.parentNode) {
+        const placeholderRect = card._placeholder.getBoundingClientRect();
 
-    // Reset inline styles after transition
+        // First remove the expanded class to trigger animation back
+        card.classList.remove('expanded');
+
+        // Animate back to placeholder position
+        card.style.top = placeholderRect.top + 'px';
+        card.style.left = placeholderRect.left + 'px';
+        card.style.width = placeholderRect.width + 'px';
+        card.style.height = placeholderRect.height + 'px';
+        card.style.transform = 'none';
+
+        // Fade out placeholder
+        card._placeholder.style.opacity = '0';
+    } else {
+        // Fallback if no placeholder
+        card.classList.remove('expanded');
+    }
+
+    // Reset inline styles and restore card after transition
     setTimeout(() => {
         if (card && !card.classList.contains('expanded')) {
             card.style.position = '';
@@ -395,8 +455,17 @@ function collapseCard(event) {
             card.style.height = '';
             card.style.zIndex = '';
             card.style.margin = '';
+            card.style.transform = '';
+            card.style.transition = '';
+
+            // Remove placeholder and restore card to grid
+            if (card._placeholder && card._placeholder.parentNode) {
+                card._placeholder.parentNode.insertBefore(card, card._placeholder);
+                card._placeholder.remove();
+                card._placeholder = null;
+            }
         }
-    }, 600); // Match the transition duration
+    }, 1000); // Match the transition duration
 
     currentExpandedCard = null;
 }

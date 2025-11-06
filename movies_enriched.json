@@ -16,7 +16,15 @@
     "youtube_url": "https://www.youtube.com/watch?v=-g6dXwTqDCs",
     "youtube_title": "A Time to Kill Movie Trailer 1996 - TV Spot",
     "youtube_channel": "",
-    "confidence_score": 55
+    "confidence_score": 55,
+    "poster_url_small": "https://image.tmdb.org/t/p/w185/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "poster_url_original": "https://image.tmdb.org/t/p/original/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/bwLQCW6LqmrJ6aJsevypcg93JCU.jpg",
+    "tmdb_id": 1645,
+    "tmdb_title": "A Time to Kill",
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Anybody Seen My Girl?",
@@ -87,15 +95,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=qQlr9-rF32A",
     "youtube_title": "Despicable Me 4 | Official Trailer",
     "youtube_channel": "",
-    "confidence_score": 45,
-    "poster_url_small": "https://image.tmdb.org/t/p/w185/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w342/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
-    "poster_url_original": "https://image.tmdb.org/t/p/original/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/twsxsfao6ZOVvT8LfudH603MMi6.jpg",
-    "tmdb_id": 519182,
-    "tmdb_title": "Despicable Me 4",
-    "tmdb_media_type": "movie"
+    "confidence_score": 45
   },
   {
     "title": "Heweliusz",
@@ -165,15 +165,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=37xAH4W5NsE",
     "youtube_title": "Start Up, Fall Down: From Billionaire to Convict | Official Trailer | Netflix",
     "youtube_channel": "",
-    "confidence_score": 45,
-    "poster_url_small": "https://image.tmdb.org/t/p/w185/uxntXFQ6SqY4celQejnUC9y6TQ3.jpg",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w342/uxntXFQ6SqY4celQejnUC9y6TQ3.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/w500/uxntXFQ6SqY4celQejnUC9y6TQ3.jpg",
-    "poster_url_original": "https://image.tmdb.org/t/p/original/uxntXFQ6SqY4celQejnUC9y6TQ3.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/6BHxT63TTKmlG6rds4b844d1kVV.jpg",
-    "tmdb_id": 304936,
-    "tmdb_title": "Start Up, Fall Down: From Billionaire to Convict",
-    "tmdb_media_type": "tv"
+    "confidence_score": 45
   },
   {
     "title": "The Fantastic 4: First Steps",
@@ -248,7 +240,7 @@
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/akJ3gusmlRGvKoFzLgJxsIBL4W4.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/akJ3gusmlRGvKoFzLgJxsIBL4W4.jpg",
     "poster_url_original": "https://image.tmdb.org/t/p/original/akJ3gusmlRGvKoFzLgJxsIBL4W4.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/cfRdpQXWn7JDkXTkWJSf5dIUdla.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/xhqklQEaJ7xqsqnwCJZu7hTmTIK.jpg",
     "tmdb_id": 258742,
     "tmdb_title": "All's Fair",
     "tmdb_media_type": "tv"
@@ -321,7 +313,15 @@
     "youtube_url": "https://www.youtube.com/watch?v=G-oqsjDFxKQ",
     "youtube_title": "My Sister's Husband by Virginia Sandoval - Book Trailer",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_small": "https://image.tmdb.org/t/p/w185/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "poster_url_original": "https://image.tmdb.org/t/p/original/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/5RzVwzs3fWy9gYeBpcQ1QKFoqQM.jpg",
+    "tmdb_id": 302012,
+    "tmdb_title": "My Sister's Husband",
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Nice to Not Meet You",
@@ -365,15 +365,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=wMQZG9u4Sjg",
     "youtube_title": "Spinal Tap II: The End Continues - Official Trailer - Only In Cinemas Now",
     "youtube_channel": "",
-    "confidence_score": 45,
-    "poster_url_small": "https://image.tmdb.org/t/p/w185/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w342/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/w500/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg",
-    "poster_url_original": "https://image.tmdb.org/t/p/original/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/czmBLRl98O2nTIzU0td3wDS78pN.jpg",
-    "tmdb_id": 975225,
-    "tmdb_title": "Spinal Tap II: The End Continues",
-    "tmdb_media_type": "movie"
+    "confidence_score": 45
   },
   {
     "title": "Squid Game: The Challenge Season 2",
@@ -417,7 +409,15 @@
     "youtube_url": "https://www.youtube.com/watch?v=EDV0sFoFmsQ",
     "youtube_title": "Dr. Seuss’s The Sneetches TRAILER 🌟 Netflix Jr",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_small": "https://image.tmdb.org/t/p/w185/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "poster_url_original": "https://image.tmdb.org/t/p/original/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9Apjnxx4BQ2opZr022r5Me5J8zi.jpg",
+    "tmdb_id": 1497036,
+    "tmdb_title": "Dr. Seuss's The Sneetches",
+    "tmdb_media_type": "movie"
   },
   {
     "title": "I Love LA",
