@@ -241,7 +241,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=-g6dXwTqDCs",
     "youtube_title": "A Time to Kill Movie Trailer 1996 - TV Spot",
     "youtube_channel": "",
-    "confidence_score": 55
+    "confidence_score": 55,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "tmdb_id": 1645,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Anybody Seen My Girl?",
@@ -256,7 +260,11 @@
     "imdb_year": "2020",
     "imdb_url": "https://www.imdb.com/title/tt13311126/",
     "youtube_id": null,
-    "youtube_url": null
+    "youtube_url": null,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/9IajQm1FifS6YmH5X8rQFHqqwAb.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/9IajQm1FifS6YmH5X8rQFHqqwAb.jpg",
+    "tmdb_id": 586384,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Bambi: The Reckoning",
@@ -274,7 +282,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=j_J2-GafTSQ",
     "youtube_title": "Bambi: The Reckoning - (Roxanne McKee, Samira Mighty) OFFICIAL TRAILER (2025)",
     "youtube_channel": "",
-    "confidence_score": 55
+    "confidence_score": 55,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/8oBbWxWDJrrDtNkmd0OzZpPFFUR.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/8oBbWxWDJrrDtNkmd0OzZpPFFUR.jpg",
+    "tmdb_id": 1049942,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Despicable Me 4",
@@ -314,7 +326,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=9fBgHvXtGwA",
     "youtube_title": "Heweliusz | Official Trailer | Netflix",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/uz8xeDph9jD5JD3kGiktOcRwAI3.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/uz8xeDph9jD5JD3kGiktOcRwAI3.jpg",
+    "tmdb_id": 217528,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Just Alice",
@@ -332,7 +348,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=bOqoiVw5w60",
     "youtube_title": "Just Alice – Official Sneak Peak (as Trailer) | Netflix",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/xV0dzVfaYgqWBnKVNWWyZk2YdrE.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/xV0dzVfaYgqWBnKVNWWyZk2YdrE.jpg",
+    "tmdb_id": 302723,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Start Up, Fall Down: From Billionaire to Convict",
@@ -368,7 +388,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=pAsmrKyMqaA",
     "youtube_title": "The Fantastic Four: First Steps | Official Trailer | Only in Theaters July 25",
     "youtube_channel": "",
-    "confidence_score": 35
+    "confidence_score": 35,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg",
+    "tmdb_id": 617126,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Tyler Perry’s Finding Joy",
@@ -386,7 +410,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=60befdTWmG8",
     "youtube_title": "Tyler Perry's Finding Joy - Official Trailer | Prime Video",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/sUMdbrjHhMFDY327B31ctpF9MuY.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/sUMdbrjHhMFDY327B31ctpF9MuY.jpg",
+    "tmdb_id": 1252382,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "All’s Fair",
@@ -404,7 +432,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=4SVJMKNfF0w",
     "youtube_title": "All's Fair | Official Trailer | Hulu",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/akJ3gusmlRGvKoFzLgJxsIBL4W4.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/akJ3gusmlRGvKoFzLgJxsIBL4W4.jpg",
+    "tmdb_id": 258742,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Bad Girl",
@@ -422,7 +454,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=fcvirtxuT3w",
     "youtube_title": "Bad Girl - Teaser | Vetri Maaran | Anurag Kashyap | Varsha Bharath | Amit Trivedi | Anjali Sivaraman",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/xh1g7aFqq5FqFlKtWVX1xzYKoUh.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/xh1g7aFqq5FqFlKtWVX1xzYKoUh.jpg",
+    "tmdb_id": 1403839,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Leanne Morgan: Unspeakable Things",
@@ -440,7 +476,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=7xt0TcGKOKs",
     "youtube_title": "Leanne Morgan: Unspeakable Things | Official Trailer | Netflix",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/7NG3ZCYztpKp1eP9g8qOqtiuMgq.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/7NG3ZCYztpKp1eP9g8qOqtiuMgq.jpg",
+    "tmdb_id": 1567489,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "My Sister’s Husband",
@@ -458,7 +498,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=nqqVYoOco1g",
     "youtube_title": "MY SISTER'S HUSBAND OFFICIAL TRAILER",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "tmdb_id": 302012,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Nice to Not Meet You",
@@ -476,7 +520,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=z6o860gTvtw",
     "youtube_title": "Nice To Not Meet You | Exclusive Trailer | Amazon Prime",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/h14bGZcVxYQzLoxC8KYqUVWvYfU.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/h14bGZcVxYQzLoxC8KYqUVWvYfU.jpg",
+    "tmdb_id": 285770,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Spinal Tap II: The End Continues",
@@ -512,7 +560,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=CQ4D7HA7Ov4",
     "youtube_title": "Squid Game: The Challenge | Season 2 Official Trailer | Netflix",
     "youtube_channel": "",
-    "confidence_score": 35
+    "confidence_score": 35,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/eAjXAgdjPMZH9Ugub7XYPowFoS1.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/eAjXAgdjPMZH9Ugub7XYPowFoS1.jpg",
+    "tmdb_id": 204082,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Dr. Seuss’s The Sneetches",
@@ -530,7 +582,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=EDV0sFoFmsQ",
     "youtube_title": "Dr. Seuss’s The Sneetches TRAILER 🌟 Netflix Jr",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "tmdb_id": 1497036,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "I Love LA",
@@ -548,7 +604,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=DnBAmvw_Yow",
     "youtube_title": "I Love LA | Official Trailer | HBO Max",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+    "tmdb_id": 271053,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "In Waves and War",
@@ -566,7 +626,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=ao8tiqnuS3Y",
     "youtube_title": "In Waves and War - Official Trailer",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/AlwiOgWWPwZ0WmFmtWyWNIhpcW1.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/AlwiOgWWPwZ0WmFmtWyWNIhpcW1.jpg",
+    "tmdb_id": 1332986,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Mom",
@@ -586,7 +650,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=hctApy_i-qg",
     "youtube_title": "MOM - Official Trailer | Sridevi | Nawazuddin Siddiqui | Akshaye Khanna | Hindi Thriller Movie",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/kIi3T7X0kmiV9vGDme146P2d979.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/kIi3T7X0kmiV9vGDme146P2d979.jpg",
+    "tmdb_id": 49011,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Qarib Qarib Singlle",
@@ -606,7 +674,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=MU4QL-VwDlc",
     "youtube_title": "Qarib Qarib Singlle - Official Trailer | Irrfan Khan | Parvathy | Neha Dhupia | Hindi Movie",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/yKEKZ0uTpKm743xsPOuhrfTBLL2.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/yKEKZ0uTpKm743xsPOuhrfTBLL2.jpg",
+    "tmdb_id": 479918,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Divorce Lawyer",
@@ -624,7 +696,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=bweiral1C7U",
     "youtube_title": "The Divorce Lawyer | Official Trailer | Tubi Original",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/ulPSqlWV5NAtTAlMeOEaLHeIbgW.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/ulPSqlWV5NAtTAlMeOEaLHeIbgW.jpg",
+    "tmdb_id": 1502263,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Haken no Hinkaku Season 2",
@@ -639,7 +715,11 @@
     "imdb_year": "",
     "imdb_url": "https://www.imdb.com/title/tt0997022/",
     "youtube_id": null,
-    "youtube_url": null
+    "youtube_url": null,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/zdQ8H3PSdFtMwqaouq15N42rHCW.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/zdQ8H3PSdFtMwqaouq15N42rHCW.jpg",
+    "tmdb_id": 37425,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Hana Kimi",
@@ -657,7 +737,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=gfUPJrqYqGg",
     "youtube_title": "Hana Kimi Book Trailer",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/psNgMbVKKjbIF9MHD576KkzJ1Qk.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/psNgMbVKKjbIF9MHD576KkzJ1Qk.jpg",
+    "tmdb_id": 4749,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "JUST MAKEUP",
@@ -675,7 +759,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=JHX86OqYxE0",
     "youtube_title": "Just Makeup | Teaser | Amazon Prime",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/r7OUQhkuJolddrmSAh9tAir01ui.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/r7OUQhkuJolddrmSAh9tAir01ui.jpg",
+    "tmdb_id": 300397,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Kyojo",
@@ -693,7 +781,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=eGEbKqpe0kg",
     "youtube_title": "9. Kazama Kimichika: Kyojo Zero (2023)",
     "youtube_channel": "",
-    "confidence_score": 30
+    "confidence_score": 30,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/3TKkFQ3xG4bnSFDsBOnLdZI6iHs.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/3TKkFQ3xG4bnSFDsBOnLdZI6iHs.jpg",
+    "tmdb_id": 97425,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "The Best Teacher: 1 Year Later, I Was Attacked by a Student",
@@ -705,7 +797,11 @@
     "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/oTDDEtGTfkL4nU5CcwL8tZSkKIC-97x147.jpg",
     "imdb_id": null,
     "youtube_id": null,
-    "youtube_url": null
+    "youtube_url": null,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/oTDDEtGTfkL4nU5CcwL8tZSkKIC.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/oTDDEtGTfkL4nU5CcwL8tZSkKIC.jpg",
+    "tmdb_id": 228921,
+    "tmdb_media_type": "tv"
   },
   {
     "title": "Elevation",
@@ -724,7 +820,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=ZivlF_UYkN0",
     "youtube_title": "Elevation - Official Trailer (2024) Anthony Mackie",
     "youtube_channel": "",
-    "confidence_score": 55
+    "confidence_score": 55,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/tnfc0NJ3BzhJrGJhkkEd6MHBdq5.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/tnfc0NJ3BzhJrGJhkkEd6MHBdq5.jpg",
+    "tmdb_id": 1035048,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Fran the Man",
@@ -742,7 +842,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=ZyW0MoZI9hY",
     "youtube_title": "Official Trailer: Fran the Man In Cinemas April 11th",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/fxST2MqYdafW5zucXX85qddvnjm.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/fxST2MqYdafW5zucXX85qddvnjm.jpg",
+    "tmdb_id": 1268552,
+    "tmdb_media_type": "movie"
   },
   {
     "title": "Sima’s Song",
@@ -760,6 +864,10 @@
     "youtube_url": "https://www.youtube.com/watch?v=8XQT9_8EGdc",
     "youtube_title": "SIMA'S SONG | TRAILER | CinemaWorld",
     "youtube_channel": "",
-    "confidence_score": 45
+    "confidence_score": 45,
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/ox5UsOyPaU2iofSTZPNXrXz1gAI.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/ox5UsOyPaU2iofSTZPNXrXz1gAI.jpg",
+    "tmdb_id": 1078946,
+    "tmdb_media_type": "movie"
   }
 ]
