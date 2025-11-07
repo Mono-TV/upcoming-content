@@ -90,9 +90,9 @@ class ContentUpdater:
 
             try:
                 print(f"📄 Loading initial page...")
-                await page.goto(url, wait_until='networkidle', timeout=30000)
-                await page.wait_for_selector('.bng-movies-table-item', timeout=10000)
-                await asyncio.sleep(2)
+                await page.goto(url, wait_until='domcontentloaded', timeout=60000)
+                await page.wait_for_selector('.bng-movies-table-item', timeout=15000)
+                await asyncio.sleep(3)
 
                 current_page = 1
 
@@ -127,9 +127,10 @@ class ContentUpdater:
 
                         # Wait for content to load
                         try:
-                            await page.wait_for_load_state('networkidle', timeout=10000)
+                            await page.wait_for_load_state('domcontentloaded', timeout=15000)
+                            await asyncio.sleep(2)
                         except:
-                            await asyncio.sleep(3)
+                            await asyncio.sleep(4)
 
                         current_page = page_num
                         print(f"Scraping page {current_page}...")
@@ -323,10 +324,19 @@ class ContentUpdater:
 
     def enrich_with_posters(self):
         """Step 4: Add high-quality posters from TMDb"""
-        if not self.enable_posters or not self.tmdb_api_key:
-            print("\n⏭️  Skipping poster enrichment")
-            if not self.tmdb_api_key:
-                print("💡 Set TMDB_API_KEY environment variable to enable posters")
+        if not self.enable_posters:
+            print("\n⏭️  Skipping poster enrichment (disabled)")
+            return
+
+        if not self.tmdb_api_key:
+            print("\n" + "="*60)
+            print("⏭️  STEP 4: Skipping poster enrichment")
+            print("="*60)
+            print("\n💡 To add high-quality posters:")
+            print("   1. Get free API key: https://www.themoviedb.org/settings/api")
+            print("   2. Set: export TMDB_API_KEY='your_key'")
+            print("   3. Re-run this script")
+            print("")
             return
 
         print("\n" + "="*60)
