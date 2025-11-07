@@ -256,8 +256,44 @@ class ContentUpdater:
         print(f"\n✅ Enriched {enriched_count}/{len(self.movies)} movies with IMDb data")
         self._save_json(self.movies, 'movies_with_imdb.json')
 
+    def _extract_language_from_url(self, url):
+        """Extract language from Binged URL for better search accuracy"""
+        if not url:
+            return None
+
+        # Common language patterns in URLs
+        language_patterns = {
+            'hindi': 'Hindi',
+            'tamil': 'Tamil',
+            'telugu': 'Telugu',
+            'malayalam': 'Malayalam',
+            'kannada': 'Kannada',
+            'bengali': 'Bengali',
+            'marathi': 'Marathi',
+            'punjabi': 'Punjabi',
+            'gujarati': 'Gujarati',
+            'korean': 'Korean',
+            'japanese': 'Japanese',
+            'mandarin': 'Chinese',
+            'spanish': 'Spanish',
+            'french': 'French',
+            'german': 'German',
+            'italian': 'Italian',
+            'portuguese': 'Portuguese',
+            'russian': 'Russian',
+            'indonesian': 'Indonesian',
+            'tagalog': 'Filipino'
+        }
+
+        url_lower = url.lower()
+        for pattern, language in language_patterns.items():
+            if f'-{pattern}-' in url_lower or f'/{pattern}-' in url_lower:
+                return language
+
+        return None
+
     def enrich_with_youtube(self):
-        """Step 3: Add YouTube trailers"""
+        """Step 3: Add YouTube trailers with improved search using metadata"""
         if not self.enable_trailers:
             print("\n⏭️  Skipping YouTube enrichment")
             return
@@ -270,7 +306,32 @@ class ContentUpdater:
         for i, movie in enumerate(self.movies, 1):
             title = movie.get('title', '')
             year = movie.get('imdb_year', '')
-            search_query = f"{title} {year} official trailer" if year else f"{title} official trailer"
+            url = movie.get('url', '')
+            imdb_id = movie.get('imdb_id', '')
+
+            # If we have IMDb ID but no year, try to fetch year
+            if imdb_id and not year:
+                try:
+                    movie_id = imdb_id.replace('tt', '')
+                    movie_info = self.ia.get_movie(movie_id)
+                    if 'year' in movie_info:
+                        year = str(movie_info['year'])
+                        movie['imdb_year'] = year
+                except:
+                    pass
+
+            # Extract language from URL for better specificity
+            language = self._extract_language_from_url(url)
+
+            # Build intelligent search query with available metadata
+            search_parts = [title]
+            if language:
+                search_parts.append(language)
+            if year:
+                search_parts.append(year)
+            search_parts.append('official trailer')
+
+            search_query = ' '.join(search_parts)
 
             print(f"[{i}/{len(self.movies)}] {title[:40]}... ", end='', flush=True)
 
