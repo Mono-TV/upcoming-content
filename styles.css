@@ -276,7 +276,7 @@ main {
 /* Timeline Header */
 .timeline-header {
     text-align: left; /* Changed from center to left */
-    margin: 40px 0 20px;
+    margin: 40px 0 60px; /* Increased bottom margin to prevent overlap with release dates */
     animation: fadeInHero 0.8s ease-out;
 }
 
@@ -328,14 +328,14 @@ main {
     position: absolute;
     top: 90px;
     left: 0;
-    width: calc(100% + 1000px); /* Extend beyond viewport for smooth scrolling */
+    width: 10000px; /* Extended to cover entire grid length */
     height: 3px;
     background: linear-gradient(90deg,
         transparent 0%,
-        rgba(245, 175, 25, 0.3) 2%,
-        rgba(245, 175, 25, 0.6) 5%,
-        rgba(245, 175, 25, 0.6) 95%,
-        rgba(245, 175, 25, 0.3) 98%,
+        rgba(245, 175, 25, 0.3) 0.5%,
+        rgba(245, 175, 25, 0.6) 1%,
+        rgba(245, 175, 25, 0.6) 99%,
+        rgba(245, 175, 25, 0.3) 99.5%,
         transparent 100%);
     border-radius: 2px;
     z-index: 1;
@@ -656,10 +656,10 @@ main {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px 16px;
+    padding: 12px 16px; /* Reduced from 20px to make it more minimal */
     background: linear-gradient(to top,
                 rgba(0, 0, 0, 0.75) 0%,
-                rgba(0, 0, 0, 0.5) 50%,
+                rgba(0, 0, 0, 0.4) 30%, /* Reduced from 50% for minimal height */
                 transparent 100%);
     backdrop-filter: blur(8px); /* Reduced from 10px */
     -webkit-backdrop-filter: blur(8px);
@@ -723,8 +723,8 @@ main {
 }
 
 .play-button {
-    width: 80px;
-    height: 80px;
+    width: 60px; /* Reduced from 80px */
+    height: 60px; /* Reduced from 80px */
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -732,8 +732,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
-                0 0 0 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3),
+                0 0 0 3px rgba(255, 255, 255, 0.2);
     border: 2px solid rgba(255, 255, 255, 0.8);
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -742,8 +742,8 @@ main {
 .play-button:hover {
     transform: scale(1.1);
     background: rgba(255, 255, 255, 1);
-    box-shadow: 0 12px 40px rgba(245, 175, 25, 0.4),
-                0 0 0 6px rgba(245, 175, 25, 0.2);
+    box-shadow: 0 10px 32px rgba(245, 175, 25, 0.4),
+                0 0 0 5px rgba(245, 175, 25, 0.2);
 }
 
 .play-button::before {
@@ -751,9 +751,9 @@ main {
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 15px 0 15px 26px;
+    border-width: 11px 0 11px 18px; /* Reduced from 15px 0 15px 26px */
     border-color: transparent transparent transparent #1d1d1f;
-    margin-left: 4px;
+    margin-left: 3px;
 }
 
 /* Play Trailer Tooltip */
@@ -1058,15 +1058,15 @@ main {
 
     /* Play button overlay for mobile - Reduced size */
     .play-button {
-        width: 60px;
-        height: 60px;
-        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3),
-                    0 0 0 3px rgba(255, 255, 255, 0.2);
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3),
+                    0 0 0 2px rgba(255, 255, 255, 0.2);
     }
 
     .play-button::before {
-        border-width: 12px 0 12px 20px;
-        margin-left: 3px;
+        border-width: 10px 0 10px 16px;
+        margin-left: 2px;
     }
 
     /* Play tooltip for mobile */
