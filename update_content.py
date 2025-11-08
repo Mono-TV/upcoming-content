@@ -306,6 +306,23 @@ class ContentUpdater:
         except:
             return False
 
+    def _fetch_with_retry(self, url, params, max_retries=3):
+        """Fetch URL with retry logic and exponential backoff"""
+        for attempt in range(max_retries):
+            try:
+                response = requests.get(url, params=params, timeout=15)
+                response.raise_for_status()
+                return response.json()
+            except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+                if attempt < max_retries - 1:
+                    wait_time = (attempt + 1) * 2  # 2s, 4s, 6s
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    raise e
+            except Exception as e:
+                raise e
+
     def _extract_language_from_url(self, url):
         """Extract language from Binged URL for better search accuracy"""
         if not url:
@@ -468,14 +485,14 @@ class ContentUpdater:
             if title in self.manual_corrections:
                 correction = self.manual_corrections[title]
                 if 'tmdb_id' in correction:
-                    # Fetch poster from specific TMDb ID
+                    # Fetch poster from specific TMDb ID with retry
                     try:
                         tmdb_id = correction['tmdb_id']
                         media_type = correction.get('tmdb_media_type', 'movie')
                         url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}"
                         params = {'api_key': self.tmdb_api_key}
-                        response = requests.get(url, params=params, timeout=10)
-                        data = response.json()
+
+                        data = self._fetch_with_retry(url, params)
 
                         poster_path = data.get('poster_path')
                         if poster_path:
@@ -497,7 +514,9 @@ class ContentUpdater:
                         else:
                             print("✗ No poster in TMDb")
                     except Exception as e:
-                        print(f"✗ Error: {e}")
+                        print(f"✗ Error: {str(e)[:50]}")
+
+                    time.sleep(1.0)  # Rate limiting
                     continue
 
             try:
@@ -505,15 +524,15 @@ class ContentUpdater:
                 language = self._extract_language_from_url(movie.get('url', ''))
                 search_query = f"{title} {language}" if language else title
 
-                # Search TMDb with language context
+                # Search TMDb with language context and retry logic
                 url = "https://api.themoviedb.org/3/search/multi"
                 params = {
                     'api_key': self.tmdb_api_key,
                     'query': search_query,
                     'year': year if year else None
                 }
-                response = requests.get(url, params=params, timeout=10)
-                data = response.json()
+
+                data = self._fetch_with_retry(url, params)
 
                 if 'results' in data and len(data['results']) > 0:
                     result = data['results'][0]
@@ -539,10 +558,10 @@ class ContentUpdater:
                 else:
                     print("✗ Not found")
 
-                time.sleep(0.3)  # Rate limiting
+                time.sleep(1.0)  # Rate limiting - increased from 0.3s
 
             except Exception as e:
-                print(f"✗ Error: {e}")
+                print(f"✗ Error: {str(e)[:50]}")
 
         print(f"\n✅ Added posters for {enriched_count}/{len(self.movies)} movies")
         if manual_count > 0:

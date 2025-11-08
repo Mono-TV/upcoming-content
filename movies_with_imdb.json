@@ -1,10 +1,42 @@
 [
   {
+    "title": "Aarpar",
+    "url": "https://www.binged.com/streaming-premiere-dates/aarpar-marathi-movie-streaming-online-watch/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Amazon Prime Video"
+    ]
+  },
+  {
+    "title": "As You Stood By",
+    "url": "https://www.binged.com/streaming-premiere-dates/as-you-stood-by-korean-web-series-streaming-online-watch-2/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
+    ]
+  },
+  {
     "title": "Baramulla",
     "url": "https://www.binged.com/streaming-premiere-dates/baramulla-hindi-movie-streaming-online-watch/",
     "release_date": "07 Nov 2025",
     "platforms": [
       "Jio Hotstar"
+    ]
+  },
+  {
+    "title": "Death by Lightning",
+    "url": "https://www.binged.com/streaming-premiere-dates/death-by-lightning-web-series-streaming-online-watch-2/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
+    ]
+  },
+  {
+    "title": "Dhimahi",
+    "url": "https://www.binged.com/streaming-premiere-dates/dhimahi/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Amazon Prime Video"
     ]
   },
   {
@@ -21,6 +53,14 @@
     "release_date": "07 Nov 2025",
     "platforms": [
       "Jio Hotstar"
+    ]
+  },
+  {
+    "title": "Kaayal",
+    "url": "https://www.binged.com/streaming-premiere-dates/kaayal-tamil-movie-streaming-online-watch/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Amazon Prime Video"
     ]
   },
   {
@@ -48,6 +88,23 @@
     ]
   },
   {
+    "title": "Mango",
+    "url": "https://www.binged.com/streaming-premiere-dates/mango-danish-spanish-movie-streaming-online-watch/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
+    ]
+  },
+  {
+    "title": "Mathu Vadalara 2",
+    "url": "https://www.binged.com/streaming-premiere-dates/mathu-vadalara-2-telugu-movie-streaming-online-watch/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Amazon Prime Video",
+      "Jio Hotstar"
+    ]
+  },
+  {
     "title": "Maxton Hall – The World Between Us – Season 2",
     "url": "https://www.binged.com/streaming-premiere-dates/maxton-hall-the-world-between-us-season-2/",
     "release_date": "07 Nov 2025",
@@ -61,6 +118,22 @@
     "release_date": "07 Nov 2025",
     "platforms": [
       "Netflix"
+    ]
+  },
+  {
+    "title": "The Bad Guys: Breaking In",
+    "url": "https://www.binged.com/streaming-premiere-dates/the-bad-guys-breaking-in-web-series-streaming-online-watch/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
+    ]
+  },
+  {
+    "title": "The Vince Staples Show Season 2",
+    "url": "https://www.binged.com/streaming-premiere-dates/the-vince-staples-show-web-series-streaming-online-watch-2/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
     ]
   },
   {
@@ -268,7 +341,9 @@
       "Amazon Prime Video",
       "Platform 52",
       "Jio Hotstar"
-    ]
+    ],
+    "imdb_id": "tt5690360",
+    "imdb_year": "2017"
   },
   {
     "title": "Qarib Qarib Singlle",
@@ -326,6 +401,31 @@
     "release_date": "02 Nov 2025",
     "platforms": [
       "Jio Hotstar"
+    ]
+  },
+  {
+    "title": "Elevation",
+    "url": "https://www.binged.com/streaming-premiere-dates/elevation/",
+    "release_date": "01 Nov 2025",
+    "platforms": [
+      "Platform 10",
+      "Amazon Prime Video"
+    ]
+  },
+  {
+    "title": "Fran the Man",
+    "url": "https://www.binged.com/streaming-premiere-dates/fran-the-man-movie-streaming-online-watch/",
+    "release_date": "01 Nov 2025",
+    "platforms": [
+      "Amazon Prime Video"
+    ]
+  },
+  {
+    "title": "Sima’s Song",
+    "url": "https://www.binged.com/streaming-premiere-dates/simas-song-persian-movie-streaming-online-watch/",
+    "release_date": "01 Nov 2025",
+    "platforms": [
+      "Amazon Prime Video"
     ]
   }
 ]

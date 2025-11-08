@@ -1,7 +1,6 @@
 {
   "_comment": "Manual corrections for movies with ambiguous titles or incorrect matches",
-  "_instructions": "Add entries here to override automatic matching. Key is the exact movie title from Binged.com",
-
+  "_instructions": "Add entries here to override automatic matching. Auto-generated entries can be edited.",
   "corrections": {
     "Mom": {
       "imdb_id": "tt5690360",
