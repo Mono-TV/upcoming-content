@@ -296,8 +296,75 @@ function createMovieCard(movie) {
         .map(p => sanitizeText(p))
         .join(' • ');
 
-    // Create fallback SVG URL for broken images
-    const fallbackSvg = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 450'%3E%3Crect fill='%23667eea' width='300' height='450'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='white'%3E${encodeURIComponent(movie.title || 'Untitled')}%3C/text%3E%3C/svg%3E`;
+    // Create enhanced fallback SVG with movie details for missing posters
+    const createFallbackSvg = () => {
+        const title = movie.title || 'Untitled';
+        const year = movie.imdb_year || movie.release_date?.split(' ')[2] || '';
+        const platformsList = platforms.slice(0, 2).join(', '); // Limit to 2 platforms for space
+
+        // Split title into multiple lines if too long
+        const words = title.split(' ');
+        const lines = [];
+        let currentLine = '';
+
+        words.forEach(word => {
+            const testLine = currentLine ? `${currentLine} ${word}` : word;
+            if (testLine.length > 20 && currentLine) {
+                lines.push(currentLine);
+                currentLine = word;
+            } else {
+                currentLine = testLine;
+            }
+        });
+        if (currentLine) lines.push(currentLine);
+
+        // Limit to 3 lines max
+        const titleLines = lines.slice(0, 3);
+
+        // Calculate vertical positioning
+        const baseY = 180;
+        const titleY = baseY - (titleLines.length - 1) * 15;
+
+        let svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 450'>`;
+        svg += `<defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'>`;
+        svg += `<stop offset='0%' style='stop-color:%23667eea;stop-opacity:1' />`;
+        svg += `<stop offset='100%' style='stop-color:%23764ba2;stop-opacity:1' />`;
+        svg += `</linearGradient></defs>`;
+        svg += `<rect fill='url(%23grad)' width='300' height='450'/>`;
+
+        // Add movie icon
+        svg += `<text x='50%' y='120' text-anchor='middle' font-size='48' fill='white' opacity='0.3'>🎬</text>`;
+
+        // Add title lines
+        titleLines.forEach((line, i) => {
+            const y = titleY + (i * 30);
+            svg += `<text x='50%' y='${y}' text-anchor='middle' font-family='system-ui, -apple-system, Arial' font-size='22' font-weight='bold' fill='white'>${encodeURIComponent(line)}</text>`;
+        });
+
+        // Add year if available
+        if (year) {
+            const yearY = titleY + (titleLines.length * 30) + 20;
+            svg += `<text x='50%' y='${yearY}' text-anchor='middle' font-family='system-ui, -apple-system, Arial' font-size='16' fill='white' opacity='0.8'>${encodeURIComponent(year)}</text>`;
+        }
+
+        // Add release date
+        if (releaseDate) {
+            const dateY = titleY + (titleLines.length * 30) + (year ? 45 : 25);
+            svg += `<text x='50%' y='${dateY}' text-anchor='middle' font-family='system-ui, -apple-system, Arial' font-size='14' fill='white' opacity='0.7'>${encodeURIComponent(releaseDate)}</text>`;
+        }
+
+        // Add platforms
+        if (platformsList) {
+            const platformY = titleY + (titleLines.length * 30) + (year ? 70 : 50) + (releaseDate ? 0 : -20);
+            svg += `<text x='50%' y='${platformY}' text-anchor='middle' font-family='system-ui, -apple-system, Arial' font-size='12' fill='white' opacity='0.6'>${encodeURIComponent(platformsList)}</text>`;
+        }
+
+        svg += `</svg>`;
+
+        return `data:image/svg+xml,${svg}`;
+    };
+
+    const fallbackSvg = createFallbackSvg();
 
     card.innerHTML = `
         <div class="movie-poster">
