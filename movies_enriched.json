@@ -6,8 +6,12 @@
     "platforms": [
       "Netflix"
     ],
-    "youtube_id": "zLuOjCbDuwY",
-    "youtube_url": "https://www.youtube.com/watch?v=zLuOjCbDuwY"
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+    "tmdb_id": 1401318,
+    "tmdb_media_type": "movie",
+    "youtube_id": "gNBZZ0fRb2o",
+    "youtube_url": "https://www.youtube.com/watch?v=gNBZZ0fRb2o"
   },
   {
     "title": "Palm Royale Season 2",
@@ -26,8 +30,8 @@
     "platforms": [
       "Netflix"
     ],
-    "youtube_id": "Zx24L_rJw-Y",
-    "youtube_url": "https://www.youtube.com/watch?v=Zx24L_rJw-Y"
+    "youtube_id": "9I4FKW0tlFU",
+    "youtube_url": "https://www.youtube.com/watch?v=9I4FKW0tlFU"
   },
   {
     "title": "Come See Me in the Good Light",
@@ -36,6 +40,10 @@
     "platforms": [
       "Apple TV+"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+    "tmdb_id": 1400780,
+    "tmdb_media_type": "movie",
     "youtube_id": "t0B8sjxR7Mo",
     "youtube_url": "https://www.youtube.com/watch?v=t0B8sjxR7Mo"
   },
@@ -46,6 +54,10 @@
     "platforms": [
       "Manorama MAX"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+    "tmdb_id": 2719,
+    "tmdb_media_type": "tv",
     "youtube_id": "d9OyxosTOko",
     "youtube_url": "https://www.youtube.com/watch?v=d9OyxosTOko"
   },
@@ -56,6 +68,10 @@
     "platforms": [
       "Netflix"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+    "tmdb_id": 1117857,
+    "tmdb_media_type": "movie",
     "youtube_id": "Jjjcn4acAC8",
     "youtube_url": "https://www.youtube.com/watch?v=Jjjcn4acAC8"
   },
@@ -76,6 +92,10 @@
     "platforms": [
       "Netflix"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/leRDW64s8t119oPapghaEkagYW.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/leRDW64s8t119oPapghaEkagYW.jpg",
+    "tmdb_id": 1533237,
+    "tmdb_media_type": "movie",
     "youtube_id": "4M-vA6dU_7Y",
     "youtube_url": "https://www.youtube.com/watch?v=4M-vA6dU_7Y"
   },
@@ -86,6 +106,10 @@
     "platforms": [
       "Netflix"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+    "tmdb_id": 860708,
+    "tmdb_media_type": "movie",
     "youtube_id": "UufRzKVFseg",
     "youtube_url": "https://www.youtube.com/watch?v=UufRzKVFseg"
   },
@@ -106,6 +130,10 @@
     "platforms": [
       "Netflix"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+    "tmdb_id": 1323475,
+    "tmdb_media_type": "movie",
     "youtube_id": "eba-EoMPBX8",
     "youtube_url": "https://www.youtube.com/watch?v=eba-EoMPBX8"
   },
@@ -116,6 +144,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+    "tmdb_id": 219080,
+    "tmdb_media_type": "tv",
     "youtube_id": "Ri2wNyvSpiY",
     "youtube_url": "https://www.youtube.com/watch?v=Ri2wNyvSpiY"
   },
@@ -126,6 +158,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/98n5HnCJ5LnXKIMNP9SBfVNyxCE.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/98n5HnCJ5LnXKIMNP9SBfVNyxCE.jpg",
+    "tmdb_id": 1267905,
+    "tmdb_media_type": "movie",
     "youtube_id": "XkgMaS5gbaA",
     "youtube_url": "https://www.youtube.com/watch?v=XkgMaS5gbaA"
   },
@@ -146,6 +182,10 @@
     "platforms": [
       "Netflix"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+    "tmdb_id": 1241983,
+    "tmdb_media_type": "movie",
     "youtube_id": "_Nk8TrBHOrA",
     "youtube_url": "https://www.youtube.com/watch?v=_Nk8TrBHOrA"
   },
@@ -156,6 +196,10 @@
     "platforms": [
       "Netflix"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
+    "tmdb_id": 1218762,
+    "tmdb_media_type": "movie",
     "youtube_id": "AAEzB2LzFfM",
     "youtube_url": "https://www.youtube.com/watch?v=AAEzB2LzFfM"
   },
@@ -166,6 +210,10 @@
     "platforms": [
       "Apple TV+"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/9yjWMmYWQSDY2eelHECQcwSL816.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/9yjWMmYWQSDY2eelHECQcwSL816.jpg",
+    "tmdb_id": 95171,
+    "tmdb_media_type": "tv",
     "youtube_id": "f7kvwp9aIyM",
     "youtube_url": "https://www.youtube.com/watch?v=f7kvwp9aIyM"
   },
