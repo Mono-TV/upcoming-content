@@ -284,15 +284,18 @@ class ContentUpdater:
                             else:
                                 poster_url = 'https://www.binged.com/' + poster_url
 
-                        # Validate it's not an icon or small image
-                        if poster_url.startswith('http') and not poster_url.endswith('.svg'):
+                        # Skip placeholder images (Binged.png) and validate URL
+                        if (poster_url.startswith('http') and
+                            not poster_url.endswith('.svg') and
+                            not poster_url.endswith('Binged.png') and
+                            'Binged.png' not in poster_url):
+                            # Only store as Binged fallback, don't set as primary poster
+                            # TMDB will be prioritized in Step 2
                             movie['poster_url_binged'] = poster_url
-                            movie['poster_url_medium'] = poster_url
-                            movie['poster_url_large'] = poster_url
                             posters_found += 1
-                            print(f"✓ Poster found")
+                            print(f"✓ Poster found (Binged fallback)")
                         else:
-                            print("⊙ Invalid poster URL")
+                            print("⊙ Skipped (placeholder/invalid)")
                     else:
                         print("✗ No poster found")
 
@@ -379,12 +382,13 @@ class ContentUpdater:
                         else:
                             img_src = 'https://www.binged.com/' + img_src
 
-                    # Only save if it looks like a valid URL
-                    if img_src.startswith('http') and not img_src.endswith('.svg'):
+                    # Skip placeholder images (Binged.png) and validate URL
+                    if (img_src.startswith('http') and
+                        not img_src.endswith('.svg') and
+                        not img_src.endswith('Binged.png') and
+                        'Binged.png' not in img_src):
+                        # Only store as Binged fallback, don't set as primary poster
                         movie_data['poster_url_binged'] = img_src
-                        # Set as fallback poster
-                        movie_data['poster_url_medium'] = img_src
-                        movie_data['poster_url_large'] = img_src
 
         return movie_data if movie_data.get('title') else None
 
@@ -674,7 +678,7 @@ class ContentUpdater:
         if 'tmdb_media_type' in correction:
             movie['tmdb_media_type'] = correction['tmdb_media_type']
 
-            # Fetch poster from TMDB if we have the ID
+            # Fetch poster from TMDB if we have the ID (PRIORITY)
             try:
                 tmdb_id = correction['tmdb_id']
                 media_type = correction['tmdb_media_type']
@@ -686,12 +690,19 @@ class ContentUpdater:
                 if poster_path:
                     movie['poster_url_medium'] = f"https://image.tmdb.org/t/p/w500{poster_path}"
                     movie['poster_url_large'] = f"https://image.tmdb.org/t/p/original{poster_path}"
+                elif movie.get('poster_url_binged'):
+                    # Fallback to Binged if TMDB doesn't have poster
+                    movie['poster_url_medium'] = movie['poster_url_binged']
+                    movie['poster_url_large'] = movie['poster_url_binged']
 
                 backdrop_path = data.get('backdrop_path')
                 if backdrop_path:
                     movie['backdrop_url'] = f"https://image.tmdb.org/t/p/original{backdrop_path}"
             except:
-                pass
+                # On error, fallback to Binged if available
+                if movie.get('poster_url_binged'):
+                    movie['poster_url_medium'] = movie['poster_url_binged']
+                    movie['poster_url_large'] = movie['poster_url_binged']
 
     def enrich_with_youtube(self):
         """Step 3: Add YouTube trailers with improved search using metadata"""
@@ -854,11 +865,16 @@ class ContentUpdater:
                         movie['imdb_id'] = imdb_id
                         imdb_from_tmdb += 1
 
-                    # 2c. Get high-quality posters
+                    # 2c. Get high-quality posters from TMDB (PRIORITY)
                     poster_path = tmdb_result.get('poster_path')
                     if poster_path:
                         movie['poster_url_medium'] = f"https://image.tmdb.org/t/p/w500{poster_path}"
                         movie['poster_url_large'] = f"https://image.tmdb.org/t/p/original{poster_path}"
+                    elif has_binged_poster:
+                        # Fallback to Binged poster if TMDB doesn't have one
+                        movie['poster_url_medium'] = movie['poster_url_binged']
+                        movie['poster_url_large'] = movie['poster_url_binged']
+                        binged_kept_count += 1
 
                     # 2d. Get backdrop (optional)
                     backdrop_path = tmdb_result.get('backdrop_path')
@@ -869,7 +885,10 @@ class ContentUpdater:
                     status = "✓ TMDB + IMDb" if imdb_id else "✓ TMDB only"
                     print(status)
                 else:
+                    # TMDB not found, use Binged poster as fallback
                     if has_binged_poster:
+                        movie['poster_url_medium'] = movie['poster_url_binged']
+                        movie['poster_url_large'] = movie['poster_url_binged']
                         binged_kept_count += 1
                         print("⊙ Using Binged poster (TMDB not found)")
                     else:
@@ -878,7 +897,10 @@ class ContentUpdater:
                 time.sleep(0.5)  # Rate limiting
 
             except Exception as e:
+                # On error, fallback to Binged poster if available
                 if has_binged_poster:
+                    movie['poster_url_medium'] = movie['poster_url_binged']
+                    movie['poster_url_large'] = movie['poster_url_binged']
                     binged_kept_count += 1
                     print(f"⊙ Using Binged poster (TMDB error)")
                 else:
