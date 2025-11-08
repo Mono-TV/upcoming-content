@@ -30,16 +30,24 @@ except ImportError as e:
     print("   playwright install chromium")
     sys.exit(1)
 
+# Optional: PIL for placeholder generation
+try:
+    from PIL import Image, ImageDraw, ImageFont
+    PIL_AVAILABLE = True
+except ImportError:
+    PIL_AVAILABLE = False
+
 
 class ContentUpdater:
     """Unified content scraper and enricher with safety measures"""
 
-    def __init__(self, max_pages=5, enable_posters=True, enable_trailers=True, test_mode=False, fetch_binged_posters=True):
+    def __init__(self, max_pages=5, enable_posters=True, enable_trailers=True, test_mode=False, fetch_binged_posters=True, generate_placeholders=True):
         self.max_pages = max_pages
         self.enable_posters = enable_posters
         self.enable_trailers = enable_trailers
         self.test_mode = test_mode
         self.fetch_binged_posters = fetch_binged_posters
+        self.generate_placeholders = generate_placeholders and PIL_AVAILABLE
         self.movies = []
 
         # IMDb client
@@ -67,6 +75,23 @@ class ContentUpdater:
             '94': 'Manorama MAX',
             '155': 'Sony LIV'
         }
+
+        # Platform color schemes for placeholder generation
+        self.platform_colors = {
+            'Netflix': ('#E50914', '#8B0000'),  # Red gradient
+            'Amazon Prime Video': ('#00A8E1', '#00568B'),  # Blue gradient
+            'Apple TV+': ('#000000', '#333333'),  # Black to dark gray
+            'Jio Hotstar': ('#1F80E0', '#0F4070'),  # Blue gradient
+            'Zee5': ('#9D34DA', '#6B1FA0'),  # Purple gradient
+            'Sony LIV': ('#F47A20', '#C44500'),  # Orange gradient
+            'Sun NXT': ('#FFD700', '#FFA500'),  # Gold to orange
+            'Manorama MAX': ('#C41E3A', '#8B0000'),  # Red gradient
+            'default': ('#1a1a1a', '#000000')  # Dark gradient
+        }
+
+        # Create placeholders directory if needed
+        if self.generate_placeholders:
+            os.makedirs('placeholders', exist_ok=True)
 
     async def scrape_movies(self):
         """Step 1: Scrape movies from Binged.com"""
@@ -666,6 +691,146 @@ class ContentUpdater:
 
         return None
 
+    def _wrap_text(self, text: str, max_width: int, font) -> List[str]:
+        """Wrap text to fit within max_width"""
+        words = text.split()
+        lines = []
+        current_line = []
+
+        for word in words:
+            test_line = ' '.join(current_line + [word])
+            bbox = font.getbbox(test_line)
+            width = bbox[2] - bbox[0]
+
+            if width <= max_width:
+                current_line.append(word)
+            else:
+                if current_line:
+                    lines.append(' '.join(current_line))
+                current_line = [word]
+
+        if current_line:
+            lines.append(' '.join(current_line))
+
+        return lines if lines else [text]
+
+    def generate_placeholder_poster(self, movie: Dict) -> Optional[str]:
+        """
+        Generate a beautiful placeholder poster using PIL/Pillow
+        Returns the file path to the generated placeholder
+        """
+        if not PIL_AVAILABLE:
+            return None
+
+        try:
+            title = movie.get('title', 'Untitled')
+            platforms = movie.get('platforms', [])
+            release_date = movie.get('release_date', '')
+
+            # Choose primary platform for color scheme
+            primary_platform = platforms[0] if platforms else 'default'
+            colors = self.platform_colors.get(primary_platform, self.platform_colors['default'])
+
+            # Image dimensions (standard poster size)
+            width, height = 500, 750
+
+            # Create image with gradient background
+            img = Image.new('RGB', (width, height))
+            draw = ImageDraw.Draw(img)
+
+            # Draw gradient background
+            for y in range(height):
+                # Interpolate between the two colors
+                ratio = y / height
+                r1, g1, b1 = int(colors[0][1:3], 16), int(colors[0][3:5], 16), int(colors[0][5:7], 16)
+                r2, g2, b2 = int(colors[1][1:3], 16), int(colors[1][3:5], 16), int(colors[1][5:7], 16)
+
+                r = int(r1 + (r2 - r1) * ratio)
+                g = int(g1 + (g2 - g1) * ratio)
+                b = int(b1 + (b2 - b1) * ratio)
+
+                draw.line([(0, y), (width, y)], fill=(r, g, b))
+
+            # Try to load custom font, fall back to default
+            try:
+                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 36)
+                subtitle_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 20)
+                platform_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+            except:
+                # Fallback to default font
+                title_font = ImageFont.load_default()
+                subtitle_font = ImageFont.load_default()
+                platform_font = ImageFont.load_default()
+
+            # Wrap title text
+            max_title_width = width - 60  # 30px padding on each side
+            title_lines = self._wrap_text(title, max_title_width, title_font)
+
+            # Limit to 4 lines max
+            if len(title_lines) > 4:
+                title_lines = title_lines[:3] + [title_lines[3][:20] + '...']
+
+            # Calculate total text height
+            line_height = 45
+            title_height = len(title_lines) * line_height
+
+            # Draw title (centered vertically)
+            y_offset = (height - title_height) // 2 - 50
+
+            for line in title_lines:
+                bbox = title_font.getbbox(line)
+                text_width = bbox[2] - bbox[0]
+                x = (width - text_width) // 2
+
+                # Draw text shadow
+                draw.text((x + 2, y_offset + 2), line, fill=(0, 0, 0, 180), font=title_font)
+                # Draw text
+                draw.text((x, y_offset), line, fill=(255, 255, 255), font=title_font)
+                y_offset += line_height
+
+            # Draw release date
+            if release_date:
+                y_offset += 30
+                bbox = subtitle_font.getbbox(release_date)
+                text_width = bbox[2] - bbox[0]
+                x = (width - text_width) // 2
+                draw.text((x + 1, y_offset + 1), release_date, fill=(0, 0, 0, 180), font=subtitle_font)
+                draw.text((x, y_offset), release_date, fill=(200, 200, 200), font=subtitle_font)
+
+            # Draw platform names
+            if platforms:
+                y_offset += 40
+                platform_text = ' • '.join(platforms[:2])  # Max 2 platforms
+                if len(platforms) > 2:
+                    platform_text += f" +{len(platforms) - 2}"
+
+                bbox = platform_font.getbbox(platform_text)
+                text_width = bbox[2] - bbox[0]
+                x = (width - text_width) // 2
+                draw.text((x + 1, y_offset + 1), platform_text, fill=(0, 0, 0, 180), font=platform_font)
+                draw.text((x, y_offset), platform_text, fill=(180, 180, 180), font=platform_font)
+
+            # Generate filename (sanitize title)
+            safe_title = "".join(c for c in title if c.isalnum() or c in (' ', '-')).rstrip()
+            safe_title = safe_title.replace(' ', '-').lower()[:50]
+
+            # Save medium and large versions
+            filename_medium = f"placeholders/{safe_title}-medium.jpg"
+            filename_large = f"placeholders/{safe_title}-large.jpg"
+
+            # Save medium (500x750)
+            img.save(filename_medium, 'JPEG', quality=85, optimize=True)
+
+            # Create larger version (1000x1500)
+            img_large = img.resize((1000, 1500), Image.Resampling.LANCZOS)
+            img_large.save(filename_large, 'JPEG', quality=90, optimize=True)
+
+            return filename_medium
+
+        except Exception as e:
+            print(f"⚠️  Placeholder generation error: {str(e)[:50]}")
+            return None
+
     def _apply_manual_correction(self, movie: Dict, title: str):
         """Apply manual correction data to movie"""
         correction = self.manual_corrections[title]
@@ -891,8 +1056,18 @@ class ContentUpdater:
                         movie['poster_url_large'] = movie['poster_url_binged']
                         binged_kept_count += 1
                         print("⊙ Using Binged poster (TMDB not found)")
+                    elif self.generate_placeholders:
+                        # Generate placeholder poster
+                        placeholder_path = self.generate_placeholder_poster(movie)
+                        if placeholder_path:
+                            movie['poster_url_medium'] = placeholder_path
+                            movie['poster_url_large'] = placeholder_path.replace('-medium.jpg', '-large.jpg')
+                            movie['poster_generated'] = True
+                            print("✓ Generated placeholder poster")
+                        else:
+                            print("✗ No poster available")
                     else:
-                        print("✗ Not found in TMDB")
+                        print("✗ No poster available")
 
                 time.sleep(0.5)  # Rate limiting
 
@@ -903,10 +1078,23 @@ class ContentUpdater:
                     movie['poster_url_large'] = movie['poster_url_binged']
                     binged_kept_count += 1
                     print(f"⊙ Using Binged poster (TMDB error)")
+                elif self.generate_placeholders:
+                    # Generate placeholder poster
+                    placeholder_path = self.generate_placeholder_poster(movie)
+                    if placeholder_path:
+                        movie['poster_url_medium'] = placeholder_path
+                        movie['poster_url_large'] = placeholder_path.replace('-medium.jpg', '-large.jpg')
+                        movie['poster_generated'] = True
+                        print("✓ Generated placeholder (TMDB error)")
+                    else:
+                        print(f"✗ Error: {str(e)[:30]}")
                 else:
                     print(f"✗ Error: {str(e)[:30]}")
 
-        total_with_posters = tmdb_found + binged_kept_count
+        # Count placeholders generated
+        placeholders_generated = sum(1 for m in self.movies if m.get('poster_generated'))
+
+        total_with_posters = tmdb_found + binged_kept_count + placeholders_generated
         print(f"\n✅ TMDB enrichment: {tmdb_found}/{len(self.movies)} movies")
         print(f"   🎬 TMDB IDs found: {tmdb_found}/{len(self.movies)}")
         print(f"   🎭 IMDb IDs from TMDB: {imdb_from_tmdb}/{len(self.movies)}")
@@ -914,6 +1102,8 @@ class ContentUpdater:
             print(f"   📋 Manual corrections: {manual_count}")
         if binged_kept_count > 0:
             print(f"   ⊙ Binged fallback posters: {binged_kept_count}")
+        if placeholders_generated > 0:
+            print(f"   🎨 Generated placeholders: {placeholders_generated}")
         print(f"   📸 Total with posters: {total_with_posters}/{len(self.movies)}")
         self._save_json(self.movies, 'movies_with_tmdb.json')
 
@@ -1010,15 +1200,22 @@ def main():
     parser.add_argument('--no-trailers', action='store_true', help='Skip YouTube trailer enrichment')
     parser.add_argument('--no-posters', action='store_true', help='Skip TMDb poster enrichment')
     parser.add_argument('--no-binged-posters', action='store_true', help='Skip fetching posters from Binged content pages')
+    parser.add_argument('--no-placeholders', action='store_true', help='Skip generating placeholder posters (requires Pillow)')
     parser.add_argument('--test', action='store_true', help='Test mode: process only 3 movies')
 
     args = parser.parse_args()
+
+    # Check if Pillow is needed but not available
+    if not args.no_placeholders and not PIL_AVAILABLE:
+        print("⚠️  Pillow not available. Placeholder generation will be disabled.")
+        print("💡 Install with: pip3 install pillow")
 
     updater = ContentUpdater(
         max_pages=args.pages,
         enable_trailers=not args.no_trailers,
         enable_posters=not args.no_posters,
         fetch_binged_posters=not args.no_binged_posters,
+        generate_placeholders=not args.no_placeholders,
         test_mode=args.test
     )
 
