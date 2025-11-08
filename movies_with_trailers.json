@@ -1,11 +1,69 @@
 [
   {
+    "title": "Harimau Merah: Intrik Dalaman",
+    "url": "https://www.binged.com/streaming-premiere-dates/harimau-merah-intrik-dalaman-movie-streaming-online-watch/",
+    "release_date": "08 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/iDwdniUPPTIVOHbIXkRjcJPz59L.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/iDwdniUPPTIVOHbIXkRjcJPz59L.jpg",
+    "tmdb_id": 1209629,
+    "tmdb_media_type": "movie",
+    "youtube_id": "e8Yj6wr9cCI",
+    "youtube_url": "https://www.youtube.com/watch?v=e8Yj6wr9cCI"
+  },
+  {
+    "title": "Indra",
+    "url": "https://www.binged.com/streaming-premiere-dates/indra-tamil-movie-streaming-online-watch/",
+    "release_date": "08 Nov 2025",
+    "platforms": [
+      "Platform 6",
+      "Platform 41"
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/mHEgZ47q7jiZk3z3F77EYvpddKK.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/mHEgZ47q7jiZk3z3F77EYvpddKK.jpg",
+    "tmdb_id": 1502690,
+    "tmdb_media_type": "movie",
+    "youtube_id": "_7kdvFFlBSU",
+    "youtube_url": "https://www.youtube.com/watch?v=_7kdvFFlBSU"
+  },
+  {
+    "title": "Stumble",
+    "url": "https://www.binged.com/streaming-premiere-dates/stumble-web-series-streaming-online-watch/",
+    "release_date": "08 Nov 2025",
+    "platforms": [
+      "Platform 10"
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/imA17Iqvi2V3UEmEtjtiYj0RoCk.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/imA17Iqvi2V3UEmEtjtiYj0RoCk.jpg",
+    "tmdb_id": 757966,
+    "tmdb_media_type": "movie",
+    "youtube_id": "hPPqgLajhKA",
+    "youtube_url": "https://www.youtube.com/watch?v=hPPqgLajhKA"
+  },
+  {
+    "title": "Thayyal Machine",
+    "url": "https://www.binged.com/streaming-premiere-dates/thayyal-machine-malayalam-movie-streaming-online-watch/",
+    "release_date": "08 Nov 2025",
+    "platforms": [
+      "Platform 27",
+      "Platform 54"
+    ],
+    "youtube_id": "qWh0UGGBXN0",
+    "youtube_url": "https://www.youtube.com/watch?v=qWh0UGGBXN0"
+  },
+  {
     "title": "Aarpar",
     "url": "https://www.binged.com/streaming-premiere-dates/aarpar-marathi-movie-streaming-online-watch/",
     "release_date": "07 Nov 2025",
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/2MBAKCMx1eetLPfD0zm6GPG7kHj.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/2MBAKCMx1eetLPfD0zm6GPG7kHj.jpg",
+    "tmdb_id": 1539463,
+    "tmdb_media_type": "movie",
     "youtube_id": "boWisnqM2gE",
     "youtube_url": "https://www.youtube.com/watch?v=boWisnqM2gE"
   },
@@ -26,8 +84,22 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/PtarG5FOl4swkTSh1AGaUKCFwg.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/PtarG5FOl4swkTSh1AGaUKCFwg.jpg",
+    "tmdb_id": 1561969,
+    "tmdb_media_type": "movie",
     "youtube_id": "02m_KG2xzpY",
     "youtube_url": "https://www.youtube.com/watch?v=02m_KG2xzpY"
+  },
+  {
+    "title": "Chiranjeeva",
+    "url": "https://www.binged.com/streaming-premiere-dates/chiranjeeva-telugu-movie-streaming-online-watch/",
+    "release_date": "07 Nov 2025",
+    "platforms": [
+      "Platform 2"
+    ],
+    "youtube_id": "Ep6CSZIZNqo",
+    "youtube_url": "https://www.youtube.com/watch?v=Ep6CSZIZNqo"
   },
   {
     "title": "Death by Lightning",
@@ -36,6 +108,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/KyUrz3GA1FML3XnKkY795XxDxN.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/KyUrz3GA1FML3XnKkY795XxDxN.jpg",
+    "tmdb_id": 245219,
+    "tmdb_media_type": "tv",
     "youtube_id": "6jopqrSojQE",
     "youtube_url": "https://www.youtube.com/watch?v=6jopqrSojQE"
   },
@@ -56,6 +132,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/apMb2Oz9uvqA19dawmeglKM7THX.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/apMb2Oz9uvqA19dawmeglKM7THX.jpg",
+    "tmdb_id": 1525484,
+    "tmdb_media_type": "movie",
     "youtube_id": "t-WME4yy2Wo",
     "youtube_url": "https://www.youtube.com/watch?v=t-WME4yy2Wo"
   },
@@ -66,8 +146,12 @@
     "platforms": [
       "Jio Hotstar"
     ],
-    "youtube_id": "5YiBxT4vP5U",
-    "youtube_url": "https://www.youtube.com/watch?v=5YiBxT4vP5U"
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/v9NLaLBbrkDwq44qG51v8T6sPuI.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/v9NLaLBbrkDwq44qG51v8T6sPuI.jpg",
+    "tmdb_id": 1062722,
+    "tmdb_media_type": "movie",
+    "youtube_id": "8aulMPhE12g",
+    "youtube_url": "https://www.youtube.com/watch?v=8aulMPhE12g"
   },
   {
     "title": "Kaayal",
@@ -86,6 +170,10 @@
     "platforms": [
       "Platform 27"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/wyxJ3KkygtNApMpNS1t23nOjmGV.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/wyxJ3KkygtNApMpNS1t23nOjmGV.jpg",
+    "tmdb_id": 272220,
+    "tmdb_media_type": "movie",
     "youtube_id": "dfyec7cQoAI",
     "youtube_url": "https://www.youtube.com/watch?v=dfyec7cQoAI"
   },
@@ -96,6 +184,10 @@
     "platforms": [
       "Platform 52"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/vp2mQynmTY0XTwOpoQnubtH9rDp.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/vp2mQynmTY0XTwOpoQnubtH9rDp.jpg",
+    "tmdb_id": 677285,
+    "tmdb_media_type": "movie",
     "youtube_id": "u2XelePLU4Y",
     "youtube_url": "https://www.youtube.com/watch?v=u2XelePLU4Y"
   },
@@ -106,8 +198,8 @@
     "platforms": [
       "Platform 39"
     ],
-    "youtube_id": "NscUnARPyYs",
-    "youtube_url": "https://www.youtube.com/watch?v=NscUnARPyYs"
+    "youtube_id": "iy6vJNgJyTw",
+    "youtube_url": "https://www.youtube.com/watch?v=iy6vJNgJyTw"
   },
   {
     "title": "Mango",
@@ -127,6 +219,10 @@
       "Amazon Prime Video",
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/nvXcq5eI2pGDDDEGPH7vZvij7sU.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/nvXcq5eI2pGDDDEGPH7vZvij7sU.jpg",
+    "tmdb_id": 1249902,
+    "tmdb_media_type": "movie",
     "youtube_id": "ahZX-ewuZP8",
     "youtube_url": "https://www.youtube.com/watch?v=ahZX-ewuZP8"
   },
@@ -147,6 +243,10 @@
     "platforms": [
       "Netflix"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/nrM2xFUfKJJEmZzd5d7kohT2G0C.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/nrM2xFUfKJJEmZzd5d7kohT2G0C.jpg",
+    "tmdb_id": 225171,
+    "tmdb_media_type": "tv",
     "youtube_id": "a6lzvWby9UE",
     "youtube_url": "https://www.youtube.com/watch?v=a6lzvWby9UE"
   },
@@ -157,6 +257,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/12ybD4BvgSpmhSjknFPvf1Nu7CC.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/12ybD4BvgSpmhSjknFPvf1Nu7CC.jpg",
+    "tmdb_id": 302540,
+    "tmdb_media_type": "tv",
     "youtube_id": "o6HXxD6CcLg",
     "youtube_url": "https://www.youtube.com/watch?v=o6HXxD6CcLg"
   },
@@ -177,6 +281,10 @@
     "platforms": [
       "Platform 52"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/q8zXTmVn6EEOP6KzoZLBVKBjTwH.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/q8zXTmVn6EEOP6KzoZLBVKBjTwH.jpg",
+    "tmdb_id": 305017,
+    "tmdb_media_type": "tv",
     "youtube_id": "flf5ZMIhaws",
     "youtube_url": "https://www.youtube.com/watch?v=flf5ZMIhaws"
   },
@@ -187,8 +295,12 @@
     "platforms": [
       "Jio Hotstar"
     ],
-    "youtube_id": "vWEz1hQgDcY",
-    "youtube_url": "https://www.youtube.com/watch?v=vWEz1hQgDcY"
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/m2yPoa1L0ZYVGNxECnMHtiLv9XC.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/m2yPoa1L0ZYVGNxECnMHtiLv9XC.jpg",
+    "tmdb_id": 92967,
+    "tmdb_media_type": "tv",
+    "youtube_id": "1ShRHfyLHtM",
+    "youtube_url": "https://www.youtube.com/watch?v=1ShRHfyLHtM"
   },
   {
     "title": "Mithra Mandali",
@@ -197,6 +309,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/A1nFTGWgoP1FAiDsE0NJXTVjORk.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/A1nFTGWgoP1FAiDsE0NJXTVjORk.jpg",
+    "tmdb_id": 1428816,
+    "tmdb_media_type": "movie",
     "youtube_id": "hGXMm4Cx6Po",
     "youtube_url": "https://www.youtube.com/watch?v=hGXMm4Cx6Po"
   },
@@ -207,8 +323,12 @@
     "platforms": [
       "Jio Hotstar"
     ],
-    "youtube_id": "8BFdFeOS3oM",
-    "youtube_url": "https://www.youtube.com/watch?v=8BFdFeOS3oM"
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/dY6Dy8fbnbkVLWyhokOTPU2A3Z5.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/dY6Dy8fbnbkVLWyhokOTPU2A3Z5.jpg",
+    "tmdb_id": 1208758,
+    "tmdb_media_type": "movie",
+    "youtube_id": "jbezpOggmYs",
+    "youtube_url": "https://www.youtube.com/watch?v=jbezpOggmYs"
   },
   {
     "title": "Warkop DKI Kartun",
@@ -217,6 +337,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/yisiL4mVnnT3vsE0hLFY9kuAN6M.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/yisiL4mVnnT3vsE0hLFY9kuAN6M.jpg",
+    "tmdb_id": 962626,
+    "tmdb_media_type": "movie",
     "youtube_id": "L_TIfJnpBuY",
     "youtube_url": "https://www.youtube.com/watch?v=L_TIfJnpBuY"
   },
@@ -228,6 +352,10 @@
       "Jio Hotstar",
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/w8UCke112E9jrhjKcwG32kyhTx5.jpg",
+    "tmdb_id": 1645,
+    "tmdb_media_type": "movie",
     "youtube_id": "701GQjY6PaI",
     "youtube_url": "https://www.youtube.com/watch?v=701GQjY6PaI"
   },
@@ -248,6 +376,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/8oBbWxWDJrrDtNkmd0OzZpPFFUR.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/8oBbWxWDJrrDtNkmd0OzZpPFFUR.jpg",
+    "tmdb_id": 1049942,
+    "tmdb_media_type": "movie",
     "youtube_id": "j_J2-GafTSQ",
     "youtube_url": "https://www.youtube.com/watch?v=j_J2-GafTSQ"
   },
@@ -262,6 +394,10 @@
       "Platform 53",
       "Platform 6"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+    "tmdb_id": 519182,
+    "tmdb_media_type": "movie",
     "youtube_id": "qQlr9-rF32A",
     "youtube_url": "https://www.youtube.com/watch?v=qQlr9-rF32A"
   },
@@ -272,6 +408,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/uz8xeDph9jD5JD3kGiktOcRwAI3.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/uz8xeDph9jD5JD3kGiktOcRwAI3.jpg",
+    "tmdb_id": 217528,
+    "tmdb_media_type": "tv",
     "youtube_id": "9fBgHvXtGwA",
     "youtube_url": "https://www.youtube.com/watch?v=9fBgHvXtGwA"
   },
@@ -282,6 +422,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/xV0dzVfaYgqWBnKVNWWyZk2YdrE.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/xV0dzVfaYgqWBnKVNWWyZk2YdrE.jpg",
+    "tmdb_id": 302723,
+    "tmdb_media_type": "tv",
     "youtube_id": "bOqoiVw5w60",
     "youtube_url": "https://www.youtube.com/watch?v=bOqoiVw5w60"
   },
@@ -292,6 +436,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/uxntXFQ6SqY4celQejnUC9y6TQ3.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/uxntXFQ6SqY4celQejnUC9y6TQ3.jpg",
+    "tmdb_id": 304936,
+    "tmdb_media_type": "tv",
     "youtube_id": "37xAH4W5NsE",
     "youtube_url": "https://www.youtube.com/watch?v=37xAH4W5NsE"
   },
@@ -302,6 +450,10 @@
     "platforms": [
       "Platform 10"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/cm8TNGBGG0aBfWj0LgrESHv8tir.jpg",
+    "tmdb_id": 617126,
+    "tmdb_media_type": "movie",
     "youtube_id": "18QQWa5MEcs",
     "youtube_url": "https://www.youtube.com/watch?v=18QQWa5MEcs"
   },
@@ -312,6 +464,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/sUMdbrjHhMFDY327B31ctpF9MuY.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/sUMdbrjHhMFDY327B31ctpF9MuY.jpg",
+    "tmdb_id": 1252382,
+    "tmdb_media_type": "movie",
     "youtube_id": "60befdTWmG8",
     "youtube_url": "https://www.youtube.com/watch?v=60befdTWmG8"
   },
@@ -322,6 +478,10 @@
     "platforms": [
       "Platform 10"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/akJ3gusmlRGvKoFzLgJxsIBL4W4.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/akJ3gusmlRGvKoFzLgJxsIBL4W4.jpg",
+    "tmdb_id": 258742,
+    "tmdb_media_type": "tv",
     "youtube_id": "4SVJMKNfF0w",
     "youtube_url": "https://www.youtube.com/watch?v=4SVJMKNfF0w"
   },
@@ -342,6 +502,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/bWlwHhTKyp8hB5OhReV9rCmUSFg.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/bWlwHhTKyp8hB5OhReV9rCmUSFg.jpg",
+    "tmdb_id": 1567489,
+    "tmdb_media_type": "movie",
     "youtube_id": "7xt0TcGKOKs",
     "youtube_url": "https://www.youtube.com/watch?v=7xt0TcGKOKs"
   },
@@ -352,6 +516,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/9e1cY82LRfZFpRmBKBc99LGQ9kq.jpg",
+    "tmdb_id": 302012,
+    "tmdb_media_type": "tv",
     "youtube_id": "OeYoUdejBhg",
     "youtube_url": "https://www.youtube.com/watch?v=OeYoUdejBhg"
   },
@@ -372,6 +540,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg",
+    "tmdb_id": 975225,
+    "tmdb_media_type": "movie",
     "youtube_id": "wMQZG9u4Sjg",
     "youtube_url": "https://www.youtube.com/watch?v=wMQZG9u4Sjg"
   },
@@ -392,6 +564,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/5jqpfOY6q8ltnCFEfUPY3c0bpR5.jpg",
+    "tmdb_id": 1497036,
+    "tmdb_media_type": "movie",
     "youtube_id": "EDV0sFoFmsQ",
     "youtube_url": "https://www.youtube.com/watch?v=EDV0sFoFmsQ"
   },
@@ -402,6 +578,10 @@
     "platforms": [
       "Platform 10"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/6xrLXEQABvoVwGka9KDDAOt4lFs.jpg",
+    "tmdb_id": 271053,
+    "tmdb_media_type": "tv",
     "youtube_id": "DnBAmvw_Yow",
     "youtube_url": "https://www.youtube.com/watch?v=DnBAmvw_Yow"
   },
@@ -412,6 +592,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/AlwiOgWWPwZ0WmFmtWyWNIhpcW1.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/AlwiOgWWPwZ0WmFmtWyWNIhpcW1.jpg",
+    "tmdb_id": 1332986,
+    "tmdb_media_type": "movie",
     "youtube_id": "ao8tiqnuS3Y",
     "youtube_url": "https://www.youtube.com/watch?v=ao8tiqnuS3Y"
   },
@@ -424,8 +608,10 @@
       "Platform 52",
       "Jio Hotstar"
     ],
-    "imdb_id": "tt5690360",
-    "imdb_year": "2017",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/ahF5c6vyP8HWMqIwlhecbRALkjq.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/ahF5c6vyP8HWMqIwlhecbRALkjq.jpg",
+    "tmdb_id": 433498,
+    "tmdb_media_type": "movie",
     "youtube_id": "hctApy_i-qg",
     "youtube_url": "https://www.youtube.com/watch?v=hctApy_i-qg"
   },
@@ -438,6 +624,10 @@
       "Jio Hotstar",
       "Platform 52"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/yKEKZ0uTpKm743xsPOuhrfTBLL2.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/yKEKZ0uTpKm743xsPOuhrfTBLL2.jpg",
+    "tmdb_id": 479918,
+    "tmdb_media_type": "movie",
     "youtube_id": "MU4QL-VwDlc",
     "youtube_url": "https://www.youtube.com/watch?v=MU4QL-VwDlc"
   },
@@ -448,6 +638,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/zh8KKAa8pFB6oqtPgQc9SLhISdU.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/zh8KKAa8pFB6oqtPgQc9SLhISdU.jpg",
+    "tmdb_id": 54607,
+    "tmdb_media_type": "tv",
     "youtube_id": "bweiral1C7U",
     "youtube_url": "https://www.youtube.com/watch?v=bweiral1C7U"
   },
@@ -478,6 +672,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/r7OUQhkuJolddrmSAh9tAir01ui.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/r7OUQhkuJolddrmSAh9tAir01ui.jpg",
+    "tmdb_id": 300397,
+    "tmdb_media_type": "tv",
     "youtube_id": "YTqPXemOcaI",
     "youtube_url": "https://www.youtube.com/watch?v=YTqPXemOcaI"
   },
@@ -488,6 +686,10 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/3TKkFQ3xG4bnSFDsBOnLdZI6iHs.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/3TKkFQ3xG4bnSFDsBOnLdZI6iHs.jpg",
+    "tmdb_id": 97425,
+    "tmdb_media_type": "tv",
     "youtube_id": "ToKpqc40R3M",
     "youtube_url": "https://www.youtube.com/watch?v=ToKpqc40R3M"
   },
@@ -498,8 +700,12 @@
     "platforms": [
       "Jio Hotstar"
     ],
-    "youtube_id": "WilmTP_kfYs",
-    "youtube_url": "https://www.youtube.com/watch?v=WilmTP_kfYs"
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/oTDDEtGTfkL4nU5CcwL8tZSkKIC.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/oTDDEtGTfkL4nU5CcwL8tZSkKIC.jpg",
+    "tmdb_id": 228921,
+    "tmdb_media_type": "tv",
+    "youtube_id": "QphpcEmdmAk",
+    "youtube_url": "https://www.youtube.com/watch?v=QphpcEmdmAk"
   },
   {
     "title": "Elevation",
@@ -509,6 +715,10 @@
       "Platform 10",
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/tnfc0NJ3BzhJrGJhkkEd6MHBdq5.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/tnfc0NJ3BzhJrGJhkkEd6MHBdq5.jpg",
+    "tmdb_id": 1035048,
+    "tmdb_media_type": "movie",
     "youtube_id": "ZivlF_UYkN0",
     "youtube_url": "https://www.youtube.com/watch?v=ZivlF_UYkN0"
   },
@@ -519,6 +729,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/fxST2MqYdafW5zucXX85qddvnjm.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/fxST2MqYdafW5zucXX85qddvnjm.jpg",
+    "tmdb_id": 1268552,
+    "tmdb_media_type": "movie",
     "youtube_id": "ZyW0MoZI9hY",
     "youtube_url": "https://www.youtube.com/watch?v=ZyW0MoZI9hY"
   },
@@ -529,6 +743,10 @@
     "platforms": [
       "Amazon Prime Video"
     ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/ox5UsOyPaU2iofSTZPNXrXz1gAI.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/ox5UsOyPaU2iofSTZPNXrXz1gAI.jpg",
+    "tmdb_id": 1078946,
+    "tmdb_media_type": "movie",
     "youtube_id": "y4F1PuiS1XM",
     "youtube_url": "https://www.youtube.com/watch?v=y4F1PuiS1XM"
   }

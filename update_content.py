@@ -34,10 +34,11 @@ except ImportError as e:
 class ContentUpdater:
     """Unified content scraper and enricher with safety measures"""
 
-    def __init__(self, max_pages=5, enable_posters=True, enable_trailers=True):
+    def __init__(self, max_pages=5, enable_posters=True, enable_trailers=True, test_mode=False):
         self.max_pages = max_pages
         self.enable_posters = enable_posters
         self.enable_trailers = enable_trailers
+        self.test_mode = test_mode
         self.movies = []
 
         # IMDb client
@@ -213,21 +214,47 @@ class ContentUpdater:
                 if platforms:
                     movie_data['platforms'] = platforms
 
-        # Image
+        # Poster (from Binged - primary source)
         image_div = item.find('div', class_='bng-movies-table-image')
         if image_div:
             img = image_div.find('img')
             if img:
-                img_src = img.get('src', '')
+                # Try different attributes (data-src for lazy loading, then src)
+                # Also check srcset for higher quality images
+                img_src = img.get('data-src', '') or img.get('src', '') or img.get('data-lazy-src', '')
+
+                # Check srcset for potentially higher quality images
+                srcset = img.get('srcset', '')
+                if srcset and not img_src:
+                    # srcset format: "url1 1x, url2 2x" - take the highest resolution
+                    srcset_parts = srcset.split(',')
+                    if srcset_parts:
+                        # Take the last one (usually highest quality)
+                        img_src = srcset_parts[-1].strip().split()[0]
+
                 if img_src:
-                    movie_data['image_url'] = img_src
+                    # Handle relative URLs
+                    if not img_src.startswith('http'):
+                        if img_src.startswith('//'):
+                            img_src = 'https:' + img_src
+                        elif img_src.startswith('/'):
+                            img_src = 'https://www.binged.com' + img_src
+                        else:
+                            img_src = 'https://www.binged.com/' + img_src
+
+                    # Only save if it looks like a valid URL
+                    if img_src.startswith('http') and not img_src.endswith('.svg'):
+                        movie_data['poster_url_binged'] = img_src
+                        # Set as fallback poster
+                        movie_data['poster_url_medium'] = img_src
+                        movie_data['poster_url_large'] = img_src
 
         return movie_data if movie_data.get('title') else None
 
     def enrich_with_imdb(self):
-        """Step 2: Enrich with IMDb data (with manual corrections)"""
+        """Step 4: Fill missing IMDb data (optional)"""
         print("\n" + "="*60)
-        print("STEP 2: ENRICHING WITH IMDB DATA")
+        print("STEP 4: IMDB DATA (FILL MISSING INFO)")
         print("="*60 + "\n")
 
         enriched_count = 0
@@ -323,6 +350,22 @@ class ContentUpdater:
             except Exception as e:
                 raise e
 
+    def _clean_title_for_search(self, title):
+        """Clean up title for better search results"""
+        if not title:
+            return title
+
+        # Remove common patterns that might confuse search
+        cleaned = title
+        # Remove content in parentheses (often languages or years)
+        cleaned = re.sub(r'\([^)]*\)', '', cleaned)
+        # Remove extra whitespace
+        cleaned = ' '.join(cleaned.split())
+        # Remove trailing punctuation
+        cleaned = cleaned.strip(' -:')
+
+        return cleaned
+
     def _extract_language_from_url(self, url):
         """Extract language from Binged URL for better search accuracy"""
         if not url:
@@ -366,7 +409,7 @@ class ContentUpdater:
             return
 
         print("\n" + "="*60)
-        print("STEP 3: FINDING YOUTUBE TRAILERS")
+        print("STEP 3: YOUTUBE TRAILERS")
         print("="*60 + "\n")
 
         enriched_count = 0
@@ -390,8 +433,11 @@ class ContentUpdater:
             # Extract language from URL for better specificity
             language = self._extract_language_from_url(url)
 
+            # Clean title for better search
+            clean_title = self._clean_title_for_search(title)
+
             # Build intelligent search query with available metadata
-            search_parts = [title]
+            search_parts = [clean_title]
             if language:
                 search_parts.append(language)
             if year:
@@ -468,17 +514,19 @@ class ContentUpdater:
             return
 
         print("\n" + "="*60)
-        print("STEP 4: ADDING HIGH-QUALITY POSTERS")
+        print("STEP 2: TMDB ENRICHMENT (UPGRADE POSTERS + METADATA)")
         print("="*60 + "\n")
 
         enriched_count = 0
         manual_count = 0
         validated_count = 0
         imdb_fallback_count = 0
+        binged_kept_count = 0
 
         for i, movie in enumerate(self.movies, 1):
             title = movie.get('title', '')
             year = movie.get('imdb_year', '')
+            has_binged_poster = bool(movie.get('poster_url_binged'))
 
             print(f"[{i}/{len(self.movies)}] {title[:40]}... ", end='', flush=True)
 
@@ -523,7 +571,10 @@ class ContentUpdater:
             try:
                 # Extract language for better search
                 language = self._extract_language_from_url(movie.get('url', ''))
-                search_query = f"{title} {language}" if language else title
+
+                # Clean title for better search results
+                clean_title = self._clean_title_for_search(title)
+                search_query = f"{clean_title} {language}" if language else clean_title
 
                 # Search TMDb with language context and retry logic
                 url = "https://api.themoviedb.org/3/search/multi"
@@ -534,6 +585,12 @@ class ContentUpdater:
                 }
 
                 data = self._fetch_with_retry(url, params)
+
+                # If no results and we used language, try again without it
+                if (not data.get('results') or len(data['results']) == 0) and language:
+                    time.sleep(0.5)  # Small delay before retry
+                    params['query'] = clean_title
+                    data = self._fetch_with_retry(url, params)
 
                 poster_found = False
                 if 'results' in data and len(data['results']) > 0:
@@ -594,21 +651,32 @@ class ContentUpdater:
                         pass  # Continue to print not found below
 
                 if not poster_found:
-                    print("✗ Not found")
+                    if has_binged_poster:
+                        binged_kept_count += 1
+                        print("⊙ Using Binged poster (TMDb not found)")
+                    else:
+                        print("✗ No poster available")
 
                 time.sleep(1.0)  # Rate limiting - increased from 0.3s
 
             except Exception as e:
-                print(f"✗ Error: {str(e)[:50]}")
+                if has_binged_poster:
+                    binged_kept_count += 1
+                    print(f"⊙ Using Binged poster (TMDb error)")
+                else:
+                    print(f"✗ Error: {str(e)[:50]}")
 
-        print(f"\n✅ Added posters for {enriched_count}/{len(self.movies)} movies")
+        total_with_posters = enriched_count + binged_kept_count
+        print(f"\n✅ Posters: {total_with_posters}/{len(self.movies)} movies")
+        if enriched_count > 0:
+            print(f"   ✓ {enriched_count} TMDb high-quality (validated)")
         if manual_count > 0:
             print(f"   📋 {manual_count} from manual corrections")
         if imdb_fallback_count > 0:
             print(f"   🔗 {imdb_fallback_count} via IMDb ID fallback")
-        if validated_count > 0:
-            print(f"   ✓ {validated_count} validated (URLs tested)")
-        self._save_json(self.movies, 'movies_enriched.json')
+        if binged_kept_count > 0:
+            print(f"   ⊙ {binged_kept_count} using Binged fallback")
+        self._save_json(self.movies, 'movies_with_tmdb.json')
 
     def _save_json(self, data, filename):
         """Save data to JSON file"""
@@ -626,20 +694,32 @@ class ContentUpdater:
         print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*60)
 
-        # Step 1: Scrape
+        # Step 1: Scrape (includes Binged posters as fallback)
         await self.scrape_movies()
 
-        # Step 2: IMDb enrichment
+        # Test mode: limit to first 3 movies
+        if self.test_mode and len(self.movies) > 3:
+            print(f"\n🧪 TEST MODE: Processing only first 3 movies (out of {len(self.movies)})")
+            self.movies = self.movies[:3]
+
+        # Step 2: TMDb enrichment (upgrade posters + metadata)
         if self.movies:
-            self.enrich_with_imdb()
+            self.enrich_with_posters()
 
         # Step 3: YouTube trailers
         if self.movies:
             self.enrich_with_youtube()
 
-        # Step 4: TMDb posters
+        # Step 4: IMDb enrichment (fill missing data only)
         if self.movies:
-            self.enrich_with_posters()
+            self.enrich_with_imdb()
+
+        # Final: Save complete enriched data
+        if self.movies:
+            print("\n" + "="*60)
+            print("SAVING FINAL ENRICHED DATA")
+            print("="*60 + "\n")
+            self._save_json(self.movies, 'movies_enriched.json')
 
         # Summary
         elapsed = time.time() - start_time
@@ -659,12 +739,13 @@ class ContentUpdater:
         print(f"   • With TMDb posters: {with_posters}/{len(self.movies)} {'✓' if with_posters > len(self.movies)//2 else '⚠'}")
         print(f"   • Time elapsed: {elapsed:.1f} seconds")
         print(f"\n📁 Files created:")
-        print(f"   • movies.json")
-        print(f"   • movies_with_imdb.json")
-        if self.enable_trailers:
-            print(f"   • movies_with_trailers.json")
+        print(f"   • movies.json (scraped data)")
         if self.enable_posters:
-            print(f"   • movies_enriched.json")
+            print(f"   • movies_with_tmdb.json (+ TMDb posters)")
+        if self.enable_trailers:
+            print(f"   • movies_with_trailers.json (+ YouTube)")
+        print(f"   • movies_with_imdb.json (+ IMDb IDs)")
+        print(f"   • movies_enriched.json (✨ FINAL - all data)")
 
         # Warnings/tips
         if with_posters < len(self.movies) // 2:
@@ -683,13 +764,15 @@ def main():
     parser.add_argument('--pages', type=int, default=5, help='Number of pages to scrape (default: 5)')
     parser.add_argument('--no-trailers', action='store_true', help='Skip YouTube trailer enrichment')
     parser.add_argument('--no-posters', action='store_true', help='Skip TMDb poster enrichment')
+    parser.add_argument('--test', action='store_true', help='Test mode: process only 3 movies')
 
     args = parser.parse_args()
 
     updater = ContentUpdater(
         max_pages=args.pages,
         enable_trailers=not args.no_trailers,
-        enable_posters=not args.no_posters
+        enable_posters=not args.no_posters,
+        test_mode=args.test
     )
 
     asyncio.run(updater.run())
