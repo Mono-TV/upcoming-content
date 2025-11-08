@@ -289,15 +289,13 @@ function createMovieCard(movie) {
         .map(p => sanitizeText(p))
         .join(' • ');
 
-    // Create fallback SVG URL for broken images
-    const fallbackSvg = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 450'%3E%3Crect fill='%23667eea' width='300' height='450'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='white'%3E${encodeURIComponent(movie.title || 'Untitled')}%3C/text%3E%3C/svg%3E`;
-
     card.innerHTML = `
         <div class="movie-poster">
             <img src="${safePosterUrl}"
                  alt="${safeTitle}"
                  loading="lazy"
-                 onerror="this.src='${fallbackSvg}'">
+                 data-title="${safeTitle}"
+                 class="movie-poster-img">
 
             <!-- Hover Tooltip -->
             <div class="movie-tooltip">
@@ -318,6 +316,29 @@ function createMovieCard(movie) {
             <button class="close-button" onclick="collapseCard(event)"></button>
         </div>
     `;
+
+    // Add error handler for missing images - create liquid glass placeholder
+    const posterImg = card.querySelector('.movie-poster-img');
+    if (posterImg) {
+        posterImg.addEventListener('error', function() {
+            // Don't recreate if already has placeholder
+            if (this.parentElement.querySelector('.poster-placeholder')) return;
+
+            // Create liquid glass placeholder
+            const placeholder = document.createElement('div');
+            placeholder.className = 'poster-placeholder';
+
+            const titleText = document.createElement('div');
+            titleText.className = 'poster-placeholder-text';
+            titleText.textContent = this.getAttribute('data-title') || 'Untitled';
+
+            placeholder.appendChild(titleText);
+
+            // Hide the broken image and add placeholder
+            this.style.display = 'none';
+            this.parentElement.appendChild(placeholder);
+        });
+    }
 
     return card;
 }
