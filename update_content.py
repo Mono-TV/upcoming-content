@@ -53,11 +53,21 @@ class ContentUpdater:
         # Load manual corrections
         self.manual_corrections = self._load_manual_corrections()
 
-        # Platform mapping
+        # Platform mapping (ID from Binged.com image URLs to platform names)
         self.platform_map = {
+            '2': 'Apple TV+',
             '4': 'Amazon Prime Video',
             '5': 'Netflix',
+            '6': 'Disney+ Hotstar',
+            '10': 'Zee5',
+            '21': 'MX Player',
+            '27': 'Aha Video',
             '30': 'Jio Hotstar',
+            '39': 'SonyLIV',
+            '41': 'Voot',
+            '52': 'YouTube Premium',
+            '53': 'Hulu',
+            '54': 'HBO Max',
             '70': 'Sun NXT',
             '94': 'Manorama MAX',
             '155': 'Sony LIV'
@@ -69,8 +79,8 @@ class ContentUpdater:
         print("STEP 1: SCRAPING MOVIES")
         print("="*60 + "\n")
 
-        # Correct URL with platform filters
-        url = "https://www.binged.com/streaming-premiere-dates/?mode=streaming-month&platform[]=Aha%20Video&platform[]=Amazon&platform[]=Apple%20Tv%20Plus&platform[]=Jio%20Hotstar&platform[]=Manorama%20MAX&platform[]=Netflix&platform[]=Sony%20LIV&platform[]=Sun%20NXT&platform[]=Zee5"
+        # URL for upcoming content (streaming-soon-month shows future releases)
+        url = "https://www.binged.com/streaming-premiere-dates/?mode=streaming-soon-month&platform[]=Aha%20Video&platform[]=Amazon&platform[]=Apple%20Tv%20Plus&platform[]=Jio%20Hotstar&platform[]=Manorama%20MAX&platform[]=Netflix&platform[]=Sony%20LIV&platform[]=Sun%20NXT&platform[]=Zee5"
 
         async with async_playwright() as p:
             browser = await p.chromium.launch(
