@@ -255,28 +255,30 @@ class ContentUpdater:
 
         return movie_data if movie_data.get('title') else None
 
-    def enrich_with_imdb(self):
-        """Step 4: Fill missing IMDb data (optional)"""
+    def enrich_with_imdb_fallback(self):
+        """
+        Step 3: Cinemagoer Fallback for Missing IMDb IDs
+        Only runs for movies that don't have IMDb ID from TMDB
+        This is a FALLBACK strategy since Cinemagoer is often unreliable
+        """
         print("\n" + "="*60)
-        print("STEP 4: IMDB DATA (FILL MISSING INFO)")
+        print("STEP 3: IMDB FALLBACK (Cinemagoer for missing IDs)")
         print("="*60 + "\n")
 
+        # Only process movies without IMDb ID
+        missing_imdb = [m for m in self.movies if not m.get('imdb_id')]
+
+        if not missing_imdb:
+            print("✅ All movies already have IMDb IDs from TMDB!")
+            print("   Skipping Cinemagoer fallback (not needed)")
+            return
+
+        print(f"📋 Attempting to find {len(missing_imdb)} missing IMDb IDs via Cinemagoer...\n")
+
         enriched_count = 0
-        manual_count = 0
-
-        for i, movie in enumerate(self.movies, 1):
+        for i, movie in enumerate(missing_imdb, 1):
             title = movie.get('title', '')
-            print(f"[{i}/{len(self.movies)}] {title[:50]}... ", end='', flush=True)
-
-            # Check for manual correction first
-            if title in self.manual_corrections:
-                correction = self.manual_corrections[title]
-                movie['imdb_id'] = correction.get('imdb_id')
-                movie['imdb_year'] = correction.get('imdb_year')
-                enriched_count += 1
-                manual_count += 1
-                print(f"✓ {movie['imdb_id']} (manual)")
-                continue
+            print(f"[{i}/{len(missing_imdb)}] {title[:40]}... ", end='', flush=True)
 
             try:
                 # Extract language for better search
@@ -288,7 +290,7 @@ class ContentUpdater:
                     movie_id = results[0].movieID
                     movie['imdb_id'] = f"tt{movie_id}"
 
-                    # Get detailed info
+                    # Try to get year
                     try:
                         movie_info = self.ia.get_movie(movie_id)
                         if 'year' in movie_info:
@@ -299,18 +301,19 @@ class ContentUpdater:
                     enriched_count += 1
                     print(f"✓ {movie['imdb_id']}")
                 else:
-                    # IMDb not found - not critical, skip quietly
-                    print("⊘ Skipped")
+                    print("✗ Not found")
 
                 time.sleep(0.5)  # Rate limiting
 
             except Exception as e:
-                # IMDb errors are not critical - site works without it
-                print(f"⊘ Skipped ({str(e)[:20]})")
+                print(f"✗ Error: {str(e)[:20]}")
 
-        print(f"\n✅ Enriched {enriched_count}/{len(self.movies)} movies with IMDb data")
-        if manual_count > 0:
-            print(f"   📋 {manual_count} from manual corrections")
+        if enriched_count > 0:
+            print(f"\n✅ Found {enriched_count}/{len(missing_imdb)} IMDb IDs via Cinemagoer fallback")
+        else:
+            print(f"\n⚠️  Cinemagoer fallback: 0/{len(missing_imdb)} found (API may be down)")
+            print("   This is OK - TMDB already provided most IMDb IDs")
+
         self._save_json(self.movies, 'movies_with_imdb.json')
 
     def _load_manual_corrections(self):
@@ -406,6 +409,115 @@ class ContentUpdater:
 
         return None
 
+    def _get_imdb_from_tmdb(self, tmdb_id: int, media_type: str) -> Optional[str]:
+        """
+        Get IMDb ID from TMDB external_ids endpoint
+        This is MORE RELIABLE than Cinemagoer API!
+        """
+        try:
+            url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}/external_ids"
+            params = {'api_key': self.tmdb_api_key}
+
+            response = requests.get(url, params=params, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+
+            imdb_id = data.get('imdb_id')
+
+            # Validate IMDb ID format (tt + digits)
+            if imdb_id and re.match(r'^tt\d{7,}$', imdb_id):
+                return imdb_id
+
+        except Exception as e:
+            # Silent fail - not critical
+            pass
+
+        return None
+
+    def _tmdb_search_query(self, query: str, year: Optional[str] = None) -> Optional[Dict]:
+        """Execute TMDB search with given parameters"""
+        try:
+            url = "https://api.themoviedb.org/3/search/multi"
+            params = {
+                'api_key': self.tmdb_api_key,
+                'query': query
+            }
+            if year:
+                params['year'] = year
+
+            data = self._fetch_with_retry(url, params)
+
+            if data.get('results') and len(data['results']) > 0:
+                return data['results'][0]
+        except:
+            pass
+
+        return None
+
+    def _search_tmdb(self, movie: Dict) -> Optional[Dict]:
+        """
+        Search TMDB with multiple fallback strategies
+        Returns: First matching result or None
+        """
+        title = movie.get('title', '')
+        year = movie.get('imdb_year', '')
+        url = movie.get('url', '')
+
+        # Extract language for better matching
+        language = self._extract_language_from_url(url)
+        clean_title = self._clean_title_for_search(title)
+
+        # Strategy 1: Title + Language + Year
+        search_query = f"{clean_title} {language}" if language else clean_title
+        result = self._tmdb_search_query(search_query, year)
+        if result:
+            return result
+
+        # Strategy 2: Title + Year (no language)
+        if language:
+            result = self._tmdb_search_query(clean_title, year)
+            if result:
+                return result
+
+        # Strategy 3: Title only (no year, no language)
+        if year:
+            result = self._tmdb_search_query(clean_title, None)
+            if result:
+                return result
+
+        return None
+
+    def _apply_manual_correction(self, movie: Dict, title: str):
+        """Apply manual correction data to movie"""
+        correction = self.manual_corrections[title]
+        if 'imdb_id' in correction:
+            movie['imdb_id'] = correction['imdb_id']
+        if 'imdb_year' in correction:
+            movie['imdb_year'] = correction['imdb_year']
+        if 'tmdb_id' in correction:
+            movie['tmdb_id'] = correction['tmdb_id']
+        if 'tmdb_media_type' in correction:
+            movie['tmdb_media_type'] = correction['tmdb_media_type']
+
+            # Fetch poster from TMDB if we have the ID
+            try:
+                tmdb_id = correction['tmdb_id']
+                media_type = correction['tmdb_media_type']
+                url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}"
+                params = {'api_key': self.tmdb_api_key}
+
+                data = self._fetch_with_retry(url, params)
+                poster_path = data.get('poster_path')
+                if poster_path:
+                    movie['poster_url_medium'] = f"https://image.tmdb.org/t/p/w500{poster_path}"
+                    movie['poster_url_large'] = f"https://image.tmdb.org/t/p/original{poster_path}"
+
+                backdrop_path = data.get('backdrop_path')
+                if backdrop_path:
+                    movie['backdrop_url'] = f"https://image.tmdb.org/t/p/original{backdrop_path}"
+            except:
+                pass
+
     def enrich_with_youtube(self):
         """Step 3: Add YouTube trailers with improved search using metadata"""
         if not self.enable_trailers:
@@ -500,17 +612,23 @@ class ContentUpdater:
         print(f"\n✅ Found trailers for {enriched_count}/{len(self.movies)} movies")
         self._save_json(self.movies, 'movies_with_trailers.json')
 
-    def enrich_with_posters(self):
-        """Step 4: Add high-quality posters from TMDb (with validation)"""
+    def enrich_with_tmdb(self):
+        """
+        Step 2: Complete TMDB Enrichment (TMDB-First Strategy)
+        - Get TMDB ID via search
+        - Extract IMDb ID from TMDB external_ids (more reliable than Cinemagoer!)
+        - Get high-quality images (posters + backdrops)
+        - Get metadata
+        """
         if not self.enable_posters:
-            print("\n⏭️  Skipping poster enrichment (disabled)")
+            print("\n⏭️  Skipping TMDB enrichment (disabled)")
             return
 
         if not self.tmdb_api_key:
             print("\n" + "="*60)
-            print("⏭️  STEP 4: Skipping poster enrichment")
+            print("⏭️  STEP 2: Skipping TMDB enrichment")
             print("="*60)
-            print("\n💡 To add high-quality posters:")
+            print("\n💡 To enable TMDB enrichment:")
             print("   1. Get free API key: https://www.themoviedb.org/settings/api")
             print("   2. Set: export TMDB_API_KEY='your_key'")
             print("   3. Re-run this script")
@@ -518,168 +636,88 @@ class ContentUpdater:
             return
 
         print("\n" + "="*60)
-        print("STEP 2: TMDB ENRICHMENT (UPGRADE POSTERS + METADATA)")
+        print("STEP 2: TMDB COMPLETE ENRICHMENT (TMDB-FIRST STRATEGY)")
         print("="*60 + "\n")
 
-        enriched_count = 0
+        tmdb_found = 0
+        imdb_from_tmdb = 0
         manual_count = 0
-        validated_count = 0
-        imdb_fallback_count = 0
         binged_kept_count = 0
 
         for i, movie in enumerate(self.movies, 1):
             title = movie.get('title', '')
-            year = movie.get('imdb_year', '')
             has_binged_poster = bool(movie.get('poster_url_binged'))
 
             print(f"[{i}/{len(self.movies)}] {title[:40]}... ", end='', flush=True)
 
             # Check for manual correction first
             if title in self.manual_corrections:
-                correction = self.manual_corrections[title]
-                if 'tmdb_id' in correction:
-                    # Fetch poster from specific TMDb ID with retry
-                    try:
-                        tmdb_id = correction['tmdb_id']
-                        media_type = correction.get('tmdb_media_type', 'movie')
-                        url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}"
-                        params = {'api_key': self.tmdb_api_key}
-
-                        data = self._fetch_with_retry(url, params)
-
-                        poster_path = data.get('poster_path')
-                        if poster_path:
-                            poster_medium = f"https://image.tmdb.org/t/p/w500{poster_path}"
-                            poster_large = f"https://image.tmdb.org/t/p/original{poster_path}"
-
-                            # Validate poster URL
-                            if self._validate_poster_url(poster_medium):
-                                movie['poster_url_medium'] = poster_medium
-                                movie['poster_url_large'] = poster_large
-                                movie['tmdb_id'] = tmdb_id
-                                movie['tmdb_media_type'] = media_type
-                                enriched_count += 1
-                                manual_count += 1
-                                validated_count += 1
-                                print("✓ Poster added (manual, validated)")
-                            else:
-                                print("✗ Poster URL invalid")
-                        else:
-                            print("✗ No poster in TMDb")
-                    except Exception as e:
-                        print(f"✗ Error: {str(e)[:50]}")
-
-                    time.sleep(1.0)  # Rate limiting
-                    continue
+                self._apply_manual_correction(movie, title)
+                tmdb_found += 1
+                manual_count += 1
+                if movie.get('imdb_id'):
+                    imdb_from_tmdb += 1
+                print("✓ Manual correction applied")
+                time.sleep(0.5)
+                continue
 
             try:
-                # Extract language for better search
-                language = self._extract_language_from_url(movie.get('url', ''))
+                # 2a. Search TMDB by title + language
+                tmdb_result = self._search_tmdb(movie)
 
-                # Clean title for better search results
-                clean_title = self._clean_title_for_search(title)
-                search_query = f"{clean_title} {language}" if language else clean_title
+                if tmdb_result:
+                    tmdb_id = tmdb_result['id']
+                    media_type = tmdb_result.get('media_type', 'movie')
 
-                # Search TMDb with language context and retry logic
-                url = "https://api.themoviedb.org/3/search/multi"
-                params = {
-                    'api_key': self.tmdb_api_key,
-                    'query': search_query,
-                    'year': year if year else None
-                }
+                    # Store basic TMDB data
+                    movie['tmdb_id'] = tmdb_id
+                    movie['tmdb_media_type'] = media_type
 
-                data = self._fetch_with_retry(url, params)
+                    # 2b. Get external IDs (including IMDb ID) ⭐
+                    imdb_id = self._get_imdb_from_tmdb(tmdb_id, media_type)
+                    if imdb_id:
+                        movie['imdb_id'] = imdb_id
+                        imdb_from_tmdb += 1
 
-                # If no results and we used language, try again without it
-                if (not data.get('results') or len(data['results']) == 0) and language:
-                    time.sleep(0.5)  # Small delay before retry
-                    params['query'] = clean_title
-                    data = self._fetch_with_retry(url, params)
-
-                poster_found = False
-                if 'results' in data and len(data['results']) > 0:
-                    result = data['results'][0]
-                    poster_path = result.get('poster_path')
-
+                    # 2c. Get high-quality posters
+                    poster_path = tmdb_result.get('poster_path')
                     if poster_path:
-                        poster_medium = f"https://image.tmdb.org/t/p/w500{poster_path}"
-                        poster_large = f"https://image.tmdb.org/t/p/original{poster_path}"
+                        movie['poster_url_medium'] = f"https://image.tmdb.org/t/p/w500{poster_path}"
+                        movie['poster_url_large'] = f"https://image.tmdb.org/t/p/original{poster_path}"
 
-                        # Validate poster URL before saving
-                        if self._validate_poster_url(poster_medium):
-                            movie['poster_url_medium'] = poster_medium
-                            movie['poster_url_large'] = poster_large
-                            movie['tmdb_id'] = result.get('id')
-                            movie['tmdb_media_type'] = result.get('media_type')
-                            enriched_count += 1
-                            validated_count += 1
-                            poster_found = True
-                            print("✓ Poster added (validated)")
-                        else:
-                            print("✗ Poster URL invalid")
+                    # 2d. Get backdrop (optional)
+                    backdrop_path = tmdb_result.get('backdrop_path')
+                    if backdrop_path:
+                        movie['backdrop_url'] = f"https://image.tmdb.org/t/p/original{backdrop_path}"
 
-                # Fallback: Try TMDb find by IMDb ID if search failed
-                if not poster_found and movie.get('imdb_id'):
-                    try:
-                        imdb_id = movie.get('imdb_id')
-                        find_url = f"https://api.themoviedb.org/3/find/{imdb_id}"
-                        find_params = {
-                            'api_key': self.tmdb_api_key,
-                            'external_source': 'imdb_id'
-                        }
-
-                        find_data = self._fetch_with_retry(find_url, find_params)
-
-                        # Check movie results first, then TV results
-                        results = find_data.get('movie_results', []) or find_data.get('tv_results', [])
-
-                        if results and len(results) > 0:
-                            result = results[0]
-                            poster_path = result.get('poster_path')
-
-                            if poster_path:
-                                poster_medium = f"https://image.tmdb.org/t/p/w500{poster_path}"
-                                poster_large = f"https://image.tmdb.org/t/p/original{poster_path}"
-
-                                if self._validate_poster_url(poster_medium):
-                                    movie['poster_url_medium'] = poster_medium
-                                    movie['poster_url_large'] = poster_large
-                                    movie['tmdb_id'] = result.get('id')
-                                    movie['tmdb_media_type'] = 'movie' if 'movie_results' in find_data else 'tv'
-                                    enriched_count += 1
-                                    validated_count += 1
-                                    imdb_fallback_count += 1
-                                    poster_found = True
-                                    print(f"✓ Poster added via IMDb ID (validated)")
-                    except Exception as e:
-                        pass  # Continue to print not found below
-
-                if not poster_found:
+                    tmdb_found += 1
+                    status = "✓ TMDB + IMDb" if imdb_id else "✓ TMDB only"
+                    print(status)
+                else:
                     if has_binged_poster:
                         binged_kept_count += 1
-                        print("⊙ Using Binged poster (TMDb not found)")
+                        print("⊙ Using Binged poster (TMDB not found)")
                     else:
-                        print("✗ No poster available")
+                        print("✗ Not found in TMDB")
 
-                time.sleep(1.0)  # Rate limiting - increased from 0.3s
+                time.sleep(0.5)  # Rate limiting
 
             except Exception as e:
                 if has_binged_poster:
                     binged_kept_count += 1
-                    print(f"⊙ Using Binged poster (TMDb error)")
+                    print(f"⊙ Using Binged poster (TMDB error)")
                 else:
-                    print(f"✗ Error: {str(e)[:50]}")
+                    print(f"✗ Error: {str(e)[:30]}")
 
-        total_with_posters = enriched_count + binged_kept_count
-        print(f"\n✅ Posters: {total_with_posters}/{len(self.movies)} movies")
-        if enriched_count > 0:
-            print(f"   ✓ {enriched_count} TMDb high-quality (validated)")
+        total_with_posters = tmdb_found + binged_kept_count
+        print(f"\n✅ TMDB enrichment: {tmdb_found}/{len(self.movies)} movies")
+        print(f"   🎬 TMDB IDs found: {tmdb_found}/{len(self.movies)}")
+        print(f"   🎭 IMDb IDs from TMDB: {imdb_from_tmdb}/{len(self.movies)}")
         if manual_count > 0:
-            print(f"   📋 {manual_count} from manual corrections")
-        if imdb_fallback_count > 0:
-            print(f"   🔗 {imdb_fallback_count} via IMDb ID fallback")
+            print(f"   📋 Manual corrections: {manual_count}")
         if binged_kept_count > 0:
-            print(f"   ⊙ {binged_kept_count} using Binged fallback")
+            print(f"   ⊙ Binged fallback posters: {binged_kept_count}")
+        print(f"   📸 Total with posters: {total_with_posters}/{len(self.movies)}")
         self._save_json(self.movies, 'movies_with_tmdb.json')
 
     def _save_json(self, data, filename):
@@ -689,16 +727,16 @@ class ContentUpdater:
         print(f"💾 Saved: {filename}")
 
     async def run(self):
-        """Run all steps"""
+        """Run all steps with TMDB-First strategy"""
         start_time = time.time()
 
         print("\n" + "="*60)
-        print("UNIFIED CONTENT UPDATER")
+        print("UNIFIED CONTENT UPDATER (TMDB-FIRST STRATEGY)")
         print("="*60)
         print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*60)
 
-        # Step 1: Scrape (includes Binged posters as fallback)
+        # Step 1: Scrape from Binged (includes Binged posters as fallback)
         await self.scrape_movies()
 
         # Test mode: limit to first 3 movies
@@ -706,17 +744,17 @@ class ContentUpdater:
             print(f"\n🧪 TEST MODE: Processing only first 3 movies (out of {len(self.movies)})")
             self.movies = self.movies[:3]
 
-        # Step 2: TMDb enrichment (upgrade posters + metadata)
-        if self.movies:
-            self.enrich_with_posters()
+        # Step 2: TMDB Complete Enrichment (TMDB ID + IMDb ID + Images) ⭐
+        if self.movies and self.enable_posters:
+            self.enrich_with_tmdb()
 
-        # Step 3: YouTube trailers
+        # Step 3: Cinemagoer Fallback (only for missing IMDb IDs)
         if self.movies:
+            self.enrich_with_imdb_fallback()
+
+        # Step 4: YouTube Trailers
+        if self.movies and self.enable_trailers:
             self.enrich_with_youtube()
-
-        # Step 4: IMDb enrichment (fill missing data only)
-        if self.movies:
-            self.enrich_with_imdb()
 
         # Final: Save complete enriched data
         if self.movies:
@@ -729,6 +767,7 @@ class ContentUpdater:
         elapsed = time.time() - start_time
 
         # Count enrichments
+        with_tmdb = sum(1 for m in self.movies if m.get('tmdb_id'))
         with_imdb = sum(1 for m in self.movies if m.get('imdb_id'))
         with_youtube = sum(1 for m in self.movies if m.get('youtube_id'))
         with_posters = sum(1 for m in self.movies if m.get('poster_url_large'))
@@ -738,27 +777,28 @@ class ContentUpdater:
         print("="*60)
         print(f"\n📊 Summary:")
         print(f"   • Movies scraped: {len(self.movies)}")
-        print(f"   • With IMDb IDs: {with_imdb}/{len(self.movies)} {'✓' if with_imdb > 0 else '⊘ (optional)'}")
-        print(f"   • With YouTube trailers: {with_youtube}/{len(self.movies)} {'✓' if with_youtube == len(self.movies) else '⚠'}")
-        print(f"   • With TMDb posters: {with_posters}/{len(self.movies)} {'✓' if with_posters > len(self.movies)//2 else '⚠'}")
+        print(f"   • With TMDB IDs: {with_tmdb}/{len(self.movies)} {'✓' if with_tmdb > len(self.movies)//2 else '⚠'}")
+        print(f"   • With IMDb IDs: {with_imdb}/{len(self.movies)} {'✓' if with_imdb > len(self.movies)//2 else '⚠'}")
+        print(f"   • With high-quality posters: {with_posters}/{len(self.movies)} {'✓' if with_posters > len(self.movies)//2 else '⚠'}")
+        print(f"   • With YouTube trailers: {with_youtube}/{len(self.movies)} {'✓' if with_youtube > 0 else '⊘'}")
         print(f"   • Time elapsed: {elapsed:.1f} seconds")
         print(f"\n📁 Files created:")
         print(f"   • movies.json (scraped data)")
         if self.enable_posters:
-            print(f"   • movies_with_tmdb.json (+ TMDb posters)")
+            print(f"   • movies_with_tmdb.json (+ TMDB enrichment)")
+        print(f"   • movies_with_imdb.json (+ IMDb fallback)")
         if self.enable_trailers:
             print(f"   • movies_with_trailers.json (+ YouTube)")
-        print(f"   • movies_with_imdb.json (+ IMDb IDs)")
         print(f"   • movies_enriched.json (✨ FINAL - all data)")
 
         # Warnings/tips
-        if with_posters < len(self.movies) // 2:
-            print(f"\n💡 Tip: Set TMDB_API_KEY for high-quality posters")
+        if with_tmdb < len(self.movies) // 2:
+            print(f"\n💡 Tip: Set TMDB_API_KEY for better enrichment")
             print(f"   Get free key: https://www.themoviedb.org/settings/api")
 
-        if with_imdb < len(self.movies) // 4:
-            print(f"\n⚠️  Note: IMDb enrichment low (Cinemagoer API may be down)")
-            print(f"   This is optional - your site works without it!")
+        if with_imdb > len(self.movies) * 0.8:
+            print(f"\n🎉 Great! {with_imdb}/{len(self.movies)} movies have IMDb IDs")
+            print(f"   TMDB-first strategy is working well!")
 
         print("\n" + "="*60 + "\n")
 
