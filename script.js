@@ -314,6 +314,11 @@ function createMovieCard(movie) {
         }
     }
 
+    // Build platform badges for hover overlay
+    const platformBadgesHTML = platforms
+        .map(p => `<div class="platform-badge">${sanitizeText(p)}</div>`)
+        .join('');
+
     card.innerHTML = `
         <!-- Release Date on Timeline -->
         <div class="release-date-label">${sanitizeText(formattedDate)}</div>
@@ -324,17 +329,25 @@ function createMovieCard(movie) {
                  loading="lazy"
                  onerror="this.src='${fallbackSvg}'">
 
-            <!-- Hover Tooltip -->
-            <div class="movie-tooltip">
-                <div class="tooltip-content">
-                    <div class="tooltip-title">${safeTitle}</div>
-                    <div class="tooltip-meta">
-                        ${safeYear ? `<p>${safeYear}</p>` : ''}
-                        ${safeReleaseDate ? `<p>Streaming ${safeReleaseDate}</p>` : ''}
-                        ${platformsHTML ? `<p>${platformsHTML}</p>` : ''}
-                    </div>
+            <!-- Card Title at Bottom -->
+            <div class="card-title">
+                <div class="card-title-text ${safeTitle.length > 25 ? 'marquee' : ''}" data-text="${safeTitle}">
+                    ${safeTitle}
                 </div>
             </div>
+
+            <!-- Platform Overlay - Only Bottom Part on Hover -->
+            <div class="platform-overlay">
+                ${platformBadgesHTML ? `
+                    <div class="platform-overlay-label">Streaming On</div>
+                    <div class="platform-overlay-content">
+                        ${platformBadgesHTML}
+                    </div>
+                ` : ''}
+            </div>
+
+            <!-- Hover Tooltip (Hidden) -->
+            <div class="movie-tooltip"></div>
 
             <!-- Trailer Window (hidden by default, iframe created on demand) -->
             <div class="trailer-window" data-youtube-id="${movie.youtube_id || ''}"></div>

@@ -275,7 +275,7 @@ main {
 
 /* Timeline Header */
 .timeline-header {
-    text-align: center;
+    text-align: left; /* Changed from center to left */
     margin: 40px 0 20px;
     animation: fadeInHero 0.8s ease-out;
 }
@@ -301,7 +301,7 @@ main {
     gap: 40px;
     overflow-x: auto;
     overflow-y: visible;
-    padding: 100px 0 40px; /* Increased top padding to accommodate date labels */
+    padding: 120px 0 40px; /* Increased from 100px to 120px to prevent date obstruction */
     margin-bottom: 40px;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;
@@ -326,7 +326,7 @@ main {
 .movies-grid::before {
     content: '';
     position: absolute;
-    top: 70px; /* Adjusted to align with new padding */
+    top: 90px; /* Adjusted from 70px to align with new padding */
     left: 0;
     right: 0;
     height: 3px;
@@ -402,7 +402,7 @@ main {
 .movie-card::before {
     content: '';
     position: absolute;
-    top: -85px; /* Adjusted for new spacing */
+    top: -105px; /* Adjusted from -85px for new spacing */
     left: 50%;
     transform: translateX(-50%);
     width: 16px;
@@ -421,11 +421,11 @@ main {
 .movie-card::after {
     content: '';
     position: absolute;
-    top: -77px; /* Adjusted for new spacing */
+    top: -97px; /* Adjusted from -77px for new spacing */
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 55px; /* Extended to reach from timeline to card */
+    height: 75px; /* Extended from 55px to reach properly */
     background: linear-gradient(180deg,
         rgba(245, 175, 25, 0.6) 0%,
         rgba(245, 175, 25, 0.3) 50%,
@@ -560,6 +560,51 @@ main {
                 box-shadow 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+/* Card Title at Bottom */
+.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 16px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 70%, transparent 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 10;
+    overflow: hidden;
+}
+
+.card-title-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+    font-family: 'Red Hat Display', sans-serif;
+    display: inline-block;
+    padding-right: 20px; /* Space before marquee repeats */
+}
+
+/* Marquee animation for long titles */
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.card-title-text.marquee {
+    animation: marquee 15s linear infinite;
+}
+
+.card-title-text.marquee::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 100%;
+    padding-left: 20px;
+}
+
 .movie-poster img {
     position: absolute;
     top: 0;
@@ -574,20 +619,13 @@ main {
     transform: scale(1.08);
 }
 
-/* Hover Tooltip */
+/* Hover Tooltip - Hidden (removed title, date, year) */
 .movie-tooltip {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top,
-                rgba(0, 0, 0, 0.92) 0%,
-                rgba(0, 0, 0, 0.75) 40%,
-                rgba(0, 0, 0, 0.4) 70%,
-                transparent 100%);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
     opacity: 0;
     transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 10;
@@ -596,14 +634,62 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     pointer-events: none;
+    visibility: hidden; /* Hide completely */
 }
 
-.movie-card:not(.expanded):hover .movie-tooltip {
+/* Platform Overlay - Only Bottom Part on Hover */
+.platform-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 16px;
+    background: linear-gradient(to top,
+                rgba(0, 0, 0, 0.85) 0%,
+                rgba(0, 0, 0, 0.6) 60%,
+                transparent 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    opacity: 0;
+    transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 11;
+    pointer-events: none;
+    transform: translateY(10px);
+}
+
+.movie-card:not(.expanded):hover .platform-overlay {
     opacity: 1;
+    transform: translateY(0);
 }
 
-.movie-card.expanded:hover .movie-tooltip {
-    opacity: 0 !important;
+.platform-overlay-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.platform-overlay-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 6px;
+}
+
+.platform-overlay .platform-badge {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .tooltip-content {
@@ -848,11 +934,11 @@ main {
     /* Timeline adjustments for mobile */
     .movies-grid {
         gap: 24px;
-        padding: 90px 0 30px; /* Adjusted for mobile spacing */
+        padding: 110px 0 30px; /* Adjusted from 90px for mobile spacing */
     }
 
     .movies-grid::before {
-        top: 60px; /* Adjusted timeline track position */
+        top: 80px; /* Adjusted from 60px for timeline track position */
     }
 
     .movie-card {
@@ -862,19 +948,24 @@ main {
     .movie-card::before {
         width: 12px;
         height: 12px;
-        top: -75px; /* Adjusted for mobile */
+        top: -95px; /* Adjusted from -75px for mobile */
     }
 
     .movie-card::after {
-        top: -68px; /* Adjusted for mobile */
-        height: 45px; /* Adjusted connector height */
+        top: -88px; /* Adjusted from -68px for mobile */
+        height: 65px; /* Adjusted from 45px connector height */
     }
 
     /* Release date labels for mobile */
     .release-date-label {
-        top: -100px; /* Adjusted to prevent obstruction on mobile */
+        top: -120px; /* Adjusted from -100px to prevent obstruction on mobile */
         font-size: 11px;
         padding: 4px 10px;
+    }
+
+    /* Card title for mobile */
+    .card-title-text {
+        font-size: 12px;
     }
 
     .movies-grid.compact-view {
