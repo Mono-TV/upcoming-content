@@ -253,23 +253,70 @@ main {
     60%, 100% { content: '...'; }
 }
 
-/* Movie Grid */
+/* Movie Timeline - Horizontal Scrolling */
 .movies-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    position: relative;
+    display: flex;
+    flex-direction: row;
     gap: 40px;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding: 60px 0 40px;
+    margin-bottom: 40px;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
-/* Compact List View */
+/* Timeline Track/Line */
+.movies-grid::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(245, 175, 25, 0.3) 5%,
+        rgba(245, 175, 25, 0.6) 50%,
+        rgba(245, 175, 25, 0.3) 95%,
+        transparent 100%);
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Scrollbar styling for timeline */
+.movies-grid::-webkit-scrollbar {
+    height: 12px;
+}
+
+.movies-grid::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.movies-grid::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.movies-grid::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #f12711 0%, #f5af19 100%);
+    box-shadow: 0 2px 8px rgba(245, 175, 25, 0.4);
+}
+
+/* Compact List View - Timeline compatible */
 .movies-grid.compact-view {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 16px;
+    gap: 24px;
 }
 
 .movies-grid.compact-view .movie-card {
+    flex: 0 0 200px;
     height: 300px;
 }
 
@@ -282,7 +329,7 @@ main {
     to { opacity: 1; }
 }
 
-/* Movie Card */
+/* Movie Card - Timeline Item */
 .movie-card {
     background: transparent;
     border-radius: 24px;
@@ -294,11 +341,55 @@ main {
                 height 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     cursor: pointer;
     position: relative;
+    flex: 0 0 280px;
+    z-index: 2;
+}
+
+/* Timeline dot connector for each card */
+.movie-card::before {
+    content: '';
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+    border-radius: 50%;
+    border: 3px solid #fef8f0;
+    box-shadow: 0 4px 12px rgba(245, 175, 25, 0.4),
+                0 0 0 4px rgba(245, 175, 25, 0.1);
+    z-index: 3;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Vertical connector line from timeline to card */
+.movie-card::after {
+    content: '';
+    position: absolute;
+    top: -37px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 15px;
+    background: linear-gradient(180deg,
+        rgba(245, 175, 25, 0.6) 0%,
+        rgba(245, 175, 25, 0.2) 100%);
+    z-index: 2;
 }
 
 .movie-card:not(.expanded):hover {
     transform: translateY(-12px) scale(1.02);
     transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Animate timeline dot on card hover */
+.movie-card:not(.expanded):hover::before {
+    transform: translateX(-50%) scale(1.3);
+    box-shadow: 0 8px 24px rgba(245, 175, 25, 0.6),
+                0 0 0 6px rgba(245, 175, 25, 0.2),
+                0 0 20px rgba(245, 175, 25, 0.4);
 }
 
 .movie-card:not(.expanded):hover .movie-poster {
@@ -642,17 +733,33 @@ main {
         padding: 0 20px;
     }
 
+    /* Timeline adjustments for mobile */
     .movies-grid {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 24px;
+        padding: 50px 0 30px;
+    }
+
+    .movie-card {
+        flex: 0 0 220px;
+    }
+
+    .movie-card::before {
+        width: 12px;
+        height: 12px;
+        top: -38px;
+    }
+
+    .movie-card::after {
+        top: -32px;
+        height: 12px;
     }
 
     .movies-grid.compact-view {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-        gap: 12px;
+        gap: 16px;
     }
 
     .movies-grid.compact-view .movie-card {
+        flex: 0 0 140px;
         height: 210px;
     }
 
