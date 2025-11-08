@@ -299,7 +299,25 @@ function createMovieCard(movie) {
     // Create fallback SVG URL for broken images
     const fallbackSvg = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 450'%3E%3Crect fill='%23667eea' width='300' height='450'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='24' fill='white'%3E${encodeURIComponent(movie.title || 'Untitled')}%3C/text%3E%3C/svg%3E`;
 
+    // Format release date for timeline (e.g., "Nov 15" or "2024")
+    let formattedDate = 'TBA';
+    if (releaseDate && releaseDate !== 'TBA') {
+        try {
+            const date = new Date(releaseDate);
+            if (!isNaN(date.getTime())) {
+                formattedDate = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+            } else {
+                formattedDate = releaseDate;
+            }
+        } catch (e) {
+            formattedDate = releaseDate;
+        }
+    }
+
     card.innerHTML = `
+        <!-- Release Date on Timeline -->
+        <div class="release-date-label">${sanitizeText(formattedDate)}</div>
+
         <div class="movie-poster">
             <img src="${safePosterUrl}"
                  alt="${safeTitle}"
