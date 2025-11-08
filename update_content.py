@@ -751,9 +751,13 @@ class ContentUpdater:
 
                 draw.line([(0, y), (width, y)], fill=(r, g, b))
 
-            # Try to load custom font with larger size
+            # Calculate font size proportionally based on poster dimensions
+            # Use 16% of width for good readability (for 500px width = 80pt)
+            font_size = int(width * 0.16)
+
+            # Try to load custom font with dynamic size
             try:
-                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 52)
+                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
             except:
                 # Fallback to default font
                 title_font = ImageFont.load_default()
@@ -766,8 +770,8 @@ class ContentUpdater:
             if len(title_lines) > 4:
                 title_lines = title_lines[:3] + [title_lines[3][:20] + '...']
 
-            # Calculate total text height
-            line_height = 65  # Increased for larger font
+            # Calculate total text height (line height proportional to font size)
+            line_height = int(font_size * 1.3)  # 130% of font size for good spacing
             title_height = len(title_lines) * line_height
 
             # Draw title (centered vertically)
