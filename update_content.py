@@ -54,20 +54,14 @@ class ContentUpdater:
         self.manual_corrections = self._load_manual_corrections()
 
         # Platform mapping (ID from Binged.com image URLs to platform names)
+        # Verified from actual website scraping
         self.platform_map = {
-            '2': 'Apple TV+',
             '4': 'Amazon Prime Video',
-            '5': 'Netflix',
-            '6': 'Disney+ Hotstar',
-            '10': 'Zee5',
-            '21': 'MX Player',
-            '27': 'Aha Video',
-            '30': 'Jio Hotstar',
-            '39': 'SonyLIV',
-            '41': 'Voot',
-            '52': 'YouTube Premium',
-            '53': 'Hulu',
-            '54': 'HBO Max',
+            '5': 'Apple TV+',
+            '10': 'Jio Hotstar',
+            '27': 'Manorama MAX',
+            '30': 'Netflix',
+            '52': 'Zee5',
             '70': 'Sun NXT',
             '94': 'Manorama MAX',
             '155': 'Sony LIV'
