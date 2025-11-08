@@ -7,11 +7,8 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/mv5bzde0ytdjndytmjfkzi00mde5ltk2zdctmjbinty1mzy4mjrkxkeyxkfqcgc._v1_.jpg",
-    "tmdb_id": 1401318,
-    "tmdb_media_type": "movie",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/mv5bzde0ytdjndytmjfkzi00mde5ltk2zdctmjbinty1mzy4mjrkxkeyxkfqcgc._v1_.jpg",
+    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/mv5bzde0ytdjndytmjfkzi00mde5ltk2zdctmjbinty1mzy4mjrkxkeyxkfqcgc._v1_.jpg",
     "youtube_id": "zLuOjCbDuwY",
     "youtube_url": "https://www.youtube.com/watch?v=zLuOjCbDuwY"
   },
@@ -51,11 +48,9 @@
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2024/12/come-see-me-in-the-good-light.jpg",
     "tmdb_id": 1400780,
     "tmdb_media_type": "movie",
-    "imdb_id": "tt34966013",
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
-    "imdb_year": "2025",
     "youtube_id": "t0B8sjxR7Mo",
     "youtube_url": "https://www.youtube.com/watch?v=t0B8sjxR7Mo"
   },
@@ -67,10 +62,15 @@
       "Manorama MAX"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
-    "youtube_id": "d9OyxosTOko",
-    "youtube_url": "https://www.youtube.com/watch?v=d9OyxosTOko"
+    "tmdb_id": 2719,
+    "tmdb_media_type": "tv",
+    "imdb_id": "tt0237123",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/uYwXRytQ99XQKq31JFGqrnlIyhh.jpg",
+    "imdb_year": "2000",
+    "youtube_id": "69zjYH5liRY",
+    "youtube_url": "https://www.youtube.com/watch?v=69zjYH5liRY"
   },
   {
     "title": "In Your Dreams",
@@ -80,13 +80,8 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/in-your-dreams.jpg",
-    "tmdb_id": 1117857,
-    "tmdb_media_type": "movie",
-    "imdb_id": "tt27604215",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
-    "imdb_year": "2025",
+    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/in-your-dreams.jpg",
+    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/in-your-dreams.jpg",
     "youtube_id": "Jjjcn4acAC8",
     "youtube_url": "https://www.youtube.com/watch?v=Jjjcn4acAC8"
   },
@@ -116,8 +111,8 @@
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/leRDW64s8t119oPapghaEkagYW.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/leRDW64s8t119oPapghaEkagYW.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
-    "youtube_id": "T3OChj04fyM",
-    "youtube_url": "https://www.youtube.com/watch?v=T3OChj04fyM"
+    "youtube_id": "4M-vA6dU_7Y",
+    "youtube_url": "https://www.youtube.com/watch?v=4M-vA6dU_7Y"
   },
   {
     "title": "Nouvelle Vague",
@@ -127,13 +122,13 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/nouvelle-vague.jpg",
-    "tmdb_id": 32691,
+    "tmdb_id": 860708,
     "tmdb_media_type": "movie",
-    "imdb_id": "tt0100274",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/pFofqGMcfiIoDISZBjctw2qggla.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/pFofqGMcfiIoDISZBjctw2qggla.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/tkvePoq5eWC426u3XmOR4J1V4b5.jpg",
-    "imdb_year": "1990",
+    "imdb_id": "tt18260466",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/hUhoqHc4aT1cQAZx2xo2GPvLyiD.jpg",
+    "imdb_year": "2022",
     "youtube_id": "UufRzKVFseg",
     "youtube_url": "https://www.youtube.com/watch?v=UufRzKVFseg"
   },
@@ -144,6 +139,9 @@
     "platforms": [
       "Jio Hotstar"
     ],
+    "poster_url_medium": "placeholders/landman-season-2-medium.jpg",
+    "poster_url_large": "placeholders/landman-season-2-large.jpg",
+    "poster_generated": true,
     "youtube_id": "C1as_hRbBZg",
     "youtube_url": "https://www.youtube.com/watch?v=C1as_hRbBZg"
   },
@@ -188,9 +186,11 @@
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
     "tmdb_id": 1267905,
     "tmdb_media_type": "movie",
+    "imdb_id": "tt31973693",
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/98n5HnCJ5LnXKIMNP9SBfVNyxCE.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/98n5HnCJ5LnXKIMNP9SBfVNyxCE.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
+    "imdb_year": "2025",
     "youtube_id": "XkgMaS5gbaA",
     "youtube_url": "https://www.youtube.com/watch?v=XkgMaS5gbaA"
   },
@@ -215,8 +215,11 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/train-dreams-scaled.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/train-dreams-scaled.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/train-dreams-scaled.jpg",
+    "tmdb_id": 1241983,
+    "tmdb_media_type": "movie",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
     "youtube_id": "_Nk8TrBHOrA",
     "youtube_url": "https://www.youtube.com/watch?v=_Nk8TrBHOrA"
   },
@@ -264,8 +267,8 @@
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
-    "youtube_id": "vhFPHYgILN0",
-    "youtube_url": "https://www.youtube.com/watch?v=vhFPHYgILN0"
+    "youtube_id": "PssKpzB0Ah0",
+    "youtube_url": "https://www.youtube.com/watch?v=PssKpzB0Ah0"
   },
   {
     "title": "Left-Handed Girl",
@@ -277,9 +280,11 @@
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/left-handed-girl-scaled.jpg",
     "tmdb_id": 999075,
     "tmdb_media_type": "movie",
+    "imdb_id": "tt27722618",
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/fK86d5662xX7ohRCTrlaL1KP5GO.jpg",
+    "imdb_year": "2025",
     "youtube_id": "0rXnpfzpk8s",
     "youtube_url": "https://www.youtube.com/watch?v=0rXnpfzpk8s"
   }
