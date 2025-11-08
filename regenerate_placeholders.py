@@ -147,14 +147,30 @@ class PlaceholderGenerator:
             draw = ImageDraw.Draw(img)
 
             # Calculate font size proportionally based on poster dimensions
-            # Use 22% of width for better visibility (for 500px width = 110pt)
-            font_size = int(width * 0.22)
+            # Use 40% of width for much better visibility (for 500px width = 200pt)
+            font_size = int(width * 0.40)
 
-            # Try to load custom font with dynamic size
-            try:
-                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
-            except:
-                # Fallback to default font
+            # Try to load TrueType font with multiple fallbacks
+            # MUST use TrueType fonts - default font has fixed size!
+            font_paths = [
+                "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+                "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
+                "/System/Library/Fonts/Helvetica.ttc",  # macOS
+                "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+                "C:\\Windows\\Fonts\\arialbd.ttf",  # Windows
+            ]
+
+            title_font = None
+            for font_path in font_paths:
+                try:
+                    title_font = ImageFont.truetype(font_path, font_size)
+                    break
+                except (OSError, IOError):
+                    continue
+
+            # Final fallback - but warn if this happens
+            if title_font is None:
+                print(f"⚠️  Warning: Could not load TrueType font, using fixed-size default for '{title[:30]}'")
                 title_font = ImageFont.load_default()
 
             # Wrap title text
