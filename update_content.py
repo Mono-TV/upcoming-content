@@ -797,8 +797,8 @@ class ContentUpdater:
             draw = ImageDraw.Draw(img)
 
             # Calculate font size proportionally based on poster dimensions
-            # Use 16% of width for good readability (for 500px width = 80pt)
-            font_size = int(width * 0.16)
+            # Use 22% of width for excellent readability (for 500px width = 110pt)
+            font_size = int(width * 0.22)
 
             # Try to load custom font with dynamic size
             try:
