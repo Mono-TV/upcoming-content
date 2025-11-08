@@ -341,7 +341,7 @@ function createMovieCard(movie) {
             <!-- Platform Overlay - Only Bottom Part on Hover -->
             <div class="platform-overlay">
                 ${platformBadgesHTML ? `
-                    <div class="platform-overlay-label">Streaming On</div>
+                    <div class="platform-overlay-label">Available on</div>
                     <div class="platform-overlay-content">
                         ${platformBadgesHTML}
                     </div>
@@ -436,6 +436,15 @@ function expandCard(card, movie) {
 
     // Now add expanded class to trigger the animation from current position to center
     card.classList.add('expanded');
+
+    // Remove inline positioning styles to allow CSS centering to take effect
+    requestAnimationFrame(() => {
+        card.style.top = '';
+        card.style.left = '';
+        card.style.width = '';
+        card.style.height = '';
+        card.style.transform = '';
+    });
 
     // LAZY IFRAME CREATION: Create iframe only when needed
     const trailerWindow = card.querySelector('.trailer-window');
