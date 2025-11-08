@@ -32,7 +32,7 @@ except ImportError as e:
 
 # Optional: PIL for placeholder generation
 try:
-    from PIL import Image, ImageDraw, ImageFont
+    from PIL import Image, ImageDraw, ImageFont, ImageFilter
     PIL_AVAILABLE = True
 except ImportError:
     PIL_AVAILABLE = False
@@ -76,17 +76,18 @@ class ContentUpdater:
             '155': 'Sony LIV'
         }
 
-        # Platform color schemes for placeholder generation
+        # Platform color schemes with Apple Glass Design aesthetics
+        # Format: (top_color, middle_color, bottom_color) for multi-stop gradient
         self.platform_colors = {
-            'Netflix': ('#E50914', '#8B0000'),  # Red gradient
-            'Amazon Prime Video': ('#00A8E1', '#00568B'),  # Blue gradient
-            'Apple TV+': ('#000000', '#333333'),  # Black to dark gray
-            'Jio Hotstar': ('#1F80E0', '#0F4070'),  # Blue gradient
-            'Zee5': ('#9D34DA', '#6B1FA0'),  # Purple gradient
-            'Sony LIV': ('#F47A20', '#C44500'),  # Orange gradient
-            'Sun NXT': ('#FFD700', '#FFA500'),  # Gold to orange
-            'Manorama MAX': ('#C41E3A', '#8B0000'),  # Red gradient
-            'default': ('#1a1a1a', '#000000')  # Dark gradient
+            'Netflix': ('#FF1744', '#C2185B', '#880E4F'),  # Vibrant red to deep pink glass
+            'Amazon Prime Video': ('#00B8D4', '#0277BD', '#01579B'),  # Cyan to deep blue glass
+            'Apple TV+': ('#424242', '#212121', '#000000'),  # Sleek dark glass
+            'Jio Hotstar': ('#2196F3', '#1565C0', '#0D47A1'),  # Bright to deep blue glass
+            'Zee5': ('#AB47BC', '#7B1FA2', '#4A148C'),  # Purple glass
+            'Sony LIV': ('#FF6F00', '#E65100', '#BF360C'),  # Orange glass
+            'Sun NXT': ('#FFC107', '#FF8F00', '#FF6F00'),  # Gold glass
+            'Manorama MAX': ('#E53935', '#C62828', '#B71C1C'),  # Red glass
+            'default': ('#455A64', '#263238', '#000000')  # Blue-grey glass
         }
 
         # Create placeholders directory if needed
@@ -691,6 +692,63 @@ class ContentUpdater:
 
         return None
 
+    def _create_glass_gradient(self, width, height, colors):
+        """
+        Create Apple Glass Design styled gradient with blur and depth
+        Uses multi-stop gradient with frosted glass effect
+        """
+        # Create base image
+        img = Image.new('RGB', (width, height))
+        draw = ImageDraw.Draw(img)
+
+        # Parse colors (now we have 3 colors: top, middle, bottom)
+        r1, g1, b1 = int(colors[0][1:3], 16), int(colors[0][3:5], 16), int(colors[0][5:7], 16)
+        r2, g2, b2 = int(colors[1][1:3], 16), int(colors[1][3:5], 16), int(colors[1][5:7], 16)
+        r3, g3, b3 = int(colors[2][1:3], 16), int(colors[2][3:5], 16), int(colors[2][5:7], 16)
+
+        # Draw multi-stop gradient (top to middle, then middle to bottom)
+        for y in range(height):
+            if y < height // 2:
+                # Top half: color1 to color2
+                ratio = (y / (height // 2))
+                r = int(r1 + (r2 - r1) * ratio)
+                g = int(g1 + (g2 - g1) * ratio)
+                b = int(b1 + (b2 - b1) * ratio)
+            else:
+                # Bottom half: color2 to color3
+                ratio = ((y - height // 2) / (height // 2))
+                r = int(r2 + (r3 - r2) * ratio)
+                g = int(g2 + (g3 - g2) * ratio)
+                b = int(b2 + (b3 - b2) * ratio)
+
+            draw.line([(0, y), (width, y)], fill=(r, g, b))
+
+        # Apply subtle blur for frosted glass effect
+        img = img.filter(ImageFilter.GaussianBlur(radius=2))
+
+        # Add radial light overlay for glass shine effect
+        overlay = Image.new('RGBA', (width, height), (0, 0, 0, 0))
+        overlay_draw = ImageDraw.Draw(overlay)
+
+        # Create circular light gradient in the center-top area
+        center_x, center_y = width // 2, height // 4
+        max_radius = width // 2
+
+        for i in range(max_radius, 0, -10):
+            # Calculate alpha for soft glow (more transparent towards edge)
+            alpha = int((1 - i / max_radius) * 30)  # Max 30 for subtle effect
+            overlay_draw.ellipse(
+                [center_x - i, center_y - i, center_x + i, center_y + i],
+                fill=(255, 255, 255, alpha)
+            )
+
+        # Composite the overlay onto the gradient
+        img = img.convert('RGBA')
+        img = Image.alpha_composite(img, overlay)
+        img = img.convert('RGB')
+
+        return img
+
     def _wrap_text(self, text: str, max_width: int, font) -> List[str]:
         """Wrap text to fit within max_width"""
         words = text.split()
@@ -734,26 +792,17 @@ class ContentUpdater:
             # Image dimensions (standard poster size)
             width, height = 500, 750
 
-            # Create image with gradient background
-            img = Image.new('RGB', (width, height))
+            # Create Apple Glass Design gradient background
+            img = self._create_glass_gradient(width, height, colors)
             draw = ImageDraw.Draw(img)
 
-            # Draw gradient background
-            for y in range(height):
-                # Interpolate between the two colors
-                ratio = y / height
-                r1, g1, b1 = int(colors[0][1:3], 16), int(colors[0][3:5], 16), int(colors[0][5:7], 16)
-                r2, g2, b2 = int(colors[1][1:3], 16), int(colors[1][3:5], 16), int(colors[1][5:7], 16)
+            # Calculate font size proportionally based on poster dimensions
+            # Use 16% of width for good readability (for 500px width = 80pt)
+            font_size = int(width * 0.16)
 
-                r = int(r1 + (r2 - r1) * ratio)
-                g = int(g1 + (g2 - g1) * ratio)
-                b = int(b1 + (b2 - b1) * ratio)
-
-                draw.line([(0, y), (width, y)], fill=(r, g, b))
-
-            # Try to load custom font with larger size
+            # Try to load custom font with dynamic size
             try:
-                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 52)
+                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
             except:
                 # Fallback to default font
                 title_font = ImageFont.load_default()
@@ -766,8 +815,8 @@ class ContentUpdater:
             if len(title_lines) > 4:
                 title_lines = title_lines[:3] + [title_lines[3][:20] + '...']
 
-            # Calculate total text height
-            line_height = 65  # Increased for larger font
+            # Calculate total text height (line height proportional to font size)
+            line_height = int(font_size * 1.3)  # 130% of font size for good spacing
             title_height = len(title_lines) * line_height
 
             # Draw title (centered vertically)
