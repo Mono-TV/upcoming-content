@@ -329,12 +329,14 @@ function createMovieCard(movie) {
                  loading="lazy"
                  onerror="this.src='${fallbackSvg}'">
 
-            <!-- Card Title at Bottom -->
-            <div class="card-title">
-                <div class="card-title-text ${safeTitle.length > 25 ? 'marquee' : ''}" data-text="${safeTitle}">
-                    ${safeTitle}
+            <!-- Play Button Overlay on Hover -->
+            ${movie.youtube_id ? `
+                <div class="play-button-overlay">
+                    <div class="play-button">
+                        <div class="play-tooltip">Play Trailer</div>
+                    </div>
                 </div>
-            </div>
+            ` : ''}
 
             <!-- Platform Overlay - Only Bottom Part on Hover -->
             <div class="platform-overlay">
@@ -354,6 +356,13 @@ function createMovieCard(movie) {
 
             <!-- Close Button -->
             <button class="close-button" onclick="collapseCard(event)"></button>
+        </div>
+
+        <!-- Card Title - Below Poster -->
+        <div class="card-title">
+            <div class="card-title-text ${safeTitle.length > 25 ? 'marquee' : ''}" data-text="${safeTitle}">
+                ${safeTitle}
+            </div>
         </div>
     `;
 
