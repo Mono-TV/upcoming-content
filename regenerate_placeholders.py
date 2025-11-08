@@ -148,7 +148,7 @@ class PlaceholderGenerator:
 
             # Calculate font size proportionally based on poster dimensions
             # Use 40% of width for much better visibility (for 500px width = 200pt)
-            font_size = int(width * 0.40)
+            font_size = int(width * 0.10)
 
             # Try to load TrueType font with multiple fallbacks
             # MUST use TrueType fonts - default font has fixed size!
