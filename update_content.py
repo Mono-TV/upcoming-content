@@ -474,6 +474,7 @@ class ContentUpdater:
         enriched_count = 0
         manual_count = 0
         validated_count = 0
+        imdb_fallback_count = 0
 
         for i, movie in enumerate(self.movies, 1):
             title = movie.get('title', '')
@@ -534,6 +535,7 @@ class ContentUpdater:
 
                 data = self._fetch_with_retry(url, params)
 
+                poster_found = False
                 if 'results' in data and len(data['results']) > 0:
                     result = data['results'][0]
                     poster_path = result.get('poster_path')
@@ -550,12 +552,48 @@ class ContentUpdater:
                             movie['tmdb_media_type'] = result.get('media_type')
                             enriched_count += 1
                             validated_count += 1
+                            poster_found = True
                             print("✓ Poster added (validated)")
                         else:
                             print("✗ Poster URL invalid")
-                    else:
-                        print("✗ No poster")
-                else:
+
+                # Fallback: Try TMDb find by IMDb ID if search failed
+                if not poster_found and movie.get('imdb_id'):
+                    try:
+                        imdb_id = movie.get('imdb_id')
+                        find_url = f"https://api.themoviedb.org/3/find/{imdb_id}"
+                        find_params = {
+                            'api_key': self.tmdb_api_key,
+                            'external_source': 'imdb_id'
+                        }
+
+                        find_data = self._fetch_with_retry(find_url, find_params)
+
+                        # Check movie results first, then TV results
+                        results = find_data.get('movie_results', []) or find_data.get('tv_results', [])
+
+                        if results and len(results) > 0:
+                            result = results[0]
+                            poster_path = result.get('poster_path')
+
+                            if poster_path:
+                                poster_medium = f"https://image.tmdb.org/t/p/w500{poster_path}"
+                                poster_large = f"https://image.tmdb.org/t/p/original{poster_path}"
+
+                                if self._validate_poster_url(poster_medium):
+                                    movie['poster_url_medium'] = poster_medium
+                                    movie['poster_url_large'] = poster_large
+                                    movie['tmdb_id'] = result.get('id')
+                                    movie['tmdb_media_type'] = 'movie' if 'movie_results' in find_data else 'tv'
+                                    enriched_count += 1
+                                    validated_count += 1
+                                    imdb_fallback_count += 1
+                                    poster_found = True
+                                    print(f"✓ Poster added via IMDb ID (validated)")
+                    except Exception as e:
+                        pass  # Continue to print not found below
+
+                if not poster_found:
                     print("✗ Not found")
 
                 time.sleep(1.0)  # Rate limiting - increased from 0.3s
@@ -566,6 +604,8 @@ class ContentUpdater:
         print(f"\n✅ Added posters for {enriched_count}/{len(self.movies)} movies")
         if manual_count > 0:
             print(f"   📋 {manual_count} from manual corrections")
+        if imdb_fallback_count > 0:
+            print(f"   🔗 {imdb_fallback_count} via IMDb ID fallback")
         if validated_count > 0:
             print(f"   ✓ {validated_count} validated (URLs tested)")
         self._save_json(self.movies, 'movies_enriched.json')
