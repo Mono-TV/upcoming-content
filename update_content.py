@@ -253,24 +253,29 @@ class ContentUpdater:
                 search_query = f"{title} {language}" if language else title
 
                 results = self.ia.search_movie(search_query)
-                if results:
+                if results and len(results) > 0:
                     movie_id = results[0].movieID
                     movie['imdb_id'] = f"tt{movie_id}"
 
                     # Get detailed info
-                    movie_info = self.ia.get_movie(movie_id)
-                    if 'year' in movie_info:
-                        movie['imdb_year'] = str(movie_info['year'])
+                    try:
+                        movie_info = self.ia.get_movie(movie_id)
+                        if 'year' in movie_info:
+                            movie['imdb_year'] = str(movie_info['year'])
+                    except:
+                        pass  # Year is optional
 
                     enriched_count += 1
                     print(f"✓ {movie['imdb_id']}")
                 else:
-                    print("✗ Not found")
+                    # IMDb not found - not critical, skip quietly
+                    print("⊘ Skipped")
 
                 time.sleep(0.5)  # Rate limiting
 
             except Exception as e:
-                print(f"✗ Error: {e}")
+                # IMDb errors are not critical - site works without it
+                print(f"⊘ Skipped ({str(e)[:20]})")
 
         print(f"\n✅ Enriched {enriched_count}/{len(self.movies)} movies with IMDb data")
         if manual_count > 0:
@@ -579,19 +584,38 @@ class ContentUpdater:
 
         # Summary
         elapsed = time.time() - start_time
+
+        # Count enrichments
+        with_imdb = sum(1 for m in self.movies if m.get('imdb_id'))
+        with_youtube = sum(1 for m in self.movies if m.get('youtube_id'))
+        with_posters = sum(1 for m in self.movies if m.get('poster_url_large'))
+
         print("\n" + "="*60)
         print("✅ ALL DONE!")
         print("="*60)
         print(f"\n📊 Summary:")
         print(f"   • Movies scraped: {len(self.movies)}")
+        print(f"   • With IMDb IDs: {with_imdb}/{len(self.movies)} {'✓' if with_imdb > 0 else '⊘ (optional)'}")
+        print(f"   • With YouTube trailers: {with_youtube}/{len(self.movies)} {'✓' if with_youtube == len(self.movies) else '⚠'}")
+        print(f"   • With TMDb posters: {with_posters}/{len(self.movies)} {'✓' if with_posters > len(self.movies)//2 else '⚠'}")
         print(f"   • Time elapsed: {elapsed:.1f} seconds")
         print(f"\n📁 Files created:")
         print(f"   • movies.json")
         print(f"   • movies_with_imdb.json")
         if self.enable_trailers:
             print(f"   • movies_with_trailers.json")
-        if self.enable_posters and self.tmdb_api_key:
+        if self.enable_posters:
             print(f"   • movies_enriched.json")
+
+        # Warnings/tips
+        if with_posters < len(self.movies) // 2:
+            print(f"\n💡 Tip: Set TMDB_API_KEY for high-quality posters")
+            print(f"   Get free key: https://www.themoviedb.org/settings/api")
+
+        if with_imdb < len(self.movies) // 4:
+            print(f"\n⚠️  Note: IMDb enrichment low (Cinemagoer API may be down)")
+            print(f"   This is optional - your site works without it!")
+
         print("\n" + "="*60 + "\n")
 
 
