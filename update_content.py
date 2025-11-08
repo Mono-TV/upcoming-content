@@ -717,6 +717,7 @@ class ContentUpdater:
     def generate_placeholder_poster(self, movie: Dict) -> Optional[str]:
         """
         Generate a beautiful placeholder poster using PIL/Pillow
+        Shows only the title with large font
         Returns the file path to the generated placeholder
         """
         if not PIL_AVAILABLE:
@@ -725,7 +726,6 @@ class ContentUpdater:
         try:
             title = movie.get('title', 'Untitled')
             platforms = movie.get('platforms', [])
-            release_date = movie.get('release_date', '')
 
             # Choose primary platform for color scheme
             primary_platform = platforms[0] if platforms else 'default'
@@ -751,16 +751,12 @@ class ContentUpdater:
 
                 draw.line([(0, y), (width, y)], fill=(r, g, b))
 
-            # Try to load custom font, fall back to default
+            # Try to load custom font with larger size
             try:
-                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 36)
-                subtitle_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 20)
-                platform_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+                title_font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 52)
             except:
                 # Fallback to default font
                 title_font = ImageFont.load_default()
-                subtitle_font = ImageFont.load_default()
-                platform_font = ImageFont.load_default()
 
             # Wrap title text
             max_title_width = width - 60  # 30px padding on each side
@@ -771,11 +767,11 @@ class ContentUpdater:
                 title_lines = title_lines[:3] + [title_lines[3][:20] + '...']
 
             # Calculate total text height
-            line_height = 45
+            line_height = 65  # Increased for larger font
             title_height = len(title_lines) * line_height
 
             # Draw title (centered vertically)
-            y_offset = (height - title_height) // 2 - 50
+            y_offset = (height - title_height) // 2
 
             for line in title_lines:
                 bbox = title_font.getbbox(line)
@@ -787,28 +783,6 @@ class ContentUpdater:
                 # Draw text
                 draw.text((x, y_offset), line, fill=(255, 255, 255), font=title_font)
                 y_offset += line_height
-
-            # Draw release date
-            if release_date:
-                y_offset += 30
-                bbox = subtitle_font.getbbox(release_date)
-                text_width = bbox[2] - bbox[0]
-                x = (width - text_width) // 2
-                draw.text((x + 1, y_offset + 1), release_date, fill=(0, 0, 0, 180), font=subtitle_font)
-                draw.text((x, y_offset), release_date, fill=(200, 200, 200), font=subtitle_font)
-
-            # Draw platform names
-            if platforms:
-                y_offset += 40
-                platform_text = ' • '.join(platforms[:2])  # Max 2 platforms
-                if len(platforms) > 2:
-                    platform_text += f" +{len(platforms) - 2}"
-
-                bbox = platform_font.getbbox(platform_text)
-                text_width = bbox[2] - bbox[0]
-                x = (width - text_width) // 2
-                draw.text((x + 1, y_offset + 1), platform_text, fill=(0, 0, 0, 180), font=platform_font)
-                draw.text((x, y_offset), platform_text, fill=(180, 180, 180), font=platform_font)
 
             # Generate filename (sanitize title)
             safe_title = "".join(c for c in title if c.isalnum() or c in (' ', '-')).rstrip()
