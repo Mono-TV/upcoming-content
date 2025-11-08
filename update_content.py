@@ -32,7 +32,7 @@ except ImportError as e:
 
 
 class ContentUpdater:
-    """Unified content scraper and enricher"""
+    """Unified content scraper and enricher with safety measures"""
 
     def __init__(self, max_pages=5, enable_posters=True, enable_trailers=True):
         self.max_pages = max_pages
@@ -48,6 +48,9 @@ class ContentUpdater:
 
         # TMDb API (if available)
         self.tmdb_api_key = os.environ.get('TMDB_API_KEY')
+
+        # Load manual corrections
+        self.manual_corrections = self._load_manual_corrections()
 
         # Platform mapping
         self.platform_map = {
@@ -222,18 +225,34 @@ class ContentUpdater:
         return movie_data if movie_data.get('title') else None
 
     def enrich_with_imdb(self):
-        """Step 2: Enrich with IMDb data"""
+        """Step 2: Enrich with IMDb data (with manual corrections)"""
         print("\n" + "="*60)
         print("STEP 2: ENRICHING WITH IMDB DATA")
         print("="*60 + "\n")
 
         enriched_count = 0
+        manual_count = 0
+
         for i, movie in enumerate(self.movies, 1):
             title = movie.get('title', '')
             print(f"[{i}/{len(self.movies)}] {title[:50]}... ", end='', flush=True)
 
+            # Check for manual correction first
+            if title in self.manual_corrections:
+                correction = self.manual_corrections[title]
+                movie['imdb_id'] = correction.get('imdb_id')
+                movie['imdb_year'] = correction.get('imdb_year')
+                enriched_count += 1
+                manual_count += 1
+                print(f"✓ {movie['imdb_id']} (manual)")
+                continue
+
             try:
-                results = self.ia.search_movie(title)
+                # Extract language for better search
+                language = self._extract_language_from_url(movie.get('url', ''))
+                search_query = f"{title} {language}" if language else title
+
+                results = self.ia.search_movie(search_query)
                 if results:
                     movie_id = results[0].movieID
                     movie['imdb_id'] = f"tt{movie_id}"
@@ -254,7 +273,33 @@ class ContentUpdater:
                 print(f"✗ Error: {e}")
 
         print(f"\n✅ Enriched {enriched_count}/{len(self.movies)} movies with IMDb data")
+        if manual_count > 0:
+            print(f"   📋 {manual_count} from manual corrections")
         self._save_json(self.movies, 'movies_with_imdb.json')
+
+    def _load_manual_corrections(self):
+        """Load manual corrections for problematic titles"""
+        try:
+            if os.path.exists('manual_corrections.json'):
+                with open('manual_corrections.json', 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    corrections = data.get('corrections', {})
+                    if corrections:
+                        print(f"📋 Loaded {len(corrections)} manual corrections")
+                    return corrections
+        except Exception as e:
+            print(f"⚠️  Could not load manual_corrections.json: {e}")
+        return {}
+
+    def _validate_poster_url(self, url):
+        """Test if a poster URL is accessible"""
+        if not url:
+            return False
+        try:
+            response = requests.head(url, timeout=5)
+            return response.status_code == 200
+        except:
+            return False
 
     def _extract_language_from_url(self, url):
         """Extract language from Binged URL for better search accuracy"""
@@ -384,7 +429,7 @@ class ContentUpdater:
         self._save_json(self.movies, 'movies_with_trailers.json')
 
     def enrich_with_posters(self):
-        """Step 4: Add high-quality posters from TMDb"""
+        """Step 4: Add high-quality posters from TMDb (with validation)"""
         if not self.enable_posters:
             print("\n⏭️  Skipping poster enrichment (disabled)")
             return
@@ -405,18 +450,61 @@ class ContentUpdater:
         print("="*60 + "\n")
 
         enriched_count = 0
+        manual_count = 0
+        validated_count = 0
+
         for i, movie in enumerate(self.movies, 1):
             title = movie.get('title', '')
             year = movie.get('imdb_year', '')
 
             print(f"[{i}/{len(self.movies)}] {title[:40]}... ", end='', flush=True)
 
+            # Check for manual correction first
+            if title in self.manual_corrections:
+                correction = self.manual_corrections[title]
+                if 'tmdb_id' in correction:
+                    # Fetch poster from specific TMDb ID
+                    try:
+                        tmdb_id = correction['tmdb_id']
+                        media_type = correction.get('tmdb_media_type', 'movie')
+                        url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}"
+                        params = {'api_key': self.tmdb_api_key}
+                        response = requests.get(url, params=params, timeout=10)
+                        data = response.json()
+
+                        poster_path = data.get('poster_path')
+                        if poster_path:
+                            poster_medium = f"https://image.tmdb.org/t/p/w500{poster_path}"
+                            poster_large = f"https://image.tmdb.org/t/p/original{poster_path}"
+
+                            # Validate poster URL
+                            if self._validate_poster_url(poster_medium):
+                                movie['poster_url_medium'] = poster_medium
+                                movie['poster_url_large'] = poster_large
+                                movie['tmdb_id'] = tmdb_id
+                                movie['tmdb_media_type'] = media_type
+                                enriched_count += 1
+                                manual_count += 1
+                                validated_count += 1
+                                print("✓ Poster added (manual, validated)")
+                            else:
+                                print("✗ Poster URL invalid")
+                        else:
+                            print("✗ No poster in TMDb")
+                    except Exception as e:
+                        print(f"✗ Error: {e}")
+                    continue
+
             try:
-                # Search TMDb
+                # Extract language for better search
+                language = self._extract_language_from_url(movie.get('url', ''))
+                search_query = f"{title} {language}" if language else title
+
+                # Search TMDb with language context
                 url = "https://api.themoviedb.org/3/search/multi"
                 params = {
                     'api_key': self.tmdb_api_key,
-                    'query': title,
+                    'query': search_query,
                     'year': year if year else None
                 }
                 response = requests.get(url, params=params, timeout=10)
@@ -427,12 +515,20 @@ class ContentUpdater:
                     poster_path = result.get('poster_path')
 
                     if poster_path:
-                        movie['poster_url_medium'] = f"https://image.tmdb.org/t/p/w500{poster_path}"
-                        movie['poster_url_large'] = f"https://image.tmdb.org/t/p/original{poster_path}"
-                        movie['tmdb_id'] = result.get('id')
-                        movie['tmdb_media_type'] = result.get('media_type')
-                        enriched_count += 1
-                        print("✓ Poster added")
+                        poster_medium = f"https://image.tmdb.org/t/p/w500{poster_path}"
+                        poster_large = f"https://image.tmdb.org/t/p/original{poster_path}"
+
+                        # Validate poster URL before saving
+                        if self._validate_poster_url(poster_medium):
+                            movie['poster_url_medium'] = poster_medium
+                            movie['poster_url_large'] = poster_large
+                            movie['tmdb_id'] = result.get('id')
+                            movie['tmdb_media_type'] = result.get('media_type')
+                            enriched_count += 1
+                            validated_count += 1
+                            print("✓ Poster added (validated)")
+                        else:
+                            print("✗ Poster URL invalid")
                     else:
                         print("✗ No poster")
                 else:
@@ -444,6 +540,10 @@ class ContentUpdater:
                 print(f"✗ Error: {e}")
 
         print(f"\n✅ Added posters for {enriched_count}/{len(self.movies)} movies")
+        if manual_count > 0:
+            print(f"   📋 {manual_count} from manual corrections")
+        if validated_count > 0:
+            print(f"   ✓ {validated_count} validated (URLs tested)")
         self._save_json(self.movies, 'movies_enriched.json')
 
     def _save_json(self, data, filename):

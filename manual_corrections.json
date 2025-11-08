@@ -1,0 +1,14 @@
+{
+  "_comment": "Manual corrections for movies with ambiguous titles or incorrect matches",
+  "_instructions": "Add entries here to override automatic matching. Key is the exact movie title from Binged.com",
+
+  "corrections": {
+    "Mom": {
+      "imdb_id": "tt5690360",
+      "imdb_year": "2017",
+      "tmdb_id": 433498,
+      "tmdb_media_type": "movie",
+      "reason": "Generic title - needs to match 2017 Hindi film, not 2013 series"
+    }
+  }
+}
