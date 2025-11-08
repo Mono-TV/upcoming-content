@@ -257,25 +257,66 @@ class ContentUpdater:
 
     def enrich_with_imdb_fallback(self):
         """
-        Step 3: Cinemagoer Fallback for Missing IMDb IDs
-        Only runs for movies that don't have IMDb ID from TMDB
-        This is a FALLBACK strategy since Cinemagoer is often unreliable
+        Step 3: IMDb Metadata Enrichment via Cinemagoer
+
+        Two-phase approach:
+        1. For movies WITH IMDb ID (from TMDB): Fetch metadata using IMDb ID directly
+        2. For movies WITHOUT IMDb ID: Search by title to find IMDb ID + metadata
+
+        This is more reliable than title-only search!
         """
         print("\n" + "="*60)
-        print("STEP 3: IMDB FALLBACK (Cinemagoer for missing IDs)")
+        print("STEP 3: IMDB METADATA ENRICHMENT (Cinemagoer)")
         print("="*60 + "\n")
 
-        # Only process movies without IMDb ID
+        # Phase 1: Enrich movies that already have IMDb ID from TMDB
+        with_imdb = [m for m in self.movies if m.get('imdb_id') and not m.get('imdb_year')]
+
+        if with_imdb:
+            print(f"📋 Phase 1: Fetching metadata for {len(with_imdb)} movies with IMDb IDs...\n")
+
+            metadata_enriched = 0
+            for i, movie in enumerate(with_imdb, 1):
+                title = movie.get('title', '')
+                imdb_id = movie.get('imdb_id', '')
+                print(f"[{i}/{len(with_imdb)}] {title[:40]}... ", end='', flush=True)
+
+                try:
+                    # Extract numeric ID from tt1234567 format
+                    movie_id = imdb_id.replace('tt', '')
+
+                    # Fetch movie details using IMDb ID (more reliable!)
+                    movie_info = self.ia.get_movie(movie_id)
+
+                    if 'year' in movie_info:
+                        movie['imdb_year'] = str(movie_info['year'])
+                        metadata_enriched += 1
+                        print(f"✓ Year: {movie['imdb_year']}")
+                    else:
+                        print("⊙ No year available")
+
+                    time.sleep(0.5)  # Rate limiting
+
+                except Exception as e:
+                    print(f"✗ Error: {str(e)[:20]}")
+
+            if metadata_enriched > 0:
+                print(f"\n✅ Enriched {metadata_enriched}/{len(with_imdb)} movies with IMDb metadata\n")
+        else:
+            print("✅ All movies with IMDb IDs already have metadata\n")
+
+        # Phase 2: Find IMDb IDs for movies that don't have them yet
         missing_imdb = [m for m in self.movies if not m.get('imdb_id')]
 
         if not missing_imdb:
             print("✅ All movies already have IMDb IDs from TMDB!")
-            print("   Skipping Cinemagoer fallback (not needed)")
+            print("   Skipping search phase")
+            self._save_json(self.movies, 'movies_with_imdb.json')
             return
 
-        print(f"📋 Attempting to find {len(missing_imdb)} missing IMDb IDs via Cinemagoer...\n")
+        print(f"📋 Phase 2: Searching for {len(missing_imdb)} missing IMDb IDs...\n")
 
-        enriched_count = 0
+        search_found = 0
         for i, movie in enumerate(missing_imdb, 1):
             title = movie.get('title', '')
             print(f"[{i}/{len(missing_imdb)}] {title[:40]}... ", end='', flush=True)
@@ -298,8 +339,9 @@ class ContentUpdater:
                     except:
                         pass  # Year is optional
 
-                    enriched_count += 1
-                    print(f"✓ {movie['imdb_id']}")
+                    search_found += 1
+                    year_info = f" ({movie.get('imdb_year', 'no year')})" if movie.get('imdb_year') else ""
+                    print(f"✓ {movie['imdb_id']}{year_info}")
                 else:
                     print("✗ Not found")
 
@@ -308,10 +350,10 @@ class ContentUpdater:
             except Exception as e:
                 print(f"✗ Error: {str(e)[:20]}")
 
-        if enriched_count > 0:
-            print(f"\n✅ Found {enriched_count}/{len(missing_imdb)} IMDb IDs via Cinemagoer fallback")
+        if search_found > 0:
+            print(f"\n✅ Found {search_found}/{len(missing_imdb)} IMDb IDs via title search")
         else:
-            print(f"\n⚠️  Cinemagoer fallback: 0/{len(missing_imdb)} found (API may be down)")
+            print(f"\n⚠️  Search phase: 0/{len(missing_imdb)} found (Cinemagoer API may be down)")
             print("   This is OK - TMDB already provided most IMDb IDs")
 
         self._save_json(self.movies, 'movies_with_imdb.json')
