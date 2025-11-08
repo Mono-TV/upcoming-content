@@ -34,11 +34,12 @@ except ImportError as e:
 class ContentUpdater:
     """Unified content scraper and enricher with safety measures"""
 
-    def __init__(self, max_pages=5, enable_posters=True, enable_trailers=True, test_mode=False):
+    def __init__(self, max_pages=5, enable_posters=True, enable_trailers=True, test_mode=False, fetch_binged_posters=True):
         self.max_pages = max_pages
         self.enable_posters = enable_posters
         self.enable_trailers = enable_trailers
         self.test_mode = test_mode
+        self.fetch_binged_posters = fetch_binged_posters
         self.movies = []
 
         # IMDb client
@@ -172,6 +173,138 @@ class ContentUpdater:
             await browser.close()
 
         print(f"\n✅ Scraped {len(self.movies)} movies total")
+        self._save_json(self.movies, 'movies.json')
+
+    async def enrich_with_binged_posters(self):
+        """
+        Step 1.5: Fetch high-quality posters directly from Binged content pages
+        This is more reliable than extracting from the listing page
+        """
+        print("\n" + "="*60)
+        print("STEP 1.5: FETCHING BINGED POSTERS FROM CONTENT PAGES")
+        print("="*60 + "\n")
+
+        # Filter movies that need poster enrichment
+        movies_needing_posters = [m for m in self.movies if m.get('url') and not m.get('poster_url_binged')]
+
+        if not movies_needing_posters:
+            print("✅ All movies already have Binged posters from listing page")
+            return
+
+        print(f"📋 Fetching posters for {len(movies_needing_posters)} movies from detail pages...\n")
+
+        async with async_playwright() as p:
+            browser = await p.chromium.launch(
+                headless=True,
+                args=['--disable-blink-features=AutomationControlled']
+            )
+
+            context = await browser.new_context(
+                viewport={'width': 1920, 'height': 1080},
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            )
+
+            page = await context.new_page()
+
+            # Add extra properties to avoid detection
+            await page.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                })
+            """)
+
+            posters_found = 0
+
+            for i, movie in enumerate(movies_needing_posters, 1):
+                title = movie.get('title', '')
+                url = movie.get('url', '')
+
+                print(f"[{i}/{len(movies_needing_posters)}] {title[:40]}... ", end='', flush=True)
+
+                try:
+                    # Navigate to the movie's detail page
+                    await page.goto(url, wait_until='domcontentloaded', timeout=30000)
+                    await asyncio.sleep(1)  # Let page settle
+
+                    # Wait for the poster image to load
+                    try:
+                        await page.wait_for_selector('img.movie-poster, img.show-poster, .movie-image img, .show-image img', timeout=5000)
+                    except:
+                        # Try alternative selectors
+                        pass
+
+                    # Get page content
+                    content = await page.content()
+                    soup = BeautifulSoup(content, 'html.parser')
+
+                    # Try multiple selectors to find the poster image
+                    poster_url = None
+
+                    # Strategy 1: Look for specific poster classes
+                    poster_selectors = [
+                        'img.movie-poster',
+                        'img.show-poster',
+                        '.movie-image img',
+                        '.show-image img',
+                        '.movie-details img',
+                        '.content-poster img',
+                        'img[alt*="poster"]',
+                        'img[alt*="Poster"]'
+                    ]
+
+                    for selector in poster_selectors:
+                        img = soup.select_one(selector)
+                        if img:
+                            poster_url = img.get('src') or img.get('data-src') or img.get('data-lazy-src')
+                            if poster_url:
+                                break
+
+                    # Strategy 2: Look for og:image meta tag
+                    if not poster_url:
+                        og_image = soup.find('meta', property='og:image')
+                        if og_image:
+                            poster_url = og_image.get('content')
+
+                    # Strategy 3: Find largest image on the page (likely the poster)
+                    if not poster_url:
+                        all_imgs = soup.find_all('img')
+                        for img in all_imgs:
+                            src = img.get('src') or img.get('data-src')
+                            if src and ('poster' in src.lower() or 'movie' in src.lower() or 'show' in src.lower()):
+                                poster_url = src
+                                break
+
+                    if poster_url:
+                        # Normalize the URL
+                        if not poster_url.startswith('http'):
+                            if poster_url.startswith('//'):
+                                poster_url = 'https:' + poster_url
+                            elif poster_url.startswith('/'):
+                                poster_url = 'https://www.binged.com' + poster_url
+                            else:
+                                poster_url = 'https://www.binged.com/' + poster_url
+
+                        # Validate it's not an icon or small image
+                        if poster_url.startswith('http') and not poster_url.endswith('.svg'):
+                            movie['poster_url_binged'] = poster_url
+                            movie['poster_url_medium'] = poster_url
+                            movie['poster_url_large'] = poster_url
+                            posters_found += 1
+                            print(f"✓ Poster found")
+                        else:
+                            print("⊙ Invalid poster URL")
+                    else:
+                        print("✗ No poster found")
+
+                    # Rate limiting
+                    await asyncio.sleep(0.5)
+
+                except Exception as e:
+                    print(f"✗ Error: {str(e)[:30]}")
+
+            await browser.close()
+
+        print(f"\n✅ Found {posters_found}/{len(movies_needing_posters)} posters from Binged content pages")
         self._save_json(self.movies, 'movies.json')
 
     def _parse_movie_item(self, item) -> Optional[Dict]:
@@ -786,6 +919,10 @@ class ContentUpdater:
             print(f"\n🧪 TEST MODE: Processing only first 3 movies (out of {len(self.movies)})")
             self.movies = self.movies[:3]
 
+        # Step 1.5: Fetch missing Binged posters from content pages
+        if self.movies and self.fetch_binged_posters:
+            await self.enrich_with_binged_posters()
+
         # Step 2: TMDB Complete Enrichment (TMDB ID + IMDb ID + Images) ⭐
         if self.movies and self.enable_posters:
             self.enrich_with_tmdb()
@@ -850,6 +987,7 @@ def main():
     parser.add_argument('--pages', type=int, default=5, help='Number of pages to scrape (default: 5)')
     parser.add_argument('--no-trailers', action='store_true', help='Skip YouTube trailer enrichment')
     parser.add_argument('--no-posters', action='store_true', help='Skip TMDb poster enrichment')
+    parser.add_argument('--no-binged-posters', action='store_true', help='Skip fetching posters from Binged content pages')
     parser.add_argument('--test', action='store_true', help='Test mode: process only 3 movies')
 
     args = parser.parse_args()
@@ -858,6 +996,7 @@ def main():
         max_pages=args.pages,
         enable_trailers=not args.no_trailers,
         enable_posters=not args.no_posters,
+        fetch_binged_posters=not args.no_binged_posters,
         test_mode=args.test
     )
 
