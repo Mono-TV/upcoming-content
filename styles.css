@@ -37,7 +37,7 @@
     --overlay-dark: rgba(0, 0, 0, 0.75);
 
     /* Gradients remain the same for both themes */
-    --gradient-primary: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+    --gradient-primary: linear-gradient(135deg, #E69D2E 0%, #AE7827 100%);
     --gradient-bg: linear-gradient(180deg, #fef8f0 0%, #fef5ed 50%, #ffffff 100%);
 }
 
@@ -117,7 +117,7 @@ h1 {
     font-size: 64px;
     font-weight: 800;
     letter-spacing: -0.03em;
-    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+    background: linear-gradient(90deg, #E69D2E 0%, #AE7827 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -183,12 +183,12 @@ main {
 
 .clear-filters {
     /* Apple Glass Design */
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
 
     border: 0.5px solid rgba(245, 175, 25, 0.3);
-    color: #f5711f;
+    color: #E69D2E;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -197,17 +197,17 @@ main {
 
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    box-shadow: 0 4px 16px rgba(245, 175, 25, 0.08),
+    box-shadow: 0 4px 16px rgba(238, 111, 25, 0.08),
                 0 1px 0 rgba(255, 255, 255, 0.8) inset;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 .clear-filters:hover {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(205, 72, 20, 0.1);
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(245, 175, 25, 0.15),
                 0 2px 0 rgba(255, 255, 255, 1) inset;
-    border: 0.5px solid rgba(245, 175, 25, 0.5);
+    border: 0.5px solid rgba(245, 175, 25, 0.6);
 }
 
 .filter-chips {
@@ -295,7 +295,7 @@ main {
     left: 0;
     right: 0;
     height: 3px;
-    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+    background: linear-gradient(135deg, #AE7827 0%, #E69D2E 100%);
     transform: scaleX(0);
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -339,7 +339,7 @@ main {
 }
 
 .filter-chip.active {
-    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+    background: linear-gradient(135deg, #E69D2E 0%, #AE7827 100%);
     color: white;
     border-color: transparent;
     box-shadow: 0 8px 24px rgba(245, 175, 25, 0.4),
