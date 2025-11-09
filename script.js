@@ -273,11 +273,20 @@ function updateTimelineWidth() {
     const grid = domCache.moviesGrid;
     if (!grid) return;
 
-    // Get the actual scrollable width
-    const scrollWidth = grid.scrollWidth;
+    // Get all cards
+    const cards = grid.querySelectorAll('.movie-card');
+    if (cards.length === 0) return;
 
-    // Set CSS variable for timeline width (extends slightly past content)
-    grid.style.setProperty('--timeline-width', `${scrollWidth + 50}px`);
+    // Get the position of the last card
+    const lastCard = cards[cards.length - 1];
+    const lastCardRect = lastCard.getBoundingClientRect();
+    const gridRect = grid.getBoundingClientRect();
+
+    // Calculate the exact position to the center of the last card
+    const lastCardCenter = lastCardRect.left - gridRect.left + (lastCardRect.width / 2) + grid.scrollLeft;
+
+    // Set CSS variable for timeline width (exactly to last card center)
+    grid.style.setProperty('--timeline-width', `${lastCardCenter}px`);
 }
 
 function createMovieCard(movie) {
@@ -343,8 +352,10 @@ function createMovieCard(movie) {
         <div class="movie-poster">
             <img src="${safePosterUrl}"
                  alt="${safeTitle}"
+                 class="poster-image loading"
                  loading="lazy"
-                 onerror="this.src='${fallbackSvg}'">
+                 onload="this.classList.remove('loading'); this.classList.add('loaded');"
+                 onerror="this.src='${fallbackSvg}'; this.classList.remove('loading'); this.classList.add('loaded');">
 
             <!-- Play Button Overlay on Hover -->
             ${movie.youtube_id ? `
