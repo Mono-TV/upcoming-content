@@ -605,16 +605,17 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
         }
     }
 
-    // Build platform badges for hover overlay (OTT content) - use logos if available
+    // Build platform badges for hover overlay (OTT content) - ONLY show logos, skip platforms without logos
     const platformBadgesHTML = platforms
         .map(p => {
             const logoUrl = platformLogos[p];
+            // Only return a badge if we have a logo for this platform
             if (logoUrl) {
                 return `<div class="platform-badge"><img src="${sanitizeAttribute(logoUrl)}" alt="${sanitizeAttribute(p)}" class="platform-logo" loading="lazy"></div>`;
-            } else {
-                return `<div class="platform-badge">${sanitizeText(p)}</div>`;
             }
+            return null; // Skip platforms without logos
         })
+        .filter(badge => badge !== null) // Remove null entries
         .join('');
 
     // Build video format badges for theatre content
@@ -645,21 +646,11 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
 
             <!-- Platform/Format Overlay - Only Bottom Part on Hover -->
             <div class="platform-overlay">
-                ${isTheatre ? `
-                    ${videoFormatBadgesHTML ? `
-                        <div class="platform-overlay-label">Formats</div>
-                        <div class="platform-overlay-content">
-                            ${videoFormatBadgesHTML}
-                        </div>
-                    ` : ''}
-                ` : `
-                    ${platformBadgesHTML ? `
-                        <div class="platform-overlay-label">Available on</div>
-                        <div class="platform-overlay-content">
-                            ${platformBadgesHTML}
-                        </div>
-                    ` : ''}
-                `}
+                ${platformBadgesHTML ? `
+                    <div class="platform-overlay-content">
+                        ${platformBadgesHTML}
+                    </div>
+                ` : ''}
             </div>
 
             <!-- Hover Tooltip (Hidden) -->
