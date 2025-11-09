@@ -22,6 +22,9 @@
     --glass-shadow-md: rgba(0, 0, 0, 0.1);
     --glass-shadow-lg: rgba(0, 0, 0, 0.15);
 
+    /* Darker filter section background for light theme to show white logos */
+    --filter-section-bg: rgba(240, 240, 240, 0.85);
+
     --card-bg: rgba(255, 255, 255, 0.4);
     --card-border: rgba(255, 255, 255, 0.6);
     --card-shadow: rgba(0, 0, 0, 0.1);
@@ -63,6 +66,9 @@
     --glass-shadow-sm: rgba(0, 0, 0, 0.3);
     --glass-shadow-md: rgba(0, 0, 0, 0.5);
     --glass-shadow-lg: rgba(0, 0, 0, 0.7);
+
+    /* Filter section background for dark theme */
+    --filter-section-bg: rgba(28, 28, 30, 0.7);
 
     --card-bg: rgba(28, 28, 30, 0.6);
     --card-border: rgba(255, 255, 255, 0.15);
@@ -155,8 +161,8 @@ main {
 
 /* Filters Section - Apple Glass Design */
 .filters-section {
-    /* Apple Glass Design */
-    background: var(--glass-bg);
+    /* Apple Glass Design - darker in light theme for logo visibility */
+    background: var(--filter-section-bg);
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
 
