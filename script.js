@@ -257,10 +257,27 @@ function displayMovies(movies) {
 
     domCache.moviesGrid.appendChild(fragment);
 
+    // Update timeline width to match content
+    requestAnimationFrame(() => {
+        updateTimelineWidth();
+    });
+
     // Trigger animation
     requestAnimationFrame(() => {
         domCache.moviesGrid.style.opacity = '1';
     });
+}
+
+// Update timeline width based on actual content width
+function updateTimelineWidth() {
+    const grid = domCache.moviesGrid;
+    if (!grid) return;
+
+    // Get the actual scrollable width
+    const scrollWidth = grid.scrollWidth;
+
+    // Set CSS variable for timeline width (extends slightly past content)
+    grid.style.setProperty('--timeline-width', `${scrollWidth + 50}px`);
 }
 
 function createMovieCard(movie) {
@@ -549,6 +566,15 @@ function collapseCard(event) {
 // Close on escape key
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') collapseCard();
+});
+
+// Update timeline width on window resize
+let resizeTimeout;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        updateTimelineWidth();
+    }, 150); // Debounce resize events
 });
 
 // Initialize when DOM is ready
