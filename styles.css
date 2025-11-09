@@ -328,7 +328,7 @@ main {
     position: absolute;
     top: 50px; /* Positioned high in padding area for clear visibility */
     left: 0;
-    width: calc(100% + 100px); /* Extends slightly past last card */
+    width: var(--timeline-width, calc(100% + 100px)); /* Dynamic width based on content, fallback to calc */
     height: 3px;
     background: linear-gradient(90deg,
         transparent 0%,
