@@ -4,75 +4,101 @@
     box-sizing: border-box;
 }
 
-/* Apple Liquid Design Theme System */
+/* Apple Design Tokens */
 :root {
-    /* Light Theme - Apple Liquid Design */
-    --bg-primary: #fef8f0;
-    --bg-secondary: #fef5ed;
-    --bg-tertiary: #ffffff;
+    /* Typography - SF Pro System */
+    --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", sans-serif;
 
-    --text-primary: #1d1d1f;
-    --text-secondary: #6e6e73;
-    --text-tertiary: #86868b;
+    /* Light Theme - Apple Design System */
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F2F2F7;
+    --bg-tertiary: #FFFFFF;
+    --bg-grouped-primary: #F2F2F7;
+    --bg-grouped-secondary: #FFFFFF;
 
+    /* Labels (Text) */
+    --label-primary: #000000;
+    --label-secondary: rgba(60, 60, 67, 0.6);
+    --label-tertiary: rgba(60, 60, 67, 0.3);
+    --label-quaternary: rgba(60, 60, 67, 0.18);
+
+    /* Fills */
+    --fill-primary: rgba(120, 120, 128, 0.2);
+    --fill-secondary: rgba(120, 120, 128, 0.16);
+    --fill-tertiary: rgba(118, 118, 128, 0.12);
+    --fill-quaternary: rgba(116, 116, 128, 0.08);
+
+    /* Grays */
+    --gray: #8E8E93;
+    --gray-2: #AEAEB2;
+    --gray-3: #C7C7CC;
+    --gray-4: #D1D1D6;
+    --gray-5: #E5E5EA;
+    --gray-6: #F2F2F7;
+
+    /* Separators */
+    --separator-opaque: #C6C6C8;
+    --separator-non-opaque: rgba(0, 0, 0, 0.12);
+
+    /* Accent Colors */
+    --accent-blue: #007AFF;
+    --accent-orange: #FF9500;
+    --accent-yellow: #FFCC00;
+
+    /* Glass Effects */
     --glass-bg: rgba(255, 255, 255, 0.7);
     --glass-bg-hover: rgba(255, 255, 255, 0.85);
-    --glass-border: rgba(255, 255, 255, 0.8);
-    --glass-shadow-sm: rgba(0, 0, 0, 0.06);
-    --glass-shadow-md: rgba(0, 0, 0, 0.1);
-    --glass-shadow-lg: rgba(0, 0, 0, 0.15);
+    --glass-border: rgba(0, 0, 0, 0.04);
 
-    --card-bg: rgba(255, 255, 255, 0.4);
-    --card-border: rgba(255, 255, 255, 0.6);
-    --card-shadow: rgba(0, 0, 0, 0.1);
-
-    --timeline-bg: #fef8f0;
-    --timeline-dot-border: #fef8f0;
-
-    --scrollbar-track: #f5f5f7;
-    --scrollbar-thumb: #d2d2d7;
-    --scrollbar-thumb-hover: #b8b8bd;
-
-    --border-subtle: rgba(0, 0, 0, 0.06);
-    --overlay-dark: rgba(0, 0, 0, 0.75);
-
-    /* Gradients remain the same for both themes */
-    --gradient-primary: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
-    --gradient-bg: linear-gradient(180deg, #fef8f0 0%, #fef5ed 50%, #ffffff 100%);
+    /* Custom Gradient for branding */
+    --gradient-brand: linear-gradient(90deg, #E69D2E, #AE7827);
+    --gradient-bg: linear-gradient(180deg, #FFFFFF 0%, #F2F2F7 50%, #FFFFFF 100%);
 }
 
-/* Dark Theme - Apple Liquid Design */
+/* Dark Theme - Apple Design System */
 [data-theme="dark"] {
+    /* Backgrounds */
     --bg-primary: #000000;
-    --bg-secondary: #1c1c1e;
-    --bg-tertiary: #2c2c2e;
+    --bg-secondary: #1C1C1E;
+    --bg-tertiary: #2C2C2E;
+    --bg-grouped-primary: #000000;
+    --bg-grouped-secondary: #1C1C1E;
 
-    --text-primary: #f5f5f7;
-    --text-secondary: #98989d;
-    --text-tertiary: #6e6e73;
+    /* Labels (Text) */
+    --label-primary: #FFFFFF;
+    --label-secondary: rgba(235, 235, 245, 0.6);
+    --label-tertiary: rgba(235, 235, 245, 0.3);
+    --label-quaternary: rgba(235, 235, 245, 0.16);
 
+    /* Fills */
+    --fill-primary: rgba(120, 120, 128, 0.36);
+    --fill-secondary: rgba(120, 120, 128, 0.32);
+    --fill-tertiary: rgba(118, 118, 128, 0.24);
+    --fill-quaternary: rgba(118, 118, 128, 0.18);
+
+    /* Grays */
+    --gray: #8E8E93;
+    --gray-2: #636366;
+    --gray-3: #48484A;
+    --gray-4: #3A3A3C;
+    --gray-5: #2C2C2E;
+    --gray-6: #1C1C1E;
+
+    /* Separators */
+    --separator-opaque: #38383A;
+    --separator-non-opaque: rgba(255, 255, 255, 0.12);
+
+    /* Accent Colors */
+    --accent-blue: #0A84FF;
+    --accent-orange: #FF9F0A;
+    --accent-yellow: #FFD60A;
+
+    /* Glass Effects */
     --glass-bg: rgba(28, 28, 30, 0.7);
     --glass-bg-hover: rgba(44, 44, 46, 0.85);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --glass-shadow-sm: rgba(0, 0, 0, 0.3);
-    --glass-shadow-md: rgba(0, 0, 0, 0.5);
-    --glass-shadow-lg: rgba(0, 0, 0, 0.7);
 
-    --card-bg: rgba(28, 28, 30, 0.6);
-    --card-border: rgba(255, 255, 255, 0.15);
-    --card-shadow: rgba(0, 0, 0, 0.5);
-
-    --timeline-bg: #000000;
-    --timeline-dot-border: #1c1c1e;
-
-    --scrollbar-track: #1c1c1e;
-    --scrollbar-thumb: #48484a;
-    --scrollbar-thumb-hover: #636366;
-
-    --border-subtle: rgba(255, 255, 255, 0.1);
-    --overlay-dark: rgba(0, 0, 0, 0.85);
-
-    --gradient-bg: linear-gradient(180deg, #000000 0%, #1c1c1e 50%, #2c2c2e 100%);
+    --gradient-bg: linear-gradient(180deg, #000000 0%, #1C1C1E 50%, #2C2C2E 100%);
 }
 
 html {
@@ -80,16 +106,21 @@ html {
 }
 
 body {
-    font-family: 'Red Hat Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: var(--font-family);
     background: var(--gradient-bg);
     background-attachment: fixed;
-    color: var(--text-primary);
-    line-height: 1.5;
+    color: var(--label-primary);
+
+    /* Apple Body Typography */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.294;
+    letter-spacing: 0;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: 400;
 
-    /* Smooth theme transition - Apple Liquid Design */
+    /* Smooth theme transition */
     transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
                 color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -123,16 +154,16 @@ h1 {
     background-clip: text;
     margin-bottom: 16px;
     line-height: 1.1;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .subtitle {
     font-size: 21px;
     font-weight: 500;
-    color: var(--text-secondary);
+    color: var(--label-secondary);
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 /* Main Content */
@@ -199,7 +230,7 @@ main {
 
     box-shadow: 0 4px 16px rgba(245, 175, 25, 0.08),
                 0 1px 0 rgba(255, 255, 255, 0.8) inset;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .clear-filters:hover {
@@ -229,7 +260,7 @@ main {
     border: 0.5px solid var(--card-border);
     font-size: 14px;
     font-weight: 600;
-    color: var(--text-secondary);
+    color: var(--label-secondary);
     cursor: pointer;
 
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -242,7 +273,7 @@ main {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .filter-chip img {
@@ -265,7 +296,7 @@ main {
     font-weight: 700;
     font-size: 16px;
     padding: 12px 24px;
-    color: var(--text-secondary);
+    color: var(--label-secondary);
     box-shadow: none;
     transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
                 background 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -273,7 +304,7 @@ main {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .content-type-chip img,
@@ -283,7 +314,7 @@ main {
 }
 
 .content-type-chip .content-type-icon {
-    color: var(--text-secondary);
+    color: var(--label-secondary);
     transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
                 opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -301,12 +332,12 @@ main {
 }
 
 .content-type-chip:hover {
-    color: var(--text-primary);
+    color: var(--label-primary);
     background: var(--card-bg);
 }
 
 .content-type-chip.active {
-    color: var(--text-primary);
+    color: var(--label-primary);
     background: transparent;
 }
 
@@ -316,11 +347,11 @@ main {
 }
 
 .content-type-chip.active .content-type-icon {
-    color: var(--text-primary);
+    color: var(--label-primary);
 }
 
 .content-type-chip:hover .content-type-icon {
-    color: var(--text-primary);
+    color: var(--label-primary);
     opacity: 1;
 }
 
@@ -332,7 +363,7 @@ main {
     /* Enhanced Apple Glass on hover */
     background: var(--glass-bg-hover);
     border: 0.5px solid var(--glass-border);
-    color: var(--text-primary);
+    color: var(--label-primary);
     transform: translateY(-2px) scale(1.02);
     box-shadow: 0 8px 24px var(--glass-shadow-md),
                 0 2px 0 var(--glass-border) inset;
@@ -357,7 +388,7 @@ main {
     text-align: center;
     padding: 100px 20px;
     font-size: 18px;
-    color: var(--text-secondary);
+    color: var(--label-secondary);
     transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -374,22 +405,23 @@ main {
 
 /* Timeline Header */
 .timeline-header {
-    text-align: left; /* Changed from center to left */
-    margin: 20px 0 30px; /* Optimized for single viewport fit */
+    text-align: left;
+    margin: 20px 0 30px;
     animation: fadeInHero 0.8s ease-out;
 }
 
 .timeline-title {
-    font-size: 36px;
+    /* Apple Large Title Emphasized */
+    font-family: var(--font-family);
+    font-size: 34px;
     font-weight: 700;
-    letter-spacing: -0.02em;
-    background: linear-gradient(90deg, #E69D2E, #AE7827);
+    letter-spacing: 0;
+    line-height: 1.206;
+    background: var(--gradient-brand);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     margin-bottom: 0;
-    line-height: 1.3;
-    font-family: 'Red Hat Display', sans-serif;
 }
 
 /* Content Sections - Multiple Rows */
@@ -411,20 +443,21 @@ main {
 }
 
 .row-title {
-    font-size: 32px;
+    /* Apple Title1 Emphasized */
+    font-family: var(--font-family);
+    font-size: 28px;
     font-weight: 700;
-    letter-spacing: -0.02em;
-    color: var(--text-primary);
+    letter-spacing: 0;
+    line-height: 1.214;
+    color: var(--label-primary);
     margin-bottom: 8px;
-    line-height: 1.2;
-    font-family: 'Red Hat Display', sans-serif;
     transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .row-subtitle {
     font-size: 16px;
     font-weight: 500;
-    color: var(--text-secondary);
+    color: var(--label-secondary);
     margin: 0;
     transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -432,7 +465,7 @@ main {
 .empty-row-message {
     text-align: center;
     padding: 60px 20px;
-    color: var(--text-tertiary);
+    color: var(--label-tertiary);
     font-size: 18px;
     font-weight: 500;
     transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
@@ -673,20 +706,22 @@ main {
     top: -35px; /* Positioned above timeline line which is at top: 30px */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16px; /* Increased from 13px */
-    font-weight: 700;
-    color: var(--text-primary);
 
-    /* No background - clean text only */
+    /* Apple Callout Emphasized */
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.313;
+    color: var(--label-primary);
+
     background: transparent;
-
     padding: 0;
     white-space: nowrap;
     z-index: 5;
 
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    font-family: 'Red Hat Display', sans-serif;
 }
 
 .movie-card:hover .release-date-label {
@@ -790,14 +825,16 @@ main {
 }
 
 .card-title-text {
+    /* Apple Subheadline Emphasized */
+    font-family: var(--font-family);
     font-size: 15px;
     font-weight: 600;
-    color: var(--text-primary);
+    letter-spacing: 0;
+    line-height: 1.333;
+    color: var(--label-primary);
     white-space: nowrap;
-    font-family: 'Red Hat Display', sans-serif;
     display: inline-block;
     padding-right: 20px;
-    line-height: 1.4;
     transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -930,7 +967,7 @@ main {
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
     margin-bottom: 6px;
 }
 
@@ -944,7 +981,7 @@ main {
     font-size: 12px;
     font-weight: 600;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1031,7 +1068,7 @@ main {
     font-size: 13px;
     font-weight: 600;
     white-space: nowrap;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
     pointer-events: none;
     opacity: 0;
@@ -1051,7 +1088,7 @@ main {
     font-weight: 700;
     margin-bottom: 8px;
     line-height: 1.2;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .tooltip-meta {
@@ -1078,7 +1115,7 @@ main {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .movie-meta {
@@ -1096,7 +1133,7 @@ main {
     border-radius: 12px;
     font-weight: 600;
     color: #1d1d1f;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .platforms {
@@ -1114,7 +1151,7 @@ main {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.02em;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 /* Video Format Badges (for theatre content) */
@@ -1127,7 +1164,7 @@ main {
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
     white-space: nowrap;
 }
 
@@ -1148,7 +1185,7 @@ main {
                 box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
     cursor: pointer;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: var(--font-family);
 }
 
 .btn-primary {
@@ -1513,8 +1550,8 @@ main {
 .theme-icon svg {
     width: 100%;
     height: 100%;
-    fill: var(--text-primary);
-    stroke: var(--text-primary);
+    fill: var(--label-primary);
+    stroke: var(--label-primary);
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -1529,7 +1566,7 @@ main {
 
 /* Moon icon specific styling */
 .moon-icon svg {
-    fill: var(--text-primary);
+    fill: var(--label-primary);
     stroke: none;
 }
 
