@@ -30,13 +30,13 @@
 <body>
     <main>
         <div class="hero">
-            <h1>Upcoming Movies & Shows</h1>
-            <p class="subtitle">Streaming premieres across your favorite platforms</p>
+            <h1>Movies & Shows</h1>
+            <p class="subtitle">OTT & Theatre Releases</p>
         </div>
 
         <div class="loading" id="loading">Loading amazing content</div>
 
-        <!-- Filters Section -->
+        <!-- Filters Section (Only for OTT content) -->
         <div class="filters-section" id="filtersSection" style="display: none;">
             <div class="content-type-section" id="contentTypeSection"></div>
             <div class="platform-section">
@@ -45,12 +45,44 @@
             </div>
         </div>
 
-        <!-- Timeline Title -->
-        <div class="timeline-header">
-            <h2 class="timeline-title">OTT Releases this November</h2>
-        </div>
+        <!-- Content Rows Container -->
+        <div class="content-sections">
+            <!-- Row 1: New Releases (OTT) -->
+            <section class="content-row" id="ottReleasedRow" data-row-type="ott_released">
+                <div class="row-header">
+                    <h2 class="row-title">🎬 New Releases (OTT)</h2>
+                    <p class="row-subtitle">Recently released on streaming platforms</p>
+                </div>
+                <div class="timeline-container" id="ottReleasedTimeline"></div>
+            </section>
 
-        <div class="movies-grid" id="moviesGrid"></div>
+            <!-- Row 2: Upcoming OTT Releases -->
+            <section class="content-row" id="ottUpcomingRow" data-row-type="ott_upcoming">
+                <div class="row-header">
+                    <h2 class="row-title">📺 Upcoming OTT Releases</h2>
+                    <p class="row-subtitle">Coming soon to streaming platforms</p>
+                </div>
+                <div class="timeline-container" id="ottUpcomingTimeline"></div>
+            </section>
+
+            <!-- Row 3: Movies in Theatre -->
+            <section class="content-row" id="theatreCurrentRow" data-row-type="theatre_current">
+                <div class="row-header">
+                    <h2 class="row-title">🎞️ Movies in Theatre</h2>
+                    <p class="row-subtitle">Now playing in theatres</p>
+                </div>
+                <div class="timeline-container" id="theatreCurrentTimeline"></div>
+            </section>
+
+            <!-- Row 4: Upcoming Theatre Releases -->
+            <section class="content-row" id="theatreUpcomingRow" data-row-type="theatre_upcoming">
+                <div class="row-header">
+                    <h2 class="row-title">🎭 Upcoming Theatre Releases</h2>
+                    <p class="row-subtitle">Coming soon to theatres</p>
+                </div>
+                <div class="timeline-container" id="theatreUpcomingTimeline"></div>
+            </section>
+        </div>
     </main>
 
     <!-- Backdrop -->
