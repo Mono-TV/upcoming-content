@@ -605,16 +605,17 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
         }
     }
 
-    // Build platform badges for hover overlay (OTT content) - use logos if available
+    // Build platform badges for hover overlay (OTT content) - ONLY show logos, skip platforms without logos
     const platformBadgesHTML = platforms
         .map(p => {
             const logoUrl = platformLogos[p];
+            // Only return a badge if we have a logo for this platform
             if (logoUrl) {
                 return `<div class="platform-badge"><img src="${sanitizeAttribute(logoUrl)}" alt="${sanitizeAttribute(p)}" class="platform-logo" loading="lazy"></div>`;
-            } else {
-                return `<div class="platform-badge">${sanitizeText(p)}</div>`;
             }
+            return null; // Skip platforms without logos
         })
+        .filter(badge => badge !== null) // Remove null entries
         .join('');
 
     // Build video format badges for theatre content

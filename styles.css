@@ -667,32 +667,23 @@ main {
                 0 0 20px rgba(245, 175, 25, 0.4);
 }
 
-/* Release date label on timeline - Apple Glass Design */
+/* Release date label on timeline - Clean design without background */
 .release-date-label {
     position: absolute;
     top: -125px; /* Positioned 35px above timeline dots (-90px) for clear visibility */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 13px;
+    font-size: 16px; /* Increased from 13px */
     font-weight: 700;
     color: var(--text-primary);
 
-    /* Apple Glass Design */
-    background: var(--glass-bg-hover);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    /* No background - clean text only */
+    background: transparent;
 
     padding: 10px 16px 8px 16px; /* Increased top padding to prevent text clipping */
     border-radius: 16px;
     white-space: nowrap;
     z-index: 5;
-
-    /* Enhanced frosted glass shadow */
-    box-shadow: 0 8px 24px var(--glass-shadow-md),
-                0 4px 8px var(--glass-shadow-sm),
-                0 0 0 1px var(--glass-border) inset,
-                0 2px 0 var(--glass-border) inset;
-    border: 0.5px solid var(--card-border);
 
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -701,11 +692,6 @@ main {
 
 .movie-card:hover .release-date-label {
     transform: translateX(-50%) scale(1.05) translateY(-3px);
-    background: var(--glass-bg-hover);
-    box-shadow: 0 12px 32px rgba(245, 175, 25, 0.15),
-                0 8px 16px var(--glass-shadow-md),
-                0 0 0 1px var(--glass-border) inset,
-                0 2px 0 var(--glass-border) inset;
 }
 
 .movie-card:not(.expanded):hover .movie-poster {
