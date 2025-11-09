@@ -36,6 +36,12 @@
     --border-subtle: rgba(0, 0, 0, 0.06);
     --overlay-dark: rgba(0, 0, 0, 0.75);
 
+    /* Platform overlay gradient for light theme - darker to show white logos */
+    --platform-overlay-gradient: linear-gradient(to top,
+                rgba(60, 60, 60, 0.85) 0%,
+                rgba(60, 60, 60, 0.5) 30%,
+                transparent 100%);
+
     /* Gradients remain the same for both themes */
     --gradient-primary: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
     --gradient-bg: linear-gradient(180deg, #fef8f0 0%, #fef5ed 50%, #ffffff 100%);
@@ -71,6 +77,12 @@
 
     --border-subtle: rgba(255, 255, 255, 0.1);
     --overlay-dark: rgba(0, 0, 0, 0.85);
+
+    /* Platform overlay gradient for dark theme */
+    --platform-overlay-gradient: linear-gradient(to top,
+                rgba(0, 0, 0, 0.75) 0%,
+                rgba(0, 0, 0, 0.4) 30%,
+                transparent 100%);
 
     --gradient-bg: linear-gradient(180deg, #000000 0%, #1c1c1e 50%, #2c2c2e 100%);
 }
@@ -509,6 +521,10 @@ main {
     box-shadow: 0 2px 8px rgba(230, 157, 46, 0.4);
 }
 
+.timeline-container::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
 /* Movie Timeline - Horizontal Scrolling (legacy - kept for backwards compatibility) */
 .movies-grid {
     position: relative;
@@ -578,6 +594,10 @@ main {
 .movies-grid::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(90deg, #AE7827, #E69D2E);
     box-shadow: 0 2px 8px rgba(230, 157, 46, 0.4);
+}
+
+.movies-grid::-webkit-scrollbar-corner {
+    background: transparent;
 }
 
 /* Compact List View - Timeline compatible */
@@ -897,10 +917,7 @@ main {
     left: 0;
     right: 0;
     padding: 12px 16px; /* Reduced from 20px to make it more minimal */
-    background: linear-gradient(to top,
-                rgba(0, 0, 0, 0.75) 0%,
-                rgba(0, 0, 0, 0.4) 30%, /* Reduced from 50% for minimal height */
-                transparent 100%);
+    background: var(--platform-overlay-gradient);
     backdrop-filter: blur(8px); /* Reduced from 10px */
     -webkit-backdrop-filter: blur(8px);
     opacity: 0;
