@@ -24,6 +24,8 @@
 
     /* Darker filter section background for light theme to show white logos */
     --filter-section-bg: rgba(240, 240, 240, 0.85);
+    --filter-chip-bg: rgba(220, 220, 220, 0.9);
+    --filter-chip-bg-hover: rgba(200, 200, 200, 0.95);
 
     --card-bg: rgba(255, 255, 255, 0.4);
     --card-border: rgba(255, 255, 255, 0.6);
@@ -69,6 +71,8 @@
 
     /* Filter section background for dark theme */
     --filter-section-bg: rgba(28, 28, 30, 0.7);
+    --filter-chip-bg: rgba(28, 28, 30, 0.7);
+    --filter-chip-bg-hover: rgba(44, 44, 46, 0.85);
 
     --card-bg: rgba(28, 28, 30, 0.6);
     --card-border: rgba(255, 255, 255, 0.15);
@@ -239,8 +243,8 @@ main {
     padding: 10px 20px;
     border-radius: 24px;
 
-    /* Apple Glass Design */
-    background: var(--glass-bg);
+    /* Darker background in light theme for logo visibility */
+    background: var(--filter-chip-bg);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
 
@@ -347,8 +351,8 @@ main {
 }
 
 .filter-chip:hover {
-    /* Enhanced Apple Glass on hover */
-    background: var(--glass-bg-hover);
+    /* Enhanced background on hover */
+    background: var(--filter-chip-bg-hover);
     border: 0.5px solid var(--glass-border);
     color: var(--text-primary);
     transform: translateY(-2px) scale(1.02);
