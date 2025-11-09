@@ -770,7 +770,7 @@ main {
 .movie-poster {
     position: relative;
     width: 100%;
-    padding-top: 135%; /* Reduced from 150% (10% reduction) */
+    padding-top: 150%; /* Restored to original size */
 
     /* Apple Glass Design */
     background: var(--card-bg);
