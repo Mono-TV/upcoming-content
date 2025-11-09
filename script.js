@@ -10,7 +10,7 @@ function initTheme() {
         updateMetaThemeColor('#000000');
     } else {
         html.removeAttribute('data-theme');
-        updateMetaThemeColor('#FFFFFF');
+        updateMetaThemeColor('#fef8f0');
     }
 }
 
@@ -26,7 +26,7 @@ function toggleTheme() {
     } else {
         html.removeAttribute('data-theme');
         localStorage.setItem('theme', 'light');
-        updateMetaThemeColor('#FFFFFF');
+        updateMetaThemeColor('#fef8f0');
     }
 }
 
