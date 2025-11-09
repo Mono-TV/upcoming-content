@@ -261,7 +261,13 @@ function createFilterChips() {
     const moviesChip = document.createElement('div');
     moviesChip.className = 'filter-chip content-type-chip';
     moviesChip.innerHTML = `
-        <img src="icon_movies.svg" alt="Movies" style="width: 18px; height: 18px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="content-type-icon">
+            <rect x="2" y="3" width="20" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M2 9h20M8 3v6M16 3v6" stroke="currentColor" stroke-width="2"/>
+            <circle cx="7" cy="15" r="1.5" fill="currentColor"/>
+            <circle cx="12" cy="15" r="1.5" fill="currentColor"/>
+            <circle cx="17" cy="15" r="1.5" fill="currentColor"/>
+        </svg>
         <span>Movies</span>
     `;
     moviesChip.onclick = () => toggleContentType('Movies', moviesChip);
@@ -270,7 +276,15 @@ function createFilterChips() {
     const showsChip = document.createElement('div');
     showsChip.className = 'filter-chip content-type-chip';
     showsChip.innerHTML = `
-        <img src="icon_shows.svg" alt="Shows" style="width: 18px; height: 18px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="content-type-icon">
+            <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+            <path d="M2 10h20" stroke="currentColor" stroke-width="2"/>
+            <circle cx="8" cy="14" r="1" fill="currentColor"/>
+            <circle cx="12" cy="14" r="1" fill="currentColor"/>
+            <circle cx="16" cy="14" r="1" fill="currentColor"/>
+            <rect x="7" y="2" width="2" height="3" fill="currentColor"/>
+            <rect x="15" y="2" width="2" height="3" fill="currentColor"/>
+        </svg>
         <span>Shows</span>
     `;
     showsChip.onclick = () => toggleContentType('Shows', showsChip);
@@ -591,9 +605,16 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
         }
     }
 
-    // Build platform badges for hover overlay (OTT content)
+    // Build platform badges for hover overlay (OTT content) - use logos if available
     const platformBadgesHTML = platforms
-        .map(p => `<div class="platform-badge">${sanitizeText(p)}</div>`)
+        .map(p => {
+            const logoUrl = platformLogos[p];
+            if (logoUrl) {
+                return `<div class="platform-badge"><img src="${sanitizeAttribute(logoUrl)}" alt="${sanitizeAttribute(p)}" class="platform-logo" loading="lazy"></div>`;
+            } else {
+                return `<div class="platform-badge">${sanitizeText(p)}</div>`;
+            }
+        })
         .join('');
 
     // Build video format badges for theatre content

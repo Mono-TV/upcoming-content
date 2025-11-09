@@ -276,9 +276,16 @@ main {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-.content-type-chip img {
-    filter: grayscale(1) opacity(0.6);
-    transition: filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.content-type-chip img,
+.content-type-chip .content-type-icon {
+    opacity: 0.6;
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content-type-chip .content-type-icon {
+    color: var(--text-secondary);
+    transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .content-type-chip::after {
@@ -303,8 +310,18 @@ main {
     background: transparent;
 }
 
-.content-type-chip.active img {
-    filter: grayscale(0) opacity(1);
+.content-type-chip.active img,
+.content-type-chip.active .content-type-icon {
+    opacity: 1;
+}
+
+.content-type-chip.active .content-type-icon {
+    color: var(--text-primary);
+}
+
+.content-type-chip:hover .content-type-icon {
+    color: var(--text-primary);
+    opacity: 1;
 }
 
 .content-type-chip.active::after {
@@ -476,7 +493,7 @@ main {
 }
 
 .timeline-container::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.3);
+    background: transparent;
     border-radius: 10px;
     margin: 0 20px;
 }
@@ -484,7 +501,7 @@ main {
 .timeline-container::-webkit-scrollbar-thumb {
     background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid transparent;
 }
 
 .timeline-container::-webkit-scrollbar-thumb:hover {
@@ -547,7 +564,7 @@ main {
 }
 
 .movies-grid::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.3);
+    background: transparent;
     border-radius: 10px;
     margin: 0 20px;
 }
@@ -555,7 +572,7 @@ main {
 .movies-grid::-webkit-scrollbar-thumb {
     background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid transparent;
 }
 
 .movies-grid::-webkit-scrollbar-thumb:hover {
@@ -753,7 +770,7 @@ main {
 .movie-poster {
     position: relative;
     width: 100%;
-    padding-top: 150%;
+    padding-top: 135%; /* Reduced from 150% (10% reduction) */
 
     /* Apple Glass Design */
     background: var(--card-bg);
@@ -941,6 +958,17 @@ main {
     font-weight: 600;
     border: 1px solid rgba(255, 255, 255, 0.3);
     font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform-overlay .platform-badge .platform-logo {
+    height: 20px;
+    width: auto;
+    max-width: 80px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
 }
 
 /* Play Button Overlay on Hover */
@@ -1344,6 +1372,11 @@ main {
         padding: 4px 10px;
         font-size: 11px;
         border-radius: 6px;
+    }
+
+    .platform-overlay .platform-badge .platform-logo {
+        height: 16px;
+        max-width: 60px;
     }
 
     .movies-grid.compact-view {
