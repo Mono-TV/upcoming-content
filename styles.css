@@ -175,7 +175,7 @@ main {
 /* Filters Section - Apple Glass Design */
 .filters-section {
     /* Apple Glass Design */
-    background: var(--glass-bg);
+    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
 
@@ -184,15 +184,10 @@ main {
     margin: 0 0 40px 0;
 
     /* Frosted glass shadow */
-    box-shadow: 0 8px 32px var(--glass-shadow-sm),
-                0 1px 0 var(--glass-border) inset,
-                0 0 0 0.5px var(--card-border) inset;
-    border: 0.5px solid var(--glass-border);
-
-    /* Smooth theme transition */
-    transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
-                border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06),
+                0 1px 0 rgba(255, 255, 255, 0.9) inset,
+                0 0 0 0.5px rgba(255, 255, 255, 0.6) inset;
+    border: 0.5px solid rgba(255, 255, 255, 0.8);
 }
 
 .content-type-section {
@@ -201,8 +196,7 @@ main {
     gap: 0;
     margin-bottom: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid var(--border-subtle);
-    transition: border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .platform-section {
@@ -253,11 +247,11 @@ main {
     border-radius: 24px;
 
     /* Apple Glass Design */
-    background: var(--glass-bg);
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
 
-    border: 0.5px solid var(--card-border);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 600;
     color: var(--label-secondary);
@@ -267,8 +261,8 @@ main {
     user-select: none;
 
     /* Frosted glass shadow */
-    box-shadow: 0 4px 16px var(--glass-shadow-sm),
-                0 1px 0 var(--glass-border) inset;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04),
+                0 1px 0 rgba(255, 255, 255, 0.8) inset;
 
     display: flex;
     align-items: center;
@@ -365,8 +359,8 @@ main {
     border: 0.5px solid var(--glass-border);
     color: var(--label-primary);
     transform: translateY(-2px) scale(1.02);
-    box-shadow: 0 8px 24px var(--glass-shadow-md),
-                0 2px 0 var(--glass-border) inset;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08),
+                0 2px 0 rgba(255, 255, 255, 1) inset;
 }
 
 .filter-chip.active {
@@ -459,7 +453,6 @@ main {
     font-weight: 500;
     color: var(--label-secondary);
     margin: 0;
-    transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .empty-row-message {
@@ -468,7 +461,6 @@ main {
     color: var(--label-tertiary);
     font-size: 18px;
     font-weight: 500;
-    transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Timeline Container (replaces .movies-grid for each row) */
@@ -479,7 +471,7 @@ main {
     gap: 40px;
     overflow-x: auto;
     overflow-y: visible;
-    padding: 140px 0 30px; /* Increased top padding to prevent date label clipping */
+    padding: 120px 0 30px;
     margin-bottom: 0;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;
@@ -526,20 +518,20 @@ main {
 }
 
 .timeline-container::-webkit-scrollbar-track {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     margin: 0 20px;
 }
 
 .timeline-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(90deg, #E69D2E, #AE7827);
+    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
     border-radius: 10px;
-    border: 2px solid transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .timeline-container::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(90deg, #AE7827, #E69D2E);
-    box-shadow: 0 2px 8px rgba(230, 157, 46, 0.4);
+    background: linear-gradient(135deg, #f12711 0%, #f5af19 100%);
+    box-shadow: 0 2px 8px rgba(245, 175, 25, 0.4);
 }
 
 /* Movie Timeline - Horizontal Scrolling (legacy - kept for backwards compatibility) */
@@ -597,20 +589,20 @@ main {
 }
 
 .movies-grid::-webkit-scrollbar-track {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     margin: 0 20px;
 }
 
 .movies-grid::-webkit-scrollbar-thumb {
-    background: linear-gradient(90deg, #E69D2E, #AE7827);
+    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
     border-radius: 10px;
-    border: 2px solid transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .movies-grid::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(90deg, #AE7827, #E69D2E);
-    box-shadow: 0 2px 8px rgba(230, 157, 46, 0.4);
+    background: linear-gradient(135deg, #f12711 0%, #f5af19 100%);
+    box-shadow: 0 2px 8px rgba(245, 175, 25, 0.4);
 }
 
 /* Compact List View - Timeline compatible */
@@ -660,15 +652,14 @@ main {
     transform: translateX(-50%);
     width: 16px;
     height: 16px;
-    background: var(--gradient-primary);
+    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
     border-radius: 50%;
-    border: 3px solid var(--timeline-dot-border);
+    border: 3px solid #fef8f0;
     box-shadow: 0 4px 12px rgba(245, 175, 25, 0.4),
                 0 0 0 4px rgba(245, 175, 25, 0.1);
     z-index: 3;
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-                border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+                box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Vertical connector line from timeline to card */
@@ -700,10 +691,10 @@ main {
                 0 0 20px rgba(245, 175, 25, 0.4);
 }
 
-/* Release date label on timeline - Clean design without background */
+/* Release date label on timeline - Apple Glass Design */
 .release-date-label {
     position: absolute;
-    top: -35px; /* Positioned above timeline line which is at top: 30px */
+    top: -125px; /* Positioned 35px above timeline dots (-90px) for clear visibility */
     left: 50%;
     transform: translateX(-50%);
 
@@ -720,21 +711,33 @@ main {
     white-space: nowrap;
     z-index: 5;
 
+    /* Enhanced frosted glass shadow - no circle behind */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1),
+                0 4px 8px rgba(0, 0, 0, 0.06),
+                0 0 0 1px rgba(255, 255, 255, 0.9) inset,
+                0 2px 0 rgba(255, 255, 255, 1) inset;
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .movie-card:hover .release-date-label {
     transform: translateX(-50%) scale(1.05) translateY(-3px);
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 12px 32px rgba(245, 175, 25, 0.15),
+                0 8px 16px rgba(0, 0, 0, 0.08),
+                0 0 0 1px rgba(255, 255, 255, 1) inset,
+                0 2px 0 rgba(255, 255, 255, 1) inset;
 }
 
 .movie-card:not(.expanded):hover .movie-poster {
     /* Enhanced Apple Glass shadow on hover */
-    background: var(--card-bg);
-    box-shadow: 0 32px 64px var(--glass-shadow-lg),
-                0 12px 24px var(--glass-shadow-md),
-                0 2px 0 var(--glass-border) inset,
-                0 0 0 1px var(--card-border) inset;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.15),
+                0 12px 24px rgba(0, 0, 0, 0.1),
+                0 2px 0 rgba(255, 255, 255, 1) inset,
+                0 0 0 1px rgba(255, 255, 255, 0.7) inset;
 }
 
 /* Expanded Card State - Centered YouTube with Elegant Corners */
@@ -790,10 +793,10 @@ main {
 .movie-poster {
     position: relative;
     width: 100%;
-    padding-top: 150%; /* Restored to original size */
+    padding-top: 150%;
 
     /* Apple Glass Design */
-    background: var(--card-bg);
+    background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
 
@@ -801,16 +804,15 @@ main {
     border-radius: 24px;
 
     /* Frosted glass shadow and border */
-    box-shadow: 0 8px 32px var(--card-shadow),
-                0 1px 0 var(--glass-border) inset,
-                0 0 0 0.5px var(--card-border) inset;
-    border: 0.5px solid var(--card-border);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1),
+                0 1px 0 rgba(255, 255, 255, 0.8) inset,
+                0 0 0 0.5px rgba(255, 255, 255, 0.5) inset;
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
 
     transition: padding-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 height 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 background 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                box-shadow 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+                box-shadow 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 /* Card Title - Below Poster */
@@ -957,8 +959,6 @@ main {
     flex-wrap: wrap;
     gap: 8px;
     align-items: center;
-    padding-bottom: 12px;
-    padding-left: 12px;
 }
 
 .platform-overlay-label {
@@ -1407,11 +1407,6 @@ main {
         border-radius: 6px;
     }
 
-    .platform-overlay .platform-badge .platform-logo {
-        height: 16px;
-        max-width: 60px;
-    }
-
     .movies-grid.compact-view {
         gap: 16px;
     }
@@ -1460,14 +1455,12 @@ main {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--scrollbar-track);
-    transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #f5f5f7;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb);
+    background: #d2d2d7;
     border-radius: 5px;
-    transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
