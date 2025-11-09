@@ -1,3 +1,46 @@
+// Theme Management - Apple Liquid Design
+function initTheme() {
+    // Check for saved theme preference or default to 'light'
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    const html = document.documentElement;
+
+    // Apply theme
+    if (savedTheme === 'dark') {
+        html.setAttribute('data-theme', 'dark');
+        updateMetaThemeColor('#000000');
+    } else {
+        html.removeAttribute('data-theme');
+        updateMetaThemeColor('#fef8f0');
+    }
+}
+
+function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    if (newTheme === 'dark') {
+        html.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        updateMetaThemeColor('#000000');
+    } else {
+        html.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+        updateMetaThemeColor('#fef8f0');
+    }
+}
+
+function updateMetaThemeColor(color) {
+    // Update meta theme-color for mobile browsers
+    let metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (metaThemeColor) {
+        metaThemeColor.setAttribute('content', color);
+    }
+}
+
+// Initialize theme on load (before DOM is ready)
+initTheme();
+
 // Data and state - Multi-source support
 let contentData = {
     ottReleased: [],
@@ -925,6 +968,12 @@ window.addEventListener('resize', () => {
 document.addEventListener('DOMContentLoaded', () => {
     initDOMCache();
     loadMovies();
+
+    // Setup theme toggle button
+    const themeToggle = document.getElementById('themeToggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('click', toggleTheme);
+    }
 });
 
 // Register service worker for offline support
