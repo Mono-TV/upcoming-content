@@ -22,7 +22,7 @@ body {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 80px 40px 40px;
+    padding: 40px 40px 20px; /* Reduced from 80px 40px 40px for single viewport fit */
     margin: 0 auto;
     animation: fadeInHero 1s ease-out;
 }
@@ -276,7 +276,7 @@ main {
 /* Timeline Header */
 .timeline-header {
     text-align: left; /* Changed from center to left */
-    margin: 40px 0 60px; /* Increased bottom margin to prevent overlap with release dates */
+    margin: 20px 0 30px; /* Optimized for single viewport fit */
     animation: fadeInHero 0.8s ease-out;
 }
 
@@ -301,8 +301,8 @@ main {
     gap: 40px;
     overflow-x: auto;
     overflow-y: visible;
-    padding: 200px 0 40px; /* Increased to 200px for proper spacing of all timeline elements */
-    margin-bottom: 40px;
+    padding: 120px 0 30px; /* Optimized to 120px for single viewport fit */
+    margin-bottom: 30px;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;
 
@@ -326,7 +326,7 @@ main {
 .movies-grid::before {
     content: '';
     position: absolute;
-    top: 50px; /* Positioned high in padding area for clear visibility */
+    top: 30px; /* Proportionally adjusted for 120px padding (was 50px for 200px) */
     left: 0;
     width: var(--timeline-width, calc(100% + 100px)); /* Dynamic width based on content, fallback to calc */
     height: 3px;
@@ -406,7 +406,7 @@ main {
 .movie-card::before {
     content: '';
     position: absolute;
-    top: -150px; /* Aligns perfectly with timeline track at 50px (200px padding - 150px = 50px) */
+    top: -90px; /* Aligns with timeline track at 30px (120px padding - 90px = 30px) */
     left: 50%;
     transform: translateX(-50%);
     width: 16px;
@@ -425,11 +425,11 @@ main {
 .movie-card::after {
     content: '';
     position: absolute;
-    top: -142px; /* Starts just below the timeline dot (dot at -150px + 8px radius) */
+    top: -82px; /* Starts just below the timeline dot (dot at -90px + 8px radius) */
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 142px; /* Extends from dot to card top (0px) */
+    height: 82px; /* Extends from dot to card top (0px) */
     background: linear-gradient(180deg,
         rgba(245, 175, 25, 0.6) 0%,
         rgba(245, 175, 25, 0.3) 50%,
@@ -453,7 +453,7 @@ main {
 /* Release date label on timeline - Apple Glass Design */
 .release-date-label {
     position: absolute;
-    top: -195px; /* Positioned 45px above timeline dots (-150px) for clear visibility */
+    top: -125px; /* Positioned 35px above timeline dots (-90px) for clear visibility */
     left: 50%;
     transform: translateX(-50%);
     font-size: 13px;
@@ -999,7 +999,7 @@ main {
 
 @media (max-width: 768px) {
     .hero {
-        padding: 60px 20px 30px;
+        padding: 30px 20px 15px; /* Optimized for single viewport fit */
     }
 
     h1 {
@@ -1022,11 +1022,11 @@ main {
     /* Timeline adjustments for mobile */
     .movies-grid {
         gap: 24px;
-        padding: 180px 0 30px; /* Proportional spacing for mobile timeline visibility */
+        padding: 110px 0 20px; /* Optimized for single viewport fit on mobile */
     }
 
     .movies-grid::before {
-        top: 40px; /* Timeline track positioned high in padding area */
+        top: 25px; /* Timeline track positioned proportionally */
     }
 
     .movie-card {
@@ -1036,17 +1036,17 @@ main {
     .movie-card::before {
         width: 12px;
         height: 12px;
-        top: -140px; /* Aligns with timeline track (180px padding - 140px = 40px) */
+        top: -85px; /* Aligns with timeline track (110px padding - 85px = 25px) */
     }
 
     .movie-card::after {
-        top: -134px; /* Starts just below dot (dot at -140px + 6px radius) */
-        height: 134px; /* Extends from dot to card top */
+        top: -79px; /* Starts just below dot (dot at -85px + 6px radius) */
+        height: 79px; /* Extends from dot to card top */
     }
 
     /* Release date labels for mobile */
     .release-date-label {
-        top: -175px; /* 35px above timeline dots for clear visibility on mobile */
+        top: -115px; /* 30px above timeline dots for clear visibility on mobile */
         font-size: 11px;
         padding: 4px 10px;
     }
@@ -1106,7 +1106,7 @@ main {
     .movies-grid.compact-view .release-date-label {
         font-size: 10px;
         padding: 3px 8px;
-        top: -160px; /* Maintains proper spacing in compact view */
+        top: -105px; /* Maintains proper spacing in compact view */
     }
 
     .movie-card.expanded {
