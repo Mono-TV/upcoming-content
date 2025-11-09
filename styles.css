@@ -446,7 +446,7 @@ main {
     gap: 40px;
     overflow-x: auto;
     overflow-y: visible;
-    padding: 120px 0 30px;
+    padding: 140px 0 30px; /* Increased top padding to prevent date label clipping */
     margin-bottom: 0;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;

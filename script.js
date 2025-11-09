@@ -645,21 +645,11 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
 
             <!-- Platform/Format Overlay - Only Bottom Part on Hover -->
             <div class="platform-overlay">
-                ${isTheatre ? `
-                    ${videoFormatBadgesHTML ? `
-                        <div class="platform-overlay-label">Formats</div>
-                        <div class="platform-overlay-content">
-                            ${videoFormatBadgesHTML}
-                        </div>
-                    ` : ''}
-                ` : `
-                    ${platformBadgesHTML ? `
-                        <div class="platform-overlay-label">Available on</div>
-                        <div class="platform-overlay-content">
-                            ${platformBadgesHTML}
-                        </div>
-                    ` : ''}
-                `}
+                ${platformBadgesHTML ? `
+                    <div class="platform-overlay-content">
+                        ${platformBadgesHTML}
+                    </div>
+                ` : ''}
             </div>
 
             <!-- Hover Tooltip (Hidden) -->
