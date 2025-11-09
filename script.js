@@ -1,6 +1,16 @@
-// Data and state
-let moviesData = [];
-let filteredMovies = [];
+// Data and state - Multi-source support
+let contentData = {
+    ottReleased: [],
+    ottUpcoming: [],
+    theatreCurrent: [],
+    theatreUpcoming: []
+};
+let filteredContent = {
+    ottReleased: [],
+    ottUpcoming: [],
+    theatreCurrent: [],
+    theatreUpcoming: []
+};
 let selectedPlatforms = new Set();
 let selectedContentType = null; // 'Movies', 'Shows', or null for all
 let currentExpandedCard = null;
@@ -11,8 +21,12 @@ const domCache = {
     filtersSection: null,
     contentTypeSection: null,
     filterChips: null,
-    moviesGrid: null,
-    backdrop: null
+    backdrop: null,
+    // Timeline containers for each content row
+    ottReleasedTimeline: null,
+    ottUpcomingTimeline: null,
+    theatreCurrentTimeline: null,
+    theatreUpcomingTimeline: null
 };
 
 // Platform logo mapping (matching exact names from JSON)
@@ -31,8 +45,12 @@ function initDOMCache() {
     domCache.filtersSection = document.getElementById('filtersSection');
     domCache.contentTypeSection = document.getElementById('contentTypeSection');
     domCache.filterChips = document.getElementById('filterChips');
-    domCache.moviesGrid = document.getElementById('moviesGrid');
     domCache.backdrop = document.getElementById('backdrop');
+    // Timeline containers
+    domCache.ottReleasedTimeline = document.getElementById('ottReleasedTimeline');
+    domCache.ottUpcomingTimeline = document.getElementById('ottUpcomingTimeline');
+    domCache.theatreCurrentTimeline = document.getElementById('theatreCurrentTimeline');
+    domCache.theatreUpcomingTimeline = document.getElementById('theatreUpcomingTimeline');
 }
 
 // Sanitize text to prevent XSS
@@ -66,7 +84,8 @@ function getCacheKey() {
 // Filter functions
 function createFilterChips() {
     const platforms = new Set();
-    moviesData.forEach(movie => {
+    // Only collect platforms from OTT content (not theatre)
+    [...contentData.ottReleased, ...contentData.ottUpcoming].forEach(movie => {
         if (movie.platforms) {
             movie.platforms.forEach(platform => {
                 // Exclude Platform 52
@@ -167,74 +186,88 @@ function clearFilters() {
 }
 
 function applyFilters() {
-    // Check cache first
-    const cacheKey = getCacheKey();
-    if (filterCache.has(cacheKey)) {
-        filteredMovies = filterCache.get(cacheKey);
-        displayMovies(filteredMovies);
-        return;
-    }
+    // Apply filters to OTT content only
+    ['ottReleased', 'ottUpcoming'].forEach(contentType => {
+        const data = contentData[contentType];
+        let filtered = data;
 
-    let filtered = moviesData;
+        // Apply content type filter
+        if (selectedContentType) {
+            filtered = filtered.filter(movie => {
+                // Check if it's a TV show based on title or media type
+                const isShow = movie.tmdb_media_type === 'tv' ||
+                               movie.title?.toLowerCase().includes('season') ||
+                               movie.title?.toLowerCase().match(/\bs\d+/i);
 
-    // Apply content type filter
-    if (selectedContentType) {
-        filtered = filtered.filter(movie => {
-            // Check if it's a TV show based on title or media type
-            const isShow = movie.tmdb_media_type === 'tv' ||
-                           movie.title?.toLowerCase().includes('season') ||
-                           movie.title?.toLowerCase().match(/\bs\d+/i); // Matches S1, S2, etc.
+                if (selectedContentType === 'Shows') {
+                    return isShow;
+                } else if (selectedContentType === 'Movies') {
+                    return !isShow;
+                }
+                return true;
+            });
+        }
 
-            if (selectedContentType === 'Shows') {
-                return isShow;
-            } else if (selectedContentType === 'Movies') {
-                return !isShow;
-            }
-            return true;
-        });
-    }
+        // Apply platform filter
+        if (selectedPlatforms.size > 0) {
+            filtered = filtered.filter(movie => {
+                if (!movie.platforms) return false;
+                return movie.platforms.some(platform => selectedPlatforms.has(platform));
+            });
+        }
 
-    // Apply platform filter
-    if (selectedPlatforms.size > 0) {
-        filtered = filtered.filter(movie => {
-            if (!movie.platforms) return false;
-            return movie.platforms.some(platform => selectedPlatforms.has(platform));
-        });
-    }
+        filteredContent[contentType] = filtered;
+    });
 
-    // Cache the result
-    filterCache.set(cacheKey, filtered);
-    filteredMovies = filtered;
-    displayMovies(filteredMovies);
+    // Theatre content is not filtered, always show all
+    filteredContent.theatreCurrent = contentData.theatreCurrent;
+    filteredContent.theatreUpcoming = contentData.theatreUpcoming;
+
+    // Re-render all content
+    displayAllContent();
 }
 
-// Load and display movies
+// Load and display all content
 async function loadMovies() {
     try {
-        // Try loading enriched version first, fallback to trailers version
-        let response;
-        try {
-            response = await fetch('movies_enriched.json');
-            if (!response.ok) throw new Error('Not found');
-        } catch {
-            response = await fetch('movies_with_trailers.json');
-        }
+        // Load all 4 data sources in parallel
+        const dataFiles = {
+            ottReleased: 'ott_releases_enriched.json',
+            ottUpcoming: 'movies_enriched.json',
+            theatreCurrent: 'theatre_current_enriched.json',
+            theatreUpcoming: 'theatre_upcoming_enriched.json'
+        };
 
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
+        const loadPromises = Object.entries(dataFiles).map(async ([key, filename]) => {
+            try {
+                const response = await fetch(filename);
+                if (response.ok) {
+                    contentData[key] = await response.json();
+                    filteredContent[key] = contentData[key]; // Initialize filtered data
+                    console.log(`✓ Loaded ${contentData[key].length} items from ${filename}`);
+                } else {
+                    console.warn(`⚠ Could not load ${filename}, using empty array`);
+                    contentData[key] = [];
+                    filteredContent[key] = [];
+                }
+            } catch (error) {
+                console.warn(`⚠ Error loading ${filename}:`, error.message);
+                contentData[key] = [];
+                filteredContent[key] = [];
+            }
+        });
 
-        moviesData = await response.json();
-        filteredMovies = moviesData; // Initialize filtered movies
+        // Wait for all data to load
+        await Promise.all(loadPromises);
 
         domCache.loading.style.display = 'none';
-        createFilterChips(); // Create platform filters
-        displayMovies(filteredMovies);
+        createFilterChips(); // Create platform filters (OTT only)
+        displayAllContent(); // Render all content rows
     } catch (error) {
-        console.error('Error loading movies:', error);
+        console.error('Error loading content:', error);
         domCache.loading.innerHTML = `
             <div style="color: #d32f2f;">
-                Unable to load movies. Please check your connection.
+                Unable to load content. Please check your connection.
                 <br><br>
                 <button onclick="loadMovies()" style="padding: 10px 20px; cursor: pointer; border-radius: 8px; border: none; background: #f5af19; color: white; font-weight: 600;">
                     Retry
@@ -244,54 +277,101 @@ async function loadMovies() {
     }
 }
 
-function displayMovies(movies) {
-    domCache.moviesGrid.innerHTML = '';
+// Display all content rows
+function displayAllContent() {
+    displayContentRow('ottReleased', filteredContent.ottReleased, domCache.ottReleasedTimeline);
+    displayContentRow('ottUpcoming', filteredContent.ottUpcoming, domCache.ottUpcomingTimeline);
+    displayContentRow('theatreCurrent', filteredContent.theatreCurrent, domCache.theatreCurrentTimeline);
+    displayContentRow('theatreUpcoming', filteredContent.theatreUpcoming, domCache.theatreUpcomingTimeline);
+
+    // Hide empty rows
+    hideEmptyRows();
+}
+
+// Display a single content row
+function displayContentRow(rowType, items, container) {
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    if (!items || items.length === 0) {
+        container.innerHTML = '<div class="empty-row-message">No content available</div>';
+        return;
+    }
 
     // Use document fragment for better performance
     const fragment = document.createDocumentFragment();
 
-    movies.forEach(movie => {
-        const card = createMovieCard(movie);
+    items.forEach(item => {
+        const card = createMovieCard(item, rowType);
         fragment.appendChild(card);
     });
 
-    domCache.moviesGrid.appendChild(fragment);
+    container.appendChild(fragment);
 
-    // Update timeline width to match content
+    // Update timeline width
     requestAnimationFrame(() => {
-        updateTimelineWidth();
+        updateTimelineWidth(container);
     });
 
     // Trigger animation
     requestAnimationFrame(() => {
-        domCache.moviesGrid.style.opacity = '1';
+        container.style.opacity = '1';
     });
 }
 
+// Hide rows with no content
+function hideEmptyRows() {
+    const rowMappings = {
+        ottReleased: 'ottReleasedRow',
+        ottUpcoming: 'ottUpcomingRow',
+        theatreCurrent: 'theatreCurrentRow',
+        theatreUpcoming: 'theatreUpcomingRow'
+    };
+
+    Object.entries(rowMappings).forEach(([dataKey, rowId]) => {
+        const row = document.getElementById(rowId);
+        if (row) {
+            if (filteredContent[dataKey] && filteredContent[dataKey].length > 0) {
+                row.style.display = 'block';
+            } else {
+                row.style.display = 'none';
+            }
+        }
+    });
+}
+
+function displayMovies(movies) {
+    // Legacy function - keeping for compatibility
+    // This is now handled by displayAllContent()
+    console.warn('displayMovies() is deprecated, use displayAllContent() instead');
+}
+
 // Update timeline width based on actual content width
-function updateTimelineWidth() {
-    const grid = domCache.moviesGrid;
-    if (!grid) return;
+function updateTimelineWidth(container) {
+    if (!container) return;
 
     // Get all cards
-    const cards = grid.querySelectorAll('.movie-card');
+    const cards = container.querySelectorAll('.movie-card');
     if (cards.length === 0) return;
 
     // Get the position of the last card
     const lastCard = cards[cards.length - 1];
     const lastCardRect = lastCard.getBoundingClientRect();
-    const gridRect = grid.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
 
     // Calculate the exact position to the center of the last card
-    const lastCardCenter = lastCardRect.left - gridRect.left + (lastCardRect.width / 2) + grid.scrollLeft;
+    const lastCardCenter = lastCardRect.left - containerRect.left + (lastCardRect.width / 2) + container.scrollLeft;
 
     // Set CSS variable for timeline width (exactly to last card center)
-    grid.style.setProperty('--timeline-width', `${lastCardCenter}px`);
+    container.style.setProperty('--timeline-width', `${lastCardCenter}px`);
 }
 
-function createMovieCard(movie) {
+function createMovieCard(movie, rowType = 'ott_upcoming') {
     const card = document.createElement('div');
     card.className = 'movie-card';
+
+    const isTheatre = rowType.startsWith('theatre');
 
     // Only make clickable if trailer exists
     if (movie.youtube_id) {
@@ -305,6 +385,7 @@ function createMovieCard(movie) {
     }
 
     const platforms = movie.platforms || [];
+    const videoFormats = movie.video_formats || [];
     const year = movie.imdb_year || movie.release_date?.match(/\d{4}/) || '';
     const releaseDate = movie.release_date || 'TBA';
 
@@ -340,9 +421,14 @@ function createMovieCard(movie) {
         }
     }
 
-    // Build platform badges for hover overlay
+    // Build platform badges for hover overlay (OTT content)
     const platformBadgesHTML = platforms
         .map(p => `<div class="platform-badge">${sanitizeText(p)}</div>`)
+        .join('');
+
+    // Build video format badges for theatre content
+    const videoFormatBadgesHTML = videoFormats
+        .map(f => `<div class="format-badge">${sanitizeText(f)}</div>`)
         .join('');
 
     card.innerHTML = `
@@ -366,14 +452,23 @@ function createMovieCard(movie) {
                 </div>
             ` : ''}
 
-            <!-- Platform Overlay - Only Bottom Part on Hover -->
+            <!-- Platform/Format Overlay - Only Bottom Part on Hover -->
             <div class="platform-overlay">
-                ${platformBadgesHTML ? `
-                    <div class="platform-overlay-label">Available on</div>
-                    <div class="platform-overlay-content">
-                        ${platformBadgesHTML}
-                    </div>
-                ` : ''}
+                ${isTheatre ? `
+                    ${videoFormatBadgesHTML ? `
+                        <div class="platform-overlay-label">Formats</div>
+                        <div class="platform-overlay-content">
+                            ${videoFormatBadgesHTML}
+                        </div>
+                    ` : ''}
+                ` : `
+                    ${platformBadgesHTML ? `
+                        <div class="platform-overlay-label">Available on</div>
+                        <div class="platform-overlay-content">
+                            ${platformBadgesHTML}
+                        </div>
+                    ` : ''}
+                `}
             </div>
 
             <!-- Hover Tooltip (Hidden) -->

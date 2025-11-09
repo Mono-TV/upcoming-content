@@ -293,7 +293,121 @@ main {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-/* Movie Timeline - Horizontal Scrolling */
+/* Content Sections - Multiple Rows */
+.content-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.content-row {
+    width: 100%;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.row-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.row-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #1d1d1f;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.row-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e73;
+    margin: 0;
+}
+
+.empty-row-message {
+    text-align: center;
+    padding: 60px 20px;
+    color: #86868b;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Timeline Container (replaces .movies-grid for each row) */
+.timeline-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding: 120px 0 30px;
+    margin-bottom: 0;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out forwards;
+
+    /* Super smooth scrolling enhancements */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-padding: 0 60px;
+    scrollbar-width: thin;
+
+    /* Performance optimizations for smooth scrolling */
+    will-change: scroll-position;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+/* Timeline Track/Line for each container */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: var(--timeline-width, calc(100% + 100px));
+    height: 3px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(245, 175, 25, 0.3) 0.5%,
+        rgba(245, 175, 25, 0.6) 1%,
+        rgba(245, 175, 25, 0.6) 99%,
+        rgba(245, 175, 25, 0.3) 99.5%,
+        transparent 100%);
+    border-radius: 2px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Scrollbar styling for timeline containers */
+.timeline-container::-webkit-scrollbar {
+    height: 12px;
+}
+
+.timeline-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.timeline-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #f12711 0%, #f5af19 100%);
+    box-shadow: 0 2px 8px rgba(245, 175, 25, 0.4);
+}
+
+/* Movie Timeline - Horizontal Scrolling (legacy - kept for backwards compatibility) */
 .movies-grid {
     position: relative;
     display: flex;
@@ -889,6 +1003,20 @@ main {
     font-weight: 600;
     letter-spacing: 0.02em;
     font-family: 'Red Hat Display', sans-serif;
+}
+
+/* Video Format Badges (for theatre content) */
+.format-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: 'Red Hat Display', sans-serif;
+    white-space: nowrap;
 }
 
 .movie-actions {
