@@ -380,96 +380,130 @@ function expandCard(card, movie) {
 
     currentExpandedCard = card;
 
-    // Get current position and dimensions before changing anything
-    const rect = card.getBoundingClientRect();
+    // Create backdrop overlay
+    const backdrop = document.createElement('div');
+    backdrop.className = 'trailer-backdrop';
+    backdrop.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: 4999;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    `;
+    document.body.appendChild(backdrop);
 
-    // Create a placeholder to maintain grid layout
-    const placeholder = document.createElement('div');
-    placeholder.className = 'card-placeholder';
-    placeholder.style.width = rect.width + 'px';
-    placeholder.style.height = rect.height + 'px';
-    placeholder.style.borderRadius = '24px';
-    placeholder.style.background = 'linear-gradient(135deg, rgba(245, 175, 25, 0.1) 0%, rgba(241, 39, 17, 0.08) 100%)';
-    placeholder.style.backdropFilter = 'blur(10px)';
-    placeholder.style.webkitBackdropFilter = 'blur(10px)';
-    placeholder.style.border = '1px solid rgba(245, 175, 25, 0.2)';
-    placeholder.style.boxShadow = '0 8px 32px rgba(245, 175, 25, 0.1)';
-    placeholder.style.opacity = '0';
-    placeholder.style.transition = 'opacity 0.5s ease-out';
-
-    // Fade in placeholder after a brief delay
+    // Fade in backdrop
     requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-            placeholder.style.opacity = '1';
-        });
+        backdrop.style.opacity = '1';
     });
 
-    // Insert placeholder before the card
-    card.parentNode.insertBefore(placeholder, card);
+    // Detect mobile for responsive sizing
+    const isMobile = window.innerWidth <= 768;
 
-    // Store reference to placeholder for cleanup
-    card._placeholder = placeholder;
+    // Create centered modal container for trailer
+    const modal = document.createElement('div');
+    modal.className = 'trailer-modal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.9);
+        width: ${isMobile ? '95vw' : '85vw'};
+        max-width: ${isMobile ? '95vw' : '1100px'};
+        aspect-ratio: 16/9;
+        z-index: 5000;
+        border-radius: ${isMobile ? '16px' : '24px'};
+        overflow: hidden;
+        background: #000;
+        box-shadow: 0 50px 100px rgba(0, 0, 0, 0.6),
+                    0 20px 40px rgba(0, 0, 0, 0.4),
+                    0 0 0 1px rgba(255, 255, 255, 0.1);
+        opacity: 0;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    `;
 
-    // Set z-index FIRST to ensure card is on top before any animations
-    card.style.zIndex = '5000';
+    // Create iframe
+    const iframe = document.createElement('iframe');
+    const safeYoutubeId = sanitizeAttribute(movie.youtube_id);
+    const origin = encodeURIComponent(window.location.origin);
+    iframe.src = `https://www.youtube-nocookie.com/embed/${safeYoutubeId}?autoplay=1&rel=0&modestbranding=1&origin=${origin}`;
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+    iframe.style.cssText = `
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: ${isMobile ? '16px' : '24px'};
+    `;
 
-    // Disable transitions temporarily
-    card.style.transition = 'none';
+    modal.appendChild(iframe);
 
-    // Set initial fixed position at current location (no animation yet)
-    card.style.position = 'fixed';
-    card.style.top = rect.top + 'px';
-    card.style.left = rect.left + 'px';
-    card.style.width = rect.width + 'px';
-    card.style.height = rect.height + 'px';
-    card.style.margin = '0';
-    card.style.transform = 'none';
+    // Create close button
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'modal-close-button';
+    closeBtn.onclick = (e) => collapseCard(e);
+    closeBtn.style.cssText = `
+        position: absolute;
+        top: ${isMobile ? '-50px' : '-60px'};
+        right: 0;
+        width: ${isMobile ? '40px' : '48px'};
+        height: ${isMobile ? '40px' : '48px'};
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        z-index: 5001;
+    `;
 
-    // Force reflow to apply the fixed positioning
-    card.offsetHeight;
+    // Add X icon to close button
+    closeBtn.innerHTML = `
+        <svg width="18" height="18" viewBox="0 0 18 18" style="pointer-events: none;">
+            <line x1="0" y1="0" x2="18" y2="18" stroke="#1d1d1f" stroke-width="2"/>
+            <line x1="18" y1="0" x2="0" y2="18" stroke="#1d1d1f" stroke-width="2"/>
+        </svg>
+    `;
 
-    // Re-enable transitions
-    card.style.transition = '';
+    modal.appendChild(closeBtn);
+    document.body.appendChild(modal);
 
-    // Force another reflow
-    card.offsetHeight;
+    // Store references for cleanup
+    card._modal = modal;
+    card._backdrop = backdrop;
 
-    // Now add expanded class to trigger the animation from current position to center
-    card.classList.add('expanded');
-
-    // Remove ALL inline positioning styles to allow CSS centering to take full effect
+    // Animate modal in
     requestAnimationFrame(() => {
-        card.style.position = '';
-        card.style.top = '';
-        card.style.left = '';
-        card.style.width = '';
-        card.style.height = '';
-        card.style.margin = '';
-        card.style.transform = '';
+        modal.style.opacity = '1';
+        modal.style.transform = 'translate(-50%, -50%) scale(1)';
     });
 
-    // LAZY IFRAME CREATION: Create iframe only when needed
-    const trailerWindow = card.querySelector('.trailer-window');
-    if (!trailerWindow.querySelector('iframe') && movie.youtube_id) {
-        const iframe = document.createElement('iframe');
-        // Add autoplay parameter and sanitize the youtube_id
-        const safeYoutubeId = sanitizeAttribute(movie.youtube_id);
+    // Close on backdrop click
+    backdrop.onclick = () => collapseCard();
 
-        // Get origin for GitHub Pages compatibility
-        const origin = encodeURIComponent(window.location.origin);
-
-        // Use youtube-nocookie.com for better privacy and compatibility
-        iframe.src = `https://www.youtube-nocookie.com/embed/${safeYoutubeId}?autoplay=1&rel=0&modestbranding=1&origin=${origin}`;
-        iframe.setAttribute('frameborder', '0');
-        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-        iframe.setAttribute('allowfullscreen', '');
-        iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
-        // Don't use lazy loading - we want it to load immediately when user clicks
-        trailerWindow.appendChild(iframe);
-    }
-
-    // Force a reflow
-    card.offsetHeight;
+    // Close on Escape key
+    const escapeHandler = (e) => {
+        if (e.key === 'Escape') {
+            collapseCard();
+            document.removeEventListener('keydown', escapeHandler);
+        }
+    };
+    document.addEventListener('keydown', escapeHandler);
+    card._escapeHandler = escapeHandler;
 }
 
 function collapseCard(event) {
@@ -481,55 +515,33 @@ function collapseCard(event) {
 
     const card = currentExpandedCard;
 
-    // Remove iframe to stop playback and save resources
-    const trailerWindow = card.querySelector('.trailer-window');
-    const iframe = trailerWindow.querySelector('iframe');
-    if (iframe) {
-        iframe.remove();
+    // Fade out modal and backdrop
+    if (card._modal) {
+        card._modal.style.opacity = '0';
+        card._modal.style.transform = 'translate(-50%, -50%) scale(0.9)';
     }
 
-    // Get placeholder position to animate back to it
-    if (card._placeholder && card._placeholder.parentNode) {
-        const placeholderRect = card._placeholder.getBoundingClientRect();
-
-        // First remove the expanded class to trigger animation back
-        card.classList.remove('expanded');
-
-        // Animate back to placeholder position
-        card.style.top = placeholderRect.top + 'px';
-        card.style.left = placeholderRect.left + 'px';
-        card.style.width = placeholderRect.width + 'px';
-        card.style.height = placeholderRect.height + 'px';
-        card.style.transform = 'none';
-
-        // Fade out placeholder
-        card._placeholder.style.opacity = '0';
-    } else {
-        // Fallback if no placeholder
-        card.classList.remove('expanded');
+    if (card._backdrop) {
+        card._backdrop.style.opacity = '0';
     }
 
-    // Reset inline styles and restore card after transition
+    // Remove modal and backdrop after animation
     setTimeout(() => {
-        if (card && !card.classList.contains('expanded')) {
-            card.style.position = '';
-            card.style.top = '';
-            card.style.left = '';
-            card.style.width = '';
-            card.style.height = '';
-            card.style.zIndex = '';
-            card.style.margin = '';
-            card.style.transform = '';
-            card.style.transition = '';
-
-            // Remove placeholder and restore card to grid
-            if (card._placeholder && card._placeholder.parentNode) {
-                card._placeholder.parentNode.insertBefore(card, card._placeholder);
-                card._placeholder.remove();
-                card._placeholder = null;
-            }
+        if (card._modal && card._modal.parentNode) {
+            card._modal.remove();
+            card._modal = null;
         }
-    }, 1000); // Match the transition duration
+        if (card._backdrop && card._backdrop.parentNode) {
+            card._backdrop.remove();
+            card._backdrop = null;
+        }
+    }, 300); // Match the transition duration
+
+    // Remove escape key handler
+    if (card._escapeHandler) {
+        document.removeEventListener('keydown', card._escapeHandler);
+        card._escapeHandler = null;
+    }
 
     currentExpandedCard = null;
 }

@@ -328,7 +328,7 @@ main {
     position: absolute;
     top: 50px; /* Positioned high in padding area for clear visibility */
     left: 0;
-    width: 10000px; /* Extended to cover entire grid length */
+    width: calc(100% + 100px); /* Extends slightly past last card */
     height: 3px;
     background: linear-gradient(90deg,
         transparent 0%,
