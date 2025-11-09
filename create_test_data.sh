@@ -1,11 +1,12 @@
 #!/bin/bash
 # Create test data for all 4 content rows
 # This allows frontend testing without scraping
+# NOTE: Creates test files with .test.json extension to avoid overwriting production data
 
 echo "📦 Creating test data files..."
 
 # 1. OTT Releases (already released)
-cat > ott_releases_enriched.json << 'EOF'
+cat > ott_releases_enriched.test.json << 'EOF'
 [
   {
     "title": "Venom: The Last Dance",
@@ -53,7 +54,7 @@ cat > ott_releases_enriched.json << 'EOF'
 EOF
 
 # 2. OTT Upcoming
-cat > movies_enriched.json << 'EOF'
+cat > movies_enriched.test.json << 'EOF'
 [
   {
     "title": "Mufasa: The Lion King",
@@ -100,7 +101,7 @@ cat > movies_enriched.json << 'EOF'
 EOF
 
 # 3. Theatre Current (Bangalore)
-cat > theatre_current_enriched.json << 'EOF'
+cat > theatre_current_enriched.test.json << 'EOF'
 [
   {
     "title": "Bhool Bhulaiyaa 3",
@@ -161,7 +162,7 @@ cat > theatre_current_enriched.json << 'EOF'
 EOF
 
 # 4. Theatre Upcoming
-cat > theatre_upcoming_enriched.json << 'EOF'
+cat > theatre_upcoming_enriched.test.json << 'EOF'
 [
   {
     "title": "Pushpa 2: The Rule",
@@ -220,10 +221,17 @@ cat > theatre_upcoming_enriched.json << 'EOF'
 EOF
 
 echo "✅ Test data files created:"
-ls -lh ott_releases_enriched.json movies_enriched.json theatre_current_enriched.json theatre_upcoming_enriched.json
+ls -lh *.test.json
 
 echo ""
-echo "🌐 Start server with: python3 -m http.server 8000"
+echo "📝 To use test data, copy to production filenames:"
+echo "   cp ott_releases_enriched.test.json ott_releases_enriched.json"
+echo "   cp movies_enriched.test.json movies_enriched.json"
+echo "   cp theatre_current_enriched.test.json theatre_current_enriched.json"
+echo "   cp theatre_upcoming_enriched.test.json theatre_upcoming_enriched.json"
+echo ""
+echo "🌐 Then start server with: python3 -m http.server 8000"
 echo "📱 Visit: http://localhost:8000"
 echo ""
-echo "🧹 Clean up with: rm *_enriched.json"
+echo "🧹 Clean up test files with: rm *.test.json"
+echo "🧹 Clean up production test data with: rm *_enriched.json"
