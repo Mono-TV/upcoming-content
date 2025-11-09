@@ -22,10 +22,10 @@
     --glass-shadow-md: rgba(0, 0, 0, 0.1);
     --glass-shadow-lg: rgba(0, 0, 0, 0.15);
 
-    /* Darker filter section background for light theme to show white logos */
-    --filter-section-bg: rgba(240, 240, 240, 0.85);
-    --filter-chip-bg: rgba(220, 220, 220, 0.9);
-    --filter-chip-bg-hover: rgba(200, 200, 200, 0.95);
+    /* Warm-toned filter section background matching site color theme */
+    --filter-section-bg: rgba(254, 245, 237, 0.85);
+    --filter-chip-bg: rgba(254, 240, 220, 0.9);
+    --filter-chip-bg-hover: rgba(254, 235, 205, 0.95);
 
     --card-bg: rgba(255, 255, 255, 0.4);
     --card-border: rgba(255, 255, 255, 0.6);
@@ -234,9 +234,42 @@ main {
 
 .filter-chips {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 12px;
     flex: 1;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    transition: scrollbar-color 0.3s ease;
+}
+
+.filter-chips:hover,
+.filter-chips:active {
+    scrollbar-color: rgba(230, 157, 46, 0.5) transparent;
+}
+
+/* Webkit scrollbar styling for filter chips - invisible by default */
+.filter-chips::-webkit-scrollbar {
+    height: 8px;
+}
+
+.filter-chips::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filter-chips::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.filter-chips:hover::-webkit-scrollbar-thumb,
+.filter-chips:active::-webkit-scrollbar-thumb {
+    background: rgba(230, 157, 46, 0.5);
+}
+
+.filter-chips::-webkit-scrollbar-thumb:hover {
+    background: rgba(230, 157, 46, 0.7);
 }
 
 .filter-chip {
