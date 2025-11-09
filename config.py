@@ -53,7 +53,7 @@ BMS_CONFIG = {
     # Scraping settings
     'scroll_iterations': 10,  # Number of times to scroll for lazy loading
     'detail_page_timeout': 30000,  # Timeout in milliseconds
-    'request_delay': 2.5,  # Delay between requests in seconds (rate limiting)
+    'request_delay': 3.5,  # Delay between requests in seconds (rate limiting)
     'max_retries': 3,  # Max retries for failed requests
 }
 
@@ -75,7 +75,7 @@ BINGED_CONFIG = {
         '73': 'ErosNow',
         '74': 'Hoichoi',
     },
-    'request_delay': 1.5,  # Delay between requests
+    'request_delay': 2.5,  # Delay between requests
     'detail_page_timeout': 20000,  # Timeout for detail pages
 }
 

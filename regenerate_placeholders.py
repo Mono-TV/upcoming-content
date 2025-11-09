@@ -147,31 +147,41 @@ class PlaceholderGenerator:
             draw = ImageDraw.Draw(img)
 
             # Calculate font size proportionally based on poster dimensions
-            # Use 40% of width for much better visibility (for 500px width = 200pt)
+            # Use 10% of width for good visibility (for 500px width = 50pt)
             font_size = int(width * 0.10)
 
             # Try to load TrueType font with multiple fallbacks
             # MUST use TrueType fonts - default font has fixed size!
             font_paths = [
-                "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-                "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",
-                "/System/Library/Fonts/Helvetica.ttc",  # macOS
-                "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+                "/System/Library/Fonts/Supplemental/Arial Bold.ttf",  # macOS
+                "/System/Library/Fonts/HelveticaNeue.ttc",  # macOS alternative
+                "/System/Library/Fonts/Supplemental/Arial Unicode.ttf",  # macOS
+                "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",  # Linux
+                "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf",  # Linux alternative
+                "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",  # Linux
                 "C:\\Windows\\Fonts\\arialbd.ttf",  # Windows
             ]
 
             title_font = None
+            loaded_font_path = None
             for font_path in font_paths:
                 try:
                     title_font = ImageFont.truetype(font_path, font_size)
+                    loaded_font_path = font_path
                     break
                 except (OSError, IOError):
                     continue
 
-            # Final fallback - but warn if this happens
+            # Final fallback - but this will have fixed size
             if title_font is None:
-                print(f"⚠️  Warning: Could not load TrueType font, using fixed-size default for '{title[:30]}'")
+                print(f"\n⚠️  ERROR: Could not load any TrueType font!")
+                print(f"    Tried: {', '.join(font_paths)}")
+                print(f"    Using default font (fixed size, ignores font_size={font_size})")
                 title_font = ImageFont.load_default()
+            # DEBUG: Print which font was loaded (only on first generation)
+            elif not hasattr(self, '_font_loaded_msg_shown'):
+                print(f"\n✓ Loaded font: {loaded_font_path} (size={font_size})")
+                self._font_loaded_msg_shown = True
 
             # Wrap title text
             max_title_width = width - 60  # 30px padding on each side
@@ -220,63 +230,96 @@ class PlaceholderGenerator:
             print(f"⚠️  Placeholder generation error for '{title}': {str(e)}")
             return None
 
-    def regenerate_all_placeholders(self, input_file='movies_enriched.json', output_file='movies_enriched.json'):
-        """Regenerate placeholders for movies without posters"""
+    def regenerate_all_placeholders(self):
+        """Regenerate placeholders for all JSON files"""
 
-        print("🎬 Placeholder Regeneration Tool")
+        print("🎬 Placeholder Regeneration Tool - All Files")
         print("=" * 60)
 
-        # Load existing data
-        if not os.path.exists(input_file):
-            print(f"❌ Error: {input_file} not found!")
-            print("   Run the full enrichment process first.")
-            sys.exit(1)
+        # Files to process
+        files_to_process = [
+            'movies_enriched.json',
+            'ott_releases_enriched.json',
+            'theatre_current_enriched.json',
+            'theatre_upcoming_enriched.json'
+        ]
 
-        with open(input_file, 'r', encoding='utf-8') as f:
-            movies = json.load(f)
+        total_generated = 0
 
-        print(f"📁 Loaded {len(movies)} movies from {input_file}")
+        for input_file in files_to_process:
+            # Check if file exists
+            if not os.path.exists(input_file):
+                print(f"\n⏭️  Skipping {input_file} (not found)")
+                continue
 
-        # Find movies without posters
-        movies_needing_placeholders = []
-        for movie in movies:
-            has_poster = (
-                movie.get('poster_url_medium') and
-                not movie.get('poster_url_medium', '').startswith('placeholders/')
-            )
-            if not has_poster:
-                movies_needing_placeholders.append(movie)
+            # Load existing data
+            with open(input_file, 'r', encoding='utf-8') as f:
+                movies = json.load(f)
 
-        if not movies_needing_placeholders:
-            print("\n✅ All movies already have posters! No placeholders needed.")
-            return
+            if not movies or len(movies) == 0:
+                print(f"\n⏭️  Skipping {input_file} (empty)")
+                continue
 
-        print(f"\n🖼️  Generating placeholders for {len(movies_needing_placeholders)} movies...")
-        print("-" * 60)
+            print(f"\n📁 Processing {input_file}")
+            print(f"   Loaded {len(movies)} items")
 
-        # Generate placeholders
-        generated_count = 0
-        for i, movie in enumerate(movies_needing_placeholders, 1):
-            title = movie.get('title', 'Untitled')
-            print(f"[{i}/{len(movies_needing_placeholders)}] Generating: {title[:50]}", end='')
+            # Find movies without posters (checking for external URLs or missing posters)
+            movies_needing_placeholders = []
+            for movie in movies:
+                poster_medium = movie.get('poster_url_medium', '')
+                poster_large = movie.get('poster_url_large', '')
+                image_url = movie.get('image_url', '')
 
-            placeholder_path = self.generate_placeholder_poster(movie)
+                # Check if has external poster URL (TMDB, IMDb, etc)
+                has_external_poster = (
+                    (poster_medium and poster_medium.startswith('http')) or
+                    (poster_large and poster_large.startswith('http')) or
+                    (image_url and image_url.startswith('http'))
+                )
 
-            if placeholder_path:
-                movie['poster_url_medium'] = placeholder_path
-                movie['poster_url_large'] = placeholder_path.replace('-medium.jpg', '-large.jpg')
-                generated_count += 1
-                print(" ✓")
-            else:
-                print(" ✗")
+                # Check if already has placeholder
+                has_placeholder = (
+                    (poster_medium and 'placeholders/' in poster_medium) or
+                    (poster_large and 'placeholders/' in poster_large)
+                )
 
-        # Save updated data
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(movies, f, indent=2, ensure_ascii=False)
+                # Need placeholder if: no external poster AND no placeholder yet
+                if not has_external_poster and not has_placeholder:
+                    movies_needing_placeholders.append(movie)
 
-        print("-" * 60)
-        print(f"\n✅ Generated {generated_count} placeholder images")
-        print(f"💾 Updated data saved to {output_file}")
+            if not movies_needing_placeholders:
+                print(f"   ✅ All items have posters")
+                continue
+
+            print(f"   🖼️  Generating {len(movies_needing_placeholders)} placeholders...")
+            print("   " + "-" * 57)
+
+            # Generate placeholders
+            generated_count = 0
+            for i, movie in enumerate(movies_needing_placeholders, 1):
+                title = movie.get('title', 'Untitled')
+                print(f"   [{i}/{len(movies_needing_placeholders)}] {title[:40]}", end='')
+
+                placeholder_path = self.generate_placeholder_poster(movie)
+
+                if placeholder_path:
+                    movie['poster_url_medium'] = placeholder_path
+                    movie['poster_url_large'] = placeholder_path.replace('-medium.jpg', '-large.jpg')
+                    generated_count += 1
+                    total_generated += 1
+                    print(" ✓")
+                else:
+                    print(" ✗")
+
+            # Save updated data
+            with open(input_file, 'w', encoding='utf-8') as f:
+                json.dump(movies, f, indent=2, ensure_ascii=False)
+
+            print("   " + "-" * 57)
+            print(f"   ✅ Generated {generated_count} placeholders for {input_file}")
+
+        print("\n" + "=" * 60)
+        print(f"✅ Total: Generated {total_generated} placeholder images across all files")
         print(f"📂 Placeholder images saved in: placeholders/")
         print("\nDone! 🎉")
 

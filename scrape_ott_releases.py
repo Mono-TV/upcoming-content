@@ -38,46 +38,24 @@ async def extract_deeplinks(page, movie_url: str, debug: bool = False) -> Dict[s
 
         # Navigate to detail page
         await page.goto(movie_url, wait_until='domcontentloaded', timeout=20000)
-        await asyncio.sleep(1.5)  # Wait for dynamic content
+        await asyncio.sleep(2)  # Wait for dynamic content to load
+
+        # Wait for network to be idle to ensure all content is loaded
+        try:
+            await page.wait_for_load_state('networkidle', timeout=5000)
+        except:
+            pass  # Continue if timeout
+
+        # Scroll to trigger any lazy-loaded content
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await asyncio.sleep(1)
+        await page.evaluate("window.scrollTo(0, 0)")
+        await asyncio.sleep(1)
 
         content = await page.content()
         soup = BeautifulSoup(content, 'html.parser')
 
-        # Method 1: Look for "Watch Now" or streaming links
-        # Binged typically has buttons/links with platform-specific URLs
-        watch_buttons = soup.find_all(['a', 'button'], class_=re.compile(r'watch|stream|play', re.I))
-
-        for button in watch_buttons:
-            href = button.get('href', '')
-            if href and href.startswith('http'):
-                # Try to identify platform from URL
-                platform = None
-                if 'netflix.com' in href:
-                    platform = 'Netflix'
-                elif 'primevideo.com' in href or 'amazon.com' in href:
-                    platform = 'Amazon Prime Video'
-                elif 'hotstar.com' in href or 'jiocinema.com' in href:
-                    platform = 'Jio Hotstar'
-                elif 'sonyliv.com' in href:
-                    platform = 'Sony LIV'
-                elif 'zee5.com' in href:
-                    platform = 'Zee5'
-                elif 'sunnxt.com' in href:
-                    platform = 'SunNXT'
-                elif 'manoramamax.com' in href:
-                    platform = 'ManoramaMAX'
-                elif 'tv.apple.com' in href:
-                    platform = 'Apple TV+'
-                elif 'aha.video' in href:
-                    platform = 'Aha Video'
-
-                if platform:
-                    deeplinks[platform] = href
-
-        # Method 2: Look for platform links in the page
-        # Find all links and filter for streaming platforms
-        all_links = soup.find_all('a', href=True)
-
+        # Platform domains to look for
         platform_domains = {
             'netflix.com': 'Netflix',
             'primevideo.com': 'Amazon Prime Video',
@@ -90,19 +68,97 @@ async def extract_deeplinks(page, movie_url: str, debug: bool = False) -> Dict[s
             'manoramamax.com': 'ManoramaMAX',
             'tv.apple.com': 'Apple TV+',
             'aha.video': 'Aha Video',
+            'altbalaji.com': 'ALT Balaji',
+            'discoveryplus.in': 'Discovery Plus',
+            'erosnow.com': 'ErosNow',
+            'hoichoi.tv': 'Hoichoi',
         }
 
-        for link in all_links:
-            href = link.get('href', '')
-            if href.startswith('http'):
+        # Method 1: Look for "Watch Now" or streaming buttons/links with specific classes
+        watch_elements = soup.find_all(['a', 'button', 'div'], class_=re.compile(r'watch|stream|play|platform|btn', re.I))
+
+        for elem in watch_elements:
+            href = elem.get('href', '')
+
+            # Also check for onclick attributes that might contain links
+            onclick = elem.get('onclick', '')
+
+            # Check href
+            if href and href.startswith('http'):
                 for domain, platform in platform_domains.items():
                     if domain in href and platform not in deeplinks:
                         # Filter out general homepage links
                         if not href.endswith(domain) and not href.endswith(domain + '/'):
                             deeplinks[platform] = href
+                            if debug:
+                                print(f"      Found {platform} deeplink (href): {href}", file=sys.stderr)
 
-        if debug and deeplinks:
-            print(f"    Found {len(deeplinks)} deeplinks: {list(deeplinks.keys())}", file=sys.stderr)
+            # Check onclick
+            if onclick and 'http' in onclick:
+                for domain, platform in platform_domains.items():
+                    if domain in onclick and platform not in deeplinks:
+                        # Extract URL from onclick
+                        url_match = re.search(r'https?://[^\s\'"]+', onclick)
+                        if url_match:
+                            url = url_match.group(0)
+                            if domain in url and not url.endswith(domain) and not url.endswith(domain + '/'):
+                                deeplinks[platform] = url
+                                if debug:
+                                    print(f"      Found {platform} deeplink (onclick): {url}", file=sys.stderr)
+
+        # Method 2: Look for all links in the page
+        all_links = soup.find_all('a', href=True)
+
+        for link in all_links:
+            href = link.get('href', '')
+            if href and href.startswith('http'):
+                for domain, platform in platform_domains.items():
+                    if domain in href and platform not in deeplinks:
+                        # Filter out general homepage links
+                        if not href.endswith(domain) and not href.endswith(domain + '/'):
+                            deeplinks[platform] = href
+                            if debug:
+                                print(f"      Found {platform} deeplink (link): {href}", file=sys.stderr)
+
+        # Method 3: Look for data attributes that might contain platform links
+        elements_with_data = soup.find_all(attrs={"data-url": True})
+        elements_with_data.extend(soup.find_all(attrs={"data-link": True}))
+        elements_with_data.extend(soup.find_all(attrs={"data-href": True}))
+
+        for elem in elements_with_data:
+            for attr in ['data-url', 'data-link', 'data-href']:
+                data_val = elem.get(attr, '')
+                if data_val and 'http' in data_val:
+                    for domain, platform in platform_domains.items():
+                        if domain in data_val and platform not in deeplinks:
+                            if not data_val.endswith(domain) and not data_val.endswith(domain + '/'):
+                                deeplinks[platform] = data_val
+                                if debug:
+                                    print(f"      Found {platform} deeplink (data attr): {data_val}", file=sys.stderr)
+
+        # Method 4: Search the entire page content for streaming URLs
+        # This catches URLs that might be embedded in JavaScript or other places
+        page_content = str(soup)
+        for domain, platform in platform_domains.items():
+            if platform not in deeplinks and domain in page_content:
+                # Find all URLs containing this domain
+                pattern = rf'(https?://[^\s\'"<>]*{re.escape(domain)}[^\s\'"<>]*)'
+                matches = re.findall(pattern, page_content)
+                for match in matches:
+                    # Clean up the URL (remove trailing quotes, brackets, etc.)
+                    clean_url = re.sub(r'["\'>),;]+$', '', match)
+                    # Verify it's a valid streaming link (not just homepage)
+                    if not clean_url.endswith(domain) and not clean_url.endswith(domain + '/'):
+                        deeplinks[platform] = clean_url
+                        if debug:
+                            print(f"      Found {platform} deeplink (page scan): {clean_url}", file=sys.stderr)
+                        break  # Take the first valid link for this platform
+
+        if debug:
+            if deeplinks:
+                print(f"    Total deeplinks found: {len(deeplinks)} - {list(deeplinks.keys())}", file=sys.stderr)
+            else:
+                print(f"    No deeplinks found on detail page", file=sys.stderr)
 
     except Exception as e:
         if debug:

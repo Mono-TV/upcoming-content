@@ -117,10 +117,11 @@ async def auto_scroll_page(page, max_scrolls: int = 10, debug: bool = False):
 async def extract_trailer_from_detail_page(page, detail_url: str, debug: bool = False) -> Optional[str]:
     """
     Extract the first official trailer YouTube URL from movie detail page
+    BookMyShow requires clicking on the poster to navigate to a page with trailers
 
     Args:
         page: Playwright page object
-        detail_url: URL of the movie detail page
+        detail_url: URL of the movie detail page (page should already be on this URL)
         debug: Enable debug output
 
     Returns:
@@ -130,14 +131,60 @@ async def extract_trailer_from_detail_page(page, detail_url: str, debug: bool = 
         if debug:
             print(f"      Extracting trailer from detail page...", file=sys.stderr)
 
+        # First, try to find trailer on current page
         content = await page.content()
         soup = BeautifulSoup(content, 'html.parser')
 
-        # Method 1: YouTube iframe embeds
+        # Method 1: Try to click on movie poster/image to navigate to media gallery
+        # BookMyShow often has trailers accessible through the poster image
+        try:
+            # Look for poster image or media gallery trigger
+            poster_selectors = [
+                'img[alt*="poster" i]',
+                'img[class*="poster" i]',
+                'div[class*="poster" i]',
+                'div[class*="media" i]',
+                'div[class*="gallery" i]',
+                'button[class*="trailer" i]',
+                'a[class*="trailer" i]',
+            ]
+
+            clicked = False
+            for selector in poster_selectors:
+                try:
+                    element = await page.query_selector(selector)
+                    if element:
+                        if debug:
+                            print(f"      Found potential media trigger: {selector}", file=sys.stderr)
+
+                        # Check if element is clickable
+                        is_visible = await element.is_visible()
+                        if is_visible:
+                            # Try clicking
+                            await element.click(timeout=3000)
+                            await asyncio.sleep(2)  # Wait for modal/page to load
+                            clicked = True
+                            if debug:
+                                print(f"      Clicked on {selector}, checking for trailers...", file=sys.stderr)
+                            break
+                except:
+                    continue
+
+            # After clicking, check for trailers in modal or new page
+            if clicked:
+                content = await page.content()
+                soup = BeautifulSoup(content, 'html.parser')
+
+        except Exception as e:
+            if debug:
+                print(f"      Could not click poster: {e}", file=sys.stderr)
+
+        # Method 2: Look for YouTube iframe embeds (after potential modal open)
         iframes = soup.find_all('iframe')
         for iframe in iframes:
             src = iframe.get('src', '')
             if 'youtube.com/embed/' in src or 'youtube-nocookie.com/embed/' in src:
+                # Extract video ID
                 match = re.search(r'/embed/([a-zA-Z0-9_-]+)', src)
                 if match:
                     video_id = match.group(1)
@@ -146,7 +193,7 @@ async def extract_trailer_from_detail_page(page, detail_url: str, debug: bool = 
                         print(f"      Found trailer (iframe): {youtube_url}", file=sys.stderr)
                     return youtube_url
 
-        # Method 2: YouTube links
+        # Method 3: Look for YouTube links in anchor tags
         links = soup.find_all('a', href=re.compile(r'youtube\.com/watch'))
         for link in links:
             href = link.get('href', '')
@@ -155,9 +202,10 @@ async def extract_trailer_from_detail_page(page, detail_url: str, debug: bool = 
                     print(f"      Found trailer (link): {href}", file=sys.stderr)
                 return href
 
-        # Method 3: Trailer buttons with onclick/data attributes
+        # Method 4: Look for trailer buttons/links and try clicking them
         trailer_elements = soup.find_all(['a', 'button', 'div'], class_=re.compile(r'trailer|video', re.I))
         for elem in trailer_elements:
+            # Check onclick or data attributes
             onclick = elem.get('onclick', '')
             if 'youtube.com' in onclick:
                 match = re.search(r'youtube\.com/watch\?v=([a-zA-Z0-9_-]+)', onclick)
@@ -168,14 +216,69 @@ async def extract_trailer_from_detail_page(page, detail_url: str, debug: bool = 
                         print(f"      Found trailer (onclick): {youtube_url}", file=sys.stderr)
                     return youtube_url
 
+            # Check data-video-id or similar
             for attr in elem.attrs:
                 if 'video' in attr.lower() or 'youtube' in attr.lower():
                     value = elem.get(attr, '')
-                    if isinstance(value, str) and len(value) == 11:
+                    if isinstance(value, str) and len(value) == 11:  # YouTube video ID length
                         youtube_url = f'https://www.youtube.com/watch?v={value}'
                         if debug:
                             print(f"      Found trailer (data attr): {youtube_url}", file=sys.stderr)
                         return youtube_url
+
+        # Method 5: Try clicking on visible trailer buttons/links
+        try:
+            trailer_button_selectors = [
+                'button:has-text("trailer")',
+                'a:has-text("trailer")',
+                'button:has-text("video")',
+                'a:has-text("video")',
+                '[class*="trailer"]',
+            ]
+
+            for selector in trailer_button_selectors:
+                try:
+                    element = await page.query_selector(selector)
+                    if element:
+                        is_visible = await element.is_visible()
+                        if is_visible:
+                            if debug:
+                                print(f"      Found trailer button: {selector}, clicking...", file=sys.stderr)
+                            await element.click(timeout=3000)
+                            await asyncio.sleep(2)
+
+                            # Check for YouTube iframe again after clicking
+                            content = await page.content()
+                            soup = BeautifulSoup(content, 'html.parser')
+
+                            iframes = soup.find_all('iframe')
+                            for iframe in iframes:
+                                src = iframe.get('src', '')
+                                if 'youtube.com/embed/' in src or 'youtube-nocookie.com/embed/' in src:
+                                    match = re.search(r'/embed/([a-zA-Z0-9_-]+)', src)
+                                    if match:
+                                        video_id = match.group(1)
+                                        youtube_url = f'https://www.youtube.com/watch?v={video_id}'
+                                        if debug:
+                                            print(f"      Found trailer after button click (iframe): {youtube_url}", file=sys.stderr)
+                                        return youtube_url
+                            break
+                except:
+                    continue
+        except Exception as e:
+            if debug:
+                print(f"      Could not click trailer button: {e}", file=sys.stderr)
+
+        # Method 6: Search page content for YouTube URLs
+        page_text = str(soup)
+        youtube_pattern = r'(?:youtube\.com/watch\?v=|youtube\.com/embed/|youtu\.be/)([a-zA-Z0-9_-]{11})'
+        matches = re.findall(youtube_pattern, page_text)
+        if matches:
+            video_id = matches[0]
+            youtube_url = f'https://www.youtube.com/watch?v={video_id}'
+            if debug:
+                print(f"      Found trailer (page scan): {youtube_url}", file=sys.stderr)
+            return youtube_url
 
         if debug:
             print("      No trailer found on detail page", file=sys.stderr)
@@ -206,7 +309,19 @@ async def extract_movie_details(page, movie_url: str, debug: bool = False) -> Di
             print(f"    Navigating to: {movie_url}", file=sys.stderr)
 
         await page.goto(movie_url, wait_until='domcontentloaded', timeout=BMS_CONFIG['detail_page_timeout'])
-        await asyncio.sleep(2)
+
+        # Random delay between 3-5 seconds to appear more human
+        import random
+        delay = random.uniform(3, 5)
+        await asyncio.sleep(delay)
+
+        # Simulate human scrolling
+        try:
+            await page.mouse.move(random.randint(100, 500), random.randint(100, 500))
+            await page.evaluate("window.scrollTo(0, 300)")
+            await asyncio.sleep(0.5)
+        except:
+            pass
 
         content = await page.content()
         soup = BeautifulSoup(content, 'html.parser')
@@ -321,28 +436,83 @@ async def scrape_theatre_upcoming(city: str = 'bengaluru', debug: bool = False) 
         try:
             browser = await p.chromium.launch(
                 headless=True,
-                args=['--disable-blink-features=AutomationControlled']
+                args=[
+                    '--disable-blink-features=AutomationControlled',
+                    '--disable-dev-shm-usage',
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-web-security',
+                    '--disable-features=IsolateOrigins,site-per-process'
+                ]
             )
 
             context = await browser.new_context(
                 viewport={'width': 1920, 'height': 1080},
-                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+                locale='en-IN',
+                timezone_id='Asia/Kolkata',
+                permissions=['geolocation'],
+                geolocation={'latitude': 12.9716, 'longitude': 77.5946},  # Bengaluru
+                extra_http_headers={
+                    'Accept-Language': 'en-IN,en-US;q=0.9,en;q=0.8',
+                    'Accept-Encoding': 'gzip, deflate, br',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+                    'Referer': 'https://www.google.com/',
+                    'Sec-Fetch-Dest': 'document',
+                    'Sec-Fetch-Mode': 'navigate',
+                    'Sec-Fetch-Site': 'cross-site',
+                    'Sec-Fetch-User': '?1',
+                    'Upgrade-Insecure-Requests': '1',
+                }
             )
 
             page = await context.new_page()
 
-            # Avoid detection
+            # Comprehensive stealth techniques
             await page.add_init_script("""
+                // Override webdriver
                 Object.defineProperty(navigator, 'webdriver', {
                     get: () => undefined
-                })
+                });
+
+                // Override plugins
+                Object.defineProperty(navigator, 'plugins', {
+                    get: () => [1, 2, 3, 4, 5]
+                });
+
+                // Override languages
+                Object.defineProperty(navigator, 'languages', {
+                    get: () => ['en-IN', 'en-US', 'en']
+                });
+
+                // Chrome runtime
+                window.chrome = {
+                    runtime: {}
+                };
+
+                // Permissions
+                const originalQuery = window.navigator.permissions.query;
+                window.navigator.permissions.query = (parameters) => (
+                    parameters.name === 'notifications' ?
+                        Promise.resolve({ state: Notification.permission }) :
+                        originalQuery(parameters)
+                );
             """)
 
             print("Navigating to page...", file=sys.stderr)
             await page.goto(url, wait_until='domcontentloaded', timeout=30000)
 
             print("Waiting for content...", file=sys.stderr)
-            await asyncio.sleep(3)
+            # Longer initial wait to avoid bot detection
+            await asyncio.sleep(5)
+
+            # Simulate human-like mouse movement
+            try:
+                await page.mouse.move(100, 100)
+                await asyncio.sleep(0.5)
+                await page.mouse.move(500, 300)
+            except:
+                pass
 
             # Auto-scroll to load all movies
             await auto_scroll_page(page, max_scrolls=BMS_CONFIG['scroll_iterations'], debug=debug)

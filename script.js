@@ -373,13 +373,24 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
 
     const isTheatre = rowType.startsWith('theatre');
 
-    // Only make clickable if trailer exists
+    // Make clickable if trailer or deeplinks exist
+    const hasDeeplinks = movie.deeplinks && Object.keys(movie.deeplinks).length > 0;
+
     if (movie.youtube_id) {
+        // Has trailer - expand to show trailer
         card.onclick = (e) => {
             if (!e.target.closest('.close-button')) {
                 expandCard(card, movie);
             }
         };
+    } else if (hasDeeplinks) {
+        // Has deeplinks - show deeplink modal
+        card.onclick = (e) => {
+            if (!e.target.closest('.close-button')) {
+                showDeeplinkModal(movie);
+            }
+        };
+        card.style.cursor = 'pointer';
     } else {
         card.style.cursor = 'default';
     }
@@ -490,6 +501,117 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
     `;
 
     return card;
+}
+
+function showDeeplinkModal(movie) {
+    const backdrop = document.getElementById('backdrop');
+
+    // Create modal
+    const modal = document.createElement('div');
+    modal.className = 'deeplink-modal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: linear-gradient(135deg, #fef8f0 0%, #fef5e7 100%);
+        border-radius: 24px;
+        padding: 32px;
+        max-width: 500px;
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        z-index: 10001;
+        font-family: 'Red Hat Display', sans-serif;
+    `;
+
+    const title = sanitizeText(movie.title || 'Untitled');
+    const deeplinks = movie.deeplinks || {};
+    const platforms = Object.keys(deeplinks);
+
+    modal.innerHTML = `
+        <div style="margin-bottom: 24px;">
+            <h2 style="margin: 0 0 8px 0; font-size: 24px; font-weight: 700; color: #2c3e50;">${title}</h2>
+            <p style="margin: 0; color: #7f8c8d; font-size: 14px;">Watch on your favorite platform</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+            ${platforms.map(platform => {
+                const link = sanitizeAttribute(deeplinks[platform]);
+                const safePlatform = sanitizeText(platform);
+                return `
+                    <a href="${link}" target="_blank" rel="noopener noreferrer"
+                       style="display: flex; align-items: center; justify-content: space-between;
+                              padding: 16px 20px; background: white; border-radius: 12px;
+                              text-decoration: none; color: #2c3e50; font-weight: 600;
+                              transition: all 0.2s ease; border: 2px solid transparent;
+                              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);"
+                       onmouseover="this.style.borderColor='#f5af19'; this.style.transform='translateX(4px)';"
+                       onmouseout="this.style.borderColor='transparent'; this.style.transform='translateX(0)';">
+                        <span style="font-size: 16px;">${safePlatform}</span>
+                        <span style="font-size: 20px;">→</span>
+                    </a>
+                `;
+            }).join('')}
+        </div>
+        <button onclick="closeDeeplinkModal()"
+                style="margin-top: 24px; width: 100%; padding: 14px;
+                       background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+                       color: white; border: none; border-radius: 12px;
+                       font-weight: 700; font-size: 16px; cursor: pointer;
+                       transition: opacity 0.2s ease;"
+                onmouseover="this.style.opacity='0.9';"
+                onmouseout="this.style.opacity='1';">
+            Close
+        </button>
+    `;
+
+    document.body.appendChild(modal);
+    backdrop.style.display = 'block';
+
+    // Animate in
+    setTimeout(() => {
+        backdrop.style.opacity = '1';
+        modal.style.opacity = '1';
+    }, 10);
+
+    // Close on backdrop click
+    backdrop.onclick = closeDeeplinkModal;
+
+    // Close on Escape key
+    const escapeHandler = (e) => {
+        if (e.key === 'Escape') {
+            closeDeeplinkModal();
+        }
+    };
+    document.addEventListener('keydown', escapeHandler);
+
+    // Store reference for cleanup
+    modal.escapeHandler = escapeHandler;
+}
+
+function closeDeeplinkModal() {
+    const modal = document.querySelector('.deeplink-modal');
+    const backdrop = document.getElementById('backdrop');
+
+    if (modal) {
+        // Remove escape handler
+        if (modal.escapeHandler) {
+            document.removeEventListener('keydown', modal.escapeHandler);
+        }
+
+        // Animate out
+        modal.style.opacity = '0';
+        backdrop.style.opacity = '0';
+
+        setTimeout(() => {
+            if (modal.parentNode) {
+                modal.parentNode.removeChild(modal);
+            }
+            backdrop.style.display = 'none';
+            backdrop.onclick = null;
+        }, 300);
+    }
 }
 
 function expandCard(card, movie) {
