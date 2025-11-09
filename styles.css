@@ -301,7 +301,7 @@ main {
     gap: 40px;
     overflow-x: auto;
     overflow-y: visible;
-    padding: 120px 0 40px; /* Increased from 100px to 120px to prevent date obstruction */
+    padding: 150px 0 40px; /* Increased to 150px to prevent clipping of release dates */
     margin-bottom: 40px;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;
@@ -326,7 +326,7 @@ main {
 .movies-grid::before {
     content: '';
     position: absolute;
-    top: 90px;
+    top: 110px; /* Adjusted from 90px to align with new padding */
     left: 0;
     width: 10000px; /* Extended to cover entire grid length */
     height: 3px;
@@ -406,7 +406,7 @@ main {
 .movie-card::before {
     content: '';
     position: absolute;
-    top: -105px; /* Adjusted from -85px for new spacing */
+    top: -125px; /* Adjusted to align with timeline at 110px position */
     left: 50%;
     transform: translateX(-50%);
     width: 16px;
@@ -425,11 +425,11 @@ main {
 .movie-card::after {
     content: '';
     position: absolute;
-    top: -97px; /* Adjusted from -77px for new spacing */
+    top: -117px; /* Adjusted to align with timeline dot */
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 75px; /* Extended from 55px to reach properly */
+    height: 95px; /* Extended to reach card properly from higher position */
     background: linear-gradient(180deg,
         rgba(245, 175, 25, 0.6) 0%,
         rgba(245, 175, 25, 0.3) 50%,
@@ -453,7 +453,7 @@ main {
 /* Release date label on timeline - Apple Glass Design */
 .release-date-label {
     position: absolute;
-    top: -135px; /* Moved further up to create space between dot and label */
+    top: -160px; /* Adjusted to maintain proper spacing above timeline dots */
     left: 50%;
     transform: translateX(-50%);
     font-size: 13px;
@@ -1022,11 +1022,11 @@ main {
     /* Timeline adjustments for mobile */
     .movies-grid {
         gap: 24px;
-        padding: 110px 0 30px; /* Adjusted from 90px for mobile spacing */
+        padding: 140px 0 30px; /* Increased to prevent clipping on mobile */
     }
 
     .movies-grid::before {
-        top: 80px; /* Adjusted from 60px for timeline track position */
+        top: 100px; /* Adjusted to align with mobile padding */
     }
 
     .movie-card {
@@ -1036,17 +1036,17 @@ main {
     .movie-card::before {
         width: 12px;
         height: 12px;
-        top: -95px; /* Adjusted from -75px for mobile */
+        top: -115px; /* Adjusted to align with timeline track */
     }
 
     .movie-card::after {
-        top: -88px; /* Adjusted from -68px for mobile */
-        height: 65px; /* Adjusted from 45px connector height */
+        top: -108px; /* Adjusted to align with timeline dot */
+        height: 85px; /* Extended to reach card properly */
     }
 
     /* Release date labels for mobile */
     .release-date-label {
-        top: -120px; /* Adjusted from -100px to prevent obstruction on mobile */
+        top: -145px; /* Adjusted to maintain spacing above dots on mobile */
         font-size: 11px;
         padding: 4px 10px;
     }

@@ -437,12 +437,14 @@ function expandCard(card, movie) {
     // Now add expanded class to trigger the animation from current position to center
     card.classList.add('expanded');
 
-    // Remove inline positioning styles to allow CSS centering to take effect
+    // Remove ALL inline positioning styles to allow CSS centering to take full effect
     requestAnimationFrame(() => {
+        card.style.position = '';
         card.style.top = '';
         card.style.left = '';
         card.style.width = '';
         card.style.height = '';
+        card.style.margin = '';
         card.style.transform = '';
     });
 
