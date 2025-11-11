@@ -43,7 +43,20 @@ const domCache = {
     ottReleasedTimeline: null,
     ottUpcomingTimeline: null,
     theatreCurrentTimeline: null,
-    theatreUpcomingTimeline: null
+    theatreUpcomingTimeline: null,
+    // Hero section elements
+    heroFeatureCard: null,
+    heroCard1: null,
+    heroCard2: null,
+    heroCard3: null
+};
+
+// Store featured content for hero interactions
+let featuredContent = {
+    main: null,
+    card1: null,
+    card2: null,
+    card3: null
 };
 
 // Platform logo mapping (matching exact names from JSON)
@@ -184,6 +197,11 @@ function initDOMCache() {
     domCache.ottUpcomingTimeline = document.getElementById('ottUpcomingTimeline');
     domCache.theatreCurrentTimeline = document.getElementById('theatreCurrentTimeline');
     domCache.theatreUpcomingTimeline = document.getElementById('theatreUpcomingTimeline');
+    // Hero section
+    domCache.heroFeatureCard = document.getElementById('heroFeatureCard');
+    domCache.heroCard1 = document.getElementById('heroCard1');
+    domCache.heroCard2 = document.getElementById('heroCard2');
+    domCache.heroCard3 = document.getElementById('heroCard3');
 }
 
 // Sanitize text to prevent XSS
@@ -374,6 +392,123 @@ function applyFilters() {
     displayAllContent();
 }
 
+// Populate hero section with featured content
+function populateHeroSection() {
+    // Select featured content from loaded data
+    // Priority: 1) OTT Upcoming with posters, 2) Theatre Upcoming, 3) OTT Released
+    const allContent = [
+        ...contentData.ottUpcoming,
+        ...contentData.theatreUpcoming,
+        ...contentData.ottReleased,
+        ...contentData.theatreCurrent
+    ];
+
+    // Filter content with valid posters
+    const contentWithPosters = allContent.filter(item =>
+        item.poster_url_large || item.poster_url_medium || item.image_url
+    );
+
+    if (contentWithPosters.length === 0) return;
+
+    // Select 4 featured items (1 main + 3 grid)
+    const featured = contentWithPosters.slice(0, 4);
+
+    // Populate main feature card
+    if (featured[0] && domCache.heroFeatureCard) {
+        featuredContent.main = featured[0];
+        const posterUrl = featured[0].poster_url_large || featured[0].poster_url_medium || featured[0].image_url;
+
+        domCache.heroFeatureCard.style.setProperty('--hero-bg', `url('${sanitizeAttribute(posterUrl)}')`);
+        domCache.heroFeatureCard.querySelector('.hero-feature-card::after')?.style.setProperty('background-image', `url('${sanitizeAttribute(posterUrl)}')`);
+
+        // Update via ::after pseudo-element
+        domCache.heroFeatureCard.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
+        const afterStyle = document.createElement('style');
+        afterStyle.textContent = `
+            #heroFeatureCard::after {
+                background-image: url('${sanitizeAttribute(posterUrl)}') !important;
+            }
+        `;
+        document.head.appendChild(afterStyle);
+
+        const titleEl = domCache.heroFeatureCard.querySelector('.hero-feature-title');
+        const descEl = domCache.heroFeatureCard.querySelector('.hero-feature-description');
+
+        if (titleEl) titleEl.textContent = sanitizeText(featured[0].title || 'Featured Content');
+        if (descEl) {
+            const platforms = featured[0].platforms?.slice(0, 3).join(', ') || 'Available Soon';
+            const releaseInfo = featured[0].release_date
+                ? `Coming ${new Date(featured[0].release_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`
+                : 'Watch Now';
+            descEl.textContent = `${releaseInfo} • ${platforms}`;
+        }
+
+        // Add click handler
+        domCache.heroFeatureCard.onclick = () => {
+            if (featured[0].youtube_id) {
+                playHeroTrailer();
+            }
+        };
+    }
+
+    // Populate grid cards
+    const gridCards = [
+        { data: featured[1], element: domCache.heroCard1, label: 'New Release' },
+        { data: featured[2], element: domCache.heroCard2, label: 'Coming Soon' },
+        { data: featured[3], element: domCache.heroCard3, label: 'In Theatres' }
+    ];
+
+    gridCards.forEach(({ data, element, label }, index) => {
+        if (data && element) {
+            featuredContent[`card${index + 1}`] = data;
+            const posterUrl = data.poster_url_large || data.poster_url_medium || data.image_url;
+
+            // Update via ::after pseudo-element
+            const afterStyle = document.createElement('style');
+            afterStyle.textContent = `
+                #heroCard${index + 1}::after {
+                    background-image: url('${sanitizeAttribute(posterUrl)}') !important;
+                }
+            `;
+            document.head.appendChild(afterStyle);
+
+            const labelEl = element.querySelector('.hero-grid-label');
+            const titleEl = element.querySelector('.hero-grid-title');
+
+            if (labelEl) labelEl.textContent = label;
+            if (titleEl) titleEl.textContent = sanitizeText(data.title || 'Featured');
+
+            // Add click handler
+            element.onclick = () => {
+                if (data.youtube_id) {
+                    expandCard(element, data);
+                } else if (data.deeplinks && Object.keys(data.deeplinks).length > 0) {
+                    showDeeplinkModal(data);
+                }
+            };
+        }
+    });
+}
+
+// Play hero feature trailer
+function playHeroTrailer() {
+    if (featuredContent.main && featuredContent.main.youtube_id) {
+        const card = domCache.heroFeatureCard;
+        expandCard(card, featuredContent.main);
+    }
+}
+
+// Learn more about hero feature
+function learnMoreHero() {
+    if (featuredContent.main) {
+        if (featuredContent.main.deeplinks && Object.keys(featuredContent.main.deeplinks).length > 0) {
+            showDeeplinkModal(featuredContent.main);
+        } else if (featuredContent.main.youtube_id) {
+            playHeroTrailer();
+        }
+    }
+}
+
 // Load and display all content
 async function loadMovies() {
     try {
@@ -408,6 +543,7 @@ async function loadMovies() {
         await Promise.all(loadPromises);
 
         domCache.loading.style.display = 'none';
+        populateHeroSection(); // Populate hero section with featured content
         createFilterChips(); // Create platform filters (OTT only)
         displayAllContent(); // Render all content rows
     } catch (error) {
