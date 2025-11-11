@@ -1,33 +1,7 @@
-// Theme Management - Apple Liquid Design
+// Theme Management - Dark Theme Only
 function initTheme() {
-    // Check for saved theme preference or default to 'light'
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    const html = document.documentElement;
-
-    // Apply theme
-    if (savedTheme === 'dark') {
-        html.setAttribute('data-theme', 'dark');
-        updateMetaThemeColor('#000000');
-    } else {
-        html.removeAttribute('data-theme');
-        updateMetaThemeColor('#fef8f0');
-    }
-}
-
-function toggleTheme() {
-    const html = document.documentElement;
-    const currentTheme = html.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-
-    if (newTheme === 'dark') {
-        html.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-        updateMetaThemeColor('#000000');
-    } else {
-        html.removeAttribute('data-theme');
-        localStorage.setItem('theme', 'light');
-        updateMetaThemeColor('#fef8f0');
-    }
+    // Always use dark theme
+    updateMetaThemeColor('#000000');
 }
 
 function updateMetaThemeColor(color) {
@@ -976,16 +950,36 @@ window.addEventListener('resize', () => {
     }, 150); // Debounce resize events
 });
 
+
+// Add staggered animation delays to cards
+function addStaggeredAnimations() {
+    const containers = document.querySelectorAll('.timeline-container');
+    containers.forEach(container => {
+        const cards = container.querySelectorAll('.movie-card');
+        cards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.05}s`;
+        });
+    });
+}
+
+// Add staggered animation to filter chips
+function addFilterChipAnimations() {
+    const chips = document.querySelectorAll('.filter-chip');
+    chips.forEach((chip, index) => {
+        chip.style.animationDelay = `${index * 0.03}s`;
+    });
+}
+
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     initDOMCache();
     loadMovies();
 
-    // Setup theme toggle button
-    const themeToggle = document.getElementById('themeToggle');
-    if (themeToggle) {
-        themeToggle.addEventListener('click', toggleTheme);
-    }
+    // Add staggered animations after content loads
+    setTimeout(() => {
+        addStaggeredAnimations();
+        addFilterChipAnimations();
+    }, 100);
 });
 
 // Register service worker for offline support

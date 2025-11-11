@@ -4,56 +4,18 @@
     box-sizing: border-box;
 }
 
-/* Apple Liquid Design Theme System */
+/* Apple Liquid Design - Dark Theme Only */
 :root {
-    /* Light Theme - Apple Liquid Design */
-    --bg-primary: #fef8f0;
-    --bg-secondary: #fef5ed;
-    --bg-tertiary: #ffffff;
+    /* Spacing System - 8px base unit */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-2xl: 48px;
+    --spacing-3xl: 64px;
 
-    --text-primary: #1d1d1f;
-    --text-secondary: #6e6e73;
-    --text-tertiary: #86868b;
-
-    --glass-bg: rgba(255, 255, 255, 0.7);
-    --glass-bg-hover: rgba(255, 255, 255, 0.85);
-    --glass-border: rgba(255, 255, 255, 0.8);
-    --glass-shadow-sm: rgba(0, 0, 0, 0.06);
-    --glass-shadow-md: rgba(0, 0, 0, 0.1);
-    --glass-shadow-lg: rgba(0, 0, 0, 0.15);
-
-    /* Warm-toned filter section background matching site color theme */
-    --filter-section-bg: rgba(254, 245, 237, 0.85);
-    --filter-chip-bg: rgba(254, 240, 220, 0.9);
-    --filter-chip-bg-hover: rgba(254, 235, 205, 0.95);
-
-    --card-bg: rgba(255, 255, 255, 0.4);
-    --card-border: rgba(255, 255, 255, 0.6);
-    --card-shadow: rgba(0, 0, 0, 0.1);
-
-    --timeline-bg: #fef8f0;
-    --timeline-dot-border: #fef8f0;
-
-    --scrollbar-track: #f5f5f7;
-    --scrollbar-thumb: #d2d2d7;
-    --scrollbar-thumb-hover: #b8b8bd;
-
-    --border-subtle: rgba(0, 0, 0, 0.06);
-    --overlay-dark: rgba(0, 0, 0, 0.75);
-
-    /* Platform overlay gradient for light theme - darker to show white logos */
-    --platform-overlay-gradient: linear-gradient(to top,
-                rgba(60, 60, 60, 0.85) 0%,
-                rgba(60, 60, 60, 0.5) 30%,
-                transparent 100%);
-
-    /* Gradients remain the same for both themes */
-    --gradient-primary: linear-gradient(135deg, #e69d2e 0%, #f 100%);
-    --gradient-bg: linear-gradient(180deg, #fef8f0 0%, #fef5ed 50%, #ffffff 100%);
-}
-
-/* Dark Theme - Apple Liquid Design */
-[data-theme="dark"] {
+    /* Dark Theme Colors */
     --bg-primary: #000000;
     --bg-secondary: #1c1c1e;
     --bg-tertiary: #2c2c2e;
@@ -69,7 +31,7 @@
     --glass-shadow-md: rgba(0, 0, 0, 0.5);
     --glass-shadow-lg: rgba(0, 0, 0, 0.7);
 
-    /* Filter section background for dark theme */
+    /* Filter section background */
     --filter-section-bg: rgba(28, 28, 30, 0.7);
     --filter-chip-bg: rgba(28, 28, 30, 0.7);
     --filter-chip-bg-hover: rgba(44, 44, 46, 0.85);
@@ -88,12 +50,14 @@
     --border-subtle: rgba(255, 255, 255, 0.1);
     --overlay-dark: rgba(0, 0, 0, 0.85);
 
-    /* Platform overlay gradient for dark theme */
+    /* Platform overlay gradient */
     --platform-overlay-gradient: linear-gradient(to top,
                 rgba(0, 0, 0, 0.75) 0%,
                 rgba(0, 0, 0, 0.4) 30%,
                 transparent 100%);
 
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #e69d2e 0%, #f12711 100%);
     --gradient-bg: linear-gradient(180deg, #000000 0%, #1c1c1e 50%, #2c2c2e 100%);
 }
 
@@ -116,18 +80,18 @@ body {
                 color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Hero Section */
+/* Hero Section - Enhanced */
 .hero {
     text-align: center;
-    padding: 40px 40px 20px; /* Reduced from 80px 40px 40px for single viewport fit */
+    padding: var(--spacing-2xl) var(--spacing-xl) var(--spacing-lg);
     margin: 0 auto;
-    animation: fadeInHero 1s ease-out;
+    animation: fadeInHero 1.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @keyframes fadeInHero {
     from {
         opacity: 0;
-        transform: translateY(-20px);
+        transform: translateY(-30px);
     }
     to {
         opacity: 1;
@@ -136,25 +100,48 @@ body {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 72px;
     font-weight: 800;
     letter-spacing: -0.03em;
-    background: linear-gradient(135deg, #E69D2E 100%, #a46e1d 100%);
+    background: linear-gradient(135deg, #E69D2E 0%, #f5af19 50%, #E69D2E 100%);
+    background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 16px;
+    margin-bottom: var(--spacing-md);
     line-height: 1.1;
     font-family: 'Red Hat Display', sans-serif;
+    animation: shimmerGradient 3s ease-in-out infinite;
+}
+
+@keyframes shimmerGradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
 }
 
 .subtitle {
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 500;
     color: var(--text-secondary);
     max-width: 800px;
     margin: 0 auto;
     font-family: 'Red Hat Display', sans-serif;
+    animation: fadeInSubtitle 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards;
+}
+
+@keyframes fadeInSubtitle {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Main Content */
@@ -165,14 +152,13 @@ main {
 
 /* Filters Section - Apple Glass Design */
 .filters-section {
-    /* Apple Glass Design - darker in light theme for logo visibility */
     background: var(--filter-section-bg);
     backdrop-filter: blur(30px) saturate(180%);
     -webkit-backdrop-filter: blur(30px) saturate(180%);
 
     border-radius: 24px;
-    padding: 28px;
-    margin: 0 0 40px 0;
+    padding: var(--spacing-lg) var(--spacing-xl);
+    margin: 0 0 var(--spacing-2xl) 0;
 
     /* Frosted glass shadow */
     box-shadow: 0 8px 32px var(--glass-shadow-sm),
@@ -184,6 +170,20 @@ main {
     transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
                 border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Entrance animation */
+    animation: slideInFilters 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slideInFilters {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .content-type-section {
@@ -287,7 +287,7 @@ main {
     color: var(--text-secondary);
     cursor: pointer;
 
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     user-select: none;
 
     /* Frosted glass shadow */
@@ -296,8 +296,22 @@ main {
 
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: var(--spacing-sm);
     font-family: 'Red Hat Display', sans-serif;
+
+    /* Entrance animation */
+    animation: fadeInChip 0.4s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+@keyframes fadeInChip {
+    from {
+        opacity: 0;
+        transform: scale(0.9) translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
 }
 
 .filter-chip img {
@@ -484,13 +498,43 @@ main {
     transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Enhanced Empty States */
 .empty-row-message {
     text-align: center;
-    padding: 60px 20px;
+    padding: var(--spacing-3xl) var(--spacing-lg);
     color: var(--text-tertiary);
     font-size: 18px;
     font-weight: 500;
     transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Glass card design */
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 0.5px solid var(--border-subtle);
+    box-shadow: 0 4px 16px var(--glass-shadow-sm);
+
+    /* Icon and styling */
+    position: relative;
+}
+
+.empty-row-message::before {
+    content: '📭';
+    display: block;
+    font-size: 48px;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.6;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 /* Timeline Container (replaces .movies-grid for each row) */
@@ -498,19 +542,23 @@ main {
     position: relative;
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: var(--spacing-xl);
     overflow-x: auto;
     overflow-y: visible;
-    padding: 140px 0 30px; /* Increased top padding to prevent date label clipping */
+    padding: 140px 0 var(--spacing-xl);
     margin-bottom: 0;
     opacity: 0;
     animation: fadeIn 0.8s ease-out forwards;
 
-    /* Super smooth scrolling enhancements */
+    /* Super smooth scrolling enhancements with snap points */
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     scroll-padding: 0 60px;
     scrollbar-width: thin;
+
+    /* Scroll snap for better card alignment */
+    scroll-snap-type: x proximity;
+    scroll-padding-left: var(--spacing-3xl);
 
     /* Performance optimizations for smooth scrolling */
     will-change: scroll-position;
@@ -522,11 +570,17 @@ main {
     -webkit-transform: translateZ(0);
 }
 
+/* Snap alignment for each card */
+.timeline-container .movie-card {
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+
 /* Timeline Track/Line for each container */
 .timeline-container::before {
     content: '';
     position: absolute;
-    top: 30px;
+    top: 60px; /* Moved down to make room for release dates above */
     left: 0;
     width: var(--timeline-width, calc(100% + 100px));
     height: 3px;
@@ -601,7 +655,7 @@ main {
 .movies-grid::before {
     content: '';
     position: absolute;
-    top: 30px; /* Proportionally adjusted for 120px padding (was 50px for 200px) */
+    top: 60px; /* Moved down to make room for release dates above */
     left: 0;
     width: var(--timeline-width, calc(100% + 100px)); /* Dynamic width based on content, fallback to calc */
     height: 3px;
@@ -662,30 +716,41 @@ main {
     to { opacity: 1; }
 }
 
-/* Movie Card - Timeline Item */
+/* Movie Card - Timeline Item - Optimized Size */
 .movie-card {
     background: transparent;
     border-radius: 24px;
     overflow: visible;
-    transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                width 1s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                height 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     position: relative;
-    flex: 0 0 280px;
+    flex: 0 0 240px; /* Reduced from 280px for better content density */
     z-index: 2;
     display: flex;
     flex-direction: column;
-    gap: 12px; /* Space between poster and title */
+    gap: var(--spacing-md);
+
+    /* Entrance animation */
+    animation: fadeInCard 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+
+@keyframes fadeInCard {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
 }
 
 /* Timeline dot connector for each card */
 .movie-card::before {
     content: '';
     position: absolute;
-    top: -90px; /* Aligns with timeline track at 30px (120px padding - 90px = 30px) */
+    top: -80px; /* Aligns with timeline track at 60px (140px padding - 80px = 60px) */
     left: 50%;
     transform: translateX(-50%);
     width: 16px;
@@ -705,11 +770,11 @@ main {
 .movie-card::after {
     content: '';
     position: absolute;
-    top: -82px; /* Starts just below the timeline dot (dot at -90px + 8px radius) */
+    top: -72px; /* Starts just below the timeline dot (dot at -80px + 8px radius) */
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 82px; /* Extends from dot to card top (0px) */
+    height: 72px; /* Extends from dot to card top (0px) */
     background: linear-gradient(180deg,
         rgba(245, 175, 25, 0.6) 0%,
         rgba(245, 175, 25, 0.3) 50%,
@@ -717,26 +782,26 @@ main {
     z-index: 2;
 }
 
-/* Hover effect - no enlargement, just subtle shadow */
+/* Enhanced hover effect with subtle lift */
 .movie-card:not(.expanded):hover {
-    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translateY(-8px);
 }
 
 /* Animate timeline dot on card hover */
 .movie-card:not(.expanded):hover::before {
-    transform: translateX(-50%) scale(1.3);
-    box-shadow: 0 8px 24px rgba(245, 175, 25, 0.6),
-                0 0 0 6px rgba(245, 175, 25, 0.2),
-                0 0 20px rgba(245, 175, 25, 0.4);
+    transform: translateX(-50%) scale(1.4);
+    box-shadow: 0 8px 24px rgba(245, 175, 25, 0.7),
+                0 0 0 6px rgba(245, 175, 25, 0.25),
+                0 0 20px rgba(245, 175, 25, 0.5);
 }
 
-/* Release date label on timeline - Clean design without background */
+/* Release date label on timeline - Positioned above horizontal line */
 .release-date-label {
     position: absolute;
-    top: -35px; /* Positioned above timeline line which is at top: 30px */
+    top: -110px; /* Positioned well above timeline line (line is at 60px, dot at -80px) */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16px; /* Increased from 13px */
+    font-size: 16px;
     font-weight: 700;
     color: var(--text-primary);
 
@@ -907,16 +972,32 @@ main {
     opacity: 1;
 }
 
-/* Show skeleton background while loading */
+/* Enhanced skeleton background while loading */
 .movie-poster:has(img.loading) {
     background: linear-gradient(
-        135deg,
-        rgba(245, 175, 25, 0.05) 0%,
-        rgba(255, 255, 255, 0.1) 50%,
-        rgba(245, 175, 25, 0.05) 100%
+        110deg,
+        var(--card-bg) 0%,
+        var(--glass-bg-hover) 18%,
+        var(--card-bg) 33%
     );
-    background-size: 200% 200%;
-    animation: shimmer 1.5s ease-in-out infinite;
+    background-size: 200% 100%;
+    animation: shimmer 1.8s ease-in-out infinite;
+    position: relative;
+}
+
+/* Skeleton pulse overlay */
+.movie-poster:has(img.loading)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+    opacity: 0.15;
+    animation: pulse 2s ease-in-out infinite;
 }
 
 @keyframes shimmer {
@@ -928,6 +1009,17 @@ main {
     }
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.15;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0.25;
     }
 }
 
@@ -1335,119 +1427,161 @@ main {
 
 @media (max-width: 768px) {
     .hero {
-        padding: 30px 20px 15px; /* Optimized for single viewport fit */
+        padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-md);
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 48px;
     }
 
     .subtitle {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     main {
-        padding: 0 20px;
+        padding: 0 var(--spacing-lg);
+    }
+
+    /* Sticky filters on mobile */
+    .filters-section {
+        top: var(--spacing-sm);
+        padding: var(--spacing-md) var(--spacing-lg);
+        margin-bottom: var(--spacing-lg);
     }
 
     /* Timeline title for mobile */
     .timeline-title {
-        font-size: 24px;
+        font-size: 28px;
     }
 
-    /* Timeline adjustments for mobile */
-    .movies-grid {
-        gap: 24px;
-        padding: 110px 0 20px; /* Optimized for single viewport fit on mobile */
+    .row-title {
+        font-size: 28px;
     }
 
-    .movies-grid::before {
-        top: 25px; /* Timeline track positioned proportionally */
+    .row-subtitle {
+        font-size: 15px;
     }
 
+    /* Timeline adjustments for mobile - Optimized card size */
+    .timeline-container {
+        gap: var(--spacing-lg);
+        padding: 110px 0 var(--spacing-lg);
+        scroll-snap-type: x mandatory; /* Stronger snap on mobile */
+    }
+
+    .timeline-container::before {
+        top: 50px; /* Adjusted for mobile */
+    }
+
+    /* Optimized mobile card size - 200px for 1.5 cards visible */
     .movie-card {
-        flex: 0 0 220px;
+        flex: 0 0 200px; /* Reduced from 220px to show 1.5 cards, encouraging scroll */
     }
 
     .movie-card::before {
         width: 12px;
         height: 12px;
-        top: -85px; /* Aligns with timeline track (110px padding - 85px = 25px) */
+        top: -60px; /* Aligns with timeline at 50px (110px padding - 60px = 50px) */
     }
 
     .movie-card::after {
-        top: -79px; /* Starts just below dot (dot at -85px + 6px radius) */
-        height: 79px; /* Extends from dot to card top */
+        top: -54px; /* Starts below dot (dot at -60px + 6px radius) */
+        height: 54px;
     }
 
-    /* Release date labels for mobile */
+    /* Release date labels for mobile - positioned above line */
     .release-date-label {
-        top: -115px; /* 30px above timeline dots for clear visibility on mobile */
-        font-size: 11px;
-        padding: 4px 10px;
+        top: -90px; /* Well above timeline line */
+        font-size: 13px;
+        font-weight: 700;
     }
 
     /* Card title for mobile */
     .card-title-text {
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    /* Play button overlay for mobile - Reduced size */
+    /* Minimum touch target size - 48px */
+    .filter-chip {
+        min-height: 48px;
+        padding: var(--spacing-md) var(--spacing-lg);
+    }
+
+    .content-type-chip {
+        min-height: 48px;
+        padding: var(--spacing-md) var(--spacing-lg);
+    }
+
+    .clear-filters {
+        min-height: 48px;
+        padding: var(--spacing-md) var(--spacing-lg);
+    }
+
+    /* Play button - larger for touch */
     .play-button {
-        width: 50px;
-        height: 50px;
+        width: 56px;
+        height: 56px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3),
                     0 0 0 2px rgba(255, 255, 255, 0.2);
     }
 
     .play-button::before {
-        border-width: 10px 0 10px 16px;
-        margin-left: 2px;
+        border-width: 11px 0 11px 18px;
+        margin-left: 3px;
     }
 
     /* Play tooltip for mobile */
     .play-tooltip {
         top: -45px;
-        font-size: 11px;
-        padding: 6px 12px;
+        font-size: 12px;
+        padding: var(--spacing-sm) var(--spacing-md);
     }
 
     /* Platform overlay for mobile */
     .platform-overlay {
-        padding: 16px 12px;
+        padding: var(--spacing-md);
         backdrop-filter: blur(6px);
         -webkit-backdrop-filter: blur(6px);
     }
 
     .platform-overlay-label {
         font-size: 10px;
-        margin-bottom: 4px;
+        margin-bottom: var(--spacing-xs);
     }
 
     .platform-overlay .platform-badge {
-        padding: 4px 10px;
+        padding: var(--spacing-xs) var(--spacing-sm);
         font-size: 11px;
         border-radius: 6px;
     }
 
     .platform-overlay .platform-badge .platform-logo {
-        height: 16px;
-        max-width: 60px;
+        height: 18px;
+        max-width: 70px;
+    }
+
+    .movies-grid {
+        gap: var(--spacing-lg);
+        padding: 110px 0 var(--spacing-lg);
+        scroll-snap-type: x mandatory;
+    }
+
+    .movies-grid::before {
+        top: 50px; /* Adjusted for mobile */
     }
 
     .movies-grid.compact-view {
-        gap: 16px;
+        gap: var(--spacing-md);
     }
 
     .movies-grid.compact-view .movie-card {
-        flex: 0 0 140px;
-        height: 210px;
+        flex: 0 0 160px;
+        height: 240px;
     }
 
     .movies-grid.compact-view .release-date-label {
-        font-size: 10px;
-        padding: 3px 8px;
-        top: -105px; /* Maintains proper spacing in compact view */
+        font-size: 11px;
+        top: -105px;
     }
 
     .movie-card.expanded {
@@ -1464,16 +1598,17 @@ main {
         border-radius: 16px !important;
     }
 
-    .close-button {
-        top: -50px;
-        right: 0;
-        width: 40px;
-        height: 40px;
+    /* Theme toggle - larger touch target */
+    .theme-toggle {
+        top: var(--spacing-md);
+        right: var(--spacing-md);
+        width: 52px;
+        height: 52px;
     }
 
-    .close-button::before,
-    .close-button::after {
-        width: 16px;
+    .theme-toggle-icons {
+        width: 26px;
+        height: 26px;
     }
 }
 
@@ -1596,14 +1731,57 @@ main {
 /* Mobile adjustments for theme toggle */
 @media (max-width: 768px) {
     .theme-toggle {
-        top: 20px;
-        right: 20px;
-        width: 48px;
-        height: 48px;
+        top: var(--spacing-md);
+        right: var(--spacing-md);
+        width: 52px;
+        height: 52px;
     }
 
     .theme-toggle-icons {
-        width: 24px;
-        height: 24px;
+        width: 26px;
+        height: 26px;
+    }
+}
+
+/* Reduced Motion Support for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    /* Keep essential animations subtle */
+    .hero,
+    .filters-section,
+    .movie-card,
+    .filter-chip {
+        animation: none !important;
+    }
+
+    /* Disable shimmer effects */
+    h1 {
+        animation: none !important;
+        background: linear-gradient(135deg, #E69D2E 0%, #f5af19 100%);
+    }
+
+    /* Disable floating effects */
+    .empty-row-message::before {
+        animation: none !important;
+    }
+
+    /* Disable skeleton animations */
+    .movie-poster:has(img.loading),
+    .movie-poster:has(img.loading)::before {
+        animation: none !important;
+    }
+
+    /* Disable scroll snap for manual control */
+    .timeline-container,
+    .movies-grid {
+        scroll-snap-type: none !important;
     }
 }

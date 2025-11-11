@@ -7,14 +7,11 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/mv5bzde0ytdjndytmjfkzi00mde5ltk2zdctmjbinty1mzy4mjrkxkeyxkfqcgc._v1_.jpg",
-    "content_type": "ott_upcoming",
     "tmdb_id": 1401318,
     "tmdb_media_type": "movie",
-    "imdb_id": "tt34992378",
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
-    "imdb_year": "2025",
     "youtube_id": "zLuOjCbDuwY",
     "youtube_url": "https://www.youtube.com/watch?v=zLuOjCbDuwY"
   },
@@ -26,7 +23,6 @@
       "Apple TV+"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2024/03/7WcJLCS31BiVYgvnh19lOjZoiiZ-scaled.jpg",
-    "content_type": "ott_upcoming",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2024/03/7WcJLCS31BiVYgvnh19lOjZoiiZ-scaled.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2024/03/7WcJLCS31BiVYgvnh19lOjZoiiZ-scaled.jpg",
     "youtube_id": "kj2ibUk81Vg",
@@ -40,11 +36,10 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
-    "content_type": "ott_upcoming",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
-    "youtube_id": "9I4FKW0tlFU",
-    "youtube_url": "https://www.youtube.com/watch?v=9I4FKW0tlFU"
+    "youtube_id": "Zx24L_rJw-Y",
+    "youtube_url": "https://www.youtube.com/watch?v=Zx24L_rJw-Y"
   },
   {
     "title": "Come See Me in the Good Light",
@@ -54,7 +49,6 @@
       "Apple TV+"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2024/12/come-see-me-in-the-good-light.jpg",
-    "content_type": "ott_upcoming",
     "tmdb_id": 1400780,
     "tmdb_media_type": "movie",
     "imdb_id": "tt34966013",
@@ -73,16 +67,10 @@
       "Manorama MAX"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
-    "content_type": "ott_upcoming",
-    "tmdb_id": 2719,
-    "tmdb_media_type": "tv",
-    "imdb_id": "tt0237123",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/uYwXRytQ99XQKq31JFGqrnlIyhh.jpg",
-    "imdb_year": "2000",
-    "youtube_id": "hstPHM3R1dY",
-    "youtube_url": "https://www.youtube.com/watch?v=hstPHM3R1dY"
+    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
+    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
+    "youtube_id": "d9OyxosTOko",
+    "youtube_url": "https://www.youtube.com/watch?v=d9OyxosTOko"
   },
   {
     "title": "In Your Dreams",
@@ -92,12 +80,13 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/in-your-dreams.jpg",
-    "content_type": "ott_upcoming",
     "tmdb_id": 1117857,
     "tmdb_media_type": "movie",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+    "imdb_id": "tt27604215",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/original/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
+    "imdb_year": "2025",
     "youtube_id": "Jjjcn4acAC8",
     "youtube_url": "https://www.youtube.com/watch?v=Jjjcn4acAC8"
   },
@@ -109,7 +98,6 @@
       "Zee5"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
-    "content_type": "ott_upcoming",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
     "youtube_id": "xRk9rDOL9ew",
@@ -123,14 +111,10 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/jake-paul-vs-tank-davis.jpg",
-    "content_type": "ott_upcoming",
-    "tmdb_id": 1533237,
-    "tmdb_media_type": "movie",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/leRDW64s8t119oPapghaEkagYW.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/leRDW64s8t119oPapghaEkagYW.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
-    "youtube_id": "4M-vA6dU_7Y",
-    "youtube_url": "https://www.youtube.com/watch?v=4M-vA6dU_7Y"
+    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/jake-paul-vs-tank-davis.jpg",
+    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/jake-paul-vs-tank-davis.jpg",
+    "youtube_id": "zQaxe9y5gGc",
+    "youtube_url": "https://www.youtube.com/watch?v=zQaxe9y5gGc"
   },
   {
     "title": "Nouvelle Vague",
@@ -140,12 +124,13 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/nouvelle-vague.jpg",
-    "content_type": "ott_upcoming",
     "tmdb_id": 860708,
     "tmdb_media_type": "movie",
+    "imdb_id": "tt18260466",
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/hUhoqHc4aT1cQAZx2xo2GPvLyiD.jpg",
+    "imdb_year": "2022",
     "youtube_id": "UufRzKVFseg",
     "youtube_url": "https://www.youtube.com/watch?v=UufRzKVFseg"
   },
@@ -156,7 +141,6 @@
     "platforms": [
       "Jio Hotstar"
     ],
-    "content_type": "ott_upcoming",
     "poster_url_medium": "placeholders/landman-season-2-medium.jpg",
     "poster_url_large": "placeholders/landman-season-2-large.jpg",
     "poster_generated": true,
@@ -170,14 +154,11 @@
     "platforms": [
       "Netflix"
     ],
-    "content_type": "ott_upcoming",
     "tmdb_id": 1323475,
     "tmdb_media_type": "movie",
-    "imdb_id": "tt33053440",
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
-    "imdb_year": "2025",
     "youtube_id": "eba-EoMPBX8",
     "youtube_url": "https://www.youtube.com/watch?v=eba-EoMPBX8"
   },
@@ -189,7 +170,6 @@
       "Amazon Prime Video"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg",
-    "content_type": "ott_upcoming",
     "tmdb_id": 219080,
     "tmdb_media_type": "tv",
     "imdb_id": "tt26453092",
@@ -208,7 +188,6 @@
       "Jio Hotstar"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
-    "content_type": "ott_upcoming",
     "tmdb_id": 1267905,
     "tmdb_media_type": "movie",
     "imdb_id": "tt31973693",
@@ -227,7 +206,6 @@
       "Amazon Prime Video"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2022/04/gum2-mtxeaajpsm.jpg",
-    "content_type": "ott_upcoming",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2022/04/gum2-mtxeaajpsm.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2022/04/gum2-mtxeaajpsm.jpg",
     "youtube_id": "jsauQx_Fwrg",
@@ -241,12 +219,13 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/train-dreams-scaled.jpg",
-    "content_type": "ott_upcoming",
     "tmdb_id": 1241983,
     "tmdb_media_type": "movie",
+    "imdb_id": "tt29768334",
     "poster_url_medium": "https://image.tmdb.org/t/p/w500/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/original/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
+    "imdb_year": "2025",
     "youtube_id": "_Nk8TrBHOrA",
     "youtube_url": "https://www.youtube.com/watch?v=_Nk8TrBHOrA"
   },
@@ -257,12 +236,9 @@
     "platforms": [
       "Netflix"
     ],
-    "content_type": "ott_upcoming",
-    "tmdb_id": 1218762,
-    "tmdb_media_type": "movie",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/xz9d71CvFHkKIDSzv4rztPPsVKn.jpg",
+    "poster_url_medium": "placeholders/jingle-bell-heist-medium.jpg",
+    "poster_url_large": "placeholders/jingle-bell-heist-large.jpg",
+    "poster_generated": true,
     "youtube_id": "AAEzB2LzFfM",
     "youtube_url": "https://www.youtube.com/watch?v=AAEzB2LzFfM"
   },
@@ -273,7 +249,6 @@
     "platforms": [
       "Apple TV+"
     ],
-    "content_type": "ott_upcoming",
     "tmdb_id": 95171,
     "tmdb_media_type": "tv",
     "imdb_id": "tt10324164",
@@ -292,7 +267,6 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
-    "content_type": "ott_upcoming",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
     "youtube_id": "PssKpzB0Ah0",
@@ -306,14 +280,8 @@
       "Netflix"
     ],
     "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/left-handed-girl-scaled.jpg",
-    "content_type": "ott_upcoming",
-    "tmdb_id": 999075,
-    "tmdb_media_type": "movie",
-    "imdb_id": "tt27722618",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/fK86d5662xX7ohRCTrlaL1KP5GO.jpg",
-    "imdb_year": "2025",
+    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/left-handed-girl-scaled.jpg",
+    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/left-handed-girl-scaled.jpg",
     "youtube_id": "0rXnpfzpk8s",
     "youtube_url": "https://www.youtube.com/watch?v=0rXnpfzpk8s"
   }
