@@ -6,14 +6,117 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/mv5bzde0ytdjndytmjfkzi00mde5ltk2zdctmjbinty1mzy4mjrkxkeyxkfqcgc._v1_.jpg",
     "tmdb_id": 1401318,
     "tmdb_media_type": "movie",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+    "overview": "A recently separated couple attempts to have one last Christmas with their kids before the wife sells the family home to move and start fresh. But complications arise when the husband brings his amazing new girlfriend into the holiday mix.",
+    "description": "A recently separated couple attempts to have one last Christmas with their kids before the wife sells the family home to move and start fresh. But complications arise when the husband brings his amazing new girlfriend into the holiday mix.",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "runtime": 0,
+    "tmdb_release_date": "2025-11-12",
+    "status": "Released",
+    "tmdb_rating": 6.0,
+    "tmdb_vote_count": 1,
+    "original_title": "A Merry Little Ex-Mas",
+    "original_language": "en",
+    "imdb_id": "tt34992378",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+      "original": "https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+        "original": "https://image.tmdb.org/t/p/original/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/8nTBCJNHYdFrqSKzQqHDogVmfOz.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/8nTBCJNHYdFrqSKzQqHDogVmfOz.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/8nTBCJNHYdFrqSKzQqHDogVmfOz.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/8nTBCJNHYdFrqSKzQqHDogVmfOz.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/8nTBCJNHYdFrqSKzQqHDogVmfOz.jpg",
+        "original": "https://image.tmdb.org/t/p/original/8nTBCJNHYdFrqSKzQqHDogVmfOz.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/iHBN6wA2cGbTPG1MqRoqmsuFw4a.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/v8POQ3jvC1gRCP7XV7eUjycoqFX.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/v8POQ3jvC1gRCP7XV7eUjycoqFX.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/v8POQ3jvC1gRCP7XV7eUjycoqFX.jpg",
+        "original": "https://image.tmdb.org/t/p/original/v8POQ3jvC1gRCP7XV7eUjycoqFX.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/2GHJGnF2jgnzeqT3XTHjHXgk5Fx.jpg",
+    "cast": [
+      {
+        "name": "Alicia Silverstone",
+        "character": "Kate",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pyxqkP4i0ubVdoRe5hoiiiwkHkb.jpg"
+      },
+      {
+        "name": "Oliver Hudson",
+        "character": "Everett",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kvRmZBKs7xMZwsTu37adKPF8PKG.jpg"
+      },
+      {
+        "name": "Jameela Jamil",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jDtj84p40xmZ8jAua4wUw0JN6Ih.jpg"
+      },
+      {
+        "name": "Pierson Fodé",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ntsQN7JrXKGUto2XJJPbP7QAleL.jpg"
+      },
+      {
+        "name": "Melissa Joan Hart",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/t0Cb1l7owqKE7Aj3cNlnS94lXUV.jpg"
+      },
+      {
+        "name": "Timothy Innes",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/aUxpcqfSZjgi0BItJdjp156kilF.jpg"
+      },
+      {
+        "name": "Wilder Hudson",
+        "character": "",
+        "profile_path": null
+      }
+    ],
+    "directors": [
+      "Steve Carr"
+    ],
+    "writers": [
+      "Holly Hester"
+    ],
     "youtube_id": "zLuOjCbDuwY",
-    "youtube_url": "https://www.youtube.com/watch?v=zLuOjCbDuwY"
+    "youtube_url": "https://www.youtube.com/watch?v=zLuOjCbDuwY",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "Palm Royale Season 2",
@@ -22,11 +125,157 @@
     "platforms": [
       "Apple TV+"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2024/03/7WcJLCS31BiVYgvnh19lOjZoiiZ-scaled.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2024/03/7WcJLCS31BiVYgvnh19lOjZoiiZ-scaled.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2024/03/7WcJLCS31BiVYgvnh19lOjZoiiZ-scaled.jpg",
-    "youtube_id": "kj2ibUk81Vg",
-    "youtube_url": "https://www.youtube.com/watch?v=kj2ibUk81Vg"
+    "tmdb_id": 157367,
+    "tmdb_media_type": "tv",
+    "overview": "In 1969, an ambitious woman aspires to cross the line between the haves and have-nots to secure her seat at America's most exclusive, fashionable, and treacherous table: Palm Beach high society.",
+    "description": "In 1969, an ambitious woman aspires to cross the line between the haves and have-nots to secure her seat at America's most exclusive, fashionable, and treacherous table: Palm Beach high society.",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "episode_runtime": [],
+    "number_of_seasons": 2,
+    "number_of_episodes": 20,
+    "tmdb_release_date": "2024-03-19",
+    "status": "Returning Series",
+    "tmdb_rating": 6.192,
+    "tmdb_vote_count": 65,
+    "original_title": "Palm Royale",
+    "original_language": "en",
+    "imdb_id": "tt8888540",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+        "original": "https://image.tmdb.org/t/p/original/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/kReFUHDB79iXP6SzBSKhswuBduY.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/kReFUHDB79iXP6SzBSKhswuBduY.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/kReFUHDB79iXP6SzBSKhswuBduY.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/kReFUHDB79iXP6SzBSKhswuBduY.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/kReFUHDB79iXP6SzBSKhswuBduY.jpg",
+        "original": "https://image.tmdb.org/t/p/original/kReFUHDB79iXP6SzBSKhswuBduY.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/xPTMl9qOURvOTMRULPcthHZYcf1.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/xPTMl9qOURvOTMRULPcthHZYcf1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xPTMl9qOURvOTMRULPcthHZYcf1.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xPTMl9qOURvOTMRULPcthHZYcf1.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/xPTMl9qOURvOTMRULPcthHZYcf1.jpg",
+        "original": "https://image.tmdb.org/t/p/original/xPTMl9qOURvOTMRULPcthHZYcf1.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/2e89K3gD0nR6HR9StatWj2V6MQn.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/2e89K3gD0nR6HR9StatWj2V6MQn.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2e89K3gD0nR6HR9StatWj2V6MQn.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2e89K3gD0nR6HR9StatWj2V6MQn.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/2e89K3gD0nR6HR9StatWj2V6MQn.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2e89K3gD0nR6HR9StatWj2V6MQn.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/5xFwkWI0rMpVpBpt8xiEriTBEWq.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/5xFwkWI0rMpVpBpt8xiEriTBEWq.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/5xFwkWI0rMpVpBpt8xiEriTBEWq.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/5xFwkWI0rMpVpBpt8xiEriTBEWq.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/5xFwkWI0rMpVpBpt8xiEriTBEWq.jpg",
+        "original": "https://image.tmdb.org/t/p/original/5xFwkWI0rMpVpBpt8xiEriTBEWq.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg",
+      "original": "https://image.tmdb.org/t/p/original/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg",
+        "original": "https://image.tmdb.org/t/p/original/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/4bvXT8m7SzUWPTp5YyWyyWNJ7A2.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/4bvXT8m7SzUWPTp5YyWyyWNJ7A2.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/4bvXT8m7SzUWPTp5YyWyyWNJ7A2.jpg",
+        "original": "https://image.tmdb.org/t/p/original/4bvXT8m7SzUWPTp5YyWyyWNJ7A2.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/qnauP46xVaGlm8XRQLP6Kk23Faw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/qnauP46xVaGlm8XRQLP6Kk23Faw.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/qnauP46xVaGlm8XRQLP6Kk23Faw.jpg",
+        "original": "https://image.tmdb.org/t/p/original/qnauP46xVaGlm8XRQLP6Kk23Faw.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/2VBD8c9qhxnonLWbSd24lYBEF3M.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/2VBD8c9qhxnonLWbSd24lYBEF3M.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/2VBD8c9qhxnonLWbSd24lYBEF3M.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2VBD8c9qhxnonLWbSd24lYBEF3M.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/f9NI6fyXBgdGIbUHkalvoxKAWhp.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/f9NI6fyXBgdGIbUHkalvoxKAWhp.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/f9NI6fyXBgdGIbUHkalvoxKAWhp.jpg",
+        "original": "https://image.tmdb.org/t/p/original/f9NI6fyXBgdGIbUHkalvoxKAWhp.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/4dUTs2xkExkG3yKPNzxgGwRX6NF.jpg",
+    "cast": [
+      {
+        "name": "Kristen Wiig",
+        "character": "Maxine Dellacorte",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oddvykQHx71hEZlvKinCzB3Vcfh.jpg"
+      },
+      {
+        "name": "Ricky Martin",
+        "character": "Robert",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mAkdpTplDii6otg5fWli74K44o5.jpg"
+      },
+      {
+        "name": "Leslie Bibb",
+        "character": "Dinah Donahue",
+        "profile_path": "https://image.tmdb.org/t/p/w185/g3a1O9lOTZvrwQupUtg4Fc3CdTd.jpg"
+      },
+      {
+        "name": "Allison Janney",
+        "character": "Evelyn",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hpBKWV1jjoXQbr1s0iUZTSvw582.jpg"
+      },
+      {
+        "name": "Josh Lucas",
+        "character": "Douglas Simmons",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ueR4CH32f22DGjFxuhnW1o3YKB3.jpg"
+      },
+      {
+        "name": "Laura Dern",
+        "character": "Linda Shaw",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg"
+      },
+      {
+        "name": "Amber Chardae Robinson",
+        "character": "Virginia",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iDSGaq7q25i9FR68UxPrshblNux.jpg"
+      }
+    ],
+    "directors": [],
+    "writers": [],
+    "youtube_id": "-mbE660duGQ",
+    "youtube_url": "https://www.youtube.com/watch?v=-mbE660duGQ",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "Delhi Crime Season 3",
@@ -35,11 +284,125 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
+    "tmdb_id": 87508,
+    "tmdb_media_type": "tv",
+    "overview": "Following the police force as they investigate high-profile crimes in Delhi, this series has seasons inspired by both real and fictional events.",
+    "description": "Following the police force as they investigate high-profile crimes in Delhi, this series has seasons inspired by both real and fictional events.",
+    "genres": [
+      "Crime"
+    ],
+    "episode_runtime": [],
+    "number_of_seasons": 3,
+    "number_of_episodes": 13,
+    "tmdb_release_date": "2019-03-22",
+    "status": "Returning Series",
+    "tmdb_rating": 7.9,
+    "tmdb_vote_count": 111,
+    "original_title": "दिल्ली क्राइम",
+    "original_language": "hi",
+    "imdb_id": "tt9398466",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
-    "youtube_id": "Zx24L_rJw-Y",
-    "youtube_url": "https://www.youtube.com/watch?v=Zx24L_rJw-Y"
+    "posters": {
+      "thumbnail": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
+      "small": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
+      "medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
+      "large": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
+      "xlarge": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg",
+      "original": "https://bingeddata.s3.amazonaws.com/uploads/2025/02/g3ii7daxyaaeno7.jpg"
+    },
+    "poster_source": "binged",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg",
+      "original": "https://image.tmdb.org/t/p/original/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg",
+        "original": "https://image.tmdb.org/t/p/original/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/7W4EdShFNO2qj86SgMlw7sE2upD.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/7W4EdShFNO2qj86SgMlw7sE2upD.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/7W4EdShFNO2qj86SgMlw7sE2upD.jpg",
+        "original": "https://image.tmdb.org/t/p/original/7W4EdShFNO2qj86SgMlw7sE2upD.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/aDngBnD6tThTNVh19wMPz6WoRvb.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/aDngBnD6tThTNVh19wMPz6WoRvb.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/aDngBnD6tThTNVh19wMPz6WoRvb.jpg",
+        "original": "https://image.tmdb.org/t/p/original/aDngBnD6tThTNVh19wMPz6WoRvb.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/8WXouptCWLBHkBpWZahIgkeUDiH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/8WXouptCWLBHkBpWZahIgkeUDiH.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/8WXouptCWLBHkBpWZahIgkeUDiH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/8WXouptCWLBHkBpWZahIgkeUDiH.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/lBJsWZw6Q5ejXCwGDTpVKQSt1O8.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/lBJsWZw6Q5ejXCwGDTpVKQSt1O8.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/lBJsWZw6Q5ejXCwGDTpVKQSt1O8.jpg",
+        "original": "https://image.tmdb.org/t/p/original/lBJsWZw6Q5ejXCwGDTpVKQSt1O8.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/j6djmR4hi8ULL0xUPQN4ZVyzgVN.jpg",
+    "cast": [
+      {
+        "name": "Shefali Shah",
+        "character": "Vartika Chaturvedi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/FII8NQizxHQ88W5Z6IKXyYrEV9.jpg"
+      },
+      {
+        "name": "Rasika Dugal",
+        "character": "Neeti Singh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cMJP2OEOrKwF05BFh3zI3TyS5Ft.jpg"
+      },
+      {
+        "name": "Avijit Dutt",
+        "character": "Gururaj Dixit",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5pNmHClvtaieNjTTrT4tjkWQYrw.jpg"
+      },
+      {
+        "name": "Adil Hussain",
+        "character": "Kumar Vijay",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eCWVa1pH7mmz0i9Q0l4VEKs7g6m.jpg"
+      },
+      {
+        "name": "Yashaswini Dayama",
+        "character": "Chandni",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7vvfW9qRRxHFgEYdFNtZN75jQs6.jpg"
+      },
+      {
+        "name": "Rajesh Tailang",
+        "character": "Bhupendra Singh",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ou1zcrNfhXBKcpnPgtKs64SRGXm.jpg"
+      },
+      {
+        "name": "Denzil Smith",
+        "character": "Vishal Chaturvedi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uXzgOO0AuW45wqPdQdtQ40GBVuX.jpg"
+      },
+      {
+        "name": "Sidharth Bhardwaj",
+        "character": "SHO Subhash Gupta",
+        "profile_path": "https://image.tmdb.org/t/p/w185/42TZeix1jGwlEPKIYFJk3jFyZbj.jpg"
+      },
+      {
+        "name": "Huma Qureshi",
+        "character": "Meena",
+        "profile_path": "https://image.tmdb.org/t/p/w185/j4RI7eoSqbWTK6hkCNO9wN78dMM.jpg"
+      }
+    ],
+    "directors": [],
+    "writers": [],
+    "youtube_id": "jNuKwlKJx2E",
+    "youtube_url": "https://www.youtube.com/watch?v=jNuKwlKJx2E",
+    "youtube_title": "Delhi Crime | Official Trailer [HD] | Netflix"
   },
   {
     "title": "Come See Me in the Good Light",
@@ -48,16 +411,136 @@
     "platforms": [
       "Apple TV+"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2024/12/come-see-me-in-the-good-light.jpg",
     "tmdb_id": 1400780,
     "tmdb_media_type": "movie",
+    "overview": "In an intimate and joyful story of love in the face of loss, celebrated poets Andrea Gibson and Megan Falley find strength—and unexpected hilarity—in what might be their final year together.",
+    "description": "In an intimate and joyful story of love in the face of loss, celebrated poets Andrea Gibson and Megan Falley find strength—and unexpected hilarity—in what might be their final year together.",
+    "genres": [
+      "Documentary"
+    ],
+    "runtime": 109,
+    "tmdb_release_date": "2025-11-14",
+    "status": "Released",
+    "tmdb_rating": 0.0,
+    "tmdb_vote_count": 0,
+    "original_title": "Come See Me in the Good Light",
+    "original_language": "en",
     "imdb_id": "tt34966013",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+        "original": "https://image.tmdb.org/t/p/original/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/pvI4IBMVhYtdjtWdCQBlDzYon2X.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/pvI4IBMVhYtdjtWdCQBlDzYon2X.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/pvI4IBMVhYtdjtWdCQBlDzYon2X.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/pvI4IBMVhYtdjtWdCQBlDzYon2X.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/pvI4IBMVhYtdjtWdCQBlDzYon2X.jpg",
+        "original": "https://image.tmdb.org/t/p/original/pvI4IBMVhYtdjtWdCQBlDzYon2X.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/mu9mgU6HuzyidpRy07010MVA0yF.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/mu9mgU6HuzyidpRy07010MVA0yF.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/mu9mgU6HuzyidpRy07010MVA0yF.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/mu9mgU6HuzyidpRy07010MVA0yF.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/mu9mgU6HuzyidpRy07010MVA0yF.jpg",
+        "original": "https://image.tmdb.org/t/p/original/mu9mgU6HuzyidpRy07010MVA0yF.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/bETinWVPvfSa9Jbflw6Mki3iqIv.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/bETinWVPvfSa9Jbflw6Mki3iqIv.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/bETinWVPvfSa9Jbflw6Mki3iqIv.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/bETinWVPvfSa9Jbflw6Mki3iqIv.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/bETinWVPvfSa9Jbflw6Mki3iqIv.jpg",
+        "original": "https://image.tmdb.org/t/p/original/bETinWVPvfSa9Jbflw6Mki3iqIv.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/meJATuQ8oNUc0iMtKIDB65zbmNF.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/meJATuQ8oNUc0iMtKIDB65zbmNF.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/meJATuQ8oNUc0iMtKIDB65zbmNF.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/meJATuQ8oNUc0iMtKIDB65zbmNF.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/meJATuQ8oNUc0iMtKIDB65zbmNF.jpg",
+        "original": "https://image.tmdb.org/t/p/original/meJATuQ8oNUc0iMtKIDB65zbmNF.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/uK8bZ7URrycMZpPo2yMwYHd9Ttu.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+      "original": "https://image.tmdb.org/t/p/original/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
+        "original": "https://image.tmdb.org/t/p/original/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/9bByjh4bCk5yW5GQ6m7w5MFOyMQ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/9bByjh4bCk5yW5GQ6m7w5MFOyMQ.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/9bByjh4bCk5yW5GQ6m7w5MFOyMQ.jpg",
+        "original": "https://image.tmdb.org/t/p/original/9bByjh4bCk5yW5GQ6m7w5MFOyMQ.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/3Dp1kHGyOFTwuxDxHR0L0qjXFz1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/3Dp1kHGyOFTwuxDxHR0L0qjXFz1.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/3Dp1kHGyOFTwuxDxHR0L0qjXFz1.jpg",
+        "original": "https://image.tmdb.org/t/p/original/3Dp1kHGyOFTwuxDxHR0L0qjXFz1.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/vKWM7CZQGHZdQ7Q519XsjmecFF.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/vKWM7CZQGHZdQ7Q519XsjmecFF.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/vKWM7CZQGHZdQ7Q519XsjmecFF.jpg",
+        "original": "https://image.tmdb.org/t/p/original/vKWM7CZQGHZdQ7Q519XsjmecFF.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/yJy7r6nnpl8OS1mczhGJA755ENl.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/yJy7r6nnpl8OS1mczhGJA755ENl.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/yJy7r6nnpl8OS1mczhGJA755ENl.jpg",
+        "original": "https://image.tmdb.org/t/p/original/yJy7r6nnpl8OS1mczhGJA755ENl.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/x0FZZWBE7Sp5Vz5ncn4wb8JyG5c.jpg",
-    "imdb_year": "2025",
+    "cast": [
+      {
+        "name": "Andrea Gibson",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xOgCOvhrsq0RNvGwZKlK5CZdfWb.jpg"
+      },
+      {
+        "name": "Megan Falley",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pANGjAjdOdrrfpTim0tNs9wRBp5.jpg"
+      },
+      {
+        "name": "Tig Notaro",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tdZ6XLzIaK0HWWPSM2B5OrOqUC0.jpg"
+      }
+    ],
+    "directors": [
+      "Ryan White"
+    ],
+    "writers": [],
     "youtube_id": "t0B8sjxR7Mo",
-    "youtube_url": "https://www.youtube.com/watch?v=t0B8sjxR7Mo"
+    "youtube_url": "https://www.youtube.com/watch?v=t0B8sjxR7Mo",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "Coupling",
@@ -66,11 +549,112 @@
     "platforms": [
       "Manorama MAX"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo.jpg",
-    "youtube_id": "d9OyxosTOko",
-    "youtube_url": "https://www.youtube.com/watch?v=d9OyxosTOko"
+    "tmdb_id": 2719,
+    "tmdb_media_type": "tv",
+    "overview": "Six friends in their thirties navigate dating, sexual adventures,  and mishaps on their quest to find love.",
+    "description": "Six friends in their thirties navigate dating, sexual adventures,  and mishaps on their quest to find love.",
+    "genres": [
+      "Comedy"
+    ],
+    "episode_runtime": [
+      30
+    ],
+    "number_of_seasons": 4,
+    "number_of_episodes": 28,
+    "tmdb_release_date": "2000-05-12",
+    "status": "Ended",
+    "tmdb_rating": 7.913,
+    "tmdb_vote_count": 309,
+    "original_title": "Coupling",
+    "original_language": "en",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "original": "https://image.tmdb.org/t/p/original/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "original": "https://image.tmdb.org/t/p/original/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "original": "https://image.tmdb.org/t/p/original/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "original": "https://image.tmdb.org/t/p/original/jcvaaDdIifJsbd8q8dPqu53WCud.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "original": "https://image.tmdb.org/t/p/original/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+    "cast": [
+      {
+        "name": "Jack Davenport",
+        "character": "Steve Taylor",
+        "profile_path": "https://image.tmdb.org/t/p/w185/shGH0YWJBfiJznidS0f2ZfN056c.jpg"
+      },
+      {
+        "name": "Gina Bellman",
+        "character": "Jane Christie",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gOLuBCy4gZH3os2S8O2MKM7Vrho.jpg"
+      },
+      {
+        "name": "Sarah Alexander",
+        "character": "Susan Walker",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rI8gecsrrcXjHWELn6miC0twB7k.jpg"
+      },
+      {
+        "name": "Kate Isitt",
+        "character": "Sally Harper",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zTUfsFtucvb1XnN4iPzHvKgu2U4.jpg"
+      },
+      {
+        "name": "Ben Miles",
+        "character": "Patrick Maitland",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wAsTf5JOBASeJdrRC5I5vlRxNXx.jpg"
+      },
+      {
+        "name": "Richard Mylan",
+        "character": "Oliver Morris",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1G8eWPwmTyv4UWnu6N4xwJzv7q1.jpg"
+      }
+    ],
+    "directors": [
+      "Martin Dennis"
+    ],
+    "writers": []
   },
   {
     "title": "In Your Dreams",
@@ -79,16 +663,178 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/in-your-dreams.jpg",
     "tmdb_id": 1117857,
     "tmdb_media_type": "movie",
+    "overview": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family.",
+    "description": "Stevie and her little brother Elliot journey into the wildly absurd landscape of their own dreams to ask the Sandman to grant them the perfect family.",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Animation",
+      "Fantasy",
+      "Family"
+    ],
+    "runtime": 91,
+    "tmdb_release_date": "2025-11-07",
+    "status": "Released",
+    "tmdb_rating": 8.0,
+    "tmdb_vote_count": 1,
+    "original_title": "In Your Dreams",
+    "original_language": "en",
     "imdb_id": "tt27604215",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+      "original": "https://image.tmdb.org/t/p/original/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+        "original": "https://image.tmdb.org/t/p/original/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/zwTfroDQ4aAg2Qi1x8u0IM2RjyH.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/zwTfroDQ4aAg2Qi1x8u0IM2RjyH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/zwTfroDQ4aAg2Qi1x8u0IM2RjyH.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/zwTfroDQ4aAg2Qi1x8u0IM2RjyH.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/zwTfroDQ4aAg2Qi1x8u0IM2RjyH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/zwTfroDQ4aAg2Qi1x8u0IM2RjyH.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+        "original": "https://image.tmdb.org/t/p/original/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "original": "https://image.tmdb.org/t/p/original/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/pPUtVV9wAAExq7q2P1lyhLrwf6f.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/pPUtVV9wAAExq7q2P1lyhLrwf6f.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/pPUtVV9wAAExq7q2P1lyhLrwf6f.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/pPUtVV9wAAExq7q2P1lyhLrwf6f.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/pPUtVV9wAAExq7q2P1lyhLrwf6f.jpg",
+        "original": "https://image.tmdb.org/t/p/original/pPUtVV9wAAExq7q2P1lyhLrwf6f.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/yZhXqCrrKt9AhSrHyXaCyUjkuEj.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
+      "original": "https://image.tmdb.org/t/p/original/s7BTYCanC0f43HYs5cM1o02pKWA.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
+        "original": "https://image.tmdb.org/t/p/original/s7BTYCanC0f43HYs5cM1o02pKWA.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/cTuFz80FozP54Aob9TYl4mF1wKk.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/cTuFz80FozP54Aob9TYl4mF1wKk.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/cTuFz80FozP54Aob9TYl4mF1wKk.jpg",
+        "original": "https://image.tmdb.org/t/p/original/cTuFz80FozP54Aob9TYl4mF1wKk.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
+        "original": "https://image.tmdb.org/t/p/original/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/69wb2O2QozXRzUhmHAHTIa7UiJy.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/69wb2O2QozXRzUhmHAHTIa7UiJy.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/69wb2O2QozXRzUhmHAHTIa7UiJy.jpg",
+        "original": "https://image.tmdb.org/t/p/original/69wb2O2QozXRzUhmHAHTIa7UiJy.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/rM1H3uwsdT4niZzgpqETB7ouzyi.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/rM1H3uwsdT4niZzgpqETB7ouzyi.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/rM1H3uwsdT4niZzgpqETB7ouzyi.jpg",
+        "original": "https://image.tmdb.org/t/p/original/rM1H3uwsdT4niZzgpqETB7ouzyi.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/s7BTYCanC0f43HYs5cM1o02pKWA.jpg",
-    "imdb_year": "2025",
+    "cast": [
+      {
+        "name": "Jolie Hoang-Rappaport",
+        "character": "Stevie (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3dvi8HLZ9rZw4aZ00rKsncbAErc.jpg"
+      },
+      {
+        "name": "Elias Janssen",
+        "character": "Elliot (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sJUmC8fekA1uci2uRcF8d5AbmZA.jpg"
+      },
+      {
+        "name": "Simu Liu",
+        "character": "Dad (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xc7I32luBZfJgx9lm92aT9xiI6T.jpg"
+      },
+      {
+        "name": "Craig Robinson",
+        "character": "Baloney Tony (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mTyTrOWUSOBJMOlDpnd4OYx7FlJ.jpg"
+      },
+      {
+        "name": "Cristin Milioti",
+        "character": "Mom (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/54vq2oKWfVR7YZZeoY5j47hTZxW.jpg"
+      },
+      {
+        "name": "Gia Carides",
+        "character": "Nightmara (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ozzUvRlmtj9eSAaycFXOVSB7ulz.jpg"
+      },
+      {
+        "name": "Omid Djalili",
+        "character": "Sandman (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lCgVvAw8EkIKbc93ZtINdwxH1CV.jpg"
+      },
+      {
+        "name": "SungWon Cho",
+        "character": "Chad (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jh5Au9smnPwfLoPNrcJ2VsJnbhU.jpg"
+      },
+      {
+        "name": "Zachary Noah Piser",
+        "character": "Joon Bae / Polly (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5KiVbn47xk59abjH0C14oh3kmxZ.jpg"
+      },
+      {
+        "name": "Hailey Magpali",
+        "character": "Four-Year-Old Stevie (voice)",
+        "profile_path": null
+      }
+    ],
+    "directors": [
+      "Alex Woo"
+    ],
+    "writers": [
+      "Erik Benson",
+      "Alex Woo"
+    ],
     "youtube_id": "Jjjcn4acAC8",
-    "youtube_url": "https://www.youtube.com/watch?v=Jjjcn4acAC8"
+    "youtube_url": "https://www.youtube.com/watch?v=Jjjcn4acAC8",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "Inspection Bunglow",
@@ -97,11 +843,16 @@
     "platforms": [
       "Zee5"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
     "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
     "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
-    "youtube_id": "xRk9rDOL9ew",
-    "youtube_url": "https://www.youtube.com/watch?v=xRk9rDOL9ew"
+    "posters": {
+      "thumbnail": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
+      "small": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
+      "medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
+      "large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
+      "xlarge": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg",
+      "original": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4mtocmwwaaqplv.jpg"
+    }
   },
   {
     "title": "Jake Paul vs. Tank Davis",
@@ -110,11 +861,154 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/jake-paul-vs-tank-davis.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/jake-paul-vs-tank-davis.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/jake-paul-vs-tank-davis.jpg",
-    "youtube_id": "zQaxe9y5gGc",
-    "youtube_url": "https://www.youtube.com/watch?v=zQaxe9y5gGc"
+    "tmdb_id": 1533237,
+    "tmdb_media_type": "movie",
+    "overview": "Jake Paul collides with Gervonta \"Tank\" Davis in a Most Valuable Promotions blockbuster boxing mega-event live from the Kaseya Center in Miami.",
+    "description": "Jake Paul collides with Gervonta \"Tank\" Davis in a Most Valuable Promotions blockbuster boxing mega-event live from the Kaseya Center in Miami.",
+    "genres": [
+      "Action"
+    ],
+    "runtime": 0,
+    "tmdb_release_date": "2025-11-14",
+    "status": "Released",
+    "tmdb_rating": 0.0,
+    "tmdb_vote_count": 0,
+    "original_title": "Jake Paul vs. Tank Davis",
+    "original_language": "en",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/leRDW64s8t119oPapghaEkagYW.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/leRDW64s8t119oPapghaEkagYW.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/leRDW64s8t119oPapghaEkagYW.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/leRDW64s8t119oPapghaEkagYW.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/leRDW64s8t119oPapghaEkagYW.jpg",
+      "original": "https://image.tmdb.org/t/p/original/leRDW64s8t119oPapghaEkagYW.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/leRDW64s8t119oPapghaEkagYW.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/leRDW64s8t119oPapghaEkagYW.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/leRDW64s8t119oPapghaEkagYW.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/leRDW64s8t119oPapghaEkagYW.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/leRDW64s8t119oPapghaEkagYW.jpg",
+        "original": "https://image.tmdb.org/t/p/original/leRDW64s8t119oPapghaEkagYW.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/hhu9Hw1jTlJT1r5yWZlLYhZ2P2i.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/hhu9Hw1jTlJT1r5yWZlLYhZ2P2i.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/hhu9Hw1jTlJT1r5yWZlLYhZ2P2i.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/hhu9Hw1jTlJT1r5yWZlLYhZ2P2i.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/hhu9Hw1jTlJT1r5yWZlLYhZ2P2i.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hhu9Hw1jTlJT1r5yWZlLYhZ2P2i.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/uaIS6GiTkoAndvSImTcqOYOKkw.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/uaIS6GiTkoAndvSImTcqOYOKkw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/uaIS6GiTkoAndvSImTcqOYOKkw.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/uaIS6GiTkoAndvSImTcqOYOKkw.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/uaIS6GiTkoAndvSImTcqOYOKkw.jpg",
+        "original": "https://image.tmdb.org/t/p/original/uaIS6GiTkoAndvSImTcqOYOKkw.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/tg8WKc44Worvxago4ABhw8vECgb.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/tg8WKc44Worvxago4ABhw8vECgb.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/tg8WKc44Worvxago4ABhw8vECgb.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/tg8WKc44Worvxago4ABhw8vECgb.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/tg8WKc44Worvxago4ABhw8vECgb.jpg",
+        "original": "https://image.tmdb.org/t/p/original/tg8WKc44Worvxago4ABhw8vECgb.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/leRDW64s8t119oPapghaEkagYW.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/leRDW64s8t119oPapghaEkagYW.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
+        "original": "https://image.tmdb.org/t/p/original/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/2ZpBTjMS72jIM9gvNg60PLkXv8Q.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/2ZpBTjMS72jIM9gvNg60PLkXv8Q.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/2ZpBTjMS72jIM9gvNg60PLkXv8Q.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2ZpBTjMS72jIM9gvNg60PLkXv8Q.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/yocDucIoyAq053aCWjQzsJKYOcQ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/yocDucIoyAq053aCWjQzsJKYOcQ.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/yocDucIoyAq053aCWjQzsJKYOcQ.jpg",
+        "original": "https://image.tmdb.org/t/p/original/yocDucIoyAq053aCWjQzsJKYOcQ.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/an6IUdwN1hjNQnwpoTF7BWlUKkO.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/an6IUdwN1hjNQnwpoTF7BWlUKkO.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/an6IUdwN1hjNQnwpoTF7BWlUKkO.jpg",
+        "original": "https://image.tmdb.org/t/p/original/an6IUdwN1hjNQnwpoTF7BWlUKkO.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/gaDtwgoKHgk1hYd2YQm1alwMRBO.jpg",
+    "cast": [
+      {
+        "name": "Jake Paul",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/kwpK89Rjq1DiGszn4urVXrwr6FH.jpg"
+      },
+      {
+        "name": "Gervonta Davis",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2VjnHdjdUNI4Yt00fKu4BZOsPjx.jpg"
+      },
+      {
+        "name": "Alycia Baumgardner",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zuEDdj43b3qtcoV9OMIKwW2OA9w.jpg"
+      },
+      {
+        "name": "Leila Beaudoin",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/zmCnSDeY7RVFk6JC9348ATZBoxH.jpg"
+      },
+      {
+        "name": "Gary Antuanne Russell",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6dat1bc8nEm7gLK70XnUpHZb6zq.jpg"
+      },
+      {
+        "name": "Andy Hiraoka",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yB6j9lvfvQ4130yVBVTZf64BE8R.jpg"
+      },
+      {
+        "name": "Yokasta Valle",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2cN0P5QhYYHvpcmcQb1mVIkA71Z.jpg"
+      },
+      {
+        "name": "Yadira Bustillos",
+        "character": "Self",
+        "profile_path": null
+      },
+      {
+        "name": "Avious Griffin",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fOw8GnFrmOwtA3ysI6dBToQt1Zr.jpg"
+      },
+      {
+        "name": "Justin Cardona",
+        "character": "Self",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vAM3ilq4fGZibjKuYqva11tScGG.jpg"
+      }
+    ],
+    "directors": [],
+    "writers": [],
+    "youtube_id": "oAZTOtpinNY",
+    "youtube_url": "https://www.youtube.com/watch?v=oAZTOtpinNY",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "Nouvelle Vague",
@@ -123,16 +1017,123 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/nouvelle-vague.jpg",
     "tmdb_id": 860708,
     "tmdb_media_type": "movie",
+    "overview": "The 60s was the birth and ascension of the French New Wave. Characterised as an avant-garde film movement and created by directors like Godard and Varda, it give birth to iconic actors such as Bardot and Belmondo.",
+    "description": "The 60s was the birth and ascension of the French New Wave. Characterised as an avant-garde film movement and created by directors like Godard and Varda, it give birth to iconic actors such as Bardot and Belmondo.",
+    "genres": [
+      "Documentary"
+    ],
+    "runtime": 52,
+    "tmdb_release_date": "2021-11-07",
+    "status": "Released",
+    "tmdb_rating": 6.0,
+    "tmdb_vote_count": 4,
+    "original_title": "La Nouvelle Vague, une bande à part",
+    "original_language": "fr",
     "imdb_id": "tt18260466",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/hUhoqHc4aT1cQAZx2xo2GPvLyiD.jpg",
-    "imdb_year": "2022",
-    "youtube_id": "UufRzKVFseg",
-    "youtube_url": "https://www.youtube.com/watch?v=UufRzKVFseg"
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+        "original": "https://image.tmdb.org/t/p/original/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/vYYFI1BMvBCN8C5SHqenAwl4sTU.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/vYYFI1BMvBCN8C5SHqenAwl4sTU.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vYYFI1BMvBCN8C5SHqenAwl4sTU.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vYYFI1BMvBCN8C5SHqenAwl4sTU.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/vYYFI1BMvBCN8C5SHqenAwl4sTU.jpg",
+        "original": "https://image.tmdb.org/t/p/original/vYYFI1BMvBCN8C5SHqenAwl4sTU.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/xabsHpg8PdDopJdyjezs07NfUvV.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/xabsHpg8PdDopJdyjezs07NfUvV.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xabsHpg8PdDopJdyjezs07NfUvV.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xabsHpg8PdDopJdyjezs07NfUvV.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/xabsHpg8PdDopJdyjezs07NfUvV.jpg",
+        "original": "https://image.tmdb.org/t/p/original/xabsHpg8PdDopJdyjezs07NfUvV.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hBtXDAX0Qz7fe1597Bw9K3fPmLs.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/gz02Ym3MVs3u6mSYdFod3nSWaRR.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/gz02Ym3MVs3u6mSYdFod3nSWaRR.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/gz02Ym3MVs3u6mSYdFod3nSWaRR.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/gz02Ym3MVs3u6mSYdFod3nSWaRR.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/gz02Ym3MVs3u6mSYdFod3nSWaRR.jpg",
+        "original": "https://image.tmdb.org/t/p/original/gz02Ym3MVs3u6mSYdFod3nSWaRR.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/sS2aF5mR13ZF0IU9PuLEC9BUUcL.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg",
+      "original": "https://image.tmdb.org/t/p/original/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg",
+        "original": "https://image.tmdb.org/t/p/original/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/hUhoqHc4aT1cQAZx2xo2GPvLyiD.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/hUhoqHc4aT1cQAZx2xo2GPvLyiD.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/hUhoqHc4aT1cQAZx2xo2GPvLyiD.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hUhoqHc4aT1cQAZx2xo2GPvLyiD.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/r2P2ovPdaybQw8r1hKblOoEcgmw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/r2P2ovPdaybQw8r1hKblOoEcgmw.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/r2P2ovPdaybQw8r1hKblOoEcgmw.jpg",
+        "original": "https://image.tmdb.org/t/p/original/r2P2ovPdaybQw8r1hKblOoEcgmw.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/vMGzYqOmY5aNgvcrNBvIMfVZ639.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/vMGzYqOmY5aNgvcrNBvIMfVZ639.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/vMGzYqOmY5aNgvcrNBvIMfVZ639.jpg",
+        "original": "https://image.tmdb.org/t/p/original/vMGzYqOmY5aNgvcrNBvIMfVZ639.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/7U7ug297ZyjUEJop4Ic92rBi0OY.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/7U7ug297ZyjUEJop4Ic92rBi0OY.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/7U7ug297ZyjUEJop4Ic92rBi0OY.jpg",
+        "original": "https://image.tmdb.org/t/p/original/7U7ug297ZyjUEJop4Ic92rBi0OY.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/w1S4vg3ajE7oSHzIC4hShxlkVZq.jpg",
+    "cast": [
+      {
+        "name": "Frédéric Bonnaud",
+        "character": "Self - Narrator (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xoszRtaiuXHrzKE7zUj6kX5tT26.jpg"
+      }
+    ],
+    "directors": [
+      "Florence Platarets"
+    ],
+    "writers": []
   },
   {
     "title": "Landman Season 2",
@@ -141,11 +1142,171 @@
     "platforms": [
       "Jio Hotstar"
     ],
-    "poster_url_medium": "placeholders/landman-season-2-medium.jpg",
-    "poster_url_large": "placeholders/landman-season-2-large.jpg",
-    "poster_generated": true,
-    "youtube_id": "C1as_hRbBZg",
-    "youtube_url": "https://www.youtube.com/watch?v=C1as_hRbBZg"
+    "tmdb_id": 157741,
+    "tmdb_media_type": "tv",
+    "overview": "Set in the proverbial boomtowns of West-Texas and a modern-day tale of fortune-seeking in the world of oil rigs, the series is an upstairs/downstairs story of roughnecks and wildcat billionaires that are fueling a boom so big it’s reshaping our climate, our economy and our geopolitics.",
+    "description": "Set in the proverbial boomtowns of West-Texas and a modern-day tale of fortune-seeking in the world of oil rigs, the series is an upstairs/downstairs story of roughnecks and wildcat billionaires that are fueling a boom so big it’s reshaping our climate, our economy and our geopolitics.",
+    "genres": [
+      "Drama"
+    ],
+    "episode_runtime": [],
+    "number_of_seasons": 2,
+    "number_of_episodes": 20,
+    "tmdb_release_date": "2024-11-17",
+    "status": "Returning Series",
+    "tmdb_rating": 7.993,
+    "tmdb_vote_count": 274,
+    "original_title": "Landman",
+    "original_language": "en",
+    "imdb_id": "tt14186672",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+      "original": "https://image.tmdb.org/t/p/original/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+        "original": "https://image.tmdb.org/t/p/original/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/xD5b3sNxGcQr65gRprmru4TKZf7.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/xD5b3sNxGcQr65gRprmru4TKZf7.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/xD5b3sNxGcQr65gRprmru4TKZf7.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/xD5b3sNxGcQr65gRprmru4TKZf7.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/xD5b3sNxGcQr65gRprmru4TKZf7.jpg",
+        "original": "https://image.tmdb.org/t/p/original/xD5b3sNxGcQr65gRprmru4TKZf7.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/sAvPBC27Vyt1VcsWbtvP2BVmc11.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/sAvPBC27Vyt1VcsWbtvP2BVmc11.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/sAvPBC27Vyt1VcsWbtvP2BVmc11.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/sAvPBC27Vyt1VcsWbtvP2BVmc11.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/sAvPBC27Vyt1VcsWbtvP2BVmc11.jpg",
+        "original": "https://image.tmdb.org/t/p/original/sAvPBC27Vyt1VcsWbtvP2BVmc11.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/hGbYOuUVoxfXa96pmNLFJ9a7U5T.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/hGbYOuUVoxfXa96pmNLFJ9a7U5T.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/hGbYOuUVoxfXa96pmNLFJ9a7U5T.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/hGbYOuUVoxfXa96pmNLFJ9a7U5T.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/hGbYOuUVoxfXa96pmNLFJ9a7U5T.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hGbYOuUVoxfXa96pmNLFJ9a7U5T.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/48DL2lLIe9dIcZHohhV0E3Xlo05.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/48DL2lLIe9dIcZHohhV0E3Xlo05.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/48DL2lLIe9dIcZHohhV0E3Xlo05.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/48DL2lLIe9dIcZHohhV0E3Xlo05.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/48DL2lLIe9dIcZHohhV0E3Xlo05.jpg",
+        "original": "https://image.tmdb.org/t/p/original/48DL2lLIe9dIcZHohhV0E3Xlo05.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/rxWtATtTdwx0ERQjQ7BtVOMyq5r.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+      "original": "https://image.tmdb.org/t/p/original/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+        "original": "https://image.tmdb.org/t/p/original/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/1aI5ddIDeZwKXaGQT6cUdXUdl6s.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/1aI5ddIDeZwKXaGQT6cUdXUdl6s.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/1aI5ddIDeZwKXaGQT6cUdXUdl6s.jpg",
+        "original": "https://image.tmdb.org/t/p/original/1aI5ddIDeZwKXaGQT6cUdXUdl6s.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/lsTW6jjloPFqo7ZDTOqEYLaoLnb.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/lsTW6jjloPFqo7ZDTOqEYLaoLnb.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/lsTW6jjloPFqo7ZDTOqEYLaoLnb.jpg",
+        "original": "https://image.tmdb.org/t/p/original/lsTW6jjloPFqo7ZDTOqEYLaoLnb.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/ogH1lEL0pv0NmuBBNtNKlnuHdY1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/ogH1lEL0pv0NmuBBNtNKlnuHdY1.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/ogH1lEL0pv0NmuBBNtNKlnuHdY1.jpg",
+        "original": "https://image.tmdb.org/t/p/original/ogH1lEL0pv0NmuBBNtNKlnuHdY1.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/fMbY38tgTBoVOUJ4cLoXtqvREuN.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/fMbY38tgTBoVOUJ4cLoXtqvREuN.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/fMbY38tgTBoVOUJ4cLoXtqvREuN.jpg",
+        "original": "https://image.tmdb.org/t/p/original/fMbY38tgTBoVOUJ4cLoXtqvREuN.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+    "cast": [
+      {
+        "name": "Billy Bob Thornton",
+        "character": "Tommy Norris",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vgLTcq1nYcNmIr3yLxS7sk84sav.jpg"
+      },
+      {
+        "name": "Ali Larter",
+        "character": "Angela Norris",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2HOlaSd30yBCrr366GfPG2PF6D8.jpg"
+      },
+      {
+        "name": "Jacob Lofland",
+        "character": "Cooper Norris",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jU1eW9oOTC4ILfLNFeNUC7Fa5ya.jpg"
+      },
+      {
+        "name": "Michelle Randolph",
+        "character": "Ainsley Norris",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eIkSMaOjj4Buh8vBKH9j2cgtRYe.jpg"
+      },
+      {
+        "name": "Paulina Chávez",
+        "character": "Ariana Medina",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tKF77iTnLu3HwTFKJRAYmoiVcFL.jpg"
+      },
+      {
+        "name": "Kayla Wallace",
+        "character": "Rebecca Falcone",
+        "profile_path": "https://image.tmdb.org/t/p/w185/yeXPErkuJr3gLNeYOuATt27Z8Kr.jpg"
+      },
+      {
+        "name": "Mark Collie",
+        "character": "Sheriff Walt Joeberg",
+        "profile_path": "https://image.tmdb.org/t/p/w185/52rYCRzJ2bhQMqfvLDvfV23UzdL.jpg"
+      },
+      {
+        "name": "James Jordan",
+        "character": "Dale Bradley",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8flzkBpcrl0QqjDnXhbg52rsNOY.jpg"
+      },
+      {
+        "name": "Demi Moore",
+        "character": "Cami Miller",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wApParZYBDi4yxekjfxjKEifJYh.jpg"
+      },
+      {
+        "name": "Colm Feore",
+        "character": "Nathan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jeotIVor4fH3oqxkRZ6qyUbgrJ3.jpg"
+      }
+    ],
+    "directors": [],
+    "writers": [],
+    "youtube_id": "wXzhEhCOlnM",
+    "youtube_url": "https://www.youtube.com/watch?v=wXzhEhCOlnM",
+    "youtube_title": "Official Trailer 2"
   },
   {
     "title": "Champagne Problems",
@@ -156,11 +1317,127 @@
     ],
     "tmdb_id": 1323475,
     "tmdb_media_type": "movie",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+    "overview": "An ambitious executive travels to France to secure the acquisition of a world-renowned champagne brand before Christmas. But her plans are upended when she falls into a whirlwind romance with a charming Parisian — who turns out to be the founder’s son.",
+    "description": "An ambitious executive travels to France to secure the acquisition of a world-renowned champagne brand before Christmas. But her plans are upended when she falls into a whirlwind romance with a charming Parisian — who turns out to be the founder’s son.",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "runtime": 0,
+    "tmdb_release_date": "2025-11-19",
+    "status": "Post Production",
+    "tmdb_rating": 0.0,
+    "tmdb_vote_count": 0,
+    "original_title": "Champagne Problems",
+    "original_language": "en",
+    "imdb_id": "tt33053440",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/yLyh8iFTlfZ91dxEIRnd4wvXg83.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/yLyh8iFTlfZ91dxEIRnd4wvXg83.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/yLyh8iFTlfZ91dxEIRnd4wvXg83.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/yLyh8iFTlfZ91dxEIRnd4wvXg83.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/yLyh8iFTlfZ91dxEIRnd4wvXg83.jpg",
+        "original": "https://image.tmdb.org/t/p/original/yLyh8iFTlfZ91dxEIRnd4wvXg83.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/szE5h6uVRVcJl9jZMoxVQ0U8lgl.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/szE5h6uVRVcJl9jZMoxVQ0U8lgl.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/szE5h6uVRVcJl9jZMoxVQ0U8lgl.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/szE5h6uVRVcJl9jZMoxVQ0U8lgl.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/szE5h6uVRVcJl9jZMoxVQ0U8lgl.jpg",
+        "original": "https://image.tmdb.org/t/p/original/szE5h6uVRVcJl9jZMoxVQ0U8lgl.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/hAN1AKoZyGjRCWczHBtmiOgsnoI.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
+        "original": "https://image.tmdb.org/t/p/original/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/5BdBU6t36qIfIxLXDxSEqAMdAhf.jpg",
+    "cast": [
+      {
+        "name": "Minka Kelly",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bdLHQhru6KzuoSaOLsSEyHwdGU7.jpg"
+      },
+      {
+        "name": "Flula Borg",
+        "character": "Otto Moller",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jbyMShAwxHWnCzKKCl9vYsaAW4E.jpg"
+      },
+      {
+        "name": "Xavier Samuel",
+        "character": "Ryan Garner",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gHvKqCXfpzaGp46gqsy9MVDfmSf.jpg"
+      },
+      {
+        "name": "Tom Wozniczka",
+        "character": "Henri Cassell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9qrW3utGsmeJ1iJVPPZx2SDyhaH.jpg"
+      },
+      {
+        "name": "Thibault de Montalembert",
+        "character": "Hugo Cassell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wfPsfqRmuxXlVmZUTfsOXf9nwGA.jpg"
+      },
+      {
+        "name": "Maeve Courtier-Lilley",
+        "character": "Skyler Price",
+        "profile_path": "https://image.tmdb.org/t/p/w185/b8gS6PXvdxrLqwZLLHvS0s8ZkJk.jpg"
+      },
+      {
+        "name": "Sean Amsing",
+        "character": "Roberto Salazar",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iFeuwiZFd4o6Ps47Kxmc99rd28Y.jpg"
+      },
+      {
+        "name": "Mitchell Mullen",
+        "character": "Marvin Roth",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jiASJhUrYRrxhtFzxlPxQspZqpg.jpg"
+      },
+      {
+        "name": "Astrid Whettnall",
+        "character": "Brigitte Laurent",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lvxnZOpCM70INgfCg5IwnKWG6wa.jpg"
+      }
+    ],
+    "directors": [
+      "Mark Steven Johnson"
+    ],
+    "writers": [
+      "Mark Steven Johnson"
+    ],
     "youtube_id": "eba-EoMPBX8",
-    "youtube_url": "https://www.youtube.com/watch?v=eba-EoMPBX8"
+    "youtube_url": "https://www.youtube.com/watch?v=eba-EoMPBX8",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "The Mighty Nein",
@@ -169,16 +1446,162 @@
     "platforms": [
       "Amazon Prime Video"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg",
     "tmdb_id": 219080,
     "tmdb_media_type": "tv",
+    "overview": "When a powerful arcane relic known as \"The Beacon\" falls into dangerous hands, a group of fugitives and outcasts, bound by secrets and scars, must learn to work together to save the realm and stop reality itself from unraveling.",
+    "description": "When a powerful arcane relic known as \"The Beacon\" falls into dangerous hands, a group of fugitives and outcasts, bound by secrets and scars, must learn to work together to save the realm and stop reality itself from unraveling.",
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "episode_runtime": [],
+    "number_of_seasons": 1,
+    "number_of_episodes": 8,
+    "tmdb_release_date": "2025-11-19",
+    "status": "In Production",
+    "tmdb_rating": 0.0,
+    "tmdb_vote_count": 0,
+    "original_title": "The Mighty Nein",
+    "original_language": "en",
     "imdb_id": "tt26453092",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+      "original": "https://image.tmdb.org/t/p/original/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+        "original": "https://image.tmdb.org/t/p/original/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/c6AZqrp5UNK266TK1IEtR0SxgyJ.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/c6AZqrp5UNK266TK1IEtR0SxgyJ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/c6AZqrp5UNK266TK1IEtR0SxgyJ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/c6AZqrp5UNK266TK1IEtR0SxgyJ.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/c6AZqrp5UNK266TK1IEtR0SxgyJ.jpg",
+        "original": "https://image.tmdb.org/t/p/original/c6AZqrp5UNK266TK1IEtR0SxgyJ.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg",
+        "original": "https://image.tmdb.org/t/p/original/gK6U0C0T4uPqf9DRTgwQVUFC5dM.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/487IJKhqnB8bRIsZwdnP27oBK0l.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/487IJKhqnB8bRIsZwdnP27oBK0l.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/487IJKhqnB8bRIsZwdnP27oBK0l.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/487IJKhqnB8bRIsZwdnP27oBK0l.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/487IJKhqnB8bRIsZwdnP27oBK0l.jpg",
+        "original": "https://image.tmdb.org/t/p/original/487IJKhqnB8bRIsZwdnP27oBK0l.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg",
+        "original": "https://image.tmdb.org/t/p/original/q2P52yvWJXH2eTKTyxKjmhp9Pri.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/qJTZanXDiJKABLNGRM9LmSg8YT7.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg",
+      "original": "https://image.tmdb.org/t/p/original/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg",
+        "original": "https://image.tmdb.org/t/p/original/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/cF28H7rYYz88y6ZspNIrU1wlvZH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/cF28H7rYYz88y6ZspNIrU1wlvZH.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/cF28H7rYYz88y6ZspNIrU1wlvZH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/cF28H7rYYz88y6ZspNIrU1wlvZH.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/l6thrdWrf9wZcb1lHs162cSrIM.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/l6thrdWrf9wZcb1lHs162cSrIM.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/l6thrdWrf9wZcb1lHs162cSrIM.jpg",
+        "original": "https://image.tmdb.org/t/p/original/l6thrdWrf9wZcb1lHs162cSrIM.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/zUynbDIQtpWqtZkmwjEyvvFOURS.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/zUynbDIQtpWqtZkmwjEyvvFOURS.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/zUynbDIQtpWqtZkmwjEyvvFOURS.jpg",
+        "original": "https://image.tmdb.org/t/p/original/zUynbDIQtpWqtZkmwjEyvvFOURS.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/peLBJHhQsXQE3S9Sdj5eXg3oFIb.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/peLBJHhQsXQE3S9Sdj5eXg3oFIb.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/peLBJHhQsXQE3S9Sdj5eXg3oFIb.jpg",
+        "original": "https://image.tmdb.org/t/p/original/peLBJHhQsXQE3S9Sdj5eXg3oFIb.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/wbu9OGZgsiSPIvuWELvQ4arpryt.jpg",
-    "imdb_year": "2025",
+    "cast": [
+      {
+        "name": "Laura Bailey",
+        "character": "Jester Lavorre (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/y2szEyFy7VFAzdQjMwN3fLwEDn.jpg"
+      },
+      {
+        "name": "Marisha Ray",
+        "character": "Beauregard 'Beau' Lionett (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pLP67Y4iV6vQVaV1O2K7FNmvXJX.jpg"
+      },
+      {
+        "name": "Liam O'Brien",
+        "character": "Caleb Widogast (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ko7Bba6fQEaAbVFAp1kQHTzuYCp.jpg"
+      },
+      {
+        "name": "Ashley Johnson",
+        "character": "Yasha (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8s36QwB7Zq3PrbY1W6a6ctTFFoe.jpg"
+      },
+      {
+        "name": "Taliesin Jaffe",
+        "character": "Mollymauk 'Molly' Tealeaf (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6J7WD9B9ijvP8rw5hREV47MQbUt.jpg"
+      },
+      {
+        "name": "Sam Riegel",
+        "character": "Nott (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fgQMEXtqK4xubDf0a2P8r4VJ8SF.jpg"
+      },
+      {
+        "name": "Travis Willingham",
+        "character": "Fjord Stone (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/clvP30k6cUMf4hukRQqZD3k9z4S.jpg"
+      },
+      {
+        "name": "Matthew Mercer",
+        "character": "Essek (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fe1S317253vfMuNuIDjhp9vtNSs.jpg"
+      }
+    ],
+    "directors": [],
+    "writers": [],
     "youtube_id": "Ri2wNyvSpiY",
-    "youtube_url": "https://www.youtube.com/watch?v=Ri2wNyvSpiY"
+    "youtube_url": "https://www.youtube.com/watch?v=Ri2wNyvSpiY",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "The Roses",
@@ -187,16 +1610,134 @@
     "platforms": [
       "Jio Hotstar"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
     "tmdb_id": 1267905,
     "tmdb_media_type": "movie",
+    "overview": "Life seems easy for picture-perfect couple Ivy and Theo: successful careers, a loving marriage, great kids. But beneath the façade of their supposed ideal life, a storm is brewing – as Theo's career nosedives while Ivy's own ambitions take off, a tinderbox of fierce competition and hidden resentment ignites.",
+    "description": "Life seems easy for picture-perfect couple Ivy and Theo: successful careers, a loving marriage, great kids. But beneath the façade of their supposed ideal life, a storm is brewing – as Theo's career nosedives while Ivy's own ambitions take off, a tinderbox of fierce competition and hidden resentment ignites.",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "runtime": 105,
+    "tmdb_release_date": "2025-08-27",
+    "status": "Released",
+    "tmdb_rating": 6.799,
+    "tmdb_vote_count": 324,
+    "original_title": "The Roses",
+    "original_language": "en",
     "imdb_id": "tt31973693",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/98n5HnCJ5LnXKIMNP9SBfVNyxCE.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/98n5HnCJ5LnXKIMNP9SBfVNyxCE.jpg",
+    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
+    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
+    "posters": {
+      "thumbnail": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
+      "small": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
+      "medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
+      "large": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
+      "xlarge": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg",
+      "original": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/the-roses-scaled.jpg"
+    },
+    "poster_source": "binged",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
+      "original": "https://image.tmdb.org/t/p/original/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
+        "original": "https://image.tmdb.org/t/p/original/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/tK3zER0850mxditEoepTOmIeYKq.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/tK3zER0850mxditEoepTOmIeYKq.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/tK3zER0850mxditEoepTOmIeYKq.jpg",
+        "original": "https://image.tmdb.org/t/p/original/tK3zER0850mxditEoepTOmIeYKq.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/xhCi9Utt5wzPlaaKS4pl5FhxjVH.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/40zuvb87Ek6IalsoHHdamoI3oMg.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/40zuvb87Ek6IalsoHHdamoI3oMg.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/40zuvb87Ek6IalsoHHdamoI3oMg.jpg",
+        "original": "https://image.tmdb.org/t/p/original/40zuvb87Ek6IalsoHHdamoI3oMg.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/uXfF7batUo8SvGjkNHkHWPpc2Eh.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/uXfF7batUo8SvGjkNHkHWPpc2Eh.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/uXfF7batUo8SvGjkNHkHWPpc2Eh.jpg",
+        "original": "https://image.tmdb.org/t/p/original/uXfF7batUo8SvGjkNHkHWPpc2Eh.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/h4HSZjOeAoHQ3qPuy6x9Cyr69bS.jpg",
-    "imdb_year": "2025",
-    "youtube_id": "XkgMaS5gbaA",
-    "youtube_url": "https://www.youtube.com/watch?v=XkgMaS5gbaA"
+    "cast": [
+      {
+        "name": "Olivia Colman",
+        "character": "Ivy Rose",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lawJUdbLb1YW0niaYjiVGR9IBG8.jpg"
+      },
+      {
+        "name": "Benedict Cumberbatch",
+        "character": "Theo Rose",
+        "profile_path": "https://image.tmdb.org/t/p/w185/wz3MRiMmoz6b5X3oSzMRC9nLxY1.jpg"
+      },
+      {
+        "name": "Kate McKinnon",
+        "character": "Amy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2cNetzianFcxPQbyOQnkAIkKUZE.jpg"
+      },
+      {
+        "name": "Andy Samberg",
+        "character": "Barry",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jMXU5oG3i93SH1yhkpbBGskFiJl.jpg"
+      },
+      {
+        "name": "Ncuti Gatwa",
+        "character": "Jeffrey",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vLFh9kdB2G06ugwYmRNpxiXhbN0.jpg"
+      },
+      {
+        "name": "Sunita Mani",
+        "character": "Jane",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xQo4rkMEphSAt8F9D1OyWv0GBLx.jpg"
+      },
+      {
+        "name": "Zoë Chao",
+        "character": "Sally",
+        "profile_path": "https://image.tmdb.org/t/p/w185/p8KqD4o4F17wQ8nJYky0DHzKYcn.jpg"
+      },
+      {
+        "name": "Jamie Demetriou",
+        "character": "Rory",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nRhjzDgxQ8PzdUX1MTGhSmWwm8D.jpg"
+      },
+      {
+        "name": "Delaney Quinn",
+        "character": "Hattie Rose - Younger",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2CkgPdKVFfgeRCro4Hmvkqo4fB7.jpg"
+      },
+      {
+        "name": "Hala Finley",
+        "character": "Hattie Rose - Older",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9tU0kFjCGNiEe55KAxXkExBVMPC.jpg"
+      }
+    ],
+    "directors": [
+      "Jay Roach"
+    ],
+    "writers": [
+      "Tony McNamara"
+    ],
+    "youtube_id": "rb3x45F6mrQ",
+    "youtube_url": "https://www.youtube.com/watch?v=rb3x45F6mrQ",
+    "youtube_title": "Trailer"
   },
   {
     "title": "The Family Man Season 3",
@@ -205,11 +1746,177 @@
     "platforms": [
       "Amazon Prime Video"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2022/04/gum2-mtxeaajpsm.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2022/04/gum2-mtxeaajpsm.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2022/04/gum2-mtxeaajpsm.jpg",
-    "youtube_id": "jsauQx_Fwrg",
-    "youtube_url": "https://www.youtube.com/watch?v=jsauQx_Fwrg"
+    "tmdb_id": 5994,
+    "tmdb_media_type": "movie",
+    "overview": "Jack's lavish, fast-paced lifestyle changes one Christmas night when he stumbles into a grocery store holdup and disarms the gunman. The next morning he wakes up in bed lying next to Kate, his college sweetheart he left in order to pursue his career, and to the horrifying discovery that his former life no longer exists. As he stumbles through this alternate suburban universe, Jack finds himself at a crossroad where he must choose between his high-power career and the woman he loves.",
+    "description": "Jack's lavish, fast-paced lifestyle changes one Christmas night when he stumbles into a grocery store holdup and disarms the gunman. The next morning he wakes up in bed lying next to Kate, his college sweetheart he left in order to pursue his career, and to the horrifying discovery that his former life no longer exists. As he stumbles through this alternate suburban universe, Jack finds himself at a crossroad where he must choose between his high-power career and the woman he loves.",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Fantasy"
+    ],
+    "runtime": 125,
+    "tmdb_release_date": "2000-12-12",
+    "status": "Released",
+    "tmdb_rating": 6.805,
+    "tmdb_vote_count": 2083,
+    "original_title": "The Family Man",
+    "original_language": "en",
+    "imdb_id": "tt0218967",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+      "original": "https://image.tmdb.org/t/p/original/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+        "original": "https://image.tmdb.org/t/p/original/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/9iyQxVjLgFW0ztYKRxnEFtpVTSw.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/9iyQxVjLgFW0ztYKRxnEFtpVTSw.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/9iyQxVjLgFW0ztYKRxnEFtpVTSw.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/9iyQxVjLgFW0ztYKRxnEFtpVTSw.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/9iyQxVjLgFW0ztYKRxnEFtpVTSw.jpg",
+        "original": "https://image.tmdb.org/t/p/original/9iyQxVjLgFW0ztYKRxnEFtpVTSw.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/psxEVGygVNhoMWGiC88bS5dYE5N.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/psxEVGygVNhoMWGiC88bS5dYE5N.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/psxEVGygVNhoMWGiC88bS5dYE5N.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/psxEVGygVNhoMWGiC88bS5dYE5N.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/psxEVGygVNhoMWGiC88bS5dYE5N.jpg",
+        "original": "https://image.tmdb.org/t/p/original/psxEVGygVNhoMWGiC88bS5dYE5N.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/zrZu2KFxOLPOZnzanKxGYy9Pvir.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/zrZu2KFxOLPOZnzanKxGYy9Pvir.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/zrZu2KFxOLPOZnzanKxGYy9Pvir.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/zrZu2KFxOLPOZnzanKxGYy9Pvir.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/zrZu2KFxOLPOZnzanKxGYy9Pvir.jpg",
+        "original": "https://image.tmdb.org/t/p/original/zrZu2KFxOLPOZnzanKxGYy9Pvir.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/9wToOVsKuf0XeKhlauzCa3D8Gui.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gnosJeDIDQXy9uDewXphEpDWNYT.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+        "original": "https://image.tmdb.org/t/p/original/gnosJeDIDQXy9uDewXphEpDWNYT.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/4A8fZNIzNg19PfXMmgl3hMV8zVI.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/4A8fZNIzNg19PfXMmgl3hMV8zVI.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/4A8fZNIzNg19PfXMmgl3hMV8zVI.jpg",
+        "original": "https://image.tmdb.org/t/p/original/4A8fZNIzNg19PfXMmgl3hMV8zVI.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/1EKPfRFMl9rV55gcXP8wWfOC5YP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/1EKPfRFMl9rV55gcXP8wWfOC5YP.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/1EKPfRFMl9rV55gcXP8wWfOC5YP.jpg",
+        "original": "https://image.tmdb.org/t/p/original/1EKPfRFMl9rV55gcXP8wWfOC5YP.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/xV6fFkTm0xDNWSWxm2ShglHVFBF.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/xV6fFkTm0xDNWSWxm2ShglHVFBF.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/xV6fFkTm0xDNWSWxm2ShglHVFBF.jpg",
+        "original": "https://image.tmdb.org/t/p/original/xV6fFkTm0xDNWSWxm2ShglHVFBF.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/s2wByWXjo7AOYwApjcEoJKELHot.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/s2wByWXjo7AOYwApjcEoJKELHot.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/s2wByWXjo7AOYwApjcEoJKELHot.jpg",
+        "original": "https://image.tmdb.org/t/p/original/s2wByWXjo7AOYwApjcEoJKELHot.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/gnosJeDIDQXy9uDewXphEpDWNYT.jpg",
+    "cast": [
+      {
+        "name": "Nicolas Cage",
+        "character": "Jack Campbell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg"
+      },
+      {
+        "name": "Téa Leoni",
+        "character": "Kate Reynolds",
+        "profile_path": "https://image.tmdb.org/t/p/w185/vWijsKTlNs9bgKdUVgsr2w4msGo.jpg"
+      },
+      {
+        "name": "Don Cheadle",
+        "character": "Cash",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2SjWNlcBMHBGC5Io0F2vzElCaiO.jpg"
+      },
+      {
+        "name": "Jeremy Piven",
+        "character": "Arnie",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pBD1jcAZiDrHWcFpJtBtqLRD4gR.jpg"
+      },
+      {
+        "name": "Saul Rubinek",
+        "character": "Alan Mintz",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oQQxpxDo7mULPsjhrPLFiZ6e2Ca.jpg"
+      },
+      {
+        "name": "Josef Sommer",
+        "character": "Peter Lassiter",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eY3tCB4j7nWhsZX1enU6BYpaZl.jpg"
+      },
+      {
+        "name": "Makenzie Vega",
+        "character": "Annie Campbell",
+        "profile_path": "https://image.tmdb.org/t/p/w185/h5yGkSvNjYDspoF4otFKp7I2ajL.jpg"
+      },
+      {
+        "name": "Jake Milkovich",
+        "character": "Josh Campbell",
+        "profile_path": null
+      },
+      {
+        "name": "Ryan Milkovich",
+        "character": "Josh Campbell",
+        "profile_path": null
+      },
+      {
+        "name": "Lisa Thornhill",
+        "character": "Evelyn Thompson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bdhCtcNrKYSeIwz0oQJ7ZnSfoaM.jpg"
+      }
+    ],
+    "directors": [
+      "Brett Ratner"
+    ],
+    "writers": [
+      "David Diamond",
+      "David Weissman"
+    ],
+    "youtube_id": "Hzw-p2PfBeU",
+    "youtube_url": "https://www.youtube.com/watch?v=Hzw-p2PfBeU",
+    "youtube_title": "Official UK Re-Release Trailer"
   },
   {
     "title": "Train Dreams",
@@ -218,16 +1925,174 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/train-dreams-scaled.jpg",
     "tmdb_id": 1241983,
     "tmdb_media_type": "movie",
+    "overview": "A logger leads a life of quiet grace as he experiences love and loss during an era of monumental change in early 20th-century America.",
+    "description": "A logger leads a life of quiet grace as he experiences love and loss during an era of monumental change in early 20th-century America.",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 102,
+    "tmdb_release_date": "2025-11-06",
+    "status": "Released",
+    "tmdb_rating": 10.0,
+    "tmdb_vote_count": 2,
+    "original_title": "Train Dreams",
+    "original_language": "en",
     "imdb_id": "tt29768334",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg",
+        "original": "https://image.tmdb.org/t/p/original/l3zS4YnpOi4usyEXGJMtxSqDDyb.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/yFUy104OHCayIZqTRLMrbJ4W8Ak.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/yFUy104OHCayIZqTRLMrbJ4W8Ak.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/yFUy104OHCayIZqTRLMrbJ4W8Ak.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/yFUy104OHCayIZqTRLMrbJ4W8Ak.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/yFUy104OHCayIZqTRLMrbJ4W8Ak.jpg",
+        "original": "https://image.tmdb.org/t/p/original/yFUy104OHCayIZqTRLMrbJ4W8Ak.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/oX3LXzSGD4kp8xR2qWGiNshbp34.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/oX3LXzSGD4kp8xR2qWGiNshbp34.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/oX3LXzSGD4kp8xR2qWGiNshbp34.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/oX3LXzSGD4kp8xR2qWGiNshbp34.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/oX3LXzSGD4kp8xR2qWGiNshbp34.jpg",
+        "original": "https://image.tmdb.org/t/p/original/oX3LXzSGD4kp8xR2qWGiNshbp34.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/vcvPP8bPaB8cMVI2c7hrR33kq16.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/vcvPP8bPaB8cMVI2c7hrR33kq16.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vcvPP8bPaB8cMVI2c7hrR33kq16.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vcvPP8bPaB8cMVI2c7hrR33kq16.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/vcvPP8bPaB8cMVI2c7hrR33kq16.jpg",
+        "original": "https://image.tmdb.org/t/p/original/vcvPP8bPaB8cMVI2c7hrR33kq16.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/2oPZeAFr3z9m7HKWex3Ac6A9aLn.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
+      "original": "https://image.tmdb.org/t/p/original/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
+        "original": "https://image.tmdb.org/t/p/original/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/u5NWHVhZ6HWc1fXnqn82cMar5St.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/u5NWHVhZ6HWc1fXnqn82cMar5St.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/u5NWHVhZ6HWc1fXnqn82cMar5St.jpg",
+        "original": "https://image.tmdb.org/t/p/original/u5NWHVhZ6HWc1fXnqn82cMar5St.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/P3Qgoat915Q7ZFLHSsuhANcm7N.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/P3Qgoat915Q7ZFLHSsuhANcm7N.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/P3Qgoat915Q7ZFLHSsuhANcm7N.jpg",
+        "original": "https://image.tmdb.org/t/p/original/P3Qgoat915Q7ZFLHSsuhANcm7N.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/wnHlVpuOJZOXJny3fLVVpeVxY9I.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/wnHlVpuOJZOXJny3fLVVpeVxY9I.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/wnHlVpuOJZOXJny3fLVVpeVxY9I.jpg",
+        "original": "https://image.tmdb.org/t/p/original/wnHlVpuOJZOXJny3fLVVpeVxY9I.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/2ni8G0szWWig5kJcwNRf6xG3ijo.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/2ni8G0szWWig5kJcwNRf6xG3ijo.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/2ni8G0szWWig5kJcwNRf6xG3ijo.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2ni8G0szWWig5kJcwNRf6xG3ijo.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/cGdMKEw2SC7cl3SEBXSpYN2BbIM.jpg",
-    "imdb_year": "2025",
+    "cast": [
+      {
+        "name": "Joel Edgerton",
+        "character": "Robert Grainier",
+        "profile_path": "https://image.tmdb.org/t/p/w185/2YzeeiYUbI94Ywc7MVMo1NcN6jf.jpg"
+      },
+      {
+        "name": "Felicity Jones",
+        "character": "Gladys Grainer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/61vOLUiibva5lX7HYMmdjFFWEi3.jpg"
+      },
+      {
+        "name": "Kerry Condon",
+        "character": "Claire Thompson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8RO25vJxQSoNdhsVbiAHOsiGfvl.jpg"
+      },
+      {
+        "name": "Paul Schneider",
+        "character": "Apostle Frank",
+        "profile_path": "https://image.tmdb.org/t/p/w185/69tLX644rRr1RT9gxajsWlNrf0Y.jpg"
+      },
+      {
+        "name": "Clifton Collins Jr.",
+        "character": "Boomer",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qG3doVXFax1EmYR1EqMvLbx5wwz.jpg"
+      },
+      {
+        "name": "Will Patton",
+        "character": "Narrator",
+        "profile_path": "https://image.tmdb.org/t/p/w185/1V4DbU1mfEim4oaA5bvJywDAKwB.jpg"
+      },
+      {
+        "name": "Alfred Hsing",
+        "character": "Fu Sheng",
+        "profile_path": "https://image.tmdb.org/t/p/w185/b1cXnVypaxUzj7bq7GpyNAE6rCt.jpg"
+      },
+      {
+        "name": "John Diehl",
+        "character": "Billy",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fSaOexgc31Xmp4koMu0HvlkJMr4.jpg"
+      },
+      {
+        "name": "Sean San Jose",
+        "character": "Carnival Barker",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iijye4VXgoT2L6X0WGyXgzBz6IC.jpg"
+      },
+      {
+        "name": "David Paul Olsen",
+        "character": "Toomis",
+        "profile_path": null
+      }
+    ],
+    "directors": [
+      "Clint Bentley"
+    ],
+    "writers": [
+      "Greg Kwedar",
+      "Clint Bentley"
+    ],
     "youtube_id": "_Nk8TrBHOrA",
-    "youtube_url": "https://www.youtube.com/watch?v=_Nk8TrBHOrA"
+    "youtube_url": "https://www.youtube.com/watch?v=_Nk8TrBHOrA",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "Jingle Bell Heist",
@@ -236,11 +2101,97 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_medium": "placeholders/jingle-bell-heist-medium.jpg",
-    "poster_url_large": "placeholders/jingle-bell-heist-large.jpg",
-    "poster_generated": true,
+    "tmdb_id": 1218762,
+    "tmdb_media_type": "movie",
+    "overview": "At the height of the holiday season, two strangers team up to rob one of New York's most famous department stores while accidentally falling in love.",
+    "description": "At the height of the holiday season, two strangers team up to rob one of New York's most famous department stores while accidentally falling in love.",
+    "genres": [
+      "Romance",
+      "Crime",
+      "Comedy"
+    ],
+    "runtime": 96,
+    "tmdb_release_date": "2025-11-26",
+    "status": "Post Production",
+    "tmdb_rating": 0.0,
+    "tmdb_vote_count": 0,
+    "original_title": "Jingle Bell Heist",
+    "original_language": "en",
+    "imdb_id": "tt24852126",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+      "original": "https://image.tmdb.org/t/p/original/uV559niXlg7eqAnKgOmMFJLpzhh.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+        "original": "https://image.tmdb.org/t/p/original/uV559niXlg7eqAnKgOmMFJLpzhh.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/95RcregcwJi58nKEdbowK5NaHJ2.jpg",
+        "original": "https://image.tmdb.org/t/p/original/95RcregcwJi58nKEdbowK5NaHJ2.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/uV559niXlg7eqAnKgOmMFJLpzhh.jpg",
+    "cast": [
+      {
+        "name": "Olivia Holt",
+        "character": "Sophia",
+        "profile_path": "https://image.tmdb.org/t/p/w185/t5HYa4kV7xqnB3kbNtCyLDxH3Ij.jpg"
+      },
+      {
+        "name": "Connor Swindells",
+        "character": "Nick",
+        "profile_path": "https://image.tmdb.org/t/p/w185/12mK65Y0oLnJWgTK6jeI6q8p1xE.jpg"
+      },
+      {
+        "name": "Lucy Punch",
+        "character": "Cynthia Sterling",
+        "profile_path": "https://image.tmdb.org/t/p/w185/jxNfHATSByLV89DysCMxYJPXJfE.jpg"
+      },
+      {
+        "name": "Peter Serafinowicz",
+        "character": "Maxwell Sterling",
+        "profile_path": "https://image.tmdb.org/t/p/w185/atXOX0UQzIZkcnpNj1cluBdHwAE.jpg"
+      },
+      {
+        "name": "Natasha Joseph",
+        "character": "Rita",
+        "profile_path": "https://image.tmdb.org/t/p/w185/svdSqdvfg2te6oILo0BEXRPKYu6.jpg"
+      },
+      {
+        "name": "Poppy Drayton",
+        "character": "Brianna",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mx81cyurTIGDtoWcNPcK4fDKxAu.jpg"
+      },
+      {
+        "name": "Michael Salami",
+        "character": "Ralph",
+        "profile_path": "https://image.tmdb.org/t/p/w185/asWwgOrjywHiFtvV19MmuRxCw8E.jpg"
+      }
+    ],
+    "directors": [
+      "Michael Fimognari"
+    ],
+    "writers": [
+      "Abby McDonald"
+    ],
     "youtube_id": "AAEzB2LzFfM",
-    "youtube_url": "https://www.youtube.com/watch?v=AAEzB2LzFfM"
+    "youtube_url": "https://www.youtube.com/watch?v=AAEzB2LzFfM",
+    "youtube_title": "Official Trailer"
   },
   {
     "title": "Prehistoric Planet: Ice Age",
@@ -251,13 +2202,124 @@
     ],
     "tmdb_id": 95171,
     "tmdb_media_type": "tv",
+    "overview": "Experience the wonders of our world like never before in this epic series from Jon Favreau and the producers of Planet Earth. Travel back 66 million years to when majestic dinosaurs and extraordinary creatures roamed the lands, seas, and skies.",
+    "description": "Experience the wonders of our world like never before in this epic series from Jon Favreau and the producers of Planet Earth. Travel back 66 million years to when majestic dinosaurs and extraordinary creatures roamed the lands, seas, and skies.",
+    "genres": [
+      "Documentary"
+    ],
+    "episode_runtime": [],
+    "number_of_seasons": 3,
+    "number_of_episodes": 15,
+    "tmdb_release_date": "2022-05-23",
+    "status": "Returning Series",
+    "tmdb_rating": 8.3,
+    "tmdb_vote_count": 456,
+    "original_title": "Prehistoric Planet",
+    "original_language": "en",
     "imdb_id": "tt10324164",
-    "poster_url_medium": "https://image.tmdb.org/t/p/w500/9yjWMmYWQSDY2eelHECQcwSL816.jpg",
-    "poster_url_large": "https://image.tmdb.org/t/p/original/9yjWMmYWQSDY2eelHECQcwSL816.jpg",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/yMdFsHKp4YX2CUkAQcZswxXDuoe.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/yMdFsHKp4YX2CUkAQcZswxXDuoe.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/yMdFsHKp4YX2CUkAQcZswxXDuoe.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/yMdFsHKp4YX2CUkAQcZswxXDuoe.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/yMdFsHKp4YX2CUkAQcZswxXDuoe.jpg",
+        "original": "https://image.tmdb.org/t/p/original/yMdFsHKp4YX2CUkAQcZswxXDuoe.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/y6GQqgd3bqGb9f4a6hdvRTgikav.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/y6GQqgd3bqGb9f4a6hdvRTgikav.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/y6GQqgd3bqGb9f4a6hdvRTgikav.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/y6GQqgd3bqGb9f4a6hdvRTgikav.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/y6GQqgd3bqGb9f4a6hdvRTgikav.jpg",
+        "original": "https://image.tmdb.org/t/p/original/y6GQqgd3bqGb9f4a6hdvRTgikav.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/zUQ09zwV3k3mcR6ota9xBJnhSY.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/zUQ09zwV3k3mcR6ota9xBJnhSY.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/zUQ09zwV3k3mcR6ota9xBJnhSY.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/zUQ09zwV3k3mcR6ota9xBJnhSY.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/zUQ09zwV3k3mcR6ota9xBJnhSY.jpg",
+        "original": "https://image.tmdb.org/t/p/original/zUQ09zwV3k3mcR6ota9xBJnhSY.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/u7Ulem8hT8nKVPvYlTeNLoWXfvk.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/u7Ulem8hT8nKVPvYlTeNLoWXfvk.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/u7Ulem8hT8nKVPvYlTeNLoWXfvk.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/u7Ulem8hT8nKVPvYlTeNLoWXfvk.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/u7Ulem8hT8nKVPvYlTeNLoWXfvk.jpg",
+        "original": "https://image.tmdb.org/t/p/original/u7Ulem8hT8nKVPvYlTeNLoWXfvk.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/6wRfelwK3D0tKs9cJmYd0G0HmDf.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg",
+      "original": "https://image.tmdb.org/t/p/original/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg",
+        "original": "https://image.tmdb.org/t/p/original/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/zBQaWDxtTruhJhnQFg9uF1A5jaH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/zBQaWDxtTruhJhnQFg9uF1A5jaH.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/zBQaWDxtTruhJhnQFg9uF1A5jaH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/zBQaWDxtTruhJhnQFg9uF1A5jaH.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/6342n1ojL6RDUg7kgIBlrq200zZ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/6342n1ojL6RDUg7kgIBlrq200zZ.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/6342n1ojL6RDUg7kgIBlrq200zZ.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6342n1ojL6RDUg7kgIBlrq200zZ.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/xpoKeDKV8zGZb4dSFdR9YAmI0uL.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/xpoKeDKV8zGZb4dSFdR9YAmI0uL.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/xpoKeDKV8zGZb4dSFdR9YAmI0uL.jpg",
+        "original": "https://image.tmdb.org/t/p/original/xpoKeDKV8zGZb4dSFdR9YAmI0uL.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/qmVy0zIZ5OSQMZ6UEpC6AKs1uDR.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/qmVy0zIZ5OSQMZ6UEpC6AKs1uDR.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/qmVy0zIZ5OSQMZ6UEpC6AKs1uDR.jpg",
+        "original": "https://image.tmdb.org/t/p/original/qmVy0zIZ5OSQMZ6UEpC6AKs1uDR.jpg"
+      }
+    ],
     "backdrop_url": "https://image.tmdb.org/t/p/original/tjXXXRnEI3rxzTsrs4FvhjhPlQt.jpg",
-    "imdb_year": "2022",
-    "youtube_id": "f7kvwp9aIyM",
-    "youtube_url": "https://www.youtube.com/watch?v=f7kvwp9aIyM"
+    "cast": [
+      {
+        "name": "Tom Hiddleston",
+        "character": "Self - Narrator (voice)",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg"
+      }
+    ],
+    "directors": [],
+    "writers": [],
+    "youtube_id": "w7EvnNIV8_0",
+    "youtube_url": "https://www.youtube.com/watch?v=w7EvnNIV8_0",
+    "youtube_title": "Official Trailer 2"
   },
   {
     "title": "Stranger Things Season 5",
@@ -266,11 +2328,173 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+    "tmdb_id": 66732,
+    "tmdb_media_type": "tv",
+    "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Mystery",
+      "Action & Adventure"
+    ],
+    "episode_runtime": [],
+    "number_of_seasons": 5,
+    "number_of_episodes": 42,
+    "tmdb_release_date": "2016-07-15",
+    "status": "Returning Series",
+    "tmdb_rating": 8.594,
+    "tmdb_vote_count": 18943,
+    "original_title": "Stranger Things",
+    "original_language": "en",
+    "imdb_id": "tt4574334",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+      "original": "https://image.tmdb.org/t/p/original/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+        "original": "https://image.tmdb.org/t/p/original/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+        "original": "https://image.tmdb.org/t/p/original/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2mYLTEQd1oHuXA6NICPIKX7OOvo.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/mGn3kQAVssGkWCAjmYrEvD9tIRd.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/mGn3kQAVssGkWCAjmYrEvD9tIRd.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/mGn3kQAVssGkWCAjmYrEvD9tIRd.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/mGn3kQAVssGkWCAjmYrEvD9tIRd.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/mGn3kQAVssGkWCAjmYrEvD9tIRd.jpg",
+        "original": "https://image.tmdb.org/t/p/original/mGn3kQAVssGkWCAjmYrEvD9tIRd.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg",
+        "original": "https://image.tmdb.org/t/p/original/98pJM1e8S5SbPt7V5H9b1ZLrQdj.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/x04m6FF6qHpvMn24kQMpqsrDxVK.jpg",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+      "original": "https://image.tmdb.org/t/p/original/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+        "original": "https://image.tmdb.org/t/p/original/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+        "original": "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/89T83vE1ol8wcI879LutCqv7hMa.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/89T83vE1ol8wcI879LutCqv7hMa.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/89T83vE1ol8wcI879LutCqv7hMa.jpg",
+        "original": "https://image.tmdb.org/t/p/original/89T83vE1ol8wcI879LutCqv7hMa.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/8zbAoryWbtH0DKdev8abFAjdufy.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/8zbAoryWbtH0DKdev8abFAjdufy.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/8zbAoryWbtH0DKdev8abFAjdufy.jpg",
+        "original": "https://image.tmdb.org/t/p/original/8zbAoryWbtH0DKdev8abFAjdufy.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/nvMoOlC7HHZ9U4WknwwGOVefvnI.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/nvMoOlC7HHZ9U4WknwwGOVefvnI.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/nvMoOlC7HHZ9U4WknwwGOVefvnI.jpg",
+        "original": "https://image.tmdb.org/t/p/original/nvMoOlC7HHZ9U4WknwwGOVefvnI.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg",
+    "cast": [
+      {
+        "name": "Millie Bobby Brown",
+        "character": "Eleven",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3acTGpxrCxdJ1sB9fnw6EpVjWBj.jpg"
+      },
+      {
+        "name": "Finn Wolfhard",
+        "character": "Mike Wheeler",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5OVmquAk0W5BIsRlVKslEP497JD.jpg"
+      },
+      {
+        "name": "Noah Schnapp",
+        "character": "Will Byers",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6NIffxe2yZm6OmOwulY19govKRs.jpg"
+      },
+      {
+        "name": "Gaten Matarazzo",
+        "character": "Dustin Henderson",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gfxSa9pwafFEyzok6N4sIVbJLS.jpg"
+      },
+      {
+        "name": "Caleb McLaughlin",
+        "character": "Lucas Sinclair",
+        "profile_path": "https://image.tmdb.org/t/p/w185/4jVS3EziBn7bf97ErxkW7jsdiLM.jpg"
+      },
+      {
+        "name": "Sadie Sink",
+        "character": "Max Mayfield",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fV0KHJcK3fYX2acMorDUf1Uv9mY.jpg"
+      },
+      {
+        "name": "David Harbour",
+        "character": "Jim Hopper",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg"
+      },
+      {
+        "name": "Winona Ryder",
+        "character": "Joyce Byers",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uZaGuCvf18wKhaYL0IfYJv48yhE.jpg"
+      },
+      {
+        "name": "Natalia Dyer",
+        "character": "Nancy Wheeler",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cQaa3XEiUTgJxp85VeFYFyblJIH.jpg"
+      },
+      {
+        "name": "Joe Keery",
+        "character": "Steve Harrington",
+        "profile_path": "https://image.tmdb.org/t/p/w185/ayIAVLMfZGEGIFwAo3pPnY7p59.jpg"
+      }
+    ],
+    "directors": [],
+    "writers": [],
     "youtube_id": "PssKpzB0Ah0",
-    "youtube_url": "https://www.youtube.com/watch?v=PssKpzB0Ah0"
+    "youtube_url": "https://www.youtube.com/watch?v=PssKpzB0Ah0",
+    "youtube_title": "Stranger Things 5 | Official Trailer | Netflix"
   },
   {
     "title": "Left-Handed Girl",
@@ -279,10 +2503,134 @@
     "platforms": [
       "Netflix"
     ],
-    "poster_url_binged": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/left-handed-girl-scaled.jpg",
-    "poster_url_medium": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/left-handed-girl-scaled.jpg",
-    "poster_url_large": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/left-handed-girl-scaled.jpg",
+    "tmdb_id": 999075,
+    "tmdb_media_type": "movie",
+    "overview": "A single mother and her two daughters relocate to Taipei to open a night market stall, each navigating the challenges of adapting to their new environment while striving to maintain family unity.",
+    "description": "A single mother and her two daughters relocate to Taipei to open a night market stall, each navigating the challenges of adapting to their new environment while striving to maintain family unity.",
+    "genres": [
+      "Drama"
+    ],
+    "runtime": 108,
+    "tmdb_release_date": "2025-09-17",
+    "status": "Released",
+    "tmdb_rating": 7.6,
+    "tmdb_vote_count": 20,
+    "original_title": "左撇子女孩",
+    "original_language": "zh",
+    "imdb_id": "tt27722618",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+        "original": "https://image.tmdb.org/t/p/original/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/t5R2HYxaA22z8UKQQERewFlnN2Y.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/t5R2HYxaA22z8UKQQERewFlnN2Y.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/t5R2HYxaA22z8UKQQERewFlnN2Y.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/t5R2HYxaA22z8UKQQERewFlnN2Y.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/t5R2HYxaA22z8UKQQERewFlnN2Y.jpg",
+        "original": "https://image.tmdb.org/t/p/original/t5R2HYxaA22z8UKQQERewFlnN2Y.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/mSXIohin8WKYhKM8fWZdAmHvEIl.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/mSXIohin8WKYhKM8fWZdAmHvEIl.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/mSXIohin8WKYhKM8fWZdAmHvEIl.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/mSXIohin8WKYhKM8fWZdAmHvEIl.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/mSXIohin8WKYhKM8fWZdAmHvEIl.jpg",
+        "original": "https://image.tmdb.org/t/p/original/mSXIohin8WKYhKM8fWZdAmHvEIl.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/me782Ky5aOZAh93btCZPMsLGRkB.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/me782Ky5aOZAh93btCZPMsLGRkB.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/me782Ky5aOZAh93btCZPMsLGRkB.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/me782Ky5aOZAh93btCZPMsLGRkB.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/me782Ky5aOZAh93btCZPMsLGRkB.jpg",
+        "original": "https://image.tmdb.org/t/p/original/me782Ky5aOZAh93btCZPMsLGRkB.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/pXlEThtgrTVtQEw1HQ9Qp8I1A3e.jpg",
+    "cast": [
+      {
+        "name": "Janel Tsai",
+        "character": "Shu-Fen",
+        "profile_path": "https://image.tmdb.org/t/p/w185/iaCYSo6fKYwgvuDoffpK1leEdhc.jpg"
+      },
+      {
+        "name": "Ma Shih-yuan",
+        "character": "I-Ann",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gR1G4DlThMFOaZcWoFDVUQi7qec.jpg"
+      },
+      {
+        "name": "Nina Yeh",
+        "character": "I-Jing",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xkm1GdXKQBOBhcOltVZVJXQGtD3.jpg"
+      },
+      {
+        "name": "Brando Huang",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/us2IyBFfgBpI4FfK2qtFfhkOcGl.jpg"
+      },
+      {
+        "name": "Alvin Lin",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bE5IGH5Mw5N4uABYLzqJgX50ZbT.jpg"
+      },
+      {
+        "name": "Blaire Chang",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/lURA7a2On4tCeClk12Sh2b3nmc4.jpg"
+      },
+      {
+        "name": "Yen-Ju Chen",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/oIXjRtlJpxDtDfuXeEUnMPrhKVH.jpg"
+      },
+      {
+        "name": "Akio Chen",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pVRNH2f1o03zg0zOjoGBq23gXyh.jpg"
+      },
+      {
+        "name": "Hsia Teng Hung",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tvL3PVWZ8uJNGTax9oDP7ee0moc.jpg"
+      },
+      {
+        "name": "Xin-Yan Chao",
+        "character": "",
+        "profile_path": null
+      }
+    ],
+    "directors": [
+      "Shih-Ching Tsou"
+    ],
+    "writers": [
+      "Shih-Ching Tsou",
+      "Sean Baker"
+    ],
     "youtube_id": "0rXnpfzpk8s",
-    "youtube_url": "https://www.youtube.com/watch?v=0rXnpfzpk8s"
+    "youtube_url": "https://www.youtube.com/watch?v=0rXnpfzpk8s",
+    "youtube_title": "Official Trailer [Subtitled]"
   }
 ]
