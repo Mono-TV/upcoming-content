@@ -29,9 +29,55 @@
 </head>
 <body>
     <main>
-        <div class="hero">
-            <h1>Movies & Shows</h1>
-            <p class="subtitle">OTT & Theatre Releases</p>
+        <!-- Apple-style Hero Section with Featured Content Posters -->
+        <div class="hero-container">
+            <!-- Main Hero Title -->
+            <div class="hero-title-section">
+                <h1 class="hero-main-title">Movies & Shows</h1>
+                <p class="hero-subtitle">Discover what's streaming and coming to theatres</p>
+            </div>
+
+            <!-- Large Feature Card -->
+            <div class="hero-feature-card" id="heroFeatureCard">
+                <div class="hero-feature-content">
+                    <div class="hero-feature-text">
+                        <p class="hero-feature-label">Featured</p>
+                        <h2 class="hero-feature-title">Loading...</h2>
+                        <p class="hero-feature-description">Discover the latest releases</p>
+                        <div class="hero-feature-actions">
+                            <button class="hero-btn hero-btn-primary" onclick="playHeroTrailer()">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                    <path d="M3 2l10 6-10 6V2z"/>
+                                </svg>
+                                <span>Watch Trailer</span>
+                            </button>
+                            <button class="hero-btn hero-btn-secondary" onclick="learnMoreHero()">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Secondary Feature Grid -->
+            <div class="hero-grid">
+                <div class="hero-grid-card" id="heroCard1">
+                    <div class="hero-grid-content">
+                        <p class="hero-grid-label">New Release</p>
+                        <h3 class="hero-grid-title">Loading...</h3>
+                    </div>
+                </div>
+                <div class="hero-grid-card" id="heroCard2">
+                    <div class="hero-grid-content">
+                        <p class="hero-grid-label">Coming Soon</p>
+                        <h3 class="hero-grid-title">Loading...</h3>
+                    </div>
+                </div>
+                <div class="hero-grid-card" id="heroCard3">
+                    <div class="hero-grid-content">
+                        <p class="hero-grid-label">In Theatres</p>
+                        <h3 class="hero-grid-title">Loading...</h3>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="loading" id="loading">Loading amazing content</div>
