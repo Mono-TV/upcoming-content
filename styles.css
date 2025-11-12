@@ -200,92 +200,108 @@ body {
     will-change: transform, opacity;
 }
 
-/* Parallax Positioning for 5 Cards with Stacked Entry Animation */
+/* Parallax Positioning for 5 Cards - All start at center */
 .hero-poster-card[data-index="0"] {
-    left: 5%;
-    transform: translateX(-50%) scale(0.75) translateZ(-100px);
+    left: 50%;
+    transform: translateX(-50%) scale(1) translateZ(0px);
     opacity: 0;
-    z-index: 1;
+    z-index: 4;
 }
 
 .hero-poster-card[data-index="1"] {
-    left: 27.5%;
-    transform: translateX(-50%) scale(0.9) translateZ(-50px);
-    opacity: 0;
-    z-index: 2;
-}
-
-.hero-poster-card[data-index="2"] {
     left: 50%;
     transform: translateX(-50%) scale(1) translateZ(0px);
     opacity: 0;
     z-index: 3;
 }
 
-.hero-poster-card[data-index="3"] {
-    left: 72.5%;
-    transform: translateX(-50%) scale(0.9) translateZ(-50px);
+.hero-poster-card[data-index="2"] {
+    left: 50%;
+    transform: translateX(-50%) scale(1) translateZ(0px);
     opacity: 0;
-    z-index: 2;
+    z-index: 5;
+}
+
+.hero-poster-card[data-index="3"] {
+    left: 50%;
+    transform: translateX(-50%) scale(1) translateZ(0px);
+    opacity: 0;
+    z-index: 3;
 }
 
 .hero-poster-card[data-index="4"] {
-    left: 95%;
-    transform: translateX(-50%) scale(0.75) translateZ(-100px);
+    left: 50%;
+    transform: translateX(-50%) scale(1) translateZ(0px);
     opacity: 0;
-    z-index: 1;
+    z-index: 4;
 }
 
-/* Animate when ready class is added */
-.hero-poster-card[data-index="0"].animate-ready {
-    animation:
-        fadeInCardStacked 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards,
-        spreadOutCard0 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.8s forwards;
+/* Animate when ready class is added - symmetrical from center */
+/* Center card stays in place and fades in */
+.hero-poster-card[data-index="2"].animate-ready {
+    animation: fadeInCenter 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    z-index: 3; /* Keep center card on top after animation */
 }
 
+/* Middle cards animate symmetrically */
 .hero-poster-card[data-index="1"].animate-ready {
     animation:
-        fadeInCardStacked 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.3s backwards,
-        spreadOutCard1 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.9s forwards;
-}
-
-.hero-poster-card[data-index="2"].animate-ready {
-    animation:
-        fadeInCardStacked 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.4s backwards,
-        spreadOutCard2 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.0s forwards;
+        fadeInFromCenter 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards,
+        spreadOutCard1 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.8s forwards;
+    z-index: 2; /* Set final z-index after animation */
 }
 
 .hero-poster-card[data-index="3"].animate-ready {
     animation:
-        fadeInCardStacked 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.5s backwards,
-        spreadOutCard3 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.1s forwards;
+        fadeInFromCenter 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards,
+        spreadOutCard3 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.8s forwards;
+    z-index: 2; /* Set final z-index after animation */
+}
+
+/* Outer cards animate symmetrically */
+.hero-poster-card[data-index="0"].animate-ready {
+    animation:
+        fadeInFromCenter 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.4s backwards,
+        spreadOutCard0 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.0s forwards;
+    z-index: 1; /* Set final z-index after animation */
 }
 
 .hero-poster-card[data-index="4"].animate-ready {
     animation:
-        fadeInCardStacked 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.6s backwards,
-        spreadOutCard4 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.2s forwards;
+        fadeInFromCenter 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.4s backwards,
+        spreadOutCard4 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.0s forwards;
+    z-index: 1; /* Set final z-index after animation */
 }
 
-/* Phase 1: Fade in stacked at center */
-@keyframes fadeInCardStacked {
+/* Center card - just fade in, no movement */
+@keyframes fadeInCenter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Other cards - fade in from center position */
+@keyframes fadeInFromCenter {
     from {
         opacity: 0;
         left: 50%;
-        transform: translateX(-50%) scale(0.95) translateZ(0px);
+        transform: translateX(-50%) scale(1) translateZ(0px);
     }
     to {
         opacity: 1;
         left: 50%;
-        transform: translateX(-50%) scale(0.95) translateZ(0px);
+        transform: translateX(-50%) scale(1) translateZ(0px);
     }
 }
 
-/* Phase 2: Spread out animations for each card */
+/* Spread out animations for each card */
 @keyframes spreadOutCard0 {
     from {
         left: 50%;
-        transform: translateX(-50%) scale(0.95) translateZ(0px);
+        transform: translateX(-50%) scale(1) translateZ(0px);
         opacity: 1;
     }
     to {
@@ -298,7 +314,7 @@ body {
 @keyframes spreadOutCard1 {
     from {
         left: 50%;
-        transform: translateX(-50%) scale(0.95) translateZ(0px);
+        transform: translateX(-50%) scale(1) translateZ(0px);
         opacity: 1;
     }
     to {
@@ -308,23 +324,10 @@ body {
     }
 }
 
-@keyframes spreadOutCard2 {
-    from {
-        left: 50%;
-        transform: translateX(-50%) scale(0.95) translateZ(0px);
-        opacity: 1;
-    }
-    to {
-        left: 50%;
-        transform: translateX(-50%) scale(1) translateZ(0px);
-        opacity: 1;
-    }
-}
-
 @keyframes spreadOutCard3 {
     from {
         left: 50%;
-        transform: translateX(-50%) scale(0.95) translateZ(0px);
+        transform: translateX(-50%) scale(1) translateZ(0px);
         opacity: 1;
     }
     to {
@@ -337,7 +340,7 @@ body {
 @keyframes spreadOutCard4 {
     from {
         left: 50%;
-        transform: translateX(-50%) scale(0.95) translateZ(0px);
+        transform: translateX(-50%) scale(1) translateZ(0px);
         opacity: 1;
     }
     to {
