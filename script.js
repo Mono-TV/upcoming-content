@@ -391,7 +391,7 @@ let carouselContent = [];
 let currentCarouselIndex = 0;
 let cardContentMapping = {}; // Track which content each card is showing
 
-function populateHeroSection() {
+async function populateHeroSection() {
     // Select featured content from loaded data
     // Priority: 1) OTT Upcoming with posters, 2) Theatre Upcoming, 3) OTT Released
     const allContent = [
@@ -411,25 +411,110 @@ function populateHeroSection() {
     // Store carousel content (minimum 5, or cycle through available)
     carouselContent = contentWithPosters.slice(0, Math.max(5, contentWithPosters.length));
 
-    // Preload all images
-    preloadCarouselImages();
-
     // Populate the 5 carousel cards with initial content
-    updateCarouselDisplay();
+    updateCarouselDisplay(false, true);
+
+    // Preload all images first
+    await preloadCarouselImages();
+
+    // Trigger animations after images are loaded
+    triggerHeroAnimations();
 }
 
 // Preload carousel images to prevent loading flashes
 function preloadCarouselImages() {
-    carouselContent.forEach((content, index) => {
-        const posterUrl = content.poster_url_large || content.poster_url_medium || content.image_url;
-        if (posterUrl) {
-            const img = new Image();
-            img.src = posterUrl;
+    const promises = carouselContent.map((content, index) => {
+        return new Promise((resolve) => {
+            const posterUrl = content.poster_url_large || content.poster_url_medium || content.image_url;
+            if (posterUrl) {
+                const img = new Image();
+                img.onload = () => resolve();
+                img.onerror = () => resolve(); // Resolve anyway to not block
+                img.src = posterUrl;
+            } else {
+                resolve();
+            }
+        });
+    });
+    return Promise.all(promises);
+}
+
+// Trigger hero carousel animations after images are loaded
+function triggerHeroAnimations() {
+    const carouselContainer = document.querySelector('.hero-carousel-container');
+    const posterCards = document.querySelectorAll('.hero-poster-card');
+
+    // Use requestAnimationFrame to ensure DOM is ready
+    requestAnimationFrame(() => {
+        // Show the carousel container first
+        if (carouselContainer) {
+            carouselContainer.classList.add('ready');
         }
+
+        // Then trigger card animations
+        posterCards.forEach(card => {
+            card.classList.add('animate-ready');
+        });
     });
 }
 
-function updateCarouselDisplay(animated = false) {
+// Preload all images across the entire website
+async function preloadAllImages() {
+    // Collect all content items from all rows
+    const allContent = [
+        ...contentData.ottReleased,
+        ...contentData.ottUpcoming,
+        ...contentData.theatreCurrent,
+        ...contentData.theatreUpcoming
+    ];
+
+    // Create promises for all poster images
+    const imagePromises = allContent.map(item => {
+        return new Promise((resolve) => {
+            const posterUrl = item.poster_url_large || item.poster_url_medium || item.image_url;
+            if (posterUrl) {
+                const img = new Image();
+                img.onload = () => resolve();
+                img.onerror = () => resolve(); // Resolve anyway to not block
+                img.src = posterUrl;
+            } else {
+                resolve();
+            }
+        });
+    });
+
+    // Preload platform logos
+    const logoPromises = Object.values(platformLogos).map(logoUrl => {
+        return new Promise((resolve) => {
+            if (logoUrl) {
+                const img = new Image();
+                img.onload = () => resolve();
+                img.onerror = () => resolve();
+                img.src = logoUrl;
+            } else {
+                resolve();
+            }
+        });
+    });
+
+    // Wait for all images to load
+    await Promise.all([...imagePromises, ...logoPromises]);
+}
+
+// Reveal the entire website with a smooth fade-in
+function revealWebsite() {
+    const main = document.querySelector('main');
+    if (main) {
+        main.style.opacity = '0';
+        main.style.transition = 'opacity 0.8s ease-out';
+
+        requestAnimationFrame(() => {
+            main.style.opacity = '1';
+        });
+    }
+}
+
+function updateCarouselDisplay(animated = false, isInitialLoad = false) {
     const posterCards = document.querySelectorAll('.hero-poster-card');
 
     posterCards.forEach((card, index) => {
@@ -451,44 +536,26 @@ function updateCarouselDisplay(animated = false) {
             const posterImage = card.querySelector('.hero-poster-image');
             const posterTitle = card.querySelector('.hero-poster-title');
 
+            // Set content immediately but let CSS animations handle the reveal
+            if (posterImage) {
+                posterImage.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
+            }
+
+            if (posterTitle) {
+                posterTitle.textContent = sanitizeText(content.title || 'Featured');
+            }
+
             // Add smooth fade transition only for button/keyboard navigation
-            if (animated) {
+            if (animated && !isInitialLoad) {
                 posterImage.style.opacity = '0';
                 posterImage.style.transition = 'opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1)';
 
                 setTimeout(() => {
-                    // Set poster background
-                    if (posterImage) {
-                        posterImage.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
-                    }
-
-                    // Set title
-                    if (posterTitle) {
-                        posterTitle.textContent = sanitizeText(content.title || 'Featured');
-                    }
-
                     // Fade back in
                     requestAnimationFrame(() => {
                         posterImage.style.opacity = '1';
                     });
-                }, 500);
-            } else {
-                // Instant update for smooth scroll (no fade)
-                posterImage.style.transition = 'none';
-
-                if (posterImage) {
-                    posterImage.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
-                    posterImage.style.opacity = '1';
-                }
-
-                if (posterTitle) {
-                    posterTitle.textContent = sanitizeText(content.title || 'Featured');
-                }
-
-                // Re-enable transitions after a frame
-                requestAnimationFrame(() => {
-                    posterImage.style.transition = '';
-                });
+                }, 100);
             }
 
             // Update click handler
@@ -515,7 +582,7 @@ function moveCarousel(direction) {
     currentCarouselIndex = (currentCarouselIndex + direction + carouselContent.length) % carouselContent.length;
 
     // Update display with smooth transition
-    updateCarouselDisplay(true);
+    updateCarouselDisplay(true, false);
 
     // Remove transitioning class after animation
     setTimeout(() => {
@@ -580,7 +647,7 @@ function initTrackpadScroll() {
         const newIndex = Math.round(scrollPosition);
         if (newIndex !== currentCarouselIndex && newIndex >= 0 && newIndex <= maxScroll) {
             currentCarouselIndex = newIndex;
-            updateCarouselDisplay(false); // Don't use fade animation for smooth scroll
+            updateCarouselDisplay(false, false); // Don't use fade animation for smooth scroll
         }
 
         // Apply smooth interpolation to card positions for glass-like motion
