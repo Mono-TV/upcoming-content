@@ -389,6 +389,7 @@ function applyFilters() {
 // Carousel state
 let carouselContent = [];
 let currentCarouselIndex = 0;
+let cardContentMapping = {}; // Track which content each card is showing
 
 function populateHeroSection() {
     // Select featured content from loaded data
@@ -410,8 +411,22 @@ function populateHeroSection() {
     // Store carousel content (minimum 5, or cycle through available)
     carouselContent = contentWithPosters.slice(0, Math.max(5, contentWithPosters.length));
 
-    // Populate the 5 carousel cards
+    // Preload all images
+    preloadCarouselImages();
+
+    // Populate the 5 carousel cards with initial content
     updateCarouselDisplay();
+}
+
+// Preload carousel images to prevent loading flashes
+function preloadCarouselImages() {
+    carouselContent.forEach((content, index) => {
+        const posterUrl = content.poster_url_large || content.poster_url_medium || content.image_url;
+        if (posterUrl) {
+            const img = new Image();
+            img.src = posterUrl;
+        }
+    });
 }
 
 function updateCarouselDisplay(animated = false) {
@@ -422,7 +437,16 @@ function updateCarouselDisplay(animated = false) {
         const contentIndex = (currentCarouselIndex + index) % carouselContent.length;
         const content = carouselContent[contentIndex];
 
-        if (content) {
+        if (!content) return;
+
+        // Check if this card is already showing this content
+        const cardId = card.dataset.index;
+        const previousContentIndex = cardContentMapping[cardId];
+
+        // Only update if content has changed or this is the initial load
+        if (previousContentIndex !== contentIndex) {
+            cardContentMapping[cardId] = contentIndex;
+
             const posterUrl = content.poster_url_large || content.poster_url_medium || content.image_url;
             const posterImage = card.querySelector('.hero-poster-image');
             const posterTitle = card.querySelector('.hero-poster-title');
@@ -430,7 +454,7 @@ function updateCarouselDisplay(animated = false) {
             // Add smooth fade transition only for button/keyboard navigation
             if (animated) {
                 posterImage.style.opacity = '0';
-                posterImage.style.transition = 'opacity 0.3s ease';
+                posterImage.style.transition = 'opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1)';
 
                 setTimeout(() => {
                     // Set poster background
@@ -447,7 +471,7 @@ function updateCarouselDisplay(animated = false) {
                     requestAnimationFrame(() => {
                         posterImage.style.opacity = '1';
                     });
-                }, 300);
+                }, 500);
             } else {
                 // Instant update for smooth scroll (no fade)
                 posterImage.style.transition = 'none';
@@ -467,7 +491,7 @@ function updateCarouselDisplay(animated = false) {
                 });
             }
 
-            // Add click handler
+            // Update click handler
             card.onclick = () => {
                 if (content.youtube_id) {
                     expandCard(card, content);
@@ -496,7 +520,7 @@ function moveCarousel(direction) {
     // Remove transitioning class after animation
     setTimeout(() => {
         carousel.classList.remove('transitioning');
-    }, 800);
+    }, 1200);
 }
 
 // Keyboard navigation for carousel
@@ -528,10 +552,10 @@ function initTrackpadScroll() {
 
         const maxScroll = carouselContent.length - 1;
 
-        // Spring physics parameters (Apple-like feel) - Tuned for ultra-smooth
-        const stiffness = 0.06; // How quickly it moves toward target (lower = smoother)
-        const damping = 0.88; // How quickly velocity decays (higher = less bouncy)
-        const minVelocity = 0.0003; // Stop animating below this velocity
+        // Spring physics parameters (Apple-like feel) - Tuned for ultra-smooth glass-like motion
+        const stiffness = 0.035; // How quickly it moves toward target (lower = smoother)
+        const damping = 0.92; // How quickly velocity decays (higher = less bouncy)
+        const minVelocity = 0.0002; // Stop animating below this velocity
 
         // Calculate distance to target
         const distance = targetScrollPosition - scrollPosition;
@@ -545,11 +569,11 @@ function initTrackpadScroll() {
 
         // Clamp to bounds with gentle rubber-banding at edges
         if (scrollPosition < 0) {
-            scrollPosition *= 0.85; // Gentle rubber band effect
-            velocity *= 0.7;
+            scrollPosition *= 0.88; // Very gentle rubber band effect
+            velocity *= 0.75;
         } else if (scrollPosition > maxScroll) {
-            scrollPosition = maxScroll + (scrollPosition - maxScroll) * 0.85;
-            velocity *= 0.7;
+            scrollPosition = maxScroll + (scrollPosition - maxScroll) * 0.88;
+            velocity *= 0.75;
         }
 
         // Update carousel index based on scroll position
@@ -558,6 +582,30 @@ function initTrackpadScroll() {
             currentCarouselIndex = newIndex;
             updateCarouselDisplay(false); // Don't use fade animation for smooth scroll
         }
+
+        // Apply smooth interpolation to card positions for glass-like motion
+        const posterCards = document.querySelectorAll('.hero-poster-card');
+        posterCards.forEach((card, index) => {
+            const targetIndex = (currentCarouselIndex + index) % carouselContent.length;
+            const offset = scrollPosition - Math.round(scrollPosition);
+
+            // Smooth position interpolation
+            if (Math.abs(offset) > 0.01) {
+                const currentTransform = window.getComputedStyle(card).transform;
+                card.style.transition = 'none';
+
+                // Apply subtle transform adjustment based on scroll position
+                if (index === 2) { // Center card
+                    const scaleAdjust = 1 + (Math.abs(offset) * 0.02);
+                    const opacityAdjust = 1 - (Math.abs(offset) * 0.1);
+                    card.style.opacity = Math.max(0.9, opacityAdjust);
+                }
+
+                requestAnimationFrame(() => {
+                    card.style.transition = '';
+                });
+            }
+        });
 
         // Continue animation if still moving
         if (Math.abs(velocity) > minVelocity || Math.abs(distance) > 0.01 || isScrolling) {
@@ -588,7 +636,7 @@ function initTrackpadScroll() {
             const delta = isHorizontalScroll ? e.deltaX : e.deltaY;
 
             // Normalize delta (different browsers/devices have different scales)
-            const normalizedDelta = delta * 0.003; // Ultra-low sensitivity for smooth control
+            const normalizedDelta = delta * 0.0015; // Ultra-low sensitivity for glass-smooth control
 
             // Update target position
             targetScrollPosition += normalizedDelta;
@@ -597,18 +645,18 @@ function initTrackpadScroll() {
             const maxScroll = carouselContent.length - 1;
             targetScrollPosition = Math.max(0, Math.min(maxScroll, targetScrollPosition));
 
-            // Add momentum based on scroll speed (gentle)
+            // Add momentum based on scroll speed (very gentle)
             if (timeDelta < 50) { // Quick successive scrolls add momentum
-                velocity += normalizedDelta * 0.12;
+                velocity += normalizedDelta * 0.08;
             }
 
             isScrolling = true;
 
-            // Reset isScrolling flag after user stops scrolling
+            // Reset isScrolling flag after user stops scrolling (longer for smoother settling)
             clearTimeout(window.carouselScrollTimeout);
             window.carouselScrollTimeout = setTimeout(() => {
                 isScrolling = false;
-            }, 150);
+            }, 200);
 
             // Start animation if not already running
             if (!animationFrameId) {
