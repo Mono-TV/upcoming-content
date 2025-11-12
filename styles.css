@@ -1376,7 +1376,7 @@ main {
 .platform-overlay-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 12px;
     align-items: center;
     padding-bottom: 12px;
     padding-left: 12px;
@@ -1409,9 +1409,9 @@ main {
 }
 
 .platform-overlay .platform-badge .platform-logo {
-    height: 20px;
+    height: 32px;
     width: auto;
-    max-width: 80px;
+    max-width: 100px;
     object-fit: contain;
     filter: brightness(0) invert(1);
 }
@@ -1421,7 +1421,7 @@ main {
     background: transparent;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
-    padding: 0;
+    padding: 4px 8px;
     border: none;
 }
 
@@ -1919,8 +1919,8 @@ main {
     }
 
     .platform-overlay .platform-badge .platform-logo {
-        height: 18px;
-        max-width: 70px;
+        height: 28px;
+        max-width: 90px;
     }
 
     .movies-grid {

@@ -63,10 +63,10 @@ BINGED_CONFIG = {
     'platforms': {
         '4': 'Amazon Prime Video',
         '5': 'Apple TV+',
-        '6': 'SunNXT',
+        '6': 'Sun NXT',
         '8': 'Zee5',
         '10': 'Jio Hotstar',
-        '21': 'ManoramaMAX',
+        '21': 'Manorama MAX',
         '30': 'Netflix',
         '53': 'Sony LIV',
         '55': 'Aha Video',
@@ -83,8 +83,8 @@ BINGED_CONFIG = {
 OTT_PLATFORM_FILTERS = [
     'ALT Balaji',
     'Aha Video',
-    'Amazon',
-    'Apple Tv Plus',
+    'Amazon Prime Video',
+    'Apple TV+',
     'Book My Show',
     'Chaupal',
     'Crunchyroll',

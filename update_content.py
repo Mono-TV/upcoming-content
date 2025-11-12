@@ -58,17 +58,21 @@ class TMDBContentUpdater:
         # YouTube API (optional)
         self.youtube_api_key = os.environ.get('YOUTUBE_API_KEY')
 
-        # Platform mapping
+        # Platform mapping (standardized with config.py)
         self.platform_map = {
             '4': 'Amazon Prime Video',
             '5': 'Apple TV+',
+            '6': 'Sun NXT',
+            '8': 'Zee5',
             '10': 'Jio Hotstar',
-            '27': 'Manorama MAX',
+            '21': 'Manorama MAX',
             '30': 'Netflix',
-            '52': 'Zee5',
-            '70': 'Sun NXT',
-            '94': 'Manorama MAX',
-            '155': 'Sony LIV'
+            '53': 'Sony LIV',
+            '55': 'Aha Video',
+            '71': 'ALT Balaji',
+            '72': 'Discovery Plus',
+            '73': 'ErosNow',
+            '74': 'Hoichoi'
         }
 
     async def scrape_movies(self):

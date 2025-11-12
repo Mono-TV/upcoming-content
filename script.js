@@ -67,7 +67,6 @@ const platformLogos = {
     'Apple TV+': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/5.png',
     'Jio Hotstar': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/10.png',
     'Sun NXT': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/41.png',
-    'SunNXT': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/41.png',
     'Manorama MAX': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/27.png',
     'Sony LIV': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/39.png',
     'Zee5': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/52.png',
