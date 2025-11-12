@@ -190,14 +190,15 @@ body {
     border-radius: 28px;
     overflow: hidden;
     cursor: pointer;
-    transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1),
-                opacity 0.8s cubic-bezier(0.19, 1, 0.22, 1),
-                box-shadow 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: left 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                opacity 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                box-shadow 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     box-shadow: 0 16px 50px var(--glass-shadow-md),
                 0 2px 0 var(--glass-border) inset;
     border: 0.5px solid var(--card-border);
     transform-style: preserve-3d;
-    will-change: transform, opacity;
+    will-change: left, transform, opacity;
 }
 
 /* Parallax Positioning for 5 Cards - All start at center */

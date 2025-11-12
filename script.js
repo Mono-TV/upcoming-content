@@ -536,26 +536,13 @@ function updateCarouselDisplay(animated = false, isInitialLoad = false) {
             const posterImage = card.querySelector('.hero-poster-image');
             const posterTitle = card.querySelector('.hero-poster-title');
 
-            // Set content immediately but let CSS animations handle the reveal
+            // Set content immediately
             if (posterImage) {
                 posterImage.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
             }
 
             if (posterTitle) {
                 posterTitle.textContent = sanitizeText(content.title || 'Featured');
-            }
-
-            // Add smooth fade transition only for button/keyboard navigation
-            if (animated && !isInitialLoad) {
-                posterImage.style.opacity = '0';
-                posterImage.style.transition = 'opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1)';
-
-                setTimeout(() => {
-                    // Fade back in
-                    requestAnimationFrame(() => {
-                        posterImage.style.opacity = '1';
-                    });
-                }, 100);
             }
 
             // Update click handler
@@ -578,16 +565,56 @@ function moveCarousel(direction) {
 
     carousel.classList.add('transitioning');
 
-    // Update current index
+    // Update current index first
     currentCarouselIndex = (currentCarouselIndex + direction + carouselContent.length) % carouselContent.length;
 
-    // Update display with smooth transition
-    updateCarouselDisplay(true, false);
+    const posterCards = document.querySelectorAll('.hero-poster-card');
+    const positions = ['12%', '30%', '50%', '70%', '88%'];
+    const scales = [0.75, 0.9, 1, 0.9, 0.75];
+    const zIndexes = [1, 2, 3, 2, 1];
 
-    // Remove transitioning class after animation
+    // Update all cards simultaneously
+    posterCards.forEach((card, cardIndex) => {
+        const contentIndex = (currentCarouselIndex + cardIndex) % carouselContent.length;
+        const content = carouselContent[contentIndex];
+
+        if (content) {
+            // Update position - all cards move at the same time
+            card.style.left = positions[cardIndex];
+            card.style.transform = `translateX(-50%) scale(${scales[cardIndex]}) translateZ(${(2 - cardIndex) * 25}px)`;
+            card.style.zIndex = zIndexes[cardIndex];
+
+            // Update content immediately
+            const posterUrl = content.poster_url_large || content.poster_url_medium || content.image_url;
+            const posterImage = card.querySelector('.hero-poster-image');
+            const posterTitle = card.querySelector('.hero-poster-title');
+
+            if (posterImage) {
+                posterImage.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
+            }
+
+            if (posterTitle) {
+                posterTitle.textContent = sanitizeText(content.title || 'Featured');
+            }
+
+            // Update click handler
+            card.onclick = () => {
+                if (content.youtube_id) {
+                    expandCard(card, content);
+                } else if (content.deeplinks && Object.keys(content.deeplinks).length > 0) {
+                    showDeeplinkModal(content);
+                }
+            };
+
+            // Update content mapping
+            cardContentMapping[card.dataset.index] = contentIndex;
+        }
+    });
+
+    // Remove transitioning class after animation completes
     setTimeout(() => {
         carousel.classList.remove('transitioning');
-    }, 1200);
+    }, 700);
 }
 
 // Keyboard navigation for carousel
