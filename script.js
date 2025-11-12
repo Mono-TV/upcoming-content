@@ -45,10 +45,7 @@ const domCache = {
     theatreCurrentTimeline: null,
     theatreUpcomingTimeline: null,
     // Hero section elements
-    heroFeatureCard: null,
-    heroCard1: null,
-    heroCard2: null,
-    heroCard3: null
+    heroCarousel: null
 };
 
 // Store featured content for hero interactions
@@ -197,10 +194,7 @@ function initDOMCache() {
     domCache.theatreCurrentTimeline = document.getElementById('theatreCurrentTimeline');
     domCache.theatreUpcomingTimeline = document.getElementById('theatreUpcomingTimeline');
     // Hero section
-    domCache.heroFeatureCard = document.getElementById('heroFeatureCard');
-    domCache.heroCard1 = document.getElementById('heroCard1');
-    domCache.heroCard2 = document.getElementById('heroCard2');
-    domCache.heroCard3 = document.getElementById('heroCard3');
+    domCache.heroCarousel = document.getElementById('heroCarousel');
 }
 
 // Sanitize text to prevent XSS
@@ -392,6 +386,10 @@ function applyFilters() {
 }
 
 // Populate hero section with featured content
+// Carousel state
+let carouselContent = [];
+let currentCarouselIndex = 0;
+
 function populateHeroSection() {
     // Select featured content from loaded data
     // Priority: 1) OTT Upcoming with posters, 2) Theatre Upcoming, 3) OTT Released
@@ -409,104 +407,242 @@ function populateHeroSection() {
 
     if (contentWithPosters.length === 0) return;
 
-    // Select 4 featured items (1 main + 3 grid)
-    const featured = contentWithPosters.slice(0, 4);
+    // Store carousel content (minimum 5, or cycle through available)
+    carouselContent = contentWithPosters.slice(0, Math.max(5, contentWithPosters.length));
 
-    // Populate main feature card
-    if (featured[0] && domCache.heroFeatureCard) {
-        featuredContent.main = featured[0];
-        const posterUrl = featured[0].poster_url_large || featured[0].poster_url_medium || featured[0].image_url;
+    // Populate the 5 carousel cards
+    updateCarouselDisplay();
+}
 
-        domCache.heroFeatureCard.style.setProperty('--hero-bg', `url('${sanitizeAttribute(posterUrl)}')`);
-        domCache.heroFeatureCard.querySelector('.hero-feature-card::after')?.style.setProperty('background-image', `url('${sanitizeAttribute(posterUrl)}')`);
+function updateCarouselDisplay(animated = false) {
+    const posterCards = document.querySelectorAll('.hero-poster-card');
 
-        // Update via ::after pseudo-element
-        domCache.heroFeatureCard.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
-        const afterStyle = document.createElement('style');
-        afterStyle.textContent = `
-            #heroFeatureCard::after {
-                background-image: url('${sanitizeAttribute(posterUrl)}') !important;
-            }
-        `;
-        document.head.appendChild(afterStyle);
+    posterCards.forEach((card, index) => {
+        // Calculate content index with wrapping
+        const contentIndex = (currentCarouselIndex + index) % carouselContent.length;
+        const content = carouselContent[contentIndex];
 
-        const titleEl = domCache.heroFeatureCard.querySelector('.hero-feature-title');
-        const descEl = domCache.heroFeatureCard.querySelector('.hero-feature-description');
+        if (content) {
+            const posterUrl = content.poster_url_large || content.poster_url_medium || content.image_url;
+            const posterImage = card.querySelector('.hero-poster-image');
+            const posterTitle = card.querySelector('.hero-poster-title');
 
-        if (titleEl) titleEl.textContent = sanitizeText(featured[0].title || 'Featured Content');
-        if (descEl) {
-            const platforms = featured[0].platforms?.slice(0, 3).join(', ') || 'Available Soon';
-            const releaseInfo = featured[0].release_date
-                ? `Coming ${new Date(featured[0].release_date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`
-                : 'Watch Now';
-            descEl.textContent = `${releaseInfo} • ${platforms}`;
-        }
+            // Add smooth fade transition only for button/keyboard navigation
+            if (animated) {
+                posterImage.style.opacity = '0';
+                posterImage.style.transition = 'opacity 0.3s ease';
 
-        // Add click handler
-        domCache.heroFeatureCard.onclick = () => {
-            if (featured[0].youtube_id) {
-                playHeroTrailer();
-            }
-        };
-    }
+                setTimeout(() => {
+                    // Set poster background
+                    if (posterImage) {
+                        posterImage.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
+                    }
 
-    // Populate grid cards
-    const gridCards = [
-        { data: featured[1], element: domCache.heroCard1, label: 'New Release' },
-        { data: featured[2], element: domCache.heroCard2, label: 'Coming Soon' },
-        { data: featured[3], element: domCache.heroCard3, label: 'In Theatres' }
-    ];
+                    // Set title
+                    if (posterTitle) {
+                        posterTitle.textContent = sanitizeText(content.title || 'Featured');
+                    }
 
-    gridCards.forEach(({ data, element, label }, index) => {
-        if (data && element) {
-            featuredContent[`card${index + 1}`] = data;
-            const posterUrl = data.poster_url_large || data.poster_url_medium || data.image_url;
+                    // Fade back in
+                    requestAnimationFrame(() => {
+                        posterImage.style.opacity = '1';
+                    });
+                }, 300);
+            } else {
+                // Instant update for smooth scroll (no fade)
+                posterImage.style.transition = 'none';
 
-            // Update via ::after pseudo-element
-            const afterStyle = document.createElement('style');
-            afterStyle.textContent = `
-                #heroCard${index + 1}::after {
-                    background-image: url('${sanitizeAttribute(posterUrl)}') !important;
+                if (posterImage) {
+                    posterImage.style.backgroundImage = `url('${sanitizeAttribute(posterUrl)}')`;
+                    posterImage.style.opacity = '1';
                 }
-            `;
-            document.head.appendChild(afterStyle);
 
-            const labelEl = element.querySelector('.hero-grid-label');
-            const titleEl = element.querySelector('.hero-grid-title');
+                if (posterTitle) {
+                    posterTitle.textContent = sanitizeText(content.title || 'Featured');
+                }
 
-            if (labelEl) labelEl.textContent = label;
-            if (titleEl) titleEl.textContent = sanitizeText(data.title || 'Featured');
+                // Re-enable transitions after a frame
+                requestAnimationFrame(() => {
+                    posterImage.style.transition = '';
+                });
+            }
 
             // Add click handler
-            element.onclick = () => {
-                if (data.youtube_id) {
-                    expandCard(element, data);
-                } else if (data.deeplinks && Object.keys(data.deeplinks).length > 0) {
-                    showDeeplinkModal(data);
+            card.onclick = () => {
+                if (content.youtube_id) {
+                    expandCard(card, content);
+                } else if (content.deeplinks && Object.keys(content.deeplinks).length > 0) {
+                    showDeeplinkModal(content);
                 }
             };
         }
     });
 }
 
-// Play hero feature trailer
-function playHeroTrailer() {
-    if (featuredContent.main && featuredContent.main.youtube_id) {
-        const card = domCache.heroFeatureCard;
-        expandCard(card, featuredContent.main);
-    }
+// Move carousel left or right
+function moveCarousel(direction) {
+    // Prevent rapid clicking
+    const carousel = document.getElementById('heroCarousel');
+    if (carousel.classList.contains('transitioning')) return;
+
+    carousel.classList.add('transitioning');
+
+    // Update current index
+    currentCarouselIndex = (currentCarouselIndex + direction + carouselContent.length) % carouselContent.length;
+
+    // Update display with smooth transition
+    updateCarouselDisplay(true);
+
+    // Remove transitioning class after animation
+    setTimeout(() => {
+        carousel.classList.remove('transitioning');
+    }, 800);
 }
 
-// Learn more about hero feature
-function learnMoreHero() {
-    if (featuredContent.main) {
-        if (featuredContent.main.deeplinks && Object.keys(featuredContent.main.deeplinks).length > 0) {
-            showDeeplinkModal(featuredContent.main);
-        } else if (featuredContent.main.youtube_id) {
-            playHeroTrailer();
+// Keyboard navigation for carousel
+document.addEventListener('keydown', (e) => {
+    if (carouselContent.length === 0) return;
+
+    if (e.key === 'ArrowLeft') {
+        moveCarousel(-1);
+    } else if (e.key === 'ArrowRight') {
+        moveCarousel(1);
+    }
+});
+
+// Smooth trackpad scroll with momentum (Apple-style)
+function initTrackpadScroll() {
+    const carouselContainer = document.querySelector('.hero-carousel-container');
+    if (!carouselContainer) return;
+
+    let scrollPosition = 0; // Current scroll position (0 = first item)
+    let targetScrollPosition = 0; // Target position we're scrolling to
+    let velocity = 0; // Current scroll velocity for momentum
+    let isScrolling = false;
+    let lastWheelTime = 0;
+    let animationFrameId = null;
+
+    // Smooth scroll animation with spring physics
+    function animateScroll() {
+        if (carouselContent.length === 0) return;
+
+        const maxScroll = carouselContent.length - 1;
+
+        // Spring physics parameters (Apple-like feel) - Tuned for ultra-smooth
+        const stiffness = 0.06; // How quickly it moves toward target (lower = smoother)
+        const damping = 0.88; // How quickly velocity decays (higher = less bouncy)
+        const minVelocity = 0.0003; // Stop animating below this velocity
+
+        // Calculate distance to target
+        const distance = targetScrollPosition - scrollPosition;
+
+        // Apply spring force
+        velocity += distance * stiffness;
+        velocity *= damping;
+
+        // Update position
+        scrollPosition += velocity;
+
+        // Clamp to bounds with gentle rubber-banding at edges
+        if (scrollPosition < 0) {
+            scrollPosition *= 0.85; // Gentle rubber band effect
+            velocity *= 0.7;
+        } else if (scrollPosition > maxScroll) {
+            scrollPosition = maxScroll + (scrollPosition - maxScroll) * 0.85;
+            velocity *= 0.7;
+        }
+
+        // Update carousel index based on scroll position
+        const newIndex = Math.round(scrollPosition);
+        if (newIndex !== currentCarouselIndex && newIndex >= 0 && newIndex <= maxScroll) {
+            currentCarouselIndex = newIndex;
+            updateCarouselDisplay(false); // Don't use fade animation for smooth scroll
+        }
+
+        // Continue animation if still moving
+        if (Math.abs(velocity) > minVelocity || Math.abs(distance) > 0.01 || isScrolling) {
+            animationFrameId = requestAnimationFrame(animateScroll);
+        } else {
+            // Snap to nearest integer position
+            scrollPosition = Math.round(scrollPosition);
+            targetScrollPosition = scrollPosition;
+            animationFrameId = null;
         }
     }
+
+    carouselContainer.addEventListener('wheel', (e) => {
+        if (carouselContent.length === 0) return;
+
+        const now = Date.now();
+        const timeDelta = now - lastWheelTime;
+        lastWheelTime = now;
+
+        // Detect horizontal scroll (trackpad gestures or shift+wheel)
+        const isHorizontalScroll = Math.abs(e.deltaX) > Math.abs(e.deltaY);
+        const shouldHandleScroll = isHorizontalScroll || e.shiftKey;
+
+        if (shouldHandleScroll) {
+            e.preventDefault();
+
+            // Get scroll delta
+            const delta = isHorizontalScroll ? e.deltaX : e.deltaY;
+
+            // Normalize delta (different browsers/devices have different scales)
+            const normalizedDelta = delta * 0.003; // Ultra-low sensitivity for smooth control
+
+            // Update target position
+            targetScrollPosition += normalizedDelta;
+
+            // Clamp target to valid range
+            const maxScroll = carouselContent.length - 1;
+            targetScrollPosition = Math.max(0, Math.min(maxScroll, targetScrollPosition));
+
+            // Add momentum based on scroll speed (gentle)
+            if (timeDelta < 50) { // Quick successive scrolls add momentum
+                velocity += normalizedDelta * 0.12;
+            }
+
+            isScrolling = true;
+
+            // Reset isScrolling flag after user stops scrolling
+            clearTimeout(window.carouselScrollTimeout);
+            window.carouselScrollTimeout = setTimeout(() => {
+                isScrolling = false;
+            }, 150);
+
+            // Start animation if not already running
+            if (!animationFrameId) {
+                animationFrameId = requestAnimationFrame(animateScroll);
+            }
+        }
+    }, { passive: false });
+
+    // Update scroll position when using arrow buttons
+    const originalMoveCarousel = window.moveCarousel;
+    window.moveCarousel = function(direction) {
+        if (carouselContent.length === 0) return;
+
+        // Cancel any ongoing scroll animation
+        if (animationFrameId) {
+            cancelAnimationFrame(animationFrameId);
+            animationFrameId = null;
+        }
+
+        // Update positions
+        const newIndex = (currentCarouselIndex + direction + carouselContent.length) % carouselContent.length;
+        scrollPosition = newIndex;
+        targetScrollPosition = newIndex;
+        velocity = 0;
+
+        // Call original function
+        originalMoveCarousel.call(this, direction);
+    };
 }
+
+// Initialize trackpad scroll after DOM is ready
+setTimeout(() => {
+    initTrackpadScroll();
+}, 100);
 
 // Load and display all content
 async function loadMovies() {

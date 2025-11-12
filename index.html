@@ -29,7 +29,7 @@
 </head>
 <body>
     <main>
-        <!-- Apple-style Hero Section with Featured Content Posters -->
+        <!-- Parallax Carousel Hero Section with 5 Vertical Posters -->
         <div class="hero-container">
             <!-- Main Hero Title -->
             <div class="hero-title-section">
@@ -37,46 +37,53 @@
                 <p class="hero-subtitle">Discover what's streaming and coming to theatres</p>
             </div>
 
-            <!-- Large Feature Card -->
-            <div class="hero-feature-card" id="heroFeatureCard">
-                <div class="hero-feature-content">
-                    <div class="hero-feature-text">
-                        <p class="hero-feature-label">Featured</p>
-                        <h2 class="hero-feature-title">Loading...</h2>
-                        <p class="hero-feature-description">Discover the latest releases</p>
-                        <div class="hero-feature-actions">
-                            <button class="hero-btn hero-btn-primary" onclick="playHeroTrailer()">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                                    <path d="M3 2l10 6-10 6V2z"/>
-                                </svg>
-                                <span>Watch Trailer</span>
-                            </button>
-                            <button class="hero-btn hero-btn-secondary" onclick="learnMoreHero()">Learn More</button>
+            <!-- Parallax Carousel Container -->
+            <div class="hero-carousel-container">
+                <div class="hero-carousel" id="heroCarousel">
+                    <!-- 5 Vertical Poster Cards -->
+                    <div class="hero-poster-card" data-index="0">
+                        <div class="hero-poster-image"></div>
+                        <div class="hero-poster-overlay">
+                            <h3 class="hero-poster-title">Loading...</h3>
+                        </div>
+                    </div>
+                    <div class="hero-poster-card" data-index="1">
+                        <div class="hero-poster-image"></div>
+                        <div class="hero-poster-overlay">
+                            <h3 class="hero-poster-title">Loading...</h3>
+                        </div>
+                    </div>
+                    <div class="hero-poster-card" data-index="2">
+                        <div class="hero-poster-image"></div>
+                        <div class="hero-poster-overlay">
+                            <h3 class="hero-poster-title">Loading...</h3>
+                        </div>
+                    </div>
+                    <div class="hero-poster-card" data-index="3">
+                        <div class="hero-poster-image"></div>
+                        <div class="hero-poster-overlay">
+                            <h3 class="hero-poster-title">Loading...</h3>
+                        </div>
+                    </div>
+                    <div class="hero-poster-card" data-index="4">
+                        <div class="hero-poster-image"></div>
+                        <div class="hero-poster-overlay">
+                            <h3 class="hero-poster-title">Loading...</h3>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Secondary Feature Grid -->
-            <div class="hero-grid">
-                <div class="hero-grid-card" id="heroCard1">
-                    <div class="hero-grid-content">
-                        <p class="hero-grid-label">New Release</p>
-                        <h3 class="hero-grid-title">Loading...</h3>
-                    </div>
-                </div>
-                <div class="hero-grid-card" id="heroCard2">
-                    <div class="hero-grid-content">
-                        <p class="hero-grid-label">Coming Soon</p>
-                        <h3 class="hero-grid-title">Loading...</h3>
-                    </div>
-                </div>
-                <div class="hero-grid-card" id="heroCard3">
-                    <div class="hero-grid-content">
-                        <p class="hero-grid-label">In Theatres</p>
-                        <h3 class="hero-grid-title">Loading...</h3>
-                    </div>
-                </div>
+                <!-- Carousel Navigation -->
+                <button class="carousel-nav carousel-nav-prev" onclick="moveCarousel(-1)" aria-label="Previous">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                <button class="carousel-nav carousel-nav-next" onclick="moveCarousel(1)" aria-label="Next">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
             </div>
         </div>
 
