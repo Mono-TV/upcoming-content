@@ -1877,12 +1877,12 @@ main {
     /* Hero carousel for mobile */
     .hero-carousel-container {
         height: 500px;
-        padding: 0 60px; /* Less padding on mobile */
+        padding: 0 40px; /* Less padding on mobile */
     }
 
     .hero-poster-card {
-        width: 260px;
-        height: 390px;
+        width: 280px;
+        height: 420px;
     }
 
     /* Navigation arrows closer on mobile */
@@ -2234,6 +2234,36 @@ main {
 .moon-icon svg {
     fill: var(--text-primary);
     stroke: none;
+}
+
+/* Extra small mobile devices (360px phones) */
+@media (max-width: 480px) {
+    .hero-carousel-container {
+        padding: 0 20px; /* Minimal padding for small screens */
+    }
+
+    .hero-poster-card {
+        width: 300px;
+        height: 450px;
+    }
+
+    .hero-main-title {
+        font-size: 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .carousel-nav {
+        width: 44px;
+        height: 44px;
+    }
+
+    .carousel-nav svg {
+        width: 22px;
+        height: 22px;
+    }
 }
 
 /* Mobile adjustments for theme toggle */
