@@ -1876,13 +1876,13 @@ main {
 
     /* Hero carousel for mobile */
     .hero-carousel-container {
-        height: 500px;
+        height: 450px;
         padding: 0 40px; /* Less padding on mobile */
     }
 
     .hero-poster-card {
         width: 280px;
-        height: 420px;
+        height: 360px;
     }
 
     /* Navigation arrows closer on mobile */
@@ -2239,12 +2239,13 @@ main {
 /* Extra small mobile devices (360px phones) */
 @media (max-width: 480px) {
     .hero-carousel-container {
+        height: 400px;
         padding: 0 20px; /* Minimal padding for small screens */
     }
 
     .hero-poster-card {
         width: 300px;
-        height: 450px;
+        height: 380px;
     }
 
     .hero-main-title {
