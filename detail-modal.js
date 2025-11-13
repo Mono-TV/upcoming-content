@@ -60,7 +60,7 @@ function navigateToIndex(index, animate = true) {
 
     // Calculate offset - responsive based on viewport width
     const isMobile = window.innerWidth <= 768;
-    const pageWidthPercent = isMobile ? 0.92 : 0.85;
+    const pageWidthPercent = 0.85; // Same for both mobile and desktop
     const gap = isMobile ? 12 : 20;
     const maxPageWidth = isMobile ? 9999 : 1100; // No max on mobile
     const pageWidth = Math.min(window.innerWidth * pageWidthPercent, maxPageWidth);

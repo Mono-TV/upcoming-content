@@ -541,12 +541,13 @@
     }
 
     .detail-page {
-        width: 92vw;
+        width: 85vw;
+        max-width: none;
     }
 
     .detail-page-inner {
         border-radius: 12px 12px 0 0;
-        width: 98%;
+        width: 95%;
     }
 
     .detail-backdrop {
