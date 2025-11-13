@@ -181,6 +181,9 @@ const platformLogos = {
     'Platform 59': 'https://www.binged.com/wp-content/themes/binged/assets_new/images/platform-tabs-logos/59.png'
 };
 
+// Expose platformLogos globally for detail-modal.js
+window.platformLogos = platformLogos;
+
 // Initialize DOM cache
 function initDOMCache() {
     domCache.loading = document.getElementById('loading');
@@ -547,11 +550,7 @@ function updateCarouselDisplay(animated = false, isInitialLoad = false) {
 
             // Update click handler
             card.onclick = () => {
-                if (content.youtube_id) {
-                    expandCard(card, content);
-                } else if (content.deeplinks && Object.keys(content.deeplinks).length > 0) {
-                    showDeeplinkModal(content);
-                }
+                openDetailModal(content);
             };
         }
     });
@@ -599,11 +598,7 @@ function moveCarousel(direction) {
 
             // Update click handler
             card.onclick = () => {
-                if (content.youtube_id) {
-                    expandCard(card, content);
-                } else if (content.deeplinks && Object.keys(content.deeplinks).length > 0) {
-                    showDeeplinkModal(content);
-                }
+                openDetailModal(content);
             };
 
             // Update content mapping
@@ -936,24 +931,13 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
     // Make clickable if trailer or deeplinks exist
     const hasDeeplinks = movie.deeplinks && Object.keys(movie.deeplinks).length > 0;
 
-    if (movie.youtube_id) {
-        // Has trailer - expand to show trailer
-        card.onclick = (e) => {
-            if (!e.target.closest('.close-button')) {
-                expandCard(card, movie);
-            }
-        };
-    } else if (hasDeeplinks) {
-        // Has deeplinks - show deeplink modal
-        card.onclick = (e) => {
-            if (!e.target.closest('.close-button')) {
-                showDeeplinkModal(movie);
-            }
-        };
-        card.style.cursor = 'pointer';
-    } else {
-        card.style.cursor = 'default';
-    }
+    // Make all cards clickable to open detail modal
+    card.onclick = (e) => {
+        if (!e.target.closest('.close-button')) {
+            openDetailModal(movie);
+        }
+    };
+    card.style.cursor = 'pointer';
 
     const platforms = movie.platforms || [];
     const videoFormats = movie.video_formats || [];
@@ -1022,15 +1006,6 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
                  onload="this.classList.remove('loading'); this.classList.add('loaded');"
                  onerror="this.src='${fallbackSvg}'; this.classList.remove('loading'); this.classList.add('loaded');">
 
-            <!-- Play Button Overlay on Hover -->
-            ${movie.youtube_id ? `
-                <div class="play-button-overlay">
-                    <div class="play-button">
-                        <div class="play-tooltip">Play Trailer</div>
-                    </div>
-                </div>
-            ` : ''}
-
             <!-- Platform/Format Overlay - Only Bottom Part on Hover -->
             <div class="platform-overlay">
                 ${platformBadgesHTML ? `
@@ -1042,9 +1017,6 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
 
             <!-- Hover Tooltip (Hidden) -->
             <div class="movie-tooltip"></div>
-
-            <!-- Trailer Window (hidden by default, iframe created on demand) -->
-            <div class="trailer-window" data-youtube-id="${movie.youtube_id || ''}"></div>
 
             <!-- Close Button -->
             <button class="close-button" onclick="collapseCard(event)"></button>
