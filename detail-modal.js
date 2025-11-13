@@ -6,8 +6,12 @@ function getPlatformLogo(platform) {
     return window.platformLogos ? window.platformLogos[platform] : null;
 }
 
-// Open detail modal
-window.openDetailModal = function(contentItem) {
+// Store carousel state
+let currentCarouselIndex = 0;
+let carouselContent = [];
+
+// Open detail modal with carousel
+window.openDetailModal = function(contentItem, contentArray, clickedIndex) {
     const modal = document.getElementById('detailModal');
     const content = document.getElementById('detailModalContent');
 
@@ -16,13 +20,115 @@ window.openDetailModal = function(contentItem) {
         return;
     }
 
-    // Build the detail page content
-    content.innerHTML = buildDetailContent(contentItem);
+    // Store content array and index
+    carouselContent = contentArray || [contentItem];
+    currentCarouselIndex = clickedIndex || 0;
+
+    // Build carousel with all content items
+    content.innerHTML = buildCarousel(carouselContent);
 
     // Show modal
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    // Position carousel at clicked item
+    setTimeout(() => {
+        navigateToIndex(currentCarouselIndex, false);
+        updateNavigationArrows();
+    }, 50);
 };
+
+// Build carousel with multiple detail pages
+function buildCarousel(contentArray) {
+    const pages = contentArray.map(item => `
+        <div class="detail-page">
+            <div class="detail-page-inner">
+                ${buildDetailContent(item)}
+            </div>
+        </div>
+    `).join('');
+
+    return `<div class="detail-carousel-track">${pages}</div>`;
+}
+
+// Navigate to specific index
+function navigateToIndex(index, animate = true) {
+    const track = document.querySelector('.detail-carousel-track');
+    if (!track) return;
+
+    currentCarouselIndex = Math.max(0, Math.min(index, carouselContent.length - 1));
+
+    // Calculate offset - responsive based on viewport width
+    const isMobile = window.innerWidth <= 768;
+    const pageWidthPercent = isMobile ? 0.92 : 0.85;
+    const gap = isMobile ? 12 : 20;
+    const maxPageWidth = isMobile ? 9999 : 1100; // No max on mobile
+    const pageWidth = Math.min(window.innerWidth * pageWidthPercent, maxPageWidth);
+
+    // Calculate the centering offset
+    const viewportWidth = window.innerWidth;
+    const centerOffset = (viewportWidth - pageWidth) / 2;
+
+    // Calculate position: move to the item position minus the centering offset
+    const itemPosition = currentCarouselIndex * (pageWidth + gap);
+    const offset = itemPosition - centerOffset;
+
+    track.style.transform = `translateX(-${offset}px)`;
+
+    if (!animate) {
+        track.style.transition = 'none';
+        setTimeout(() => {
+            track.style.transition = '';
+        }, 50);
+    }
+
+    // Update active state for blur effect
+    const pages = track.querySelectorAll('.detail-page');
+    pages.forEach((page, i) => {
+        if (i === currentCarouselIndex) {
+            page.classList.add('active');
+        } else {
+            page.classList.remove('active');
+        }
+    });
+
+    updateNavigationArrows();
+}
+
+// Navigate prev/next
+window.navigateDetailPrev = function() {
+    if (currentCarouselIndex > 0) {
+        navigateToIndex(currentCarouselIndex - 1);
+    }
+};
+
+window.navigateDetailNext = function() {
+    if (currentCarouselIndex < carouselContent.length - 1) {
+        navigateToIndex(currentCarouselIndex + 1);
+    }
+};
+
+// Update navigation arrow visibility
+function updateNavigationArrows() {
+    const leftArrow = document.getElementById('detailNavLeft');
+    const rightArrow = document.getElementById('detailNavRight');
+
+    if (leftArrow) {
+        if (currentCarouselIndex > 0) {
+            leftArrow.classList.add('visible');
+        } else {
+            leftArrow.classList.remove('visible');
+        }
+    }
+
+    if (rightArrow) {
+        if (currentCarouselIndex < carouselContent.length - 1) {
+            rightArrow.classList.add('visible');
+        } else {
+            rightArrow.classList.remove('visible');
+        }
+    }
+}
 
 // Close detail modal
 window.closeDetailModal = function() {
@@ -33,6 +139,8 @@ window.closeDetailModal = function() {
     // Clear content after animation
     setTimeout(() => {
         document.getElementById('detailModalContent').innerHTML = '';
+        carouselContent = [];
+        currentCarouselIndex = 0;
     }, 300);
 };
 
@@ -334,9 +442,18 @@ window.closeTrailerModal = function() {
 
 // Keyboard shortcuts
 document.addEventListener('keydown', (e) => {
+    const modal = document.getElementById('detailModal');
+    const isModalActive = modal && modal.classList.contains('active');
+
     if (e.key === 'Escape') {
         closeDetailModal();
         closeTrailerModal();
+    } else if (isModalActive) {
+        if (e.key === 'ArrowLeft') {
+            navigateDetailPrev();
+        } else if (e.key === 'ArrowRight') {
+            navigateDetailNext();
+        }
     }
 });
 
@@ -350,5 +467,47 @@ document.addEventListener('click', (e) => {
     const trailerModal = document.getElementById('trailerModal');
     if (e.target === trailerModal) {
         closeTrailerModal();
+    }
+});
+
+// Touch/swipe support for carousel
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', (e) => {
+    const modal = document.getElementById('detailModal');
+    if (modal && modal.classList.contains('active')) {
+        touchStartX = e.changedTouches[0].screenX;
+    }
+}, { passive: true });
+
+document.addEventListener('touchend', (e) => {
+    const modal = document.getElementById('detailModal');
+    if (modal && modal.classList.contains('active')) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }
+}, { passive: true });
+
+function handleSwipe() {
+    const swipeThreshold = 50;
+    const diff = touchStartX - touchEndX;
+
+    if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+            // Swiped left - go to next
+            navigateDetailNext();
+        } else {
+            // Swiped right - go to prev
+            navigateDetailPrev();
+        }
+    }
+}
+
+// Handle window resize to recalculate carousel position
+window.addEventListener('resize', () => {
+    const modal = document.getElementById('detailModal');
+    if (modal && modal.classList.contains('active')) {
+        navigateToIndex(currentCarouselIndex, false);
     }
 });

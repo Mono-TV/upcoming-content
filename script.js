@@ -184,6 +184,17 @@ const platformLogos = {
 // Expose platformLogos globally for detail-modal.js
 window.platformLogos = platformLogos;
 
+// Helper function to get content array by row type
+window.getRowContent = function(rowType) {
+    const contentMap = {
+        'ottReleased': filteredContent.ottReleased,
+        'ottUpcoming': filteredContent.ottUpcoming,
+        'theatreCurrent': filteredContent.theatreCurrent,
+        'theatreUpcoming': filteredContent.theatreUpcoming
+    };
+    return contentMap[rowType] || [];
+};
+
 // Initialize DOM cache
 function initDOMCache() {
     domCache.loading = document.getElementById('loading');
@@ -389,9 +400,9 @@ function applyFilters() {
 }
 
 // Populate hero section with featured content
-// Carousel state
-let carouselContent = [];
-let currentCarouselIndex = 0;
+// Hero Carousel state
+let heroCarouselContent = [];
+let heroCarouselIndex = 0;
 let cardContentMapping = {}; // Track which content each card is showing
 
 async function populateHeroSection() {
@@ -412,7 +423,7 @@ async function populateHeroSection() {
     if (contentWithPosters.length === 0) return;
 
     // Store carousel content (minimum 5, or cycle through available)
-    carouselContent = contentWithPosters.slice(0, Math.max(5, contentWithPosters.length));
+    heroCarouselContent = contentWithPosters.slice(0, Math.max(5, contentWithPosters.length));
 
     // Populate the 5 carousel cards with initial content
     updateCarouselDisplay(false, true);
@@ -426,7 +437,7 @@ async function populateHeroSection() {
 
 // Preload carousel images to prevent loading flashes
 function preloadCarouselImages() {
-    const promises = carouselContent.map((content, index) => {
+    const promises = heroCarouselContent.map((content, index) => {
         return new Promise((resolve) => {
             const posterUrl = content.poster_url_large || content.poster_url_medium || content.image_url;
             if (posterUrl) {
@@ -522,8 +533,8 @@ function updateCarouselDisplay(animated = false, isInitialLoad = false) {
 
     posterCards.forEach((card, index) => {
         // Calculate content index with wrapping
-        const contentIndex = (currentCarouselIndex + index) % carouselContent.length;
-        const content = carouselContent[contentIndex];
+        const contentIndex = (heroCarouselIndex + index) % heroCarouselContent.length;
+        const content = heroCarouselContent[contentIndex];
 
         if (!content) return;
 
@@ -550,7 +561,7 @@ function updateCarouselDisplay(animated = false, isInitialLoad = false) {
 
             // Update click handler
             card.onclick = () => {
-                openDetailModal(content);
+                openDetailModal(content, heroCarouselContent, contentIndex);
             };
         }
     });
@@ -565,7 +576,7 @@ function moveCarousel(direction) {
     carousel.classList.add('transitioning');
 
     // Update current index first
-    currentCarouselIndex = (currentCarouselIndex + direction + carouselContent.length) % carouselContent.length;
+    heroCarouselIndex = (heroCarouselIndex + direction + heroCarouselContent.length) % heroCarouselContent.length;
 
     const posterCards = document.querySelectorAll('.hero-poster-card');
     const positions = ['12%', '30%', '50%', '70%', '88%'];
@@ -574,8 +585,8 @@ function moveCarousel(direction) {
 
     // Update all cards simultaneously
     posterCards.forEach((card, cardIndex) => {
-        const contentIndex = (currentCarouselIndex + cardIndex) % carouselContent.length;
-        const content = carouselContent[contentIndex];
+        const contentIndex = (heroCarouselIndex + cardIndex) % heroCarouselContent.length;
+        const content = heroCarouselContent[contentIndex];
 
         if (content) {
             // Update position - all cards move at the same time
@@ -598,7 +609,7 @@ function moveCarousel(direction) {
 
             // Update click handler
             card.onclick = () => {
-                openDetailModal(content);
+                openDetailModal(content, heroCarouselContent, contentIndex);
             };
 
             // Update content mapping
@@ -614,7 +625,7 @@ function moveCarousel(direction) {
 
 // Keyboard navigation for carousel
 document.addEventListener('keydown', (e) => {
-    if (carouselContent.length === 0) return;
+    if (heroCarouselContent.length === 0) return;
 
     if (e.key === 'ArrowLeft') {
         moveCarousel(-1);
@@ -637,9 +648,9 @@ function initTrackpadScroll() {
 
     // Smooth scroll animation with spring physics
     function animateScroll() {
-        if (carouselContent.length === 0) return;
+        if (heroCarouselContent.length === 0) return;
 
-        const maxScroll = carouselContent.length - 1;
+        const maxScroll = heroCarouselContent.length - 1;
 
         // Spring physics parameters (Apple-like feel) - Tuned for ultra-smooth glass-like motion
         const stiffness = 0.035; // How quickly it moves toward target (lower = smoother)
@@ -667,15 +678,15 @@ function initTrackpadScroll() {
 
         // Update carousel index based on scroll position
         const newIndex = Math.round(scrollPosition);
-        if (newIndex !== currentCarouselIndex && newIndex >= 0 && newIndex <= maxScroll) {
-            currentCarouselIndex = newIndex;
+        if (newIndex !== heroCarouselIndex && newIndex >= 0 && newIndex <= maxScroll) {
+            heroCarouselIndex = newIndex;
             updateCarouselDisplay(false, false); // Don't use fade animation for smooth scroll
         }
 
         // Apply smooth interpolation to card positions for glass-like motion
         const posterCards = document.querySelectorAll('.hero-poster-card');
         posterCards.forEach((card, index) => {
-            const targetIndex = (currentCarouselIndex + index) % carouselContent.length;
+            const targetIndex = (heroCarouselIndex + index) % heroCarouselContent.length;
             const offset = scrollPosition - Math.round(scrollPosition);
 
             // Smooth position interpolation
@@ -708,7 +719,7 @@ function initTrackpadScroll() {
     }
 
     carouselContainer.addEventListener('wheel', (e) => {
-        if (carouselContent.length === 0) return;
+        if (heroCarouselContent.length === 0) return;
 
         const now = Date.now();
         const timeDelta = now - lastWheelTime;
@@ -731,7 +742,7 @@ function initTrackpadScroll() {
             targetScrollPosition += normalizedDelta;
 
             // Clamp target to valid range
-            const maxScroll = carouselContent.length - 1;
+            const maxScroll = heroCarouselContent.length - 1;
             targetScrollPosition = Math.max(0, Math.min(maxScroll, targetScrollPosition));
 
             // Add momentum based on scroll speed (very gentle)
@@ -757,7 +768,7 @@ function initTrackpadScroll() {
     // Update scroll position when using arrow buttons
     const originalMoveCarousel = window.moveCarousel;
     window.moveCarousel = function(direction) {
-        if (carouselContent.length === 0) return;
+        if (heroCarouselContent.length === 0) return;
 
         // Cancel any ongoing scroll animation
         if (animationFrameId) {
@@ -766,7 +777,7 @@ function initTrackpadScroll() {
         }
 
         // Update positions
-        const newIndex = (currentCarouselIndex + direction + carouselContent.length) % carouselContent.length;
+        const newIndex = (heroCarouselIndex + direction + heroCarouselContent.length) % heroCarouselContent.length;
         scrollPosition = newIndex;
         targetScrollPosition = newIndex;
         velocity = 0;
@@ -857,8 +868,8 @@ function displayContentRow(rowType, items, container) {
     // Use document fragment for better performance
     const fragment = document.createDocumentFragment();
 
-    items.forEach(item => {
-        const card = createMovieCard(item, rowType);
+    items.forEach((item, index) => {
+        const card = createMovieCard(item, rowType, items, index);
         fragment.appendChild(card);
     });
 
@@ -922,7 +933,7 @@ function updateTimelineWidth(container) {
     container.style.setProperty('--timeline-width', `${lastCardCenter}px`);
 }
 
-function createMovieCard(movie, rowType = 'ott_upcoming') {
+function createMovieCard(movie, rowType = 'ott_upcoming', contentArray = [], contentIndex = 0) {
     const card = document.createElement('div');
     card.className = 'movie-card';
 
@@ -934,7 +945,7 @@ function createMovieCard(movie, rowType = 'ott_upcoming') {
     // Make all cards clickable to open detail modal
     card.onclick = (e) => {
         if (!e.target.closest('.close-button')) {
-            openDetailModal(movie);
+            openDetailModal(movie, contentArray, contentIndex);
         }
     };
     card.style.cursor = 'pointer';

@@ -150,6 +150,19 @@
                 <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
         </button>
+
+        <!-- Navigation Arrows -->
+        <button id="detailNavLeft" class="detail-nav-arrow left" onclick="navigateDetailPrev()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button id="detailNavRight" class="detail-nav-arrow right" onclick="navigateDetailNext()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+
         <div id="detailModalContent" class="detail-modal-content">
             <!-- Detail content will be dynamically inserted here -->
         </div>
