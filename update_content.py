@@ -646,6 +646,50 @@ class TMDBContentUpdater:
             json.dump(data, f, indent=2, ensure_ascii=False)
         print(f"💾 Saved: {filename}")
 
+    def _parse_release_date(self, date_str):
+        """Parse release date string to datetime object"""
+        if not date_str:
+            return None
+
+        try:
+            # Handle format like "12 Nov 2025"
+            return datetime.strptime(date_str, '%d %b %Y')
+        except:
+            try:
+                # Handle format like "Nov 12, 2025"
+                return datetime.strptime(date_str, '%b %d, %Y')
+            except:
+                return None
+
+    def _filter_upcoming_only(self):
+        """Filter out movies that have already been released"""
+        today = datetime.now()
+        before_count = len(self.movies)
+
+        filtered_movies = []
+        for movie in self.movies:
+            release_date_str = movie.get('release_date')
+            if not release_date_str:
+                # Keep movies without release date
+                filtered_movies.append(movie)
+                continue
+
+            release_date = self._parse_release_date(release_date_str)
+            if release_date:
+                # Only keep if release date is today or in the future
+                if release_date.date() >= today.date():
+                    filtered_movies.append(movie)
+            else:
+                # Keep if we can't parse the date
+                filtered_movies.append(movie)
+
+        self.movies = filtered_movies
+        removed_count = before_count - len(self.movies)
+
+        if removed_count > 0:
+            print(f"\n🗑️  Removed {removed_count} already-released movies")
+            print(f"📅 Keeping {len(self.movies)} upcoming movies (from {today.strftime('%d %b %Y')} onwards)")
+
     async def run(self):
         """Run all steps"""
         start_time = time.time()
@@ -658,6 +702,9 @@ class TMDBContentUpdater:
 
         # Step 1: Scrape from Binged
         await self.scrape_movies()
+
+        # Filter out already-released movies
+        self._filter_upcoming_only()
 
         # Test mode: limit to first 3 movies
         if self.test_mode and len(self.movies) > 3:

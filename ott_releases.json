@@ -1,260 +1,269 @@
 [
   {
     "content_type": "ott_released",
-    "title": "Harimau Merah: Intrik Dalaman",
-    "url": "https://www.binged.com/streaming-premiere-dates/harimau-merah-intrik-dalaman-movie-streaming-online-watch/",
-    "release_date": "08 Nov 2025",
-    "platforms": [
-      "Netflix"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/harimau-merah-intrik-dalaman-97x147.jpg",
-    "deeplinks": {
-      "Netflix": "https://www.netflix.com/in/title/81949636"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Indra",
-    "url": "https://www.binged.com/streaming-premiere-dates/indra-tamil-movie-streaming-online-watch/",
-    "release_date": "08 Nov 2025",
-    "platforms": [
-      "SunNXT",
-      "Platform 41"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2024/01/indra-97x147.jpg",
-    "deeplinks": {
-      "SunNXT": "https://www.sunnxt.com/tamil-movie-indra-2025/detail/232107"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Stumble",
-    "url": "https://www.binged.com/streaming-premiere-dates/stumble-web-series-streaming-online-watch/",
-    "release_date": "08 Nov 2025",
-    "platforms": [
-      "Jio Hotstar"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/bk6vVD3WQZgHeNlaGhqICBfjd9-97x147.jpg",
-    "deeplinks": {
-      "Jio Hotstar": "https://www.hotstar.com/in/shows/stumble/1271506569"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Thayyal Machine",
-    "url": "https://www.binged.com/streaming-premiere-dates/thayyal-machine-malayalam-movie-streaming-online-watch/",
-    "release_date": "08 Nov 2025",
-    "platforms": [
-      "Platform 27",
-      "Platform 54"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/g3czzljxgaaujt7-97x147.jpg",
-    "deeplinks": {
-      "ManoramaMAX": "https://www.manoramamax.com/movies/detail/179763/thayyal-machine"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Aarpar",
-    "url": "https://www.binged.com/streaming-premiere-dates/aarpar-marathi-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Amazon Prime Video"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/aarpar-97x147.jpg",
-    "deeplinks": {
-      "Amazon Prime Video": "https://www.primevideo.com/detail/0SBRYN9WQHYBG7TTGHSM7YT5Z8/"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Anusandhan",
-    "url": "https://www.binged.com/streaming-premiere-dates/anusandhan/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Platform 19"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/g4kqotjwqaajqwz-97x147.jpeg",
-    "deeplinks": {
-      "Hoichoi": "https://www.hoichoi.tv/shows/watch-anusandhan-bengali-web-series-online"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "As You Stood By",
-    "url": "https://www.binged.com/streaming-premiere-dates/as-you-stood-by-korean-web-series-streaming-online-watch-2/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Netflix"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/3ciqsMz21p8xp5udriFjRGM5OYs-97x147.jpg",
-    "deeplinks": {
-      "Netflix": "https://www.netflix.com/in/title/81900129?source=35&fromWatch=true"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Baramulla",
-    "url": "https://www.binged.com/streaming-premiere-dates/baramulla-hindi-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Netflix"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/g3dr8q6xiaej1i_-97x147.jpg",
-    "deeplinks": {
-      "Netflix": "https://www.netflix.com/in/title/82127717"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Chiranjeeva",
-    "url": "https://www.binged.com/streaming-premiere-dates/chiranjeeva-telugu-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Platform 2"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/chiranjeeva-97x147.jpg",
-    "deeplinks": {
-      "Aha Video": "https://www.aha.video/movie/chiranjeeva"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Death by Lightning",
-    "url": "https://www.binged.com/streaming-premiere-dates/death-by-lightning-web-series-streaming-online-watch-2/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Netflix"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/KyUrz3GA1FML3XnKkY795XxDxN-97x147.jpg",
-    "deeplinks": {
-      "Netflix": "https://www.netflix.com/in/title/81438325?source=35&fromWatch=true"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Dhimahi",
-    "url": "https://www.binged.com/streaming-premiere-dates/dhimahi/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Amazon Prime Video"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g5i2gjxbiam-tg2-97x147.jpg",
-    "deeplinks": {
-      "Amazon Prime Video": "https://www.primevideo.com/detail/0LZOPR17LIK3Z3LIM9LAWOXF4K/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0FS87QHXW&qid=1762511249620"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Ek Chatur Naar",
-    "url": "https://www.binged.com/streaming-premiere-dates/ek-chatur-naar-hindi-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Netflix"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/ek-chatur-naar-97x147.jpg",
-    "deeplinks": {
-      "Netflix": "https://www.netflix.com/us/title/81514150?"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Frankenstein",
-    "url": "https://www.binged.com/streaming-premiere-dates/dr-frankenstein-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Netflix"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/frankenstein-97x147.jpg",
-    "deeplinks": {
-      "Netflix": "https://www.netflix.com/in/title/81507921"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Kaayal",
-    "url": "https://www.binged.com/streaming-premiere-dates/kaayal-tamil-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Amazon Prime Video"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/kaayal-97x147.jpg",
-    "deeplinks": {
-      "Amazon Prime Video": "https://www.primevideo.com/detail/0KWBW3NZT9K2VZ565H3AOZZ5GO/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0FS4SWFT5&qid=1762511166958"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Karam",
-    "url": "https://www.binged.com/streaming-premiere-dates/karam-malayalam-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
+    "title": "Mrudhu Bhave Dhruda Kruthye",
+    "url": "https://www.binged.com/streaming-premiere-dates/mrudhu-bhave-dhruda-kruthye-malayalam-movie-streaming-online-watch/",
+    "release_date": "16 Nov 2025",
     "platforms": [
       "Platform 27"
     ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/karam-97x147.jpg",
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2024/02/mrudhu-bhave-dhruda-kruthye-97x147.jpg",
     "deeplinks": {
-      "ManoramaMAX": "https://www.manoramamax.com/movies/detail/179749/karam"
+      "ManoramaMAX": "https://www.manoramamax.com/movies/detail/180147/mrudhu-bhave-dhruda-kruthye"
     }
   },
   {
     "content_type": "ott_released",
-    "title": "Kiss",
-    "url": "https://www.binged.com/streaming-premiere-dates/kiss-tamil-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
+    "title": "Uppu Puli Karam",
+    "url": "https://www.binged.com/streaming-premiere-dates/uppu-puli-karam-tamil-web-series-streaming-online-watch/",
+    "release_date": "16 Nov 2025",
     "platforms": [
-      "Platform 52"
+      "Jio Hotstar",
+      "Jio Hotstar"
     ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/kiss-97x147.jpg"
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Little Box of Sweets",
-    "url": "https://www.binged.com/streaming-premiere-dates/little-box-of-sweets-hindi-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "SunNXT"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/little-box-of-sweets-97x147.jpg"
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Maharani Season 4",
-    "url": "https://www.binged.com/streaming-premiere-dates/maharani-season-4/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Platform 39"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/10/pX2Ru5bPv5ZV7kqY3UNw8yDoaAJ-97x147.jpg",
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2024/05/uppu-puli-karam-2024-tamil-web-series-streaming-watch-online-97x147.jpg",
     "deeplinks": {
-      "Sony LIV": "https://www.sonyliv.com/shows/maharani-1700000725/season/4"
+      "Jio Hotstar": "https://www.hotstar.com/in/shows/uppu-puli-kaaram/1271305785"
     }
   },
   {
     "content_type": "ott_released",
-    "title": "Mango",
-    "url": "https://www.binged.com/streaming-premiere-dates/mango-danish-spanish-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
-    "platforms": [
-      "Netflix"
-    ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/mango-97x147.jpg",
-    "deeplinks": {
-      "Netflix": "https://www.netflix.com/in/title/81772077"
-    }
-  },
-  {
-    "content_type": "ott_released",
-    "title": "Mathu Vadalara 2",
-    "url": "https://www.binged.com/streaming-premiere-dates/mathu-vadalara-2-telugu-movie-streaming-online-watch/",
-    "release_date": "07 Nov 2025",
+    "title": "Winter Spring Summer or Fall",
+    "url": "https://www.binged.com/streaming-premiere-dates/winter-spring-summer-or-fall-movie-streaming-online-watch/",
+    "release_date": "16 Nov 2025",
     "platforms": [
       "Amazon Prime Video",
+      "Amazon Prime Video",
+      "Sun NXT"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/07/winter-spring-summer-or-fall-97x147.jpg",
+    "deeplinks": {
+      "Amazon Prime Video": "https://www.primevideo.com/detail/0TYPB3JCMUDSBGPTVBZIIG2S5V/"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "A Cinderella Christmas Ball",
+    "url": "https://www.binged.com/streaming-premiere-dates/a-cinderella-christmas-ball-movie-streaming-online-watch/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
       "Netflix"
     ],
-    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2024/10/mathu-vadalara-2-97x147.jpg",
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/a-cinderella-christmas-ball-97x147.jpg",
     "deeplinks": {
-      "Amazon Prime Video": "https://www.primevideo.com/detail/0L9IT9D2YK59QFXXX6KEGZA15N/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0FX3K6X7P&qid=1762510973805",
-      "Netflix": "https://www.netflix.com/in/title/81942680"
+      "Netflix": "https://www.netflix.com/in/title/82095784?source=35&fromWatch=true"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Antharam",
+    "url": "https://www.binged.com/streaming-premiere-dates/antharam-malayalam-tamil-movie-streaming-online-watch-2/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
+      "Platform 27"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2023/04/separation-97x147.jpg",
+    "deeplinks": {
+      "ManoramaMAX": "https://www.manoramamax.com/movies/detail/179946/antharam"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Christmas Under the Northern Lights",
+    "url": "https://www.binged.com/streaming-premiere-dates/christmas-under-the-northern-lights-movie-streaming-online-watch/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
+      "Netflix"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/christmas-under-the-northern-lights-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/82095790?source=35&fromWatch=true"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Dark Nuns",
+    "url": "https://www.binged.com/streaming-premiere-dates/dark-nuns-italian-korean-latin-movie-streaming-online-watch/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
+      "Jio Hotstar",
+      "Amazon Prime Video"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/03/dark-nuns-97x147.jpg",
+    "deeplinks": {
+      "Jio Hotstar": "https://www.hotstar.com/in/movies/dark-nuns/1271503050",
+      "Amazon Prime Video": "https://www.primevideo.com/detail/0N4XCKX29YX0NZ2F7I4MD9B8GO/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B0DWJY2G12&qid=1743417294366"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Everyone Loves Me",
+    "url": "https://www.binged.com/streaming-premiere-dates/everyone-loves-me-mandarin-web-series-streaming-online-watch/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
+      "Platform 25",
+      "Netflix"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2024/03/y3wgIjKKsD35tInp0iU0169E7zE-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/81766203"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "K-Ramp",
+    "url": "https://www.binged.com/streaming-premiere-dates/k-ramp-telugu-movie-streaming-online-watch/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
+      "Platform 2"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/k-ramp-97x147.jpg",
+    "deeplinks": {
+      "Aha Video": "https://www.aha.video/movie/k-ramp-db"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Operation Mistletoe",
+    "url": "https://www.binged.com/streaming-premiere-dates/operation-mistletoe-movie-streaming-online-watch/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
+      "Netflix"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2024/11/operation-mistletoe-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/82095786?source=35&fromWatch=true"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Renovation Romance",
+    "url": "https://www.binged.com/streaming-premiere-dates/renovation-romance-movie-streaming-online-watch/",
+    "release_date": "15 Nov 2025",
+    "platforms": [
+      "Netflix"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/renovation-romance-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/82095789?source=35&fromWatch=true"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "A Quiet Place: Day One",
+    "url": "https://www.binged.com/streaming-premiere-dates/a-quiet-place-day-one-movie-streaming-online-watch/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Netflix",
+      "Amazon Prime Video",
+      "Sony LIV",
+      "Sun NXT",
+      "Platform 49",
+      "Platform 16"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2024/06/a-quiet-place-day-one-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/81767874",
+      "Amazon Prime Video": "https://www.primevideo.com/detail/0OJG1AJLVOT6KKPOOKKFZOZIQL/",
+      "Apple TV+": "https://tv.apple.com/in/movie/a-quiet-place-day-one/umc.cmc.462o96prvp5xynx7v3qytecwt"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "A Very Jonas Christmas Movie",
+    "url": "https://www.binged.com/streaming-premiere-dates/a-very-jonas-christmas-movie-movie-streaming-online-watch/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/a-very-jonas-christmas-movie-97x147.jpg",
+    "deeplinks": {
+      "Jio Hotstar": "https://www.hotstar.com/in/movies/a-very-jonas-christmas-movie/1271450583"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Avihitham",
+    "url": "https://www.binged.com/streaming-premiere-dates/avihitham-malayalam-movie-streaming-online-watch/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Jio Hotstar"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/avihitham-97x147.jpg",
+    "deeplinks": {
+      "Jio Hotstar": "https://www.hotstar.com/in/movies/avihitham/1271506672"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Carol Doda Topless at the Condor",
+    "url": "https://www.binged.com/streaming-premiere-dates/carol-doda-topless-at-the-condor-movie-streaming-online-watch/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Sun NXT"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/carol-doda-topless-at-the-condor-97x147.jpg"
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Coupling",
+    "url": "https://www.binged.com/streaming-premiere-dates/coupling/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Platform 27"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/g4k6i2iawae4kxo-97x147.jpg",
+    "deeplinks": {
+      "ManoramaMAX": "https://www.manoramamax.com/programs/detail/179965/coupling"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Dude",
+    "url": "https://www.binged.com/streaming-premiere-dates/dude-tamil-movie-streaming-online-watch/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Netflix"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/dude-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/81900290"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Fragments for Venus",
+    "url": "https://www.binged.com/streaming-premiere-dates/fragments-for-venus-french-movie-streaming-online-watch/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Platform 24"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/fragments-for-venus-97x147.jpg"
+  },
+  {
+    "content_type": "ott_released",
+    "title": "How to Win the Lottery",
+    "url": "https://www.binged.com/streaming-premiere-dates/how-to-win-the-lottery-spanish-web-series-streaming-online-watch/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Netflix"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/11/2frfO6pr8i1Oh1iakIFRrLQGEK9-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/81747803"
+    }
+  },
+  {
+    "content_type": "ott_released",
+    "title": "In Your Dreams",
+    "url": "https://www.binged.com/streaming-premiere-dates/in-your-dreams-movie-streaming-online-watch-5/",
+    "release_date": "14 Nov 2025",
+    "platforms": [
+      "Netflix"
+    ],
+    "image_url": "https://bingeddata.s3.amazonaws.com/uploads/2025/09/in-your-dreams-97x147.jpg",
+    "deeplinks": {
+      "Netflix": "https://www.netflix.com/in/title/80992977"
     }
   }
 ]

@@ -327,18 +327,58 @@ function buildDetailContent(item) {
     `;
 }
 
-// Build action buttons (Play Trailer, etc.)
+// Build action buttons (Play, Play Trailer, etc.)
 function buildActionButtons(item) {
-    if (!item.youtube_id) return '';
+    const buttons = [];
 
-    return `
-        <div class="detail-actions">
-            <button class="detail-btn detail-btn-play" onclick="openTrailerModal('${item.youtube_id}')">
+    // Play buttons for deeplinks (prioritize first available platform)
+    if (item.deeplinks && Object.keys(item.deeplinks).length > 0) {
+        const platforms = Object.keys(item.deeplinks);
+        const primaryPlatform = platforms[0];
+        const primaryLink = item.deeplinks[primaryPlatform];
+
+        // Primary play button for first platform
+        buttons.push(`
+            <a href="${primaryLink}" target="_blank" rel="noopener noreferrer" class="detail-btn detail-btn-primary">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+                <span>Play on ${primaryPlatform}</span>
+            </a>
+        `);
+
+        // Additional platform links (if more than one)
+        if (platforms.length > 1) {
+            platforms.slice(1).forEach(platform => {
+                buttons.push(`
+                    <a href="${item.deeplinks[platform]}" target="_blank" rel="noopener noreferrer" class="detail-btn detail-btn-secondary">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        <span>${platform}</span>
+                    </a>
+                `);
+            });
+        }
+    }
+
+    // Play Trailer button
+    if (item.youtube_id) {
+        buttons.push(`
+            <button class="detail-btn detail-btn-trailer" onclick="openTrailerModal('${item.youtube_id}')">
                 <svg viewBox="0 0 24 24" fill="currentColor">
                     <path d="M8 5v14l11-7z"/>
                 </svg>
                 <span>Play Trailer</span>
             </button>
+        `);
+    }
+
+    if (buttons.length === 0) return '';
+
+    return `
+        <div class="detail-actions">
+            ${buttons.join('')}
         </div>
     `;
 }
