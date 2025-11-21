@@ -25,25 +25,35 @@
     "original_language": "ml",
     "imdb_id": "tt30890011",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+      "original": "https://image.tmdb.org/t/p/original/6Z1oYQl2laKZ34456tmALfEiJlT.jpg"
     },
     "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+        "language": "en"
+      },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/grqQX1rx89SZQP5FFi6ngdWIrsh.jpg",
         "small": "https://image.tmdb.org/t/p/w185/grqQX1rx89SZQP5FFi6ngdWIrsh.jpg",
         "medium": "https://image.tmdb.org/t/p/w342/grqQX1rx89SZQP5FFi6ngdWIrsh.jpg",
         "large": "https://image.tmdb.org/t/p/w500/grqQX1rx89SZQP5FFi6ngdWIrsh.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/grqQX1rx89SZQP5FFi6ngdWIrsh.jpg",
-        "original": "https://image.tmdb.org/t/p/original/grqQX1rx89SZQP5FFi6ngdWIrsh.jpg"
+        "original": "https://image.tmdb.org/t/p/original/grqQX1rx89SZQP5FFi6ngdWIrsh.jpg",
+        "language": null
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOTlhNWJlMTktZjIzMS00Yzg0LTlkYmEtMGJiZjY5MjZhOWI0XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/6Z1oYQl2laKZ34456tmALfEiJlT.jpg",
     "cast": [
       {
         "name": "Suresh Krishna",
@@ -79,7 +89,8 @@
     "writers": [],
     "poster_source": "imdb",
     "imdb_rating": 7.9,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -111,12 +122,12 @@
     "original_language": "ta",
     "imdb_id": "tt32176709",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+      "original": "https://image.tmdb.org/t/p/original/cVthYy9YZEstHbGhNeObVPyojzH.jpg"
     },
     "all_posters": [
       {
@@ -160,8 +171,8 @@
         "original": "https://image.tmdb.org/t/p/original/abbnloa8QlHOeLlL4bbz3IhHi8T.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOGI1OGMyNWYtM2NiNS00MmZiLWIzOGYtOWUzMThkYjkzODJjXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/cVthYy9YZEstHbGhNeObVPyojzH.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/gNlz7es4h9QTvFqMU0W3BsvrHi4.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/gNlz7es4h9QTvFqMU0W3BsvrHi4.jpg",
@@ -254,7 +265,8 @@
     "writers": [],
     "poster_source": "imdb",
     "imdb_rating": 7.3,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "error"
   },
   {
     "content_type": "ott_released",
@@ -286,12 +298,12 @@
     "original_language": "en",
     "imdb_id": "tt24515124",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg"
     },
     "all_posters": [
       {
@@ -335,8 +347,8 @@
         "original": "https://image.tmdb.org/t/p/original/eD29GOZ0zV8ZBpBYKaAani6JZcc.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZmQ2MGRhYWQtZjQ4Ni00Y2EyLWI2OGQtOTYzNDkwZGU1NmI4XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/mEPi5ISa5RmzpzeDfwkhX0CcNsf.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/6GGsUgmef5MIfJnnp2fGvkFWRg6.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/6GGsUgmef5MIfJnnp2fGvkFWRg6.jpg",
@@ -446,7 +458,8 @@
     "youtube_title": "Official Trailer",
     "poster_source": "imdb",
     "imdb_rating": 6.1,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -477,41 +490,35 @@
     "original_language": "en",
     "imdb_id": "tt26741429",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+      "original": "https://image.tmdb.org/t/p/original/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg"
     },
     "all_posters": [
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
-        "original": "https://image.tmdb.org/t/p/original/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg"
-      },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
         "small": "https://image.tmdb.org/t/p/w185/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
         "medium": "https://image.tmdb.org/t/p/w342/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
         "large": "https://image.tmdb.org/t/p/w500/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
-        "original": "https://image.tmdb.org/t/p/original/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg"
+        "original": "https://image.tmdb.org/t/p/original/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+        "language": "en"
       },
       {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/zYuH2fThxpptDYAnEsL0nMHMPwI.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/zYuH2fThxpptDYAnEsL0nMHMPwI.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/zYuH2fThxpptDYAnEsL0nMHMPwI.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/zYuH2fThxpptDYAnEsL0nMHMPwI.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/zYuH2fThxpptDYAnEsL0nMHMPwI.jpg",
-        "original": "https://image.tmdb.org/t/p/original/zYuH2fThxpptDYAnEsL0nMHMPwI.jpg"
+        "thumbnail": "https://image.tmdb.org/t/p/w92/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
+        "original": "https://image.tmdb.org/t/p/original/uBWrL02B6FUWj8rQY1Ij8Xu0lXs.jpg",
+        "language": null
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNWFjYjYyYjUtZWFiMC00YmM2LWI1NzgtNzc0NDU3ODg2OWQ3XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/cErYtATJg6mPFPx1JxwIc4L7ZlU.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/ivP9PVz7YOhQRGoswdOvWoYsCw5.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/ivP9PVz7YOhQRGoswdOvWoYsCw5.jpg",
@@ -598,7 +605,8 @@
     "youtube_title": "A Cinderella Christmas Ball | Trailer | Starring Danica McKellar and Oliver Rice",
     "poster_source": "imdb",
     "imdb_rating": 6.9,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -628,12 +636,12 @@
     "original_language": "ml",
     "imdb_id": "tt15528036",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg"
     },
     "all_posters": [
       {
@@ -645,8 +653,8 @@
         "original": "https://image.tmdb.org/t/p/original/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMmM5NDVlY2ItM2YzZi00ZWJhLThiMDMtNWEwNGUwYzUzMTgwXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/gJJpEAkmUsgFE2CNucxm74cIdZZ.jpg",
     "cast": [
       {
         "name": "Negha Shahin",
@@ -683,7 +691,8 @@
       "Shanavas M. A"
     ],
     "poster_source": "imdb",
-    "year": 2023
+    "year": 2023,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -712,12 +721,12 @@
     "original_title": "Christmas Under the Northern Lights",
     "original_language": "en",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg"
     },
     "all_posters": [
       {
@@ -743,10 +752,18 @@
         "large": "https://image.tmdb.org/t/p/w500/wo31Qz6vVV3wNmcevusC4w447GF.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/wo31Qz6vVV3wNmcevusC4w447GF.jpg",
         "original": "https://image.tmdb.org/t/p/original/wo31Qz6vVV3wNmcevusC4w447GF.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/wfSgPfHgIcTgMHgUUcpic04c36l.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/wfSgPfHgIcTgMHgUUcpic04c36l.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/wfSgPfHgIcTgMHgUUcpic04c36l.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/wfSgPfHgIcTgMHgUUcpic04c36l.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/wfSgPfHgIcTgMHgUUcpic04c36l.jpg",
+        "original": "https://image.tmdb.org/t/p/original/wfSgPfHgIcTgMHgUUcpic04c36l.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZWE5NTg2MTEtOWYxYi00ZWRmLWFkZTgtM2QxMzMzMWYxZTk4XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/5GGWK9BTu3rMv4IxucJsvrELAXa.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/11CBYPBWNX4zvBPYlBP6VsSbDOj.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/11CBYPBWNX4zvBPYlBP6VsSbDOj.jpg",
@@ -834,7 +851,8 @@
     "imdb_id": "tt31187409",
     "poster_source": "imdb",
     "imdb_rating": 6.3,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -868,12 +886,12 @@
     "original_language": "ko",
     "imdb_id": "tt32491690",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/2Abt2GgscAGtGAXTrhH44qPhugI.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/2Abt2GgscAGtGAXTrhH44qPhugI.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/2Abt2GgscAGtGAXTrhH44qPhugI.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/2Abt2GgscAGtGAXTrhH44qPhugI.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/2Abt2GgscAGtGAXTrhH44qPhugI.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2Abt2GgscAGtGAXTrhH44qPhugI.jpg"
     },
     "all_posters": [
       {
@@ -917,8 +935,8 @@
         "original": "https://image.tmdb.org/t/p/original/sWDfyyrquNu3l58Aeioh5U0Pcvk.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNzg0NTk1MDAtOWZkNC00NWYxLTg3NWQtNWVhY2FmMTg0N2NmXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/2Abt2GgscAGtGAXTrhH44qPhugI.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/2Abt2GgscAGtGAXTrhH44qPhugI.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/xIB0jjWBuURB0K2Pr91VsjUNYsY.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/xIB0jjWBuURB0K2Pr91VsjUNYsY.jpg",
@@ -1028,7 +1046,8 @@
     "youtube_title": "Official Trailer [Subtitled]",
     "poster_source": "imdb",
     "imdb_rating": 5.2,
-    "year": 2025
+    "year": 2025,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -1065,12 +1084,12 @@
     "original_language": "zh",
     "imdb_id": "tt28131856",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/sgWR52ebu4rRCgJjYxCliCITh7H.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/sgWR52ebu4rRCgJjYxCliCITh7H.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/sgWR52ebu4rRCgJjYxCliCITh7H.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/sgWR52ebu4rRCgJjYxCliCITh7H.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/sgWR52ebu4rRCgJjYxCliCITh7H.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sgWR52ebu4rRCgJjYxCliCITh7H.jpg"
     },
     "all_posters": [
       {
@@ -1114,8 +1133,8 @@
         "original": "https://image.tmdb.org/t/p/original/vGAZN1QhnYX97pTdnQazPllky3j.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNzJhMjEyYWUtZjAwOS00N2EyLWI1YmYtNDQ2ODBkMmJkNzYwXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/sgWR52ebu4rRCgJjYxCliCITh7H.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/sgWR52ebu4rRCgJjYxCliCITh7H.jpg",
     "cast": [
       {
         "name": "Lin Yi",
@@ -1181,7 +1200,8 @@
     "youtube_title": "ENGSUB【TRAILER】💥定档预告来袭！月老掉线，“千顾佳话”攻势逆转！小白花变拽姐，冷面校草下跪追爱！😮 | 别对我动心 Everyone Loves Me | 林一/周也 |优酷 YOUKU",
     "poster_source": "imdb",
     "imdb_rating": 7.2,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "error"
   },
   {
     "content_type": "ott_released",
@@ -1212,12 +1232,12 @@
     "original_language": "te",
     "imdb_id": "tt35665459",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg",
+      "original": "https://image.tmdb.org/t/p/original/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg"
     },
     "all_posters": [
       {
@@ -1245,8 +1265,8 @@
         "original": "https://image.tmdb.org/t/p/original/lJ7dyxc7g7dsaSoL6Wn3aGMuLuE.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/36QgJqloM5Ee8VGx0SDiyQR2Pie.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/3RvX7dyLhM3P3iosCVUpCut5ioo.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/3RvX7dyLhM3P3iosCVUpCut5ioo.jpg",
@@ -1330,7 +1350,8 @@
     ],
     "poster_source": "imdb",
     "imdb_rating": 8.0,
-    "year": 2025
+    "year": 2025,
+    "poster_language": "te"
   },
   {
     "content_type": "ott_released",
@@ -1360,12 +1381,12 @@
     "original_language": "en",
     "imdb_id": "tt33164844",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/1yQZflwRQavzVYD98M0G5v2TA4K.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/1yQZflwRQavzVYD98M0G5v2TA4K.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/1yQZflwRQavzVYD98M0G5v2TA4K.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/1yQZflwRQavzVYD98M0G5v2TA4K.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/1yQZflwRQavzVYD98M0G5v2TA4K.jpg",
+      "original": "https://image.tmdb.org/t/p/original/1yQZflwRQavzVYD98M0G5v2TA4K.jpg"
     },
     "all_posters": [
       {
@@ -1393,8 +1414,8 @@
         "original": "https://image.tmdb.org/t/p/original/6LdF25nOEJBkeF02sHWfeWNcRMV.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMDUwNDIyOGEtNmU5NC00YmI4LTgwYzktMmU4ODEwYTk0ZDdmXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/1yQZflwRQavzVYD98M0G5v2TA4K.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/1yQZflwRQavzVYD98M0G5v2TA4K.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/5ZCRgH0XVJcbWD47lwVk8gzv4Rc.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/5ZCRgH0XVJcbWD47lwVk8gzv4Rc.jpg",
@@ -1477,7 +1498,8 @@
     ],
     "poster_source": "imdb",
     "imdb_rating": 5.5,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "error"
   },
   {
     "content_type": "ott_released",
@@ -1506,12 +1528,12 @@
     "original_title": "Renovation Romance",
     "original_language": "en",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/37018RONS3c5qusxIJV5BHrFF97.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/37018RONS3c5qusxIJV5BHrFF97.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/37018RONS3c5qusxIJV5BHrFF97.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/37018RONS3c5qusxIJV5BHrFF97.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/37018RONS3c5qusxIJV5BHrFF97.jpg",
+      "original": "https://image.tmdb.org/t/p/original/37018RONS3c5qusxIJV5BHrFF97.jpg"
     },
     "all_posters": [
       {
@@ -1520,11 +1542,21 @@
         "medium": "https://image.tmdb.org/t/p/w342/37018RONS3c5qusxIJV5BHrFF97.jpg",
         "large": "https://image.tmdb.org/t/p/w500/37018RONS3c5qusxIJV5BHrFF97.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/37018RONS3c5qusxIJV5BHrFF97.jpg",
-        "original": "https://image.tmdb.org/t/p/original/37018RONS3c5qusxIJV5BHrFF97.jpg"
+        "original": "https://image.tmdb.org/t/p/original/37018RONS3c5qusxIJV5BHrFF97.jpg",
+        "language": "en"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/AmAzEtbBaSe7aM69rgB3kqCjPvP.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/AmAzEtbBaSe7aM69rgB3kqCjPvP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/AmAzEtbBaSe7aM69rgB3kqCjPvP.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/AmAzEtbBaSe7aM69rgB3kqCjPvP.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/AmAzEtbBaSe7aM69rgB3kqCjPvP.jpg",
+        "original": "https://image.tmdb.org/t/p/original/AmAzEtbBaSe7aM69rgB3kqCjPvP.jpg",
+        "language": null
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNTI3MGYxOTMtZWFiYS00ZmE5LWE1YjYtYWVhYTlkMDU5MzQ2XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/37018RONS3c5qusxIJV5BHrFF97.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/37018RONS3c5qusxIJV5BHrFF97.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/kzx09MhjI5CnNsxKcLmmayxar4V.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/kzx09MhjI5CnNsxKcLmmayxar4V.jpg",
@@ -1577,7 +1609,8 @@
         "url": "https://www.imdb.com/name/nm0242903",
         "job": "Director"
       }
-    ]
+    ],
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -1617,57 +1650,62 @@
     "original_language": "en",
     "imdb_id": "tt13433802",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+      "original": "https://image.tmdb.org/t/p/original/hU42CRk14JuPEdqZG3AWmagiPAP.jpg"
     },
     "all_posters": [
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/jQm7ACcf5jA8H33ADhhfFnapjUS.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/jQm7ACcf5jA8H33ADhhfFnapjUS.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/jQm7ACcf5jA8H33ADhhfFnapjUS.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/jQm7ACcf5jA8H33ADhhfFnapjUS.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/jQm7ACcf5jA8H33ADhhfFnapjUS.jpg",
-        "original": "https://image.tmdb.org/t/p/original/jQm7ACcf5jA8H33ADhhfFnapjUS.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/ymMaqwKN3Ovy9nlIRmk5GsnxEkx.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/ymMaqwKN3Ovy9nlIRmk5GsnxEkx.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/ymMaqwKN3Ovy9nlIRmk5GsnxEkx.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/ymMaqwKN3Ovy9nlIRmk5GsnxEkx.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/ymMaqwKN3Ovy9nlIRmk5GsnxEkx.jpg",
-        "original": "https://image.tmdb.org/t/p/original/ymMaqwKN3Ovy9nlIRmk5GsnxEkx.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/A0BkOTAcXrGJPfN3BVHz4BIVImx.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/A0BkOTAcXrGJPfN3BVHz4BIVImx.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/A0BkOTAcXrGJPfN3BVHz4BIVImx.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/A0BkOTAcXrGJPfN3BVHz4BIVImx.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/A0BkOTAcXrGJPfN3BVHz4BIVImx.jpg",
-        "original": "https://image.tmdb.org/t/p/original/A0BkOTAcXrGJPfN3BVHz4BIVImx.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/pN9BtzUeqPIKybAu9baihz6YzyO.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/pN9BtzUeqPIKybAu9baihz6YzyO.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/pN9BtzUeqPIKybAu9baihz6YzyO.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/pN9BtzUeqPIKybAu9baihz6YzyO.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/pN9BtzUeqPIKybAu9baihz6YzyO.jpg",
-        "original": "https://image.tmdb.org/t/p/original/pN9BtzUeqPIKybAu9baihz6YzyO.jpg"
-      },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
         "small": "https://image.tmdb.org/t/p/w185/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
         "medium": "https://image.tmdb.org/t/p/w342/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
         "large": "https://image.tmdb.org/t/p/w500/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
-        "original": "https://image.tmdb.org/t/p/original/hU42CRk14JuPEdqZG3AWmagiPAP.jpg"
+        "original": "https://image.tmdb.org/t/p/original/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+        "language": "en"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg",
+        "original": "https://image.tmdb.org/t/p/original/yrpPYKijwdMHyTGIOd1iK1h0Xno.jpg",
+        "language": "en"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/vbI5h1Enc3gscdmg7lRnG4jX4R7.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/vbI5h1Enc3gscdmg7lRnG4jX4R7.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vbI5h1Enc3gscdmg7lRnG4jX4R7.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vbI5h1Enc3gscdmg7lRnG4jX4R7.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/vbI5h1Enc3gscdmg7lRnG4jX4R7.jpg",
+        "original": "https://image.tmdb.org/t/p/original/vbI5h1Enc3gscdmg7lRnG4jX4R7.jpg",
+        "language": "en"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/2JhadBY56wfnGUFfTX1ftPW1nyL.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/2JhadBY56wfnGUFfTX1ftPW1nyL.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2JhadBY56wfnGUFfTX1ftPW1nyL.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2JhadBY56wfnGUFfTX1ftPW1nyL.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/2JhadBY56wfnGUFfTX1ftPW1nyL.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2JhadBY56wfnGUFfTX1ftPW1nyL.jpg",
+        "language": "en"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/1lfI4Afq3ILzxJzy4xcrSgUchkf.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/1lfI4Afq3ILzxJzy4xcrSgUchkf.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/1lfI4Afq3ILzxJzy4xcrSgUchkf.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/1lfI4Afq3ILzxJzy4xcrSgUchkf.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/1lfI4Afq3ILzxJzy4xcrSgUchkf.jpg",
+        "original": "https://image.tmdb.org/t/p/original/1lfI4Afq3ILzxJzy4xcrSgUchkf.jpg",
+        "language": "en"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNWI5MDI0ZmEtZDk2Ny00YThmLTkzMGMtMDQwMDNkM2E4YTFlXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
@@ -1777,7 +1815,8 @@
     "youtube_title": "Final Trailer",
     "poster_source": "imdb",
     "imdb_rating": 6.3,
-    "year": 2024
+    "year": 2024,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -1795,14 +1834,22 @@
     "tmdb_media_type": "movie",
     "imdb_id": "tt35600079",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+      "original": "https://image.tmdb.org/t/p/original/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg"
     },
     "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+        "original": "https://image.tmdb.org/t/p/original/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg"
+      },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/noJfxGljShzBnDuZecobvL9MojJ.jpg",
         "small": "https://image.tmdb.org/t/p/w185/noJfxGljShzBnDuZecobvL9MojJ.jpg",
@@ -1818,14 +1865,6 @@
         "large": "https://image.tmdb.org/t/p/w500/4nkbqnPdwENn3yKrbVvDINf5ltO.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/4nkbqnPdwENn3yKrbVvDINf5ltO.jpg",
         "original": "https://image.tmdb.org/t/p/original/4nkbqnPdwENn3yKrbVvDINf5ltO.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
-        "original": "https://image.tmdb.org/t/p/original/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg"
       },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/rQp9P3CigiN3bgNm0NkYoSl3bMv.jpg",
@@ -1844,8 +1883,8 @@
         "original": "https://image.tmdb.org/t/p/original/8ey7sv3Fd9XmjnVxk5zR6uE4DUv.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/aUXyrFCvCg1BkYQDAEFmOGcKmnW.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/ajYw16ISz3qsdYTg4zy5rob1iAQ.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/ajYw16ISz3qsdYTg4zy5rob1iAQ.jpg",
@@ -1963,7 +2002,8 @@
     ],
     "imdb_rating": 6.1,
     "runtime": 80,
-    "year": 2025
+    "year": 2025,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -2099,18 +2139,61 @@
       "Ambareesh Kalathera"
     ],
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+      "original": "https://image.tmdb.org/t/p/original/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg"
     },
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
     "poster_source": "imdb",
     "imdb_rating": 8.1,
-    "year": 2025
+    "year": 2025,
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg",
+        "original": "https://image.tmdb.org/t/p/original/gPHdHjoUK2Hft5XpyYQ4s7XqxrE.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/x52XOqq43IMN5suwZHif6s5bSFP.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/x52XOqq43IMN5suwZHif6s5bSFP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/x52XOqq43IMN5suwZHif6s5bSFP.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/x52XOqq43IMN5suwZHif6s5bSFP.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/x52XOqq43IMN5suwZHif6s5bSFP.jpg",
+        "original": "https://image.tmdb.org/t/p/original/x52XOqq43IMN5suwZHif6s5bSFP.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/8IF54XB5GIqZWqugJUaD3hDSZH0.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/8IF54XB5GIqZWqugJUaD3hDSZH0.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/8IF54XB5GIqZWqugJUaD3hDSZH0.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/8IF54XB5GIqZWqugJUaD3hDSZH0.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/8IF54XB5GIqZWqugJUaD3hDSZH0.jpg",
+        "original": "https://image.tmdb.org/t/p/original/8IF54XB5GIqZWqugJUaD3hDSZH0.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/6tfbKRQQZudbtNDrjCERgahhhZb.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/6tfbKRQQZudbtNDrjCERgahhhZb.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/6tfbKRQQZudbtNDrjCERgahhhZb.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/6tfbKRQQZudbtNDrjCERgahhhZb.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/6tfbKRQQZudbtNDrjCERgahhhZb.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6tfbKRQQZudbtNDrjCERgahhhZb.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/vKveIdGbCEgW0VbpmEP3n7Ta0Lz.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/vKveIdGbCEgW0VbpmEP3n7Ta0Lz.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vKveIdGbCEgW0VbpmEP3n7Ta0Lz.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vKveIdGbCEgW0VbpmEP3n7Ta0Lz.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/vKveIdGbCEgW0VbpmEP3n7Ta0Lz.jpg",
+        "original": "https://image.tmdb.org/t/p/original/vKveIdGbCEgW0VbpmEP3n7Ta0Lz.jpg"
+      }
+    ],
+    "poster_language": "error"
   },
   {
     "content_type": "ott_released",
@@ -2138,12 +2221,12 @@
     "original_language": "en",
     "imdb_id": "tt12280494",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg",
+      "original": "https://image.tmdb.org/t/p/original/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg"
     },
     "all_posters": [
       {
@@ -2179,8 +2262,8 @@
         "original": "https://image.tmdb.org/t/p/original/dkPKYkMRzYHnVgVhcpqXLhbDiLq.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BYTA4YmIxOGYtZjYyOC00ZjI5LWI4YjEtOTE3MGJiYTU1MGE5XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/5XQt3mYY9pObAjhMJOH8AW0ErnK.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/yokMPbgYGZSdb0c2veZ6nfQBrii.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/yokMPbgYGZSdb0c2veZ6nfQBrii.jpg",
@@ -2299,7 +2382,8 @@
     "youtube_title": "Carol Doda Topless At The Condor Official Trailer Picturehouse",
     "poster_source": "imdb",
     "imdb_rating": 6.8,
-    "year": 2023
+    "year": 2023,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -2397,19 +2481,62 @@
     "writers": [],
     "imdb_id": "tt0237123",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+      "original": "https://image.tmdb.org/t/p/original/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg"
     },
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BM2EzMTA4MjgtOTBiYS00NGI2LWJhYTQtYWUzZDI2YjI2NTJlXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
     "poster_source": "imdb",
     "imdb_rating": 8.5,
     "runtime": 30,
-    "year": 2000
+    "year": 2000,
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg",
+        "original": "https://image.tmdb.org/t/p/original/sGXTdRNmpp7BUArum8AGaYMKPPi.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg",
+        "original": "https://image.tmdb.org/t/p/original/rF7sbfqSGinWPP54Eh1PuHgHaNd.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg",
+        "original": "https://image.tmdb.org/t/p/original/h71NnAik1cTeZTzb6RqvUNCRwkP.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/jcvaaDdIifJsbd8q8dPqu53WCud.jpg",
+        "original": "https://image.tmdb.org/t/p/original/jcvaaDdIifJsbd8q8dPqu53WCud.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg",
+        "original": "https://image.tmdb.org/t/p/original/dWfEw2YPrpKwHxH2K9SloCcMrnI.jpg"
+      }
+    ],
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -2442,12 +2569,12 @@
     "original_language": "en",
     "imdb_id": "tt36388163",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg",
+      "original": "https://image.tmdb.org/t/p/original/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg"
     },
     "all_posters": [
       {
@@ -2491,8 +2618,8 @@
         "original": "https://image.tmdb.org/t/p/original/iVion3LWgI21uCgNCRboyFfPoOl.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZWFiMzEzZTQtZjFiZC00YjhjLTk3Y2QtYzA2MjE4MmRiNzdmXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/mtQyt1Tx3ppR18BZRUCQQ9VUPZW.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/o8kdF2dZNzjEzuVZfgaSLUSVqNH.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/o8kdF2dZNzjEzuVZfgaSLUSVqNH.jpg",
@@ -2602,7 +2729,8 @@
     "youtube_title": "DUDE | Official Trailer [HD] | Netflix",
     "poster_source": "imdb",
     "imdb_rating": 6.6,
-    "year": 2025
+    "year": 2025,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -2629,12 +2757,12 @@
     "original_language": "fr",
     "imdb_id": "tt37895421",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg",
+      "original": "https://image.tmdb.org/t/p/original/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg"
     },
     "all_posters": [
       {
@@ -2662,8 +2790,8 @@
         "original": "https://image.tmdb.org/t/p/original/15Xja9WDqxylfwrV7QQ1aP8ABsb.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNmQ1Y2I3YmMtMjdlMi00NDc3LTg3NWItYjViOWMyN2Q0YTVlXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/rVeF3CV9qzDo35FQpi1llFjzLFf.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/lNeBO4E3j8gZExh0QeY7a7c8kCO.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/lNeBO4E3j8gZExh0QeY7a7c8kCO.jpg",
@@ -2704,7 +2832,8 @@
     "writers": [],
     "poster_source": "imdb",
     "imdb_rating": 5.9,
-    "year": 2025
+    "year": 2025,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -2736,57 +2865,35 @@
     "original_language": "es",
     "imdb_id": "tt1510355",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+      "original": "https://image.tmdb.org/t/p/original/pAjk5syP0MUSav4O5dDPAGULqYH.jpg"
     },
     "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+        "language": "en"
+      },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/snnfulxgcvVdBx3olwiUGpG0var.jpg",
         "small": "https://image.tmdb.org/t/p/w185/snnfulxgcvVdBx3olwiUGpG0var.jpg",
         "medium": "https://image.tmdb.org/t/p/w342/snnfulxgcvVdBx3olwiUGpG0var.jpg",
         "large": "https://image.tmdb.org/t/p/w500/snnfulxgcvVdBx3olwiUGpG0var.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/snnfulxgcvVdBx3olwiUGpG0var.jpg",
-        "original": "https://image.tmdb.org/t/p/original/snnfulxgcvVdBx3olwiUGpG0var.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/2frfO6pr8i1Oh1iakIFRrLQGEK9.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/2frfO6pr8i1Oh1iakIFRrLQGEK9.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/2frfO6pr8i1Oh1iakIFRrLQGEK9.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/2frfO6pr8i1Oh1iakIFRrLQGEK9.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/2frfO6pr8i1Oh1iakIFRrLQGEK9.jpg",
-        "original": "https://image.tmdb.org/t/p/original/2frfO6pr8i1Oh1iakIFRrLQGEK9.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/lonnIJETJDSZXDp6tQWXwYipXNk.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/lonnIJETJDSZXDp6tQWXwYipXNk.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/lonnIJETJDSZXDp6tQWXwYipXNk.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/lonnIJETJDSZXDp6tQWXwYipXNk.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/lonnIJETJDSZXDp6tQWXwYipXNk.jpg",
-        "original": "https://image.tmdb.org/t/p/original/lonnIJETJDSZXDp6tQWXwYipXNk.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/wLbMEXcWRK32IfSp4sU6iRnvwBT.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/wLbMEXcWRK32IfSp4sU6iRnvwBT.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/wLbMEXcWRK32IfSp4sU6iRnvwBT.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/wLbMEXcWRK32IfSp4sU6iRnvwBT.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/wLbMEXcWRK32IfSp4sU6iRnvwBT.jpg",
-        "original": "https://image.tmdb.org/t/p/original/wLbMEXcWRK32IfSp4sU6iRnvwBT.jpg"
-      },
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/ffujY1rHUGCGXQqqPNWFnPkR8Sh.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/ffujY1rHUGCGXQqqPNWFnPkR8Sh.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/ffujY1rHUGCGXQqqPNWFnPkR8Sh.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/ffujY1rHUGCGXQqqPNWFnPkR8Sh.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/ffujY1rHUGCGXQqqPNWFnPkR8Sh.jpg",
-        "original": "https://image.tmdb.org/t/p/original/ffujY1rHUGCGXQqqPNWFnPkR8Sh.jpg"
+        "original": "https://image.tmdb.org/t/p/original/snnfulxgcvVdBx3olwiUGpG0var.jpg",
+        "language": null
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNDBmZjU3NjUtZjQ1Zi00MDlkLTkxYWYtZmFkOTVlYTVlOTA4XkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/pAjk5syP0MUSav4O5dDPAGULqYH.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/rLRcegZCRnnBNZJ056x4Q28J02L.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/rLRcegZCRnnBNZJ056x4Q28J02L.jpg",
@@ -2885,7 +2992,8 @@
     "writers": [],
     "poster_source": "imdb",
     "imdb_rating": 7.1,
-    "year": 2009
+    "year": 2009,
+    "poster_language": "en"
   },
   {
     "content_type": "ott_released",
@@ -2919,22 +3027,14 @@
     "original_language": "en",
     "imdb_id": "tt27604215",
     "posters": {
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
-      "small": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
-      "medium": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
-      "large": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
-      "xlarge": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
-      "original": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg"
+      "thumbnail": "https://image.tmdb.org/t/p/w92/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w780/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+      "original": "https://image.tmdb.org/t/p/original/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg"
     },
     "all_posters": [
-      {
-        "thumbnail": "https://image.tmdb.org/t/p/w92/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-        "small": "https://image.tmdb.org/t/p/w185/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-        "medium": "https://image.tmdb.org/t/p/w342/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-        "large": "https://image.tmdb.org/t/p/w500/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-        "xlarge": "https://image.tmdb.org/t/p/w780/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
-        "original": "https://image.tmdb.org/t/p/original/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg"
-      },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
         "small": "https://image.tmdb.org/t/p/w185/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
@@ -2942,6 +3042,14 @@
         "large": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
         "xlarge": "https://image.tmdb.org/t/p/w780/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
         "original": "https://image.tmdb.org/t/p/original/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w780/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg",
+        "original": "https://image.tmdb.org/t/p/original/np7ZzU2rmUqqIPQ4HtfcC8JLOvS.jpg"
       },
       {
         "thumbnail": "https://image.tmdb.org/t/p/w92/zwTfroDQ4aAg2Qi1x8u0IM2RjyH.jpg",
@@ -2968,8 +3076,8 @@
         "original": "https://image.tmdb.org/t/p/original/nr5ZmmXHOaIJigmBJIyiFUPTggY.jpg"
       }
     ],
-    "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/ug0TqgmByPCEYzR9lQWQmyAa7sw.jpg",
     "backdrops": {
       "small": "https://image.tmdb.org/t/p/w300/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
       "medium": "https://image.tmdb.org/t/p/w780/pU9cz8mZjzwyPAcJDPXBlK99BoR.jpg",
@@ -3088,6 +3196,7 @@
     "youtube_title": "Official Trailer",
     "poster_source": "imdb",
     "imdb_rating": 6.6,
-    "year": 2025
+    "year": 2025,
+    "poster_language": "error"
   }
 ]
