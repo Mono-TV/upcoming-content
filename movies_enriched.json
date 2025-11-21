@@ -28,7 +28,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/sksv7MBWLNYGUZTq04KuoIZAlpw.jpg",
       "large": "https://image.tmdb.org/t/p/w500/sksv7MBWLNYGUZTq04KuoIZAlpw.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/sksv7MBWLNYGUZTq04KuoIZAlpw.jpg",
-      "original": "https://image.tmdb.org/t/p/original/sksv7MBWLNYGUZTq04KuoIZAlpw.jpg"
+      "original": "https://image.tmdb.org/t/p/original/sksv7MBWLNYGUZTq04KuoIZAlpw.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNmZmZWQ5NTItM2QyZi00NjFjLWI2OWItYzBlZWRiY2Q1NGI1XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/sksv7MBWLNYGUZTq04KuoIZAlpw.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/sksv7MBWLNYGUZTq04KuoIZAlpw.jpg",
@@ -116,7 +117,9 @@
     ],
     "writers": [
       "Vikarnan Asokan"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNmZmZWQ5NTItM2QyZi00NjFjLWI2OWItYzBlZWRiY2Q1NGI1XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNmZmZWQ5NTItM2QyZi00NjFjLWI2OWItYzBlZWRiY2Q1NGI1XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Hind Ki Chadar - Guru Ladho Re",
@@ -382,7 +385,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/3AAteaOo0eqrxH3p4kOgB1Idy23.jpg",
       "large": "https://image.tmdb.org/t/p/w500/3AAteaOo0eqrxH3p4kOgB1Idy23.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/3AAteaOo0eqrxH3p4kOgB1Idy23.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3AAteaOo0eqrxH3p4kOgB1Idy23.jpg"
+      "original": "https://image.tmdb.org/t/p/original/3AAteaOo0eqrxH3p4kOgB1Idy23.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjViNTI0NWQtZDMzMC00OWYzLTlhNjUtYTk3N2NlNjE0OGFhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/3AAteaOo0eqrxH3p4kOgB1Idy23.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/3AAteaOo0eqrxH3p4kOgB1Idy23.jpg",
@@ -413,7 +417,9 @@
     ],
     "youtube_id": "krsDWrm9rAQ",
     "youtube_url": "https://www.youtube.com/watch?v=krsDWrm9rAQ",
-    "youtube_title": "HIND DI CHADAR | Official Trailer | Premieres 21st November"
+    "youtube_title": "HIND DI CHADAR | Official Trailer | Premieres 21st November",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjViNTI0NWQtZDMzMC00OWYzLTlhNjUtYTk3N2NlNjE0OGFhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjViNTI0NWQtZDMzMC00OWYzLTlhNjUtYTk3N2NlNjE0OGFhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Police",
@@ -441,7 +447,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/dn6mMsWjRE9sSdczZvueQSJUHiS.jpg",
       "large": "https://image.tmdb.org/t/p/w500/dn6mMsWjRE9sSdczZvueQSJUHiS.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/dn6mMsWjRE9sSdczZvueQSJUHiS.jpg",
-      "original": "https://image.tmdb.org/t/p/original/dn6mMsWjRE9sSdczZvueQSJUHiS.jpg"
+      "original": "https://image.tmdb.org/t/p/original/dn6mMsWjRE9sSdczZvueQSJUHiS.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMzA3MzBkZTctNjg0NS00ZDg0LWFmZjEtNWU3NGJhNWY5NmRiXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/dn6mMsWjRE9sSdczZvueQSJUHiS.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/dn6mMsWjRE9sSdczZvueQSJUHiS.jpg",
@@ -516,7 +523,9 @@
     ],
     "youtube_id": "jBGkPmrNe1E",
     "youtube_url": "https://www.youtube.com/watch?v=jBGkPmrNe1E",
-    "youtube_title": "Police | Official Trailer"
+    "youtube_title": "Police | Official Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzA3MzBkZTctNjg0NS00ZDg0LWFmZjEtNWU3NGJhNWY5NmRiXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMzA3MzBkZTctNjg0NS00ZDg0LWFmZjEtNWU3NGJhNWY5NmRiXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "SHADES OF LIFE",
@@ -985,7 +994,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/ilc0GjyRDHjg1Fv9dBjsUgeynPE.jpg",
       "large": "https://image.tmdb.org/t/p/w500/ilc0GjyRDHjg1Fv9dBjsUgeynPE.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/ilc0GjyRDHjg1Fv9dBjsUgeynPE.jpg",
-      "original": "https://image.tmdb.org/t/p/original/ilc0GjyRDHjg1Fv9dBjsUgeynPE.jpg"
+      "original": "https://image.tmdb.org/t/p/original/ilc0GjyRDHjg1Fv9dBjsUgeynPE.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNWIyYjk0ODMtMzljOC00ZjU4LThiMGUtNzM2MGViOWQyZWU0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/ilc0GjyRDHjg1Fv9dBjsUgeynPE.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/ilc0GjyRDHjg1Fv9dBjsUgeynPE.jpg",
@@ -1058,7 +1068,9 @@
     ],
     "writers": [
       "N Vinayaka"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNWIyYjk0ODMtMzljOC00ZjU4LThiMGUtNzM2MGViOWQyZWU0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNWIyYjk0ODMtMzljOC00ZjU4LThiMGUtNzM2MGViOWQyZWU0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Task",
@@ -1279,7 +1291,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg",
       "large": "https://image.tmdb.org/t/p/w500/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg"
+      "original": "https://image.tmdb.org/t/p/original/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BY2I1MjNjMmItYzMxZS00Yjk2LWIyZmEtNzM2NDYzMmE3OTZhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg",
@@ -1294,7 +1307,9 @@
         "original": "https://image.tmdb.org/t/p/original/vgaaEfy2FoNpoGlBwmYtY9Vsary.jpg",
         "language": "te"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BY2I1MjNjMmItYzMxZS00Yjk2LWIyZmEtNzM2NDYzMmE3OTZhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BY2I1MjNjMmItYzMxZS00Yjk2LWIyZmEtNzM2NDYzMmE3OTZhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Academy of Fine Arts",
@@ -1324,7 +1339,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/17mtvZLDsu9eVMe4Aq9yk6t6iun.jpg",
       "large": "https://image.tmdb.org/t/p/w500/17mtvZLDsu9eVMe4Aq9yk6t6iun.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/17mtvZLDsu9eVMe4Aq9yk6t6iun.jpg",
-      "original": "https://image.tmdb.org/t/p/original/17mtvZLDsu9eVMe4Aq9yk6t6iun.jpg"
+      "original": "https://image.tmdb.org/t/p/original/17mtvZLDsu9eVMe4Aq9yk6t6iun.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZDMwODRkMDgtOGI1Mi00M2Y3LThjNTUtOTljYWU2NmQwMzA1XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/17mtvZLDsu9eVMe4Aq9yk6t6iun.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/17mtvZLDsu9eVMe4Aq9yk6t6iun.jpg",
@@ -1433,7 +1449,9 @@
     ],
     "writers": [
       "Jayabrata Das"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDMwODRkMDgtOGI1Mi00M2Y3LThjNTUtOTljYWU2NmQwMzA1XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZDMwODRkMDgtOGI1Mi00M2Y3LThjNTUtOTljYWU2NmQwMzA1XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Family Plan 2",
@@ -1464,7 +1482,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/OIWW0Hh29zpV0nd8PU3SUyAGt5.jpg",
       "large": "https://image.tmdb.org/t/p/w500/OIWW0Hh29zpV0nd8PU3SUyAGt5.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/OIWW0Hh29zpV0nd8PU3SUyAGt5.jpg",
-      "original": "https://image.tmdb.org/t/p/original/OIWW0Hh29zpV0nd8PU3SUyAGt5.jpg"
+      "original": "https://image.tmdb.org/t/p/original/OIWW0Hh29zpV0nd8PU3SUyAGt5.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNzk4NWNmMDYtZmRmMC00NDcxLWEyYTAtNDc5YWQwZDhlODI1XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/OIWW0Hh29zpV0nd8PU3SUyAGt5.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/OIWW0Hh29zpV0nd8PU3SUyAGt5.jpg",
@@ -1610,7 +1629,9 @@
     ],
     "youtube_id": "dqolYtJGuf4",
     "youtube_url": "https://www.youtube.com/watch?v=dqolYtJGuf4",
-    "youtube_title": "Official Trailer"
+    "youtube_title": "Official Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNzk4NWNmMDYtZmRmMC00NDcxLWEyYTAtNDc5YWQwZDhlODI1XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNzk4NWNmMDYtZmRmMC00NDcxLWEyYTAtNDc5YWQwZDhlODI1XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "120 Bahadur",
@@ -1639,7 +1660,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/fdxf02vUous6fty6O4nollyuo4m.jpg",
       "large": "https://image.tmdb.org/t/p/w500/fdxf02vUous6fty6O4nollyuo4m.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/fdxf02vUous6fty6O4nollyuo4m.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fdxf02vUous6fty6O4nollyuo4m.jpg"
+      "original": "https://image.tmdb.org/t/p/original/fdxf02vUous6fty6O4nollyuo4m.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BM2ZkZjRhMjItN2ZlNS00MTc3LTkyYWYtYTM1MWVjZGZlOWU5XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/fdxf02vUous6fty6O4nollyuo4m.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/fdxf02vUous6fty6O4nollyuo4m.jpg",
@@ -1702,7 +1724,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/oIc8dHzYmPRwrRB7mF03m1Erm6x.jpg",
         "original": "https://image.tmdb.org/t/p/original/oIc8dHzYmPRwrRB7mF03m1Erm6x.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2ZkZjRhMjItN2ZlNS00MTc3LTkyYWYtYTM1MWVjZGZlOWU5XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BM2ZkZjRhMjItN2ZlNS00MTc3LTkyYWYtYTM1MWVjZGZlOWU5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mask",
@@ -1878,7 +1902,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/jz6Arouqrx7jtCPqH8OzxdjjZ6P.jpg",
       "large": "https://image.tmdb.org/t/p/w500/jz6Arouqrx7jtCPqH8OzxdjjZ6P.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/jz6Arouqrx7jtCPqH8OzxdjjZ6P.jpg",
-      "original": "https://image.tmdb.org/t/p/original/jz6Arouqrx7jtCPqH8OzxdjjZ6P.jpg"
+      "original": "https://image.tmdb.org/t/p/original/jz6Arouqrx7jtCPqH8OzxdjjZ6P.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMzQ3OTI0ZTUtMzkwMC00MzZhLWJiZmYtODFmZjZmMmJiMTc5XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/jz6Arouqrx7jtCPqH8OzxdjjZ6P.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/jz6Arouqrx7jtCPqH8OzxdjjZ6P.jpg",
@@ -2029,7 +2054,9 @@
     ],
     "youtube_id": "3Jiax6tpDk8",
     "youtube_url": "https://www.youtube.com/watch?v=3Jiax6tpDk8",
-    "youtube_title": "Official UK Trailer [Subtitled]"
+    "youtube_title": "Official UK Trailer [Subtitled]",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzQ3OTI0ZTUtMzkwMC00MzZhLWJiZmYtODFmZjZmMmJiMTc5XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMzQ3OTI0ZTUtMzkwMC00MzZhLWJiZmYtODFmZjZmMmJiMTc5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mastiii 4",
@@ -2112,10 +2139,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjc0YTU4YmItOWEyNy00Yzc3LWIxYWYtNWQwOTU1ZmMyYzdmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Homebound",
@@ -2136,7 +2166,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",
       "large": "https://image.tmdb.org/t/p/w500/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg"
+      "original": "https://image.tmdb.org/t/p/original/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYmJiMTlhYTgtODkyMy00OGUwLWE2MzctZjlhMjQ1ZmZjZTNkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",
@@ -2229,7 +2260,9 @@
     ],
     "youtube_id": "WojNkusud84",
     "youtube_url": "https://www.youtube.com/watch?v=WojNkusud84",
-    "youtube_title": "HOMEBOUND - OFFICIAL TRAILER"
+    "youtube_title": "HOMEBOUND - OFFICIAL TRAILER",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmJiMTlhYTgtODkyMy00OGUwLWE2MzctZjlhMjQ1ZmZjZTNkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYmJiMTlhYTgtODkyMy00OGUwLWE2MzctZjlhMjQ1ZmZjZTNkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Deep Fridge",
@@ -2257,7 +2290,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/5vPIfRMc4OyFXouxcLyFRINhhpi.jpg",
       "large": "https://image.tmdb.org/t/p/w500/5vPIfRMc4OyFXouxcLyFRINhhpi.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/5vPIfRMc4OyFXouxcLyFRINhhpi.jpg",
-      "original": "https://image.tmdb.org/t/p/original/5vPIfRMc4OyFXouxcLyFRINhhpi.jpg"
+      "original": "https://image.tmdb.org/t/p/original/5vPIfRMc4OyFXouxcLyFRINhhpi.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYzIzZDA0MTMtODM4Zi00ZGI2LTgxOTItMDhmNTZmZjUxN2QxXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/5vPIfRMc4OyFXouxcLyFRINhhpi.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/5vPIfRMc4OyFXouxcLyFRINhhpi.jpg",
@@ -2325,7 +2359,9 @@
     "writers": [
       "Arjunn Dutta",
       "Ashirbad Maitra"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzIzZDA0MTMtODM4Zi00ZGI2LTgxOTItMDhmNTZmZjUxN2QxXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYzIzZDA0MTMtODM4Zi00ZGI2LTgxOTItMDhmNTZmZjUxN2QxXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Janata Bar",
@@ -2351,7 +2387,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/2Zpk5lM4hR6KferfpQ0iqZcTM3o.jpg",
       "large": "https://image.tmdb.org/t/p/w500/2Zpk5lM4hR6KferfpQ0iqZcTM3o.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/2Zpk5lM4hR6KferfpQ0iqZcTM3o.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2Zpk5lM4hR6KferfpQ0iqZcTM3o.jpg"
+      "original": "https://image.tmdb.org/t/p/original/2Zpk5lM4hR6KferfpQ0iqZcTM3o.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BM2IyODA4ZTAtYThkMi00MjMwLThlYjQtY2FkMTFjYmNhOWY0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/2Zpk5lM4hR6KferfpQ0iqZcTM3o.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/2Zpk5lM4hR6KferfpQ0iqZcTM3o.jpg",
@@ -2437,7 +2474,9 @@
     ],
     "writers": [
       "Rajendra Bharadwaj"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2IyODA4ZTAtYThkMi00MjMwLThlYjQtY2FkMTFjYmNhOWY0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BM2IyODA4ZTAtYThkMi00MjMwLThlYjQtY2FkMTFjYmNhOWY0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Ekō",
@@ -2468,7 +2507,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/dZgyMeYJBDQWeBnk5S28owTlaHe.jpg",
       "large": "https://image.tmdb.org/t/p/w500/dZgyMeYJBDQWeBnk5S28owTlaHe.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/dZgyMeYJBDQWeBnk5S28owTlaHe.jpg",
-      "original": "https://image.tmdb.org/t/p/original/dZgyMeYJBDQWeBnk5S28owTlaHe.jpg"
+      "original": "https://image.tmdb.org/t/p/original/dZgyMeYJBDQWeBnk5S28owTlaHe.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWNjNDRjYTctYmMxMS00Y2MzLWI4YjUtYTBhNjRiMWMwMDkxXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/dZgyMeYJBDQWeBnk5S28owTlaHe.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/dZgyMeYJBDQWeBnk5S28owTlaHe.jpg",
@@ -2525,7 +2565,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/9AVarUx6yv85Es9ZAIPN8dyq3JG.jpg",
         "original": "https://image.tmdb.org/t/p/original/9AVarUx6yv85Es9ZAIPN8dyq3JG.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWNjNDRjYTctYmMxMS00Y2MzLWI4YjUtYTBhNjRiMWMwMDkxXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMWNjNDRjYTctYmMxMS00Y2MzLWI4YjUtYTBhNjRiMWMwMDkxXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Magellan",
@@ -2554,7 +2596,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/4pkFwbAzqUlAmv2vHv4uSfVFYfa.jpg",
       "large": "https://image.tmdb.org/t/p/w500/4pkFwbAzqUlAmv2vHv4uSfVFYfa.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/4pkFwbAzqUlAmv2vHv4uSfVFYfa.jpg",
-      "original": "https://image.tmdb.org/t/p/original/4pkFwbAzqUlAmv2vHv4uSfVFYfa.jpg"
+      "original": "https://image.tmdb.org/t/p/original/4pkFwbAzqUlAmv2vHv4uSfVFYfa.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZDE5ZjVmODQtNDQxYy00MGZhLTg3MGYtZTNiMTkwNWM5MTUxXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/4pkFwbAzqUlAmv2vHv4uSfVFYfa.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/4pkFwbAzqUlAmv2vHv4uSfVFYfa.jpg",
@@ -2687,7 +2730,9 @@
     ],
     "youtube_id": "8h7rriQD1qc",
     "youtube_url": "https://www.youtube.com/watch?v=8h7rriQD1qc",
-    "youtube_title": "Official US Trailer [Subtitled]"
+    "youtube_title": "Official US Trailer [Subtitled]",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDE5ZjVmODQtNDQxYy00MGZhLTg3MGYtZTNiMTkwNWM5MTUxXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZDE5ZjVmODQtNDQxYy00MGZhLTg3MGYtZTNiMTkwNWM5MTUxXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Theeyavar Kulai Nadunga",
@@ -2834,7 +2879,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/bVCIwN0eh7RNfFdsC2qI5Ei7fIF.jpg",
       "large": "https://image.tmdb.org/t/p/w500/bVCIwN0eh7RNfFdsC2qI5Ei7fIF.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/bVCIwN0eh7RNfFdsC2qI5Ei7fIF.jpg",
-      "original": "https://image.tmdb.org/t/p/original/bVCIwN0eh7RNfFdsC2qI5Ei7fIF.jpg"
+      "original": "https://image.tmdb.org/t/p/original/bVCIwN0eh7RNfFdsC2qI5Ei7fIF.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNzNjODA5ODktNDlhOC00NWMwLTg5ZDctM2RkOWI2ZmQ5NDc4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/bVCIwN0eh7RNfFdsC2qI5Ei7fIF.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/bVCIwN0eh7RNfFdsC2qI5Ei7fIF.jpg",
@@ -2926,7 +2972,9 @@
     ],
     "youtube_id": "CNPPR5Lf9bE",
     "youtube_url": "https://www.youtube.com/watch?v=CNPPR5Lf9bE",
-    "youtube_title": "Manobjomin Official Trailer | Parambrata | Priyanka |Srijit | Joy | Srijato |New Bengali Movie 2023"
+    "youtube_title": "Manobjomin Official Trailer | Parambrata | Priyanka |Srijit | Joy | Srijato |New Bengali Movie 2023",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNzNjODA5ODktNDlhOC00NWMwLTg5ZDctM2RkOWI2ZmQ5NDc4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNzNjODA5ODktNDlhOC00NWMwLTg5ZDctM2RkOWI2ZmQ5NDc4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Bengal Files",
@@ -2958,7 +3006,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/3gbZh1S735CLz7NwFRb7bycUWkP.jpg",
       "large": "https://image.tmdb.org/t/p/w500/3gbZh1S735CLz7NwFRb7bycUWkP.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/3gbZh1S735CLz7NwFRb7bycUWkP.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3gbZh1S735CLz7NwFRb7bycUWkP.jpg"
+      "original": "https://image.tmdb.org/t/p/original/3gbZh1S735CLz7NwFRb7bycUWkP.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjRmYWUwOTUtNTBkNC00OTFlLWIxN2MtODQyMDcyYzFmNGM4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/3gbZh1S735CLz7NwFRb7bycUWkP.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/3gbZh1S735CLz7NwFRb7bycUWkP.jpg",
@@ -3110,7 +3159,9 @@
     ],
     "youtube_id": "3MfsZFAeNO8",
     "youtube_url": "https://www.youtube.com/watch?v=3MfsZFAeNO8",
-    "youtube_title": "THE BENGAL FILES Official Trailer | Vivek Agnihotri | Abhishek A | Pallavi J | Zee Studios | 5 Sept"
+    "youtube_title": "THE BENGAL FILES Official Trailer | Vivek Agnihotri | Abhishek A | Pallavi J | Zee Studios | 5 Sept",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjRmYWUwOTUtNTBkNC00OTFlLWIxN2MtODQyMDcyYzFmNGM4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjRmYWUwOTUtNTBkNC00OTFlLWIxN2MtODQyMDcyYzFmNGM4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Vilaayath Budha",
@@ -3139,7 +3190,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/6XGoYYcAFehUlyOmLP620RwIvDf.jpg",
       "large": "https://image.tmdb.org/t/p/w500/6XGoYYcAFehUlyOmLP620RwIvDf.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/6XGoYYcAFehUlyOmLP620RwIvDf.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6XGoYYcAFehUlyOmLP620RwIvDf.jpg"
+      "original": "https://image.tmdb.org/t/p/original/6XGoYYcAFehUlyOmLP620RwIvDf.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BM2I2ZGFiODctY2U5Yy00ZTNmLTkxMjAtZDVmNmQ3OGQ0NzEwXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/6XGoYYcAFehUlyOmLP620RwIvDf.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/6XGoYYcAFehUlyOmLP620RwIvDf.jpg",
@@ -3288,7 +3340,9 @@
     "writers": [
       "G.R. Indugopan",
       "Rajesh Pinnadan"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2I2ZGFiODctY2U5Yy00ZTNmLTkxMjAtZDVmNmQ3OGQ0NzEwXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BM2I2ZGFiODctY2U5Yy00ZTNmLTkxMjAtZDVmNmQ3OGQ0NzEwXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "No Other Choice",
@@ -3318,7 +3372,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
       "large": "https://image.tmdb.org/t/p/w500/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
-      "original": "https://image.tmdb.org/t/p/original/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg"
+      "original": "https://image.tmdb.org/t/p/original/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
@@ -3411,7 +3466,9 @@
     ],
     "youtube_id": "SK_DEabMNVg",
     "youtube_url": "https://www.youtube.com/watch?v=SK_DEabMNVg",
-    "youtube_title": "Official Trailer [Subtitled]"
+    "youtube_title": "Official Trailer [Subtitled]",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "It Was Just an Accident",
@@ -3441,7 +3498,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
       "large": "https://image.tmdb.org/t/p/w500/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
-      "original": "https://image.tmdb.org/t/p/original/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg"
+      "original": "https://image.tmdb.org/t/p/original/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWJkZmZlNjUtM2Q1OC00MmNjLWFkOWEtNjRhN2FkM2ZlMjI3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
@@ -3587,7 +3645,9 @@
     ],
     "youtube_id": "9oHw2ubyWE4",
     "youtube_url": "https://www.youtube.com/watch?v=9oHw2ubyWE4",
-    "youtube_title": "Official International Trailer [Subtitled]"
+    "youtube_title": "Official International Trailer [Subtitled]",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWJkZmZlNjUtM2Q1OC00MmNjLWFkOWEtNjRhN2FkM2ZlMjI3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMWJkZmZlNjUtM2Q1OC00MmNjLWFkOWEtNjRhN2FkM2ZlMjI3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Haati Haati Paa Paa",
@@ -3615,7 +3675,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/uJBg5qG1nsqjJQAJZ1DUE1gv5GO.jpg",
       "large": "https://image.tmdb.org/t/p/w500/uJBg5qG1nsqjJQAJZ1DUE1gv5GO.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/uJBg5qG1nsqjJQAJZ1DUE1gv5GO.jpg",
-      "original": "https://image.tmdb.org/t/p/original/uJBg5qG1nsqjJQAJZ1DUE1gv5GO.jpg"
+      "original": "https://image.tmdb.org/t/p/original/uJBg5qG1nsqjJQAJZ1DUE1gv5GO.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYTlkMGNhNDgtMDQ4ZS00MmZhLTk4YzktMDAzYTAyMDNhNTFlXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/uJBg5qG1nsqjJQAJZ1DUE1gv5GO.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/uJBg5qG1nsqjJQAJZ1DUE1gv5GO.jpg",
@@ -3697,7 +3758,9 @@
     ],
     "writers": [
       "Priyanka Poddar"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTlkMGNhNDgtMDQ4ZS00MmZhLTk4YzktMDAzYTAyMDNhNTFlXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYTlkMGNhNDgtMDQ4ZS00MmZhLTk4YzktMDAzYTAyMDNhNTFlXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Papa Buka",
@@ -3725,7 +3788,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/cQ3oObTE9kHMY1wM50RpVBxKkpu.jpg",
       "large": "https://image.tmdb.org/t/p/w500/cQ3oObTE9kHMY1wM50RpVBxKkpu.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/cQ3oObTE9kHMY1wM50RpVBxKkpu.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cQ3oObTE9kHMY1wM50RpVBxKkpu.jpg"
+      "original": "https://image.tmdb.org/t/p/original/cQ3oObTE9kHMY1wM50RpVBxKkpu.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNWI4NWUyOTgtMGNkNy00NmY5LWEzNGQtNTVhZDEwZjA0ZThmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/cQ3oObTE9kHMY1wM50RpVBxKkpu.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/cQ3oObTE9kHMY1wM50RpVBxKkpu.jpg",
@@ -3876,7 +3940,9 @@
     ],
     "youtube_id": "pjleBn3k_Zg",
     "youtube_url": "https://www.youtube.com/watch?v=pjleBn3k_Zg",
-    "youtube_title": "Official Trailer"
+    "youtube_title": "Official Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNWI4NWUyOTgtMGNkNy00NmY5LWEzNGQtNTVhZDEwZjA0ZThmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNWI4NWUyOTgtMGNkNy00NmY5LWEzNGQtNTVhZDEwZjA0ZThmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Father Mother Sister Brother",
@@ -3897,7 +3963,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/zewZA6sL52YSH8xIH4wbG5GadjV.jpg",
       "large": "https://image.tmdb.org/t/p/w500/zewZA6sL52YSH8xIH4wbG5GadjV.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/zewZA6sL52YSH8xIH4wbG5GadjV.jpg",
-      "original": "https://image.tmdb.org/t/p/original/zewZA6sL52YSH8xIH4wbG5GadjV.jpg"
+      "original": "https://image.tmdb.org/t/p/original/zewZA6sL52YSH8xIH4wbG5GadjV.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNWI5OTEzMzEtZTdiNS00NTdjLWFjMTQtZDM5MjRjYWE1M2ZkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/zewZA6sL52YSH8xIH4wbG5GadjV.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/zewZA6sL52YSH8xIH4wbG5GadjV.jpg",
@@ -4042,7 +4109,9 @@
     ],
     "youtube_id": "PA07EmbZ0b0",
     "youtube_url": "https://www.youtube.com/watch?v=PA07EmbZ0b0",
-    "youtube_title": "Official Trailer"
+    "youtube_title": "Official Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNWI5OTEzMzEtZTdiNS00NTdjLWFjMTQtZDM5MjRjYWE1M2ZkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNWI5OTEzMzEtZTdiNS00NTdjLWFjMTQtZDM5MjRjYWE1M2ZkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "OTP : Olunga Thiruda Palagu",
@@ -4229,10 +4298,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZjJlNzRiOTAtMTU3OS00ZjE2LWE0N2YtZWEzNjkzYWMwMjVjXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Sentimental Value",
@@ -4260,7 +4332,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
       "large": "https://image.tmdb.org/t/p/w500/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
-      "original": "https://image.tmdb.org/t/p/original/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg"
+      "original": "https://image.tmdb.org/t/p/original/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BM2Y5ZjNhZjEtOTQxNi00ZWU3LTk1MGQtYjE3MWZiNWUwNjc0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
@@ -4412,7 +4485,9 @@
     ],
     "youtube_id": "zBFstFXdk90",
     "youtube_url": "https://www.youtube.com/watch?v=zBFstFXdk90",
-    "youtube_title": "Official Trailer #2 [Subtitled]"
+    "youtube_title": "Official Trailer #2 [Subtitled]",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2Y5ZjNhZjEtOTQxNi00ZWU3LTk1MGQtYjE3MWZiNWUwNjc0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BM2Y5ZjNhZjEtOTQxNi00ZWU3LTk1MGQtYjE3MWZiNWUwNjc0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Calorie",
@@ -4657,7 +4732,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/wvSc3Swz1lCGewaJynWuXh6ndRV.jpg",
       "large": "https://image.tmdb.org/t/p/w500/wvSc3Swz1lCGewaJynWuXh6ndRV.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/wvSc3Swz1lCGewaJynWuXh6ndRV.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wvSc3Swz1lCGewaJynWuXh6ndRV.jpg"
+      "original": "https://image.tmdb.org/t/p/original/wvSc3Swz1lCGewaJynWuXh6ndRV.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMzQ5OTU5YmItOWU5Yi00MWZkLWI4OWQtYmVkYjc5NWM2YjhhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/wvSc3Swz1lCGewaJynWuXh6ndRV.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/wvSc3Swz1lCGewaJynWuXh6ndRV.jpg",
@@ -4726,7 +4802,9 @@
     ],
     "youtube_id": "Stzq4XUp7sU",
     "youtube_url": "https://www.youtube.com/watch?v=Stzq4XUp7sU",
-    "youtube_title": "Amoeba by Tan Siyou - Trailer - TIFF Discovery 2025"
+    "youtube_title": "Amoeba by Tan Siyou - Trailer - TIFF Discovery 2025",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzQ5OTU5YmItOWU5Yi00MWZkLWI4OWQtYmVkYjc5NWM2YjhhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMzQ5OTU5YmItOWU5Yi00MWZkLWI4OWQtYmVkYjc5NWM2YjhhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Small Clouds",
@@ -4853,7 +4931,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/tU8hmPk1HEZXK4jxeeeDMaRA5UG.jpg",
       "large": "https://image.tmdb.org/t/p/w500/tU8hmPk1HEZXK4jxeeeDMaRA5UG.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/tU8hmPk1HEZXK4jxeeeDMaRA5UG.jpg",
-      "original": "https://image.tmdb.org/t/p/original/tU8hmPk1HEZXK4jxeeeDMaRA5UG.jpg"
+      "original": "https://image.tmdb.org/t/p/original/tU8hmPk1HEZXK4jxeeeDMaRA5UG.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZjkyYjdlYWYtMDdkMi00OGE5LTk2YzMtYThlMjU1MzJlN2ZiXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/tU8hmPk1HEZXK4jxeeeDMaRA5UG.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/tU8hmPk1HEZXK4jxeeeDMaRA5UG.jpg",
@@ -4926,7 +5005,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZjkyYjdlYWYtMDdkMi00OGE5LTk2YzMtYThlMjU1MzJlN2ZiXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZjkyYjdlYWYtMDdkMi00OGE5LTk2YzMtYThlMjU1MzJlN2ZiXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "EKAKI",
@@ -5011,7 +5092,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg",
       "large": "https://image.tmdb.org/t/p/w500/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg",
-      "original": "https://image.tmdb.org/t/p/original/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg"
+      "original": "https://image.tmdb.org/t/p/original/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNjlhODg1NjctOTA4Zi00NzkyLTliMTYtZGEyNjU5MGM4ZWM2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/k3ZkowkAPpfLwhD8eV3OhFooYgo.jpg",
@@ -5092,7 +5174,9 @@
     ],
     "youtube_id": "ddcN6CBRLFs",
     "youtube_url": "https://www.youtube.com/watch?v=ddcN6CBRLFs",
-    "youtube_title": "Bank of Bhagyalakshmi Trailer [Kannada] | Dheekshith Shetty, Brinda Acharya |Abhishek M|Judah Sandhy"
+    "youtube_title": "Bank of Bhagyalakshmi Trailer [Kannada] | Dheekshith Shetty, Brinda Acharya |Abhishek M|Judah Sandhy",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjlhODg1NjctOTA4Zi00NzkyLTliMTYtZGEyNjU5MGM4ZWM2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNjlhODg1NjctOTA4Zi00NzkyLTliMTYtZGEyNjU5MGM4ZWM2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Gloaming in Luomu",
@@ -5120,7 +5204,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/vscGzT8s2C6yPoyOA6rNv9O1znN.jpg",
       "large": "https://image.tmdb.org/t/p/w500/vscGzT8s2C6yPoyOA6rNv9O1znN.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/vscGzT8s2C6yPoyOA6rNv9O1znN.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vscGzT8s2C6yPoyOA6rNv9O1znN.jpg"
+      "original": "https://image.tmdb.org/t/p/original/vscGzT8s2C6yPoyOA6rNv9O1znN.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZWY0ZmIxZTItYjdlYy00YTQ5LTlkMTUtNzk2NTc5YjdmOTQ0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/vscGzT8s2C6yPoyOA6rNv9O1znN.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/vscGzT8s2C6yPoyOA6rNv9O1znN.jpg",
@@ -5191,7 +5276,9 @@
     ],
     "writers": [
       "Zhang Lu"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZWY0ZmIxZTItYjdlYy00YTQ5LTlkMTUtNzk2NTc5YjdmOTQ0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZWY0ZmIxZTItYjdlYy00YTQ5LTlkMTUtNzk2NTc5YjdmOTQ0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Mastermind",
@@ -5220,7 +5307,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg",
       "large": "https://image.tmdb.org/t/p/w500/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg",
-      "original": "https://image.tmdb.org/t/p/original/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg"
+      "original": "https://image.tmdb.org/t/p/original/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYmEzYzMwZDUtMjdiYi00YmRlLWJiNjYtYzY2N2E3ZWZjOTcxXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg",
@@ -5329,7 +5417,9 @@
     ],
     "writers": [
       "Kelly Reichardt"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmEzYzMwZDUtMjdiYi00YmRlLWJiNjYtYzY2N2E3ZWZjOTcxXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYmEzYzMwZDUtMjdiYi00YmRlLWJiNjYtYzY2N2E3ZWZjOTcxXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Deri Hoye Geche",
@@ -5430,7 +5520,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/3Z9bXM0ZDsQgoFkeK9KI2cFaGJm.jpg",
       "large": "https://image.tmdb.org/t/p/w500/3Z9bXM0ZDsQgoFkeK9KI2cFaGJm.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/3Z9bXM0ZDsQgoFkeK9KI2cFaGJm.jpg",
-      "original": "https://image.tmdb.org/t/p/original/3Z9bXM0ZDsQgoFkeK9KI2cFaGJm.jpg"
+      "original": "https://image.tmdb.org/t/p/original/3Z9bXM0ZDsQgoFkeK9KI2cFaGJm.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjg5OWQxNzMtM2VkMS00ODA4LTg1MWMtNmIyYzhlNTRmNjg0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/3Z9bXM0ZDsQgoFkeK9KI2cFaGJm.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/3Z9bXM0ZDsQgoFkeK9KI2cFaGJm.jpg",
@@ -5566,7 +5657,9 @@
     ],
     "writers": [
       "Ananyabrata Chakravorty"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjg5OWQxNzMtM2VkMS00ODA4LTg1MWMtNmIyYzhlNTRmNjg0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjg5OWQxNzMtM2VkMS00ODA4LTg1MWMtNmIyYzhlNTRmNjg0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Andhra King Taluka",
@@ -5596,7 +5689,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/6oiUCkXb0GXqAhLSL3zCGtp8Ez3.jpg",
       "large": "https://image.tmdb.org/t/p/w500/6oiUCkXb0GXqAhLSL3zCGtp8Ez3.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/6oiUCkXb0GXqAhLSL3zCGtp8Ez3.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6oiUCkXb0GXqAhLSL3zCGtp8Ez3.jpg"
+      "original": "https://image.tmdb.org/t/p/original/6oiUCkXb0GXqAhLSL3zCGtp8Ez3.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMTJkYmVhNTctODE1MS00ZGMyLTliZjctNDllNzljNzQ3NThmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/6oiUCkXb0GXqAhLSL3zCGtp8Ez3.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/6oiUCkXb0GXqAhLSL3zCGtp8Ez3.jpg",
@@ -5677,7 +5771,9 @@
     ],
     "writers": [
       "Mahesh Babu P."
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTJkYmVhNTctODE1MS00ZGMyLTliZjctNDllNzljNzQ3NThmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMTJkYmVhNTctODE1MS00ZGMyLTliZjctNDllNzljNzQ3NThmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Yaksha",
@@ -5757,7 +5853,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
       "large": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
-      "original": "https://image.tmdb.org/t/p/original/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg"
+      "original": "https://image.tmdb.org/t/p/original/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
@@ -5852,7 +5949,9 @@
     ],
     "youtube_id": "NyS3c6ImxqE",
     "youtube_url": "https://www.youtube.com/watch?v=NyS3c6ImxqE",
-    "youtube_title": "Raktabeej 2 l Official Trailer | Nandita Roy | Shiboprosad Mukherjee | Windows"
+    "youtube_title": "Raktabeej 2 l Official Trailer | Nandita Roy | Shiboprosad Mukherjee | Windows",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Victoria",
@@ -5953,10 +6052,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNDg1YjA0MzQtYjg1MS00OGUzLThhZDAtMjJhYThkOTM3NjIzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Eternity",
@@ -5986,7 +6088,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/iKaM4OfSf5ABkFZCo4vU4Dth7ZU.jpg",
       "large": "https://image.tmdb.org/t/p/w500/iKaM4OfSf5ABkFZCo4vU4Dth7ZU.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/iKaM4OfSf5ABkFZCo4vU4Dth7ZU.jpg",
-      "original": "https://image.tmdb.org/t/p/original/iKaM4OfSf5ABkFZCo4vU4Dth7ZU.jpg"
+      "original": "https://image.tmdb.org/t/p/original/iKaM4OfSf5ABkFZCo4vU4Dth7ZU.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNzlmZTNiOTAtNzhlOC00ZTA1LWJhNTgtMDQ4YmY4NWIyNTA4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/iKaM4OfSf5ABkFZCo4vU4Dth7ZU.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/iKaM4OfSf5ABkFZCo4vU4Dth7ZU.jpg",
@@ -6138,7 +6241,9 @@
     ],
     "youtube_id": "GzkoY6hUvQQ",
     "youtube_url": "https://www.youtube.com/watch?v=GzkoY6hUvQQ",
-    "youtube_title": "Official Trailer 2"
+    "youtube_title": "Official Trailer 2",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNzlmZTNiOTAtNzhlOC00ZTA1LWJhNTgtMDQ4YmY4NWIyNTA4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNzlmZTNiOTAtNzhlOC00ZTA1LWJhNTgtMDQ4YmY4NWIyNTA4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Gustaakh Ishq",
@@ -6211,10 +6316,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYzQ1NDUxYTMtNTdmNC00NDUwLTg3NzQtNjBkMzlhZDIwN2FjXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Train",
@@ -6243,7 +6351,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/kdR0jx7i8AmRn3UijWLb9j7osi2.jpg",
       "large": "https://image.tmdb.org/t/p/w500/kdR0jx7i8AmRn3UijWLb9j7osi2.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/kdR0jx7i8AmRn3UijWLb9j7osi2.jpg",
-      "original": "https://image.tmdb.org/t/p/original/kdR0jx7i8AmRn3UijWLb9j7osi2.jpg"
+      "original": "https://image.tmdb.org/t/p/original/kdR0jx7i8AmRn3UijWLb9j7osi2.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BN2I1N2JjNGItMTg5NS00YTg2LTkyMTItMGY1YjA4ZGU2ODNmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/kdR0jx7i8AmRn3UijWLb9j7osi2.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/kdR0jx7i8AmRn3UijWLb9j7osi2.jpg",
@@ -6391,7 +6500,9 @@
     ],
     "writers": [
       "Mysskin"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BN2I1N2JjNGItMTg5NS00YTg2LTkyMTItMGY1YjA4ZGU2ODNmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BN2I1N2JjNGItMTg5NS00YTg2LTkyMTItMGY1YjA4ZGU2ODNmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Tere Ishk Mein",
@@ -6421,7 +6532,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/7FsHlW9z7gDhDE4EXAE2WcXUVQj.jpg",
       "large": "https://image.tmdb.org/t/p/w500/7FsHlW9z7gDhDE4EXAE2WcXUVQj.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/7FsHlW9z7gDhDE4EXAE2WcXUVQj.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7FsHlW9z7gDhDE4EXAE2WcXUVQj.jpg"
+      "original": "https://image.tmdb.org/t/p/original/7FsHlW9z7gDhDE4EXAE2WcXUVQj.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOGRjMzM1ZmUtMjk0Yi00NzA0LTk3ZWYtZWM3MWY3M2EwMjBhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/7FsHlW9z7gDhDE4EXAE2WcXUVQj.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/7FsHlW9z7gDhDE4EXAE2WcXUVQj.jpg",
@@ -6550,7 +6662,9 @@
     "writers": [
       "Himanshu Sharma",
       "Neeraj Yadav"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOGRjMzM1ZmUtMjk0Yi00NzA0LTk3ZWYtZWM3MWY3M2EwMjBhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOGRjMzM1ZmUtMjk0Yi00NzA0LTk3ZWYtZWM3MWY3M2EwMjBhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Zootopia 2",
@@ -6582,7 +6696,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
       "large": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg"
+      "original": "https://image.tmdb.org/t/p/original/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYjg1Mjc3MjQtMTZjNy00YWVlLWFhMWEtMWI3ZTgxYjJmNmRlXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg",
@@ -6675,7 +6790,9 @@
     ],
     "youtube_id": "sEgPQ7HKoBA",
     "youtube_url": "https://www.youtube.com/watch?v=sEgPQ7HKoBA",
-    "youtube_title": "International Trailer"
+    "youtube_title": "International Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjg1Mjc3MjQtMTZjNy00YWVlLWFhMWEtMWI3ZTgxYjJmNmRlXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYjg1Mjc3MjQtMTZjNy00YWVlLWFhMWEtMWI3ZTgxYjJmNmRlXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Revolver Rita",
@@ -6705,7 +6822,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/7chr4m0OLkGX2curIk57ax27kk3.jpg",
       "large": "https://image.tmdb.org/t/p/w500/7chr4m0OLkGX2curIk57ax27kk3.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/7chr4m0OLkGX2curIk57ax27kk3.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7chr4m0OLkGX2curIk57ax27kk3.jpg"
+      "original": "https://image.tmdb.org/t/p/original/7chr4m0OLkGX2curIk57ax27kk3.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYjgzYmNiYTUtOWI1Ni00NGVjLWE1NmYtZDNjMGRiYWFjYmQ2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/7chr4m0OLkGX2curIk57ax27kk3.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/7chr4m0OLkGX2curIk57ax27kk3.jpg",
@@ -6802,7 +6920,9 @@
     ],
     "writers": [
       "K. Chandru"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjgzYmNiYTUtOWI1Ni00NGVjLWE1NmYtZDNjMGRiYWFjYmQ2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYjgzYmNiYTUtOWI1Ni00NGVjLWE1NmYtZDNjMGRiYWFjYmQ2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Raghu Dakat",
@@ -6833,7 +6953,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/mV3N83F2bTzbaOKF7HEHTeA6UcL.jpg",
       "large": "https://image.tmdb.org/t/p/w500/mV3N83F2bTzbaOKF7HEHTeA6UcL.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/mV3N83F2bTzbaOKF7HEHTeA6UcL.jpg",
-      "original": "https://image.tmdb.org/t/p/original/mV3N83F2bTzbaOKF7HEHTeA6UcL.jpg"
+      "original": "https://image.tmdb.org/t/p/original/mV3N83F2bTzbaOKF7HEHTeA6UcL.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNDkwNGY0MTItZTcyOC00MDYwLTllYzMtOTA0MmYyMTUzMmYyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/mV3N83F2bTzbaOKF7HEHTeA6UcL.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/mV3N83F2bTzbaOKF7HEHTeA6UcL.jpg",
@@ -6969,7 +7090,9 @@
     "directors": [
       "Dhrubo Banerjee"
     ],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNDkwNGY0MTItZTcyOC00MDYwLTllYzMtOTA0MmYyMTUzMmYyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNDkwNGY0MTItZTcyOC00MDYwLTllYzMtOTA0MmYyMTUzMmYyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "All the Empty Rooms",
@@ -7157,7 +7280,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/lKvhG2SP6q8N7UZY9RC1Gw1qfu4.jpg",
       "large": "https://image.tmdb.org/t/p/w500/lKvhG2SP6q8N7UZY9RC1Gw1qfu4.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/lKvhG2SP6q8N7UZY9RC1Gw1qfu4.jpg",
-      "original": "https://image.tmdb.org/t/p/original/lKvhG2SP6q8N7UZY9RC1Gw1qfu4.jpg"
+      "original": "https://image.tmdb.org/t/p/original/lKvhG2SP6q8N7UZY9RC1Gw1qfu4.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMmExZTE4YzQtNGFjNS00N2FmLWI0NjYtNGIyOGYyNzIzOTI2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/lKvhG2SP6q8N7UZY9RC1Gw1qfu4.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/lKvhG2SP6q8N7UZY9RC1Gw1qfu4.jpg",
@@ -7254,7 +7378,9 @@
     ],
     "writers": [
       "A B Binil"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmExZTE4YzQtNGFjNS00N2FmLWI0NjYtNGIyOGYyNzIzOTI2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMmExZTE4YzQtNGFjNS00N2FmLWI0NjYtNGIyOGYyNzIzOTI2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Akhanda 2: Thaandavam",
@@ -7282,7 +7408,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg",
       "large": "https://image.tmdb.org/t/p/w500/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg"
+      "original": "https://image.tmdb.org/t/p/original/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNTMwZGEzYjQtMzI1ZC00MzBiLWI2MmEtY2ZjM2E4NDIyNDhmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg",
@@ -7404,7 +7531,9 @@
     ],
     "writers": [
       "Boyapati Srinu"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTMwZGEzYjQtMzI1ZC00MzBiLWI2MmEtY2ZjM2E4NDIyNDhmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNTMwZGEzYjQtMzI1ZC00MzBiLWI2MmEtY2ZjM2E4NDIyNDhmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Dheeram",
@@ -7615,7 +7744,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
       "large": "https://image.tmdb.org/t/p/w500/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
-      "original": "https://image.tmdb.org/t/p/original/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg"
+      "original": "https://image.tmdb.org/t/p/original/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjQ2NTRjNWItMTdjMy00ZTE0LWFmMzYtMDE1MjZkN2MwNGNmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
@@ -7765,7 +7895,9 @@
       "Aditya Dhar",
       "Shivkumar V. Panicker",
       "Ojas Gautam"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjQ2NTRjNWItMTdjMy00ZTE0LWFmMzYtMDE1MjZkN2MwNGNmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjQ2NTRjNWItMTdjMy00ZTE0LWFmMzYtMDE1MjZkN2MwNGNmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Five Nights at Freddy's 2",
@@ -7794,7 +7926,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
       "large": "https://image.tmdb.org/t/p/w500/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
-      "original": "https://image.tmdb.org/t/p/original/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg"
+      "original": "https://image.tmdb.org/t/p/original/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZmQ3NmIxNTgtYjFiNS00NzliLWI0YzAtZDkxY2E0YWIxZDEwXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
@@ -7945,7 +8078,9 @@
     ],
     "youtube_id": "NQypHE9_Fm4",
     "youtube_url": "https://www.youtube.com/watch?v=NQypHE9_Fm4",
-    "youtube_title": "Official Trailer 2"
+    "youtube_title": "Official Trailer 2",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZmQ3NmIxNTgtYjFiNS00NzliLWI0YzAtZDkxY2E0YWIxZDEwXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZmQ3NmIxNTgtYjFiNS00NzliLWI0YzAtZDkxY2E0YWIxZDEwXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Jay Kelly",
@@ -7974,7 +8109,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/smkvvcq9dykzq1cOw4LLuuFe4It.jpg",
       "large": "https://image.tmdb.org/t/p/w500/smkvvcq9dykzq1cOw4LLuuFe4It.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/smkvvcq9dykzq1cOw4LLuuFe4It.jpg",
-      "original": "https://image.tmdb.org/t/p/original/smkvvcq9dykzq1cOw4LLuuFe4It.jpg"
+      "original": "https://image.tmdb.org/t/p/original/smkvvcq9dykzq1cOw4LLuuFe4It.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWRlNDM1NjktZDkyYi00Zjk0LWE5MTQtNWEyNzMwODY1Njc5XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/smkvvcq9dykzq1cOw4LLuuFe4It.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/smkvvcq9dykzq1cOw4LLuuFe4It.jpg",
@@ -8126,7 +8262,9 @@
     ],
     "youtube_id": "I8GbcVkqZwQ",
     "youtube_url": "https://www.youtube.com/watch?v=I8GbcVkqZwQ",
-    "youtube_title": "Official Trailer"
+    "youtube_title": "Official Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWRlNDM1NjktZDkyYi00Zjk0LWE5MTQtNWEyNzMwODY1Njc5XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMWRlNDM1NjktZDkyYi00Zjk0LWE5MTQtNWEyNzMwODY1Njc5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Khajuraho Dreams",
@@ -8154,7 +8292,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/odDCnXpBVT7Sg3T6JQ9sCYOS5dX.jpg",
       "large": "https://image.tmdb.org/t/p/w500/odDCnXpBVT7Sg3T6JQ9sCYOS5dX.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/odDCnXpBVT7Sg3T6JQ9sCYOS5dX.jpg",
-      "original": "https://image.tmdb.org/t/p/original/odDCnXpBVT7Sg3T6JQ9sCYOS5dX.jpg"
+      "original": "https://image.tmdb.org/t/p/original/odDCnXpBVT7Sg3T6JQ9sCYOS5dX.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BM2VlNWFmOTktNTQ3OC00ZWQyLWE5ZTgtMGY2Y2FkNjgzYzljXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/odDCnXpBVT7Sg3T6JQ9sCYOS5dX.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/odDCnXpBVT7Sg3T6JQ9sCYOS5dX.jpg",
@@ -8212,7 +8351,9 @@
     ],
     "writers": [
       "Sethu"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2VlNWFmOTktNTQ3OC00ZWQyLWE5ZTgtMGY2Y2FkNjgzYzljXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BM2VlNWFmOTktNTQ3OC00ZWQyLWE5ZTgtMGY2Y2FkNjgzYzljXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "See Me, When You Leave",
@@ -8423,10 +8564,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMDUwODFiZWQtOTdiMy00ZmJiLWIwYjItM2RiM2I4MjliMzI3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Kis Kisko Pyaar Karoon 2",
@@ -8456,7 +8600,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/vEXVtbK3ciEDk1aiRY1D3cNCKv4.jpg",
       "large": "https://image.tmdb.org/t/p/w500/vEXVtbK3ciEDk1aiRY1D3cNCKv4.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/vEXVtbK3ciEDk1aiRY1D3cNCKv4.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vEXVtbK3ciEDk1aiRY1D3cNCKv4.jpg"
+      "original": "https://image.tmdb.org/t/p/original/vEXVtbK3ciEDk1aiRY1D3cNCKv4.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTJkZDAxNTUtNGZhYy00Mjg5LTlhZTctZDQ3MjRhODRmYzI4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/vEXVtbK3ciEDk1aiRY1D3cNCKv4.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/vEXVtbK3ciEDk1aiRY1D3cNCKv4.jpg",
@@ -8517,7 +8662,9 @@
     "directors": [
       "Anukalp Goswami"
     ],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTJkZDAxNTUtNGZhYy00Mjg5LTlhZTctZDQ3MjRhODRmYzI4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTJkZDAxNTUtNGZhYy00Mjg5LTlhZTctZDQ3MjRhODRmYzI4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mere Raho",
@@ -8583,7 +8730,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/pNCkjOeV7bTX4ZsV7RuaWCex4yg.jpg",
       "large": "https://image.tmdb.org/t/p/w500/pNCkjOeV7bTX4ZsV7RuaWCex4yg.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/pNCkjOeV7bTX4ZsV7RuaWCex4yg.jpg",
-      "original": "https://image.tmdb.org/t/p/original/pNCkjOeV7bTX4ZsV7RuaWCex4yg.jpg"
+      "original": "https://image.tmdb.org/t/p/original/pNCkjOeV7bTX4ZsV7RuaWCex4yg.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNDBiNTg3NzAtYTQ2MC00NWRhLTkxZDMtNmEwMjkwMWUyODc4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/pNCkjOeV7bTX4ZsV7RuaWCex4yg.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/pNCkjOeV7bTX4ZsV7RuaWCex4yg.jpg",
@@ -8673,7 +8821,9 @@
     ],
     "writers": [
       "Arjunan Jr."
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNDBiNTg3NzAtYTQ2MC00NWRhLTkxZDMtNmEwMjkwMWUyODc4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNDBiNTg3NzAtYTQ2MC00NWRhLTkxZDMtNmEwMjkwMWUyODc4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Vaa Vaathiyaar",
@@ -8702,7 +8852,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg",
       "large": "https://image.tmdb.org/t/p/w500/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg"
+      "original": "https://image.tmdb.org/t/p/original/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNmVkZDc5ZDAtNjk2MC00YjZkLWEwMTYtOTYzOTE2MDIzNDFhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/2CO8y3nlDcPRHqXuOQarl8X9GZT.jpg",
@@ -8774,7 +8925,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/1bWF3G2RwgEp6jFusSSJXa93a48.jpg",
         "original": "https://image.tmdb.org/t/p/original/1bWF3G2RwgEp6jFusSSJXa93a48.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNmVkZDc5ZDAtNjk2MC00YjZkLWEwMTYtOTYzOTE2MDIzNDFhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNmVkZDc5ZDAtNjk2MC00YjZkLWEwMTYtOTYzOTE2MDIzNDFhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "F1",
@@ -8795,7 +8948,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/zgjU3hBztV4agGyiivPG2QHc6yY.jpg",
       "large": "https://image.tmdb.org/t/p/w500/zgjU3hBztV4agGyiivPG2QHc6yY.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/zgjU3hBztV4agGyiivPG2QHc6yY.jpg",
-      "original": "https://image.tmdb.org/t/p/original/zgjU3hBztV4agGyiivPG2QHc6yY.jpg"
+      "original": "https://image.tmdb.org/t/p/original/zgjU3hBztV4agGyiivPG2QHc6yY.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BY2UxZjQ1ZjMtYWMxMS00Y2I2LWIyYzctOTgzMGY5ZDU3NGMyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/zgjU3hBztV4agGyiivPG2QHc6yY.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/zgjU3hBztV4agGyiivPG2QHc6yY.jpg",
@@ -8946,7 +9100,9 @@
     ],
     "youtube_id": "ge_ABjtYx88",
     "youtube_url": "https://www.youtube.com/watch?v=ge_ABjtYx88",
-    "youtube_title": "Official IMAX® 1.90 Trailer 2"
+    "youtube_title": "Official IMAX® 1.90 Trailer 2",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BY2UxZjQ1ZjMtYWMxMS00Y2I2LWIyYzctOTgzMGY5ZDU3NGMyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BY2UxZjQ1ZjMtYWMxMS00Y2I2LWIyYzctOTgzMGY5ZDU3NGMyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Wake Up Dead Man: A Knives Out Mystery",
@@ -8976,7 +9132,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg",
       "large": "https://image.tmdb.org/t/p/w500/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg",
-      "original": "https://image.tmdb.org/t/p/original/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg"
+      "original": "https://image.tmdb.org/t/p/original/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNzcxNjQxYWEtZTRlMy00ZDFmLTk1MGMtZGYwZjUxNjMzM2M2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg",
@@ -9127,7 +9284,9 @@
     ],
     "youtube_id": "0hc8yz5-d5Y",
     "youtube_url": "https://www.youtube.com/watch?v=0hc8yz5-d5Y",
-    "youtube_title": "Official Trailer"
+    "youtube_title": "Official Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNzcxNjQxYWEtZTRlMy00ZDFmLTk1MGMtZGYwZjUxNjMzM2M2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNzcxNjQxYWEtZTRlMy00ZDFmLTk1MGMtZGYwZjUxNjMzM2M2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Retta Thala",
@@ -9317,10 +9476,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Bha. Bha. Ba.",
@@ -9346,7 +9508,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/fMDt3o7CVXDc84WIbOskya8XkSN.jpg",
       "large": "https://image.tmdb.org/t/p/w500/fMDt3o7CVXDc84WIbOskya8XkSN.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/fMDt3o7CVXDc84WIbOskya8XkSN.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fMDt3o7CVXDc84WIbOskya8XkSN.jpg"
+      "original": "https://image.tmdb.org/t/p/original/fMDt3o7CVXDc84WIbOskya8XkSN.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYjdkNWI3MmQtZDRmZC00NWYwLThmYjQtODE2YjQwNzA0Yjg0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/fMDt3o7CVXDc84WIbOskya8XkSN.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/fMDt3o7CVXDc84WIbOskya8XkSN.jpg",
@@ -9438,7 +9601,9 @@
     "writers": [
       "Noorin Shereef",
       "Fahim Safar"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjdkNWI3MmQtZDRmZC00NWYwLThmYjQtODE2YjQwNzA0Yjg0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYjdkNWI3MmQtZDRmZC00NWYwLThmYjQtODE2YjQwNzA0Yjg0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "FRANCIS: Chapter-1",
@@ -9516,10 +9681,13 @@
     "youtube_title": "Francis - Chapter 1 - Official Trailer | Infantraj | AR Raajesh  |  Jass John Paul",
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYzNjZWEwYzgtOWEyMi00NzVkLWI2OWUtYmEyODMyN2MxZDMyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Saviyum Suharayum",
@@ -9709,7 +9877,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
       "large": "https://image.tmdb.org/t/p/w500/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
-      "original": "https://image.tmdb.org/t/p/original/g96wHxU7EnoIFwemb2RgohIXrgW.jpg"
+      "original": "https://image.tmdb.org/t/p/original/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
@@ -9823,7 +9992,9 @@
     ],
     "youtube_id": "Ma1x7ikpid8",
     "youtube_url": "https://www.youtube.com/watch?v=Ma1x7ikpid8",
-    "youtube_title": "New Trailer"
+    "youtube_title": "New Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZDYxY2I1OGMtN2Y4MS00ZmU1LTgyNDAtODA0MzAyYjI0N2Y2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Parvati",
@@ -9852,7 +10023,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/31aXkruIIiDJJl6aqvIqYyiJaaS.jpg",
       "large": "https://image.tmdb.org/t/p/w500/31aXkruIIiDJJl6aqvIqYyiJaaS.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/31aXkruIIiDJJl6aqvIqYyiJaaS.jpg",
-      "original": "https://image.tmdb.org/t/p/original/31aXkruIIiDJJl6aqvIqYyiJaaS.jpg"
+      "original": "https://image.tmdb.org/t/p/original/31aXkruIIiDJJl6aqvIqYyiJaaS.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYWNhNzE4OGItMTZmYy00NjA3LTg1ZjQtNDM2ZTJmMDRlN2UyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/31aXkruIIiDJJl6aqvIqYyiJaaS.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/31aXkruIIiDJJl6aqvIqYyiJaaS.jpg",
@@ -9915,7 +10087,9 @@
     ],
     "writers": [
       "Limar Lendo Doke"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYWNhNzE4OGItMTZmYy00NjA3LTg1ZjQtNDM2ZTJmMDRlN2UyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYWNhNzE4OGItMTZmYy00NjA3LTg1ZjQtNDM2ZTJmMDRlN2UyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mark",
@@ -9944,7 +10118,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg",
       "large": "https://image.tmdb.org/t/p/w500/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg"
+      "original": "https://image.tmdb.org/t/p/original/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMTY3ZWM2NTgtN2ZiNC00OTQwLThhMjYtMzZiNWQ3MWQ4MGI2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/6LTDv6XHiHN0N77QIFg2tidVvhh.jpg",
@@ -10041,7 +10216,9 @@
     ],
     "writers": [
       "Vijay Kartikeyaa"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTY3ZWM2NTgtN2ZiNC00OTQwLThhMjYtMzZiNWQ3MWQ4MGI2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMTY3ZWM2NTgtN2ZiNC00OTQwLThhMjYtMzZiNWQ3MWQ4MGI2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Sirai",
@@ -10070,7 +10247,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/mltVJD7mBayiw1BubwUL0cx6T1c.jpg",
       "large": "https://image.tmdb.org/t/p/w500/mltVJD7mBayiw1BubwUL0cx6T1c.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/mltVJD7mBayiw1BubwUL0cx6T1c.jpg",
-      "original": "https://image.tmdb.org/t/p/original/mltVJD7mBayiw1BubwUL0cx6T1c.jpg"
+      "original": "https://image.tmdb.org/t/p/original/mltVJD7mBayiw1BubwUL0cx6T1c.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZjUwODNkODAtZWQyMC00YjdiLThhNmItZTFhMWY5NzlmMzRiXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/mltVJD7mBayiw1BubwUL0cx6T1c.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/mltVJD7mBayiw1BubwUL0cx6T1c.jpg",
@@ -10133,7 +10311,9 @@
     ],
     "writers": [
       "Suresh Rajakumari"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZjUwODNkODAtZWQyMC00YjdiLThhNmItZTFhMWY5NzlmMzRiXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZjUwODNkODAtZWQyMC00YjdiLThhNmItZTFhMWY5NzlmMzRiXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Sarvam Maya",
@@ -10412,7 +10592,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/mC8s4ZUt1bTAL3OAlZGSSEs3Ieo.jpg",
       "large": "https://image.tmdb.org/t/p/w500/mC8s4ZUt1bTAL3OAlZGSSEs3Ieo.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/mC8s4ZUt1bTAL3OAlZGSSEs3Ieo.jpg",
-      "original": "https://image.tmdb.org/t/p/original/mC8s4ZUt1bTAL3OAlZGSSEs3Ieo.jpg"
+      "original": "https://image.tmdb.org/t/p/original/mC8s4ZUt1bTAL3OAlZGSSEs3Ieo.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWY5ODBjZjctZGFhOC00NGZmLTg1ZGItYTRkNGMzZjZjZjJiXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/mC8s4ZUt1bTAL3OAlZGSSEs3Ieo.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/mC8s4ZUt1bTAL3OAlZGSSEs3Ieo.jpg",
@@ -10459,7 +10640,9 @@
     ],
     "writers": [
       "Pradeep Advaitham"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWY5ODBjZjctZGFhOC00NGZmLTg1ZGItYTRkNGMzZjZjZjJiXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMWY5ODBjZjctZGFhOC00NGZmLTg1ZGItYTRkNGMzZjZjZjJiXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Valathu Vashathe Kallan",
@@ -10489,7 +10672,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/p0kze6jxVm5qSulviLtXBniwb3d.jpg",
       "large": "https://image.tmdb.org/t/p/w500/p0kze6jxVm5qSulviLtXBniwb3d.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/p0kze6jxVm5qSulviLtXBniwb3d.jpg",
-      "original": "https://image.tmdb.org/t/p/original/p0kze6jxVm5qSulviLtXBniwb3d.jpg"
+      "original": "https://image.tmdb.org/t/p/original/p0kze6jxVm5qSulviLtXBniwb3d.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTdlNTk3ZDMtMTRhNy00YmRjLThhNTQtYTMxMmYxMjFhZGQ0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/p0kze6jxVm5qSulviLtXBniwb3d.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/p0kze6jxVm5qSulviLtXBniwb3d.jpg",
@@ -10566,7 +10750,9 @@
     ],
     "writers": [
       "Dinu Thomas Eelan"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTdlNTk3ZDMtMTRhNy00YmRjLThhNTQtYTMxMmYxMjFhZGQ0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTdlNTk3ZDMtMTRhNy00YmRjLThhNTQtYTMxMmYxMjFhZGQ0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Sunscream",
@@ -10768,7 +10954,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/luDTygZ6uAwaknc2isXZcz8YMvE.jpg",
       "large": "https://image.tmdb.org/t/p/w500/luDTygZ6uAwaknc2isXZcz8YMvE.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/luDTygZ6uAwaknc2isXZcz8YMvE.jpg",
-      "original": "https://image.tmdb.org/t/p/original/luDTygZ6uAwaknc2isXZcz8YMvE.jpg"
+      "original": "https://image.tmdb.org/t/p/original/luDTygZ6uAwaknc2isXZcz8YMvE.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZGNhMzA2NjMtMmY3Yi00NjFkLThmY2UtNmVhODQ2ZWMwMzE0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/luDTygZ6uAwaknc2isXZcz8YMvE.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/luDTygZ6uAwaknc2isXZcz8YMvE.jpg",
@@ -10812,7 +10999,9 @@
     "writers": [
       "Arjun Janya",
       "Anil Kumar"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGNhMzA2NjMtMmY3Yi00NjFkLThmY2UtNmVhODQ2ZWMwMzE0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZGNhMzA2NjMtMmY3Yi00NjFkLThmY2UtNmVhODQ2ZWMwMzE0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mitin: Ekti Khunir Sandhaney",
@@ -10944,7 +11133,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/70edzATxyOYtIMH1VtBrlvWL0bO.jpg",
       "large": "https://image.tmdb.org/t/p/w500/70edzATxyOYtIMH1VtBrlvWL0bO.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/70edzATxyOYtIMH1VtBrlvWL0bO.jpg",
-      "original": "https://image.tmdb.org/t/p/original/70edzATxyOYtIMH1VtBrlvWL0bO.jpg"
+      "original": "https://image.tmdb.org/t/p/original/70edzATxyOYtIMH1VtBrlvWL0bO.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BM2ZiZTY3YTUtMjQzNC00N2Q1LWE3MDAtODhiYjAxMGI0YjRmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/70edzATxyOYtIMH1VtBrlvWL0bO.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/70edzATxyOYtIMH1VtBrlvWL0bO.jpg",
@@ -11029,7 +11219,9 @@
       "Sriram Raghavan",
       "Pooja Ladha Surti",
       "Arijit Biswas"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2ZiZTY3YTUtMjQzNC00N2Q1LWE3MDAtODhiYjAxMGI0YjRmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BM2ZiZTY3YTUtMjQzNC00N2Q1LWE3MDAtODhiYjAxMGI0YjRmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Vrusshabha",
@@ -11058,7 +11250,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/hRKxGHeQBdwKswKgkmDrrMCDqoQ.jpg",
       "large": "https://image.tmdb.org/t/p/w500/hRKxGHeQBdwKswKgkmDrrMCDqoQ.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/hRKxGHeQBdwKswKgkmDrrMCDqoQ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/hRKxGHeQBdwKswKgkmDrrMCDqoQ.jpg"
+      "original": "https://image.tmdb.org/t/p/original/hRKxGHeQBdwKswKgkmDrrMCDqoQ.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZTNhOTYzMDMtOWVmOS00ZDVhLWJjNWYtMmUyNDM2Nzk4NmVmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/hRKxGHeQBdwKswKgkmDrrMCDqoQ.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/hRKxGHeQBdwKswKgkmDrrMCDqoQ.jpg",
@@ -11173,7 +11366,9 @@
     "writers": [
       "Janardhan Maharshi",
       "Nanda Kishore"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZTNhOTYzMDMtOWVmOS00ZDVhLWJjNWYtMmUyNDM2Nzk4NmVmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZTNhOTYzMDMtOWVmOS00ZDVhLWJjNWYtMmUyNDM2Nzk4NmVmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Lawho Gouranger Naam Re",
@@ -11202,7 +11397,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/g8CHcwfl1ZjPdujGX5n9ALpQ0cm.jpg",
       "large": "https://image.tmdb.org/t/p/w500/g8CHcwfl1ZjPdujGX5n9ALpQ0cm.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/g8CHcwfl1ZjPdujGX5n9ALpQ0cm.jpg",
-      "original": "https://image.tmdb.org/t/p/original/g8CHcwfl1ZjPdujGX5n9ALpQ0cm.jpg"
+      "original": "https://image.tmdb.org/t/p/original/g8CHcwfl1ZjPdujGX5n9ALpQ0cm.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZGY1MWViYjMtNzg2YS00NGFlLWIxYzUtMTUzYjBhYjc0ZTYzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/g8CHcwfl1ZjPdujGX5n9ALpQ0cm.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/g8CHcwfl1ZjPdujGX5n9ALpQ0cm.jpg",
@@ -11293,7 +11489,9 @@
     ],
     "writers": [
       "Srijit Mukherji"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGY1MWViYjMtNzg2YS00NGFlLWIxYzUtMTUzYjBhYjc0ZTYzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZGY1MWViYjMtNzg2YS00NGFlLWIxYzUtMTUzYjBhYjc0ZTYzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Fixed",
@@ -11365,10 +11563,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMTQ5NDE5MjAzOF5BMl5BanBnXkFtZTgwODc5MzA1NzE@._V1_.jpg"
   },
   {
     "title": "METAMORPHOSIS",
@@ -11652,7 +11853,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/qvm098ycSvvrt33HP88zFlodN6p.jpg",
       "large": "https://image.tmdb.org/t/p/w500/qvm098ycSvvrt33HP88zFlodN6p.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/qvm098ycSvvrt33HP88zFlodN6p.jpg",
-      "original": "https://image.tmdb.org/t/p/original/qvm098ycSvvrt33HP88zFlodN6p.jpg"
+      "original": "https://image.tmdb.org/t/p/original/qvm098ycSvvrt33HP88zFlodN6p.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMTE0YmFiZmEtOWZiNi00ZTE4LTkwN2MtNjRjZDI5ZDEyYzk0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/qvm098ycSvvrt33HP88zFlodN6p.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/qvm098ycSvvrt33HP88zFlodN6p.jpg",
@@ -11675,7 +11877,9 @@
     "writers": [],
     "youtube_id": "v4zTBIoKujc",
     "youtube_url": "https://www.youtube.com/watch?v=v4zTBIoKujc",
-    "youtube_title": "LPS Files Official Trailer | Varun K | Aternos | Dolby Atmos | Aradhya k |  Avanish G | #trending"
+    "youtube_title": "LPS Files Official Trailer | Varun K | Aternos | Dolby Atmos | Aradhya k |  Avanish G | #trending",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTE0YmFiZmEtOWZiNi00ZTE4LTkwN2MtNjRjZDI5ZDEyYzk0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMTE0YmFiZmEtOWZiNi00ZTE4LTkwN2MtNjRjZDI5ZDEyYzk0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Xarax",
@@ -11704,7 +11908,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/ca86Kyf7NcJuUwfWyX2kz86EQAT.jpg",
       "large": "https://image.tmdb.org/t/p/w500/ca86Kyf7NcJuUwfWyX2kz86EQAT.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/ca86Kyf7NcJuUwfWyX2kz86EQAT.jpg",
-      "original": "https://image.tmdb.org/t/p/original/ca86Kyf7NcJuUwfWyX2kz86EQAT.jpg"
+      "original": "https://image.tmdb.org/t/p/original/ca86Kyf7NcJuUwfWyX2kz86EQAT.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMzI0NzJmZjEtNmUwYi00Y2VmLTllNGMtMDM3NDA5OTUzMDBlXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/ca86Kyf7NcJuUwfWyX2kz86EQAT.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/ca86Kyf7NcJuUwfWyX2kz86EQAT.jpg",
@@ -11752,7 +11957,9 @@
     ],
     "writers": [
       "Salil Jason Fernandez"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzI0NzJmZjEtNmUwYi00Y2VmLTllNGMtMDM3NDA5OTUzMDBlXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMzI0NzJmZjEtNmUwYi00Y2VmLTllNGMtMDM3NDA5OTUzMDBlXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Alcohol",
@@ -11781,7 +11988,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
       "large": "https://image.tmdb.org/t/p/w500/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
-      "original": "https://image.tmdb.org/t/p/original/staEYWetClEFKM9fpbKZHeaTIa5.jpg"
+      "original": "https://image.tmdb.org/t/p/original/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjkyY2VjODItM2IwOC00NzYwLTkzZWQtMjI0NGM5MGYzYWQzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
@@ -11796,7 +12004,9 @@
         "original": "https://image.tmdb.org/t/p/original/staEYWetClEFKM9fpbKZHeaTIa5.jpg",
         "language": "te"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjkyY2VjODItM2IwOC00NzYwLTkzZWQtMjI0NGM5MGYzYWQzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjkyY2VjODItM2IwOC00NzYwLTkzZWQtMjI0NGM5MGYzYWQzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "In Their Own Time",
@@ -11862,10 +12072,13 @@
     "youtube_title": "In Their Own Time-Trailer",
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNTE2MzIyMWYtYWFmYS00M2UzLTgyN2UtNTQ0NWZhOTE2OTY3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "UKV's Dandelions",
@@ -11893,7 +12106,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/2MDXTwhO9GGqgCqh1xvKEy5Vwdu.jpg",
       "large": "https://image.tmdb.org/t/p/w500/2MDXTwhO9GGqgCqh1xvKEy5Vwdu.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/2MDXTwhO9GGqgCqh1xvKEy5Vwdu.jpg",
-      "original": "https://image.tmdb.org/t/p/original/2MDXTwhO9GGqgCqh1xvKEy5Vwdu.jpg"
+      "original": "https://image.tmdb.org/t/p/original/2MDXTwhO9GGqgCqh1xvKEy5Vwdu.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMTk5MDc0N2MtMjM1Ny00ODMxLTlhZWItZjdjZmJmMGMzYjQwXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/2MDXTwhO9GGqgCqh1xvKEy5Vwdu.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/2MDXTwhO9GGqgCqh1xvKEy5Vwdu.jpg",
@@ -11951,7 +12165,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTk5MDc0N2MtMjM1Ny00ODMxLTlhZWItZjdjZmJmMGMzYjQwXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMTk5MDc0N2MtMjM1Ny00ODMxLTlhZWItZjdjZmJmMGMzYjQwXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Nari Choritro Bejay Jotil",
@@ -11980,7 +12196,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/vtduzQWOiOKfh4BwS2uS1LgrQHA.jpg",
       "large": "https://image.tmdb.org/t/p/w500/vtduzQWOiOKfh4BwS2uS1LgrQHA.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/vtduzQWOiOKfh4BwS2uS1LgrQHA.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vtduzQWOiOKfh4BwS2uS1LgrQHA.jpg"
+      "original": "https://image.tmdb.org/t/p/original/vtduzQWOiOKfh4BwS2uS1LgrQHA.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BODRiMTM0N2YtNDViNS00OGU3LWE0M2EtOGZkOWM1YTU4Yzc2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/vtduzQWOiOKfh4BwS2uS1LgrQHA.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/vtduzQWOiOKfh4BwS2uS1LgrQHA.jpg",
@@ -12032,7 +12249,9 @@
       "Sumeet Goradia",
       "Saahil Goradia"
     ],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODRiMTM0N2YtNDViNS00OGU3LWE0M2EtOGZkOWM1YTU4Yzc2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BODRiMTM0N2YtNDViNS00OGU3LWE0M2EtOGZkOWM1YTU4Yzc2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mana Shankaravaraprasad Garu",
@@ -12062,7 +12281,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/1oaS1m6Fy6317UgopaTxY8710kz.jpg",
       "large": "https://image.tmdb.org/t/p/w500/1oaS1m6Fy6317UgopaTxY8710kz.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/1oaS1m6Fy6317UgopaTxY8710kz.jpg",
-      "original": "https://image.tmdb.org/t/p/original/1oaS1m6Fy6317UgopaTxY8710kz.jpg"
+      "original": "https://image.tmdb.org/t/p/original/1oaS1m6Fy6317UgopaTxY8710kz.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMzg2NGNjZWMtYzY2Yy00OGM4LTgwM2EtMjkzYTI2ZmViNjNmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/1oaS1m6Fy6317UgopaTxY8710kz.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/1oaS1m6Fy6317UgopaTxY8710kz.jpg",
@@ -12131,7 +12351,9 @@
       "Anil Ravipudi",
       "S. Krishna",
       "Adhi Narayana"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzg2NGNjZWMtYzY2Yy00OGM4LTgwM2EtMjkzYTI2ZmViNjNmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMzg2NGNjZWMtYzY2Yy00OGM4LTgwM2EtMjkzYTI2ZmViNjNmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Jana Nayagan",
@@ -12160,7 +12382,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg",
       "large": "https://image.tmdb.org/t/p/w500/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg",
-      "original": "https://image.tmdb.org/t/p/original/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg"
+      "original": "https://image.tmdb.org/t/p/original/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTE1M2ZkZjYtNzExNi00MTQwLTg3ZDYtYTA3YmQyMDgyZjU4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/yTjxfu1xrRoz5cTbxNcx7X6BA8.jpg",
@@ -12302,7 +12525,9 @@
     ],
     "writers": [
       "H. Vinoth"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTE1M2ZkZjYtNzExNi00MTQwLTg3ZDYtYTA3YmQyMDgyZjU4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTE1M2ZkZjYtNzExNi00MTQwLTg3ZDYtYTA3YmQyMDgyZjU4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Raja Saab",
@@ -12428,10 +12653,13 @@
     "youtube_title": "The Raja Saab (Official Trailer) Hindi | Prabhas | Maruthi | Thaman| TG Vishwa Prasad| Krithi Prasad",
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTc5Mjk4ZDQtM2Y4Zi00YTZmLTkxYmUtYWMwNzk3NDBkOGQzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Ananya's Call",
@@ -12574,7 +12802,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
       "large": "https://image.tmdb.org/t/p/w500/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg"
+      "original": "https://image.tmdb.org/t/p/original/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMGIwMmU2OGYtOWE0ZC00YzY4LWE1YzctMTI1N2NmNzJlM2Y5XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
@@ -12724,7 +12953,9 @@
       "Sudha Kongara Prasad",
       "Arjun Nadesan",
       "Ganeshaa"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMGIwMmU2OGYtOWE0ZC00YzY4LWE1YzctMTI1N2NmNzJlM2Y5XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMGIwMmU2OGYtOWE0ZC00YzY4LWE1YzctMTI1N2NmNzJlM2Y5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Anaganaga Oka Raju",
@@ -12754,7 +12985,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
       "large": "https://image.tmdb.org/t/p/w500/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
-      "original": "https://image.tmdb.org/t/p/original/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg"
+      "original": "https://image.tmdb.org/t/p/original/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNjRmM2RhZWMtMTI2NS00MDJmLTllZTUtM2RmZWY5M2M1MzdhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
@@ -12802,7 +13034,9 @@
     ],
     "writers": [
       "Maari"
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjRmM2RhZWMtMTI2NS00MDJmLTllZTUtM2RmZWY5M2M1MzdhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNjRmM2RhZWMtMTI2NS00MDJmLTllZTUtM2RmZWY5M2M1MzdhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Rahu Ketu",
@@ -13028,7 +13262,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/ssk5SmXK4jHANKH6bvboGP4N1up.jpg",
       "large": "https://image.tmdb.org/t/p/w500/ssk5SmXK4jHANKH6bvboGP4N1up.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/ssk5SmXK4jHANKH6bvboGP4N1up.jpg",
-      "original": "https://image.tmdb.org/t/p/original/ssk5SmXK4jHANKH6bvboGP4N1up.jpg"
+      "original": "https://image.tmdb.org/t/p/original/ssk5SmXK4jHANKH6bvboGP4N1up.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNGEyNmEyNjAtZjMzNy00MzRkLTgzYTMtMjUzNzBjOTI0MTIyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/ssk5SmXK4jHANKH6bvboGP4N1up.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/ssk5SmXK4jHANKH6bvboGP4N1up.jpg",
@@ -13058,7 +13293,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/w2e8vh4tXkIOmOfMoAhHQuUxXRw.jpg",
         "original": "https://image.tmdb.org/t/p/original/w2e8vh4tXkIOmOfMoAhHQuUxXRw.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNGEyNmEyNjAtZjMzNy00MzRkLTgzYTMtMjUzNzBjOTI0MTIyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNGEyNmEyNjAtZjMzNy00MzRkLTgzYTMtMjUzNzBjOTI0MTIyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "NHK Kōhaku Uta-Gassen",
@@ -13180,7 +13417,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/fWa7ZzkPT9FauzGuAi8NHPCH325.jpg",
       "large": "https://image.tmdb.org/t/p/w500/fWa7ZzkPT9FauzGuAi8NHPCH325.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/fWa7ZzkPT9FauzGuAi8NHPCH325.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fWa7ZzkPT9FauzGuAi8NHPCH325.jpg"
+      "original": "https://image.tmdb.org/t/p/original/fWa7ZzkPT9FauzGuAi8NHPCH325.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTczMDI2MGMtNDc4YS00ZGNhLThiODktMjYwNDUzYTk5ODZlXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/fWa7ZzkPT9FauzGuAi8NHPCH325.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/fWa7ZzkPT9FauzGuAi8NHPCH325.jpg",
@@ -13309,7 +13547,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTczMDI2MGMtNDc4YS00ZGNhLThiODktMjYwNDUzYTk5ODZlXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTczMDI2MGMtNDc4YS00ZGNhLThiODktMjYwNDUzYTk5ODZlXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Julkalendern",
@@ -13330,7 +13570,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/9xvNeHD7CCAMpbkb9Q2UFB9Dva0.jpg",
       "large": "https://image.tmdb.org/t/p/w500/9xvNeHD7CCAMpbkb9Q2UFB9Dva0.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/9xvNeHD7CCAMpbkb9Q2UFB9Dva0.jpg",
-      "original": "https://image.tmdb.org/t/p/original/9xvNeHD7CCAMpbkb9Q2UFB9Dva0.jpg"
+      "original": "https://image.tmdb.org/t/p/original/9xvNeHD7CCAMpbkb9Q2UFB9Dva0.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZGI4NWUxZTktZGY4OS00NTYwLTkxNTktNWY2YjI1MjI4ZmMxXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/9xvNeHD7CCAMpbkb9Q2UFB9Dva0.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/9xvNeHD7CCAMpbkb9Q2UFB9Dva0.jpg",
@@ -13348,7 +13589,9 @@
     ],
     "youtube_id": "7y1f3sgPLG8",
     "youtube_url": "https://www.youtube.com/watch?v=7y1f3sgPLG8",
-    "youtube_title": "Julkalendern 2022 - Kronprinsen som försvann | Trailer | SVT"
+    "youtube_title": "Julkalendern 2022 - Kronprinsen som försvann | Trailer | SVT",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGI4NWUxZTktZGY4OS00NTYwLTkxNTktNWY2YjI1MjI4ZmMxXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZGI4NWUxZTktZGY4OS00NTYwLTkxNTktNWY2YjI1MjI4ZmMxXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Coronation Street",
@@ -13369,7 +13612,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
       "large": "https://image.tmdb.org/t/p/w500/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
-      "original": "https://image.tmdb.org/t/p/original/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg"
+      "original": "https://image.tmdb.org/t/p/original/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTc3MjI4MzYtNmI2Ni00NmNmLWIyYTMtZGYwOGIzZDY3NDIyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/5x1HXqYqPyYw7oc7Isu1lvVmwRP.jpg",
@@ -13438,7 +13682,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTc3MjI4MzYtNmI2Ni00NmNmLWIyYTMtZGYwOGIzZDY3NDIyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTc3MjI4MzYtNmI2Ni00NmNmLWIyYTMtZGYwOGIzZDY3NDIyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "CBS Evening News",
@@ -13470,7 +13716,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/eN7xnbYKO6NM2AQP9OE2KsKNSuf.jpg",
       "large": "https://image.tmdb.org/t/p/w500/eN7xnbYKO6NM2AQP9OE2KsKNSuf.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/eN7xnbYKO6NM2AQP9OE2KsKNSuf.jpg",
-      "original": "https://image.tmdb.org/t/p/original/eN7xnbYKO6NM2AQP9OE2KsKNSuf.jpg"
+      "original": "https://image.tmdb.org/t/p/original/eN7xnbYKO6NM2AQP9OE2KsKNSuf.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMDZmMjlmOTItZGFmOC00ZjdiLWE1M2MtMWYwZTJkMjQwMTVlXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/eN7xnbYKO6NM2AQP9OE2KsKNSuf.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/eN7xnbYKO6NM2AQP9OE2KsKNSuf.jpg",
@@ -13579,7 +13826,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDZmMjlmOTItZGFmOC00ZjdiLWE1M2MtMWYwZTJkMjQwMTVlXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMDZmMjlmOTItZGFmOC00ZjdiLWE1M2MtMWYwZTJkMjQwMTVlXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "University Challenge",
@@ -13610,7 +13859,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/yDLoEEFW3D6XSyT8UynTghc1Dyw.jpg",
       "large": "https://image.tmdb.org/t/p/w500/yDLoEEFW3D6XSyT8UynTghc1Dyw.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/yDLoEEFW3D6XSyT8UynTghc1Dyw.jpg",
-      "original": "https://image.tmdb.org/t/p/original/yDLoEEFW3D6XSyT8UynTghc1Dyw.jpg"
+      "original": "https://image.tmdb.org/t/p/original/yDLoEEFW3D6XSyT8UynTghc1Dyw.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTQyZjI4NTctNmUzYS00NzdmLWE4MGItY2I5YjY5MzQxYTEwXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/yDLoEEFW3D6XSyT8UynTghc1Dyw.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/yDLoEEFW3D6XSyT8UynTghc1Dyw.jpg",
@@ -13704,7 +13954,9 @@
     "directors": [
       "Bridget Caldwell"
     ],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTQyZjI4NTctNmUzYS00NzdmLWE4MGItY2I5YjY5MzQxYTEwXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTQyZjI4NTctNmUzYS00NzdmLWE4MGItY2I5YjY5MzQxYTEwXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "General Hospital",
@@ -13774,10 +14026,13 @@
     "writers": [],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNThhNDQ4MzQtZGJlYy00N2JmLWEyZmQtOGM1NDljN2I1ZjM1XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Match of the Day",
@@ -13848,10 +14103,13 @@
     "writers": [],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYTc2MDU1YWItZTBkZS00M2M4LWI2MDgtNWE2NjYwNTc4YTMyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Days of Our Lives",
@@ -14039,10 +14297,13 @@
     "writers": [],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNmFmZmY2MTItZDhiOC00NjdkLTkxN2UtM2U4ZGIyM2VhODgzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Aktenzeichen XY… ungelöst",
@@ -14076,7 +14337,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/gvKZqiC0rucTNJE56P08XKhZpw3.jpg",
       "large": "https://image.tmdb.org/t/p/w500/gvKZqiC0rucTNJE56P08XKhZpw3.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/gvKZqiC0rucTNJE56P08XKhZpw3.jpg",
-      "original": "https://image.tmdb.org/t/p/original/gvKZqiC0rucTNJE56P08XKhZpw3.jpg"
+      "original": "https://image.tmdb.org/t/p/original/gvKZqiC0rucTNJE56P08XKhZpw3.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYmJlYzE5YjktODE0NS00MTkyLWE3ZDAtZmMyNzBlNmY1YTgxXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/gvKZqiC0rucTNJE56P08XKhZpw3.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/gvKZqiC0rucTNJE56P08XKhZpw3.jpg",
@@ -14154,7 +14416,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmJlYzE5YjktODE0NS00MTkyLWE3ZDAtZmMyNzBlNmY1YTgxXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYmJlYzE5YjktODE0NS00MTkyLWE3ZDAtZmMyNzBlNmY1YTgxXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Gardeners' World",
@@ -14184,7 +14448,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/fVHz4uUMVX0UIjRrK9v4ximfb0c.jpg",
       "large": "https://image.tmdb.org/t/p/w500/fVHz4uUMVX0UIjRrK9v4ximfb0c.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/fVHz4uUMVX0UIjRrK9v4ximfb0c.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fVHz4uUMVX0UIjRrK9v4ximfb0c.jpg"
+      "original": "https://image.tmdb.org/t/p/original/fVHz4uUMVX0UIjRrK9v4ximfb0c.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZDhiN2JhM2MtZWM0OS00ZWU0LThlMDYtYjI2YmFmZjU4NGFjXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/fVHz4uUMVX0UIjRrK9v4ximfb0c.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/fVHz4uUMVX0UIjRrK9v4ximfb0c.jpg",
@@ -14247,7 +14512,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/qQa8lrf975WpKyoxZ2ERTVcWIU7.jpg",
         "original": "https://image.tmdb.org/t/p/original/qQa8lrf975WpKyoxZ2ERTVcWIU7.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDhiN2JhM2MtZWM0OS00ZWU0LThlMDYtYjI2YmFmZjU4NGFjXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZDhiN2JhM2MtZWM0OS00ZWU0LThlMDYtYjI2YmFmZjU4NGFjXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Scene of the Crime",
@@ -14278,7 +14545,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/yh43TKi9himQWhzrlWBxV8WjsFn.jpg",
       "large": "https://image.tmdb.org/t/p/w500/yh43TKi9himQWhzrlWBxV8WjsFn.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/yh43TKi9himQWhzrlWBxV8WjsFn.jpg",
-      "original": "https://image.tmdb.org/t/p/original/yh43TKi9himQWhzrlWBxV8WjsFn.jpg"
+      "original": "https://image.tmdb.org/t/p/original/yh43TKi9himQWhzrlWBxV8WjsFn.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYzg0NzVhY2UtY2Q0Ni00N2Y5LTljZDUtZDJhOTEzNjI4ZmYwXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/yh43TKi9himQWhzrlWBxV8WjsFn.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/yh43TKi9himQWhzrlWBxV8WjsFn.jpg",
@@ -14332,7 +14600,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/9DedImjth0l9i2ATJQ3zIqnuPD9.jpg",
         "original": "https://image.tmdb.org/t/p/original/9DedImjth0l9i2ATJQ3zIqnuPD9.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzg0NzVhY2UtY2Q0Ni00N2Y5LTljZDUtZDJhOTEzNjI4ZmYwXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYzg0NzVhY2UtY2Q0Ni00N2Y5LTljZDUtZDJhOTEzNjI4ZmYwXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Great Performances",
@@ -14367,7 +14637,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
       "large": "https://image.tmdb.org/t/p/w500/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
-      "original": "https://image.tmdb.org/t/p/original/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg"
+      "original": "https://image.tmdb.org/t/p/original/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZmU5OGQ4NTEtMDlkMS00NzE4LThhNTItOGU0YWZkYWFlOWRmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/1RD6s6KEbX36Cb99pAoWmU8gkwh.jpg",
@@ -14469,7 +14740,9 @@
     "writers": [],
     "youtube_id": "O_ZmE_nH0Eo",
     "youtube_url": "https://www.youtube.com/watch?v=O_ZmE_nH0Eo",
-    "youtube_title": "GREAT PERFORMANCES | Official Trailer: Indecent | PBS"
+    "youtube_title": "GREAT PERFORMANCES | Official Trailer: Indecent | PBS",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZmU5OGQ4NTEtMDlkMS00NzE4LThhNTItOGU0YWZkYWFlOWRmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZmU5OGQ4NTEtMDlkMS00NzE4LThhNTItOGU0YWZkYWFlOWRmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Kamen Rider",
@@ -14490,7 +14763,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/yPM3sJShVSkg4KQ6CjAogLpNnDD.jpg",
       "large": "https://image.tmdb.org/t/p/w500/yPM3sJShVSkg4KQ6CjAogLpNnDD.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/yPM3sJShVSkg4KQ6CjAogLpNnDD.jpg",
-      "original": "https://image.tmdb.org/t/p/original/yPM3sJShVSkg4KQ6CjAogLpNnDD.jpg"
+      "original": "https://image.tmdb.org/t/p/original/yPM3sJShVSkg4KQ6CjAogLpNnDD.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYjU4M2Q4MmYtNzVhZC00OTJkLTlmMjItMzE3NTc3Yzg2NTkyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/yPM3sJShVSkg4KQ6CjAogLpNnDD.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/yPM3sJShVSkg4KQ6CjAogLpNnDD.jpg",
@@ -14627,7 +14901,9 @@
     "writers": [],
     "youtube_id": "FY4TBfTLPEM",
     "youtube_url": "https://www.youtube.com/watch?v=FY4TBfTLPEM",
-    "youtube_title": "Now Streaming On Shout! Factory TV!"
+    "youtube_title": "Now Streaming On Shout! Factory TV!",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjU4M2Q4MmYtNzVhZC00OTJkLTlmMjItMzE3NTc3Yzg2NTkyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYjU4M2Q4MmYtNzVhZC00OTJkLTlmMjItMzE3NTc3Yzg2NTkyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "New Japan Pro Wrestling",
@@ -14657,7 +14933,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/c6IZc3avqSgTzSXrrj9vV0EwRp.jpg",
       "large": "https://image.tmdb.org/t/p/w500/c6IZc3avqSgTzSXrrj9vV0EwRp.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/c6IZc3avqSgTzSXrrj9vV0EwRp.jpg",
-      "original": "https://image.tmdb.org/t/p/original/c6IZc3avqSgTzSXrrj9vV0EwRp.jpg"
+      "original": "https://image.tmdb.org/t/p/original/c6IZc3avqSgTzSXrrj9vV0EwRp.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BN2VlNjYyN2YtMGUyNi00M2ZkLTkxY2MtZjk1NTM0YmI2NzNiXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/c6IZc3avqSgTzSXrrj9vV0EwRp.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/c6IZc3avqSgTzSXrrj9vV0EwRp.jpg",
@@ -14771,7 +15048,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BN2VlNjYyN2YtMGUyNi00M2ZkLTkxY2MtZjk1NTM0YmI2NzNiXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BN2VlNjYyN2YtMGUyNi00M2ZkLTkxY2MtZjk1NTM0YmI2NzNiXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Price Is Right",
@@ -14804,7 +15083,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
       "large": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg"
+      "original": "https://image.tmdb.org/t/p/original/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYTJhZGNkYTAtNTZmYy00YzI2LTk0ZTAtNzYxZDBmNjk1ZGQ3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
@@ -14910,7 +15190,9 @@
     "directors": [
       "Paul Alter"
     ],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTJhZGNkYTAtNTZmYy00YzI2LTk0ZTAtNzYxZDBmNjk1ZGQ3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYTJhZGNkYTAtNTZmYy00YzI2LTk0ZTAtNzYxZDBmNjk1ZGQ3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mastermind",
@@ -14942,7 +15224,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/1CuyXvdlNGsNRaC62Q7Pp3hIIGt.jpg",
       "large": "https://image.tmdb.org/t/p/w500/1CuyXvdlNGsNRaC62Q7Pp3hIIGt.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/1CuyXvdlNGsNRaC62Q7Pp3hIIGt.jpg",
-      "original": "https://image.tmdb.org/t/p/original/1CuyXvdlNGsNRaC62Q7Pp3hIIGt.jpg"
+      "original": "https://image.tmdb.org/t/p/original/1CuyXvdlNGsNRaC62Q7Pp3hIIGt.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMzA3MDhiNmEtNWQyOC00NmZhLThiMzUtZWZhYWI2ODZhZWJmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/1CuyXvdlNGsNRaC62Q7Pp3hIIGt.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/1CuyXvdlNGsNRaC62Q7Pp3hIIGt.jpg",
@@ -14990,7 +15273,9 @@
     "writers": [],
     "youtube_id": "5doaFfRiySw",
     "youtube_url": "https://www.youtube.com/watch?v=5doaFfRiySw",
-    "youtube_title": "BBC Mastermind"
+    "youtube_title": "BBC Mastermind",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzA3MDhiNmEtNWQyOC00NmZhLThiMzUtZWZhYWI2ODZhZWJmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMzA3MDhiNmEtNWQyOC00NmZhLThiMzUtZWZhYWI2ODZhZWJmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Emmerdale",
@@ -15024,7 +15309,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/szh6mSPgeAqs7Ijp7YHC90oGzkt.jpg",
       "large": "https://image.tmdb.org/t/p/w500/szh6mSPgeAqs7Ijp7YHC90oGzkt.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/szh6mSPgeAqs7Ijp7YHC90oGzkt.jpg",
-      "original": "https://image.tmdb.org/t/p/original/szh6mSPgeAqs7Ijp7YHC90oGzkt.jpg"
+      "original": "https://image.tmdb.org/t/p/original/szh6mSPgeAqs7Ijp7YHC90oGzkt.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTg2YmQ3ZGItMjZjNy00Y2E1LWExZWQtNzBkNzc3NzQ3ODhhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/szh6mSPgeAqs7Ijp7YHC90oGzkt.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/szh6mSPgeAqs7Ijp7YHC90oGzkt.jpg",
@@ -15128,7 +15414,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTg2YmQ3ZGItMjZjNy00Y2E1LWExZWQtNzBkNzc3NzQ3ODhhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOTg2YmQ3ZGItMjZjNy00Y2E1LWExZWQtNzBkNzc3NzQ3ODhhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Young and the Restless",
@@ -15161,7 +15449,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/mN3kMuh7Cy9byeySK6pymnpIOZO.jpg",
       "large": "https://image.tmdb.org/t/p/w500/mN3kMuh7Cy9byeySK6pymnpIOZO.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/mN3kMuh7Cy9byeySK6pymnpIOZO.jpg",
-      "original": "https://image.tmdb.org/t/p/original/mN3kMuh7Cy9byeySK6pymnpIOZO.jpg"
+      "original": "https://image.tmdb.org/t/p/original/mN3kMuh7Cy9byeySK6pymnpIOZO.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYjFhMWFhYTUtMDA0OC00YTE2LTk2NDMtMzI0NDM5MjY2YjU3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/mN3kMuh7Cy9byeySK6pymnpIOZO.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/mN3kMuh7Cy9byeySK6pymnpIOZO.jpg",
@@ -15254,7 +15543,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjFhMWFhYTUtMDA0OC00YTE2LTk2NDMtMzI0NDM5MjY2YjU3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYjFhMWFhYTUtMDA0OC00YTE2LTk2NDMtMzI0NDM5MjY2YjU3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Fantástico",
@@ -15275,7 +15566,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/s7OAyuxaOcEfhGQJpk6GKP0HOcM.jpg",
       "large": "https://image.tmdb.org/t/p/w500/s7OAyuxaOcEfhGQJpk6GKP0HOcM.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/s7OAyuxaOcEfhGQJpk6GKP0HOcM.jpg",
-      "original": "https://image.tmdb.org/t/p/original/s7OAyuxaOcEfhGQJpk6GKP0HOcM.jpg"
+      "original": "https://image.tmdb.org/t/p/original/s7OAyuxaOcEfhGQJpk6GKP0HOcM.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYWMzN2I4Y2ItYzFkZC00ZjM4LTkwMmEtN2VmOGVhNDA2MGRhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/s7OAyuxaOcEfhGQJpk6GKP0HOcM.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/s7OAyuxaOcEfhGQJpk6GKP0HOcM.jpg",
@@ -15379,7 +15671,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYWMzN2I4Y2ItYzFkZC00ZjM4LTkwMmEtN2VmOGVhNDA2MGRhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYWMzN2I4Y2ItYzFkZC00ZjM4LTkwMmEtN2VmOGVhNDA2MGRhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Super Sentai Series",
@@ -15581,10 +15875,13 @@
     "youtube_title": "Maya Rudolph Transforms into Kamala Harris - SNL",
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BOGI0ODc4MjAtZDA4Mi00ZGUyLTg2NmItYzhmZTJiYjM5Mjc1XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "PBS News Hour",
@@ -15616,7 +15913,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/xNPew1EYKdLiV9fiRme6hm2ejWb.jpg",
       "large": "https://image.tmdb.org/t/p/w500/xNPew1EYKdLiV9fiRme6hm2ejWb.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/xNPew1EYKdLiV9fiRme6hm2ejWb.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xNPew1EYKdLiV9fiRme6hm2ejWb.jpg"
+      "original": "https://image.tmdb.org/t/p/original/xNPew1EYKdLiV9fiRme6hm2ejWb.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNjdlOTI0NmItNWNkNi00YzZkLTg2NDItZmYyYjI0MDIzOTQyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/xNPew1EYKdLiV9fiRme6hm2ejWb.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/xNPew1EYKdLiV9fiRme6hm2ejWb.jpg",
@@ -15725,7 +16023,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjdlOTI0NmItNWNkNi00YzZkLTg2NDItZmYyYjI0MDIzOTQyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNjdlOTI0NmItNWNkNi00YzZkLTg2NDItZmYyYjI0MDIzOTQyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "This Old House",
@@ -15759,7 +16059,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
       "large": "https://image.tmdb.org/t/p/w500/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
-      "original": "https://image.tmdb.org/t/p/original/eKLaK1pivbX2z9aLev8IG2I9WG.jpg"
+      "original": "https://image.tmdb.org/t/p/original/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYWM3Njc4Y2ItMTBkNC00NzFhLThiYjctNDk1NDExMDgwYjYzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/eKLaK1pivbX2z9aLev8IG2I9WG.jpg",
@@ -15852,7 +16153,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYWM3Njc4Y2ItMTBkNC00NzFhLThiYjctNDk1NDExMDgwYjYzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYWM3Njc4Y2ItMTBkNC00NzFhLThiYjctNDk1NDExMDgwYjYzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Antiques Roadshow",
@@ -15885,7 +16188,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/hZnCNv58d7L0Ee3BZI3j2NSBtU.jpg",
       "large": "https://image.tmdb.org/t/p/w500/hZnCNv58d7L0Ee3BZI3j2NSBtU.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/hZnCNv58d7L0Ee3BZI3j2NSBtU.jpg",
-      "original": "https://image.tmdb.org/t/p/original/hZnCNv58d7L0Ee3BZI3j2NSBtU.jpg"
+      "original": "https://image.tmdb.org/t/p/original/hZnCNv58d7L0Ee3BZI3j2NSBtU.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYzZhNDMzNjEtNmI1Mi00Y2IyLWFkZTEtN2VlNWRiNWM1OGZhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/hZnCNv58d7L0Ee3BZI3j2NSBtU.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/hZnCNv58d7L0Ee3BZI3j2NSBtU.jpg",
@@ -15962,7 +16266,9 @@
     "directors": [
       "Matt Thomas"
     ],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzZhNDMzNjEtNmI1Mi00Y2IyLWFkZTEtN2VlNWRiNWM1OGZhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYzZhNDMzNjEtNmI1Mi00Y2IyLWFkZTEtN2VlNWRiNWM1OGZhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Question Time",
@@ -15995,7 +16301,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/nLGgjwQNnCKuDdJMDmp02pxB0u9.jpg",
       "large": "https://image.tmdb.org/t/p/w500/nLGgjwQNnCKuDdJMDmp02pxB0u9.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/nLGgjwQNnCKuDdJMDmp02pxB0u9.jpg",
-      "original": "https://image.tmdb.org/t/p/original/nLGgjwQNnCKuDdJMDmp02pxB0u9.jpg"
+      "original": "https://image.tmdb.org/t/p/original/nLGgjwQNnCKuDdJMDmp02pxB0u9.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjMxMzgzODA4N15BMl5BanBnXkFtZTgwNzQzNjQ2MDE@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/nLGgjwQNnCKuDdJMDmp02pxB0u9.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/nLGgjwQNnCKuDdJMDmp02pxB0u9.jpg",
@@ -16052,7 +16359,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjMxMzgzODA4N15BMl5BanBnXkFtZTgwNzQzNjQ2MDE@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjMxMzgzODA4N15BMl5BanBnXkFtZTgwNzQzNjQ2MDE@._V1_.jpg"
   },
   {
     "title": "MotorWeek",
@@ -16085,7 +16394,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/7fcKYElBFrNe3INyI3DiHIqo0e6.jpg",
       "large": "https://image.tmdb.org/t/p/w500/7fcKYElBFrNe3INyI3DiHIqo0e6.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/7fcKYElBFrNe3INyI3DiHIqo0e6.jpg",
-      "original": "https://image.tmdb.org/t/p/original/7fcKYElBFrNe3INyI3DiHIqo0e6.jpg"
+      "original": "https://image.tmdb.org/t/p/original/7fcKYElBFrNe3INyI3DiHIqo0e6.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNmI3M2Y2OTItYjJmZS00YmJmLTk1ZDQtZGNjOTI0MzBiZDczXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/7fcKYElBFrNe3INyI3DiHIqo0e6.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/7fcKYElBFrNe3INyI3DiHIqo0e6.jpg",
@@ -16189,7 +16499,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNmI3M2Y2OTItYjJmZS00YmJmLTk1ZDQtZGNjOTI0MzBiZDczXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNmI3M2Y2OTItYjJmZS00YmJmLTk1ZDQtZGNjOTI0MzBiZDczXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Das Traumschiff",
@@ -16221,7 +16533,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/6Jb2jvnbly0E0xLvpTCLsr9wD2O.jpg",
       "large": "https://image.tmdb.org/t/p/w500/6Jb2jvnbly0E0xLvpTCLsr9wD2O.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/6Jb2jvnbly0E0xLvpTCLsr9wD2O.jpg",
-      "original": "https://image.tmdb.org/t/p/original/6Jb2jvnbly0E0xLvpTCLsr9wD2O.jpg"
+      "original": "https://image.tmdb.org/t/p/original/6Jb2jvnbly0E0xLvpTCLsr9wD2O.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMDc0MDMxNjYtOWZiNC00ZmE1LTlkYWUtMzAzYWM0ODg2NDVjXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/6Jb2jvnbly0E0xLvpTCLsr9wD2O.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/6Jb2jvnbly0E0xLvpTCLsr9wD2O.jpg",
@@ -16248,7 +16561,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDc0MDMxNjYtOWZiNC00ZmE1LTlkYWUtMzAzYWM0ODg2NDVjXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc0MDMxNjYtOWZiNC00ZmE1LTlkYWUtMzAzYWM0ODg2NDVjXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Terra X",
@@ -16312,10 +16627,13 @@
     ],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzZkMDgtOGExYy00NzMzLThkNWYtZTI5NjcwM2EzZjFjXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Viva a Noite",
@@ -16387,7 +16705,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/88Rqa5oOrlEI8z0ALmDgeNWthBm.jpg",
       "large": "https://image.tmdb.org/t/p/w500/88Rqa5oOrlEI8z0ALmDgeNWthBm.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/88Rqa5oOrlEI8z0ALmDgeNWthBm.jpg",
-      "original": "https://image.tmdb.org/t/p/original/88Rqa5oOrlEI8z0ALmDgeNWthBm.jpg"
+      "original": "https://image.tmdb.org/t/p/original/88Rqa5oOrlEI8z0ALmDgeNWthBm.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNjBlMzlkMDgtNGJmOS00ODY2LTk4YzctNGVkOWZlYmQ4ZjZkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/88Rqa5oOrlEI8z0ALmDgeNWthBm.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/88Rqa5oOrlEI8z0ALmDgeNWthBm.jpg",
@@ -16489,7 +16808,9 @@
     "writers": [],
     "youtube_id": "JrgjrB171eg",
     "youtube_url": "https://www.youtube.com/watch?v=JrgjrB171eg",
-    "youtube_title": "The Crown Prince of Saudi Arabia | Preview | FRONTLINE"
+    "youtube_title": "The Crown Prince of Saudi Arabia | Preview | FRONTLINE",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjBlMzlkMDgtNGJmOS00ODY2LTk4YzctNGVkOWZlYmQ4ZjZkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNjBlMzlkMDgtNGJmOS00ODY2LTk4YzctNGVkOWZlYmQ4ZjZkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Jeopardy!",
@@ -16656,7 +16977,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/oLu6gs1qglnM64fJJarYXXIDHIg.jpg",
       "large": "https://image.tmdb.org/t/p/w500/oLu6gs1qglnM64fJJarYXXIDHIg.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/oLu6gs1qglnM64fJJarYXXIDHIg.jpg",
-      "original": "https://image.tmdb.org/t/p/original/oLu6gs1qglnM64fJJarYXXIDHIg.jpg"
+      "original": "https://image.tmdb.org/t/p/original/oLu6gs1qglnM64fJJarYXXIDHIg.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMDQyMmI2MjEtYjRhNi00ZTFiLWFhNzMtNTI1NzEzMmMwOWM1XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/oLu6gs1qglnM64fJJarYXXIDHIg.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/oLu6gs1qglnM64fJJarYXXIDHIg.jpg",
@@ -16674,7 +16996,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDQyMmI2MjEtYjRhNi00ZTFiLWFhNzMtNTI1NzEzMmMwOWM1XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMDQyMmI2MjEtYjRhNi00ZTFiLWFhNzMtNTI1NzEzMmMwOWM1XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Neighbours",
@@ -16710,7 +17034,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/bXY78bQsKCIiD17Sr6yO4wLIXqS.jpg",
       "large": "https://image.tmdb.org/t/p/w500/bXY78bQsKCIiD17Sr6yO4wLIXqS.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/bXY78bQsKCIiD17Sr6yO4wLIXqS.jpg",
-      "original": "https://image.tmdb.org/t/p/original/bXY78bQsKCIiD17Sr6yO4wLIXqS.jpg"
+      "original": "https://image.tmdb.org/t/p/original/bXY78bQsKCIiD17Sr6yO4wLIXqS.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZWU2YzdmOWYtNGY2ZS00NGRiLWJiMTEtMzRhNzIwZGY0MjQ2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/bXY78bQsKCIiD17Sr6yO4wLIXqS.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/bXY78bQsKCIiD17Sr6yO4wLIXqS.jpg",
@@ -16800,7 +17125,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/1dgSJOKOOIC44G2TvqGZDc15huL.jpg",
         "original": "https://image.tmdb.org/t/p/original/1dgSJOKOOIC44G2TvqGZDc15huL.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZWU2YzdmOWYtNGY2ZS00NGRiLWJiMTEtMzRhNzIwZGY0MjQ2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZWU2YzdmOWYtNGY2ZS00NGRiLWJiMTEtMzRhNzIwZGY0MjQ2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Saturday Night's Main Event",
@@ -16834,7 +17161,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/vG1ORAaghrGgf9LC45bNTeUYMu8.jpg",
       "large": "https://image.tmdb.org/t/p/w500/vG1ORAaghrGgf9LC45bNTeUYMu8.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/vG1ORAaghrGgf9LC45bNTeUYMu8.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vG1ORAaghrGgf9LC45bNTeUYMu8.jpg"
+      "original": "https://image.tmdb.org/t/p/original/vG1ORAaghrGgf9LC45bNTeUYMu8.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMDdlNTQzMWItZmFhNC00NzBmLWI3ZWQtODdlNzhlOTFlNGEyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/vG1ORAaghrGgf9LC45bNTeUYMu8.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/vG1ORAaghrGgf9LC45bNTeUYMu8.jpg",
@@ -16915,7 +17243,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDdlNTQzMWItZmFhNC00NzBmLWI3ZWQtODdlNzhlOTFlNGEyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMDdlNTQzMWItZmFhNC00NzBmLWI3ZWQtODdlNzhlOTFlNGEyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Objektiv",
@@ -17145,7 +17475,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/vQfZEGkgx5IvVufuDbPiHhLmDaY.jpg",
       "large": "https://image.tmdb.org/t/p/w500/vQfZEGkgx5IvVufuDbPiHhLmDaY.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/vQfZEGkgx5IvVufuDbPiHhLmDaY.jpg",
-      "original": "https://image.tmdb.org/t/p/original/vQfZEGkgx5IvVufuDbPiHhLmDaY.jpg"
+      "original": "https://image.tmdb.org/t/p/original/vQfZEGkgx5IvVufuDbPiHhLmDaY.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNmZiZGVhYmEtNDFjYS00MzdjLWFhN2ItNzc0MmY0M2U2MDFhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/vQfZEGkgx5IvVufuDbPiHhLmDaY.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/vQfZEGkgx5IvVufuDbPiHhLmDaY.jpg",
@@ -17183,7 +17514,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNmZiZGVhYmEtNDFjYS00MzdjLWFhN2ItNzc0MmY0M2U2MDFhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNmZiZGVhYmEtNDFjYS00MzdjLWFhN2ItNzc0MmY0M2U2MDFhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Medisch Centrum West",
@@ -17213,7 +17546,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/fXxYATJ7Gas2bm3iWTjjAwe1OJx.jpg",
       "large": "https://image.tmdb.org/t/p/w500/fXxYATJ7Gas2bm3iWTjjAwe1OJx.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/fXxYATJ7Gas2bm3iWTjjAwe1OJx.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fXxYATJ7Gas2bm3iWTjjAwe1OJx.jpg"
+      "original": "https://image.tmdb.org/t/p/original/fXxYATJ7Gas2bm3iWTjjAwe1OJx.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWI1NDZkYzgtNjZjZi00MTliLTk3NTctNWQ2M2I1NTljMmU5XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/fXxYATJ7Gas2bm3iWTjjAwe1OJx.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/fXxYATJ7Gas2bm3iWTjjAwe1OJx.jpg",
@@ -17293,7 +17627,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWI1NDZkYzgtNjZjZi00MTliLTk3NTctNWQ2M2I1NTljMmU5XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMWI1NDZkYzgtNjZjZi00MTliLTk3NTctNWQ2M2I1NTljMmU5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Fréquenstar",
@@ -17314,7 +17650,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/fUbkhFGbvTVJqAIRkC9BmOftZmv.jpg",
       "large": "https://image.tmdb.org/t/p/w500/fUbkhFGbvTVJqAIRkC9BmOftZmv.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/fUbkhFGbvTVJqAIRkC9BmOftZmv.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fUbkhFGbvTVJqAIRkC9BmOftZmv.jpg"
+      "original": "https://image.tmdb.org/t/p/original/fUbkhFGbvTVJqAIRkC9BmOftZmv.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNWNhMDFiMTAtYTZkMi00NTc0LWE0NDEtZDI2NDAxYjkwMGZlXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/fUbkhFGbvTVJqAIRkC9BmOftZmv.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/fUbkhFGbvTVJqAIRkC9BmOftZmv.jpg",
@@ -17362,7 +17699,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNWNhMDFiMTAtYTZkMi00NTc0LWE0NDEtZDI2NDAxYjkwMGZlXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNWNhMDFiMTAtYTZkMi00NTc0LWE0NDEtZDI2NDAxYjkwMGZlXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "POV",
@@ -17394,7 +17733,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/rJStW9J8LuB6alAA8t3YdRYkhkT.jpg",
       "large": "https://image.tmdb.org/t/p/w500/rJStW9J8LuB6alAA8t3YdRYkhkT.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/rJStW9J8LuB6alAA8t3YdRYkhkT.jpg",
-      "original": "https://image.tmdb.org/t/p/original/rJStW9J8LuB6alAA8t3YdRYkhkT.jpg"
+      "original": "https://image.tmdb.org/t/p/original/rJStW9J8LuB6alAA8t3YdRYkhkT.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYzIyMDMxNWYtM2VhZS00ZGUzLWFhMTItZmZmMDY5OGQyMTBhXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/rJStW9J8LuB6alAA8t3YdRYkhkT.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/rJStW9J8LuB6alAA8t3YdRYkhkT.jpg",
@@ -17490,7 +17830,9 @@
     "writers": [],
     "youtube_id": "2FtDwUdy-sw",
     "youtube_url": "https://www.youtube.com/watch?v=2FtDwUdy-sw",
-    "youtube_title": "POV | Series Reel"
+    "youtube_title": "POV | Series Reel",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzIyMDMxNWYtM2VhZS00ZGUzLWFhMTItZmZmMDY5OGQyMTBhXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYzIyMDMxNWYtM2VhZS00ZGUzLWFhMTItZmZmMDY5OGQyMTBhXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Carte Blanche",
@@ -17620,7 +17962,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
       "large": "https://image.tmdb.org/t/p/w500/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
-      "original": "https://image.tmdb.org/t/p/original/hBkyypWN3EcOzkozatiCm5VeaG.jpg"
+      "original": "https://image.tmdb.org/t/p/original/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZjUxOWJmNTAtMmJiOC00NGYxLThhMTQtMzlhYjVlM2Q0MjU2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/hBkyypWN3EcOzkozatiCm5VeaG.jpg",
@@ -17713,7 +18056,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZjUxOWJmNTAtMmJiOC00NGYxLThhMTQtMzlhYjVlM2Q0MjU2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZjUxOWJmNTAtMmJiOC00NGYxLThhMTQtMzlhYjVlM2Q0MjU2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mitternachtsspitzen",
@@ -17762,10 +18107,13 @@
     "writers": [],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZGFkOWNkZDctOTllZi00NjBkLWI4YTYtMTllMWUyMzc1MTFjXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "American Experience",
@@ -17797,7 +18145,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/YkcFBVYG6jvvHBRL1BxraAcOxh.jpg",
       "large": "https://image.tmdb.org/t/p/w500/YkcFBVYG6jvvHBRL1BxraAcOxh.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/YkcFBVYG6jvvHBRL1BxraAcOxh.jpg",
-      "original": "https://image.tmdb.org/t/p/original/YkcFBVYG6jvvHBRL1BxraAcOxh.jpg"
+      "original": "https://image.tmdb.org/t/p/original/YkcFBVYG6jvvHBRL1BxraAcOxh.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BN2EyMWNkZTMtYzNmNC00MjFkLWI2NmEtYzBiYmFmOTE5YzFkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/YkcFBVYG6jvvHBRL1BxraAcOxh.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/YkcFBVYG6jvvHBRL1BxraAcOxh.jpg",
@@ -17893,7 +18242,9 @@
     "writers": [],
     "youtube_id": "6No0iX7JSpE",
     "youtube_url": "https://www.youtube.com/watch?v=6No0iX7JSpE",
-    "youtube_title": "Thirty Years of American Experience"
+    "youtube_title": "Thirty Years of American Experience",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BN2EyMWNkZTMtYzNmNC00MjFkLWI2NmEtYzBiYmFmOTE5YzFkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BN2EyMWNkZTMtYzNmNC00MjFkLWI2NmEtYzBiYmFmOTE5YzFkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Chi l'ha visto?",
@@ -17924,7 +18275,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/hm9sEkLl9cSba05xSGhxZjkkXhK.jpg",
       "large": "https://image.tmdb.org/t/p/w500/hm9sEkLl9cSba05xSGhxZjkkXhK.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/hm9sEkLl9cSba05xSGhxZjkkXhK.jpg",
-      "original": "https://image.tmdb.org/t/p/original/hm9sEkLl9cSba05xSGhxZjkkXhK.jpg"
+      "original": "https://image.tmdb.org/t/p/original/hm9sEkLl9cSba05xSGhxZjkkXhK.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMzZmZTE1ZGUtNzFmZi00YTFmLWIzNTktZDg2MWZlNDkyN2IzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/hm9sEkLl9cSba05xSGhxZjkkXhK.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/hm9sEkLl9cSba05xSGhxZjkkXhK.jpg",
@@ -17963,7 +18315,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzZmZTE1ZGUtNzFmZi00YTFmLWIzNTktZDg2MWZlNDkyN2IzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMzZmZTE1ZGUtNzFmZi00YTFmLWIzNTktZDg2MWZlNDkyN2IzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Fair City",
@@ -17996,7 +18350,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/b9t0NRUngEKPa36vrXowjorWrAH.jpg",
       "large": "https://image.tmdb.org/t/p/w500/b9t0NRUngEKPa36vrXowjorWrAH.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/b9t0NRUngEKPa36vrXowjorWrAH.jpg",
-      "original": "https://image.tmdb.org/t/p/original/b9t0NRUngEKPa36vrXowjorWrAH.jpg"
+      "original": "https://image.tmdb.org/t/p/original/b9t0NRUngEKPa36vrXowjorWrAH.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BN2Q2ZTI5ODAtMThhMC00NWU1LTgyNDQtYTFhOGIyZjlmNDY0XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/b9t0NRUngEKPa36vrXowjorWrAH.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/b9t0NRUngEKPa36vrXowjorWrAH.jpg",
@@ -18058,7 +18413,9 @@
     "writers": [],
     "youtube_id": "zYpgVv-C5y4",
     "youtube_url": "https://www.youtube.com/watch?v=zYpgVv-C5y4",
-    "youtube_title": "Fair city double bill Sunday trailer"
+    "youtube_title": "Fair city double bill Sunday trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BN2Q2ZTI5ODAtMThhMC00NWU1LTgyNDQtYTFhOGIyZjlmNDY0XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BN2Q2ZTI5ODAtMThhMC00NWU1LTgyNDQtYTFhOGIyZjlmNDY0XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Simpsons",
@@ -18092,7 +18449,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg",
       "large": "https://image.tmdb.org/t/p/w500/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg",
-      "original": "https://image.tmdb.org/t/p/original/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg"
+      "original": "https://image.tmdb.org/t/p/original/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg",
@@ -18219,7 +18577,9 @@
     "writers": [],
     "youtube_id": "_jgYEYERYFQ",
     "youtube_url": "https://www.youtube.com/watch?v=_jgYEYERYFQ",
-    "youtube_title": "32 Seasons | The Simpsons | Disney+"
+    "youtube_title": "32 Seasons | The Simpsons | Disney+",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Romy Award",
@@ -18420,7 +18780,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/917ZwaLnDX5A5iVotS8NGObNtgO.jpg",
       "large": "https://image.tmdb.org/t/p/w500/917ZwaLnDX5A5iVotS8NGObNtgO.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/917ZwaLnDX5A5iVotS8NGObNtgO.jpg",
-      "original": "https://image.tmdb.org/t/p/original/917ZwaLnDX5A5iVotS8NGObNtgO.jpg"
+      "original": "https://image.tmdb.org/t/p/original/917ZwaLnDX5A5iVotS8NGObNtgO.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNjU1YTg5ZWMtMzY2My00ODljLWFmYmEtMTFlOGUyMWU4YjBkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/917ZwaLnDX5A5iVotS8NGObNtgO.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/917ZwaLnDX5A5iVotS8NGObNtgO.jpg",
@@ -18483,7 +18844,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/5c1VLdwBeKN5T0MNISbG2L7JKKU.jpg",
         "original": "https://image.tmdb.org/t/p/original/5c1VLdwBeKN5T0MNISbG2L7JKKU.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjU1YTg5ZWMtMzY2My00ODljLWFmYmEtMTFlOGUyMWU4YjBkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNjU1YTg5ZWMtMzY2My00ODljLWFmYmEtMTFlOGUyMWU4YjBkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Mapping the World",
@@ -18515,7 +18878,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/8mg2t2bsFy4734zpUOsHeLWnh6p.jpg",
       "large": "https://image.tmdb.org/t/p/w500/8mg2t2bsFy4734zpUOsHeLWnh6p.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/8mg2t2bsFy4734zpUOsHeLWnh6p.jpg",
-      "original": "https://image.tmdb.org/t/p/original/8mg2t2bsFy4734zpUOsHeLWnh6p.jpg"
+      "original": "https://image.tmdb.org/t/p/original/8mg2t2bsFy4734zpUOsHeLWnh6p.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNGJjNTkxYjQtMTk4ZS00ZjMzLTk1ZjktMjYyNzI4NmNhNWVkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/8mg2t2bsFy4734zpUOsHeLWnh6p.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/8mg2t2bsFy4734zpUOsHeLWnh6p.jpg",
@@ -18557,7 +18921,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/ypE9ytJ7srW3xFrJtRamYeWU5Ga.jpg",
         "original": "https://image.tmdb.org/t/p/original/ypE9ytJ7srW3xFrJtRamYeWU5Ga.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNGJjNTkxYjQtMTk4ZS00ZjMzLTk1ZjktMjYyNzI4NmNhNWVkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNGJjNTkxYjQtMTk4ZS00ZjMzLTk1ZjktMjYyNzI4NmNhNWVkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "E=M6",
@@ -18693,7 +19059,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/cO9UZVr41PFPkpPChvaYZKtbH1m.jpg",
       "large": "https://image.tmdb.org/t/p/w500/cO9UZVr41PFPkpPChvaYZKtbH1m.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/cO9UZVr41PFPkpPChvaYZKtbH1m.jpg",
-      "original": "https://image.tmdb.org/t/p/original/cO9UZVr41PFPkpPChvaYZKtbH1m.jpg"
+      "original": "https://image.tmdb.org/t/p/original/cO9UZVr41PFPkpPChvaYZKtbH1m.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZTE0YzkzYzAtMzQxYy00ODQ2LThmZjMtZjcxMDc1MjMzOGY2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/cO9UZVr41PFPkpPChvaYZKtbH1m.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/cO9UZVr41PFPkpPChvaYZKtbH1m.jpg",
@@ -18810,7 +19177,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZTE0YzkzYzAtMzQxYy00ODQ2LThmZjMtZjcxMDc1MjMzOGY2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZTE0YzkzYzAtMzQxYy00ODQ2LThmZjMtZjcxMDc1MjMzOGY2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Healthy, Wealthy and Wise",
@@ -18847,10 +19216,13 @@
     "writers": [],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZWM3MDZhMmQtZmY1OS00YzhkLWE3MDctZWI2ZmMzMTIzMmE3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Unanswered Questions",
@@ -18980,7 +19352,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
       "large": "https://image.tmdb.org/t/p/w500/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xj9zonhdomfBpEhZQmAON5u3CiB.jpg"
+      "original": "https://image.tmdb.org/t/p/original/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BODY1OGE2ZmEtMzRmYi00ZTI2LWIwZTAtY2RlYzYyZDY2NTY4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/xj9zonhdomfBpEhZQmAON5u3CiB.jpg",
@@ -19034,7 +19407,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODY1OGE2ZmEtMzRmYi00ZTI2LWIwZTAtY2RlYzYyZDY2NTY4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BODY1OGE2ZmEtMzRmYi00ZTI2LWIwZTAtY2RlYzYyZDY2NTY4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Gute Zeiten, schlechte Zeiten",
@@ -19067,7 +19442,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
       "large": "https://image.tmdb.org/t/p/w500/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
-      "original": "https://image.tmdb.org/t/p/original/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg"
+      "original": "https://image.tmdb.org/t/p/original/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMmMwZjIxZWEtZjBjZS00Zjk4LThmZDQtYzU5OTBiYjkxMDE2XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/qujVFLAlBnPU9mZElV4NZgL8iXT.jpg",
@@ -19193,7 +19569,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmMwZjIxZWEtZjBjZS00Zjk4LThmZDQtYzU5OTBiYjkxMDE2XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMmMwZjIxZWEtZjBjZS00Zjk4LThmZDQtYzU5OTBiYjkxMDE2XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Taratata",
@@ -19241,10 +19619,13 @@
     "writers": [],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjI1M2VmZjEtYWFjYy00Y2E5LWI3OTQtNTEwNmNhZDFkNDEyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Raw",
@@ -19278,7 +19659,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
       "large": "https://image.tmdb.org/t/p/w500/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
-      "original": "https://image.tmdb.org/t/p/original/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg"
+      "original": "https://image.tmdb.org/t/p/original/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNDc4NGZmNmEtNDQxYS00NjRiLWJmZjQtODI5OTI4ZmFhZjQ3XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
@@ -19371,7 +19753,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNDc4NGZmNmEtNDQxYS00NjRiLWJmZjQtODI5OTI4ZmFhZjQ3XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNDc4NGZmNmEtNDQxYS00NjRiLWJmZjQtODI5OTI4ZmFhZjQ3XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "This Hour Has 22 Minutes",
@@ -19405,7 +19789,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/kzIr05ar49NLRZANut3MNyeDTTJ.jpg",
       "large": "https://image.tmdb.org/t/p/w500/kzIr05ar49NLRZANut3MNyeDTTJ.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/kzIr05ar49NLRZANut3MNyeDTTJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/kzIr05ar49NLRZANut3MNyeDTTJ.jpg"
+      "original": "https://image.tmdb.org/t/p/original/kzIr05ar49NLRZANut3MNyeDTTJ.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYzk0ODk1OWItNDIxNy00M2M4LTliNWItYTFlNjdkNDNhZWMzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/kzIr05ar49NLRZANut3MNyeDTTJ.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/kzIr05ar49NLRZANut3MNyeDTTJ.jpg",
@@ -19497,7 +19882,9 @@
     "writers": [],
     "youtube_id": "LTXh5OVwXMw",
     "youtube_url": "https://www.youtube.com/watch?v=LTXh5OVwXMw",
-    "youtube_title": "This Hour Has 22 Minutes Season 15"
+    "youtube_title": "This Hour Has 22 Minutes Season 15",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzk0ODk1OWItNDIxNy00M2M4LTliNWItYTFlNjdkNDNhZWMzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYzk0ODk1OWItNDIxNy00M2M4LTliNWItYTFlNjdkNDNhZWMzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Eurovizija.LT",
@@ -19586,10 +19973,13 @@
     "writers": [],
     "imdb_poster_url": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@.jpg",
     "posters": {
-      "imdb": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@.jpg"
+      "imdb": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@.jpg",
-    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@.jpg"
+    "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@.jpg",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNTMyMGY0YTgtMGVhZC00ZmNhLWE3YjAtNTA0MTNiZDljNzBkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Die Fallers – Eine Schwarzwaldfamilie",
@@ -19622,7 +20012,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg",
       "large": "https://image.tmdb.org/t/p/w500/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg",
-      "original": "https://image.tmdb.org/t/p/original/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg"
+      "original": "https://image.tmdb.org/t/p/original/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMTdlN2FmMmMtODlkZS00YzA5LWJiZTctM2QxMWQ0NjVjOTAwXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg",
@@ -19637,7 +20028,9 @@
         "original": "https://image.tmdb.org/t/p/original/fqgY8LyVaSwS3UTxwqRXB9UJ2MI.jpg",
         "language": "de"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTdlN2FmMmMtODlkZS00YzA5LWJiZTctM2QxMWQ0NjVjOTAwXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMTdlN2FmMmMtODlkZS00YzA5LWJiZTctM2QxMWQ0NjVjOTAwXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Svengoolie",
@@ -19669,7 +20062,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/rAlUtmmXLyBTSuVewY0M7OxBbCg.jpg",
       "large": "https://image.tmdb.org/t/p/w500/rAlUtmmXLyBTSuVewY0M7OxBbCg.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/rAlUtmmXLyBTSuVewY0M7OxBbCg.jpg",
-      "original": "https://image.tmdb.org/t/p/original/rAlUtmmXLyBTSuVewY0M7OxBbCg.jpg"
+      "original": "https://image.tmdb.org/t/p/original/rAlUtmmXLyBTSuVewY0M7OxBbCg.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMjBiNzJhY2UtMDc0NC00MjA3LThiMDUtNmE0ZmVjYzVhYmY5XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/rAlUtmmXLyBTSuVewY0M7OxBbCg.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/rAlUtmmXLyBTSuVewY0M7OxBbCg.jpg",
@@ -19728,7 +20122,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjBiNzJhY2UtMDc0NC00MjA3LThiMDUtNmE0ZmVjYzVhYmY5XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMjBiNzJhY2UtMDc0NC00MjA3LThiMDUtNmE0ZmVjYzVhYmY5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Capital",
@@ -19760,7 +20156,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/nNQARRY1PPfB0ibUPo3YDpEEQEb.jpg",
       "large": "https://image.tmdb.org/t/p/w500/nNQARRY1PPfB0ibUPo3YDpEEQEb.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/nNQARRY1PPfB0ibUPo3YDpEEQEb.jpg",
-      "original": "https://image.tmdb.org/t/p/original/nNQARRY1PPfB0ibUPo3YDpEEQEb.jpg"
+      "original": "https://image.tmdb.org/t/p/original/nNQARRY1PPfB0ibUPo3YDpEEQEb.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BM2VhZjVjMmUtMDEyMy00NTY5LTkyZWUtZWNkYjg4MWYzYjc5XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/nNQARRY1PPfB0ibUPo3YDpEEQEb.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/nNQARRY1PPfB0ibUPo3YDpEEQEb.jpg",
@@ -19793,7 +20190,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2VhZjVjMmUtMDEyMy00NTY5LTkyZWUtZWNkYjg4MWYzYjc5XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BM2VhZjVjMmUtMDEyMy00NTY5LTkyZWUtZWNkYjg4MWYzYjc5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "出没!アド街ック天国",
@@ -19860,7 +20259,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/1d41YoIlPqC9k4zv3DSllQt5W8b.jpg",
       "large": "https://image.tmdb.org/t/p/w500/1d41YoIlPqC9k4zv3DSllQt5W8b.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/1d41YoIlPqC9k4zv3DSllQt5W8b.jpg",
-      "original": "https://image.tmdb.org/t/p/original/1d41YoIlPqC9k4zv3DSllQt5W8b.jpg"
+      "original": "https://image.tmdb.org/t/p/original/1d41YoIlPqC9k4zv3DSllQt5W8b.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BY2NkMzhlZDQtN2EwYi00MGQzLWFhMjMtMmM0NDBlNTk5MzcyXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/1d41YoIlPqC9k4zv3DSllQt5W8b.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/1d41YoIlPqC9k4zv3DSllQt5W8b.jpg",
@@ -19908,7 +20308,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BY2NkMzhlZDQtN2EwYi00MGQzLWFhMjMtMmM0NDBlNTk5MzcyXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BY2NkMzhlZDQtN2EwYi00MGQzLWFhMjMtMmM0NDBlNTk5MzcyXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Beatles Anthology",
@@ -19929,7 +20331,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/rJ0aCMKSfWWyAexI5QVV2XgxOQn.jpg",
       "large": "https://image.tmdb.org/t/p/w500/rJ0aCMKSfWWyAexI5QVV2XgxOQn.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/rJ0aCMKSfWWyAexI5QVV2XgxOQn.jpg",
-      "original": "https://image.tmdb.org/t/p/original/rJ0aCMKSfWWyAexI5QVV2XgxOQn.jpg"
+      "original": "https://image.tmdb.org/t/p/original/rJ0aCMKSfWWyAexI5QVV2XgxOQn.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYTYzNDA1NmMtNjg2ZC00OWVlLWFmMDItNTljMjFiMWQxZjgzXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/rJ0aCMKSfWWyAexI5QVV2XgxOQn.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/rJ0aCMKSfWWyAexI5QVV2XgxOQn.jpg",
@@ -20051,7 +20454,9 @@
     "writers": [],
     "youtube_id": "UpCwdkGby6E",
     "youtube_url": "https://www.youtube.com/watch?v=UpCwdkGby6E",
-    "youtube_title": "Official Trailer"
+    "youtube_title": "Official Trailer",
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTYzNDA1NmMtNjg2ZC00OWVlLWFmMDItNTljMjFiMWQxZjgzXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYTYzNDA1NmMtNjg2ZC00OWVlLWFmMDItNTljMjFiMWQxZjgzXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Thuis",
@@ -20083,7 +20488,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/NkELfFEB8u4kV2Dketz0tbIQWV.jpg",
       "large": "https://image.tmdb.org/t/p/w500/NkELfFEB8u4kV2Dketz0tbIQWV.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/NkELfFEB8u4kV2Dketz0tbIQWV.jpg",
-      "original": "https://image.tmdb.org/t/p/original/NkELfFEB8u4kV2Dketz0tbIQWV.jpg"
+      "original": "https://image.tmdb.org/t/p/original/NkELfFEB8u4kV2Dketz0tbIQWV.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYjg1ZjMzMzAtY2ZhOS00ODUzLThkYWQtZmJmYTIxODYzY2NjXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/NkELfFEB8u4kV2Dketz0tbIQWV.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/NkELfFEB8u4kV2Dketz0tbIQWV.jpg",
@@ -20134,7 +20540,9 @@
         "large": "https://image.tmdb.org/t/p/w1280/6ShU8hJrmHaCBI4NQBJfpbgS39t.jpg",
         "original": "https://image.tmdb.org/t/p/original/6ShU8hJrmHaCBI4NQBJfpbgS39t.jpg"
       }
-    ]
+    ],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjg1ZjMzMzAtY2ZhOS00ODUzLThkYWQtZmJmYTIxODYzY2NjXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BYjg1ZjMzMzAtY2ZhOS00ODUzLThkYWQtZmJmYTIxODYzY2NjXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Daily Show",
@@ -20165,7 +20573,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/wxU8rs8To2yla2FV2xNoNgFXKlJ.jpg",
       "large": "https://image.tmdb.org/t/p/w500/wxU8rs8To2yla2FV2xNoNgFXKlJ.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/wxU8rs8To2yla2FV2xNoNgFXKlJ.jpg",
-      "original": "https://image.tmdb.org/t/p/original/wxU8rs8To2yla2FV2xNoNgFXKlJ.jpg"
+      "original": "https://image.tmdb.org/t/p/original/wxU8rs8To2yla2FV2xNoNgFXKlJ.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWY0YjU0ZGEtZTZmZS00YzU5LTg2ODAtM2VkY2U3MDUzZGI4XkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/wxU8rs8To2yla2FV2xNoNgFXKlJ.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/wxU8rs8To2yla2FV2xNoNgFXKlJ.jpg",
@@ -20258,7 +20667,9 @@
     ],
     "cast": [],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWY0YjU0ZGEtZTZmZS00YzU5LTg2ODAtM2VkY2U3MDUzZGI4XkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMWY0YjU0ZGEtZTZmZS00YzU5LTg2ODAtM2VkY2U3MDUzZGI4XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "South Park",
@@ -20289,7 +20700,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
       "large": "https://image.tmdb.org/t/p/w500/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
-      "original": "https://image.tmdb.org/t/p/original/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg"
+      "original": "https://image.tmdb.org/t/p/original/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNTBlMzA3ZTUtODZjNi00NTM0LWExMjMtNjJhYzA3YTkwMWYwXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
@@ -20403,7 +20815,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTBlMzA3ZTUtODZjNi00NTM0LWExMjMtNjJhYzA3YTkwMWYwXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BNTBlMzA3ZTUtODZjNi00NTM0LWExMjMtNjJhYzA3YTkwMWYwXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Report",
@@ -20509,7 +20923,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/u68xoCxfX6FmXOiu0cKZxh5G2e8.jpg",
       "large": "https://image.tmdb.org/t/p/w500/u68xoCxfX6FmXOiu0cKZxh5G2e8.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/u68xoCxfX6FmXOiu0cKZxh5G2e8.jpg",
-      "original": "https://image.tmdb.org/t/p/original/u68xoCxfX6FmXOiu0cKZxh5G2e8.jpg"
+      "original": "https://image.tmdb.org/t/p/original/u68xoCxfX6FmXOiu0cKZxh5G2e8.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZWM1NDM0MmYtYzgyZS00ZjNhLWE3ZjYtZGMxMDFmMDc5NTVmXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/u68xoCxfX6FmXOiu0cKZxh5G2e8.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/u68xoCxfX6FmXOiu0cKZxh5G2e8.jpg",
@@ -20635,7 +21050,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZWM1NDM0MmYtYzgyZS00ZjNhLWE3ZjYtZGMxMDFmMDc5NTVmXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BZWM1NDM0MmYtYzgyZS00ZjNhLWE3ZjYtZGMxMDFmMDc5NTVmXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "Le Bigdil",
@@ -20668,7 +21085,8 @@
       "medium": "https://image.tmdb.org/t/p/w342/krvN4t1VPbsri300EQkwIKoJNUC.jpg",
       "large": "https://image.tmdb.org/t/p/w500/krvN4t1VPbsri300EQkwIKoJNUC.jpg",
       "xlarge": "https://image.tmdb.org/t/p/w780/krvN4t1VPbsri300EQkwIKoJNUC.jpg",
-      "original": "https://image.tmdb.org/t/p/original/krvN4t1VPbsri300EQkwIKoJNUC.jpg"
+      "original": "https://image.tmdb.org/t/p/original/krvN4t1VPbsri300EQkwIKoJNUC.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMDVmM2FmOTUtMzEyYi00NGUxLWFjZDEtOTc1ZTQzYzIwNmVkXkEyXkFqcGc@._V1_.jpg"
     },
     "poster_url_medium": "https://image.tmdb.org/t/p/w342/krvN4t1VPbsri300EQkwIKoJNUC.jpg",
     "poster_url_large": "https://image.tmdb.org/t/p/w500/krvN4t1VPbsri300EQkwIKoJNUC.jpg",
@@ -20736,7 +21154,9 @@
       }
     ],
     "directors": [],
-    "writers": []
+    "writers": [],
+    "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDVmM2FmOTUtMzEyYi00NGUxLWFjZDEtOTc1ZTQzYzIwNmVkXkEyXkFqcGc@._V1_.jpg",
+    "cover_url": "https://m.media-amazon.com/images/M/MV5BMDVmM2FmOTUtMzEyYi00NGUxLWFjZDEtOTc1ZTQzYzIwNmVkXkEyXkFqcGc@._V1_.jpg"
   },
   {
     "title": "The Challenge",
