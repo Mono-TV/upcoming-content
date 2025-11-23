@@ -1155,6 +1155,173 @@ function closeDeeplinkModal() {
     }
 }
 
+function openDetailModal(movie, contentArray = [], contentIndex = 0) {
+    const backdrop = document.getElementById('backdrop');
+
+    // Create modal
+    const modal = document.createElement('div');
+    modal.className = 'detail-modal';
+    modal.style.cssText = `
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: linear-gradient(135deg, rgba(28, 28, 30, 0.98) 0%, rgba(44, 44, 46, 0.98) 100%);
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+        border-radius: 24px;
+        padding: 32px;
+        max-width: 600px;
+        width: 90%;
+        max-height: 85vh;
+        overflow-y: auto;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5),
+                    0 0 0 1px rgba(255, 255, 255, 0.1);
+        z-index: 10001;
+        font-family: 'Red Hat Display', sans-serif;
+        color: var(--text-primary);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    `;
+
+    const title = sanitizeText(movie.title || 'Untitled');
+    const description = sanitizeText(movie.description || movie.overview || 'No description available.');
+    const genres = movie.genres || [];
+    const rating = movie.tmdb_rating || movie.imdb_rating;
+    const watchLinks = movie.watch_links || {};
+
+    // Build genres HTML
+    const genresHTML = genres.length > 0
+        ? genres.map(g => `<span style="display: inline-block; padding: 4px 12px; background: rgba(245, 175, 25, 0.2); border-radius: 12px; font-size: 12px; margin-right: 8px; margin-bottom: 8px;">${sanitizeText(g)}</span>`).join('')
+        : '<span style="color: var(--text-secondary); font-size: 14px;">No genres available</span>';
+
+    // Build watch links HTML
+    const linkIcons = {
+        'imdb': '🎬',
+        'tmdb': '🎥',
+        'ottplay': '📺',
+        'netflix_search': 'N',
+        'amazon_prime_video_search': 'P',
+        'hotstar_search': 'H',
+        'zee5_search': 'Z',
+        'sony_liv_search': 'S'
+    };
+
+    const linkLabels = {
+        'imdb': 'IMDb',
+        'tmdb': 'TMDB',
+        'ottplay': 'OTTPlay',
+        'netflix_search': 'Search on Netflix',
+        'amazon_prime_video_search': 'Search on Prime',
+        'hotstar_search': 'Search on Hotstar',
+        'zee5_search': 'Search on Zee5',
+        'sony_liv_search': 'Search on Sony LIV',
+        'sun_nxt_search': 'Search on Sun NXT',
+        'aha_search': 'Search on Aha',
+        'manorama_max_search': 'Search on Manorama MAX'
+    };
+
+    const watchLinksHTML = Object.keys(watchLinks).length > 0
+        ? Object.entries(watchLinks).map(([key, url]) => {
+            const icon = linkIcons[key] || '🔗';
+            const label = linkLabels[key] || key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            const safeUrl = sanitizeAttribute(url);
+
+            return `
+                <a href="${safeUrl}" target="_blank" rel="noopener noreferrer"
+                   style="display: flex; align-items: center; justify-content: space-between;
+                          padding: 14px 18px; background: rgba(255, 255, 255, 0.05);
+                          border-radius: 12px; text-decoration: none;
+                          color: var(--text-primary); font-weight: 500;
+                          transition: all 0.2s ease; border: 1px solid rgba(255, 255, 255, 0.1);
+                          margin-bottom: 8px;"
+                   onmouseover="this.style.background='rgba(245, 175, 25, 0.15)'; this.style.borderColor='rgba(245, 175, 25, 0.3)';"
+                   onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'; this.style.borderColor='rgba(255, 255, 255, 0.1)';">
+                    <span style="display: flex; align-items: center; gap: 12px;">
+                        <span style="font-size: 18px;">${icon}</span>
+                        <span style="font-size: 14px;">${label}</span>
+                    </span>
+                    <span style="font-size: 18px; opacity: 0.6;">→</span>
+                </a>
+            `;
+        }).join('')
+        : '<p style="color: var(--text-secondary); font-size: 14px; text-align: center; padding: 20px;">No watch links available</p>';
+
+    modal.innerHTML = `
+        <div style="margin-bottom: 24px;">
+            <h2 style="margin: 0 0 12px 0; font-size: 28px; font-weight: 700; color: var(--text-primary); line-height: 1.2;">${title}</h2>
+            ${genres.length > 0 ? `<div style="margin-bottom: 12px;">${genresHTML}</div>` : ''}
+            ${rating ? `<div style="margin-bottom: 12px;"><span style="color: #f5af19; font-weight: 600; font-size: 16px;">★ ${rating}</span></div>` : ''}
+            <p style="margin: 0; color: var(--text-secondary); font-size: 15px; line-height: 1.6;">${description}</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <h3 style="margin: 0 0 12px 0; font-size: 18px; font-weight: 600; color: var(--text-primary);">Watch Now</h3>
+            <div style="display: flex; flex-direction: column;">
+                ${watchLinksHTML}
+            </div>
+        </div>
+
+        <button onclick="closeDetailModal()"
+                style="width: 100%; padding: 14px;
+                       background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+                       color: white; border: none; border-radius: 12px;
+                       font-weight: 700; font-size: 16px; cursor: pointer;
+                       transition: opacity 0.2s ease;"
+                onmouseover="this.style.opacity='0.9';"
+                onmouseout="this.style.opacity='1';">
+            Close
+        </button>
+    `;
+
+    document.body.appendChild(modal);
+    backdrop.style.display = 'block';
+
+    // Animate in
+    setTimeout(() => {
+        backdrop.style.opacity = '1';
+        modal.style.opacity = '1';
+    }, 10);
+
+    // Close on backdrop click
+    backdrop.onclick = closeDetailModal;
+
+    // Close on Escape key
+    const escapeHandler = (e) => {
+        if (e.key === 'Escape') {
+            closeDetailModal();
+        }
+    };
+    document.addEventListener('keydown', escapeHandler);
+
+    // Store reference for cleanup
+    modal.escapeHandler = escapeHandler;
+}
+
+function closeDetailModal() {
+    const modal = document.querySelector('.detail-modal');
+    const backdrop = document.getElementById('backdrop');
+
+    if (modal) {
+        // Remove escape handler
+        if (modal.escapeHandler) {
+            document.removeEventListener('keydown', modal.escapeHandler);
+        }
+
+        // Animate out
+        modal.style.opacity = '0';
+        backdrop.style.opacity = '0';
+
+        setTimeout(() => {
+            if (modal.parentNode) {
+                modal.parentNode.removeChild(modal);
+            }
+            backdrop.style.display = 'none';
+            backdrop.onclick = null;
+        }, 300);
+    }
+}
+
 function expandCard(card, movie) {
     if (currentExpandedCard) return; // Prevent multiple expansions
 
