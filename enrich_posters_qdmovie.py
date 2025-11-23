@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
-qdMovie/imdbinfo Poster Enrichment Script
-Uses the imdbinfo package (powers qdMovieAPI) to fetch poster URLs from IMDb
+qdMovie/imdbinfo Metadata Enrichment Script
+Uses the imdbinfo package (powers qdMovieAPI) to fetch data from IMDb:
+- Poster URLs
+- Plot/Description
+- Genres
 More reliable than web scraping as it's a structured API wrapper
 """
 
@@ -20,7 +23,7 @@ except ImportError:
 
 
 class QDMoviePosterEnricher:
-    """Enriches content with poster URLs using imdbinfo package"""
+    """Enriches content with metadata (posters, plot, genres) using imdbinfo package"""
 
     def __init__(self, input_file='movies_enriched.json'):
         self.input_file = input_file
@@ -56,15 +59,15 @@ class QDMoviePosterEnricher:
             print(f"❌ Invalid JSON in {self.input_file}: {e}")
             sys.exit(1)
 
-    def get_qdmovie_poster(self, imdb_id: str) -> Optional[str]:
+    def get_qdmovie_data(self, imdb_id: str) -> Optional[Dict]:
         """
-        Fetch poster URL using imdbinfo package
+        Fetch movie data using imdbinfo package
 
         Args:
             imdb_id: IMDb ID (e.g., 'tt1234567' or '1234567')
 
         Returns:
-            Poster URL or None if not found
+            Dictionary with poster_url, plot, genres or None if not found
         """
         if not imdb_id:
             return None
@@ -77,9 +80,26 @@ class QDMoviePosterEnricher:
             for attempt in range(3):
                 try:
                     movie = get_movie(clean_id)
-                    if movie and hasattr(movie, 'cover_url') and movie.cover_url:
-                        return movie.cover_url
-                    return None
+                    if not movie:
+                        return None
+
+                    # Extract available data
+                    data = {}
+
+                    # Poster URL
+                    if hasattr(movie, 'cover_url') and movie.cover_url:
+                        data['poster_url'] = movie.cover_url
+
+                    # Plot/Description
+                    if hasattr(movie, 'plot') and movie.plot:
+                        data['plot'] = movie.plot
+
+                    # Genres
+                    if hasattr(movie, 'genres') and movie.genres:
+                        data['genres'] = movie.genres
+
+                    return data if data else None
+
                 except (ConnectionError, TimeoutError):
                     if attempt < 2:
                         time.sleep((attempt + 1) * 2)
@@ -94,10 +114,10 @@ class QDMoviePosterEnricher:
 
     def enrich_item(self, item: Dict) -> bool:
         """
-        Enrich a single item with qdMovie poster
+        Enrich a single item with qdMovie data (poster, description, genres)
 
         Returns:
-            True if poster was added/updated
+            True if data was added/updated
         """
         imdb_id = item.get('imdb_id')
         if not imdb_id:
@@ -106,9 +126,18 @@ class QDMoviePosterEnricher:
         title = item.get('title', 'Unknown')
         has_poster = bool(item.get('posters') or item.get('poster_path'))
 
-        # Get qdMovie poster
-        qdmovie_poster_url = self.get_qdmovie_poster(imdb_id)
+        # Get qdMovie data (poster, plot, genres)
+        qdmovie_data = self.get_qdmovie_data(imdb_id)
 
+        if not qdmovie_data:
+            print(f" → ❌ No data found via qdMovie")
+            return False
+
+        enriched = False
+        updates = []
+
+        # Handle poster
+        qdmovie_poster_url = qdmovie_data.get('poster_url')
         if qdmovie_poster_url:
             # Add qdMovie poster URL to item
             if 'qdmovie_poster_url' not in item:
@@ -128,8 +157,8 @@ class QDMoviePosterEnricher:
                 if 'cover_url' not in item:
                     item['cover_url'] = qdmovie_poster_url
 
-                print(f" → ✅ Added qdMovie poster (no other poster)")
-                return True
+                updates.append('poster')
+                enriched = True
             else:
                 # Item has poster, store qdMovie as alternative
                 if 'posters' not in item:
@@ -139,11 +168,53 @@ class QDMoviePosterEnricher:
                 if 'cover_url' not in item:
                     item['cover_url'] = qdmovie_poster_url
 
-                print(f" → ℹ️  qdMovie poster stored as alternative")
-                return True
+                updates.append('alt-poster')
+                enriched = True
+
+        # Handle description/plot
+        qdmovie_plot = qdmovie_data.get('plot')
+        if qdmovie_plot:
+            # Check if current description is generic or missing
+            current_desc = item.get('description', '')
+            has_good_desc = current_desc and 'Watch' not in current_desc and 'OTTplay' not in current_desc
+
+            # Also check overview field
+            current_overview = item.get('overview', '')
+            has_good_overview = current_overview and len(current_overview) > 50
+
+            # Update if we don't have a good description
+            if not has_good_desc or not has_good_overview:
+                if 'qdmovie_plot' not in item:
+                    item['qdmovie_plot'] = qdmovie_plot
+
+                if not has_good_desc:
+                    item['description'] = qdmovie_plot
+                    updates.append('description')
+                    enriched = True
+
+                if not has_good_overview:
+                    item['overview'] = qdmovie_plot
+                    updates.append('overview')
+                    enriched = True
+
+        # Handle genres
+        qdmovie_genres = qdmovie_data.get('genres')
+        if qdmovie_genres:
+            # Only add if genres are missing
+            if not item.get('genres'):
+                item['genres'] = qdmovie_genres
+                updates.append('genres')
+                enriched = True
+            elif 'qdmovie_genres' not in item:
+                # Store as alternative
+                item['qdmovie_genres'] = qdmovie_genres
+
+        if enriched:
+            print(f" → ✅ Added: {', '.join(updates)}")
         else:
-            print(f" → ❌ No poster found via qdMovie")
-            return False
+            print(f" → ℹ️  No new data added")
+
+        return enriched
 
     def run(self, prioritize_missing=True, enrich_all=False):
         """
@@ -156,7 +227,7 @@ class QDMoviePosterEnricher:
         start_time = time.time()
 
         print("\n" + "="*70)
-        print("qdMOVIE/IMDBINFO POSTER ENRICHMENT")
+        print("qdMOVIE/IMDBINFO METADATA ENRICHMENT")
         print("="*70)
         print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*70)
@@ -211,9 +282,15 @@ class QDMoviePosterEnricher:
                 title = item.get('title', 'Unknown')
                 imdb_id = item.get('imdb_id', 'N/A')
 
-                # Skip if already has qdmovie poster
-                if item.get('qdmovie_poster_url'):
-                    print(f"[{i}/{len(items_with_posters)}] {title[:50]} ({imdb_id}) → ⊙ Already has qdMovie poster")
+                # Check if item needs enrichment (generic description or missing genres)
+                desc = item.get('description', '')
+                has_generic_desc = 'Watch' in desc or 'OTTplay' in desc or 'full movie online' in desc
+                needs_genres = not item.get('genres')
+                needs_plot = not item.get('qdmovie_plot')  # Always try to fetch plot
+
+                # Skip only if has poster AND good description AND genres
+                if item.get('qdmovie_poster_url') and not has_generic_desc and not needs_genres and not needs_plot:
+                    print(f"[{i}/{len(items_with_posters)}] {title[:50]} ({imdb_id}) → ⊙ Already enriched")
                     self.skipped_count += 1
                     continue
 
@@ -273,7 +350,7 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(
-        description='Enrich movie/TV data with qdMovie/imdbinfo poster URLs',
+        description='Enrich movie/TV data with qdMovie/imdbinfo metadata (posters, plot, genres)',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -283,6 +360,7 @@ Examples:
 
 Features:
   - Uses imdbinfo package (powers qdMovieAPI)
+  - Fetches posters, plot/description, and genres
   - More reliable than direct web scraping
   - Provides structured Pydantic models
   - Automatic retry logic for network issues

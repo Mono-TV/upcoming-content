@@ -56,7 +56,11 @@
       "poster_url_large": "https://image.tmdb.org/t/p/w500/wrQr9IyozdycOfXF0ZisUmH2aGV.jpg",
       "poster_source": "tmdb",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTQ0ZjhlZTUtZDMwOC00ZjRkLWJlMjUtNTQwNDAxNDExMDg0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTQ0ZjhlZTUtZDMwOC00ZjRkLWJlMjUtNTQwNDAxNDExMDg0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTQ0ZjhlZTUtZDMwOC00ZjRkLWJlMjUtNTQwNDAxNDExMDg0XkEyXkFqcGc@._V1_.jpg",
+      "genres": [
+        "Documentary",
+        "Short"
+      ]
     },
     {
       "title": "The Lion King Sing-Along",
@@ -114,7 +118,13 @@
       "poster_source": "tmdb",
       "cast": [],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjA5NjkwOTQ2OF5BMl5BanBnXkFtZTcwNDc2MTcxMQ@@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjA5NjkwOTQ2OF5BMl5BanBnXkFtZTcwNDc2MTcxMQ@@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjA5NjkwOTQ2OF5BMl5BanBnXkFtZTcwNDc2MTcxMQ@@._V1_.jpg",
+      "qdmovie_genres": [
+        "Short",
+        "Family",
+        "Music",
+        "Musical"
+      ]
     },
     {
       "title": "High School Musical 3: Senior Year Sing-Along",
@@ -361,7 +371,11 @@
       "youtube_url": "https://www.youtube.com/watch?v=7xt0TcGKOKs",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNmM0YWEwM2EtMDFmYy00NGM3LTk0OGYtMmVlZjAwY2M1NWEyXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNmM0YWEwM2EtMDFmYy00NGM3LTk0OGYtMmVlZjAwY2M1NWEyXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNmM0YWEwM2EtMDFmYy00NGM3LTk0OGYtMmVlZjAwY2M1NWEyXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Documentary",
+        "Comedy"
+      ]
     },
     {
       "title": "Dr. Seuss's The Sneetches",
@@ -496,7 +510,14 @@
         "Bronagh O'Hanlon"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODhjZjRjZWUtYjY3MC00MzhkLWEwNDctZjMwMzcwZTFmNTZkXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BODhjZjRjZWUtYjY3MC00MzhkLWEwNDctZjMwMzcwZTFmNTZkXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BODhjZjRjZWUtYjY3MC00MzhkLWEwNDctZjMwMzcwZTFmNTZkXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Musical"
+      ]
     },
     {
       "title": "Bad Girl",
@@ -658,7 +679,11 @@
       "youtube_url": "https://www.youtube.com/watch?v=fJXlfLoZsYA",
       "youtube_title": "Official Trailer (English subtitles)",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYWY0M2E2ODUtZmM4Ni00OTc5LWI3ZGQtMDhjNTk1NzEwM2QyXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWY0M2E2ODUtZmM4Ni00OTc5LWI3ZGQtMDhjNTk1NzEwM2QyXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWY0M2E2ODUtZmM4Ni00OTc5LWI3ZGQtMDhjNTk1NzEwM2QyXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "Tagarupalya",
@@ -974,6 +999,9 @@
       ],
       "writers": [
         "Peter Strickland"
+      ],
+      "qdmovie_genres": [
+        "Short"
       ]
     },
     {
@@ -1157,7 +1185,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=LVxH9UXEoMY",
       "youtube_title": "Puncture [Trailer 1] [HD] 2011",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTYzODIxNjAxNV5BMl5BanBnXkFtZTcwOTcxNzQzNg@@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYzODIxNjAxNV5BMl5BanBnXkFtZTcwOTcxNzQzNg@@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYzODIxNjAxNV5BMl5BanBnXkFtZTcwOTcxNzQzNg@@._V1_.jpg",
+      "qdmovie_genres": [
+        "Biography",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ]
     },
     {
       "title": "Generation Um...",
@@ -1338,7 +1372,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=nqZqtwpkwww",
       "youtube_title": "Generation Um... Official Trailer #1 (2013) - Keanu Reeves, Adelaide Clemens Movie HD",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTY2OTk0MzQzNF5BMl5BanBnXkFtZTcwNTQxNTgxOQ@@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTY2OTk0MzQzNF5BMl5BanBnXkFtZTcwNTQxNTgxOQ@@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTY2OTk0MzQzNF5BMl5BanBnXkFtZTcwNTQxNTgxOQ@@._V1_.jpg",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "Lugai Meri Hai",
@@ -1496,7 +1535,10 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDVkMWE5NTAtN2FiNy00Y2ZlLTk1ZDgtZjJiZjA2NWYwZjE2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDVkMWE5NTAtN2FiNy00Y2ZlLTk1ZDgtZjJiZjA2NWYwZjE2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDVkMWE5NTAtN2FiNy00Y2ZlLTk1ZDgtZjJiZjA2NWYwZjE2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Documentary"
+      ]
     },
     {
       "title": "Baramulla",
@@ -1674,7 +1716,12 @@
         "Aditya Suhas Jambhale"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmU5OGFiN2QtZDBiZC00MjdiLTg5ZmMtNWI2Yjg2NGU0MzhjXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmU5OGFiN2QtZDBiZC00MjdiLTg5ZmMtNWI2Yjg2NGU0MzhjXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmU5OGFiN2QtZDBiZC00MjdiLTg5ZmMtNWI2Yjg2NGU0MzhjXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ]
     },
     {
       "title": "Mango",
@@ -1684,7 +1731,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/movie/mango-2025/a9f034fd7f414",
       "cbfc_rating": "A\n1",
-      "description": "Watch Mango full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Lærke, an ambitious hotel manager, is sent to Malaga to develop a hotel on Alex's mango farm. Lærke's daughter joins, expecting a rare holiday. Unexpected feelings arise between Lærke and Alex, forcing them to make life-altering choices.",
       "tmdb_id": 1426792,
       "tmdb_media_type": "movie",
       "imdb_id": "tt33293169",
@@ -1832,7 +1879,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=zO7uZiIhScs",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjcwN2U5OWEtMjA1My00ODE0LTkwYjctZmIwZWRiOWQ5YzVmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjcwN2U5OWEtMjA1My00ODE0LTkwYjctZmIwZWRiOWQ5YzVmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjcwN2U5OWEtMjA1My00ODE0LTkwYjctZmIwZWRiOWQ5YzVmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Lærke, an ambitious hotel manager, is sent to Malaga to develop a hotel on Alex's mango farm. Lærke's daughter joins, expecting a rare holiday. Unexpected feelings arise between Lærke and Alex, forcing them to make life-altering choices.",
+      "overview": "Lærke, an ambitious hotel manager, is sent to Malaga to develop a hotel on Alex's mango farm. Lærke's daughter joins, expecting a rare holiday. Unexpected feelings arise between Lærke and Alex, forcing them to make life-altering choices.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "Groom & Two Brides",
@@ -1988,7 +2042,11 @@
       "youtube_url": "https://www.youtube.com/watch?v=xCHkv92IagA",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOWE5YmFkYTMtZjY5Zi00ZjNkLTkwNDgtN2E1OTZmNGEyMzJlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWE5YmFkYTMtZjY5Zi00ZjNkLTkwNDgtN2E1OTZmNGEyMzJlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWE5YmFkYTMtZjY5Zi00ZjNkLTkwNDgtN2E1OTZmNGEyMzJlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy",
+        "Romance"
+      ]
     },
     {
       "title": "Auto Chalak",
@@ -2128,7 +2186,10 @@
       ],
       "backdrop_url": "https://image.tmdb.org/t/p/original/wf7CNDldqDKKJKLij3xzwwSRsEH.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzE0NTI1MmUtZWFhYi00NjI0LWFjMzUtOWIyNzNjYjlmMWU4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzE0NTI1MmUtZWFhYi00NjI0LWFjMzUtOWIyNzNjYjlmMWU4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzE0NTI1MmUtZWFhYi00NjI0LWFjMzUtOWIyNzNjYjlmMWU4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Musical"
+      ]
     },
     {
       "title": "Mystery",
@@ -2215,7 +2276,10 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzJlNzZhODItMWVlOS00NThmLTkzMGQtY2I0OGExMzI4YmZiXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzJlNzZhODItMWVlOS00NThmLTkzMGQtY2I0OGExMzI4YmZiXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzJlNzZhODItMWVlOS00NThmLTkzMGQtY2I0OGExMzI4YmZiXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Mystery"
+      ]
     },
     {
       "title": "Chiranjeeva",
@@ -2441,7 +2505,13 @@
         "Vikrant Rudra"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZmM1OGY2Y2EtM2ViMC00MGU0LWI5NGMtMjI1NzMwMWM3NWI1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZmM1OGY2Y2EtM2ViMC00MGU0LWI5NGMtMjI1NzMwMWM3NWI1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZmM1OGY2Y2EtM2ViMC00MGU0LWI5NGMtMjI1NzMwMWM3NWI1XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Biography",
+        "Drama",
+        "Romance",
+        "Sport"
+      ]
     },
     {
       "title": "Rambo: First Blood",
@@ -2626,7 +2696,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=TY8LVqaLHwY",
       "youtube_title": "Rambo (1985) Theatrical Trailer [4K] [FTD-1183]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTNiMzUyZjQtY2RlOS00MjIxLWFlMjAtNjI1NjkzY2JjN2M3XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNTNiMzUyZjQtY2RlOS00MjIxLWFlMjAtNjI1NjkzY2JjN2M3XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNTNiMzUyZjQtY2RlOS00MjIxLWFlMjAtNjI1NjkzY2JjN2M3XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ]
     },
     {
       "title": "Kiss",
@@ -2738,7 +2813,11 @@
       "youtube_url": "https://www.youtube.com/watch?v=_RTKFJrhbZY",
       "youtube_title": "Kiss Official 2K Trailer | Viraat | Sree Leela | A P Arjun | V Harikrishna",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTU2YTk1ZjEtOTRjMS00MTBiLTk0NmUtMTI4ZDZmZTM3NjZjXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTU2YTk1ZjEtOTRjMS00MTBiLTk0NmUtMTI4ZDZmZTM3NjZjXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTU2YTk1ZjEtOTRjMS00MTBiLTk0NmUtMTI4ZDZmZTM3NjZjXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "In Your Dreams",
@@ -2924,7 +3003,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=Jjjcn4acAC8",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmFjOGIwMDUtMjEyYi00MzE0LWEwMmMtMjYyMGUzM2RkMjlhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ]
     },
     {
       "title": "For The New Emperor (Hindi)",
@@ -3038,7 +3124,7 @@
       "description": "A love story set against the backdrop of a war.",
       "tmdb_id": 1235057,
       "tmdb_media_type": "movie",
-      "overview": "A love story set against the backdrop of a war.",
+      "overview": "Sanjay Leela Bhansali's Love and War, starring Ranbir Kapoor, Alia Bhatt and Vicky Kaushal is all set to release on 20th March 2026",
       "genres": [
         "Romance",
         "Drama"
@@ -3111,7 +3197,8 @@
         "Sanjay Leela Bhansali"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzQ4YTAtZTM5ZC00NzQ0LWJiZmEtZjg3ODgwZWUwNDk4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzQ4YTAtZTM5ZC00NzQ0LWJiZmEtZjg3ODgwZWUwNDk4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzQ4YTAtZTM5ZC00NzQ0LWJiZmEtZjg3ODgwZWUwNDk4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Sanjay Leela Bhansali's Love and War, starring Ranbir Kapoor, Alia Bhatt and Vicky Kaushal is all set to release on 20th March 2026"
     },
     {
       "title": "Bond Ravi",
@@ -3303,7 +3390,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=Xf1CNjpeIcQ",
       "youtube_title": "Sangarsha Ghadana - Trailer | Krishand | Vishnu Agasthaya | Rajesh Naroth | Krishand Films",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2UxNzAyZWMtZjIzOS00ZjM3LWFiZWItY2U1OWUyOWJkNTFjXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BM2UxNzAyZWMtZjIzOS00ZjM3LWFiZWItY2U1OWUyOWJkNTFjXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BM2UxNzAyZWMtZjIzOS00ZjM3LWFiZWItY2U1OWUyOWJkNTFjXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "War"
+      ]
     },
     {
       "title": "Marutham",
@@ -3436,7 +3526,10 @@
         "V. Gajendran"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYWViNzBkOTYtYTgzZS00MjZmLTllNzctNGRjM2NlOWE4ODQwXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWViNzBkOTYtYTgzZS00MjZmLTllNzctNGRjM2NlOWE4ODQwXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWViNzBkOTYtYTgzZS00MjZmLTllNzctNGRjM2NlOWE4ODQwXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Crime Scene",
@@ -3630,7 +3723,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=evhh3NE3fyw",
       "youtube_title": "Stone Movie Trailer (HD)",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTgxOTk4MDIyOF5BMl5BanBnXkFtZTcwMzI3Nzc3Mw@@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTgxOTk4MDIyOF5BMl5BanBnXkFtZTcwMzI3Nzc3Mw@@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTgxOTk4MDIyOF5BMl5BanBnXkFtZTcwMzI3Nzc3Mw@@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ]
     },
     {
       "title": "Usiru",
@@ -3640,7 +3738,7 @@
       "content_provider": "Sun NXT",
       "link": "https://www.ottplay.com/movie/usiru-2025/e9fec8aa1c795",
       "cbfc_rating": "U/A",
-      "description": "Watch Usiru full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A troubled police officer returns to his full potential when he finds out that his wife is being targeted, travel with him in his journey of saving his wife.",
       "tmdb_id": 1584813,
       "tmdb_media_type": "movie",
       "imdb_id": "tt37996122",
@@ -3747,7 +3845,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=g11PNS8tUmE",
       "youtube_title": "Usiru Kannada Movie | Official 4K Trailer | Tillak | Priya Hegde| Panem Prabhakar| Lakshmi Harish |",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDlmOWE1Y2ItNjcxYy00NjcxLWEyZTYtMGE4NDM2NzI2ODc0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDlmOWE1Y2ItNjcxYy00NjcxLWEyZTYtMGE4NDM2NzI2ODc0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDlmOWE1Y2ItNjcxYy00NjcxLWEyZTYtMGE4NDM2NzI2ODc0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A troubled police officer returns to his full potential when he finds out that his wife is being targeted, travel with him in his journey of saving his wife.",
+      "overview": "A troubled police officer returns to his full potential when he finds out that his wife is being targeted, travel with him in his journey of saving his wife.",
+      "genres": [
+        "Thriller"
+      ]
     },
     {
       "title": "Thandakaaranyam",
@@ -3931,7 +4034,10 @@
       "poster_source": "tmdb",
       "cast": [],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmY4YmRiZDktNzg1Ny00YzQ3LWE4NTgtMjBlMTkxZTljYWViXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmY4YmRiZDktNzg1Ny00YzQ3LWE4NTgtMjBlMTkxZTljYWViXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmY4YmRiZDktNzg1Ny00YzQ3LWE4NTgtMjBlMTkxZTljYWViXkEyXkFqcGc@._V1_.jpg",
+      "genres": [
+        "Thriller"
+      ]
     },
     {
       "title": "Being Eddie",
@@ -4054,7 +4160,11 @@
       "youtube_url": "https://www.youtube.com/watch?v=98xUkIDUPVg",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMGJlN2VhODktNjkyNS00MDYyLWEyZjktNWM4YTJiN2U0ZWViXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMGJlN2VhODktNjkyNS00MDYyLWEyZjktNWM4YTJiN2U0ZWViXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMGJlN2VhODktNjkyNS00MDYyLWEyZjktNWM4YTJiN2U0ZWViXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Documentary",
+        "Biography"
+      ]
     },
     {
       "title": "The Roundup: Punishment",
@@ -4238,7 +4348,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=F_fxEAMv7ck",
       "youtube_title": "Trailer [Dubbed]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmU3N2UwMmEtNTM1ZS00NWQ2LTgzNDUtZDM0NGIyNzZkZTIzXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmU3N2UwMmEtNTM1ZS00NWQ2LTgzNDUtZDM0NGIyNzZkZTIzXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmU3N2UwMmEtNTM1ZS00NWQ2LTgzNDUtZDM0NGIyNzZkZTIzXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ]
     },
     {
       "title": "The Home",
@@ -4512,7 +4627,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=zLuOjCbDuwY",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjBlMTdiN2EtNzQ5MS00ODQ0LWI3NWUtYjdmMDU2N2Y4YWQ2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjBlMTdiN2EtNzQ5MS00ODQ0LWI3NWUtYjdmMDU2N2Y4YWQ2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjBlMTdiN2EtNzQ5MS00ODQ0LWI3NWUtYjdmMDU2N2Y4YWQ2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Enuguthondam Ghatikachalam",
@@ -4757,7 +4875,12 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BNjg2ZDQ1ZDctNGQyNi00YTIxLWFhMmEtZmMyZTllMDRjZGZmXkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BNjg2ZDQ1ZDctNGQyNi00YTIxLWFhMmEtZmMyZTllMDRjZGZmXkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjg2ZDQ1ZDctNGQyNi00YTIxLWFhMmEtZmMyZTllMDRjZGZmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjg2ZDQ1ZDctNGQyNi00YTIxLWFhMmEtZmMyZTllMDRjZGZmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjg2ZDQ1ZDctNGQyNi00YTIxLWFhMmEtZmMyZTllMDRjZGZmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ]
     },
     {
       "title": "Spider-Man",
@@ -4939,7 +5062,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=7d1Wa_rpj8g",
       "youtube_title": "Spider-Man (2002) Original Trailer [FHD]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Spider-Man 2",
@@ -5122,7 +5250,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=kficMW9vu8M",
       "youtube_title": "Spider-Man 2 (2004) Original Trailer [FHD]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Spider-Man 3",
@@ -5307,7 +5440,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=wPosLpgMtTY",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Phaphey Kuttniyan",
@@ -5428,7 +5566,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=3rPq_Q7Jpbw",
       "youtube_title": "Phaphey Kuttniyan (Movie Trailer) | Neeru Bajwa | Tania | New Punjabi Movie 2025 | Speed Records",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZjg3NTIwYjMtZWY5MC00N2JmLWJhMzItM2RiZTRkOGE5ZjJmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZjg3NTIwYjMtZWY5MC00N2JmLWJhMzItM2RiZTRkOGE5ZjJmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZjg3NTIwYjMtZWY5MC00N2JmLWJhMzItM2RiZTRkOGE5ZjJmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Lefter: The Story of the Ordinarius",
@@ -5609,7 +5750,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=GmoXIOkteRs",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZThkNDM1MGItYjYxZC00ZjJlLTk2YjMtYWJkZGU2MGFmYWFmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZThkNDM1MGItYjYxZC00ZjJlLTk2YjMtYWJkZGU2MGFmYWFmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZThkNDM1MGItYjYxZC00ZjJlLTk2YjMtYWJkZGU2MGFmYWFmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Biography",
+        "Drama",
+        "History",
+        "Sport"
+      ]
     },
     {
       "title": "Avihitham",
@@ -5619,7 +5766,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/avihitham-2025/ecb505a9a4711",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Avihitham full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "In a village full of men and gossip about affairs, the narrative reveals how society absurdly judges and monitors women's identities.",
       "tmdb_id": 1531405,
       "tmdb_media_type": "movie",
       "imdb_id": "tt38202962",
@@ -5776,7 +5923,9 @@
         "Ambareesh Kalathera"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "In a village full of men and gossip about affairs, the narrative reveals how society absurdly judges and monitors women's identities.",
+      "overview": "In a village full of men and gossip about affairs, the narrative reveals how society absurdly judges and monitors women's identities."
     },
     {
       "title": "Jurassic World Rebirth",
@@ -5898,7 +6047,13 @@
       ],
       "backdrop_url": "https://image.tmdb.org/t/p/original/cOCOABl7dGYBppUDDx7SJW1qz0s.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZWZhOTg1NDYtMTQ0OC00MTYxLTlkOTMtNjg3M2I2MTg1MmRhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZWZhOTg1NDYtMTQ0OC00MTYxLTlkOTMtNjg3M2I2MTg1MmRhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZWZhOTg1NDYtMTQ0OC00MTYxLTlkOTMtNjg3M2I2MTg1MmRhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi",
+        "Thriller"
+      ]
     },
     {
       "title": "Charlie Chaplin - Monsieur Verdoux",
@@ -6089,7 +6244,12 @@
         "Zhang Luan"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmY0N2Y5MDAtYmI0OS00ZTEwLTlkNDEtODA2ZjQ5OWRmMzE5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmY0N2Y5MDAtYmI0OS00ZTEwLTlkNDEtODA2ZjQ5OWRmMzE5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmY0N2Y5MDAtYmI0OS00ZTEwLTlkNDEtODA2ZjQ5OWRmMzE5XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Comedy",
+        "Family"
+      ]
     },
     {
       "title": "Charlie Chaplin - The Great Dictator",
@@ -6271,7 +6431,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=i1C6qZVeFtA",
       "youtube_title": "Original Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjc4ZjEwNDUtMjlmZS00NzQ4LTg2N2MtMGI3ZjMyMmM3ZDM2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjc4ZjEwNDUtMjlmZS00NzQ4LTg2N2MtMGI3ZjMyMmM3ZDM2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjc4ZjEwNDUtMjlmZS00NzQ4LTg2N2MtMGI3ZjMyMmM3ZDM2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama",
+        "War"
+      ]
     },
     {
       "title": "Charlie Chaplin - City Lights",
@@ -6446,7 +6611,11 @@
         "Henry Lehrman"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjZkZDBiOTAtMDJmYy00NzQzLWJlN2MtOWJiMDIwM2YwNmFiXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjZkZDBiOTAtMDJmYy00NzQzLWJlN2MtOWJiMDIwM2YwNmFiXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjZkZDBiOTAtMDJmYy00NzQzLWJlN2MtOWJiMDIwM2YwNmFiXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Short",
+        "Comedy"
+      ]
     },
     {
       "title": "Charlie Chaplin - The Circus",
@@ -6683,7 +6852,12 @@
         "Charlie Chaplin"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODQ0Mzc5NzczMF5BMl5BanBnXkFtZTgwODkzNzkxMjE@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BODQ0Mzc5NzczMF5BMl5BanBnXkFtZTgwODkzNzkxMjE@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BODQ0Mzc5NzczMF5BMl5BanBnXkFtZTgwODkzNzkxMjE@._V1_.jpg",
+      "qdmovie_genres": [
+        "Short",
+        "Comedy",
+        "War"
+      ]
     },
     {
       "title": "Charlie Chaplin - The Pilgrim",
@@ -6706,7 +6880,7 @@
       "description": "First part of the epic Ramayana Duology.",
       "tmdb_id": 656908,
       "tmdb_media_type": "movie",
-      "overview": "First part of the epic Ramayana Duology.",
+      "overview": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
       "genres": [
         "Action",
         "Drama",
@@ -6832,7 +7006,14 @@
         "Shridhar Raghavan"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTM2OGY3YzItNTE3My00N2VjLTgwOGEtMjkzN2IwZDdjM2Y1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTM2OGY3YzItNTE3My00N2VjLTgwOGEtMjkzN2IwZDdjM2Y1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTM2OGY3YzItNTE3My00N2VjLTgwOGEtMjkzN2IwZDdjM2Y1XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ]
     },
     {
       "title": "Khumba 3D",
@@ -7016,7 +7197,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=rN0gwblPifo",
       "youtube_title": "TIFF (2013) - Khumba Trailer #1 - Liam Neeson, Steve Buscemi Animated Movie HD",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTQyNTgzODU1N15BMl5BanBnXkFtZTgwMjg4NjQxMDE@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTQyNTgzODU1N15BMl5BanBnXkFtZTgwMjg4NjQxMDE@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTQyNTgzODU1N15BMl5BanBnXkFtZTgwMjg4NjQxMDE@._V1_.jpg",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family"
+      ]
     },
     {
       "title": "Chacha Bhatija - Khazane Ki Khoj",
@@ -7074,7 +7261,7 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/movie/panda-bear-in-africa-2024/adce9c0d7b374",
       "cbfc_rating": "U/A",
-      "description": "Watch Panda Bear In Africa full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A panda travels from China to Africa, facing hippos, hyenas, gorillas. He rescues his kidnapped dragon friend, makes new friends, and protects their jungle home.",
       "tmdb_id": 676685,
       "tmdb_media_type": "movie",
       "imdb_id": "tt13616980",
@@ -7234,7 +7421,16 @@
       "youtube_url": "https://www.youtube.com/watch?v=WVpCznqomlw",
       "youtube_title": "Official US Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNGI3YWFkMWEtZTZjNS00NWI1LThiYWEtZDBlZDg4NWRjMzcxXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNGI3YWFkMWEtZTZjNS00NWI1LThiYWEtZDBlZDg4NWRjMzcxXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNGI3YWFkMWEtZTZjNS00NWI1LThiYWEtZDBlZDg4NWRjMzcxXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A panda travels from China to Africa, facing hippos, hyenas, gorillas. He rescues his kidnapped dragon friend, makes new friends, and protects their jungle home.",
+      "overview": "A panda travels from China to Africa, facing hippos, hyenas, gorillas. He rescues his kidnapped dragon friend, makes new friends, and protects their jungle home.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ]
     },
     {
       "title": "Dashavatar",
@@ -7388,7 +7584,11 @@
         "Supriya Thakore"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOGVjMTEwYjEtNzRjNS00ZmFkLWE1Y2EtZjJkNThhZDc4YmQ5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGVjMTEwYjEtNzRjNS00ZmFkLWE1Y2EtZjJkNThhZDc4YmQ5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGVjMTEwYjEtNzRjNS00ZmFkLWE1Y2EtZjJkNThhZDc4YmQ5XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Animation",
+        "Family"
+      ]
     },
     {
       "title": "Queen Of Hearts",
@@ -7570,7 +7770,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=kJmMCVN_6fw",
       "youtube_title": "Queen of Hearts (2019) Official Trailer | Breaking Glass Pictures Movie",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZTNmNmY4MzctOTJiZC00ZWY4LTg3MDQtOTViMzc2N2Y2MjVhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTNmNmY4MzctOTJiZC00ZWY4LTg3MDQtOTViMzc2N2Y2MjVhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTNmNmY4MzctOTJiZC00ZWY4LTg3MDQtOTViMzc2N2Y2MjVhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Vikkatakavi - The Movie",
@@ -7843,7 +8046,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=Za-KBkJqi68",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTIzNDk5ZDEtYTczZi00ZWVlLTg1M2MtMjU3MGQ5ZjJjZGQyXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTIzNDk5ZDEtYTczZi00ZWVlLTg1M2MtMjU3MGQ5ZjJjZGQyXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTIzNDk5ZDEtYTczZi00ZWVlLTg1M2MtMjU3MGQ5ZjJjZGQyXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Mummy Dearest",
@@ -7973,7 +8183,10 @@
         "Raymond Wong Pak-Ming"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Mummy Dearest (Hindi)",
@@ -8103,7 +8316,10 @@
         "Raymond Wong Pak-Ming"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "A Very Jonas Christmas Movie",
@@ -8113,7 +8329,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/a-very-jonas-christmas-movie-2025/2a7348110e616",
       "cbfc_rating": "U/A 13",
-      "description": "Watch A Very Jonas Christmas Movie full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Three famous brothers race against time and face mounting challenges during a chaotic journey from London to New York, desperate to make it home in time for Christmas with their loved ones.",
       "tmdb_id": 1425122,
       "tmdb_media_type": "movie",
       "imdb_id": "tt35600079",
@@ -8273,7 +8489,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=oOOdswIJJYU",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNWFjODc1NDYtNTAzMS00NDdjLTk3ZDItNTJjMDcwZTY0NWU1XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Three famous brothers race against time and face mounting challenges during a chaotic journey from London to New York, desperate to make it home in time for Christmas with their loved ones.",
+      "overview": "Three famous brothers race against time and face mounting challenges during a chaotic journey from London to New York, desperate to make it home in time for Christmas with their loved ones.",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Musical"
+      ]
     },
     {
       "title": "K-Ramp",
@@ -8576,7 +8799,11 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOTZkOWNjYzItNzc4OC00OTdjLTg2N2EtODY1YmFhZThiMTk2XkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOTZkOWNjYzItNzc4OC00OTdjLTg2N2EtODY1YmFhZThiMTk2XkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTZkOWNjYzItNzc4OC00OTdjLTg2N2EtODY1YmFhZThiMTk2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTZkOWNjYzItNzc4OC00OTdjLTg2N2EtODY1YmFhZThiMTk2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTZkOWNjYzItNzc4OC00OTdjLTg2N2EtODY1YmFhZThiMTk2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama"
+      ]
     },
     {
       "title": "Cross Connection",
@@ -8632,7 +8859,10 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGIwYmUwMmYtYWQyOS00YTcwLWEzMWYtNzkzMjdjYWMzZTFmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGIwYmUwMmYtYWQyOS00YTcwLWEzMWYtNzkzMjdjYWMzZTFmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGIwYmUwMmYtYWQyOS00YTcwLWEzMWYtNzkzMjdjYWMzZTFmXkEyXkFqcGc@._V1_.jpg",
+      "genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Krrish",
@@ -8736,7 +8966,13 @@
         "Rakesh Roshan"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNmRhN2RlOGYtMTMzZS00YWJhLWI4YTEtNzEwZWViYzkzMThlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNmRhN2RlOGYtMTMzZS00YWJhLWI4YTEtNzEwZWViYzkzMThlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNmRhN2RlOGYtMTMzZS00YWJhLWI4YTEtNzEwZWViYzkzMThlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi",
+        "Thriller"
+      ]
     },
     {
       "title": "Krrish 3",
@@ -8821,7 +9057,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=_6Ix1VF_yWM",
       "youtube_title": "\"Krrish 3 Trailer\" Official | Hrithik Roshan, Priyanka Chopra, Vivek Oberoi",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjI0MzU3MTM1Ml5BMl5BanBnXkFtZTgwOTk2MjQ0MDE@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjI0MzU3MTM1Ml5BMl5BanBnXkFtZTgwOTk2MjQ0MDE@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjI0MzU3MTM1Ml5BMl5BanBnXkFtZTgwOTk2MjQ0MDE@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Night School",
@@ -9006,7 +9247,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=t9QtXGirWf0",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmJjMjMwNDQtMjU3ZS00ZDY3LThmMmEtZjBkM2NiZWM4ZmQ1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmJjMjMwNDQtMjU3ZS00ZDY3LThmMmEtZjBkM2NiZWM4ZmQ1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmJjMjMwNDQtMjU3ZS00ZDY3LThmMmEtZjBkM2NiZWM4ZmQ1XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Diesel (Telugu)",
@@ -9273,7 +9517,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=ZPEAt_TBC-E",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2UwYmVjZWMtMTA5Ni00NTc0LTk1MDctNTk3MGY1OGZhYWJhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BM2UwYmVjZWMtMTA5Ni00NTc0LTk1MDctNTk3MGY1OGZhYWJhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BM2UwYmVjZWMtMTA5Ni00NTc0LTk1MDctNTk3MGY1OGZhYWJhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Documentary",
+        "Crime",
+        "Thriller"
+      ]
     },
     {
       "title": "Champagne Problems",
@@ -9455,7 +9704,11 @@
       "youtube_url": "https://www.youtube.com/watch?v=eba-EoMPBX8",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmZiMTZlMzktOGMxYi00MGJhLWI4YTUtYTAwNTU5Y2UyMGNlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmZiMTZlMzktOGMxYi00MGJhLWI4YTUtYTAwNTU5Y2UyMGNlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmZiMTZlMzktOGMxYi00MGJhLWI4YTUtYTAwNTU5Y2UyMGNlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy",
+        "Romance"
+      ]
     },
     {
       "title": "Cashualty - Tamil - Drama - Shortfilm",
@@ -9536,6 +9789,9 @@
       ],
       "writers": [
         "Gerry Dee"
+      ],
+      "qdmovie_genres": [
+        "Comedy"
       ]
     },
     {
@@ -9609,7 +9865,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=w7bwvKH_AQM",
       "youtube_title": "Ekam Singh | A Warrior | Ekam Singh | Official Trailer | Filmibox Productions | Sodhi Dream Films |",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjc5OWExZjEtNThkYS00ZThiLThlMmEtODVjZTIyNDAyYWE1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjc5OWExZjEtNThkYS00ZThiLThlMmEtODVjZTIyNDAyYWE1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjc5OWExZjEtNThkYS00ZThiLThlMmEtODVjZTIyNDAyYWE1XkEyXkFqcGc@._V1_.jpg",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "Do Not Enter",
@@ -9845,7 +10106,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=PhlLO3Nb3sY",
       "youtube_title": "Official Trailer 2",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDIyNThiMjgtMTgwYS00YzU1LTkwZDMtODFkMzg0MzVjZGMwXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDIyNThiMjgtMTgwYS00YzU1LTkwZDMtODFkMzg0MzVjZGMwXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDIyNThiMjgtMTgwYS00YzU1LTkwZDMtODFkMzg0MzVjZGMwXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ]
     },
     {
       "title": "Ariella",
@@ -9962,7 +10228,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=49BP8b9qy9Y",
       "youtube_title": "Ariella (2025) | English Official Trailer | HollyMod",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Ariella",
@@ -10192,7 +10461,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=49BP8b9qy9Y",
       "youtube_title": "Ariella (2025) | English Official Trailer | HollyMod",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Ariella",
@@ -10309,7 +10581,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=49BP8b9qy9Y",
       "youtube_title": "Ariella (2025) | English Official Trailer | HollyMod",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Thoughts & Prayers",
@@ -10431,7 +10706,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=aRv23_VWglQ",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjM3MGRmODUtMzZkNC00ZmYwLWE3NWItMzkwZTc5Nzc0YWQwXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjM3MGRmODUtMzZkNC00ZmYwLWE3NWItMzkwZTc5Nzc0YWQwXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjM3MGRmODUtMzZkNC00ZmYwLWE3NWItMzkwZTc5Nzc0YWQwXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Documentary"
+      ]
     },
     {
       "title": "Holy Night: Demon Hunters",
@@ -10612,7 +10890,13 @@
         "Lim Dae-hee"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDZhYjUwMTUtNTcyZS00MWNkLWI3NGItMDZlZGNmMjQxYTQ2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDZhYjUwMTUtNTcyZS00MWNkLWI3NGItMDZlZGNmMjQxYTQ2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDZhYjUwMTUtNTcyZS00MWNkLWI3NGItMDZlZGNmMjQxYTQ2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Fantasy",
+        "Horror",
+        "Thriller"
+      ]
     },
     {
       "title": "Darling: Why this Kolavari",
@@ -10807,7 +11091,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=TY8LVqaLHwY",
       "youtube_title": "Rambo (1985) Theatrical Trailer [4K] [FTD-1183]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTNiMzUyZjQtY2RlOS00MjIxLWFlMjAtNjI1NjkzY2JjN2M3XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNTNiMzUyZjQtY2RlOS00MjIxLWFlMjAtNjI1NjkzY2JjN2M3XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNTNiMzUyZjQtY2RlOS00MjIxLWFlMjAtNjI1NjkzY2JjN2M3XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ]
     },
     {
       "title": "Rambo III",
@@ -10889,7 +11178,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=ucNLx417CQM",
       "youtube_title": "MAIN TERE QURBAAN - Trailer | Bunty Bains |Sawan Rupowali | Naiqra | Kuljinder Sidhu | 4th July 2025",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNDRkZDA3MWItZjA3NS00MjczLTlkZTUtZDkyMWVhM2VmZWNlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNDRkZDA3MWItZjA3NS00MjczLTlkZTUtZDkyMWVhM2VmZWNlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNDRkZDA3MWItZjA3NS00MjczLTlkZTUtZDkyMWVhM2VmZWNlXkEyXkFqcGc@._V1_.jpg",
+      "genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Diesel",
@@ -11221,7 +11513,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=rb3x45F6mrQ",
       "youtube_title": "Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzliNTEyYjEtNGE3Mi00ZDIzLTg1NzYtZDBhNTQ5ZDVkMmM3XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzliNTEyYjEtNGE3Mi00ZDIzLTg1NzYtZDBhNTQ5ZDVkMmM3XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzliNTEyYjEtNGE3Mi00ZDIzLTg1NzYtZDBhNTQ5ZDVkMmM3XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Hachi: A Dog's Tale",
@@ -11553,7 +11848,12 @@
         "Ravindra Madhava"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTE2MDdhMzQtZDgyNy00ODBlLTkxMjgtYmIwZmMzNmRiNDI1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTE2MDdhMzQtZDgyNy00ODBlLTkxMjgtYmIwZmMzNmRiNDI1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTE2MDdhMzQtZDgyNy00ODBlLTkxMjgtYmIwZmMzNmRiNDI1XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "Relay",
@@ -11732,7 +12032,12 @@
         "David Mackenzie"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzFhMjljODMtYTY3MS00NmFiLWEzOTAtNTczZjQ1NGMwMjE4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzFhMjljODMtYTY3MS00NmFiLWEzOTAtNTczZjQ1NGMwMjE4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzFhMjljODMtYTY3MS00NmFiLWEzOTAtNTczZjQ1NGMwMjE4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "The Bengal Files",
@@ -11916,7 +12221,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=3MfsZFAeNO8",
       "youtube_title": "THE BENGAL FILES Official Trailer | Vivek Agnihotri | Abhishek A | Pallavi J | Zee Studios | 5 Sept",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjRmYWUwOTUtNTBkNC00OTFlLWIxN2MtODQyMDcyYzFmNGM4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjRmYWUwOTUtNTBkNC00OTFlLWIxN2MtODQyMDcyYzFmNGM4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjRmYWUwOTUtNTBkNC00OTFlLWIxN2MtODQyMDcyYzFmNGM4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama",
+        "History",
+        "Thriller"
+      ]
     },
     {
       "title": "Ondu Sarala Prema Kathe",
@@ -12028,7 +12339,11 @@
         "Suni"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjZjNDRhN2UtY2E0Mi00ZGJjLThjNDUtNWY3NTg4NTIwYjNhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjZjNDRhN2UtY2E0Mi00ZGJjLThjNDUtNWY3NTg4NTIwYjNhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjZjNDRhN2UtY2E0Mi00ZGJjLThjNDUtNWY3NTg4NTIwYjNhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "The Bengal Files - Theatrical Cut",
@@ -12092,7 +12407,10 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjIwOTkxNTUtN2I1NC00Y2Q1LTkzYWMtYTE5Y2U0YmUzZDBlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjIwOTkxNTUtN2I1NC00Y2Q1LTkzYWMtYTE5Y2U0YmUzZDBlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjIwOTkxNTUtN2I1NC00Y2Q1LTkzYWMtYTE5Y2U0YmUzZDBlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Big Trip",
@@ -12263,7 +12581,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=IxAgstJVrtk",
       "youtube_title": "The Big Trip | Trailer | In Cinemas June 27",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmMwNjQ0MTYtYmRmNS00YTllLWE5OGQtYzE1OGE5MmQ0MGZmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmMwNjQ0MTYtYmRmNS00YTllLWE5OGQtYzE1OGE5MmQ0MGZmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmMwNjQ0MTYtYmRmNS00YTllLWE5OGQtYzE1OGE5MmQ0MGZmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family"
+      ]
     },
     {
       "title": "Radar (Hindi)",
@@ -12465,7 +12789,12 @@
         "Ravindra Madhava"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTE2MDdhMzQtZDgyNy00ODBlLTkxMjgtYmIwZmMzNmRiNDI1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTE2MDdhMzQtZDgyNy00ODBlLTkxMjgtYmIwZmMzNmRiNDI1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTE2MDdhMzQtZDgyNy00ODBlLTkxMjgtYmIwZmMzNmRiNDI1XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "Rebirth",
@@ -12638,7 +12967,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=M5lmzJ9g2BA",
       "youtube_title": "Rebirth Trailer | Premieres July 15 | Netflix",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmRlZmJiYzYtYzE0My00MWMxLWE2MDgtYTQ3ODQ3Y2ExOWJjXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmRlZmJiYzYtYzE0My00MWMxLWE2MDgtYTQ3ODQ3Y2ExOWJjXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmRlZmJiYzYtYzE0My00MWMxLWE2MDgtYTQ3ODQ3Y2ExOWJjXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Thriller"
+      ]
     },
     {
       "title": "Thekedari- The Blood Papers",
@@ -12752,7 +13084,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=sH9KDbbjshc",
       "youtube_title": "Ghoda Dhai Kadam (Official Trailer) | Sippy Gill | Sara Gurpal | Chaupal | Latest Punjabi Movie 2023",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTY1MmIyOTktMGZjZC00MjI2LTljYmEtZWI2MGI0MGQ1MDU1XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTY1MmIyOTktMGZjZC00MjI2LTljYmEtZWI2MGI0MGQ1MDU1XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTY1MmIyOTktMGZjZC00MjI2LTljYmEtZWI2MGI0MGQ1MDU1XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Action",
+        "Drama",
+        "Family",
+        "Thriller"
+      ]
     },
     {
       "title": "Nikka Zaildar 4",
@@ -13020,7 +13358,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=NyS3c6ImxqE",
       "youtube_title": "Raktabeej 2 l Official Trailer | Nandita Roy | Shiboprosad Mukherjee | Windows",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Thriller"
+      ]
     },
     {
       "title": "Chowkidar Hi Chor Hai",
@@ -13128,7 +13469,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-haikyu-2014/1a5043c710321",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Haikyu!! full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Determined to be like the volleyball championship's star player nicknamed \"the small giant\", Shoyo joins his school's volleyball club.",
       "tmdb_id": 60863,
       "tmdb_media_type": "tv",
       "genres": [
@@ -13258,7 +13599,15 @@
       "youtube_url": "https://www.youtube.com/watch?v=KhZG9Uw7PxM",
       "youtube_title": "Haikyu Complete Season 1 - Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjYxMWFlYTAtYTk0YS00NTMxLWJjNTQtM2E0NjdhYTRhNzE4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjYxMWFlYTAtYTk0YS00NTMxLWJjNTQtM2E0NjdhYTRhNzE4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjYxMWFlYTAtYTk0YS00NTMxLWJjNTQtM2E0NjdhYTRhNzE4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Determined to be like the volleyball championship's star player nicknamed \"the small giant\", Shoyo joins his school's volleyball club.",
+      "overview": "Determined to be like the volleyball championship's star player nicknamed \"the small giant\", Shoyo joins his school's volleyball club.",
+      "qdmovie_genres": [
+        "Animation",
+        "Comedy",
+        "Drama",
+        "Sport"
+      ]
     },
     {
       "title": "Love in the Clouds",
@@ -13268,7 +13617,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-love-in-the-clouds-2025/06f568b363960",
       "cbfc_rating": "A",
-      "description": "Watch Love in the Clouds full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Mingyi, a poisoned female warrior, disguises as a dancer to lure Ji Bozai into providing an antidote. Both conceal their true intentions, leading to an intricate emotional game of deception.",
       "tmdb_id": 262928,
       "tmdb_media_type": "tv",
       "genres": [
@@ -13440,7 +13789,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=JeoJD8s9nHk",
       "youtube_title": "【Official Trailer】Love in The Clouds: True hearts unveiled and fate in their hands. ❤️‍🔥| YOUKU",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYmQ4ZWVhMmYtNWZkOS00NDUwLWI5ZTgtMGFmZjA1NWIyNmZlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmQ4ZWVhMmYtNWZkOS00NDUwLWI5ZTgtMGFmZjA1NWIyNmZlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYmQ4ZWVhMmYtNWZkOS00NDUwLWI5ZTgtMGFmZjA1NWIyNmZlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Mingyi, a poisoned female warrior, disguises as a dancer to lure Ji Bozai into providing an antidote. Both conceal their true intentions, leading to an intricate emotional game of deception.",
+      "overview": "Mingyi, a poisoned female warrior, disguises as a dancer to lure Ji Bozai into providing an antidote. Both conceal their true intentions, leading to an intricate emotional game of deception.",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "The Golden Egg",
@@ -13450,7 +13804,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-golden-egg-2025/15bd5ff71d315",
       "cbfc_rating": "A",
-      "description": "Watch The Golden Egg full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Hinako Shinoda is a second-year employee at major publishing company \"Sengokusha\". She is ordered to transfer to the editorial department of the weekly magazine \"Shuukan Sengoku\", a place she wanted to avoid at all costs. As a rookie reporter, Hinako faces various scoops, such as entertainment news, embezzlement, and suspicious death cases.",
       "tmdb_id": 298554,
       "tmdb_media_type": "tv",
       "genres": [
@@ -13585,7 +13939,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=x67hMMjbY3I",
       "youtube_title": "ティザー公開！初主演･奥山葵！新人記者のお仕事奮闘ドラマ!!『スクープのたまご』10/7(火)深夜0:58スタート!【TBS】",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZTlmODQyYWYtM2I1Yy00MjEwLTgzODgtNzczNmYyZTdiMzlkXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTlmODQyYWYtM2I1Yy00MjEwLTgzODgtNzczNmYyZTdiMzlkXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTlmODQyYWYtM2I1Yy00MjEwLTgzODgtNzczNmYyZTdiMzlkXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Hinako Shinoda is a second-year employee at major publishing company \"Sengokusha\". She is ordered to transfer to the editorial department of the weekly magazine \"Shuukan Sengoku\", a place she wanted to avoid at all costs. As a rookie reporter, Hinako faces various scoops, such as entertainment news, embezzlement, and suspicious death cases.",
+      "overview": "Hinako Shinoda is a second-year employee at major publishing company \"Sengokusha\". She is ordered to transfer to the editorial department of the weekly magazine \"Shuukan Sengoku\", a place she wanted to avoid at all costs. As a rookie reporter, Hinako faces various scoops, such as entertainment news, embezzlement, and suspicious death cases.",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Is It Cake? Halloween",
@@ -13605,7 +13964,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-boots-2025/5b1ba92e90618",
       "cbfc_rating": "A",
-      "description": "Watch Boots full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Bullied gay teen Cameron joins the Marine Corps with his best friend despite risks. In boot camp they experience profound personal change amid danger, as their platoon confronts both literal and figurative landmines.",
       "tmdb_id": 225647,
       "tmdb_media_type": "tv",
       "genres": [
@@ -13776,7 +14135,15 @@
       "youtube_url": "https://www.youtube.com/watch?v=2mjN2f5tu2s",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjQ5ODViMGItMTFmMy00Y2NiLTk4NDYtMGY3ZWFhNDZiODM2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjQ5ODViMGItMTFmMy00Y2NiLTk4NDYtMGY3ZWFhNDZiODM2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjQ5ODViMGItMTFmMy00Y2NiLTk4NDYtMGY3ZWFhNDZiODM2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Bullied gay teen Cameron joins the Marine Corps with his best friend despite risks. In boot camp they experience profound personal change amid danger, as their platoon confronts both literal and figurative landmines.",
+      "overview": "Bullied gay teen Cameron joins the Marine Corps with his best friend despite risks. In boot camp they experience profound personal change amid danger, as their platoon confronts both literal and figurative landmines.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama",
+        "History",
+        "War"
+      ]
     },
     {
       "title": "Muddu Sose - Nandagokula Serial Santhe",
@@ -13796,7 +14163,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-resurrected-2025/659995a3a1614",
       "cbfc_rating": "A",
-      "description": "Watch The Resurrected full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Follows the journey of two desperate mothers as they resurrect a deceased ringleader of a telecommunication fraud scheme to avenge their kidnapped daughters.",
       "tmdb_id": 252135,
       "tmdb_media_type": "tv",
       "genres": [
@@ -13972,7 +14339,15 @@
       "youtube_url": "https://www.youtube.com/watch?v=82x6TW-q_Zg",
       "youtube_title": "The Resurrected | Official Trailer | Netflix",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYTAxOWQwZjktMDE0OS00YTUzLThjYzItY2I4MGRkY2UxYTNlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTAxOWQwZjktMDE0OS00YTUzLThjYzItY2I4MGRkY2UxYTNlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYTAxOWQwZjktMDE0OS00YTUzLThjYzItY2I4MGRkY2UxYTNlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Follows the journey of two desperate mothers as they resurrect a deceased ringleader of a telecommunication fraud scheme to avenge their kidnapped daughters.",
+      "overview": "Follows the journey of two desperate mothers as they resurrect a deceased ringleader of a telecommunication fraud scheme to avenge their kidnapped daughters.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ]
     },
     {
       "title": "I Love LA",
@@ -13982,7 +14357,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-i-love-la-2025/5f2bc98373248",
       "cbfc_rating": "A",
-      "description": "Watch I Love LA full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A tight-knit friend group gathers after years apart, navigating the complexities of ambition, relationships, and how time has changed them.",
       "tmdb_id": 271053,
       "tmdb_media_type": "tv",
       "genres": [
@@ -14123,7 +14498,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=DnBAmvw_Yow",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNzNiMWZhYTAtODMzYS00YTg2LTk3ZWQtYzcwZmRmMDYzMjg4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNzNiMWZhYTAtODMzYS00YTg2LTk3ZWQtYzcwZmRmMDYzMjg4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNzNiMWZhYTAtODMzYS00YTg2LTk3ZWQtYzcwZmRmMDYzMjg4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A tight-knit friend group gathers after years apart, navigating the complexities of ambition, relationships, and how time has changed them.",
+      "overview": "A tight-knit friend group gathers after years apart, navigating the complexities of ambition, relationships, and how time has changed them.",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Thirumangalyam",
@@ -14143,7 +14523,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-st-denis-medical-2024/7fc244b4ea51",
       "cbfc_rating": "U/A 13",
-      "description": "Watch St. Denis Medical full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "It follows an underfunded, understaffed hospital where the doctors and nurses try their best to treat patients while maintaining their own sanity.",
       "tmdb_id": 251941,
       "tmdb_media_type": "tv",
       "imdb_id": "tt21433690",
@@ -14281,7 +14661,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=9BcIsxk2B5Q",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZmViN2M3OTQtOWViZS00ZDI5LTliMDItOWJmMzdmNTlhM2I2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZmViN2M3OTQtOWViZS00ZDI5LTliMDItOWJmMzdmNTlhM2I2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZmViN2M3OTQtOWViZS00ZDI5LTliMDItOWJmMzdmNTlhM2I2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "It follows an underfunded, understaffed hospital where the doctors and nurses try their best to treat patients while maintaining their own sanity.",
+      "overview": "It follows an underfunded, understaffed hospital where the doctors and nurses try their best to treat patients while maintaining their own sanity.",
+      "genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Primos",
@@ -14291,7 +14676,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-primos-2025/cf2f18ccc6741",
       "cbfc_rating": "U",
-      "description": "Watch Primos full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Tater, a quirky girl with ambitious dreams for her future and only one summer to sort them out, finds her plans disrupted when her mom unexpectedly invites all 12 of her cousins to visit.",
       "tmdb_id": 204139,
       "tmdb_media_type": "tv",
       "genres": [
@@ -14461,7 +14846,16 @@
       "youtube_url": "https://www.youtube.com/watch?v=lrL0YMp9GJQ",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNTNhY2UxZTctMWM4MS00ZjdlLTliOGUtOTJjMTdlNzY5MGFhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNTNhY2UxZTctMWM4MS00ZjdlLTliOGUtOTJjMTdlNzY5MGFhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNTNhY2UxZTctMWM4MS00ZjdlLTliOGUtOTJjMTdlNzY5MGFhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Tater, a quirky girl with ambitious dreams for her future and only one summer to sort them out, finds her plans disrupted when her mom unexpectedly invites all 12 of her cousins to visit.",
+      "overview": "Tater, a quirky girl with ambitious dreams for her future and only one summer to sort them out, finds her plans disrupted when her mom unexpectedly invites all 12 of her cousins to visit.",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ]
     },
     {
       "title": "St. Denis Medical",
@@ -14481,7 +14875,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-alls-fair-2025/97cc6ccb1a541",
       "cbfc_rating": "A",
-      "description": "Watch All's Fair full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Follows a successful divorce lawyer and the owner of an all-female law firm in Los Angeles.",
       "tmdb_id": 258742,
       "tmdb_media_type": "tv",
       "genres": [
@@ -14633,7 +15027,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=4SVJMKNfF0w",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmI3NGNjYWQtZDBjZi00NGFlLWIzODUtNDYzMWRhNmFkYzBkXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmI3NGNjYWQtZDBjZi00NGFlLWIzODUtNDYzMWRhNmFkYzBkXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmI3NGNjYWQtZDBjZi00NGFlLWIzODUtNDYzMWRhNmFkYzBkXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Follows a successful divorce lawyer and the owner of an all-female law firm in Los Angeles.",
+      "overview": "Follows a successful divorce lawyer and the owner of an all-female law firm in Los Angeles.",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Sun Music Spot Light",
@@ -14663,7 +15062,7 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/show/the-hack-2025/aa49fd68b8415",
       "cbfc_rating": "",
-      "description": "Watch The Hack full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "While a journalist uncovers evidence of phone hacking at a tabloid newspaper, a former police detective looks into the unsolved murder of a private investigator.",
       "tmdb_id": 287167,
       "tmdb_media_type": "tv",
       "genres": [
@@ -14838,7 +15237,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=AShPTasA7eI",
       "youtube_title": "Coming soon to ITV1 & ITVX",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOWUxNmMyYWYtODBkOC00NmY5LTk0MmQtNDIzNzYxYzQyMmIzXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWUxNmMyYWYtODBkOC00NmY5LTk0MmQtNDIzNzYxYzQyMmIzXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWUxNmMyYWYtODBkOC00NmY5LTk0MmQtNDIzNzYxYzQyMmIzXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "While a journalist uncovers evidence of phone hacking at a tabloid newspaper, a former police detective looks into the unsolved murder of a private investigator.",
+      "overview": "While a journalist uncovers evidence of phone hacking at a tabloid newspaper, a former police detective looks into the unsolved murder of a private investigator.",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Rasmalai",
@@ -14897,7 +15301,15 @@
         "imdb": "https://m.media-amazon.com/images/M/MV5BMTkzNTc5NDk5M15BMl5BanBnXkFtZTcwNTI5NjY4Nw@.jpg"
       },
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMTkzNTc5NDk5M15BMl5BanBnXkFtZTcwNTI5NjY4Nw@.jpg",
-      "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMTkzNTc5NDk5M15BMl5BanBnXkFtZTcwNTI5NjY4Nw@.jpg"
+      "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMTkzNTc5NDk5M15BMl5BanBnXkFtZTcwNTI5NjY4Nw@.jpg",
+      "genres": [
+        "Comedy",
+        "Music"
+      ],
+      "qdmovie_genres": [
+        "Comedy",
+        "Music"
+      ]
     },
     {
       "title": "Victoria Beckham",
@@ -15021,7 +15433,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-old-money-2025/8046c68127576",
       "cbfc_rating": "A",
-      "description": "Watch Old Money full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A bold, self-made mogul faces of with an old-money diplomat. Can love find its way amidst a power struggle, where wealth and wit collide?",
       "tmdb_id": 278009,
       "tmdb_media_type": "tv",
       "genres": [
@@ -15167,7 +15579,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=gYEEsC0I7Xc",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDNjYjBhODAtNzE3MS00YzRlLTg4MzktOWZlOTJkYzY3MzE4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDNjYjBhODAtNzE3MS00YzRlLTg4MzktOWZlOTJkYzY3MzE4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDNjYjBhODAtNzE3MS00YzRlLTg4MzktOWZlOTJkYzY3MzE4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A bold, self-made mogul faces of with an old-money diplomat. Can love find its way amidst a power struggle, where wealth and wit collide?",
+      "overview": "A bold, self-made mogul faces of with an old-money diplomat. Can love find its way amidst a power struggle, where wealth and wit collide?",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "All Her Fault",
@@ -15177,7 +15594,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-all-her-fault-2025/f20215f031849",
       "cbfc_rating": "U/A 16",
-      "description": "Watch All Her Fault full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Marissa Irvine arrives at 1800 Crescent Hollow Road to pick up her son Milo from a play date, but the woman who answers doesn't have Milo, sparking a parent's nightmare.",
       "tmdb_id": 246386,
       "tmdb_media_type": "tv",
       "genres": [
@@ -15345,7 +15762,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=J9y_QvRwu64",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNzQ4NDQ5MmMtNWEwOC00M2U1LTgzN2EtYjI5ODkzZTlmZDJiXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNzQ4NDQ5MmMtNWEwOC00M2U1LTgzN2EtYjI5ODkzZTlmZDJiXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNzQ4NDQ5MmMtNWEwOC00M2U1LTgzN2EtYjI5ODkzZTlmZDJiXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Marissa Irvine arrives at 1800 Crescent Hollow Road to pick up her son Milo from a play date, but the woman who answers doesn't have Milo, sparking a parent's nightmare.",
+      "overview": "Marissa Irvine arrives at 1800 Crescent Hollow Road to pick up her son Milo from a play date, but the woman who answers doesn't have Milo, sparking a parent's nightmare.",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Fire And Water: Making The Avatar Films",
@@ -15365,7 +15787,7 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-thode-door-thode-paas-2025/ad6aec9fbe876",
       "cbfc_rating": "",
-      "description": "Watch Thode Door Thode Paas full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A nostalgic series exploring how tech changed relationships, contrasting with simpler times of genuine talks and family moments without Wi-Fi. Celebrates authentic connections and shared home experiences.",
       "tmdb_id": 305017,
       "tmdb_media_type": "tv",
       "genres": [
@@ -15495,7 +15917,9 @@
         "Sheershak Anand"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGE1ZWRmNDEtNTkzOS00OTRmLWE5ZjYtY2EwNDY3MjRiYTkxXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGE1ZWRmNDEtNTkzOS00OTRmLWE5ZjYtY2EwNDY3MjRiYTkxXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGE1ZWRmNDEtNTkzOS00OTRmLWE5ZjYtY2EwNDY3MjRiYTkxXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A nostalgic series exploring how tech changed relationships, contrasting with simpler times of genuine talks and family moments without Wi-Fi. Celebrates authentic connections and shared home experiences.",
+      "overview": "A nostalgic series exploring how tech changed relationships, contrasting with simpler times of genuine talks and family moments without Wi-Fi. Celebrates authentic connections and shared home experiences."
     },
     {
       "title": "Vantara: Sanctuary Stories",
@@ -15515,7 +15939,7 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/web-series-chip-in-korean-2020/74c41bed31793",
       "cbfc_rating": "U/A",
-      "description": "Watch Chip In (Korean) full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "\"CHIP IN\" is a mystery tracking drama about the fierce battle of brains over tens of billions of won of property by a famous artist.",
       "tmdb_id": 104246,
       "tmdb_media_type": "tv",
       "genres": [
@@ -15627,7 +16051,15 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BM2MzMjYxMTctMTY1OC00MzA5LTk2MDctMGYwMThjY2U5YThlXkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BM2MzMjYxMTctMTY1OC00MzA5LTk2MDctMGYwMThjY2U5YThlXkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BM2MzMjYxMTctMTY1OC00MzA5LTk2MDctMGYwMThjY2U5YThlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BM2MzMjYxMTctMTY1OC00MzA5LTk2MDctMGYwMThjY2U5YThlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BM2MzMjYxMTctMTY1OC00MzA5LTk2MDctMGYwMThjY2U5YThlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "\"CHIP IN\" is a mystery tracking drama about the fierce battle of brains over tens of billions of won of property by a famous artist.",
+      "overview": "\"CHIP IN\" is a mystery tracking drama about the fierce battle of brains over tens of billions of won of property by a famous artist.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Crime",
+        "Drama",
+        "Mystery"
+      ]
     },
     {
       "title": "Kurukshetra",
@@ -15637,7 +16069,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-kurukshetra-2025/76af83e89c526",
       "cbfc_rating": "A",
-      "description": "Watch Kurukshetra full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "An epic 18-day battle unfolds through the perspectives of 18 warriors, revealing their inner struggles and ethical challenges during a war between brothers.",
       "tmdb_id": 300894,
       "tmdb_media_type": "tv",
       "genres": [
@@ -15750,7 +16182,17 @@
       ],
       "backdrop_url": "https://image.tmdb.org/t/p/original/tzbsE8Uxly3YO5WgDPKSzQgaR8F.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmVhMmMxNmYtYTRkOS00NWQzLTk5ZDEtM2JhNjNjYjg0YmYxXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmVhMmMxNmYtYTRkOS00NWQzLTk5ZDEtM2JhNjNjYjg0YmYxXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmVhMmMxNmYtYTRkOS00NWQzLTk5ZDEtM2JhNjNjYjg0YmYxXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "An epic 18-day battle unfolds through the perspectives of 18 warriors, revealing their inner struggles and ethical challenges during a war between brothers.",
+      "overview": "An epic 18-day battle unfolds through the perspectives of 18 warriors, revealing their inner struggles and ethical challenges during a war between brothers.",
+      "qdmovie_genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "War"
+      ]
     },
     {
       "title": "Stumble",
@@ -15760,7 +16202,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-stumble-2025/e8e6b96d85820",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Stumble full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A mockumentary exploring the highly competitive world of junior college cheerleading.",
       "tmdb_id": 296579,
       "tmdb_media_type": "tv",
       "genres": [
@@ -15860,7 +16302,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=GZ13R-e4i_Q",
       "youtube_title": "Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjk5NWNlMzAtYTAyMS00OWM0LWE1YTMtZDA1MGFjNjk4ODAxXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjk5NWNlMzAtYTAyMS00OWM0LWE1YTMtZDA1MGFjNjk4ODAxXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjk5NWNlMzAtYTAyMS00OWM0LWE1YTMtZDA1MGFjNjk4ODAxXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A mockumentary exploring the highly competitive world of junior college cheerleading.",
+      "overview": "A mockumentary exploring the highly competitive world of junior college cheerleading.",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Passing the Reins",
@@ -15880,7 +16327,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-chosen-home-2025/4861df601c91",
       "cbfc_rating": "A",
-      "description": "Watch Chosen Home full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A clumsy romantic, an aloof teacher and a troubled teen cross paths, forming an unlikely household in this offbeat comedy about love and belonging.",
       "tmdb_id": 299403,
       "tmdb_media_type": "tv",
       "genres": [
@@ -15998,7 +16445,13 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOGM3M2ExMGEtOWJjNi00MDJjLTk0MTUtYTcwMzI5NTg4ZjU0XkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOGM3M2ExMGEtOWJjNi00MDJjLTk0MTUtYTcwMzI5NTg4ZjU0XkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOGM3M2ExMGEtOWJjNi00MDJjLTk0MTUtYTcwMzI5NTg4ZjU0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGM3M2ExMGEtOWJjNi00MDJjLTk0MTUtYTcwMzI5NTg4ZjU0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGM3M2ExMGEtOWJjNi00MDJjLTk0MTUtYTcwMzI5NTg4ZjU0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A clumsy romantic, an aloof teacher and a troubled teen cross paths, forming an unlikely household in this offbeat comedy about love and belonging.",
+      "overview": "A clumsy romantic, an aloof teacher and a troubled teen cross paths, forming an unlikely household in this offbeat comedy about love and belonging.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama"
+      ]
     },
     {
       "title": "Caroline Flack: Search for the Truth",
@@ -16008,7 +16461,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-caroline-flack-search-for-the-truth-2025/e29b930be4601",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Caroline Flack: Search for the Truth full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Follows Caroline Flack's mother Christine as she investigates the truth about her daughter's final months, uncovering new details and examining pressures that shaped Caroline's last days.",
       "tmdb_id": 303649,
       "tmdb_media_type": "tv",
       "genres": [
@@ -16081,7 +16534,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=Ru9mUsYA0U0",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTlkMTU2N2EtZWI2YS00MDg3LTg4MjgtYzJlZDNmZWU4ZTU2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTlkMTU2N2EtZWI2YS00MDg3LTg4MjgtYzJlZDNmZWU4ZTU2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTlkMTU2N2EtZWI2YS00MDg3LTg4MjgtYzJlZDNmZWU4ZTU2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Follows Caroline Flack's mother Christine as she investigates the truth about her daughter's final months, uncovering new details and examining pressures that shaped Caroline's last days.",
+      "overview": "Follows Caroline Flack's mother Christine as she investigates the truth about her daughter's final months, uncovering new details and examining pressures that shaped Caroline's last days.",
+      "qdmovie_genres": [
+        "Documentary"
+      ]
     },
     {
       "title": "Jagadhatri",
@@ -16281,7 +16739,12 @@
         "T Damodaran"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BY2NiMWU5MzMtNWY2Yi00MjYzLTk1NmUtMjM3NmI4YjFhYWQwXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BY2NiMWU5MzMtNWY2Yi00MjYzLTk1NmUtMjM3NmI4YjFhYWQwXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BY2NiMWU5MzMtNWY2Yi00MjYzLTk1NmUtMjM3NmI4YjFhYWQwXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "Advocate Anjali",
@@ -16359,7 +16822,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/mighty-ducks-1996/2999ac6e2f0b5",
       "cbfc_rating": "U/A 7",
-      "description": "Watch Mighty Ducks full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "After failing to make the cut to join the now powerhouse Mighty Ducks junior hockey team, 12-year-old Evan's mother encourages him to form a new team of underdogs with help from Gordon Bombay, the Ducks' original coach.",
       "tmdb_id": 114621,
       "tmdb_media_type": "tv",
       "genres": [
@@ -16523,7 +16986,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=OD3UhmRy4lg",
       "youtube_title": "The Mighty Ducks: Game Changers | Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODdjNzUwNmEtN2E0MC00NDQ2LTkzMzctODNhZTBiNDFlNTAyXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BODdjNzUwNmEtN2E0MC00NDQ2LTkzMzctODNhZTBiNDFlNTAyXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BODdjNzUwNmEtN2E0MC00NDQ2LTkzMzctODNhZTBiNDFlNTAyXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "After failing to make the cut to join the now powerhouse Mighty Ducks junior hockey team, 12-year-old Evan's mother encourages him to form a new team of underdogs with help from Gordon Bombay, the Ducks' original coach.",
+      "overview": "After failing to make the cut to join the now powerhouse Mighty Ducks junior hockey team, 12-year-old Evan's mother encourages him to form a new team of underdogs with help from Gordon Bombay, the Ducks' original coach.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama",
+        "Sport"
+      ]
     },
     {
       "title": "Silver Surfer",
@@ -16533,7 +17003,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/silver-surfer-1998/5a8f8572d1413",
       "cbfc_rating": "U/A 7",
-      "description": "Watch Silver Surfer full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "The adventures of the cosmic wanderer as he seeks his lost home after rebelling from his master.",
       "tmdb_id": 1130,
       "tmdb_media_type": "tv",
       "genres": [
@@ -16647,7 +17117,17 @@
       ],
       "backdrop_url": "https://image.tmdb.org/t/p/original/776tRQ2c0JNrRjZahgpEdXtjSD9.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzg5OGUzZjUtYTAzOS00ZGQwLWIwOTgtNjIyOWZmY2ZiZmFmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzg5OGUzZjUtYTAzOS00ZGQwLWIwOTgtNjIyOWZmY2ZiZmFmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzg5OGUzZjUtYTAzOS00ZGQwLWIwOTgtNjIyOWZmY2ZiZmFmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "The adventures of the cosmic wanderer as he seeks his lost home after rebelling from his master.",
+      "overview": "The adventures of the cosmic wanderer as he seeks his lost home after rebelling from his master.",
+      "qdmovie_genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Family",
+        "Sci-Fi",
+        "Thriller"
+      ]
     },
     {
       "title": "The Avengers: United They Stand",
@@ -16657,7 +17137,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/the-avengers-united-they-stand-1999/2a1fe6788a9fa",
       "cbfc_rating": "U/A 7",
-      "description": "Watch The Avengers: United They Stand full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "The adventures of the Marvel Comics Universe's greatest general membership superhero team.",
       "tmdb_id": 1300,
       "tmdb_media_type": "tv",
       "genres": [
@@ -16807,7 +17287,15 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNDcxZjdjZTgtNDI5Ni00MDliLWFhZTYtZmQwYzdlNzA4YzYzXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNDcxZjdjZTgtNDI5Ni00MDliLWFhZTYtZmQwYzdlNzA4YzYzXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNDcxZjdjZTgtNDI5Ni00MDliLWFhZTYtZmQwYzdlNzA4YzYzXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "The adventures of the Marvel Comics Universe's greatest general membership superhero team.",
+      "overview": "The adventures of the Marvel Comics Universe's greatest general membership superhero team.",
+      "qdmovie_genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Disney Junior Ariel",
@@ -16827,7 +17315,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-zombies-the-re-animated-series-2024/035c193db1185",
       "cbfc_rating": "U/A 7",
-      "description": "Watch ZOMBIES: The Re-Animated Series full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "In Zed and Addison's final year at school, Seabrook has become a haven for monsters and humans, but when intergalactic outsiders show up to compete in the Cheer-Off, Seabrook suspects that they may want more than a friendly competition.",
       "tmdb_id": 204136,
       "tmdb_media_type": "tv",
       "genres": [
@@ -16998,7 +17486,17 @@
       "youtube_url": "https://www.youtube.com/watch?v=cLmN1YMqT_E",
       "youtube_title": "ZOMBIES: The Re-Animated Series Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZmE2NzJiMDctNjU0NC00Njk1LThiMTAtZTgyODQxMmU4MzdjXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZmE2NzJiMDctNjU0NC00Njk1LThiMTAtZTgyODQxMmU4MzdjXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZmE2NzJiMDctNjU0NC00Njk1LThiMTAtZTgyODQxMmU4MzdjXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "In Zed and Addison's final year at school, Seabrook has become a haven for monsters and humans, but when intergalactic outsiders show up to compete in the Cheer-Off, Seabrook suspects that they may want more than a friendly competition.",
+      "overview": "In Zed and Addison's final year at school, Seabrook has become a haven for monsters and humans, but when intergalactic outsiders show up to compete in the Cheer-Off, Seabrook suspects that they may want more than a friendly competition.",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Musical",
+        "Romance"
+      ]
     },
     {
       "title": "Splinter Cell: Deathwatch",
@@ -17008,7 +17506,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-splinter-cell-deathwatch-2025/8f67dff7fc528",
       "cbfc_rating": "A",
-      "description": "Watch Splinter Cell: Deathwatch full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "In the shadowy world of espionage, Sam Fisher is a rumor and a legend. Pulled back into action, he must help a new recruit unravel a global conspiracy.",
       "tmdb_id": 127366,
       "tmdb_media_type": "tv",
       "imdb_id": "tt12809802",
@@ -17161,7 +17659,16 @@
       "youtube_url": "https://www.youtube.com/watch?v=4A9iFjaKeMk",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjAzODQ5YzUtYTEwZi00NDI5LTg1NDktNDk0NDg3ZjgyYzBmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjAzODQ5YzUtYTEwZi00NDI5LTg1NDktNDk0NDg3ZjgyYzBmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMjAzODQ5YzUtYTEwZi00NDI5LTg1NDktNDk0NDg3ZjgyYzBmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "In the shadowy world of espionage, Sam Fisher is a rumor and a legend. Pulled back into action, he must help a new recruit unravel a global conspiracy.",
+      "overview": "In the shadowy world of espionage, Sam Fisher is a rumor and a legend. Pulled back into action, he must help a new recruit unravel a global conspiracy.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Sci-Fi",
+        "Thriller"
+      ]
     },
     {
       "title": "No One Saw Us Leave",
@@ -17171,7 +17678,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-no-one-saw-us-leave-2025/20c4eff7fd239",
       "cbfc_rating": "A",
-      "description": "Watch No One Saw Us Leave full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Follows a mother desperately pursuing her husband who kidnapped their children, highlighting the clash between two powerful Jewish families in the 1960s.",
       "tmdb_id": 246027,
       "tmdb_media_type": "tv",
       "imdb_id": "tt31221478",
@@ -17309,7 +17816,12 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOGNkNTBhZTQtOGRjZi00N2UyLWJmZDctNjA2ZTQ0MjNhNWRjXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGNkNTBhZTQtOGRjZi00N2UyLWJmZDctNjA2ZTQ0MjNhNWRjXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGNkNTBhZTQtOGRjZi00N2UyLWJmZDctNjA2ZTQ0MjNhNWRjXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Follows a mother desperately pursuing her husband who kidnapped their children, highlighting the clash between two powerful Jewish families in the 1960s.",
+      "overview": "Follows a mother desperately pursuing her husband who kidnapped their children, highlighting the clash between two powerful Jewish families in the 1960s.",
+      "genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Romantics Anonymous",
@@ -17319,7 +17831,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-romantics-anonymous-2025/9a8d449240726",
       "cbfc_rating": "A",
-      "description": "Watch Romantics Anonymous full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Chocolate shop president Sosuke can't touch others due to trauma. Ha Na, a genius chocolatier, hides her identity at the shop due to scopophobia. After they meet, they overcome relationship issues through the magic of chocolate.",
       "tmdb_id": 249054,
       "tmdb_media_type": "tv",
       "genres": [
@@ -17489,7 +18001,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=0FAm86H2IY4",
       "youtube_title": "Romantics Anonymous | Official Trailer | Netflix",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMGJlYTYxZmYtMmEyMC00MTNhLTk2YjUtMmFmZTY0MGEyYmQ2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMGJlYTYxZmYtMmEyMC00MTNhLTk2YjUtMmFmZTY0MGEyYmQ2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMGJlYTYxZmYtMmEyMC00MTNhLTk2YjUtMmFmZTY0MGEyYmQ2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Chocolate shop president Sosuke can't touch others due to trauma. Ha Na, a genius chocolatier, hides her identity at the shop due to scopophobia. After they meet, they overcome relationship issues through the magic of chocolate.",
+      "overview": "Chocolate shop president Sosuke can't touch others due to trauma. Ha Na, a genius chocolatier, hides her identity at the shop due to scopophobia. After they meet, they overcome relationship issues through the magic of chocolate.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "Just a bit Espers",
@@ -17499,7 +18018,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-just-a-bit-espers-2025/7f3e8c161a29",
       "cbfc_rating": "A",
-      "description": "Watch Just a bit Espers full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "After reaching his lowest point, Bunta gets a strange job with minor psychic abilities to save the world, but must stay single.",
       "tmdb_id": 298706,
       "tmdb_media_type": "tv",
       "genres": [
@@ -17634,7 +18153,12 @@
         "Akiko Nogi"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjEzYmZjMjctYmQ5Mi00NzBlLTlkYjQtMTIzMTM4NTRmOTFkXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjEzYmZjMjctYmQ5Mi00NzBlLTlkYjQtMTIzMTM4NTRmOTFkXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjEzYmZjMjctYmQ5Mi00NzBlLTlkYjQtMTIzMTM4NTRmOTFkXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "After reaching his lowest point, Bunta gets a strange job with minor psychic abilities to save the world, but must stay single.",
+      "overview": "After reaching his lowest point, Bunta gets a strange job with minor psychic abilities to save the world, but must stay single.",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Mob War: Philadelphia vs. the Mafia",
@@ -17644,7 +18168,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-mob-war-philadelphia-vs-the-mafia-2025/cb3382bb00349",
       "cbfc_rating": "A",
-      "description": "Watch Mob War: Philadelphia vs. the Mafia full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Philadelphia is the City of Brotherly Love, but in the '90s, it was a bloodbath. Two warring mob factions battle for control in this true-crime series.",
       "tmdb_id": 301498,
       "tmdb_media_type": "tv",
       "genres": [
@@ -17750,7 +18274,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=9bWSDB6CHQ8",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzQwZWUwZDctNzQ1OC00YzBkLTlkMzMtZDRlZTU3YmU0YjYyXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzQwZWUwZDctNzQ1OC00YzBkLTlkMzMtZDRlZTU3YmU0YjYyXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzQwZWUwZDctNzQ1OC00YzBkLTlkMzMtZDRlZTU3YmU0YjYyXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Philadelphia is the City of Brotherly Love, but in the '90s, it was a bloodbath. Two warring mob factions battle for control in this true-crime series.",
+      "overview": "Philadelphia is the City of Brotherly Love, but in the '90s, it was a bloodbath. Two warring mob factions battle for control in this true-crime series.",
+      "qdmovie_genres": [
+        "Documentary",
+        "Crime"
+      ]
     },
     {
       "title": "The Monster of Florence",
@@ -17760,7 +18290,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-monster-of-florence-2025/05151147de468",
       "cbfc_rating": "A",
-      "description": "Watch The Monster of Florence full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "As a serial killer strikes terror in Italy by targeting couples parked in lovers lanes, authorities explore a case from 1968 that may be key to identifying The Monster of Florence.",
       "tmdb_id": 247756,
       "tmdb_media_type": "tv",
       "genres": [
@@ -17913,7 +18443,16 @@
       "youtube_url": "https://www.youtube.com/watch?v=jY5je8XJWTo",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzUxNWMwMWYtOTcyMy00MTZhLTlkNGEtN2ZmNmI0ZDJkZjM3XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzUxNWMwMWYtOTcyMy00MTZhLTlkNGEtN2ZmNmI0ZDJkZjM3XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzUxNWMwMWYtOTcyMy00MTZhLTlkNGEtN2ZmNmI0ZDJkZjM3XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "As a serial killer strikes terror in Italy by targeting couples parked in lovers lanes, authorities explore a case from 1968 that may be key to identifying The Monster of Florence.",
+      "overview": "As a serial killer strikes terror in Italy by targeting couples parked in lovers lanes, authorities explore a case from 1968 that may be key to identifying The Monster of Florence.",
+      "qdmovie_genres": [
+        "Biography",
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ]
     },
     {
       "title": "The Dream Life of Mr. Kim",
@@ -17923,7 +18462,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-dream-life-of-mr-kim-2025/0ef8fd5997464",
       "cbfc_rating": "A",
-      "description": "Watch The Dream Life of Mr. Kim full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "After 25 years of success at one company, Manager Kim loses his job and family, forcing him to redefine himself beyond his roles as corporate manager, husband, and father.",
       "tmdb_id": 275592,
       "tmdb_media_type": "tv",
       "genres": [
@@ -18046,7 +18585,13 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BOTE5N2E3YjYtM2M0My00NTU4LTg5MDgtNWQyNTIxOTZjYjJkXkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BOTE5N2E3YjYtM2M0My00NTU4LTg5MDgtNWQyNTIxOTZjYjJkXkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTE5N2E3YjYtM2M0My00NTU4LTg5MDgtNWQyNTIxOTZjYjJkXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTE5N2E3YjYtM2M0My00NTU4LTg5MDgtNWQyNTIxOTZjYjJkXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTE5N2E3YjYtM2M0My00NTU4LTg5MDgtNWQyNTIxOTZjYjJkXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "After 25 years of success at one company, Manager Kim loses his job and family, forcing him to redefine himself beyond his roles as corporate manager, husband, and father.",
+      "overview": "After 25 years of success at one company, Manager Kim loses his job and family, forcing him to redefine himself beyond his roles as corporate manager, husband, and father.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama"
+      ]
     },
     {
       "title": "The Asset",
@@ -18056,7 +18601,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-asset-2025/152c026652167",
       "cbfc_rating": "A",
-      "description": "Watch The Asset full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Agent Tea infiltrates a criminal gang, befriending Ashley, the girlfriend of ringleader Miran. Witnessing Ashley's stark reality, Tea is torn between her mission and a desire to help her escape Miran's control.",
       "tmdb_id": 262920,
       "tmdb_media_type": "tv",
       "genres": [
@@ -18193,7 +18738,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=_avz4qkXDms",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTFkNTIwM2MtNmFmYS00ZGQ0LWEwNTgtOTNiNGE0NjdmNzBiXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTFkNTIwM2MtNmFmYS00ZGQ0LWEwNTgtOTNiNGE0NjdmNzBiXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTFkNTIwM2MtNmFmYS00ZGQ0LWEwNTgtOTNiNGE0NjdmNzBiXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Agent Tea infiltrates a criminal gang, befriending Ashley, the girlfriend of ringleader Miran. Witnessing Ashley's stark reality, Tea is torn between her mission and a desire to help her escape Miran's control.",
+      "overview": "Agent Tea infiltrates a criminal gang, befriending Ashley, the girlfriend of ringleader Miran. Witnessing Ashley's stark reality, Tea is torn between her mission and a desire to help her escape Miran's control.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "Physical: Asia",
@@ -18213,7 +18765,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-lego-marvel-avengers-strange-tails-2025/e323e7a0e1367",
       "cbfc_rating": "U/A 7",
-      "description": "Watch LEGO Marvel Avengers: Strange Tails full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A social media influencer threatens global devastation, forcing Hawkeye and The Avengers to expand their ranks. The heroes discover that fighting viral threats requires more than just their usual superhero skills.",
       "tmdb_id": 305165,
       "tmdb_media_type": "tv",
       "genres": [
@@ -18384,7 +18936,17 @@
       "youtube_url": "https://www.youtube.com/watch?v=NU44gS07Agw",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODY3ZTlkNDAtODBiNi00NzcwLWE2MzQtN2E1N2ZiMWFmODQyXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BODY3ZTlkNDAtODBiNi00NzcwLWE2MzQtN2E1N2ZiMWFmODQyXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BODY3ZTlkNDAtODBiNi00NzcwLWE2MzQtN2E1N2ZiMWFmODQyXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A social media influencer threatens global devastation, forcing Hawkeye and The Avengers to expand their ranks. The heroes discover that fighting viral threats requires more than just their usual superhero skills.",
+      "overview": "A social media influencer threatens global devastation, forcing Hawkeye and The Avengers to expand their ranks. The heroes discover that fighting viral threats requires more than just their usual superhero skills.",
+      "qdmovie_genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Inspection Bungalow",
@@ -18519,7 +19081,7 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/web-series-snap-and-spark-hindi-2023/f65bc83ac7364",
       "cbfc_rating": "U/A",
-      "description": "Watch Snap And Spark (Hindi) full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "In a world where popularity turns into social class, and not receiving hearts makes you a loser, a high-teen drama depicts the anxious concerns of students at the Han Arts High School.",
       "tmdb_id": 240715,
       "tmdb_media_type": "tv",
       "genres": [
@@ -18656,7 +19218,13 @@
         "Lee Na-won"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzY5ZTI5YjAtZTdiNy00ZjljLWJhZDktZWUwNTQzODFlNzYyXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzY5ZTI5YjAtZTdiNy00ZjljLWJhZDktZWUwNTQzODFlNzYyXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzY5ZTI5YjAtZTdiNy00ZjljLWJhZDktZWUwNTQzODFlNzYyXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "In a world where popularity turns into social class, and not receiving hearts makes you a loser, a high-teen drama depicts the anxious concerns of students at the Han Arts High School.",
+      "overview": "In a world where popularity turns into social class, and not receiving hearts makes you a loser, a high-teen drama depicts the anxious concerns of students at the Han Arts High School.",
+      "qdmovie_genres": [
+        "Music",
+        "Romance"
+      ]
     },
     {
       "title": "Dance Karnataka Dance 2025",
@@ -18676,7 +19244,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-rulers-of-fortune-2025/29f22c79bc771",
       "cbfc_rating": "A",
-      "description": "Watch Rulers of Fortune full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Rio's underground crime syndicate is thrown into turmoil by the imminent legalization of gambling, the interest of a foreign criminal organization in the local market, and the rapid rise of Profeta, a new contender for the city's throne.",
       "tmdb_id": 282440,
       "tmdb_media_type": "tv",
       "genres": [
@@ -18846,7 +19414,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=y1E-jSD_T5k",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjQ5Nzg5NmUtZGI4Ni00YTIwLThlMjgtMzc0MjBlMDBkZGQxXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjQ5Nzg5NmUtZGI4Ni00YTIwLThlMjgtMzc0MjBlMDBkZGQxXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjQ5Nzg5NmUtZGI4Ni00YTIwLThlMjgtMzc0MjBlMDBkZGQxXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Rio's underground crime syndicate is thrown into turmoil by the imminent legalization of gambling, the interest of a foreign criminal organization in the local market, and the rapid rise of Profeta, a new contender for the city's throne.",
+      "overview": "Rio's underground crime syndicate is thrown into turmoil by the imminent legalization of gambling, the interest of a foreign criminal organization in the local market, and the rapid rise of Profeta, a new contender for the city's throne.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama"
+      ]
     },
     {
       "title": "Amsterdam Empire",
@@ -18856,7 +19430,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-amsterdam-empire-2025/9e66074a1d194",
       "cbfc_rating": "A",
-      "description": "Watch Amsterdam Empire full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "When a man's affair comes to light, his wife hatches a bitter plan to strip him of his coffeeshop empire, the thing he loves most.",
       "tmdb_id": 249586,
       "tmdb_media_type": "tv",
       "genres": [
@@ -19003,7 +19577,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=d8DOm2D_72U",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYWQ0ZTMyNTctYjkyZS00NmE4LWFiZTItYzkzZWY1ZmJhNjA5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWQ0ZTMyNTctYjkyZS00NmE4LWFiZTItYzkzZWY1ZmJhNjA5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWQ0ZTMyNTctYjkyZS00NmE4LWFiZTItYzkzZWY1ZmJhNjA5XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "When a man's affair comes to light, his wife hatches a bitter plan to strip him of his coffeeshop empire, the thing he loves most.",
+      "overview": "When a man's affair comes to light, his wife hatches a bitter plan to strip him of his coffeeshop empire, the thing he loves most.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama"
+      ]
     },
     {
       "title": "Chembarathy",
@@ -19013,7 +19593,7 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-chembarathy-2025/cacbb8f645560",
       "cbfc_rating": "",
-      "description": "Watch Chembarathy full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Vinod, a young guy who is nursing a broken heart after a failed first love is helped by his friends to recover from despair, only to fall head over heels in love with another girl.",
       "tmdb_id": 495573,
       "tmdb_media_type": "movie",
       "genres": [
@@ -19107,7 +19687,12 @@
         "Arun Vaiga"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDA4OTM0OTYtY2Y4Yy00ZmY3LTlkOGUtYzdmNDc3OGQwNzk3XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDA4OTM0OTYtY2Y4Yy00ZmY3LTlkOGUtYzdmNDc3OGQwNzk3XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDA4OTM0OTYtY2Y4Yy00ZmY3LTlkOGUtYzdmNDc3OGQwNzk3XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Vinod, a young guy who is nursing a broken heart after a failed first love is helped by his friends to recover from despair, only to fall head over heels in love with another girl.",
+      "overview": "Vinod, a young guy who is nursing a broken heart after a failed first love is helped by his friends to recover from despair, only to fall head over heels in love with another girl.",
+      "qdmovie_genres": [
+        "Romance"
+      ]
     },
     {
       "title": "Durga",
@@ -19150,7 +19735,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-sadhok-bamakhyapa-2025/1a0e7c5df8772",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Sadhok Bamakhyapa full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "The life of the 18th century spiritual leader and the most devout worshipper of Goddess Tara. The devotional drama revolves around this unconventional saint's fight against the staunch, orthodox temple practices, and tells stories of how he used the super powers bestowed upon him by the Goddess, for the betterment of his people.",
       "tmdb_id": 251760,
       "tmdb_media_type": "tv",
       "genres": [
@@ -19238,6 +19823,11 @@
           "character": "",
           "profile_path": "https://image.tmdb.org/t/p/w185/agkI0zcFAiknsHJJHTvOckbLqQ1.jpg"
         }
+      ],
+      "qdmovie_plot": "The life of the 18th century spiritual leader and the most devout worshipper of Goddess Tara. The devotional drama revolves around this unconventional saint's fight against the staunch, orthodox temple practices, and tells stories of how he used the super powers bestowed upon him by the Goddess, for the betterment of his people.",
+      "overview": "The life of the 18th century spiritual leader and the most devout worshipper of Goddess Tara. The devotional drama revolves around this unconventional saint's fight against the staunch, orthodox temple practices, and tells stories of how he used the super powers bestowed upon him by the Goddess, for the betterment of his people.",
+      "qdmovie_genres": [
+        "History"
       ]
     },
     {
@@ -19307,7 +19897,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/the-book-of-pooh-2001/ab188d8b8ce3e",
       "cbfc_rating": "U",
-      "description": "Watch The Book of Pooh full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A new Disney version of the classic children's stories about Winnie the Pooh and his friends.",
       "tmdb_id": 973,
       "tmdb_media_type": "tv",
       "genres": [
@@ -19474,7 +20064,16 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNDExOWQ3N2UtY2Q4YS00YjUyLWFiMTgtMjVjMTBiNmQ1ZDA4XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNDExOWQ3N2UtY2Q4YS00YjUyLWFiMTgtMjVjMTBiNmQ1ZDA4XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNDExOWQ3N2UtY2Q4YS00YjUyLWFiMTgtMjVjMTBiNmQ1ZDA4XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A new Disney version of the classic children's stories about Winnie the Pooh and his friends.",
+      "overview": "A new Disney version of the classic children's stories about Winnie the Pooh and his friends.",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Musical"
+      ]
     },
     {
       "title": "Helstrom",
@@ -19484,7 +20083,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/helstrom/1675644ca1ee7",
       "cbfc_rating": "A",
-      "description": "Watch Helstrom full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Daimon and Ana Helstrom are the son and daughter of a mysterious and powerful serial killer. The siblings have a complicated dynamic as they track down the terrorizing worst of humanity - each with their attitude and skills.",
       "tmdb_id": 88987,
       "tmdb_media_type": "tv",
       "genres": [
@@ -19639,7 +20238,16 @@
       "youtube_url": "https://www.youtube.com/watch?v=XKeugS4qjag",
       "youtube_title": "Helstrom - Trailer (Official) • A Hulu Original",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMGYyZGQyMjgtNTdjNy00N2FjLTk5NGEtYzYwZWNkMWY5Y2UzXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMGYyZGQyMjgtNTdjNy00N2FjLTk5NGEtYzYwZWNkMWY5Y2UzXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMGYyZGQyMjgtNTdjNy00N2FjLTk5NGEtYzYwZWNkMWY5Y2UzXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Daimon and Ana Helstrom are the son and daughter of a mysterious and powerful serial killer. The siblings have a complicated dynamic as they track down the terrorizing worst of humanity - each with their attitude and skills.",
+      "overview": "Daimon and Ana Helstrom are the son and daughter of a mysterious and powerful serial killer. The siblings have a complicated dynamic as they track down the terrorizing worst of humanity - each with their attitude and skills.",
+      "qdmovie_genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ]
     },
     {
       "title": "M.O.D.O.K.",
@@ -19649,7 +20257,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-modok-2021/4bfa8356e1632",
       "cbfc_rating": "U/A 16",
-      "description": "Watch M.O.D.O.K. full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "It centers around an egomaniacal supervillain with a really big head and a really little body, who struggles to maintain control of his evil organization and his demanding family.",
       "tmdb_id": 111312,
       "tmdb_media_type": "tv",
       "genres": [
@@ -19810,7 +20418,16 @@
       "youtube_url": "https://www.youtube.com/watch?v=oSEWdhHBlYU",
       "youtube_title": "Trailer (Official)",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOWEwYWIwZmMtOGQ5YS00Njg0LTg1NzctZTVlMDYzZDc3MTk5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWEwYWIwZmMtOGQ5YS00Njg0LTg1NzctZTVlMDYzZDc3MTk5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWEwYWIwZmMtOGQ5YS00Njg0LTg1NzctZTVlMDYzZDc3MTk5XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "It centers around an egomaniacal supervillain with a really big head and a really little body, who struggles to maintain control of his evil organization and his demanding family.",
+      "overview": "It centers around an egomaniacal supervillain with a really big head and a really little body, who struggles to maintain control of his evil organization and his demanding family.",
+      "qdmovie_genres": [
+        "Animation",
+        "Action",
+        "Comedy",
+        "Fantasy",
+        "Sci-Fi"
+      ]
     },
     {
       "title": "Kindergarten: The Musical!",
@@ -19820,7 +20437,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-kindergarten-the-musical-2024/47c51bbfab117",
       "cbfc_rating": "U",
-      "description": "Watch Kindergarten: The Musical! full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A 5-year-old, with the help of her amazing teacher and new friends, uses her imagination to express her fears, excitement, and joy through big stage musical-style song and dance numbers.",
       "tmdb_id": 201480,
       "tmdb_media_type": "tv",
       "genres": [
@@ -19967,7 +20584,15 @@
       "youtube_url": "https://www.youtube.com/watch?v=mhIF-1MIoY0",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMDdlNjY0YmUtOGJkZi00NzUxLWFlMTYtOGUwNzllNzBlYjk0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDdlNjY0YmUtOGJkZi00NzUxLWFlMTYtOGUwNzllNzBlYjk0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMDdlNjY0YmUtOGJkZi00NzUxLWFlMTYtOGUwNzllNzBlYjk0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A 5-year-old, with the help of her amazing teacher and new friends, uses her imagination to express her fears, excitement, and joy through big stage musical-style song and dance numbers.",
+      "overview": "A 5-year-old, with the help of her amazing teacher and new friends, uses her imagination to express her fears, excitement, and joy through big stage musical-style song and dance numbers.",
+      "qdmovie_genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Musical"
+      ]
     },
     {
       "title": "When The Weather Is Fine",
@@ -19977,7 +20602,7 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-when-the-weather-is-fine-2025/de2caa7331949",
       "cbfc_rating": "",
-      "description": "Watch When The Weather Is Fine full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A story about forgiveness, healing and love taking place around a small book store in the countryside.",
       "tmdb_id": 96977,
       "tmdb_media_type": "tv",
       "genres": [
@@ -20093,7 +20718,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=ZOuMRNMa8UU",
       "youtube_title": "When the Weather is Fine Trailer #2 | Park Min Young, Seo Kang Joon | Now on Viu",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTYzZTkzMWUtZDg2ZS00ODllLWJmNzYtYmIxZGMyNjk1NzA3XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYzZTkzMWUtZDg2ZS00ODllLWJmNzYtYmIxZGMyNjk1NzA3XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYzZTkzMWUtZDg2ZS00ODllLWJmNzYtYmIxZGMyNjk1NzA3XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A story about forgiveness, healing and love taking place around a small book store in the countryside.",
+      "overview": "A story about forgiveness, healing and love taking place around a small book store in the countryside.",
+      "qdmovie_genres": [
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "Nadu Center",
@@ -20103,7 +20734,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/nadu-center-2025/e46d743327968",
       "cbfc_rating": "A",
-      "description": "Watch Nadu Center full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A troubled basketball star transfers to a chaotic school and is tasked with forming a team from its most disruptive students. Through coaching, he discovers leadership while helping his teammates find purpose.",
       "tmdb_id": 305702,
       "tmdb_media_type": "tv",
       "genres": [
@@ -20165,7 +20796,13 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYjc0NmMwOWItODk0ZC00MjM1LTkzMDUtMDExYzJjYmIzZDI5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjc0NmMwOWItODk0ZC00MjM1LTkzMDUtMDExYzJjYmIzZDI5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYjc0NmMwOWItODk0ZC00MjM1LTkzMDUtMDExYzJjYmIzZDI5XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A troubled basketball star transfers to a chaotic school and is tasked with forming a team from its most disruptive students. Through coaching, he discovers leadership while helping his teammates find purpose.",
+      "overview": "A troubled basketball star transfers to a chaotic school and is tasked with forming a team from its most disruptive students. Through coaching, he discovers leadership while helping his teammates find purpose.",
+      "qdmovie_genres": [
+        "Drama",
+        "Sport"
+      ]
     },
     {
       "title": "SDF: Supernatural Detective Agency",
@@ -20286,7 +20923,7 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/the-death-of-bunny-munro-2025/065d166908955",
       "cbfc_rating": "A",
-      "description": "Watch The Death of Bunny Munro full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A look at the life of a sex-addict traveling salesman who uses his door-to-door beauty products to meet women.",
       "tmdb_id": 279116,
       "tmdb_media_type": "tv",
       "genres": [
@@ -20439,7 +21076,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=1CdF4qzoLW0",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGE4YTA3ZGEtMmVjYi00MGMyLThlYWEtNDE4OWFhOWVkNGM5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGE4YTA3ZGEtMmVjYi00MGMyLThlYWEtNDE4OWFhOWVkNGM5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGE4YTA3ZGEtMmVjYi00MGMyLThlYWEtNDE4OWFhOWVkNGM5XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A look at the life of a sex-addict traveling salesman who uses his door-to-door beauty products to meet women.",
+      "overview": "A look at the life of a sex-addict traveling salesman who uses his door-to-door beauty products to meet women.",
+      "qdmovie_genres": [
+        "Drama"
+      ]
     },
     {
       "title": "Moral Stories",
@@ -20535,7 +21177,10 @@
         "András Szekér"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BY2VlMmQ4ZDctZGU3ZC00OGRkLTg4MTYtMjJjNTdmNDdjMDE0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BY2VlMmQ4ZDctZGU3ZC00OGRkLTg4MTYtMjJjNTdmNDdjMDE0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BY2VlMmQ4ZDctZGU3ZC00OGRkLTg4MTYtMjJjNTdmNDdjMDE0XkEyXkFqcGc@._V1_.jpg",
+      "genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Gandhi Circuit of Bihar",
@@ -20645,7 +21290,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-juan-gabriel-i-must-i-can-i-will-2025/19b4548084724",
       "cbfc_rating": "A",
-      "description": "Watch Juan Gabriel: I Must, I Can, I Will full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A tribute showcasing rare archives and personal narratives about the iconic Mexican singer.",
       "tmdb_id": 283396,
       "tmdb_media_type": "tv",
       "genres": [
@@ -20748,7 +21393,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=jleilf5sDzE",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTY0MTdiYTItOWQ3Yy00YTdlLTk0Y2EtOGY1MjNmMmU0NDU3XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTY0MTdiYTItOWQ3Yy00YTdlLTk0Y2EtOGY1MjNmMmU0NDU3XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTY0MTdiYTItOWQ3Yy00YTdlLTk0Y2EtOGY1MjNmMmU0NDU3XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A tribute showcasing rare archives and personal narratives about the iconic Mexican singer.",
+      "overview": "A tribute showcasing rare archives and personal narratives about the iconic Mexican singer.",
+      "qdmovie_genres": [
+        "Documentary",
+        "Biography",
+        "Music"
+      ]
     },
     {
       "title": "Son of a Donkey",
@@ -20758,7 +21410,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-son-of-a-donkey-2025/33c41aff01546",
       "cbfc_rating": "A",
-      "description": "Watch Son of a Donkey full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Theo leaves home seeking independence but faces adulting challenges: fines, daddy issues, scams. With best friend Johnny, he learns through mishaps that family matters most.",
       "tmdb_id": 255803,
       "tmdb_media_type": "tv",
       "genres": [
@@ -20866,7 +21518,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=0jbLORXFgBc",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjAwNGMyYzEtOTAwOS00MzYzLTk4NjAtM2Y4NzAxYjZjOGM2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjAwNGMyYzEtOTAwOS00MzYzLTk4NjAtM2Y4NzAxYjZjOGM2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjAwNGMyYzEtOTAwOS00MzYzLTk4NjAtM2Y4NzAxYjZjOGM2XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Theo leaves home seeking independence but faces adulting challenges: fines, daddy issues, scams. With best friend Johnny, he learns through mishaps that family matters most.",
+      "overview": "Theo leaves home seeking independence but faces adulting challenges: fines, daddy issues, scams. With best friend Johnny, he learns through mishaps that family matters most.",
+      "qdmovie_genres": [
+        "Comedy"
+      ]
     },
     {
       "title": "Bad Influencer",
@@ -20876,7 +21533,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-bad-influencer-2025/2c8b27d6eb142",
       "cbfc_rating": "A",
-      "description": "Watch Bad Influencer full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A struggling single mom partners with an influencer to sell counterfeit designer bags online. Their operation draws heat from both criminals and cops, leaving them to navigate dangerous waters.",
       "tmdb_id": 302854,
       "tmdb_media_type": "tv",
       "genres": [
@@ -20938,7 +21595,13 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZDZjMzg4ODAtMmQ3OC00ZjE2LTkwZTUtYTc3MjE2Njg4NzIwXkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZDZjMzg4ODAtMmQ3OC00ZjE2LTkwZTUtYTc3MjE2Njg4NzIwXkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDZjMzg4ODAtMmQ3OC00ZjE2LTkwZTUtYTc3MjE2Njg4NzIwXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDZjMzg4ODAtMmQ3OC00ZjE2LTkwZTUtYTc3MjE2Njg4NzIwXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDZjMzg4ODAtMmQ3OC00ZjE2LTkwZTUtYTc3MjE2Njg4NzIwXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A struggling single mom partners with an influencer to sell counterfeit designer bags online. Their operation draws heat from both criminals and cops, leaving them to navigate dangerous waters.",
+      "overview": "A struggling single mom partners with an influencer to sell counterfeit designer bags online. Their operation draws heat from both criminals and cops, leaving them to navigate dangerous waters.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama"
+      ]
     },
     {
       "title": "Just Alice",
@@ -20948,7 +21611,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-just-alice-2025/a6bed34f38772",
       "cbfc_rating": "A",
-      "description": "Watch Just Alice full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A resourceful wife leads a double life, expertly juggling separate households and husbands while trying to keep her elaborate charade from falling apart.",
       "tmdb_id": 302723,
       "tmdb_media_type": "tv",
       "genres": [
@@ -21100,7 +21763,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=rSuDiDmJd54",
       "youtube_title": "Simplemente Alicia | Avance oficial | Netflix",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMzY2OThlNjctNGIzNy00ZTViLTk3MDMtZDFkODc3ZjgzZmNmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzY2OThlNjctNGIzNy00ZTViLTk3MDMtZDFkODc3ZjgzZmNmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMzY2OThlNjctNGIzNy00ZTViLTk3MDMtZDFkODc3ZjgzZmNmXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A resourceful wife leads a double life, expertly juggling separate households and husbands while trying to keep her elaborate charade from falling apart.",
+      "overview": "A resourceful wife leads a double life, expertly juggling separate households and husbands while trying to keep her elaborate charade from falling apart.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Romance"
+      ]
     },
     {
       "title": "Heweliusz",
@@ -21110,7 +21779,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-heweliusz-2025/9bb54f73f8162",
       "cbfc_rating": "A",
-      "description": "Watch Heweliusz full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "In 1993, the Polish ferry MS Jan Heweliusz capsizes off the coast of Rügen in the Baltic Sea.",
       "tmdb_id": 217528,
       "tmdb_media_type": "tv",
       "genres": [
@@ -21276,7 +21945,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=9fBgHvXtGwA",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOGVhY2E4NTctOTM5MC00YmRjLTgwYTUtZGQ1MmE1Mjg5ZDhjXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGVhY2E4NTctOTM5MC00YmRjLTgwYTUtZGQ1MmE1Mjg5ZDhjXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOGVhY2E4NTctOTM5MC00YmRjLTgwYTUtZGQ1MmE1Mjg5ZDhjXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "In 1993, the Polish ferry MS Jan Heweliusz capsizes off the coast of Rügen in the Baltic Sea.",
+      "overview": "In 1993, the Polish ferry MS Jan Heweliusz capsizes off the coast of Rügen in the Baltic Sea.",
+      "qdmovie_genres": [
+        "Drama",
+        "History"
+      ]
     },
     {
       "title": "Start Up, Fall Down: From Billionaire to Convict",
@@ -21286,7 +21961,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-start-up-fall-down-from-billionaire-to-convict-2025/f1cc191e96387",
       "cbfc_rating": "A",
-      "description": "Watch Start Up, Fall Down: From Billionaire to Convict full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Victims and Alberto Genovese's inner circle recall his lavish Milan parties and the crimes hidden behind his penthouse doors.",
       "tmdb_id": 304936,
       "tmdb_media_type": "tv",
       "genres": [
@@ -21369,7 +22044,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=37xAH4W5NsE",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZjZhNTVkOWQtZDVjMi00YWU4LThjYWQtZmJiOTYwNDA4ZmYzXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZjZhNTVkOWQtZDVjMi00YWU4LThjYWQtZmJiOTYwNDA4ZmYzXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZjZhNTVkOWQtZDVjMi00YWU4LThjYWQtZmJiOTYwNDA4ZmYzXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Victims and Alberto Genovese's inner circle recall his lavish Milan parties and the crimes hidden behind his penthouse doors.",
+      "overview": "Victims and Alberto Genovese's inner circle recall his lavish Milan parties and the crimes hidden behind his penthouse doors.",
+      "qdmovie_genres": [
+        "Documentary",
+        "Crime"
+      ]
     },
     {
       "title": "The Bad Guys: Breaking In",
@@ -21379,7 +22060,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-bad-guys-breaking-in-2025/622cd19714617",
       "cbfc_rating": "A",
-      "description": "Watch The Bad Guys: Breaking In full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Before becoming the Bad Guys, they were just criminals seeking notoriety. Wolf leads their crew on daring heists to top the 6 News Nightly's Worst List, but being truly bad isn't their strong suit.",
       "tmdb_id": 302540,
       "tmdb_media_type": "tv",
       "genres": [
@@ -21530,7 +22211,16 @@
       "youtube_url": "https://www.youtube.com/watch?v=o6HXxD6CcLg",
       "youtube_title": "Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYzYxOTUyNDMtY2UyMS00M2Y4LTlmZDMtYjdiMjAyMzhmZjgxXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzYxOTUyNDMtY2UyMS00M2Y4LTlmZDMtYjdiMjAyMzhmZjgxXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYzYxOTUyNDMtY2UyMS00M2Y4LTlmZDMtYjdiMjAyMzhmZjgxXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Before becoming the Bad Guys, they were just criminals seeking notoriety. Wolf leads their crew on daring heists to top the 6 News Nightly's Worst List, but being truly bad isn't their strong suit.",
+      "overview": "Before becoming the Bad Guys, they were just criminals seeking notoriety. Wolf leads their crew on daring heists to top the 6 News Nightly's Worst List, but being truly bad isn't their strong suit.",
+      "qdmovie_genres": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Family"
+      ]
     },
     {
       "title": "Death by Lightning",
@@ -21715,7 +22405,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-as-you-stood-by-2025/5f2faec771154",
       "cbfc_rating": "A",
-      "description": "Watch As You Stood By full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Two women are driven to the brink, facing an inescapable reality that forces them to consider murder as their only way out.",
       "tmdb_id": 271885,
       "tmdb_media_type": "tv",
       "genres": [
@@ -21855,7 +22545,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=ZYflvue1yIE",
       "youtube_title": "Official Trailer [ENG SUB]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOTMyMTU5NmMtOTBjZi00ODkyLWJjZGEtMmI5ODhlOGY0MjFhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTMyMTU5NmMtOTBjZi00ODkyLWJjZGEtMmI5ODhlOGY0MjFhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOTMyMTU5NmMtOTBjZi00ODkyLWJjZGEtMmI5ODhlOGY0MjFhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Two women are driven to the brink, facing an inescapable reality that forces them to consider murder as their only way out.",
+      "overview": "Two women are driven to the brink, facing an inescapable reality that forces them to consider murder as their only way out.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "MARINES",
@@ -21865,7 +22562,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-marines-2025/ae2b2b545e254",
       "cbfc_rating": "A",
-      "description": "Watch MARINES full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Follows members of the 31st Marine Expeditionary Unit as they undergo rigorous training and navigate emotional challenges while forging bonds and grappling with the complexities of life at sea.",
       "tmdb_id": 303173,
       "tmdb_media_type": "tv",
       "genres": [
@@ -21941,7 +22638,12 @@
       "youtube_url": "https://www.youtube.com/watch?v=de4Mh5wYSgc",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZjgxMGY5ZTktODcyZS00Y2YzLTg1NzctNzc4N2UyZjBkOWQwXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZjgxMGY5ZTktODcyZS00Y2YzLTg1NzctNzc4N2UyZjBkOWQwXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZjgxMGY5ZTktODcyZS00Y2YzLTg1NzctNzc4N2UyZjBkOWQwXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Follows members of the 31st Marine Expeditionary Unit as they undergo rigorous training and navigate emotional challenges while forging bonds and grappling with the complexities of life at sea.",
+      "overview": "Follows members of the 31st Marine Expeditionary Unit as they undergo rigorous training and navigate emotional challenges while forging bonds and grappling with the complexities of life at sea.",
+      "qdmovie_genres": [
+        "Documentary"
+      ]
     },
     {
       "title": "Mrs Playmen",
@@ -21951,7 +22653,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-mrs-playmen-2025/da9d3f83dc410",
       "cbfc_rating": "A",
-      "description": "Watch Mrs Playmen full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Adelina, head of infamous Italian erotic magazine \"Playmen,\" challenged conservative norms through elegant nudes, daring topics promoting female desire, and intellectual discourse, amid backlash in religious 1960s-70s Italy.",
       "tmdb_id": 301001,
       "tmdb_media_type": "tv",
       "imdb_id": "tt31078757",
@@ -22085,7 +22787,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=EilQgosN7L4",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BYWU4Njc0M2ItYWZjNS00M2U5LWJkYjUtZmFmZDQyNWU5ZDVlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWU4Njc0M2ItYWZjNS00M2U5LWJkYjUtZmFmZDQyNWU5ZDVlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BYWU4Njc0M2ItYWZjNS00M2U5LWJkYjUtZmFmZDQyNWU5ZDVlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Adelina, head of infamous Italian erotic magazine \"Playmen,\" challenged conservative norms through elegant nudes, daring topics promoting female desire, and intellectual discourse, amid backlash in religious 1960s-70s Italy.",
+      "overview": "Adelina, head of infamous Italian erotic magazine \"Playmen,\" challenged conservative norms through elegant nudes, daring topics promoting female desire, and intellectual discourse, amid backlash in religious 1960s-70s Italy.",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ]
     },
     {
       "title": "Dynamite Kiss",
@@ -22095,7 +22804,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-dynamite-kiss-2025/7622cfd142897",
       "cbfc_rating": "A",
-      "description": "Watch Dynamite Kiss full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A single woman who disguises herself as a married mom to get a job, and the team leader of a baby products company who falls in love with her.",
       "tmdb_id": 281013,
       "tmdb_media_type": "tv",
       "genres": [
@@ -22264,7 +22973,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=PukVwohE-Vk",
       "youtube_title": "Official Clip [ENG SUB]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNjBmZjQ0NDUtN2E0Yy00OTg3LTgwZjMtZDk2ZjliNmRhY2Y5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjBmZjQ0NDUtN2E0Yy00OTg3LTgwZjMtZDk2ZjliNmRhY2Y5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNjBmZjQ0NDUtN2E0Yy00OTg3LTgwZjMtZDk2ZjliNmRhY2Y5XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A single woman who disguises herself as a married mom to get a job, and the team leader of a baby products company who falls in love with her.",
+      "overview": "A single woman who disguises herself as a married mom to get a job, and the team leader of a baby products company who falls in love with her.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ]
     },
     {
       "title": "Had I Not Seen the Sun",
@@ -22274,7 +22990,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-had-i-not-seen-the-sun-2025/1ebdf1410e391",
       "cbfc_rating": "A",
-      "description": "Watch Had I Not Seen the Sun full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A documentarian's prison interview with a serial killer triggers mysterious dreams and encounters with a dead student's ghost.",
       "tmdb_id": 241576,
       "tmdb_media_type": "tv",
       "genres": [
@@ -22404,7 +23120,16 @@
         }
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BOWZkY2UyNmItZjIyZS00NjVlLWEwMzgtMTg2YWUxYmZjMjdhXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWZkY2UyNmItZjIyZS00NjVlLWEwMzgtMTg2YWUxYmZjMjdhXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BOWZkY2UyNmItZjIyZS00NjVlLWEwMzgtMTg2YWUxYmZjMjdhXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A documentarian's prison interview with a serial killer triggers mysterious dreams and encounters with a dead student's ghost.",
+      "overview": "A documentarian's prison interview with a serial killer triggers mysterious dreams and encounters with a dead student's ghost.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Romance",
+        "Thriller"
+      ]
     },
     {
       "title": "The Beast in Me",
@@ -22414,7 +23139,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-beast-in-me-2025/4c32611152816",
       "cbfc_rating": "A",
-      "description": "Watch The Beast in Me full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "Author Aggie Wiggs, grieving the loss of her son, finds new purpose unraveling the mystery behind neighbor Nile Jarvis' vanished wife and his suspicious dealings.",
       "tmdb_id": 250504,
       "tmdb_media_type": "tv",
       "genres": [
@@ -22551,7 +23276,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=8iNHGKcP0cM",
       "youtube_title": "Official Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDI5MzdkMzktMjcxYi00OTcyLTljMWEtYzg2NTA5OTcwYTJkXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDI5MzdkMzktMjcxYi00OTcyLTljMWEtYzg2NTA5OTcwYTJkXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDI5MzdkMzktMjcxYi00OTcyLTljMWEtYzg2NTA5OTcwYTJkXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "Author Aggie Wiggs, grieving the loss of her son, finds new purpose unraveling the mystery behind neighbor Nile Jarvis' vanished wife and his suspicious dealings.",
+      "overview": "Author Aggie Wiggs, grieving the loss of her son, finds new purpose unraveling the mystery behind neighbor Nile Jarvis' vanished wife and his suspicious dealings.",
+      "qdmovie_genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ]
     },
     {
       "title": "Last Samurai Standing",
@@ -22561,7 +23293,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-last-samurai-standing-2025/bfd42001b637",
       "cbfc_rating": "A",
-      "description": "Watch Last Samurai Standing full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "In 1878, 292 samurais gather for a battle royale lured by a 100 thousand yen prize. Wooden tags are given, last survivor reaching Tokyo wins. Shujiro Saga participates to save his sick family. A dangerous game of survival unfolds on journey",
       "tmdb_id": 252193,
       "tmdb_media_type": "tv",
       "genres": [
@@ -22728,7 +23460,15 @@
       "youtube_url": "https://www.youtube.com/watch?v=eLfE-WiHAWU",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODAxNWYyOTgtN2YyMS00MzU1LWFkNzYtYmQyYmJjMGQ2ZGM0XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BODAxNWYyOTgtN2YyMS00MzU1LWFkNzYtYmQyYmJjMGQ2ZGM0XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BODAxNWYyOTgtN2YyMS00MzU1LWFkNzYtYmQyYmJjMGQ2ZGM0XkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "In 1878, 292 samurais gather for a battle royale lured by a 100 thousand yen prize. Wooden tags are given, last survivor reaching Tokyo wins. Shujiro Saga participates to save his sick family. A dangerous game of survival unfolds on journey",
+      "overview": "In 1878, 292 samurais gather for a battle royale lured by a 100 thousand yen prize. Wooden tags are given, last survivor reaching Tokyo wins. Shujiro Saga participates to save his sick family. A dangerous game of survival unfolds on journey",
+      "qdmovie_genres": [
+        "Action",
+        "Drama",
+        "History",
+        "Thriller"
+      ]
     },
     {
       "title": "50 Seconds: The Fernando Báez Sosa Case",
@@ -22738,7 +23478,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-50-seconds-the-fernando-baez-sosa-case-2025/2eaf99a9aa69",
       "cbfc_rating": "A",
-      "description": "Watch 50 Seconds: The Fernando Báez Sosa Case full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "This documentary series explores the 2020 murder of Fernando Báez Sosa, whose fatal beating by a group of young men was caught on video, shocking Argentina.",
       "tmdb_id": 304849,
       "tmdb_media_type": "tv",
       "genres": [
@@ -22786,7 +23526,13 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BMTg2YmE1MDktZGQ0OC00MGJiLTk4NjktNDk3ZTRiMWRiNzJlXkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BMTg2YmE1MDktZGQ0OC00MGJiLTk4NjktNDk3ZTRiMWRiNzJlXkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMTg2YmE1MDktZGQ0OC00MGJiLTk4NjktNDk3ZTRiMWRiNzJlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTg2YmE1MDktZGQ0OC00MGJiLTk4NjktNDk3ZTRiMWRiNzJlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMTg2YmE1MDktZGQ0OC00MGJiLTk4NjktNDk3ZTRiMWRiNzJlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "This documentary series explores the 2020 murder of Fernando Báez Sosa, whose fatal beating by a group of young men was caught on video, shocking Argentina.",
+      "overview": "This documentary series explores the 2020 murder of Fernando Báez Sosa, whose fatal beating by a group of young men was caught on video, shocking Argentina.",
+      "qdmovie_genres": [
+        "Documentary",
+        "Crime"
+      ]
     },
     {
       "title": "The Crystal Cuckoo",
@@ -22796,7 +23542,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-the-crystal-cuckoo-2025/1e05d73cc9508",
       "cbfc_rating": "A",
-      "description": "Watch The Crystal Cuckoo full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A young doctor gets a heart transplant. While recovering, she's invited to visit her donor's hometown. She discovers a community, a family with secrets, and an ancient mystery, and a baby's disappearance from a local park.",
       "tmdb_id": 274979,
       "tmdb_media_type": "tv",
       "genres": [
@@ -22944,7 +23690,14 @@
       "youtube_url": "https://www.youtube.com/watch?v=4EHtcpgZM2E",
       "youtube_title": "Official Trailer [Subtitled]",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZTAxMGI4NjItMGQ1NS00NjYzLTk1MjItMThmODY1YmYyYWRiXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTAxMGI4NjItMGQ1NS00NjYzLTk1MjItMThmODY1YmYyYWRiXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTAxMGI4NjItMGQ1NS00NjYzLTk1MjItMThmODY1YmYyYWRiXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A young doctor gets a heart transplant. While recovering, she's invited to visit her donor's hometown. She discovers a community, a family with secrets, and an ancient mystery, and a baby's disappearance from a local park.",
+      "overview": "A young doctor gets a heart transplant. While recovering, she's invited to visit her donor's hometown. She discovers a community, a family with secrets, and an ancient mystery, and a baby's disappearance from a local park.",
+      "qdmovie_genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "How to Win the Lottery",
@@ -22954,7 +23707,7 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-how-to-win-the-lottery-2025/35f6beff91393",
       "cbfc_rating": "A",
-      "description": "Watch How to Win the Lottery full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "description": "A group of people conspires to fraudulently win the grand prize in the \"Melate\" lottery. Based on real events in Mexico in 2012.",
       "tmdb_id": 283392,
       "tmdb_media_type": "tv",
       "genres": [
@@ -23115,7 +23868,15 @@
       "youtube_url": "https://www.youtube.com/watch?v=sdYRota23H0",
       "youtube_title": "Trailer",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZDk0YjZmZjQtODBhZS00NWI1LWIzZmEtN2UwYzVmZGFlNWJlXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDk0YjZmZjQtODBhZS00NWI1LWIzZmEtN2UwYzVmZGFlNWJlXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZDk0YjZmZjQtODBhZS00NWI1LWIzZmEtN2UwYzVmZGFlNWJlXkEyXkFqcGc@._V1_.jpg",
+      "qdmovie_plot": "A group of people conspires to fraudulently win the grand prize in the \"Melate\" lottery. Based on real events in Mexico in 2012.",
+      "overview": "A group of people conspires to fraudulently win the grand prize in the \"Melate\" lottery. Based on real events in Mexico in 2012.",
+      "qdmovie_genres": [
+        "Comedy",
+        "Crime",
+        "Drama",
+        "Thriller"
+      ]
     },
     {
       "title": "Karna Jathre",
@@ -23262,5 +24023,5 @@
       "description": "Watch Sethurajan IPS full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
     }
   ],
-  "enriched_at": "2025-11-23T09:13:07.333373"
+  "enriched_at": "2025-11-23T10:28:54.581178"
 }
