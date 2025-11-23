@@ -11,7 +11,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/kala-sindoor-2025/99d3ee8d84879",
       "cbfc_rating": "a",
-      "description": "Watch KALA SINDOOR full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch KALA SINDOOR full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/kala-sindoor-2025/99d3ee8d84879"
+      }
     },
     {
       "title": "Stage Fright",
@@ -60,7 +63,12 @@
       "genres": [
         "Documentary",
         "Short"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0432880/",
+        "tmdb": "https://www.themoviedb.org/movie/621409",
+        "ottplay": "https://www.ottplay.com/movie/stage-fright-2023/4e668021df423"
+      }
     },
     {
       "title": "The Lion King Sing-Along",
@@ -124,7 +132,13 @@
         "Family",
         "Music",
         "Musical"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0285019/",
+        "tmdb": "https://www.themoviedb.org/movie/46289",
+        "ottplay": "https://www.ottplay.com/movie/the-lion-king-sing-along-1994/e2a51803b7939",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Lion%20King%20Sing-Along"
+      }
     },
     {
       "title": "High School Musical 3: Senior Year Sing-Along",
@@ -134,7 +148,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/high-school-musical-3-senior-year-sing-along-2008/d3e5fb0164597",
       "cbfc_rating": "U/A 7",
-      "description": "Watch High School Musical 3: Senior Year Sing-Along full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch High School Musical 3: Senior Year Sing-Along full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/high-school-musical-3-senior-year-sing-along-2008/d3e5fb0164597",
+        "hotstar_search": "https://www.hotstar.com/in/search/High%20School%20Musical%203%3A%20Senior%20Year%20Sing-Along"
+      }
     },
     {
       "title": "High School Musical Sing-Along",
@@ -257,7 +275,12 @@
         }
       ],
       "backdrop_url": "https://image.tmdb.org/t/p/original/4m82TCuBo5skAOoPlYx1fMc2N7v.jpg",
-      "cast": []
+      "cast": [],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/105157",
+        "ottplay": "https://www.ottplay.com/movie/high-school-musical-sing-along-2006/cead476e0b973",
+        "hotstar_search": "https://www.hotstar.com/in/search/High%20School%20Musical%20Sing-Along"
+      }
     },
     {
       "title": "High School Musical 2 Sing-Along",
@@ -267,7 +290,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/high-school-musical-2-sing-along-2007/6b71eaaf77576",
       "cbfc_rating": "U/A 7",
-      "description": "Watch High School Musical 2 Sing-Along full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch High School Musical 2 Sing-Along full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/high-school-musical-2-sing-along-2007/6b71eaaf77576",
+        "hotstar_search": "https://www.hotstar.com/in/search/High%20School%20Musical%202%20Sing-Along"
+      }
     },
     {
       "title": "Leanne Morgan: Unspeakable Things",
@@ -375,7 +402,13 @@
       "qdmovie_genres": [
         "Documentary",
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38061951/",
+        "tmdb": "https://www.themoviedb.org/movie/1567489",
+        "ottplay": "https://www.ottplay.com/movie/leanne-morgan-unspeakable-things-2025/bc4b1744c6436",
+        "netflix_search": "https://www.netflix.com/search?q=Leanne%20Morgan%3A%20Unspeakable%20Things"
+      }
     },
     {
       "title": "Dr. Seuss's The Sneetches",
@@ -517,7 +550,13 @@
         "Comedy",
         "Family",
         "Musical"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt37677952/",
+        "tmdb": "https://www.themoviedb.org/movie/1497036",
+        "ottplay": "https://www.ottplay.com/movie/dr-seusss-the-sneetches-2025/f5d71526dd628",
+        "netflix_search": "https://www.netflix.com/search?q=Dr.%20Seuss%27s%20The%20Sneetches"
+      }
     },
     {
       "title": "Bad Girl",
@@ -683,7 +722,13 @@
       "qdmovie_genres": [
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35144943/",
+        "tmdb": "https://www.themoviedb.org/movie/1403839",
+        "ottplay": "https://www.ottplay.com/movie/bad-girl-2025/9f62ba01e3360",
+        "hotstar_search": "https://www.hotstar.com/in/search/Bad%20Girl"
+      }
     },
     {
       "title": "Tagarupalya",
@@ -693,7 +738,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/tagarupalya-2023/f65c28314d847",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Tagarupalya full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Tagarupalya full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/tagarupalya-2023/f65c28314d847",
+        "hotstar_search": "https://www.hotstar.com/in/search/Tagarupalya"
+      }
     },
     {
       "title": "Lady and the Tramp Sing-Along",
@@ -703,7 +752,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/lady-and-the-tramp-sing-along-1955/57de2ab85f324",
       "cbfc_rating": "U\n1",
-      "description": "Watch Lady and the Tramp Sing-Along full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Lady and the Tramp Sing-Along full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/lady-and-the-tramp-sing-along-1955/57de2ab85f324",
+        "hotstar_search": "https://www.hotstar.com/in/search/Lady%20and%20the%20Tramp%20Sing-Along"
+      }
     },
     {
       "title": "The Fantastic Four: First Steps",
@@ -845,7 +898,12 @@
           "character": "Self - Composer",
           "profile_path": "https://image.tmdb.org/t/p/w185/xgurVFMLVgtgz9f5bgrrCppm4xq.jpg"
         }
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/1516738",
+        "ottplay": "https://www.ottplay.com/movie/the-fantastic-four-first-steps-2025/ad2ead5177807",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Fantastic%20Four%3A%20First%20Steps"
+      }
     },
     {
       "title": "Assassin 1932",
@@ -936,7 +994,12 @@
       ],
       "directors": [
         "Zhou Jiuqin"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/1528547",
+        "ottplay": "https://www.ottplay.com/movie/assassin-1932-2025/52b4f9dce8141",
+        "hotstar_search": "https://www.hotstar.com/in/search/Assassin%201932"
+      }
     },
     {
       "title": "Bubblegum",
@@ -1002,7 +1065,13 @@
       ],
       "qdmovie_genres": [
         "Short"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt2231112/",
+        "tmdb": "https://www.themoviedb.org/movie/545090",
+        "ottplay": "https://www.ottplay.com/movie/bubblegum-2023/a1fe4d5617326",
+        "hotstar_search": "https://www.hotstar.com/in/search/Bubblegum"
+      }
     },
     {
       "title": "Puncture",
@@ -1191,7 +1260,12 @@
         "Drama",
         "Mystery",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt1582248/",
+        "tmdb": "https://www.themoviedb.org/movie/72432",
+        "ottplay": "https://www.ottplay.com/movie/puncture-2011/61b33afc5fb9b"
+      }
     },
     {
       "title": "Generation Um...",
@@ -1377,7 +1451,12 @@
         "Crime",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt1718158/",
+        "tmdb": "https://www.themoviedb.org/movie/124972",
+        "ottplay": "https://www.ottplay.com/movie/generation-um-2012/14fd881518143"
+      }
     },
     {
       "title": "Lugai Meri Hai",
@@ -1387,7 +1466,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/lugai-meri-hai-2024/37d8350071170",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Lugai Meri Hai full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Lugai Meri Hai full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/lugai-meri-hai-2024/37d8350071170"
+      }
     },
     {
       "title": "Frankenstein: The Anatomy Lesson",
@@ -1538,7 +1620,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BZDVkMWE5NTAtN2FiNy00Y2ZlLTk1ZDgtZjJiZjA2NWYwZjE2XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Documentary"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38906516/",
+        "tmdb": "https://www.themoviedb.org/movie/1576287",
+        "ottplay": "https://www.ottplay.com/movie/frankenstein-the-anatomy-lesson-2025/beb2ab320e226",
+        "netflix_search": "https://www.netflix.com/search?q=Frankenstein%3A%20The%20Anatomy%20Lesson"
+      }
     },
     {
       "title": "Baramulla",
@@ -1721,7 +1809,13 @@
         "Horror",
         "Mystery",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt29247040/",
+        "tmdb": "https://www.themoviedb.org/movie/1561969",
+        "ottplay": "https://www.ottplay.com/movie/baramulla-2025/a80b695490240",
+        "netflix_search": "https://www.netflix.com/search?q=Baramulla"
+      }
     },
     {
       "title": "Mango",
@@ -1886,7 +1980,13 @@
         "Comedy",
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt33293169/",
+        "tmdb": "https://www.themoviedb.org/movie/1426792",
+        "ottplay": "https://www.ottplay.com/movie/mango-2025/a9f034fd7f414",
+        "netflix_search": "https://www.netflix.com/search?q=Mango"
+      }
     },
     {
       "title": "Groom & Two Brides",
@@ -2046,7 +2146,13 @@
       "qdmovie_genres": [
         "Comedy",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35713227/",
+        "tmdb": "https://www.themoviedb.org/movie/1446358",
+        "ottplay": "https://www.ottplay.com/movie/groom-two-brides-2025/a377b78c26648",
+        "netflix_search": "https://www.netflix.com/search?q=Groom%20%26%20Two%20Brides"
+      }
     },
     {
       "title": "Auto Chalak",
@@ -2056,7 +2162,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/auto-chalak-2025/894516dd76537",
       "cbfc_rating": "a",
-      "description": "Watch Auto Chalak full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Auto Chalak full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/auto-chalak-2025/894516dd76537"
+      }
     },
     {
       "title": "Proddatur Dussehra",
@@ -2066,7 +2175,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/proddatur-dussehra-2025/fbbe1f28ae98",
       "cbfc_rating": "U\n38",
-      "description": "Watch Proddatur Dussehra full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Proddatur Dussehra full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/proddatur-dussehra-2025/fbbe1f28ae98"
+      }
     },
     {
       "title": "Wicked: One Wonderful Night",
@@ -2189,7 +2301,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMzE0NTI1MmUtZWFhYi00NjI0LWFjMzUtOWIyNzNjYjlmMWU4XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Musical"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt36963991/",
+        "tmdb": "https://www.themoviedb.org/movie/1479945",
+        "ottplay": "https://www.ottplay.com/movie/wicked-one-wonderful-night-2025/1527afcc79408",
+        "hotstar_search": "https://www.hotstar.com/in/search/Wicked%3A%20One%20Wonderful%20Night"
+      }
     },
     {
       "title": "Mystery",
@@ -2279,7 +2397,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMzJlNzZhODItMWVlOS00NThmLTkzMGQtY2I0OGExMzI4YmZiXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Mystery"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt29173926/",
+        "tmdb": "https://www.themoviedb.org/movie/1576855",
+        "ottplay": "https://www.ottplay.com/movie/mystery-2025/d0ed724702766",
+        "aha_search": "https://www.aha.video/search?query=Mystery"
+      }
     },
     {
       "title": "Chiranjeeva",
@@ -2374,7 +2498,13 @@
         "Abhinaya Krishna"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNzVkNGRiZmEtNjY0Ni00NjY3LWIwNjYtYzMxMzY3NDQ1ZmY5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNzVkNGRiZmEtNjY0Ni00NjY3LWIwNjYtYzMxMzY3NDQ1ZmY5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNzVkNGRiZmEtNjY0Ni00NjY3LWIwNjYtYzMxMzY3NDQ1ZmY5XkEyXkFqcGc@._V1_.jpg",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38589147/",
+        "tmdb": "https://www.themoviedb.org/movie/1576463",
+        "ottplay": "https://www.ottplay.com/movie/chiranjeeva-2025/145896854487",
+        "aha_search": "https://www.aha.video/search?query=Chiranjeeva"
+      }
     },
     {
       "title": "Arjun Chakravarthy",
@@ -2511,7 +2641,12 @@
         "Drama",
         "Romance",
         "Sport"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt29522022/",
+        "tmdb": "https://www.themoviedb.org/movie/1541316",
+        "ottplay": "https://www.ottplay.com/movie/arjun-chakravarthy-2025/b955f880a7303"
+      }
     },
     {
       "title": "Rambo: First Blood",
@@ -2701,7 +2836,12 @@
         "Action",
         "Adventure",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0089880/",
+        "tmdb": "https://www.themoviedb.org/movie/1369",
+        "ottplay": "https://www.ottplay.com/movie/rambo-first-blood-1982/16741c2992304"
+      }
     },
     {
       "title": "Kiss",
@@ -2817,7 +2957,13 @@
       "qdmovie_genres": [
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt8810990/",
+        "tmdb": "https://www.themoviedb.org/movie/677285",
+        "ottplay": "https://www.ottplay.com/movie/kiss-2025/b4c246930b643",
+        "zee5_search": "https://www.zee5.com/search?q=Kiss"
+      }
     },
     {
       "title": "In Your Dreams",
@@ -3010,7 +3156,13 @@
         "Comedy",
         "Family",
         "Fantasy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt27604215/",
+        "tmdb": "https://www.themoviedb.org/movie/1117857",
+        "ottplay": "https://www.ottplay.com/movie/in-your-dreams-2025/32b6ec53fd748",
+        "netflix_search": "https://www.netflix.com/search?q=In%20Your%20Dreams"
+      }
     },
     {
       "title": "For The New Emperor (Hindi)",
@@ -3111,7 +3263,11 @@
       ],
       "directors": [
         "Lee Soo-sung"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/750377",
+        "ottplay": "https://www.ottplay.com/movie/for-the-new-emperor-hindi-2020/6cda78c878692"
+      }
     },
     {
       "title": "Love+War",
@@ -3198,7 +3354,13 @@
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzQ4YTAtZTM5ZC00NzQ0LWJiZmEtZjg3ODgwZWUwNDk4XkEyXkFqcGc@._V1_.jpg",
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMjRkNzQ4YTAtZTM5ZC00NzQ0LWJiZmEtZjg3ODgwZWUwNDk4XkEyXkFqcGc@._V1_.jpg",
-      "qdmovie_plot": "Sanjay Leela Bhansali's Love and War, starring Ranbir Kapoor, Alia Bhatt and Vicky Kaushal is all set to release on 20th March 2026"
+      "qdmovie_plot": "Sanjay Leela Bhansali's Love and War, starring Ranbir Kapoor, Alia Bhatt and Vicky Kaushal is all set to release on 20th March 2026",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31036416/",
+        "tmdb": "https://www.themoviedb.org/movie/1235057",
+        "ottplay": "https://www.ottplay.com/movie/lovewar-2025/a5b70e6631390",
+        "hotstar_search": "https://www.hotstar.com/in/search/Love%2BWar"
+      }
     },
     {
       "title": "Bond Ravi",
@@ -3208,7 +3370,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/bond-ravi-2022/70ff4dbc2e921",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Bond Ravi full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Bond Ravi full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/bond-ravi-2022/70ff4dbc2e921",
+        "hotstar_search": "https://www.hotstar.com/in/search/Bond%20Ravi"
+      }
     },
     {
       "title": "Sangarsha Ghadana - Art Of Warfare",
@@ -3393,7 +3559,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BM2UxNzAyZWMtZjIzOS00ZjM3LWFiZWItY2U1OWUyOWJkNTFjXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "War"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt33163858/",
+        "tmdb": "https://www.themoviedb.org/movie/1266226",
+        "ottplay": "https://www.ottplay.com/movie/sangarsha-ghadana-art-of-warfare-2025/f06276f517796",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Sangarsha%20Ghadana%20-%20Art%20Of%20Warfare"
+      }
     },
     {
       "title": "Marutham",
@@ -3529,7 +3701,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BYWViNzBkOTYtYTgzZS00MjZmLTllNzctNGRjM2NlOWE4ODQwXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38573838/",
+        "tmdb": "https://www.themoviedb.org/movie/1553472",
+        "ottplay": "https://www.ottplay.com/movie/marutham-2025/5fbf2808d8945",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Marutham"
+      }
     },
     {
       "title": "Crime Scene",
@@ -3539,7 +3717,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/crime-scene-2022/8fb97707a8418",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Crime Scene full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Crime Scene full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/crime-scene-2022/8fb97707a8418",
+        "hotstar_search": "https://www.hotstar.com/in/search/Crime%20Scene"
+      }
     },
     {
       "title": "Stone",
@@ -3728,7 +3910,13 @@
         "Drama",
         "Mystery",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt1423995/",
+        "tmdb": "https://www.themoviedb.org/movie/44113",
+        "ottplay": "https://www.ottplay.com/movie/stone-2010/a69cd256ce561",
+        "hotstar_search": "https://www.hotstar.com/in/search/Stone"
+      }
     },
     {
       "title": "Usiru",
@@ -3850,7 +4038,13 @@
       "overview": "A troubled police officer returns to his full potential when he finds out that his wife is being targeted, travel with him in his journey of saving his wife.",
       "genres": [
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt37996122/",
+        "tmdb": "https://www.themoviedb.org/movie/1584813",
+        "ottplay": "https://www.ottplay.com/movie/usiru-2025/e9fec8aa1c795",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Usiru"
+      }
     },
     {
       "title": "Thandakaaranyam",
@@ -3989,7 +4183,13 @@
         "Athiyan Athirai"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BODBlYWM0ZmUtN2FjZi00ZDFkLTgwMDgtYmM2OTEyMTNlZTI2XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BODBlYWM0ZmUtN2FjZi00ZDFkLTgwMDgtYmM2OTEyMTNlZTI2XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BODBlYWM0ZmUtN2FjZi00ZDFkLTgwMDgtYmM2OTEyMTNlZTI2XkEyXkFqcGc@._V1_.jpg",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt26659974/",
+        "tmdb": "https://www.themoviedb.org/movie/1091043",
+        "ottplay": "https://www.ottplay.com/movie/thandakaaranyam-2025/00b26e331e531",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Thandakaaranyam"
+      }
     },
     {
       "title": "Karmanye Vadhikaraste",
@@ -4037,7 +4237,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BYmY4YmRiZDktNzg1Ny00YzQ3LWE4NTgtMjBlMTkxZTljYWViXkEyXkFqcGc@._V1_.jpg",
       "genres": [
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt36411794/",
+        "tmdb": "https://www.themoviedb.org/movie/1584670",
+        "ottplay": "https://www.ottplay.com/movie/karmanye-vadhikaraste-2025/9f0020912d40",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Karmanye%20Vadhikaraste"
+      }
     },
     {
       "title": "Being Eddie",
@@ -4164,7 +4370,13 @@
       "qdmovie_genres": [
         "Documentary",
         "Biography"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35627915/",
+        "tmdb": "https://www.themoviedb.org/movie/1426518",
+        "ottplay": "https://www.ottplay.com/movie/being-eddie-2025/32d6ab4601675",
+        "netflix_search": "https://www.netflix.com/search?q=Being%20Eddie"
+      }
     },
     {
       "title": "The Roundup: Punishment",
@@ -4353,7 +4565,13 @@
         "Action",
         "Crime",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt27811040/",
+        "tmdb": "https://www.themoviedb.org/movie/1017163",
+        "ottplay": "https://www.ottplay.com/movie/the-roundup-punishment-2024/38a1c84ca330",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Roundup%3A%20Punishment"
+      }
     },
     {
       "title": "The Home",
@@ -4363,7 +4581,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/the-home-2025/b647f99266137",
       "cbfc_rating": "A\n1",
-      "description": "Watch The Home full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch The Home full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/the-home-2025/b647f99266137",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Home"
+      }
     },
     {
       "title": "Sound Of Silence",
@@ -4445,7 +4667,12 @@
       ],
       "directors": [
         "Yan Yan"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/963415",
+        "ottplay": "https://www.ottplay.com/movie/sound-of-silence-2023/33bdd176f9654",
+        "hotstar_search": "https://www.hotstar.com/in/search/Sound%20Of%20Silence"
+      }
     },
     {
       "title": "A Merry Little Ex-Mas",
@@ -4630,7 +4857,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BNjBlMTdiN2EtNzQ5MS00ODQ0LWI3NWUtYjdmMDU2N2Y4YWQ2XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt34992378/",
+        "tmdb": "https://www.themoviedb.org/movie/1401318",
+        "ottplay": "https://www.ottplay.com/movie/a-merry-little-ex-mas-2025/e158f4f3ac567",
+        "netflix_search": "https://www.netflix.com/search?q=A%20Merry%20Little%20Ex-Mas"
+      }
     },
     {
       "title": "Enuguthondam Ghatikachalam",
@@ -4729,7 +4962,11 @@
       ],
       "youtube_id": "nAJEAiNM96I",
       "youtube_url": "https://www.youtube.com/watch?v=nAJEAiNM96I",
-      "youtube_title": "Yenugu Thondam Ghatikachalam Trailer | Written & Directed by Ravi Babu | Premieres Nov 13"
+      "youtube_title": "Yenugu Thondam Ghatikachalam Trailer | Written & Directed by Ravi Babu | Premieres Nov 13",
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/1579744",
+        "ottplay": "https://www.ottplay.com/movie/enuguthondam-ghatikachalam-2025/40ee4749b2132"
+      }
     },
     {
       "title": "Kachi Umar",
@@ -4739,7 +4976,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/kachi-umar-2025/cc0131118e575",
       "cbfc_rating": "a",
-      "description": "Watch Kachi Umar full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Kachi Umar full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/kachi-umar-2025/cc0131118e575"
+      }
     },
     {
       "title": "Freakier Friday",
@@ -4880,7 +5120,13 @@
         "Comedy",
         "Family",
         "Fantasy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31956415/",
+        "tmdb": "https://www.themoviedb.org/movie/1125257",
+        "ottplay": "https://www.ottplay.com/movie/freakier-friday-2025/823935914c263",
+        "hotstar_search": "https://www.hotstar.com/in/search/Freakier%20Friday"
+      }
     },
     {
       "title": "Spider-Man",
@@ -5067,7 +5313,12 @@
         "Action",
         "Adventure",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0145487/",
+        "tmdb": "https://www.themoviedb.org/movie/557",
+        "ottplay": "https://www.ottplay.com/movie/spiderman-2002/6db76b885b0fc"
+      }
     },
     {
       "title": "Spider-Man 2",
@@ -5255,7 +5506,12 @@
         "Action",
         "Adventure",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0316654/",
+        "tmdb": "https://www.themoviedb.org/movie/558",
+        "ottplay": "https://www.ottplay.com/movie/spiderman-2-2004/a8180c81f979a"
+      }
     },
     {
       "title": "Spider-Man 3",
@@ -5445,7 +5701,12 @@
         "Action",
         "Adventure",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0413300/",
+        "tmdb": "https://www.themoviedb.org/movie/559",
+        "ottplay": "https://www.ottplay.com/movie/spiderman-3-2007/894df0f323eaa"
+      }
     },
     {
       "title": "Phaphey Kuttniyan",
@@ -5569,7 +5830,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BZjg3NTIwYjMtZWY5MC00N2JmLWJhMzItM2RiZTRkOGE5ZjJmXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt34930715/",
+        "tmdb": "https://www.themoviedb.org/movie/1526946",
+        "ottplay": "https://www.ottplay.com/movie/phaphey-kuttniyan-2025/5446aa8435900"
+      }
     },
     {
       "title": "Lefter: The Story of the Ordinarius",
@@ -5756,7 +6022,13 @@
         "Drama",
         "History",
         "Sport"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt34433451/",
+        "tmdb": "https://www.themoviedb.org/movie/1386792",
+        "ottplay": "https://www.ottplay.com/movie/lefter-the-story-of-the-ordinarius-2025/61bde71e01862",
+        "netflix_search": "https://www.netflix.com/search?q=Lefter%3A%20The%20Story%20of%20the%20Ordinarius"
+      }
     },
     {
       "title": "Avihitham",
@@ -5925,7 +6197,13 @@
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMjdkNTcwYWMtZWE3Zi00YjllLWJiNDEtMzEyYjNhZTM2OWNiXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_plot": "In a village full of men and gossip about affairs, the narrative reveals how society absurdly judges and monitors women's identities.",
-      "overview": "In a village full of men and gossip about affairs, the narrative reveals how society absurdly judges and monitors women's identities."
+      "overview": "In a village full of men and gossip about affairs, the narrative reveals how society absurdly judges and monitors women's identities.",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38202962/",
+        "tmdb": "https://www.themoviedb.org/movie/1531405",
+        "ottplay": "https://www.ottplay.com/movie/avihitham-2025/ecb505a9a4711",
+        "hotstar_search": "https://www.hotstar.com/in/search/Avihitham"
+      }
     },
     {
       "title": "Jurassic World Rebirth",
@@ -6053,7 +6331,13 @@
         "Adventure",
         "Sci-Fi",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31036941/",
+        "tmdb": "https://www.themoviedb.org/movie/1234821",
+        "ottplay": "https://www.ottplay.com/movie/jurassic-world-rebirth-2025/2a613a4929669",
+        "hotstar_search": "https://www.hotstar.com/in/search/Jurassic%20World%20Rebirth"
+      }
     },
     {
       "title": "Charlie Chaplin - Monsieur Verdoux",
@@ -6063,7 +6347,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-monsieur-verdoux-1947/f0b7a9ee84391",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - Monsieur Verdoux full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - Monsieur Verdoux full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-monsieur-verdoux-1947/f0b7a9ee84391"
+      }
     },
     {
       "title": "Panda Plan",
@@ -6249,7 +6536,12 @@
         "Action",
         "Comedy",
         "Family"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt28630624/",
+        "tmdb": "https://www.themoviedb.org/movie/1160956",
+        "ottplay": "https://www.ottplay.com/movie/panda-plan-2024/277d93dce8214"
+      }
     },
     {
       "title": "Charlie Chaplin - The Great Dictator",
@@ -6436,7 +6728,12 @@
         "Comedy",
         "Drama",
         "War"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0032553/",
+        "tmdb": "https://www.themoviedb.org/movie/914",
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-the-great-dictator-1940/2547abce3d713"
+      }
     },
     {
       "title": "Charlie Chaplin - City Lights",
@@ -6446,7 +6743,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-city-lights-1931/8d722ce5b3790",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - City Lights full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - City Lights full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-city-lights-1931/8d722ce5b3790"
+      }
     },
     {
       "title": "Charlie Chaplin - Limelight",
@@ -6456,7 +6756,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-limelight-1952/a4bfbdecd4495",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - Limelight full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - Limelight full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-limelight-1952/a4bfbdecd4495"
+      }
     },
     {
       "title": "Charlie Chaplin - A Woman of Paris",
@@ -6466,7 +6769,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-a-woman-of-paris-1923/4b93632cad577",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - A Woman of Paris full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - A Woman of Paris full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-a-woman-of-paris-1923/4b93632cad577"
+      }
     },
     {
       "title": "Charlie Chaplin - A King in New York",
@@ -6476,7 +6782,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-a-king-in-new-york-1957/aebbb05ff2552",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - A King in New York full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - A King in New York full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-a-king-in-new-york-1957/aebbb05ff2552"
+      }
     },
     {
       "title": "Charlie Chaplin - The Gold Rush",
@@ -6486,7 +6795,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-the-gold-rush-1925/23af884edf520",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - The Gold Rush full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - The Gold Rush full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-the-gold-rush-1925/23af884edf520"
+      }
     },
     {
       "title": "Charlie Chaplin - The Kid",
@@ -6615,7 +6927,12 @@
       "qdmovie_genres": [
         "Short",
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0004189/",
+        "tmdb": "https://www.themoviedb.org/movie/22885",
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-the-kid-1921/835dd6f724486"
+      }
     },
     {
       "title": "Charlie Chaplin - The Circus",
@@ -6625,7 +6942,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-the-circus-1928/cb5aeb7547820",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - The Circus full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - The Circus full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-the-circus-1928/cb5aeb7547820"
+      }
     },
     {
       "title": "Charlie Chaplin - Modern Times",
@@ -6635,7 +6955,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-modern-times-1936/0b1be80400916",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - Modern Times full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - Modern Times full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-modern-times-1936/0b1be80400916"
+      }
     },
     {
       "title": "Charlie Chaplin - A Dog's Life",
@@ -6645,7 +6968,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-a-dogs-life-1918/23bd46786c668",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - A Dog's Life full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - A Dog's Life full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-a-dogs-life-1918/23bd46786c668"
+      }
     },
     {
       "title": "Charlie Chaplin - The Idle Class",
@@ -6655,7 +6981,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-the-idle-class-1921/4cd4804b81915",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - The Idle Class full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - The Idle Class full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-the-idle-class-1921/4cd4804b81915"
+      }
     },
     {
       "title": "Charlie Chaplin - A Day's Pleasure",
@@ -6665,7 +6994,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-a-days-pleasure-1919/36c4db163f886",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - A Day's Pleasure full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - A Day's Pleasure full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-a-days-pleasure-1919/36c4db163f886"
+      }
     },
     {
       "title": "Charlie Chaplin - Sunnyside",
@@ -6675,7 +7007,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-sunnyside-1919/c0a7339c6d796",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - Sunnyside full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - Sunnyside full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-sunnyside-1919/c0a7339c6d796"
+      }
     },
     {
       "title": "Charlie Chaplin - Pay Day",
@@ -6685,7 +7020,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-pay-day-1922/a79d69b5b5100",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - Pay Day full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - Pay Day full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-pay-day-1922/a79d69b5b5100"
+      }
     },
     {
       "title": "Charlie Chaplin - Shoulder Arms",
@@ -6857,7 +7195,12 @@
         "Short",
         "Comedy",
         "War"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0009611/",
+        "tmdb": "https://www.themoviedb.org/movie/53423",
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-shoulder-arms-1918/69ee031b9a629"
+      }
     },
     {
       "title": "Charlie Chaplin - The Pilgrim",
@@ -6867,7 +7210,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/charlie-chaplin-the-pilgrim-1923/6d125fd07e74",
       "cbfc_rating": "a",
-      "description": "Watch Charlie Chaplin - The Pilgrim full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Charlie Chaplin - The Pilgrim full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/charlie-chaplin-the-pilgrim-1923/6d125fd07e74"
+      }
     },
     {
       "title": "Ramayana",
@@ -7013,7 +7359,13 @@
         "Adventure",
         "Drama",
         "Fantasy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt27988879/",
+        "tmdb": "https://www.themoviedb.org/movie/656908",
+        "ottplay": "https://www.ottplay.com/movie/ramayana-2010/95b9bd2d38627",
+        "zee5_search": "https://www.zee5.com/search?q=Ramayana"
+      }
     },
     {
       "title": "Khumba 3D",
@@ -7203,7 +7555,13 @@
         "Adventure",
         "Comedy",
         "Family"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt1487931/",
+        "tmdb": "https://www.themoviedb.org/movie/172391",
+        "ottplay": "https://www.ottplay.com/movie/khumba-3d-2013/e406fd188a854",
+        "zee5_search": "https://www.zee5.com/search?q=Khumba%203D"
+      }
     },
     {
       "title": "Chacha Bhatija - Khazane Ki Khoj",
@@ -7241,7 +7599,12 @@
       "poster_url_medium": "https://image.tmdb.org/t/p/w342/v70WgwrDJj3Bkr8BjKmW3DBTHOt.jpg",
       "poster_url_large": "https://image.tmdb.org/t/p/w500/v70WgwrDJj3Bkr8BjKmW3DBTHOt.jpg",
       "poster_source": "tmdb",
-      "cast": []
+      "cast": [],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/852694",
+        "ottplay": "https://www.ottplay.com/movie/chacha-bhatija-khazane-ki-khoj-2016/6c130a4eab814",
+        "zee5_search": "https://www.zee5.com/search?q=Chacha%20Bhatija%20-%20Khazane%20Ki%20Khoj"
+      }
     },
     {
       "title": "Chacha Bhatija - Golmaal Hai Bhai Sab Golmaal Hai",
@@ -7251,7 +7614,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/movie/chacha-bhatija-golmaal-hai-bhai-sab-golmaal-hai-2016/5eee31a86f77",
       "cbfc_rating": "U/A",
-      "description": "Watch Chacha Bhatija - Golmaal Hai Bhai Sab Golmaal Hai full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Chacha Bhatija - Golmaal Hai Bhai Sab Golmaal Hai full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/chacha-bhatija-golmaal-hai-bhai-sab-golmaal-hai-2016/5eee31a86f77",
+        "zee5_search": "https://www.zee5.com/search?q=Chacha%20Bhatija%20-%20Golmaal%20Hai%20Bhai%20Sab%20Golmaal%20Hai"
+      }
     },
     {
       "title": "Panda Bear In Africa",
@@ -7430,7 +7797,13 @@
         "Comedy",
         "Family",
         "Fantasy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt13616980/",
+        "tmdb": "https://www.themoviedb.org/movie/676685",
+        "ottplay": "https://www.ottplay.com/movie/panda-bear-in-africa-2024/adce9c0d7b374",
+        "zee5_search": "https://www.zee5.com/search?q=Panda%20Bear%20In%20Africa"
+      }
     },
     {
       "title": "Dashavatar",
@@ -7588,7 +7961,13 @@
       "qdmovie_genres": [
         "Animation",
         "Family"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt4161520/",
+        "tmdb": "https://www.themoviedb.org/movie/32137",
+        "ottplay": "https://www.ottplay.com/movie/dashavatar-2025/f16a5c03d3200",
+        "zee5_search": "https://www.zee5.com/search?q=Dashavatar"
+      }
     },
     {
       "title": "Queen Of Hearts",
@@ -7773,7 +8152,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BZTNmNmY4MzctOTJiZC00ZWY4LTg3MDQtOTViMzc2N2Y2MjVhXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt8378126/",
+        "tmdb": "https://www.themoviedb.org/movie/519465",
+        "ottplay": "https://www.ottplay.com/movie/queen-of-hearts-2022/25476f75db478"
+      }
     },
     {
       "title": "Vikkatakavi - The Movie",
@@ -7851,7 +8235,12 @@
           "character": "",
           "profile_path": "https://image.tmdb.org/t/p/w185/4mdfuK30uJEJ4h9Fo7IxyoMWzze.jpg"
         }
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/1580659",
+        "ottplay": "https://www.ottplay.com/movie/vikkatakavi-the-movie-2025/7a3a93bb93401",
+        "zee5_search": "https://www.zee5.com/search?q=Vikkatakavi%20-%20The%20Movie"
+      }
     },
     {
       "title": "Dark Nuns",
@@ -7861,7 +8250,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/dark-nuns-2025/5dfde052c3471",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Dark Nuns full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Dark Nuns full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/dark-nuns-2025/5dfde052c3471",
+        "hotstar_search": "https://www.hotstar.com/in/search/Dark%20Nuns"
+      }
     },
     {
       "title": "Sri Asih",
@@ -8053,7 +8446,13 @@
         "Drama",
         "Fantasy",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt10994712/",
+        "tmdb": "https://www.themoviedb.org/movie/624091",
+        "ottplay": "https://www.ottplay.com/movie/sri-asih-2022/388b16696b852",
+        "hotstar_search": "https://www.hotstar.com/in/search/Sri%20Asih"
+      }
     },
     {
       "title": "Mummy Dearest",
@@ -8186,7 +8585,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0089001/",
+        "tmdb": "https://www.themoviedb.org/movie/405597",
+        "ottplay": "https://www.ottplay.com/movie/mummy-dearest-2021/77da37d35566"
+      }
     },
     {
       "title": "Mummy Dearest (Hindi)",
@@ -8319,7 +8723,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMTYxNTEyMDAwNl5BMl5BanBnXkFtZTYwOTA1MDg4._V1_.jpg",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0089001/",
+        "tmdb": "https://www.themoviedb.org/movie/405597",
+        "ottplay": "https://www.ottplay.com/movie/mummy-dearest-hindi-2021/1b695d3e3c759"
+      }
     },
     {
       "title": "A Very Jonas Christmas Movie",
@@ -8496,7 +8905,13 @@
         "Comedy",
         "Drama",
         "Musical"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35600079/",
+        "tmdb": "https://www.themoviedb.org/movie/1425122",
+        "ottplay": "https://www.ottplay.com/movie/a-very-jonas-christmas-movie-2025/2a7348110e616",
+        "hotstar_search": "https://www.hotstar.com/in/search/A%20Very%20Jonas%20Christmas%20Movie"
+      }
     },
     {
       "title": "K-Ramp",
@@ -8600,7 +9015,13 @@
       "poster_url_medium": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@.jpg",
       "poster_url_large": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@.jpg",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZTc3OTQ2NzktMmIyYi00Mzk2LTkzNmYtMWUxMzJkOTU1ZDMxXkEyXkFqcGc@._V1_.jpg",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35665459/",
+        "tmdb": "https://www.themoviedb.org/movie/1428278",
+        "ottplay": "https://www.ottplay.com/movie/k-ramp-2025/395be6fc23592",
+        "aha_search": "https://www.aha.video/search?query=K-Ramp"
+      }
     },
     {
       "title": "BELAN WALI BAHU",
@@ -8653,7 +9074,11 @@
           "character": "Jeetendra",
           "profile_path": null
         }
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/76578",
+        "ottplay": "https://www.ottplay.com/movie/belan-wali-bahu-2025/3503f08a5b12"
+      }
     },
     {
       "title": "The Lure of this Land",
@@ -8663,7 +9088,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/the-lure-of-this-land-2019/9c902a3b9c168",
       "cbfc_rating": "U/A\n1",
-      "description": "Watch The Lure of this Land full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch The Lure of this Land full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/the-lure-of-this-land-2019/9c902a3b9c168"
+      }
     },
     {
       "title": "Lipstick Under My Burkha",
@@ -8803,7 +9231,13 @@
       "qdmovie_genres": [
         "Comedy",
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt4807830/",
+        "tmdb": "https://www.themoviedb.org/movie/418235",
+        "ottplay": "https://www.ottplay.com/movie/lipstick-under-my-burkha-2016/7d7e9443b8887",
+        "hotstar_search": "https://www.hotstar.com/in/search/Lipstick%20Under%20My%20Burkha"
+      }
     },
     {
       "title": "Cross Connection",
@@ -8862,7 +9296,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BZGIwYmUwMmYtYWQyOS00YTcwLWEzMWYtNzkzMjdjYWMzZTFmXkEyXkFqcGc@._V1_.jpg",
       "genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt4070752/",
+        "tmdb": "https://www.themoviedb.org/movie/375901",
+        "ottplay": "https://www.ottplay.com/movie/cross-connection-2014/100e471949b6b"
+      }
     },
     {
       "title": "Krrish",
@@ -8972,7 +9411,13 @@
         "Adventure",
         "Sci-Fi",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt6475412/",
+        "tmdb": "https://www.themoviedb.org/movie/496318",
+        "ottplay": "https://www.ottplay.com/movie/krrish-2006/3a15e01118cc8",
+        "zee5_search": "https://www.zee5.com/search?q=Krrish"
+      }
     },
     {
       "title": "Krrish 3",
@@ -9062,7 +9507,13 @@
         "Action",
         "Adventure",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt1029231/",
+        "tmdb": "https://www.themoviedb.org/movie/204435",
+        "ottplay": "https://www.ottplay.com/movie/krrish-3-2013/622c08d12e108",
+        "zee5_search": "https://www.zee5.com/search?q=Krrish%203"
+      }
     },
     {
       "title": "Night School",
@@ -9250,7 +9701,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BYmJjMjMwNDQtMjU3ZS00ZDY3LThmMmEtZjBkM2NiZWM4ZmQ1XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt6781982/",
+        "tmdb": "https://www.themoviedb.org/movie/454293",
+        "ottplay": "https://www.ottplay.com/movie/night-school-2018/c3aa527ff91b2",
+        "hotstar_search": "https://www.hotstar.com/in/search/Night%20School"
+      }
     },
     {
       "title": "Diesel (Telugu)",
@@ -9379,7 +9836,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=8lQIzfids7k",
       "youtube_title": "DIESEL | Official Trailer [HD] |  Citron Bien Cinéma",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmI1NDk2NDAtOTQyMS00YzE2LWE4NjMtYzQ1ZWZkMmI5MmNmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmI1NDk2NDAtOTQyMS00YzE2LWE4NjMtYzQ1ZWZkMmI5MmNmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmI1NDk2NDAtOTQyMS00YzE2LWE4NjMtYzQ1ZWZkMmI5MmNmXkEyXkFqcGc@._V1_.jpg",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt11709974/",
+        "tmdb": "https://www.themoviedb.org/movie/797879",
+        "ottplay": "https://www.ottplay.com/movie/diesel-telugu-2025/57f270b784240",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Diesel%20%28Telugu%29"
+      }
     },
     {
       "title": "The Carman Family Deaths",
@@ -9522,7 +9985,13 @@
         "Documentary",
         "Crime",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31137117/",
+        "tmdb": "https://www.themoviedb.org/movie/1363282",
+        "ottplay": "https://www.ottplay.com/movie/the-carman-family-deaths-2025/db7857e4e7761",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Carman%20Family%20Deaths"
+      }
     },
     {
       "title": "Champagne Problems",
@@ -9708,7 +10177,13 @@
       "qdmovie_genres": [
         "Comedy",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt33053440/",
+        "tmdb": "https://www.themoviedb.org/movie/1323475",
+        "ottplay": "https://www.ottplay.com/movie/champagne-problems-2025/1588d93d02157",
+        "netflix_search": "https://www.netflix.com/search?q=Champagne%20Problems"
+      }
     },
     {
       "title": "Cashualty - Tamil - Drama - Shortfilm",
@@ -9718,7 +10193,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/cashualty-tamil-drama-shortfilm-2025/0bb17a14de103",
       "cbfc_rating": "U/A\n20",
-      "description": "Watch Cashualty - Tamil - Drama - Shortfilm full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Cashualty - Tamil - Drama - Shortfilm full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/cashualty-tamil-drama-shortfilm-2025/0bb17a14de103"
+      }
     },
     {
       "title": "Gerry Dee: Funny You Should Say That",
@@ -9792,7 +10270,13 @@
       ],
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38772625/",
+        "tmdb": "https://www.themoviedb.org/movie/1573773",
+        "ottplay": "https://www.ottplay.com/movie/gerry-dee-funny-you-should-say-that-2025/2d1bbb7ca3142",
+        "netflix_search": "https://www.netflix.com/search?q=Gerry%20Dee%3A%20Funny%20You%20Should%20Say%20That"
+      }
     },
     {
       "title": "Ekam Singh",
@@ -9870,7 +10354,12 @@
         "Crime",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38948983/",
+        "tmdb": "https://www.themoviedb.org/movie/1584340",
+        "ottplay": "https://www.ottplay.com/movie/ekam-singh-2025/78c5f662f7451"
+      }
     },
     {
       "title": "Do Not Enter",
@@ -9925,7 +10414,12 @@
       ],
       "directors": [
         "Luke McClinton"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/1086376",
+        "ottplay": "https://www.ottplay.com/movie/do-not-enter-2024/1d8c647483765",
+        "hotstar_search": "https://www.hotstar.com/in/search/Do%20Not%20Enter"
+      }
     },
     {
       "title": "Night Swim",
@@ -10111,7 +10605,13 @@
         "Horror",
         "Mystery",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt9682428/",
+        "tmdb": "https://www.themoviedb.org/movie/1072342",
+        "ottplay": "https://www.ottplay.com/movie/night-swim-2025/342da2eed6663",
+        "hotstar_search": "https://www.hotstar.com/in/search/Night%20Swim"
+      }
     },
     {
       "title": "Ariella",
@@ -10231,7 +10731,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt28131866/",
+        "tmdb": "https://www.themoviedb.org/movie/1247528",
+        "ottplay": "https://www.ottplay.com/movie/ariella-2025/efb89c4b54106"
+      }
     },
     {
       "title": "Ariella",
@@ -10344,7 +10849,11 @@
       ],
       "youtube_id": "49BP8b9qy9Y",
       "youtube_url": "https://www.youtube.com/watch?v=49BP8b9qy9Y",
-      "youtube_title": "Ariella (2025) | English Official Trailer | HollyMod"
+      "youtube_title": "Ariella (2025) | English Official Trailer | HollyMod",
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/1247528",
+        "ottplay": "https://www.ottplay.com/movie/ariella-2025/e6afeeb37b306"
+      }
     },
     {
       "title": "Ariella",
@@ -10464,7 +10973,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt28131866/",
+        "tmdb": "https://www.themoviedb.org/movie/1247528",
+        "ottplay": "https://www.ottplay.com/movie/ariella-2025/a4ba04ab62708"
+      }
     },
     {
       "title": "Ariella",
@@ -10584,7 +11098,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMDc4NDMwNGUtMjMwMC00YTc4LWFjNzUtNGEzM2Y5ODNiN2U0XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt28131866/",
+        "tmdb": "https://www.themoviedb.org/movie/1247528",
+        "ottplay": "https://www.ottplay.com/movie/ariella-2025/9ca30e414b279"
+      }
     },
     {
       "title": "Thoughts & Prayers",
@@ -10709,7 +11228,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMjM3MGRmODUtMzZkNC00ZmYwLWE3NWItMzkwZTc5Nzc0YWQwXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Documentary"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38633124/",
+        "tmdb": "https://www.themoviedb.org/movie/1559760",
+        "ottplay": "https://www.ottplay.com/movie/thoughts-prayers-2025/64347a3134785",
+        "hotstar_search": "https://www.hotstar.com/in/search/Thoughts%20%26%20Prayers"
+      }
     },
     {
       "title": "Holy Night: Demon Hunters",
@@ -10896,7 +11421,13 @@
         "Fantasy",
         "Horror",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt15766876/",
+        "tmdb": "https://www.themoviedb.org/movie/793387",
+        "ottplay": "https://www.ottplay.com/movie/holy-night-demon-hunters-2025/60358fee5b981",
+        "hotstar_search": "https://www.hotstar.com/in/search/Holy%20Night%3A%20Demon%20Hunters"
+      }
     },
     {
       "title": "Darling: Why this Kolavari",
@@ -10906,7 +11437,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/movie/darling-why-this-kolavari-2024/51a0c47de0323",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Darling: Why this Kolavari full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Darling: Why this Kolavari full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/darling-why-this-kolavari-2024/51a0c47de0323",
+        "hotstar_search": "https://www.hotstar.com/in/search/Darling%3A%20Why%20this%20Kolavari"
+      }
     },
     {
       "title": "Rambo: First Blood Part II",
@@ -11096,7 +11631,12 @@
         "Action",
         "Adventure",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0089880/",
+        "tmdb": "https://www.themoviedb.org/movie/1369",
+        "ottplay": "https://www.ottplay.com/movie/rambo-first-blood-part-ii-1985/56fe296afb600"
+      }
     },
     {
       "title": "Rambo III",
@@ -11106,7 +11646,10 @@
       "content_provider": "LionsGate Play",
       "link": "https://www.ottplay.com/movie/rambo-iii-1988/345ab0e3aaa30",
       "cbfc_rating": "a",
-      "description": "Watch Rambo III full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Rambo III full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/rambo-iii-1988/345ab0e3aaa30"
+      }
     },
     {
       "title": "Main Tere Qurbaan",
@@ -11181,7 +11724,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BNDRkZDA3MWItZjA3NS00MjczLTlkZTUtZDkyMWVhM2VmZWNlXkEyXkFqcGc@._V1_.jpg",
       "genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35769322/",
+        "tmdb": "https://www.themoviedb.org/movie/1584542",
+        "ottplay": "https://www.ottplay.com/movie/main-tere-qurbaan-2025/4b935b21b7542"
+      }
     },
     {
       "title": "Diesel",
@@ -11310,7 +11858,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=8lQIzfids7k",
       "youtube_title": "DIESEL | Official Trailer [HD] |  Citron Bien Cinéma",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BMmI1NDk2NDAtOTQyMS00YzE2LWE4NjMtYzQ1ZWZkMmI5MmNmXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmI1NDk2NDAtOTQyMS00YzE2LWE4NjMtYzQ1ZWZkMmI5MmNmXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BMmI1NDk2NDAtOTQyMS00YzE2LWE4NjMtYzQ1ZWZkMmI5MmNmXkEyXkFqcGc@._V1_.jpg",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt11709974/",
+        "tmdb": "https://www.themoviedb.org/movie/797879",
+        "ottplay": "https://www.ottplay.com/movie/diesel-2025/e81522b60c65",
+        "aha_search": "https://www.aha.video/search?query=Diesel"
+      }
     },
     {
       "title": "Gawahi",
@@ -11320,7 +11874,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/gawahi-2025/f3ea212145943",
       "cbfc_rating": "a",
-      "description": "Watch Gawahi full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Gawahi full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/gawahi-2025/f3ea212145943"
+      }
     },
     {
       "title": "Kaala Saya",
@@ -11330,7 +11887,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/kaala-saya-2025/29c6618cef963",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Kaala Saya full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Kaala Saya full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/kaala-saya-2025/29c6618cef963"
+      }
     },
     {
       "title": "The Roses",
@@ -11516,7 +12076,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BYzliNTEyYjEtNGE3Mi00ZDIzLTg1NzYtZDBhNTQ5ZDVkMmM3XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31973693/",
+        "tmdb": "https://www.themoviedb.org/movie/1267905",
+        "ottplay": "https://www.ottplay.com/movie/the-roses-2025/e8307931a4251",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Roses"
+      }
     },
     {
       "title": "Hachi: A Dog's Tale",
@@ -11694,7 +12260,12 @@
       ],
       "youtube_id": "Y6U7mAnPtw4",
       "youtube_url": "https://www.youtube.com/watch?v=Y6U7mAnPtw4",
-      "youtube_title": "Hatchi: A Dog's Tale - HD Trailer - Coming Soon"
+      "youtube_title": "Hatchi: A Dog's Tale - HD Trailer - Coming Soon",
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/28178",
+        "ottplay": "https://www.ottplay.com/movie/hachi-a-dogs-tale-2010/8e98265d23615",
+        "hotstar_search": "https://www.hotstar.com/in/search/Hachi%3A%20A%20Dog%27s%20Tale"
+      }
     },
     {
       "title": "Thanal",
@@ -11853,7 +12424,12 @@
         "Action",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt11923962/",
+        "tmdb": "https://www.themoviedb.org/movie/1090991",
+        "ottplay": "https://www.ottplay.com/movie/thanal-2025/c4ddf9bb37764"
+      }
     },
     {
       "title": "Relay",
@@ -12037,7 +12613,12 @@
         "Action",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt11539996/",
+        "tmdb": "https://www.themoviedb.org/movie/1088166",
+        "ottplay": "https://www.ottplay.com/movie/relay-2024/cfb8b374b2115"
+      }
     },
     {
       "title": "The Bengal Files",
@@ -12227,7 +12808,13 @@
         "Drama",
         "History",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt15416342/",
+        "tmdb": "https://www.themoviedb.org/movie/900838",
+        "ottplay": "https://www.ottplay.com/movie/the-bengal-files-2025/04d98c6167509",
+        "zee5_search": "https://www.zee5.com/search?q=The%20Bengal%20Files"
+      }
     },
     {
       "title": "Ondu Sarala Prema Kathe",
@@ -12343,7 +12930,13 @@
       "qdmovie_genres": [
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt26914670/",
+        "tmdb": "https://www.themoviedb.org/movie/1230017",
+        "ottplay": "https://www.ottplay.com/movie/ondu-sarala-prema-kathe-2025/c6ae7ce320760",
+        "zee5_search": "https://www.zee5.com/search?q=Ondu%20Sarala%20Prema%20Kathe"
+      }
     },
     {
       "title": "The Bengal Files - Theatrical Cut",
@@ -12353,7 +12946,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/movie/the-bengal-files-theatrical-cut-2025/d11dc27153983",
       "cbfc_rating": "A\n3",
-      "description": "Watch The Bengal Files - Theatrical Cut full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch The Bengal Files - Theatrical Cut full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/the-bengal-files-theatrical-cut-2025/d11dc27153983",
+        "zee5_search": "https://www.zee5.com/search?q=The%20Bengal%20Files%20-%20Theatrical%20Cut"
+      }
     },
     {
       "title": "Murugesan +2",
@@ -12410,7 +13007,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BYjIwOTkxNTUtN2I1NC00Y2Q1LTkzYWMtYTE5Y2U0YmUzZDBlXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38984160/",
+        "tmdb": "https://www.themoviedb.org/movie/1584857",
+        "ottplay": "https://www.ottplay.com/movie/murugesan-2-2025/26c3cfb5c5607",
+        "zee5_search": "https://www.zee5.com/search?q=Murugesan%20%2B2"
+      }
     },
     {
       "title": "Big Trip",
@@ -12587,7 +13190,13 @@
         "Adventure",
         "Comedy",
         "Family"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt7403614/",
+        "tmdb": "https://www.themoviedb.org/movie/533715",
+        "ottplay": "https://www.ottplay.com/movie/big-trip-2025/1aece758a3149",
+        "zee5_search": "https://www.zee5.com/search?q=Big%20Trip"
+      }
     },
     {
       "title": "Radar (Hindi)",
@@ -12611,7 +13220,11 @@
       "cast": [],
       "directors": [
         "Carlos Casas"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/341314",
+        "ottplay": "https://www.ottplay.com/movie/radar-hindi-2023/9f98cda150334"
+      }
     },
     {
       "title": "Radar",
@@ -12635,7 +13248,11 @@
       "cast": [],
       "directors": [
         "Carlos Casas"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/341314",
+        "ottplay": "https://www.ottplay.com/movie/radar-2023/72a16bbfa6800"
+      }
     },
     {
       "title": "Thanal",
@@ -12794,7 +13411,12 @@
         "Action",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt11923962/",
+        "tmdb": "https://www.themoviedb.org/movie/1090991",
+        "ottplay": "https://www.ottplay.com/movie/thanal-2025/c5b11a84eb520"
+      }
     },
     {
       "title": "Rebirth",
@@ -12970,7 +13592,12 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BYmRlZmJiYzYtYzE0My00MWMxLWE2MDgtYTQ3ODQ3Y2ExOWJjXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt4902716/",
+        "tmdb": "https://www.themoviedb.org/movie/369033",
+        "ottplay": "https://www.ottplay.com/movie/rebirth-2025/a56bb41b01142"
+      }
     },
     {
       "title": "Thekedari- The Blood Papers",
@@ -12980,7 +13607,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/thekedari-the-blood-papers-2025/37c609fb40228",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Thekedari- The Blood Papers full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Thekedari- The Blood Papers full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/thekedari-the-blood-papers-2025/37c609fb40228"
+      }
     },
     {
       "title": "Ghoda Dhai Kadam",
@@ -13090,7 +13720,12 @@
         "Drama",
         "Family",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt15979654/",
+        "tmdb": "https://www.themoviedb.org/movie/1081018",
+        "ottplay": "https://www.ottplay.com/movie/ghoda-dhai-kadam-2023/dfc4a1230d380"
+      }
     },
     {
       "title": "Nikka Zaildar 4",
@@ -13229,7 +13864,12 @@
         "Jagdeep Sidhu"
       ],
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BNWViOTBmMjctZTg0Yy00ZjFmLTk5MWEtMThmYmViZTkzZDg5XkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BNWViOTBmMjctZTg0Yy00ZjFmLTk5MWEtMThmYmViZTkzZDg5XkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BNWViOTBmMjctZTg0Yy00ZjFmLTk5MWEtMThmYmViZTkzZDg5XkEyXkFqcGc@._V1_.jpg",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31307640/",
+        "tmdb": "https://www.themoviedb.org/movie/1442778",
+        "ottplay": "https://www.ottplay.com/movie/nikka-zaildar-4-2025/ffe6fa470e116"
+      }
     },
     {
       "title": "Raktabeej 2",
@@ -13361,7 +14001,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg",
       "qdmovie_genres": [
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt36132462/",
+        "tmdb": "https://www.themoviedb.org/movie/1390615",
+        "ottplay": "https://www.ottplay.com/movie/raktabeej-2-2025/e5ed866d3d454",
+        "zee5_search": "https://www.zee5.com/search?q=Raktabeej%202"
+      }
     },
     {
       "title": "Chowkidar Hi Chor Hai",
@@ -13371,7 +14017,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/movie/chowkidar-hi-chor-hai-2025/5526a6d85e692",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Chowkidar Hi Chor Hai full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Chowkidar Hi Chor Hai full movie online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/movie/chowkidar-hi-chor-hai-2025/5526a6d85e692"
+      }
     },
     {
       "title": "The Great Pre-Wedding Show",
@@ -13459,7 +14108,13 @@
       "youtube_url": "https://www.youtube.com/watch?v=zd98F_TNsJQ",
       "youtube_title": "The Great Pre Wedding Show Movie Trailer | Thiruveer,Teena Sravya,Rohan R | Suresh Bobilli | Rahul S",
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGQ2Zjk2MGQtNTA1Mi00MTJlLWE1MWEtOTUxNWJlMjJmMzIwXkEyXkFqcGc@._V1_.jpg",
-      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGQ2Zjk2MGQtNTA1Mi00MTJlLWE1MWEtOTUxNWJlMjJmMzIwXkEyXkFqcGc@._V1_.jpg"
+      "cover_url": "https://m.media-amazon.com/images/M/MV5BZGQ2Zjk2MGQtNTA1Mi00MTJlLWE1MWEtOTUxNWJlMjJmMzIwXkEyXkFqcGc@._V1_.jpg",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt33888205/",
+        "tmdb": "https://www.themoviedb.org/movie/1574296",
+        "ottplay": "https://www.ottplay.com/movie/the-great-pre-wedding-show-2025/ca71728b9a858",
+        "zee5_search": "https://www.zee5.com/search?q=The%20Great%20Pre-Wedding%20Show"
+      }
     },
     {
       "title": "Haikyu!!",
@@ -13607,7 +14262,13 @@
         "Comedy",
         "Drama",
         "Sport"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt3398540/",
+        "tmdb": "https://www.themoviedb.org/tv/60863",
+        "ottplay": "https://www.ottplay.com/show/web-series-haikyu-2014/1a5043c710321",
+        "hotstar_search": "https://www.hotstar.com/in/search/Haikyu%21%21"
+      }
     },
     {
       "title": "Love in the Clouds",
@@ -13794,7 +14455,13 @@
       "overview": "Mingyi, a poisoned female warrior, disguises as a dancer to lure Ji Bozai into providing an antidote. Both conceal their true intentions, leading to an intricate emotional game of deception.",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt32750951/",
+        "tmdb": "https://www.themoviedb.org/tv/262928",
+        "ottplay": "https://www.ottplay.com/show/web-series-love-in-the-clouds-2025/06f568b363960",
+        "netflix_search": "https://www.netflix.com/search?q=Love%20in%20the%20Clouds"
+      }
     },
     {
       "title": "The Golden Egg",
@@ -13944,7 +14611,13 @@
       "overview": "Hinako Shinoda is a second-year employee at major publishing company \"Sengokusha\". She is ordered to transfer to the editorial department of the weekly magazine \"Shuukan Sengoku\", a place she wanted to avoid at all costs. As a rookie reporter, Hinako faces various scoops, such as entertainment news, embezzlement, and suspicious death cases.",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38510716/",
+        "tmdb": "https://www.themoviedb.org/tv/298554",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-golden-egg-2025/15bd5ff71d315",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Golden%20Egg"
+      }
     },
     {
       "title": "Is It Cake? Halloween",
@@ -13954,7 +14627,11 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-is-it-cake-halloween-2025/3794baca53788",
       "cbfc_rating": "A",
-      "description": "Watch Is It Cake? Halloween full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Is It Cake? Halloween full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-is-it-cake-halloween-2025/3794baca53788",
+        "netflix_search": "https://www.netflix.com/search?q=Is%20It%20Cake%3F%20Halloween"
+      }
     },
     {
       "title": "Boots",
@@ -14143,7 +14820,13 @@
         "Drama",
         "History",
         "War"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt27987047/",
+        "tmdb": "https://www.themoviedb.org/tv/225647",
+        "ottplay": "https://www.ottplay.com/show/web-series-boots-2025/5b1ba92e90618",
+        "netflix_search": "https://www.netflix.com/search?q=Boots"
+      }
     },
     {
       "title": "Muddu Sose - Nandagokula Serial Santhe",
@@ -14153,7 +14836,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-muddu-sose-nandagokula-serial-santhe-2025/a0de81663f341",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Muddu Sose - Nandagokula Serial Santhe full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Muddu Sose - Nandagokula Serial Santhe full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-muddu-sose-nandagokula-serial-santhe-2025/a0de81663f341",
+        "hotstar_search": "https://www.hotstar.com/in/search/Muddu%20Sose%20-%20Nandagokula%20Serial%20Santhe"
+      }
     },
     {
       "title": "The Resurrected",
@@ -14347,7 +15034,13 @@
         "Drama",
         "Mystery",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt32150413/",
+        "tmdb": "https://www.themoviedb.org/tv/252135",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-resurrected-2025/659995a3a1614",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Resurrected"
+      }
     },
     {
       "title": "I Love LA",
@@ -14503,7 +15196,13 @@
       "overview": "A tight-knit friend group gathers after years apart, navigating the complexities of ambition, relationships, and how time has changed them.",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt33362589/",
+        "tmdb": "https://www.themoviedb.org/tv/271053",
+        "ottplay": "https://www.ottplay.com/show/web-series-i-love-la-2025/5f2bc98373248",
+        "hotstar_search": "https://www.hotstar.com/in/search/I%20Love%20LA"
+      }
     },
     {
       "title": "Thirumangalyam",
@@ -14513,7 +15212,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-thirumangalyam-2025/08e7e9f9fc508",
       "cbfc_rating": "",
-      "description": "Watch Thirumangalyam full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Thirumangalyam full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-thirumangalyam-2025/08e7e9f9fc508",
+        "zee5_search": "https://www.zee5.com/search?q=Thirumangalyam"
+      }
     },
     {
       "title": "St. Denis Medical",
@@ -14666,7 +15369,13 @@
       "overview": "It follows an underfunded, understaffed hospital where the doctors and nurses try their best to treat patients while maintaining their own sanity.",
       "genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt21433690/",
+        "tmdb": "https://www.themoviedb.org/tv/251941",
+        "ottplay": "https://www.ottplay.com/show/web-series-st-denis-medical-2024/7fc244b4ea51",
+        "hotstar_search": "https://www.hotstar.com/in/search/St.%20Denis%20Medical"
+      }
     },
     {
       "title": "Primos",
@@ -14855,7 +15564,13 @@
         "Comedy",
         "Family",
         "Fantasy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt15837206/",
+        "tmdb": "https://www.themoviedb.org/tv/204139",
+        "ottplay": "https://www.ottplay.com/show/web-series-primos-2025/cf2f18ccc6741",
+        "hotstar_search": "https://www.hotstar.com/in/search/Primos"
+      }
     },
     {
       "title": "St. Denis Medical",
@@ -14865,7 +15580,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-st-denis-medical-2025/558b0e666c830",
       "cbfc_rating": "U/A 13",
-      "description": "Watch St. Denis Medical full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch St. Denis Medical full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-st-denis-medical-2025/558b0e666c830",
+        "hotstar_search": "https://www.hotstar.com/in/search/St.%20Denis%20Medical"
+      }
     },
     {
       "title": "All's Fair",
@@ -15032,7 +15751,13 @@
       "overview": "Follows a successful divorce lawyer and the owner of an all-female law firm in Los Angeles.",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt30291387/",
+        "tmdb": "https://www.themoviedb.org/tv/258742",
+        "ottplay": "https://www.ottplay.com/show/web-series-alls-fair-2025/97cc6ccb1a541",
+        "hotstar_search": "https://www.hotstar.com/in/search/All%27s%20Fair"
+      }
     },
     {
       "title": "Sun Music Spot Light",
@@ -15042,7 +15767,11 @@
       "content_provider": "Sun NXT",
       "link": "https://www.ottplay.com/show/web-series-sun-music-spot-light-2025/1e3acce108287",
       "cbfc_rating": "U",
-      "description": "Watch Sun Music Spot Light full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Sun Music Spot Light full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-sun-music-spot-light-2025/1e3acce108287",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Sun%20Music%20Spot%20Light"
+      }
     },
     {
       "title": "Puran Stories for Kids Season 4",
@@ -15052,7 +15781,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/web-series-puran-stories-for-kids-season-4-2025/41a44c83cc170",
       "cbfc_rating": "",
-      "description": "Watch Puran Stories for Kids Season 4 full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Puran Stories for Kids Season 4 full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-puran-stories-for-kids-season-4-2025/41a44c83cc170"
+      }
     },
     {
       "title": "The Hack",
@@ -15242,7 +15974,12 @@
       "overview": "While a journalist uncovers evidence of phone hacking at a tabloid newspaper, a former police detective looks into the unsolved murder of a private investigator.",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35615598/",
+        "tmdb": "https://www.themoviedb.org/tv/287167",
+        "ottplay": "https://www.ottplay.com/show/the-hack-2025/aa49fd68b8415"
+      }
     },
     {
       "title": "Rasmalai",
@@ -15271,7 +16008,11 @@
       ],
       "writers": [
         "Debopom Chakraborty"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/movie/1463718",
+        "ottplay": "https://www.ottplay.com/show/web-series-rasmalai-2025/2061d837c3404"
+      }
     },
     {
       "title": "Network",
@@ -15309,7 +16050,13 @@
       "qdmovie_genres": [
         "Comedy",
         "Music"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0341899/",
+        "tmdb": "https://www.themoviedb.org/tv/15493",
+        "ottplay": "https://www.ottplay.com/show/web-series-network-2025/92e55c002e257",
+        "aha_search": "https://www.aha.video/search?query=Network"
+      }
     },
     {
       "title": "Victoria Beckham",
@@ -15423,7 +16170,12 @@
       ],
       "youtube_id": "iUfvOBu7vow",
       "youtube_url": "https://www.youtube.com/watch?v=iUfvOBu7vow",
-      "youtube_title": "Official Trailer"
+      "youtube_title": "Official Trailer",
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/262281",
+        "ottplay": "https://www.ottplay.com/show/web-series-victoria-beckham-2025/03972b1675943",
+        "netflix_search": "https://www.netflix.com/search?q=Victoria%20Beckham"
+      }
     },
     {
       "title": "Old Money",
@@ -15584,7 +16336,13 @@
       "overview": "A bold, self-made mogul faces of with an old-money diplomat. Can love find its way amidst a power struggle, where wealth and wit collide?",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt34692051/",
+        "tmdb": "https://www.themoviedb.org/tv/278009",
+        "ottplay": "https://www.ottplay.com/show/web-series-old-money-2025/8046c68127576",
+        "netflix_search": "https://www.netflix.com/search?q=Old%20Money"
+      }
     },
     {
       "title": "All Her Fault",
@@ -15767,7 +16525,13 @@
       "overview": "Marissa Irvine arrives at 1800 Crescent Hollow Road to pick up her son Milo from a play date, but the woman who answers doesn't have Milo, sparking a parent's nightmare.",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31314751/",
+        "tmdb": "https://www.themoviedb.org/tv/246386",
+        "ottplay": "https://www.ottplay.com/show/web-series-all-her-fault-2025/f20215f031849",
+        "hotstar_search": "https://www.hotstar.com/in/search/All%20Her%20Fault"
+      }
     },
     {
       "title": "Fire And Water: Making The Avatar Films",
@@ -15777,7 +16541,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-fire-and-water-making-the-avatar-films-2025/3c15a841f251",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Fire And Water: Making The Avatar Films full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Fire And Water: Making The Avatar Films full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-fire-and-water-making-the-avatar-films-2025/3c15a841f251",
+        "hotstar_search": "https://www.hotstar.com/in/search/Fire%20And%20Water%3A%20Making%20The%20Avatar%20Films"
+      }
     },
     {
       "title": "Thode Door Thode Paas",
@@ -15919,7 +16687,13 @@
       "qdmovie_poster_url": "https://m.media-amazon.com/images/M/MV5BZGE1ZWRmNDEtNTkzOS00OTRmLWE5ZjYtY2EwNDY3MjRiYTkxXkEyXkFqcGc@._V1_.jpg",
       "cover_url": "https://m.media-amazon.com/images/M/MV5BZGE1ZWRmNDEtNTkzOS00OTRmLWE5ZjYtY2EwNDY3MjRiYTkxXkEyXkFqcGc@._V1_.jpg",
       "qdmovie_plot": "A nostalgic series exploring how tech changed relationships, contrasting with simpler times of genuine talks and family moments without Wi-Fi. Celebrates authentic connections and shared home experiences.",
-      "overview": "A nostalgic series exploring how tech changed relationships, contrasting with simpler times of genuine talks and family moments without Wi-Fi. Celebrates authentic connections and shared home experiences."
+      "overview": "A nostalgic series exploring how tech changed relationships, contrasting with simpler times of genuine talks and family moments without Wi-Fi. Celebrates authentic connections and shared home experiences.",
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt36150795/",
+        "tmdb": "https://www.themoviedb.org/tv/305017",
+        "ottplay": "https://www.ottplay.com/show/web-series-thode-door-thode-paas-2025/ad6aec9fbe876",
+        "zee5_search": "https://www.zee5.com/search?q=Thode%20Door%20Thode%20Paas"
+      }
     },
     {
       "title": "Vantara: Sanctuary Stories",
@@ -15929,7 +16703,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-vantara-sanctuary-stories-2025/8a09c980c496",
       "cbfc_rating": "U",
-      "description": "Watch Vantara: Sanctuary Stories full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Vantara: Sanctuary Stories full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-vantara-sanctuary-stories-2025/8a09c980c496",
+        "hotstar_search": "https://www.hotstar.com/in/search/Vantara%3A%20Sanctuary%20Stories"
+      }
     },
     {
       "title": "Chip In (Korean)",
@@ -16059,7 +16837,12 @@
         "Crime",
         "Drama",
         "Mystery"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt12516638/",
+        "tmdb": "https://www.themoviedb.org/tv/104246",
+        "ottplay": "https://www.ottplay.com/show/web-series-chip-in-korean-2020/74c41bed31793"
+      }
     },
     {
       "title": "Kurukshetra",
@@ -16192,7 +16975,13 @@
         "Drama",
         "Fantasy",
         "War"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38235589/",
+        "tmdb": "https://www.themoviedb.org/tv/300894",
+        "ottplay": "https://www.ottplay.com/show/web-series-kurukshetra-2025/76af83e89c526",
+        "netflix_search": "https://www.netflix.com/search?q=Kurukshetra"
+      }
     },
     {
       "title": "Stumble",
@@ -16307,7 +17096,13 @@
       "overview": "A mockumentary exploring the highly competitive world of junior college cheerleading.",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt34878951/",
+        "tmdb": "https://www.themoviedb.org/tv/296579",
+        "ottplay": "https://www.ottplay.com/show/web-series-stumble-2025/e8e6b96d85820",
+        "hotstar_search": "https://www.hotstar.com/in/search/Stumble"
+      }
     },
     {
       "title": "Passing the Reins",
@@ -16317,7 +17112,11 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-passing-the-reins-2025/8105f26741433",
       "cbfc_rating": "A",
-      "description": "Watch Passing the Reins full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Passing the Reins full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-passing-the-reins-2025/8105f26741433",
+        "netflix_search": "https://www.netflix.com/search?q=Passing%20the%20Reins"
+      }
     },
     {
       "title": "Chosen Home",
@@ -16451,7 +17250,13 @@
       "qdmovie_genres": [
         "Comedy",
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38632746/",
+        "tmdb": "https://www.themoviedb.org/tv/299403",
+        "ottplay": "https://www.ottplay.com/show/web-series-chosen-home-2025/4861df601c91",
+        "netflix_search": "https://www.netflix.com/search?q=Chosen%20Home"
+      }
     },
     {
       "title": "Caroline Flack: Search for the Truth",
@@ -16539,7 +17344,13 @@
       "overview": "Follows Caroline Flack's mother Christine as she investigates the truth about her daughter's final months, uncovering new details and examining pressures that shaped Caroline's last days.",
       "qdmovie_genres": [
         "Documentary"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38784236/",
+        "tmdb": "https://www.themoviedb.org/tv/303649",
+        "ottplay": "https://www.ottplay.com/show/web-series-caroline-flack-search-for-the-truth-2025/e29b930be4601",
+        "hotstar_search": "https://www.hotstar.com/in/search/Caroline%20Flack%3A%20Search%20for%20the%20Truth"
+      }
     },
     {
       "title": "Jagadhatri",
@@ -16596,7 +17407,12 @@
       "poster_url_medium": "https://image.tmdb.org/t/p/w342/69tk4y2SK6mcuHxry7HhzTtBdfj.jpg",
       "poster_url_large": "https://image.tmdb.org/t/p/w500/69tk4y2SK6mcuHxry7HhzTtBdfj.jpg",
       "poster_source": "tmdb",
-      "cast": []
+      "cast": [],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/218551",
+        "ottplay": "https://www.ottplay.com/show/web-series-jagadhatri-2025/d547e20131231",
+        "zee5_search": "https://www.zee5.com/search?q=Jagadhatri"
+      }
     },
     {
       "title": "Satyaa Sachee",
@@ -16637,7 +17453,12 @@
       ],
       "youtube_id": "V8NA6Hir3-c",
       "youtube_url": "https://www.youtube.com/watch?v=V8NA6Hir3-c",
-      "youtube_title": "Satyaa Sachee | Naya Dharavahik | Jald Hi | @sunneo"
+      "youtube_title": "Satyaa Sachee | Naya Dharavahik | Jald Hi | @sunneo",
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/305422",
+        "ottplay": "https://www.ottplay.com/show/web-series-satyaa-sachee-2025/620e6825df575",
+        "sun_nxt_search": "https://www.sunnxt.com/search?q=Satyaa%20Sachee"
+      }
     },
     {
       "title": "SHRIMATI SHUKLA",
@@ -16647,7 +17468,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/web-series-shrimati-shukla-2025/1caf0639b5105",
       "cbfc_rating": "U",
-      "description": "Watch SHRIMATI SHUKLA full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch SHRIMATI SHUKLA full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-shrimati-shukla-2025/1caf0639b5105"
+      }
     },
     {
       "title": "Kattathe Kilikoodu",
@@ -16744,7 +17568,13 @@
         "Comedy",
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0155802/",
+        "tmdb": "https://www.themoviedb.org/movie/280376",
+        "ottplay": "https://www.ottplay.com/show/web-series-kattathe-kilikoodu-2025/bdbf797738526",
+        "hotstar_search": "https://www.hotstar.com/in/search/Kattathe%20Kilikoodu"
+      }
     },
     {
       "title": "Advocate Anjali",
@@ -16802,7 +17632,12 @@
         }
       ],
       "backdrop_url": "https://image.tmdb.org/t/p/original/b2yFpImcqHANfJGXOQ4rf0kyWcM.jpg",
-      "cast": []
+      "cast": [],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/261149",
+        "ottplay": "https://www.ottplay.com/show/web-series-advocate-anjali-2025/664d2d675c838",
+        "hotstar_search": "https://www.hotstar.com/in/search/Advocate%20Anjali"
+      }
     },
     {
       "title": "Shiba Shakti",
@@ -16812,7 +17647,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-shiba-shakti-2025/8f2fd7857e476",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Shiba Shakti full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Shiba Shakti full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-shiba-shakti-2025/8f2fd7857e476",
+        "hotstar_search": "https://www.hotstar.com/in/search/Shiba%20Shakti"
+      }
     },
     {
       "title": "Mighty Ducks",
@@ -16993,7 +17832,13 @@
         "Comedy",
         "Drama",
         "Sport"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt7939768/",
+        "tmdb": "https://www.themoviedb.org/tv/114621",
+        "ottplay": "https://www.ottplay.com/show/mighty-ducks-1996/2999ac6e2f0b5",
+        "hotstar_search": "https://www.hotstar.com/in/search/Mighty%20Ducks"
+      }
     },
     {
       "title": "Silver Surfer",
@@ -17127,7 +17972,13 @@
         "Family",
         "Sci-Fi",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0203268/",
+        "tmdb": "https://www.themoviedb.org/tv/1130",
+        "ottplay": "https://www.ottplay.com/show/silver-surfer-1998/5a8f8572d1413",
+        "hotstar_search": "https://www.hotstar.com/in/search/Silver%20Surfer"
+      }
     },
     {
       "title": "The Avengers: United They Stand",
@@ -17295,7 +18146,13 @@
         "Action",
         "Adventure",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0203247/",
+        "tmdb": "https://www.themoviedb.org/tv/1300",
+        "ottplay": "https://www.ottplay.com/show/the-avengers-united-they-stand-1999/2a1fe6788a9fa",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Avengers%3A%20United%20They%20Stand"
+      }
     },
     {
       "title": "Disney Junior Ariel",
@@ -17305,7 +18162,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-disney-junior-ariel-2024/8e99c9bc5b523",
       "cbfc_rating": "U",
-      "description": "Watch Disney Junior Ariel full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Disney Junior Ariel full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-disney-junior-ariel-2024/8e99c9bc5b523",
+        "hotstar_search": "https://www.hotstar.com/in/search/Disney%20Junior%20Ariel"
+      }
     },
     {
       "title": "ZOMBIES: The Re-Animated Series",
@@ -17496,7 +18357,13 @@
         "Family",
         "Musical",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt21055930/",
+        "tmdb": "https://www.themoviedb.org/tv/204136",
+        "ottplay": "https://www.ottplay.com/show/web-series-zombies-the-re-animated-series-2024/035c193db1185",
+        "hotstar_search": "https://www.hotstar.com/in/search/ZOMBIES%3A%20The%20Re-Animated%20Series"
+      }
     },
     {
       "title": "Splinter Cell: Deathwatch",
@@ -17668,7 +18535,13 @@
         "Adventure",
         "Sci-Fi",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt12809802/",
+        "tmdb": "https://www.themoviedb.org/tv/127366",
+        "ottplay": "https://www.ottplay.com/show/web-series-splinter-cell-deathwatch-2025/8f67dff7fc528",
+        "netflix_search": "https://www.netflix.com/search?q=Splinter%20Cell%3A%20Deathwatch"
+      }
     },
     {
       "title": "No One Saw Us Leave",
@@ -17821,7 +18694,13 @@
       "overview": "Follows a mother desperately pursuing her husband who kidnapped their children, highlighting the clash between two powerful Jewish families in the 1960s.",
       "genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31221478/",
+        "tmdb": "https://www.themoviedb.org/tv/246027",
+        "ottplay": "https://www.ottplay.com/show/web-series-no-one-saw-us-leave-2025/20c4eff7fd239",
+        "netflix_search": "https://www.netflix.com/search?q=No%20One%20Saw%20Us%20Leave"
+      }
     },
     {
       "title": "Romantics Anonymous",
@@ -18008,7 +18887,13 @@
         "Comedy",
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt32524691/",
+        "tmdb": "https://www.themoviedb.org/tv/249054",
+        "ottplay": "https://www.ottplay.com/show/web-series-romantics-anonymous-2025/9a8d449240726",
+        "netflix_search": "https://www.netflix.com/search?q=Romantics%20Anonymous"
+      }
     },
     {
       "title": "Just a bit Espers",
@@ -18158,7 +19043,13 @@
       "overview": "After reaching his lowest point, Bunta gets a strange job with minor psychic abilities to save the world, but must stay single.",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38639709/",
+        "tmdb": "https://www.themoviedb.org/tv/298706",
+        "ottplay": "https://www.ottplay.com/show/web-series-just-a-bit-espers-2025/7f3e8c161a29",
+        "netflix_search": "https://www.netflix.com/search?q=Just%20a%20bit%20Espers"
+      }
     },
     {
       "title": "Mob War: Philadelphia vs. the Mafia",
@@ -18280,7 +19171,13 @@
       "qdmovie_genres": [
         "Documentary",
         "Crime"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38501655/",
+        "tmdb": "https://www.themoviedb.org/tv/301498",
+        "ottplay": "https://www.ottplay.com/show/web-series-mob-war-philadelphia-vs-the-mafia-2025/cb3382bb00349",
+        "netflix_search": "https://www.netflix.com/search?q=Mob%20War%3A%20Philadelphia%20vs.%20the%20Mafia"
+      }
     },
     {
       "title": "The Monster of Florence",
@@ -18452,7 +19349,13 @@
         "Drama",
         "Mystery",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt29457135/",
+        "tmdb": "https://www.themoviedb.org/tv/247756",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-monster-of-florence-2025/05151147de468",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Monster%20of%20Florence"
+      }
     },
     {
       "title": "The Dream Life of Mr. Kim",
@@ -18591,7 +19494,13 @@
       "qdmovie_genres": [
         "Comedy",
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38570528/",
+        "tmdb": "https://www.themoviedb.org/tv/275592",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-dream-life-of-mr-kim-2025/0ef8fd5997464",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Dream%20Life%20of%20Mr.%20Kim"
+      }
     },
     {
       "title": "The Asset",
@@ -18745,7 +19654,13 @@
         "Crime",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt33293130/",
+        "tmdb": "https://www.themoviedb.org/tv/262920",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-asset-2025/152c026652167",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Asset"
+      }
     },
     {
       "title": "Physical: Asia",
@@ -18755,7 +19670,11 @@
       "content_provider": "Netflix",
       "link": "https://www.ottplay.com/show/web-series-physical-asia-2025/a19ac61f00954",
       "cbfc_rating": "A",
-      "description": "Watch Physical: Asia full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Physical: Asia full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-physical-asia-2025/a19ac61f00954",
+        "netflix_search": "https://www.netflix.com/search?q=Physical%3A%20Asia"
+      }
     },
     {
       "title": "LEGO Marvel Avengers: Strange Tails",
@@ -18946,7 +19865,13 @@
         "Comedy",
         "Family",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38692893/",
+        "tmdb": "https://www.themoviedb.org/tv/305165",
+        "ottplay": "https://www.ottplay.com/show/web-series-lego-marvel-avengers-strange-tails-2025/e323e7a0e1367",
+        "hotstar_search": "https://www.hotstar.com/in/search/LEGO%20Marvel%20Avengers%3A%20Strange%20Tails"
+      }
     },
     {
       "title": "Inspection Bungalow",
@@ -19051,7 +19976,12 @@
       ],
       "writers": [
         "Suneesh Varanaad"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/305472",
+        "ottplay": "https://www.ottplay.com/show/web-series-inspection-bungalow-2025/6db275c1ff6",
+        "zee5_search": "https://www.zee5.com/search?q=Inspection%20Bungalow"
+      }
     },
     {
       "title": "Baseball United - Season 1",
@@ -19061,7 +19991,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-baseball-united-season-1-2025/3bc6eaf412718",
       "cbfc_rating": "U",
-      "description": "Watch Baseball United - Season 1 full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Baseball United - Season 1 full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-baseball-united-season-1-2025/3bc6eaf412718",
+        "zee5_search": "https://www.zee5.com/search?q=Baseball%20United%20-%20Season%201"
+      }
     },
     {
       "title": "Puran Stories for Kids Season 5",
@@ -19071,7 +20005,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/web-series-puran-stories-for-kids-season-5-2025/1b5d95c4d3204",
       "cbfc_rating": "",
-      "description": "Watch Puran Stories for Kids Season 5 full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Puran Stories for Kids Season 5 full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-puran-stories-for-kids-season-5-2025/1b5d95c4d3204"
+      }
     },
     {
       "title": "Snap And Spark (Hindi)",
@@ -19224,7 +20161,12 @@
       "qdmovie_genres": [
         "Music",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt30454687/",
+        "tmdb": "https://www.themoviedb.org/tv/240715",
+        "ottplay": "https://www.ottplay.com/show/web-series-snap-and-spark-hindi-2023/f65bc83ac7364"
+      }
     },
     {
       "title": "Dance Karnataka Dance 2025",
@@ -19234,7 +20176,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-dance-karnataka-dance-2025-2025/7cacc90365909",
       "cbfc_rating": "",
-      "description": "Watch Dance Karnataka Dance 2025 full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Dance Karnataka Dance 2025 full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-dance-karnataka-dance-2025-2025/7cacc90365909",
+        "zee5_search": "https://www.zee5.com/search?q=Dance%20Karnataka%20Dance%202025"
+      }
     },
     {
       "title": "Rulers of Fortune",
@@ -19420,7 +20366,13 @@
       "qdmovie_genres": [
         "Crime",
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38091266/",
+        "tmdb": "https://www.themoviedb.org/tv/282440",
+        "ottplay": "https://www.ottplay.com/show/web-series-rulers-of-fortune-2025/29f22c79bc771",
+        "netflix_search": "https://www.netflix.com/search?q=Rulers%20of%20Fortune"
+      }
     },
     {
       "title": "Amsterdam Empire",
@@ -19583,7 +20535,13 @@
       "qdmovie_genres": [
         "Crime",
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31835154/",
+        "tmdb": "https://www.themoviedb.org/tv/249586",
+        "ottplay": "https://www.ottplay.com/show/web-series-amsterdam-empire-2025/9e66074a1d194",
+        "netflix_search": "https://www.netflix.com/search?q=Amsterdam%20Empire"
+      }
     },
     {
       "title": "Chembarathy",
@@ -19692,7 +20650,13 @@
       "overview": "Vinod, a young guy who is nursing a broken heart after a failed first love is helped by his friends to recover from despair, only to fall head over heels in love with another girl.",
       "qdmovie_genres": [
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt6808038/",
+        "tmdb": "https://www.themoviedb.org/movie/495573",
+        "ottplay": "https://www.ottplay.com/show/web-series-chembarathy-2025/cacbb8f645560",
+        "zee5_search": "https://www.zee5.com/search?q=Chembarathy"
+      }
     },
     {
       "title": "Durga",
@@ -19705,7 +20669,12 @@
       "description": "Watch Durga full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
       "tmdb_id": 233773,
       "tmdb_media_type": "tv",
-      "cast": []
+      "cast": [],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/233773",
+        "ottplay": "https://www.ottplay.com/show/web-series-durga-2025/c41abbdfc5607",
+        "zee5_search": "https://www.zee5.com/search?q=Durga"
+      }
     },
     {
       "title": "Ganpati Bappa Moriya",
@@ -19715,7 +20684,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-ganpati-bappa-moriya-2025/0871d999a4200",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Ganpati Bappa Moriya full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Ganpati Bappa Moriya full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-ganpati-bappa-moriya-2025/0871d999a4200",
+        "hotstar_search": "https://www.hotstar.com/in/search/Ganpati%20Bappa%20Moriya"
+      }
     },
     {
       "title": "Ondu Mayeya Sutta",
@@ -19725,7 +20698,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-ondu-mayeya-sutta-2025/77e952d8b3601",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Ondu Mayeya Sutta full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Ondu Mayeya Sutta full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-ondu-mayeya-sutta-2025/77e952d8b3601",
+        "hotstar_search": "https://www.hotstar.com/in/search/Ondu%20Mayeya%20Sutta"
+      }
     },
     {
       "title": "Sadhok Bamakhyapa",
@@ -19828,7 +20805,13 @@
       "overview": "The life of the 18th century spiritual leader and the most devout worshipper of Goddess Tara. The devotional drama revolves around this unconventional saint's fight against the staunch, orthodox temple practices, and tells stories of how he used the super powers bestowed upon him by the Goddess, for the betterment of his people.",
       "qdmovie_genres": [
         "History"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt18183890/",
+        "tmdb": "https://www.themoviedb.org/tv/251760",
+        "ottplay": "https://www.ottplay.com/show/web-series-sadhok-bamakhyapa-2025/1a0e7c5df8772",
+        "hotstar_search": "https://www.hotstar.com/in/search/Sadhok%20Bamakhyapa"
+      }
     },
     {
       "title": "Tuu Juliet Jatt Di",
@@ -19877,7 +20860,12 @@
       ],
       "youtube_id": "ZtdBtplkjik",
       "youtube_url": "https://www.youtube.com/watch?v=ZtdBtplkjik",
-      "youtube_title": "A College Love Story | Tu Juliet Jatt Di"
+      "youtube_title": "A College Love Story | Tu Juliet Jatt Di",
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/305847",
+        "ottplay": "https://www.ottplay.com/show/web-series-tuu-juliet-jatt-di-2025/c6c7bac5bd198",
+        "hotstar_search": "https://www.hotstar.com/in/search/Tuu%20Juliet%20Jatt%20Di"
+      }
     },
     {
       "title": "Professor Bidya Banerjee",
@@ -19887,7 +20875,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/web-series-professor-bidya-banerjee-2025/5c99d58a75835",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Professor Bidya Banerjee full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Professor Bidya Banerjee full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-professor-bidya-banerjee-2025/5c99d58a75835",
+        "hotstar_search": "https://www.hotstar.com/in/search/Professor%20Bidya%20Banerjee"
+      }
     },
     {
       "title": "The Book of Pooh",
@@ -20073,7 +21065,13 @@
         "Comedy",
         "Family",
         "Musical"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0274240/",
+        "tmdb": "https://www.themoviedb.org/tv/973",
+        "ottplay": "https://www.ottplay.com/show/the-book-of-pooh-2001/ab188d8b8ce3e",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Book%20of%20Pooh"
+      }
     },
     {
       "title": "Helstrom",
@@ -20247,7 +21245,13 @@
         "Drama",
         "Fantasy",
         "Horror"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt10266874/",
+        "tmdb": "https://www.themoviedb.org/tv/88987",
+        "ottplay": "https://www.ottplay.com/show/helstrom/1675644ca1ee7",
+        "hotstar_search": "https://www.hotstar.com/in/search/Helstrom"
+      }
     },
     {
       "title": "M.O.D.O.K.",
@@ -20427,7 +21431,13 @@
         "Comedy",
         "Fantasy",
         "Sci-Fi"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt9811118/",
+        "tmdb": "https://www.themoviedb.org/tv/111312",
+        "ottplay": "https://www.ottplay.com/show/web-series-modok-2021/4bfa8356e1632",
+        "hotstar_search": "https://www.hotstar.com/in/search/M.O.D.O.K."
+      }
     },
     {
       "title": "Kindergarten: The Musical!",
@@ -20592,7 +21602,13 @@
         "Comedy",
         "Family",
         "Musical"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt19872854/",
+        "tmdb": "https://www.themoviedb.org/tv/201480",
+        "ottplay": "https://www.ottplay.com/show/web-series-kindergarten-the-musical-2024/47c51bbfab117",
+        "hotstar_search": "https://www.hotstar.com/in/search/Kindergarten%3A%20The%20Musical%21"
+      }
     },
     {
       "title": "When The Weather Is Fine",
@@ -20724,7 +21740,13 @@
       "qdmovie_genres": [
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt11535086/",
+        "tmdb": "https://www.themoviedb.org/tv/96977",
+        "ottplay": "https://www.ottplay.com/show/web-series-when-the-weather-is-fine-2025/de2caa7331949",
+        "zee5_search": "https://www.zee5.com/search?q=When%20The%20Weather%20Is%20Fine"
+      }
     },
     {
       "title": "Nadu Center",
@@ -20802,7 +21824,13 @@
       "qdmovie_genres": [
         "Drama",
         "Sport"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt27494250/",
+        "tmdb": "https://www.themoviedb.org/tv/305702",
+        "ottplay": "https://www.ottplay.com/show/nadu-center-2025/e46d743327968",
+        "hotstar_search": "https://www.hotstar.com/in/search/Nadu%20Center"
+      }
     },
     {
       "title": "SDF: Supernatural Detective Agency",
@@ -20812,7 +21840,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/sdf-supernatural-detective-agency-2025/12e6267a3454",
       "cbfc_rating": "U",
-      "description": "Watch SDF: Supernatural Detective Agency full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch SDF: Supernatural Detective Agency full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/sdf-supernatural-detective-agency-2025/12e6267a3454"
+      }
     },
     {
       "title": "Vlog of Cuddles",
@@ -20822,7 +21853,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/vlog-of-cuddles-2025/b3fa8a4056783",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Vlog of Cuddles full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Vlog of Cuddles full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/vlog-of-cuddles-2025/b3fa8a4056783"
+      }
     },
     {
       "title": "Vlog of Cuddles",
@@ -20832,7 +21866,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/vlog-of-cuddles-2025/ecbd3c8684611",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Vlog of Cuddles full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Vlog of Cuddles full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/vlog-of-cuddles-2025/ecbd3c8684611"
+      }
     },
     {
       "title": "Ziddi Ishq",
@@ -20842,7 +21879,11 @@
       "content_provider": "Hotstar",
       "link": "https://www.ottplay.com/show/ziddi-ishq-2025/09f1500519929",
       "cbfc_rating": "U/A 16",
-      "description": "Watch Ziddi Ishq full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Ziddi Ishq full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/ziddi-ishq-2025/09f1500519929",
+        "hotstar_search": "https://www.hotstar.com/in/search/Ziddi%20Ishq"
+      }
     },
     {
       "title": "Free Love",
@@ -20913,7 +21954,12 @@
           "character": "Froukje de Both",
           "profile_path": "https://image.tmdb.org/t/p/w185/q6qPhWP5jQM5JiVYdiVnMTN0Rcr.jpg"
         }
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/115647",
+        "ottplay": "https://www.ottplay.com/show/free-love-2025/b90e22ae9f963",
+        "sony_liv_search": "https://www.sonyliv.com/search/Free%20Love"
+      }
     },
     {
       "title": "The Death of Bunny Munro",
@@ -21081,7 +22127,13 @@
       "overview": "A look at the life of a sex-addict traveling salesman who uses his door-to-door beauty products to meet women.",
       "qdmovie_genres": [
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0808224/",
+        "tmdb": "https://www.themoviedb.org/tv/279116",
+        "ottplay": "https://www.ottplay.com/show/the-death-of-bunny-munro-2025/065d166908955",
+        "hotstar_search": "https://www.hotstar.com/in/search/The%20Death%20of%20Bunny%20Munro"
+      }
     },
     {
       "title": "Moral Stories",
@@ -21180,7 +22232,13 @@
       "cover_url": "https://m.media-amazon.com/images/M/MV5BY2VlMmQ4ZDctZGU3ZC00OGRkLTg4MTYtMjJjNTdmNDdjMDE0XkEyXkFqcGc@._V1_.jpg",
       "genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt0440849/",
+        "tmdb": "https://www.themoviedb.org/movie/1293093",
+        "ottplay": "https://www.ottplay.com/show/web-series-moral-stories-2025/902104952924",
+        "zee5_search": "https://www.zee5.com/search?q=Moral%20Stories"
+      }
     },
     {
       "title": "Gandhi Circuit of Bihar",
@@ -21190,7 +22248,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-gandhi-circuit-of-bihar-2025/72da26c7b9375",
       "cbfc_rating": "",
-      "description": "Watch Gandhi Circuit of Bihar full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Gandhi Circuit of Bihar full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-gandhi-circuit-of-bihar-2025/72da26c7b9375",
+        "zee5_search": "https://www.zee5.com/search?q=Gandhi%20Circuit%20of%20Bihar"
+      }
     },
     {
       "title": "11th International Iconic Awards 2025",
@@ -21200,7 +22262,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-11th-international-iconic-awards-2025-2025/37338e2cef142",
       "cbfc_rating": "",
-      "description": "Watch 11th International Iconic Awards 2025 full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch 11th International Iconic Awards 2025 full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-11th-international-iconic-awards-2025-2025/37338e2cef142",
+        "zee5_search": "https://www.zee5.com/search?q=11th%20International%20Iconic%20Awards%202025"
+      }
     },
     {
       "title": "Part Time Mello (Tamil)",
@@ -21270,7 +22336,11 @@
           "character": "Yoo Nam Saeng",
           "profile_path": "https://image.tmdb.org/t/p/w185/r5sc9MrBFTy2oUInR0jdtexHJzB.jpg"
         }
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/146405",
+        "ottplay": "https://www.ottplay.com/show/web-series-part-time-mello-tamil-2021/ac69421767489"
+      }
     },
     {
       "title": "Part Time Mello (Telugu)",
@@ -21280,7 +22350,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/web-series-part-time-mello-telugu-2021/0e7655319d575",
       "cbfc_rating": "U/A",
-      "description": "Watch Part Time Mello (Telugu) full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Part Time Mello (Telugu) full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-part-time-mello-telugu-2021/0e7655319d575"
+      }
     },
     {
       "title": "Juan Gabriel: I Must, I Can, I Will",
@@ -21400,7 +22473,13 @@
         "Documentary",
         "Biography",
         "Music"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt28235034/",
+        "tmdb": "https://www.themoviedb.org/tv/283396",
+        "ottplay": "https://www.ottplay.com/show/web-series-juan-gabriel-i-must-i-can-i-will-2025/19b4548084724",
+        "netflix_search": "https://www.netflix.com/search?q=Juan%20Gabriel%3A%20I%20Must%2C%20I%20Can%2C%20I%20Will"
+      }
     },
     {
       "title": "Son of a Donkey",
@@ -21523,7 +22602,13 @@
       "overview": "Theo leaves home seeking independence but faces adulting challenges: fines, daddy issues, scams. With best friend Johnny, he learns through mishaps that family matters most.",
       "qdmovie_genres": [
         "Comedy"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt32510363/",
+        "tmdb": "https://www.themoviedb.org/tv/255803",
+        "ottplay": "https://www.ottplay.com/show/web-series-son-of-a-donkey-2025/33c41aff01546",
+        "netflix_search": "https://www.netflix.com/search?q=Son%20of%20a%20Donkey"
+      }
     },
     {
       "title": "Bad Influencer",
@@ -21601,7 +22686,13 @@
       "qdmovie_genres": [
         "Crime",
         "Drama"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38624867/",
+        "tmdb": "https://www.themoviedb.org/tv/302854",
+        "ottplay": "https://www.ottplay.com/show/web-series-bad-influencer-2025/2c8b27d6eb142",
+        "netflix_search": "https://www.netflix.com/search?q=Bad%20Influencer"
+      }
     },
     {
       "title": "Just Alice",
@@ -21769,7 +22860,13 @@
       "qdmovie_genres": [
         "Comedy",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt37762739/",
+        "tmdb": "https://www.themoviedb.org/tv/302723",
+        "ottplay": "https://www.ottplay.com/show/web-series-just-alice-2025/a6bed34f38772",
+        "netflix_search": "https://www.netflix.com/search?q=Just%20Alice"
+      }
     },
     {
       "title": "Heweliusz",
@@ -21951,7 +23048,13 @@
       "qdmovie_genres": [
         "Drama",
         "History"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt32253092/",
+        "tmdb": "https://www.themoviedb.org/tv/217528",
+        "ottplay": "https://www.ottplay.com/show/web-series-heweliusz-2025/9bb54f73f8162",
+        "netflix_search": "https://www.netflix.com/search?q=Heweliusz"
+      }
     },
     {
       "title": "Start Up, Fall Down: From Billionaire to Convict",
@@ -22050,7 +23153,13 @@
       "qdmovie_genres": [
         "Documentary",
         "Crime"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38856367/",
+        "tmdb": "https://www.themoviedb.org/tv/304936",
+        "ottplay": "https://www.ottplay.com/show/web-series-start-up-fall-down-from-billionaire-to-convict-2025/f1cc191e96387",
+        "netflix_search": "https://www.netflix.com/search?q=Start%20Up%2C%20Fall%20Down%3A%20From%20Billionaire%20to%20Convict"
+      }
     },
     {
       "title": "The Bad Guys: Breaking In",
@@ -22220,7 +23329,13 @@
         "Comedy",
         "Crime",
         "Family"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31392119/",
+        "tmdb": "https://www.themoviedb.org/tv/302540",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-bad-guys-breaking-in-2025/622cd19714617",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Bad%20Guys%3A%20Breaking%20In"
+      }
     },
     {
       "title": "Death by Lightning",
@@ -22395,7 +23510,12 @@
       ],
       "youtube_id": "6jopqrSojQE",
       "youtube_url": "https://www.youtube.com/watch?v=6jopqrSojQE",
-      "youtube_title": "Official Trailer"
+      "youtube_title": "Official Trailer",
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/245219",
+        "ottplay": "https://www.ottplay.com/show/web-series-death-by-lightning-2025/e86b454c4a616",
+        "netflix_search": "https://www.netflix.com/search?q=Death%20by%20Lightning"
+      }
     },
     {
       "title": "As You Stood By",
@@ -22552,7 +23672,13 @@
         "Crime",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt33550045/",
+        "tmdb": "https://www.themoviedb.org/tv/271885",
+        "ottplay": "https://www.ottplay.com/show/web-series-as-you-stood-by-2025/5f2faec771154",
+        "netflix_search": "https://www.netflix.com/search?q=As%20You%20Stood%20By"
+      }
     },
     {
       "title": "MARINES",
@@ -22643,7 +23769,13 @@
       "overview": "Follows members of the 31st Marine Expeditionary Unit as they undergo rigorous training and navigate emotional challenges while forging bonds and grappling with the complexities of life at sea.",
       "qdmovie_genres": [
         "Documentary"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38696262/",
+        "tmdb": "https://www.themoviedb.org/tv/303173",
+        "ottplay": "https://www.ottplay.com/show/web-series-marines-2025/ae2b2b545e254",
+        "netflix_search": "https://www.netflix.com/search?q=MARINES"
+      }
     },
     {
       "title": "Mrs Playmen",
@@ -22794,7 +23926,13 @@
         "Biography",
         "Drama",
         "History"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31078757/",
+        "tmdb": "https://www.themoviedb.org/tv/301001",
+        "ottplay": "https://www.ottplay.com/show/web-series-mrs-playmen-2025/da9d3f83dc410",
+        "netflix_search": "https://www.netflix.com/search?q=Mrs%20Playmen"
+      }
     },
     {
       "title": "Dynamite Kiss",
@@ -22980,7 +24118,13 @@
         "Comedy",
         "Drama",
         "Romance"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38353551/",
+        "tmdb": "https://www.themoviedb.org/tv/281013",
+        "ottplay": "https://www.ottplay.com/show/web-series-dynamite-kiss-2025/7622cfd142897",
+        "netflix_search": "https://www.netflix.com/search?q=Dynamite%20Kiss"
+      }
     },
     {
       "title": "Had I Not Seen the Sun",
@@ -23129,7 +24273,13 @@
         "Mystery",
         "Romance",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35671636/",
+        "tmdb": "https://www.themoviedb.org/tv/241576",
+        "ottplay": "https://www.ottplay.com/show/web-series-had-i-not-seen-the-sun-2025/1ebdf1410e391",
+        "netflix_search": "https://www.netflix.com/search?q=Had%20I%20Not%20Seen%20the%20Sun"
+      }
     },
     {
       "title": "The Beast in Me",
@@ -23283,7 +24433,13 @@
         "Drama",
         "Mystery",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt31974367/",
+        "tmdb": "https://www.themoviedb.org/tv/250504",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-beast-in-me-2025/4c32611152816",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Beast%20in%20Me"
+      }
     },
     {
       "title": "Last Samurai Standing",
@@ -23468,7 +24624,13 @@
         "Drama",
         "History",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt32237534/",
+        "tmdb": "https://www.themoviedb.org/tv/252193",
+        "ottplay": "https://www.ottplay.com/show/web-series-last-samurai-standing-2025/bfd42001b637",
+        "netflix_search": "https://www.netflix.com/search?q=Last%20Samurai%20Standing"
+      }
     },
     {
       "title": "50 Seconds: The Fernando Báez Sosa Case",
@@ -23532,7 +24694,13 @@
       "qdmovie_genres": [
         "Documentary",
         "Crime"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt38808290/",
+        "tmdb": "https://www.themoviedb.org/tv/304849",
+        "ottplay": "https://www.ottplay.com/show/web-series-50-seconds-the-fernando-baez-sosa-case-2025/2eaf99a9aa69",
+        "netflix_search": "https://www.netflix.com/search?q=50%20Seconds%3A%20The%20Fernando%20B%C3%A1ez%20Sosa%20Case"
+      }
     },
     {
       "title": "The Crystal Cuckoo",
@@ -23697,7 +24865,13 @@
         "Crime",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt34231642/",
+        "tmdb": "https://www.themoviedb.org/tv/274979",
+        "ottplay": "https://www.ottplay.com/show/web-series-the-crystal-cuckoo-2025/1e05d73cc9508",
+        "netflix_search": "https://www.netflix.com/search?q=The%20Crystal%20Cuckoo"
+      }
     },
     {
       "title": "How to Win the Lottery",
@@ -23876,7 +25050,13 @@
         "Crime",
         "Drama",
         "Thriller"
-      ]
+      ],
+      "watch_links": {
+        "imdb": "https://www.imdb.com/title/tt35665197/",
+        "tmdb": "https://www.themoviedb.org/tv/283392",
+        "ottplay": "https://www.ottplay.com/show/web-series-how-to-win-the-lottery-2025/35f6beff91393",
+        "netflix_search": "https://www.netflix.com/search?q=How%20to%20Win%20the%20Lottery"
+      }
     },
     {
       "title": "Karna Jathre",
@@ -23886,7 +25066,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-karna-jathre-2025/2f78a795c9662",
       "cbfc_rating": "",
-      "description": "Watch Karna Jathre full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Karna Jathre full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-karna-jathre-2025/2f78a795c9662",
+        "zee5_search": "https://www.zee5.com/search?q=Karna%20Jathre"
+      }
     },
     {
       "title": "Annamalai Kudumbam",
@@ -23896,7 +25080,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-annamalai-kudumbam-2025/ed5cf1c181754",
       "cbfc_rating": "",
-      "description": "Watch Annamalai Kudumbam full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Annamalai Kudumbam full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-annamalai-kudumbam-2025/ed5cf1c181754",
+        "zee5_search": "https://www.zee5.com/search?q=Annamalai%20Kudumbam"
+      }
     },
     {
       "title": "Paavanaganga",
@@ -23906,7 +25094,11 @@
       "content_provider": "Zee5",
       "link": "https://www.ottplay.com/show/web-series-paavanaganga-2025/bec3a0ba9483",
       "cbfc_rating": "",
-      "description": "Watch Paavanaganga full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Paavanaganga full All Episodes online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-paavanaganga-2025/bec3a0ba9483",
+        "zee5_search": "https://www.zee5.com/search?q=Paavanaganga"
+      }
     },
     {
       "title": "Regai",
@@ -23980,7 +25172,12 @@
       ],
       "directors": [
         "Li Jinrui"
-      ]
+      ],
+      "watch_links": {
+        "tmdb": "https://www.themoviedb.org/tv/292435",
+        "ottplay": "https://www.ottplay.com/show/web-series-regai-2025/df7f9ce87b588",
+        "zee5_search": "https://www.zee5.com/search?q=Regai"
+      }
     },
     {
       "title": "Joint Pain Family",
@@ -23990,7 +25187,10 @@
       "content_provider": "",
       "link": "https://www.ottplay.com/show/web-series-joint-pain-family-2024/dc47213a58839",
       "cbfc_rating": "U/A 13",
-      "description": "Watch Joint Pain Family full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Joint Pain Family full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-joint-pain-family-2024/dc47213a58839"
+      }
     },
     {
       "title": "Kuttram Purindhavan: The Guilty One",
@@ -24000,7 +25200,11 @@
       "content_provider": "SonyLiv",
       "link": "https://www.ottplay.com/show/web-series-kuttram-purindhavan-the-guilty-one-2025/68d55cd612758",
       "cbfc_rating": "A",
-      "description": "Watch Kuttram Purindhavan: The Guilty One full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Kuttram Purindhavan: The Guilty One full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/web-series-kuttram-purindhavan-the-guilty-one-2025/68d55cd612758",
+        "sony_liv_search": "https://www.sonyliv.com/search/Kuttram%20Purindhavan%3A%20The%20Guilty%20One"
+      }
     },
     {
       "title": "Real Kashmir Football Club",
@@ -24010,7 +25214,11 @@
       "content_provider": "SonyLiv",
       "link": "https://www.ottplay.com/show/real-kashmir-football-club-2025/b2c1100ff6874",
       "cbfc_rating": "U/A",
-      "description": "Watch Real Kashmir Football Club full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Real Kashmir Football Club full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/real-kashmir-football-club-2025/b2c1100ff6874",
+        "sony_liv_search": "https://www.sonyliv.com/search/Real%20Kashmir%20Football%20Club"
+      }
     },
     {
       "title": "Sethurajan IPS",
@@ -24020,8 +25228,12 @@
       "content_provider": "SonyLiv",
       "link": "https://www.ottplay.com/show/sethurajan-ips-2025/063801d9af788",
       "cbfc_rating": "U/A",
-      "description": "Watch Sethurajan IPS full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!"
+      "description": "Watch Sethurajan IPS full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+      "watch_links": {
+        "ottplay": "https://www.ottplay.com/show/sethurajan-ips-2025/063801d9af788",
+        "sony_liv_search": "https://www.sonyliv.com/search/Sethurajan%20IPS"
+      }
     }
   ],
-  "enriched_at": "2025-11-23T10:28:54.581178"
+  "enriched_at": "2025-11-23T11:06:15.006189"
 }

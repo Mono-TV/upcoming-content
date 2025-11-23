@@ -6,6 +6,11 @@
     "release_date": "Nov 24, 2025",
     "platforms": [],
     "image_url": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+    "watch_links": {
+      "imdb": "https://www.imdb.com/title/tt4902716/",
+      "tmdb": "https://www.themoviedb.org/movie/369033",
+      "ottplay": "https://www.ottplay.com/movie/rebirth-2025/a56bb41b01142"
+    },
     "tmdb_id": 369033,
     "tmdb_media_type": "movie",
     "overview": "A man's life is turned inside out after a visit from his college friend leads him into the unexpected.",
@@ -177,6 +182,11 @@
     "release_date": "Nov 27, 2025",
     "platforms": [],
     "image_url": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+    "watch_links": {
+      "imdb": "https://www.imdb.com/title/tt15979654/",
+      "tmdb": "https://www.themoviedb.org/movie/1081018",
+      "ottplay": "https://www.ottplay.com/movie/ghoda-dhai-kadam-2023/dfc4a1230d380"
+    },
     "tmdb_id": 1081018,
     "tmdb_media_type": "movie",
     "overview": "In this dangerous game of chess, the age-old greed for power makes their own blood to double-cross each other. Who will checkmate the king?",
@@ -278,6 +288,11 @@
     "release_date": "Nov 27, 2025",
     "platforms": [],
     "image_url": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+    "watch_links": {
+      "imdb": "https://www.imdb.com/title/tt31307640/",
+      "tmdb": "https://www.themoviedb.org/movie/1442778",
+      "ottplay": "https://www.ottplay.com/movie/nikka-zaildar-4-2025/ffe6fa470e116"
+    },
     "tmdb_id": 1442778,
     "tmdb_media_type": "movie",
     "overview": "A Punjabi man's problems begin when he marries a strange woman",
@@ -416,6 +431,12 @@
       "Zee5"
     ],
     "image_url": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+    "watch_links": {
+      "imdb": "https://www.imdb.com/title/tt36132462/",
+      "tmdb": "https://www.themoviedb.org/movie/1390615",
+      "ottplay": "https://www.ottplay.com/movie/raktabeej-2-2025/e5ed866d3d454",
+      "zee5_search": "https://www.zee5.com/search?q=Raktabeej%202"
+    },
     "tmdb_id": 1390615,
     "tmdb_media_type": "movie",
     "overview": "Months after the failed assassination attempt on President Animesh Chatterjee, investigator Pankaj Sinha and SP Sanjukta Mitra uncover a deadly plot, Mission M2, led by Munir Alam.",
@@ -544,6 +565,11 @@
       "Zee5"
     ],
     "image_url": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+    "watch_links": {
+      "tmdb": "https://www.themoviedb.org/tv/292435",
+      "ottplay": "https://www.ottplay.com/show/web-series-regai-2025/df7f9ce87b588",
+      "zee5_search": "https://www.zee5.com/search?q=Regai"
+    },
     "tmdb_id": 292435,
     "tmdb_media_type": "tv",
     "description": "Watch Regai full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
@@ -615,6 +641,12 @@
       "Zee5"
     ],
     "image_url": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+    "watch_links": {
+      "imdb": "https://www.imdb.com/title/tt33888205/",
+      "tmdb": "https://www.themoviedb.org/movie/1574296",
+      "ottplay": "https://www.ottplay.com/movie/the-great-pre-wedding-show-2025/ca71728b9a858",
+      "zee5_search": "https://www.zee5.com/search?q=The%20Great%20Pre-Wedding%20Show"
+    },
     "tmdb_id": 1574296,
     "tmdb_media_type": "movie",
     "overview": "A young couple navigates the chaotic world of pre-wedding photography, facing unexpected hurdles and family drama as they try to capture their perfect moments before tying the knot.",

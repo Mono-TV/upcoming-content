@@ -50,6 +50,10 @@ def transform_ottplay_data():
         if item.get('deeplinks'):
             transformed['deeplinks'] = item.get('deeplinks')
 
+        # Add watch links (IMDb, TMDB, platform search links)
+        if item.get('watch_links'):
+            transformed['watch_links'] = item.get('watch_links')
+
         # Add enriched TMDB/IMDB data if available
         if item.get('tmdb_id'):
             transformed['tmdb_id'] = item.get('tmdb_id')
