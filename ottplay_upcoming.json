@@ -1,0 +1,696 @@
+[
+  {
+    "content_type": "ott_released",
+    "title": "Rebirth",
+    "url": "https://www.ottplay.com/movie/rebirth-2025/a56bb41b01142",
+    "release_date": "Nov 24, 2025",
+    "platforms": [],
+    "image_url": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+    "tmdb_id": 369033,
+    "tmdb_media_type": "movie",
+    "overview": "A man's life is turned inside out after a visit from his college friend leads him into the unexpected.",
+    "description": "A man's life is turned inside out after a visit from his college friend leads him into the unexpected.",
+    "genres": [
+      "Thriller"
+    ],
+    "runtime": 101,
+    "tmdb_release_date": "2016-04-17",
+    "status": "Released",
+    "tmdb_rating": 4.715,
+    "tmdb_vote_count": 198,
+    "original_title": "Rebirth",
+    "original_language": "en",
+    "imdb_id": "tt4902716",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+      "original": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BYmRlZmJiYzYtYzE0My00MWMxLWE2MDgtYTQ3ODQ3Y2ExOWJjXkEyXkFqcGc@._V1_.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/cNm3lTw9Hyj2g8BJ54bZGaezU5d.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/cNm3lTw9Hyj2g8BJ54bZGaezU5d.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/cNm3lTw9Hyj2g8BJ54bZGaezU5d.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/cNm3lTw9Hyj2g8BJ54bZGaezU5d.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/cNm3lTw9Hyj2g8BJ54bZGaezU5d.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/cNm3lTw9Hyj2g8BJ54bZGaezU5d.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/jj8MAOh2fUZ7wtI2vpDET19oI36.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/jj8MAOh2fUZ7wtI2vpDET19oI36.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/jj8MAOh2fUZ7wtI2vpDET19oI36.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/jj8MAOh2fUZ7wtI2vpDET19oI36.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/jj8MAOh2fUZ7wtI2vpDET19oI36.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/jj8MAOh2fUZ7wtI2vpDET19oI36.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/oFI7BJkRX6idzqtHpeLCA70zDYZ.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/oFI7BJkRX6idzqtHpeLCA70zDYZ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/oFI7BJkRX6idzqtHpeLCA70zDYZ.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/oFI7BJkRX6idzqtHpeLCA70zDYZ.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/oFI7BJkRX6idzqtHpeLCA70zDYZ.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/oFI7BJkRX6idzqtHpeLCA70zDYZ.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/rBI7uS5DDfWBPfMmlxUvgn0PePa.jpg",
+    "poster_source": "tmdb",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg",
+      "original": "https://image.tmdb.org/t/p/original/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/mV5JUHNsOw79maX0gLg7ieojjJz.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/mV5JUHNsOw79maX0gLg7ieojjJz.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/mV5JUHNsOw79maX0gLg7ieojjJz.jpg",
+        "original": "https://image.tmdb.org/t/p/original/mV5JUHNsOw79maX0gLg7ieojjJz.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/oAIYMSBmaxNaUEJIIdaI1mGAJU5.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/oAIYMSBmaxNaUEJIIdaI1mGAJU5.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/oAIYMSBmaxNaUEJIIdaI1mGAJU5.jpg",
+        "original": "https://image.tmdb.org/t/p/original/oAIYMSBmaxNaUEJIIdaI1mGAJU5.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/2Y8OHzYd4A7buJZkHDWndoOxvjQ.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/2Y8OHzYd4A7buJZkHDWndoOxvjQ.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/2Y8OHzYd4A7buJZkHDWndoOxvjQ.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2Y8OHzYd4A7buJZkHDWndoOxvjQ.jpg"
+      },
+      {
+        "small": "https://image.tmdb.org/t/p/w300/7hch8A0qLb1IfXWJQUryFLmP4Ax.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/7hch8A0qLb1IfXWJQUryFLmP4Ax.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/7hch8A0qLb1IfXWJQUryFLmP4Ax.jpg",
+        "original": "https://image.tmdb.org/t/p/original/7hch8A0qLb1IfXWJQUryFLmP4Ax.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2yVz2kTLkuC7UMJQ10NTXmEXHIt.jpg",
+    "cast": [
+      {
+        "name": "Fran Kranz",
+        "character": "Kyle",
+        "profile_path": "https://image.tmdb.org/t/p/w185/hBg88mL38BxMpSjtMjSAz2NnDKg.jpg"
+      },
+      {
+        "name": "Adam Goldberg",
+        "character": "Zack",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xEbqDqTWlSSCi4v8FI3S9YSEPJz.jpg"
+      },
+      {
+        "name": "Nicky Whelan",
+        "character": "Naomi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eHoAP5fj7p5FKfZPadO5Emtrfy0.jpg"
+      },
+      {
+        "name": "Harry Hamlin",
+        "character": "Gabe",
+        "profile_path": "https://image.tmdb.org/t/p/w185/fJZcgqLemEURV5r69XdTgjueghN.jpg"
+      },
+      {
+        "name": "Kat Foster",
+        "character": "Mary",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rWSlHrbQb2kfc0x0pH595iINsSh.jpg"
+      },
+      {
+        "name": "Eric Ladin",
+        "character": "Todd",
+        "profile_path": "https://image.tmdb.org/t/p/w185/7uX4JUqMmPdrC550BeJWalMv72Y.jpg"
+      },
+      {
+        "name": "Pat Healy",
+        "character": "Jesse",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eHTM7VOGeeVQDdGmodL24aN89YL.jpg"
+      },
+      {
+        "name": "Luis Gerardo Méndez",
+        "character": "The Doctor",
+        "profile_path": "https://image.tmdb.org/t/p/w185/uV8XXAlTxNFsD4sBzCHsgo5MpKZ.jpg"
+      },
+      {
+        "name": "Andrew J. West",
+        "character": "JR",
+        "profile_path": "https://image.tmdb.org/t/p/w185/9cgJAb7Frqn9kBR3p73zASfPNBb.jpg"
+      },
+      {
+        "name": "Fabianne Therese",
+        "character": "Betty",
+        "profile_path": "https://image.tmdb.org/t/p/w185/w1ES3wqpERfngz7DVujVMSpLZ04.jpg"
+      }
+    ],
+    "directors": [
+      "Karl Mueller"
+    ],
+    "writers": [
+      "Karl Mueller"
+    ],
+    "youtube_id": "M5lmzJ9g2BA",
+    "youtube_url": "https://www.youtube.com/watch?v=M5lmzJ9g2BA",
+    "youtube_title": "Rebirth Trailer | Premieres July 15 | Netflix",
+    "year": 2016,
+    "cbfc_rating": "U/A 13"
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Ghoda Dhai Kadam",
+    "url": "https://www.ottplay.com/movie/ghoda-dhai-kadam-2023/dfc4a1230d380",
+    "release_date": "Nov 27, 2025",
+    "platforms": [],
+    "image_url": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+    "tmdb_id": 1081018,
+    "tmdb_media_type": "movie",
+    "overview": "In this dangerous game of chess, the age-old greed for power makes their own blood to double-cross each other. Who will checkmate the king?",
+    "description": "In this dangerous game of chess, the age-old greed for power makes their own blood to double-cross each other. Who will checkmate the king?",
+    "genres": [
+      "Action",
+      "Drama",
+      "Family"
+    ],
+    "runtime": 105,
+    "tmdb_release_date": "2023-01-28",
+    "status": "Released",
+    "original_title": "Ghoda Dhai Kadam",
+    "original_language": "pa",
+    "imdb_id": "tt15979654",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+      "original": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BOTY1MmIyOTktMGZjZC00MjI2LTljYmEtZWI2MGI0MGQ1MDU1XkEyXkFqcGc@._V1_.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/6ITJcmfnyhtYZQvekh2KUOSzq92.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/6ITJcmfnyhtYZQvekh2KUOSzq92.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/6ITJcmfnyhtYZQvekh2KUOSzq92.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/6ITJcmfnyhtYZQvekh2KUOSzq92.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/6ITJcmfnyhtYZQvekh2KUOSzq92.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/6ITJcmfnyhtYZQvekh2KUOSzq92.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/eoX7dkOeltDKICu4fSoW61lihnH.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/eoX7dkOeltDKICu4fSoW61lihnH.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/eoX7dkOeltDKICu4fSoW61lihnH.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/eoX7dkOeltDKICu4fSoW61lihnH.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/eoX7dkOeltDKICu4fSoW61lihnH.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/eoX7dkOeltDKICu4fSoW61lihnH.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/2yiMX1U2sFfkf6KlQvcLnGgY8Sk.jpg",
+    "poster_source": "tmdb",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/7jzFogehcwhRznOZvU6MUadKtKL.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/7jzFogehcwhRznOZvU6MUadKtKL.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/7jzFogehcwhRznOZvU6MUadKtKL.jpg",
+      "original": "https://image.tmdb.org/t/p/original/7jzFogehcwhRznOZvU6MUadKtKL.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/7jzFogehcwhRznOZvU6MUadKtKL.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/7jzFogehcwhRznOZvU6MUadKtKL.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/7jzFogehcwhRznOZvU6MUadKtKL.jpg",
+        "original": "https://image.tmdb.org/t/p/original/7jzFogehcwhRznOZvU6MUadKtKL.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/7jzFogehcwhRznOZvU6MUadKtKL.jpg",
+    "cast": [
+      {
+        "name": "Raj Singh Jhinjar",
+        "character": "",
+        "profile_path": null
+      },
+      {
+        "name": "Sippy Gill",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/dVfsCc1gDNWQeH5gvJTXqmpK9Dm.jpg"
+      },
+      {
+        "name": "Sara Gurpal",
+        "character": "",
+        "profile_path": null
+      }
+    ],
+    "directors": [
+      "Sagar S. Sharma"
+    ],
+    "youtube_id": "sH9KDbbjshc",
+    "youtube_url": "https://www.youtube.com/watch?v=sH9KDbbjshc",
+    "youtube_title": "Ghoda Dhai Kadam (Official Trailer) | Sippy Gill | Sara Gurpal | Chaupal | Latest Punjabi Movie 2023",
+    "year": 2023,
+    "cbfc_rating": "A\n1"
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Nikka Zaildar 4",
+    "url": "https://www.ottplay.com/movie/nikka-zaildar-4-2025/ffe6fa470e116",
+    "release_date": "Nov 27, 2025",
+    "platforms": [],
+    "image_url": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+    "tmdb_id": 1442778,
+    "tmdb_media_type": "movie",
+    "overview": "A Punjabi man's problems begin when he marries a strange woman",
+    "description": "A Punjabi man's problems begin when he marries a strange woman",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "runtime": 139,
+    "tmdb_release_date": "2025-03-07",
+    "status": "Released",
+    "original_title": "Nikka Zaildar 4",
+    "original_language": "pa",
+    "imdb_id": "tt31307640",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+      "original": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BNWViOTBmMjctZTg0Yy00ZjFmLTk5MWEtMThmYmViZTkzZDg5XkEyXkFqcGc@._V1_.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/vDFU3nVdjB3NQRjv6qFJLN70pJR.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/vDFU3nVdjB3NQRjv6qFJLN70pJR.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/vDFU3nVdjB3NQRjv6qFJLN70pJR.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/vDFU3nVdjB3NQRjv6qFJLN70pJR.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/vDFU3nVdjB3NQRjv6qFJLN70pJR.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/vDFU3nVdjB3NQRjv6qFJLN70pJR.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/nU7MbjPC8he68zZm3QeSMHcziN.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/nU7MbjPC8he68zZm3QeSMHcziN.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/nU7MbjPC8he68zZm3QeSMHcziN.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/nU7MbjPC8he68zZm3QeSMHcziN.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/nU7MbjPC8he68zZm3QeSMHcziN.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/nU7MbjPC8he68zZm3QeSMHcziN.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/dPbyKQaYwEIE6qzuM2snwOlZbGj.jpg",
+    "poster_source": "tmdb",
+    "backdrops": {
+      "small": "https://image.tmdb.org/t/p/w300/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg",
+      "medium": "https://image.tmdb.org/t/p/w780/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg",
+      "large": "https://image.tmdb.org/t/p/w1280/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg",
+      "original": "https://image.tmdb.org/t/p/original/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg"
+    },
+    "all_backdrops": [
+      {
+        "small": "https://image.tmdb.org/t/p/w300/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg",
+        "medium": "https://image.tmdb.org/t/p/w780/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg",
+        "large": "https://image.tmdb.org/t/p/w1280/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg",
+        "original": "https://image.tmdb.org/t/p/original/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg"
+      }
+    ],
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kxy6Db3TAW8euseh1PKLBOQ1dVq.jpg",
+    "cast": [
+      {
+        "name": "Sonam Bajwa",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tWLa5BvZ62MaJNoyqflzByx7WCt.jpg"
+      },
+      {
+        "name": "Ammy Virk",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/8ZXB6vBqhV3aA0kf6OP4zrmeFsw.jpg"
+      },
+      {
+        "name": "Wamiqa Gabbi",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tnXTQCsAuKEIodbsEynv2wveR6N.jpg"
+      },
+      {
+        "name": "Nirmal Rishi",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6yKpcJWkXexG3x9cHpD7ceZymxl.jpg"
+      },
+      {
+        "name": "Parminder Gill",
+        "character": "",
+        "profile_path": null
+      },
+      {
+        "name": "Anita Devgan",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/xAARSxmOMnLiXVyINyKvLH9dpRB.jpg"
+      },
+      {
+        "name": "Nisha Bano",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/eC1rGgWKhYaOBEn7tCCNXAxHg7h.jpg"
+      },
+      {
+        "name": "Gurmeet Saajan",
+        "character": "",
+        "profile_path": null
+      },
+      {
+        "name": "B.N. Sharma",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5OUMjBNUL9iZrrOlkDmJiN73kZa.jpg"
+      },
+      {
+        "name": "Baninder Bunny",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tDw27zznva5wiBQVyvH9ux92tu3.jpg"
+      }
+    ],
+    "directors": [
+      "Simerjit Singh"
+    ],
+    "writers": [
+      "Jagdeep Sidhu"
+    ],
+    "year": 2025,
+    "cbfc_rating": "U/A 13"
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Raktabeej 2",
+    "url": "https://www.ottplay.com/movie/raktabeej-2-2025/e5ed866d3d454",
+    "release_date": "Nov 28, 2025",
+    "platforms": [
+      "Zee5"
+    ],
+    "image_url": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+    "tmdb_id": 1390615,
+    "tmdb_media_type": "movie",
+    "overview": "Months after the failed assassination attempt on President Animesh Chatterjee, investigator Pankaj Sinha and SP Sanjukta Mitra uncover a deadly plot, Mission M2, led by Munir Alam.",
+    "description": "Months after the failed assassination attempt on President Animesh Chatterjee, investigator Pankaj Sinha and SP Sanjukta Mitra uncover a deadly plot, Mission M2, led by Munir Alam.",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller",
+      "Action"
+    ],
+    "runtime": 151,
+    "tmdb_release_date": "2025-09-25",
+    "status": "Released",
+    "original_title": "রক্তবীজ ২",
+    "original_language": "bn",
+    "imdb_id": "tt36132462",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+      "original": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BMWUwMDIwMTktYjM1Zi00NWVkLTljY2QtMjg5ZWZmZmJhOGE0XkEyXkFqcGc@._V1_.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/7lZPnEkiWlzFk3H55Y0KhhGiK8n.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/7lZPnEkiWlzFk3H55Y0KhhGiK8n.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/7lZPnEkiWlzFk3H55Y0KhhGiK8n.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/7lZPnEkiWlzFk3H55Y0KhhGiK8n.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/7lZPnEkiWlzFk3H55Y0KhhGiK8n.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/7lZPnEkiWlzFk3H55Y0KhhGiK8n.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/bm22yrUAFIA8H3zAbSbqvwF4h4U.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/bm22yrUAFIA8H3zAbSbqvwF4h4U.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/bm22yrUAFIA8H3zAbSbqvwF4h4U.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/bm22yrUAFIA8H3zAbSbqvwF4h4U.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/bm22yrUAFIA8H3zAbSbqvwF4h4U.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/bm22yrUAFIA8H3zAbSbqvwF4h4U.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+    "poster_source": "tmdb",
+    "cast": [
+      {
+        "name": "Abir Chatterjee",
+        "character": "Pankaj Sinha",
+        "profile_path": "https://image.tmdb.org/t/p/w185/bXirXzEH2ggdto8QAH4xum8y9E8.jpg"
+      },
+      {
+        "name": "Mimi Chakraborty",
+        "character": "Sanjukta Mitra",
+        "profile_path": "https://image.tmdb.org/t/p/w185/gRJyKSXg8Fgl6bMxUHu7b8UIX81.jpg"
+      },
+      {
+        "name": "Ankush Hazra",
+        "character": "Munir Alam",
+        "profile_path": "https://image.tmdb.org/t/p/w185/qcb4giudEEIt5xltfAQezvSHoSD.jpg"
+      },
+      {
+        "name": "Koushani Mukherjee",
+        "character": "Ayesha",
+        "profile_path": "https://image.tmdb.org/t/p/w185/mDb3Hoyov6riPn4VNOeO3YP6zPr.jpg"
+      },
+      {
+        "name": "Victor Banerjee",
+        "character": "Animesh Chatterjee",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rCwZMPlHUCnE6y4BRxzkVpx8NCx.jpg"
+      },
+      {
+        "name": "Seema Biswas",
+        "character": "Sultana Rahman",
+        "profile_path": "https://image.tmdb.org/t/p/w185/nRd9anbVgvsRrWbH3G09nWTThHp.jpg"
+      },
+      {
+        "name": "Anashua Majumdar",
+        "character": "Gouri Mukherjee",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rMQ2Jg8HIKJmHjXH0i2072Juz2T.jpg"
+      },
+      {
+        "name": "Devlina Kumar",
+        "character": "Jamini Halder",
+        "profile_path": "https://image.tmdb.org/t/p/w185/5TIv7Nqjze1re14hC9BsX3JmfAN.jpg"
+      },
+      {
+        "name": "Satyam Bhattacharya",
+        "character": "Nishikanta Manna",
+        "profile_path": "https://image.tmdb.org/t/p/w185/3WS9Ul0YOSzh5h6e530U87PWNpN.jpg"
+      },
+      {
+        "name": "Kanchan Mullick",
+        "character": "Nityananda Patitundi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/rTYLhBRVbxnxTaHogKxYrUZ1kQU.jpg"
+      }
+    ],
+    "directors": [
+      "Nandita Roy",
+      "Shiboprosad Mukherjee"
+    ],
+    "writers": [
+      "Jinia Sen"
+    ],
+    "youtube_id": "NyS3c6ImxqE",
+    "youtube_url": "https://www.youtube.com/watch?v=NyS3c6ImxqE",
+    "youtube_title": "Raktabeej 2 l Official Trailer | Nandita Roy | Shiboprosad Mukherjee | Windows",
+    "year": 2025,
+    "cbfc_rating": "U/A"
+  },
+  {
+    "content_type": "ott_released",
+    "title": "Regai",
+    "url": "https://www.ottplay.com/show/web-series-regai-2025/df7f9ce87b588",
+    "release_date": "Nov 28, 2025",
+    "platforms": [
+      "Zee5"
+    ],
+    "image_url": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+    "tmdb_id": 292435,
+    "tmdb_media_type": "tv",
+    "description": "Watch Regai full web series online in HD on OTTplay. Stream 30+ OTTs and watch thousands of titles with a single subscription. Start watching now!",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "status": "In Production",
+    "original_title": "白夜暗影",
+    "original_language": "zh",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+      "original": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/qfGehIYB7NHHTmvMNsPQw2wTH06.jpg",
+    "poster_source": "tmdb",
+    "cast": [
+      {
+        "name": "Mao Zijun",
+        "character": "Yan Mi",
+        "profile_path": "https://image.tmdb.org/t/p/w185/cqugMweL96ERGdE98D2z3Cza5JY.jpg"
+      },
+      {
+        "name": "Zhou Yanchen",
+        "character": "Zhou Guannan",
+        "profile_path": "https://image.tmdb.org/t/p/w185/tO6R8vx3jJsaOhCRPE7PvGUWsU9.jpg"
+      },
+      {
+        "name": "Pang Hanchen",
+        "character": "Sun Xun",
+        "profile_path": "https://image.tmdb.org/t/p/w185/6SkVfGiILoj7lpmcOmk1lz8UDxi.jpg"
+      },
+      {
+        "name": "Joy Wang",
+        "character": "Li Ting",
+        "profile_path": "https://image.tmdb.org/t/p/w185/pE1PjGQuOzst3xlqAd6PmGHF7Vz.jpg"
+      },
+      {
+        "name": "Ma Cancan",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/p0gko1EFnz0Ulp6YlemjSF9a2jV.jpg"
+      }
+    ],
+    "directors": [
+      "Li Jinrui"
+    ]
+  },
+  {
+    "content_type": "ott_released",
+    "title": "The Great Pre-Wedding Show",
+    "url": "https://www.ottplay.com/movie/the-great-pre-wedding-show-2025/ca71728b9a858",
+    "release_date": "Dec 05, 2025",
+    "platforms": [
+      "Zee5"
+    ],
+    "image_url": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+    "tmdb_id": 1574296,
+    "tmdb_media_type": "movie",
+    "overview": "A young couple navigates the chaotic world of pre-wedding photography, facing unexpected hurdles and family drama as they try to capture their perfect moments before tying the knot.",
+    "description": "A young couple navigates the chaotic world of pre-wedding photography, facing unexpected hurdles and family drama as they try to capture their perfect moments before tying the knot.",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "runtime": 114,
+    "tmdb_release_date": "2025-11-07",
+    "status": "Released",
+    "original_title": "ది గ్రేట్ ప్రీ-వెడ్డింగ్ షో",
+    "original_language": "te",
+    "imdb_id": "tt33888205",
+    "posters": {
+      "thumbnail": "https://image.tmdb.org/t/p/w92/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+      "small": "https://image.tmdb.org/t/p/w185/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+      "medium": "https://image.tmdb.org/t/p/w342/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+      "large": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+      "xlarge": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+      "original": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+      "qdmovie": "https://m.media-amazon.com/images/M/MV5BZGQ2Zjk2MGQtNTA1Mi00MTJlLWE1MWEtOTUxNWJlMjJmMzIwXkEyXkFqcGc@._V1_.jpg"
+    },
+    "all_posters": [
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg"
+      },
+      {
+        "thumbnail": "https://image.tmdb.org/t/p/w92/v5BJYIZwpzW8zyzi4ydoTAFauqX.jpg",
+        "small": "https://image.tmdb.org/t/p/w185/v5BJYIZwpzW8zyzi4ydoTAFauqX.jpg",
+        "medium": "https://image.tmdb.org/t/p/w342/v5BJYIZwpzW8zyzi4ydoTAFauqX.jpg",
+        "large": "https://image.tmdb.org/t/p/w500/v5BJYIZwpzW8zyzi4ydoTAFauqX.jpg",
+        "xlarge": "https://image.tmdb.org/t/p/w500/v5BJYIZwpzW8zyzi4ydoTAFauqX.jpg",
+        "original": "https://image.tmdb.org/t/p/w500/v5BJYIZwpzW8zyzi4ydoTAFauqX.jpg"
+      }
+    ],
+    "poster_url_medium": "https://image.tmdb.org/t/p/w342/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+    "poster_url_large": "https://image.tmdb.org/t/p/w500/cFLt6fpHjJtaXa5ROG8BDtIAoya.jpg",
+    "poster_source": "tmdb",
+    "cast": [
+      {
+        "name": "Thiruveer Reddy",
+        "character": "",
+        "profile_path": "https://image.tmdb.org/t/p/w185/sakymVVw0AWnGR7TzgaF1rFeWm5.jpg"
+      },
+      {
+        "name": "Tinu Shravya",
+        "character": "",
+        "profile_path": null
+      },
+      {
+        "name": "Rohan Roy",
+        "character": "",
+        "profile_path": null
+      },
+      {
+        "name": "Narendra",
+        "character": "",
+        "profile_path": null
+      }
+    ],
+    "directors": [
+      "Rahul Srinivas"
+    ],
+    "writers": [
+      "Rahul Srinivas"
+    ],
+    "youtube_id": "zd98F_TNsJQ",
+    "youtube_url": "https://www.youtube.com/watch?v=zd98F_TNsJQ",
+    "youtube_title": "The Great Pre Wedding Show Movie Trailer | Thiruveer,Teena Sravya,Rohan R | Suresh Bobilli | Rahul S",
+    "year": 2025,
+    "cbfc_rating": "U/A"
+  }
+]

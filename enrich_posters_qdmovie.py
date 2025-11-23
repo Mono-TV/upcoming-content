@@ -25,6 +25,7 @@ class QDMoviePosterEnricher:
     def __init__(self, input_file='movies_enriched.json'):
         self.input_file = input_file
         self.data = []
+        self.full_data = None
         self.enriched_count = 0
         self.failed_count = 0
         self.skipped_count = 0
@@ -34,7 +35,19 @@ class QDMoviePosterEnricher:
         print(f"\n📂 Loading data from {self.input_file}...")
         try:
             with open(self.input_file, 'r', encoding='utf-8') as f:
-                self.data = json.load(f)
+                loaded = json.load(f)
+
+            # Handle both flat list and OTTPlay structure
+            if isinstance(loaded, list):
+                self.data = loaded
+                self.full_data = None
+            elif isinstance(loaded, dict) and 'content' in loaded:
+                self.data = loaded['content']
+                self.full_data = loaded
+            else:
+                print(f"❌ Unexpected JSON structure in {self.input_file}")
+                sys.exit(1)
+
             print(f"✅ Loaded {len(self.data)} items")
         except FileNotFoundError:
             print(f"❌ File not found: {self.input_file}")
@@ -242,10 +255,17 @@ class QDMoviePosterEnricher:
             with open(self.input_file, 'r', encoding='utf-8') as original:
                 f.write(original.read())
 
-        # Save enriched data
+        # Save enriched data (handle both structures)
         print(f"💾 Saving enriched data to {self.input_file}...")
         with open(self.input_file, 'w', encoding='utf-8') as f:
-            json.dump(self.data, f, indent=2, ensure_ascii=False)
+            if self.full_data:
+                # OTTPlay structure - update content array
+                self.full_data['content'] = self.data
+                self.full_data['enriched_at'] = datetime.now().isoformat()
+                json.dump(self.full_data, f, indent=2, ensure_ascii=False)
+            else:
+                # Flat list structure
+                json.dump(self.data, f, indent=2, ensure_ascii=False)
         print("✅ Saved successfully")
 
 

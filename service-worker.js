@@ -1,5 +1,5 @@
-const CACHE_NAME = 'upcoming-movies-v1';
-const RUNTIME_CACHE = 'runtime-cache-v1';
+const CACHE_NAME = 'upcoming-movies-v5';
+const RUNTIME_CACHE = 'runtime-cache-v5';
 
 // Assets to cache on install
 const PRECACHE_URLS = [

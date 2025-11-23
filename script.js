@@ -797,8 +797,8 @@ async function loadMovies() {
     try {
         // Load all 4 data sources in parallel
         const dataFiles = {
-            ottReleased: 'ott_releases_enriched.json',
-            ottUpcoming: 'movies_enriched.json',
+            ottReleased: 'ottplay_releases.json',
+            ottUpcoming: 'ottplay_upcoming.json',
             theatreCurrent: 'theatre_current_enriched.json',
             theatreUpcoming: 'theatre_upcoming_enriched.json'
         };

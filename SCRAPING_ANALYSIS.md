@@ -260,3 +260,5 @@ The scraper outputs a JSON array:
 4. Parallel page scraping (with rate limiting)
 5. Support for different time modes (week, day, etc.)
 
+
+
