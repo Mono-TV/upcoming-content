@@ -1171,7 +1171,7 @@ function openDetailModal(movie, contentArray = [], contentIndex = 0) {
         -webkit-backdrop-filter: blur(30px);
         border-radius: 24px;
         padding: 32px;
-        max-width: 600px;
+        max-width: 700px;
         width: 90%;
         max-height: 85vh;
         overflow-y: auto;
@@ -1189,6 +1189,7 @@ function openDetailModal(movie, contentArray = [], contentIndex = 0) {
     const genres = movie.genres || [];
     const rating = movie.tmdb_rating || movie.imdb_rating;
     const watchLinks = movie.watch_links || {};
+    const hasTrailer = movie.youtube_id;
 
     // Build genres HTML
     const genresHTML = genres.length > 0
@@ -1247,13 +1248,54 @@ function openDetailModal(movie, contentArray = [], contentIndex = 0) {
         }).join('')
         : '<p style="color: var(--text-secondary); font-size: 14px; text-align: center; padding: 20px;">No watch links available</p>';
 
+    // Build additional info
+    const releaseDate = movie.release_date || movie.tmdb_release_date;
+    const runtime = movie.runtime;
+    const cast = movie.cast || [];
+    const directors = movie.directors || [];
+    const platforms = movie.platforms || [];
+
+    const infoItems = [];
+    if (releaseDate) infoItems.push(`<span><strong>Release:</strong> ${sanitizeText(releaseDate)}</span>`);
+    if (runtime) infoItems.push(`<span><strong>Runtime:</strong> ${runtime} min</span>`);
+    if (directors.length > 0) infoItems.push(`<span><strong>Director:</strong> ${sanitizeText(directors.slice(0, 2).map(d => d.name || d).join(', '))}</span>`);
+    if (platforms.length > 0) infoItems.push(`<span><strong>Platform:</strong> ${sanitizeText(platforms.join(', '))}</span>`);
+
+    const infoHTML = infoItems.length > 0
+        ? `<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 16px; font-size: 13px; color: var(--text-secondary);">${infoItems.join('')}</div>`
+        : '';
+
+    // Build cast HTML
+    const castHTML = cast.length > 0
+        ? `<div style="margin-bottom: 16px;">
+            <h4 style="margin: 0 0 8px 0; font-size: 14px; font-weight: 600; color: var(--text-primary);">Cast</h4>
+            <p style="margin: 0; font-size: 13px; color: var(--text-secondary);">${sanitizeText(cast.slice(0, 5).map(c => c.name || c).join(', '))}</p>
+        </div>`
+        : '';
+
     modal.innerHTML = `
         <div style="margin-bottom: 24px;">
             <h2 style="margin: 0 0 12px 0; font-size: 28px; font-weight: 700; color: var(--text-primary); line-height: 1.2;">${title}</h2>
             ${genres.length > 0 ? `<div style="margin-bottom: 12px;">${genresHTML}</div>` : ''}
             ${rating ? `<div style="margin-bottom: 12px;"><span style="color: #f5af19; font-weight: 600; font-size: 16px;">★ ${rating}</span></div>` : ''}
+            ${infoHTML}
             <p style="margin: 0; color: var(--text-secondary); font-size: 15px; line-height: 1.6;">${description}</p>
         </div>
+
+        ${hasTrailer ? `
+        <div style="margin-bottom: 24px;">
+            <h3 style="margin: 0 0 12px 0; font-size: 18px; font-weight: 600; color: var(--text-primary);">Trailer</h3>
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; background: #000;">
+                <iframe src="https://www.youtube-nocookie.com/embed/${sanitizeAttribute(movie.youtube_id)}?rel=0&modestbranding=1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            </div>
+        </div>
+        ` : ''}
+
+        ${castHTML}
 
         <div style="margin-bottom: 20px;">
             <h3 style="margin: 0 0 12px 0; font-size: 18px; font-weight: 600; color: var(--text-primary);">Watch Now</h3>
